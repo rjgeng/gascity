@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "last_checked_at": "2026-07-15T20:09:18Z",
+  "last_checked_at": "2026-07-15T21:10:06Z",
   "repo": "gastownhall/gascity",
   "author": "rjgeng",
   "prs": {
@@ -25,7 +25,7 @@
     "4095": {
       "title": "fix(session): refresh reset_committed_at on every continuation-reset re-arm (#4067)",
       "state": "open",
-      "mergeable_state": "unknown",
+      "mergeable_state": "blocked",
       "url": "https://github.com/gastownhall/gascity/pull/4095",
       "updated_at": "2026-07-15T05:03:23Z",
       "human_reviews": [],
@@ -34,7 +34,7 @@
     "4219": {
       "title": "fix(runproj): warming snapshot no longer marshals historicalLanes/recentChanges as null (#4142)",
       "state": "open",
-      "mergeable_state": "unknown",
+      "mergeable_state": "blocked",
       "url": "https://github.com/gastownhall/gascity/pull/4219",
       "updated_at": "2026-07-13T13:41:46Z",
       "human_reviews": [],
@@ -43,7 +43,7 @@
     "4216": {
       "title": "fix(cmd/gc): lint no longer flags the documented pool-disable form as a named-session conflict (#4184)",
       "state": "open",
-      "mergeable_state": "unknown",
+      "mergeable_state": "blocked",
       "url": "https://github.com/gastownhall/gascity/pull/4216",
       "updated_at": "2026-07-13T13:07:06Z",
       "human_reviews": [],
@@ -52,7 +52,7 @@
     "4213": {
       "title": "fix(materialize): log a debug line when a shared skill-catalog name is shadowed (#4131)",
       "state": "open",
-      "mergeable_state": "unknown",
+      "mergeable_state": "blocked",
       "url": "https://github.com/gastownhall/gascity/pull/4213",
       "updated_at": "2026-07-13T11:42:11Z",
       "human_reviews": [],
@@ -61,7 +61,7 @@
     "4211": {
       "title": "test(cmd/gc): regression coverage for rig-scoped pool default scale_check + work_query (#4189)",
       "state": "open",
-      "mergeable_state": "unknown",
+      "mergeable_state": "blocked",
       "url": "https://github.com/gastownhall/gascity/pull/4211",
       "updated_at": "2026-07-13T10:48:17Z",
       "human_reviews": [],
@@ -70,7 +70,7 @@
     "4156": {
       "title": "fix(materialize): remember gc-written symlink targets so pack-sha bumps self-heal (#4130)",
       "state": "open",
-      "mergeable_state": "unknown",
+      "mergeable_state": "blocked",
       "url": "https://github.com/gastownhall/gascity/pull/4156",
       "updated_at": "2026-07-11T17:40:19Z",
       "human_reviews": [],
@@ -79,7 +79,7 @@
     "4138": {
       "title": "fix(session): gc session attach waits for an in-flight controller reset instead of racing it (#4079)",
       "state": "open",
-      "mergeable_state": "unknown",
+      "mergeable_state": "blocked",
       "url": "https://github.com/gastownhall/gascity/pull/4138",
       "updated_at": "2026-07-10T20:34:06Z",
       "human_reviews": [],
@@ -88,7 +88,7 @@
     "4129": {
       "title": "fix(dolt-cleanup): resolve DROP-stage user via GC_DOLT_USER instead of hardcoded root (#4123)",
       "state": "open",
-      "mergeable_state": "unknown",
+      "mergeable_state": "blocked",
       "url": "https://github.com/gastownhall/gascity/pull/4129",
       "updated_at": "2026-07-10T15:39:21Z",
       "human_reviews": [],
@@ -97,7 +97,7 @@
     "3757": {
       "title": "feat(dolt): surface active compaction quarantine markers in gc dolt health",
       "state": "open",
-      "mergeable_state": "unknown",
+      "mergeable_state": "blocked",
       "url": "https://github.com/gastownhall/gascity/pull/3757",
       "updated_at": "2026-07-10T06:09:35Z",
       "human_reviews": [{"login": "rjgeng", "state": "COMMENTED", "submitted_at": "2026-06-28T22:48:58Z"}],

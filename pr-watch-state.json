@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "last_checked_at": "2026-07-15T23:08:10Z",
+  "last_checked_at": "2026-07-16T00:10:09Z",
   "repo": "gastownhall/gascity",
   "author": "rjgeng",
   "prs": {
@@ -105,8 +105,8 @@
     }
   },
   "recently_closed_prs": {
-    "4019": {"title": "feat(config): gc config explain renders idle/lifecycle-timeout agent keys (#3965)", "state": "closed", "url": "https://github.com/gastownhall/gascity/pull/4019", "updated_at": "2026-07-15T12:47:22Z"},
-    "3981": {"title": "fix(cmd): imported command groups exit non-zero on unknown subcommands (#3966)", "state": "closed", "url": "https://github.com/gastownhall/gascity/pull/3981", "updated_at": "2026-07-14T02:05:11Z"},
-    "3979": {"title": "fix(doctor): clarify external Dolt backup message — endpoint may be local (#3868 follow-up)", "state": "closed", "url": "https://github.com/gastownhall/gascity/pull/3979", "updated_at": "2026-07-14T00:30:02Z"}
+    "4019": {"title": "feat(config): gc config explain renders idle/lifecycle-timeout agent keys (#3965)", "state": "merged", "url": "https://github.com/gastownhall/gascity/pull/4019", "updated_at": "2026-07-15T12:47:22Z"},
+    "3981": {"title": "fix(cmd): imported command groups exit non-zero on unknown subcommands (#3966)", "state": "merged", "url": "https://github.com/gastownhall/gascity/pull/3981", "updated_at": "2026-07-14T02:05:11Z"},
+    "3979": {"title": "fix(doctor): clarify external Dolt backup message — endpoint may be local (#3868 follow-up)", "state": "merged", "url": "https://github.com/gastownhall/gascity/pull/3979", "updated_at": "2026-07-14T00:30:02Z"}
   }
 }

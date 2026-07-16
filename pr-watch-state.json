@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "last_checked_at": "2026-07-16T11:08:36Z",
+  "last_checked_at": "2026-07-16T12:09:05Z",
   "repo": "gastownhall/gascity",
   "author": "rjgeng",
   "prs": {
@@ -96,7 +96,7 @@
     }
   },
   "recently_closed_prs": {
-    "4129": {"title": "fix(dolt-cleanup): resolve DROP-stage user via GC_DOLT_USER instead of hardcoded root (#4123)", "state": "merged", "url": "https://github.com/gastownhall/gascity/pull/4129", "updated_at": "2026-07-16T02:51:33Z"},
+    "4129": {"title": "fix(dolt-cleanup): resolve DROP-stage user via GC_DOLT_USER instead of hardcoded root (#4123)", "state": "merged", "url": "https://github.com/gastownhall/gascity/pull/4129", "updated_at": "2026-07-16T02:51:35Z"},
     "4019": {"title": "feat(config): gc config explain renders idle/lifecycle-timeout agent keys (#3965)", "state": "merged", "url": "https://github.com/gastownhall/gascity/pull/4019", "updated_at": "2026-07-15T12:47:22Z"},
     "3981": {"title": "fix(cmd): imported command groups exit non-zero on unknown subcommands (#3966)", "state": "merged", "url": "https://github.com/gastownhall/gascity/pull/3981", "updated_at": "2026-07-14T02:05:11Z"},
     "3979": {"title": "fix(doctor): clarify external Dolt backup message — endpoint may be local (#3868 follow-up)", "state": "merged", "url": "https://github.com/gastownhall/gascity/pull/3979", "updated_at": "2026-07-14T00:30:02Z"}

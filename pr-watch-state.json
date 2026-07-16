@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "last_checked_at": "2026-07-16T12:09:05Z",
+  "last_checked_at": "2026-07-16T13:08:18Z",
   "repo": "gastownhall/gascity",
   "author": "rjgeng",
   "prs": {
@@ -58,15 +58,6 @@
       "human_reviews": [],
       "human_comments": []
     },
-    "4156": {
-      "title": "fix(materialize): remember gc-written symlink targets so pack-sha bumps self-heal (#4130)",
-      "state": "open",
-      "mergeable_state": "blocked",
-      "url": "https://github.com/gastownhall/gascity/pull/4156",
-      "updated_at": "2026-07-11T17:40:19Z",
-      "human_reviews": [],
-      "human_comments": []
-    },
     "4138": {
       "title": "fix(session): gc session attach waits for an in-flight controller reset instead of racing it (#4079)",
       "state": "open",
@@ -96,6 +87,7 @@
     }
   },
   "recently_closed_prs": {
+    "4156": {"title": "fix(materialize): remember gc-written symlink targets so pack-sha bumps self-heal (#4130)", "state": "merged", "url": "https://github.com/gastownhall/gascity/pull/4156", "updated_at": "2026-07-16T12:35:52Z"},
     "4129": {"title": "fix(dolt-cleanup): resolve DROP-stage user via GC_DOLT_USER instead of hardcoded root (#4123)", "state": "merged", "url": "https://github.com/gastownhall/gascity/pull/4129", "updated_at": "2026-07-16T02:51:35Z"},
     "4019": {"title": "feat(config): gc config explain renders idle/lifecycle-timeout agent keys (#3965)", "state": "merged", "url": "https://github.com/gastownhall/gascity/pull/4019", "updated_at": "2026-07-15T12:47:22Z"},
     "3981": {"title": "fix(cmd): imported command groups exit non-zero on unknown subcommands (#3966)", "state": "merged", "url": "https://github.com/gastownhall/gascity/pull/3981", "updated_at": "2026-07-14T02:05:11Z"},

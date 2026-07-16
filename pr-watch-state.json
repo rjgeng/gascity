@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "last_checked_at": "2026-07-16T02:09:32Z",
+  "last_checked_at": "2026-07-16T03:10:19Z",
   "repo": "gastownhall/gascity",
   "author": "rjgeng",
   "prs": {
@@ -85,19 +85,10 @@
       "human_reviews": [],
       "human_comments": []
     },
-    "4129": {
-      "title": "fix(dolt-cleanup): resolve DROP-stage user via GC_DOLT_USER instead of hardcoded root (#4123)",
-      "state": "open",
-      "mergeable_state": "blocked",
-      "url": "https://github.com/gastownhall/gascity/pull/4129",
-      "updated_at": "2026-07-10T15:39:21Z",
-      "human_reviews": [],
-      "human_comments": []
-    },
     "3757": {
       "title": "feat(dolt): surface active compaction quarantine markers in gc dolt health",
       "state": "open",
-      "mergeable_state": "blocked",
+      "mergeable_state": "dirty",
       "url": "https://github.com/gastownhall/gascity/pull/3757",
       "updated_at": "2026-07-10T06:09:35Z",
       "human_reviews": [{"login": "rjgeng", "state": "COMMENTED", "submitted_at": "2026-06-28T22:48:58Z"}],
@@ -105,6 +96,7 @@
     }
   },
   "recently_closed_prs": {
+    "4129": {"title": "fix(dolt-cleanup): resolve DROP-stage user via GC_DOLT_USER instead of hardcoded root (#4123)", "state": "merged", "url": "https://github.com/gastownhall/gascity/pull/4129", "updated_at": "2026-07-16T02:51:33Z"},
     "4019": {"title": "feat(config): gc config explain renders idle/lifecycle-timeout agent keys (#3965)", "state": "merged", "url": "https://github.com/gastownhall/gascity/pull/4019", "updated_at": "2026-07-15T12:47:22Z"},
     "3981": {"title": "fix(cmd): imported command groups exit non-zero on unknown subcommands (#3966)", "state": "merged", "url": "https://github.com/gastownhall/gascity/pull/3981", "updated_at": "2026-07-14T02:05:11Z"},
     "3979": {"title": "fix(doctor): clarify external Dolt backup message — endpoint may be local (#3868 follow-up)", "state": "merged", "url": "https://github.com/gastownhall/gascity/pull/3979", "updated_at": "2026-07-14T00:30:02Z"}

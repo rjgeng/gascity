@@ -1,9 +1,18 @@
 {
   "schema_version": 1,
-  "last_checked_at": "2026-07-17T14:07:25Z",
+  "last_checked_at": "2026-07-17T15:09:00Z",
   "repo": "gastownhall/gascity",
   "author": "rjgeng",
   "prs": {
+    "4384": {
+      "title": "fix(cmd/gc): validate explicit city path before scanning registry rig bindings (#4364)",
+      "state": "open",
+      "mergeable_state": "blocked",
+      "url": "https://github.com/gastownhall/gascity/pull/4384",
+      "updated_at": "2026-07-17T14:12:35Z",
+      "human_reviews": [],
+      "human_comments": []
+    },
     "4248": {
       "title": "fix(doctor): warn when beads-store silently fell back to BdStore (#4245)",
       "state": "open",

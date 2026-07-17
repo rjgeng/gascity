@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "last_checked_at": "2026-07-17T05:07:46Z",
+  "last_checked_at": "2026-07-17T06:08:58Z",
   "repo": "gastownhall/gascity",
   "author": "rjgeng",
   "prs": {
@@ -16,25 +16,16 @@
     "4219": {
       "title": "fix(runproj): warming snapshot no longer marshals historicalLanes/recentChanges as null (#4142)",
       "state": "open",
-      "mergeable_state": "blocked",
+      "mergeable_state": "unknown",
       "url": "https://github.com/gastownhall/gascity/pull/4219",
       "updated_at": "2026-07-13T13:41:46Z",
-      "human_reviews": [],
-      "human_comments": []
-    },
-    "4216": {
-      "title": "fix(cmd/gc): lint no longer flags the documented pool-disable form as a named-session conflict (#4184)",
-      "state": "open",
-      "mergeable_state": "blocked",
-      "url": "https://github.com/gastownhall/gascity/pull/4216",
-      "updated_at": "2026-07-13T13:07:06Z",
       "human_reviews": [],
       "human_comments": []
     },
     "4138": {
       "title": "fix(session): gc session attach waits for an in-flight controller reset instead of racing it (#4079)",
       "state": "open",
-      "mergeable_state": "blocked",
+      "mergeable_state": "unknown",
       "url": "https://github.com/gastownhall/gascity/pull/4138",
       "updated_at": "2026-07-16T06:20:01Z",
       "human_reviews": [],
@@ -43,7 +34,7 @@
     "4095": {
       "title": "fix(session): refresh reset_committed_at on every continuation-reset re-arm (#4067)",
       "state": "open",
-      "mergeable_state": "blocked",
+      "mergeable_state": "unknown",
       "url": "https://github.com/gastownhall/gascity/pull/4095",
       "updated_at": "2026-07-15T22:01:35Z",
       "human_reviews": [],
@@ -60,12 +51,22 @@
     }
   },
   "recently_closed_prs": {
+    "4216": {"title": "fix(cmd/gc): lint no longer flags the documented pool-disable form as a named-session conflict (#4184)", "state": "merged", "url": "https://github.com/gastownhall/gascity/pull/4216", "updated_at": "2026-07-17T06:05:24Z", "merged_by": "quad341"},
     "4213": {"title": "fix(materialize): log a debug line when a shared skill-catalog name is shadowed (#4131)", "state": "merged", "url": "https://github.com/gastownhall/gascity/pull/4213", "updated_at": "2026-07-17T04:31:56Z", "merged_by": "quad341"},
     "4211": {"title": "test(cmd/gc): regression coverage for rig-scoped pool default scale_check + work_query (#4189)", "state": "merged", "url": "https://github.com/gastownhall/gascity/pull/4211", "updated_at": "2026-07-17T03:31:23Z", "merged_by": "quad341"},
     "4186": {"title": "fix(reaper): head+tail window sanitize_output so long-query errors survive (#4161)", "state": "merged", "url": "https://github.com/gastownhall/gascity/pull/4186", "updated_at": "2026-07-16T16:06:26Z", "merged_by": "quad341"},
     "4156": {"title": "fix(materialize): remember gc-written symlink targets so pack-sha bumps self-heal (#4130)", "state": "merged", "url": "https://github.com/gastownhall/gascity/pull/4156", "updated_at": "2026-07-16T12:35:54Z"},
     "4129": {"title": "fix(dolt-cleanup): resolve DROP-stage user via GC_DOLT_USER instead of hardcoded root (#4123)", "state": "merged", "url": "https://github.com/gastownhall/gascity/pull/4129", "updated_at": "2026-07-16T02:51:35Z"},
     "4019": {"title": "feat(config): gc config explain renders idle/lifecycle-timeout agent keys (#3965)", "state": "merged", "url": "https://github.com/gastownhall/gascity/pull/4019", "updated_at": "2026-07-15T12:47:22Z"},
-    "3981": {"title": "fix(cmd): imported command groups exit non-zero on unknown subcommands (#3966)", "state": "merged", "url": "https://github.com/gastownhall/gascity/pull/3981", "updated_at": "2026-07-14T02:05:11Z"}
+    "3981": {"title": "fix(cmd): imported command groups exit non-zero on unknown subcommands (#3966)", "state": "merged", "url": "https://github.com/gastownhall/gascity/pull/3981", "updated_at": "2026-07-14T02:05:11Z"},
+    "3979": {"title": "fix(doctor): clarify external Dolt backup message - endpoint terminology (#3922 follow-up)", "state": "merged", "url": "https://github.com/gastownhall/gascity/pull/3979", "updated_at": "2026-07-14T00:30:02Z"},
+    "3922": {"title": "fix(doctor): recognize external Dolt endpoints in the dolt-backup check", "state": "merged", "url": "https://github.com/gastownhall/gascity/pull/3922", "updated_at": "2026-07-04T21:43:40Z"},
+    "3542": {"title": "fix(dolt): exclude dolt_ignore'd tables force-inlined into HEAD (#3469 follow-up)", "state": "closed", "url": "https://github.com/gastownhall/gascity/pull/3542", "updated_at": "2026-06-21T17:50:50Z"},
+    "3469": {"title": "fix(dolt): dedup mol-dog-doctor [MEDIUM] advisory storm (#3...)", "state": "merged", "url": "https://github.com/gastownhall/gascity/pull/3469", "updated_at": "2026-06-15T15:55:45Z"},
+    "2638": {"title": "fix(gc): warn before supervisor recycle during city init", "state": "merged", "url": "https://github.com/gastownhall/gascity/pull/2638", "updated_at": "2026-05-31T17:48:42Z"},
+    "2316": {"title": "fix(dolt): retry preflight when HEAD races on busy DBs in gc", "state": "merged", "url": "https://github.com/gastownhall/gascity/pull/2316", "updated_at": "2026-05-20T14:54:39Z"},
+    "2136": {"title": "fix(maintenance): retry mol-dog-jsonl push on concurrent ref", "state": "merged", "url": "https://github.com/gastownhall/gascity/pull/2136", "updated_at": "2026-05-24T10:57:29Z"},
+    "2088": {"title": "docs(convoy): clarify --help text re: workflows vs convoys", "state": "merged", "url": "https://github.com/gastownhall/gascity/pull/2088", "updated_at": "2026-05-20T18:45:45Z"},
+    "2037": {"title": "fix(packs): fallback to dolt-provider-state.json", "state": "merged", "url": "https://github.com/gastownhall/gascity/pull/2037", "updated_at": "2026-05-13T01:46:13Z"}
   }
 }

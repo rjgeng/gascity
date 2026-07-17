@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "last_checked_at": "2026-07-17T04:08:22Z",
+  "last_checked_at": "2026-07-17T05:07:46Z",
   "repo": "gastownhall/gascity",
   "author": "rjgeng",
   "prs": {
@@ -31,15 +31,6 @@
       "human_reviews": [],
       "human_comments": []
     },
-    "4213": {
-      "title": "fix(materialize): log a debug line when a shared skill-catalog name is shadowed (#4131)",
-      "state": "open",
-      "mergeable_state": "blocked",
-      "url": "https://github.com/gastownhall/gascity/pull/4213",
-      "updated_at": "2026-07-13T11:42:11Z",
-      "human_reviews": [],
-      "human_comments": []
-    },
     "4138": {
       "title": "fix(session): gc session attach waits for an in-flight controller reset instead of racing it (#4079)",
       "state": "open",
@@ -61,7 +52,7 @@
     "3757": {
       "title": "feat(dolt): surface active compaction quarantine markers in gc dolt health",
       "state": "open",
-      "mergeable_state": "dirty",
+      "mergeable_state": "unknown",
       "url": "https://github.com/gastownhall/gascity/pull/3757",
       "updated_at": "2026-07-10T06:09:35Z",
       "human_reviews": [{"login": "rjgeng", "state": "COMMENTED", "submitted_at": "2026-06-28T22:48:58Z"}],
@@ -69,6 +60,7 @@
     }
   },
   "recently_closed_prs": {
+    "4213": {"title": "fix(materialize): log a debug line when a shared skill-catalog name is shadowed (#4131)", "state": "merged", "url": "https://github.com/gastownhall/gascity/pull/4213", "updated_at": "2026-07-17T04:31:56Z", "merged_by": "quad341"},
     "4211": {"title": "test(cmd/gc): regression coverage for rig-scoped pool default scale_check + work_query (#4189)", "state": "merged", "url": "https://github.com/gastownhall/gascity/pull/4211", "updated_at": "2026-07-17T03:31:23Z", "merged_by": "quad341"},
     "4186": {"title": "fix(reaper): head+tail window sanitize_output so long-query errors survive (#4161)", "state": "merged", "url": "https://github.com/gastownhall/gascity/pull/4186", "updated_at": "2026-07-16T16:06:26Z", "merged_by": "quad341"},
     "4156": {"title": "fix(materialize): remember gc-written symlink targets so pack-sha bumps self-heal (#4130)", "state": "merged", "url": "https://github.com/gastownhall/gascity/pull/4156", "updated_at": "2026-07-16T12:35:54Z"},

@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "last_checked_at": "2026-07-17T15:09:00Z",
+  "last_checked_at": "2026-07-17T16:07:20Z",
   "repo": "gastownhall/gascity",
   "author": "rjgeng",
   "prs": {
@@ -63,7 +63,7 @@
     "3979": {"title": "fix(doctor): clarify external Dolt backup message - endpoint terminology (#3922 follow-up)", "state": "merged", "url": "https://github.com/gastownhall/gascity/pull/3979", "updated_at": "2026-07-14T00:30:02Z"},
     "3922": {"title": "fix(doctor): recognize external Dolt endpoints in the dolt-backup check", "state": "merged", "url": "https://github.com/gastownhall/gascity/pull/3922", "updated_at": "2026-07-04T21:43:40Z"},
     "3542": {"title": "fix(dolt): exclude dolt_ignore'd tables force-inlined into HEAD (#3469 follow-up)", "state": "closed", "url": "https://github.com/gastownhall/gascity/pull/3542", "updated_at": "2026-06-21T17:50:50Z"},
-    "3469": {"title": "fix(dolt): dedup mol-dog-doctor [MEDIUM] advisory storm (#3...)", "state": "merged", "url": "https://github.com/gastownhall/gascity/pull/3469", "updated_at": "2026-06-15T15:55:45Z"},
+    "3469": {"title": "fix(dolt): dedup mol-dog-doctor [MEDIUM] advisory storm (#3409)", "state": "merged", "url": "https://github.com/gastownhall/gascity/pull/3469", "updated_at": "2026-06-15T15:55:45Z"},
     "2638": {"title": "fix(gc): warn before supervisor recycle during city init", "state": "merged", "url": "https://github.com/gastownhall/gascity/pull/2638", "updated_at": "2026-05-31T17:48:42Z"},
     "2316": {"title": "fix(dolt): retry preflight when HEAD races on busy DBs in gc", "state": "merged", "url": "https://github.com/gastownhall/gascity/pull/2316", "updated_at": "2026-05-20T14:54:39Z"},
     "2136": {"title": "fix(maintenance): retry mol-dog-jsonl push on concurrent ref", "state": "merged", "url": "https://github.com/gastownhall/gascity/pull/2136", "updated_at": "2026-05-24T10:57:29Z"},

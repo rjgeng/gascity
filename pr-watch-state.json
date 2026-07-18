@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "last_checked_at": "2026-07-18T11:11:25Z",
+  "last_checked_at": "2026-07-18T12:00:00Z",
   "repo": "gastownhall/gascity",
   "author": "rjgeng",
   "prs": {
@@ -25,9 +25,9 @@
     "4384": {
       "title": "fix(cmd/gc): validate explicit city path before scanning registry rig bindings (#4364)",
       "state": "open",
-      "mergeable_state": "dirty",
+      "mergeable_state": "blocked",
       "url": "https://github.com/gastownhall/gascity/pull/4384",
-      "updated_at": "2026-07-18T08:05:12Z",
+      "updated_at": "2026-07-18T11:57:22Z",
       "human_reviews": [{"login": "sjarmak", "state": "CHANGES_REQUESTED"}],
       "human_comments": []
     },

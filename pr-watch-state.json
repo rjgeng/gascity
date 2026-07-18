@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "last_checked_at": "2026-07-18T17:07:59Z",
+  "last_checked_at": "2026-07-18T18:07:39Z",
   "repo": "gastownhall/gascity",
   "author": "rjgeng",
   "prs": {
@@ -64,7 +64,7 @@
     "3757": {
       "title": "feat(dolt): surface active compaction quarantine markers in gc dolt health",
       "state": "open",
-      "mergeable_state": "unknown",
+      "mergeable_state": "dirty",
       "url": "https://github.com/gastownhall/gascity/pull/3757",
       "updated_at": "2026-07-10T06:09:35Z",
       "human_reviews": [{"login": "rjgeng", "state": "COMMENTED"}],

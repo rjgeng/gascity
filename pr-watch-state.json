@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "last_checked_at": "2026-07-18T12:00:00Z",
+  "last_checked_at": "2026-07-18T13:00:00Z",
   "repo": "gastownhall/gascity",
   "author": "rjgeng",
   "prs": {
@@ -9,7 +9,7 @@
       "state": "open",
       "mergeable_state": "blocked",
       "url": "https://github.com/gastownhall/gascity/pull/4406",
-      "updated_at": "2026-07-18T10:39:17Z",
+      "updated_at": "2026-07-18T12:28:07Z",
       "human_reviews": [],
       "human_comments": []
     },
@@ -34,7 +34,7 @@
     "4248": {
       "title": "fix(doctor): warn when beads-store silently fell back to BdStore (#4245)",
       "state": "open",
-      "mergeable_state": "blocked",
+      "mergeable_state": "unknown",
       "url": "https://github.com/gastownhall/gascity/pull/4248",
       "updated_at": "2026-07-17T10:08:59Z",
       "human_reviews": [],
@@ -43,7 +43,7 @@
     "4138": {
       "title": "fix(session): gc session attach waits for an in-flight controller reset instead of racing it (#4079)",
       "state": "open",
-      "mergeable_state": "blocked",
+      "mergeable_state": "unknown",
       "url": "https://github.com/gastownhall/gascity/pull/4138",
       "updated_at": "2026-07-16T06:20:01Z",
       "human_reviews": [],
@@ -52,7 +52,7 @@
     "4095": {
       "title": "fix(session): refresh reset_committed_at on every continuation-reset re-arm (#4067)",
       "state": "open",
-      "mergeable_state": "blocked",
+      "mergeable_state": "unknown",
       "url": "https://github.com/gastownhall/gascity/pull/4095",
       "updated_at": "2026-07-15T22:01:35Z",
       "human_reviews": [],

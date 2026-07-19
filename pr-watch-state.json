@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "last_checked_at": "2026-07-19T13:07:31Z",
+  "last_checked_at": "2026-07-19T14:08:09Z",
   "repo": "gastownhall/gascity",
   "author": "rjgeng",
   "prs": {
@@ -29,12 +29,13 @@
     "4384": {
       "title": "fix(cmd/gc): validate explicit city path before scanning registry rig bindings (#4364)",
       "state": "open",
-      "mergeable_state": "dirty",
+      "mergeable_state": "blocked",
       "url": "https://github.com/gastownhall/gascity/pull/4384",
-      "updated_at": "2026-07-18T16:27:01Z",
+      "updated_at": "2026-07-19T14:00:44Z",
       "human_reviews": [
         {"login": "sjarmak", "state": "CHANGES_REQUESTED", "submitted_at": "2026-07-18T08:05:11Z"},
-        {"login": "sjarmak", "state": "COMMENTED", "submitted_at": "2026-07-18T16:27:01Z", "note": "recommending approval, routing to maintainer queue"}
+        {"login": "sjarmak", "state": "COMMENTED", "submitted_at": "2026-07-18T16:27:01Z", "note": "recommending approval, routing to maintainer queue"},
+        {"login": "quad341", "state": "APPROVED", "submitted_at": "2026-07-19T13:48:25Z", "note": "approved; will rebase onto fresh main, regenerate resource-census numbers (conflict with test-resource debt-ledger churn), re-run build/vet/tests, and merge themselves — no action needed from rjgeng"}
       ],
       "human_comments": []
     },

@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "last_checked_at": "2026-07-19T18:07:47Z",
+  "last_checked_at": "2026-07-19T19:07:55Z",
   "repo": "gastownhall/gascity",
   "author": "rjgeng",
   "prs": {
@@ -16,7 +16,7 @@
     "4406": {
       "title": "fix(cmd/gc): gc init --skip-provider-readiness accepts any builtin provider (#4392)",
       "state": "open",
-      "mergeable_state": "blocked",
+      "mergeable_state": "dirty",
       "url": "https://github.com/gastownhall/gascity/pull/4406",
       "updated_at": "2026-07-19T14:15:25Z",
       "human_reviews": [
@@ -40,11 +40,11 @@
       "state": "open",
       "mergeable_state": "dirty",
       "url": "https://github.com/gastownhall/gascity/pull/4384",
-      "updated_at": "2026-07-19T17:41:31Z",
+      "updated_at": "2026-07-19T18:37:11Z",
       "human_reviews": [
         {"login": "sjarmak", "state": "CHANGES_REQUESTED", "submitted_at": "2026-07-18T08:05:11Z"},
         {"login": "sjarmak", "state": "COMMENTED", "submitted_at": "2026-07-18T16:27:01Z", "note": "recommending approval, routing to maintainer queue"},
-        {"login": "quad341", "state": "DISMISSED", "submitted_at": "2026-07-19T13:48:25Z", "note": "originally APPROVED; dismissed as of this check. Comment body still says quad341 will rebase onto fresh main, regenerate resource-census numbers (conflict with test-resource debt-ledger churn), re-run build/vet/tests, and merge themselves — no action needed from rjgeng. mergeable_state now 'dirty' (was 'blocked' at last check), consistent with an in-progress rebase."}
+        {"login": "quad341", "state": "DISMISSED", "submitted_at": "2026-07-19T13:48:25Z", "note": "originally APPROVED; dismissed as of this check. Comment body still says quad341 will rebase onto fresh main, regenerate resource-census numbers (conflict with test-resource debt-ledger churn), re-run build/vet/tests, and merge themselves — no action needed from rjgeng. mergeable_state now 'dirty' (unchanged from last check)."}
       ],
       "human_comments": [
         {"login": "quad341", "created_at": "2026-07-19T14:12:51Z", "note": "re-reviewed fbeacee46..ea6e2e83d (55 new commits since last review): no new concerns, prior approval stands, verdict=fix-merge"}
@@ -71,7 +71,7 @@
     "3757": {
       "title": "feat(dolt): surface active compaction quarantine markers in gc dolt health",
       "state": "open",
-      "mergeable_state": "dirty",
+      "mergeable_state": "unknown",
       "url": "https://github.com/gastownhall/gascity/pull/3757",
       "updated_at": "2026-07-10T06:09:35Z",
       "human_reviews": [{"login": "rjgeng", "state": "COMMENTED"}],

@@ -1,15 +1,24 @@
 {
   "schema_version": 1,
-  "last_checked_at": "2026-07-19T14:08:09Z",
+  "last_checked_at": "2026-07-19T15:09:27Z",
   "repo": "gastownhall/gascity",
   "author": "rjgeng",
   "prs": {
+    "4442": {
+      "title": "fix(cmd/gc): gc hook --claim never adopts mail message beads as work (#4419)",
+      "state": "open",
+      "mergeable_state": "blocked",
+      "url": "https://github.com/gastownhall/gascity/pull/4442",
+      "updated_at": "2026-07-19T15:00:18Z",
+      "human_reviews": [],
+      "human_comments": []
+    },
     "4406": {
       "title": "fix(cmd/gc): gc init --skip-provider-readiness accepts any builtin provider (#4392)",
       "state": "open",
-      "mergeable_state": "dirty",
+      "mergeable_state": "blocked",
       "url": "https://github.com/gastownhall/gascity/pull/4406",
-      "updated_at": "2026-07-19T08:10:08Z",
+      "updated_at": "2026-07-19T14:15:25Z",
       "human_reviews": [
         {"login": "sjarmak", "state": "COMMENTED", "submitted_at": "2026-07-19T00:31:29Z", "note": "clean fix, verified end to end; blocked only on a resource-census baseline rebase/bump (collided with #4190) — ready to approve after rebase + re-bump with green CI"}
       ],
@@ -20,7 +29,7 @@
       "state": "open",
       "mergeable_state": "blocked",
       "url": "https://github.com/gastownhall/gascity/pull/4405",
-      "updated_at": "2026-07-19T08:10:11Z",
+      "updated_at": "2026-07-19T14:15:15Z",
       "human_reviews": [
         {"login": "sjarmak", "state": "CHANGES_REQUESTED", "submitted_at": "2026-07-18T19:16:03Z", "note": "wrap findRunningPod's no-running-pod error with runtime.ErrSessionNotFound (match Relaunch's pattern) and add a test for the exec-stream-failure branch"}
       ],
@@ -31,20 +40,22 @@
       "state": "open",
       "mergeable_state": "blocked",
       "url": "https://github.com/gastownhall/gascity/pull/4384",
-      "updated_at": "2026-07-19T14:00:44Z",
+      "updated_at": "2026-07-19T14:12:59Z",
       "human_reviews": [
         {"login": "sjarmak", "state": "CHANGES_REQUESTED", "submitted_at": "2026-07-18T08:05:11Z"},
         {"login": "sjarmak", "state": "COMMENTED", "submitted_at": "2026-07-18T16:27:01Z", "note": "recommending approval, routing to maintainer queue"},
         {"login": "quad341", "state": "APPROVED", "submitted_at": "2026-07-19T13:48:25Z", "note": "approved; will rebase onto fresh main, regenerate resource-census numbers (conflict with test-resource debt-ledger churn), re-run build/vet/tests, and merge themselves — no action needed from rjgeng"}
       ],
-      "human_comments": []
+      "human_comments": [
+        {"login": "quad341", "created_at": "2026-07-19T14:12:51Z", "note": "re-reviewed fbeacee46..ea6e2e83d (55 new commits since last review): no new concerns, prior approval stands, verdict=fix-merge"}
+      ]
     },
     "4248": {
       "title": "fix(doctor): warn when beads-store silently fell back to BdStore (#4245)",
       "state": "open",
       "mergeable_state": "blocked",
       "url": "https://github.com/gastownhall/gascity/pull/4248",
-      "updated_at": "2026-07-19T10:28:24Z",
+      "updated_at": "2026-07-19T15:02:16Z",
       "human_reviews": [],
       "human_comments": [{"login": "rjgeng"}]
     },

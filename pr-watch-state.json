@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
-  "last_checked_at": "2026-07-19T05:07:22Z",
+  "last_checked_at": "2026-07-19T06:08:16Z",
   "repo": "gastownhall/gascity",
   "author": "rjgeng",
   "prs": {
     "4406": {
       "title": "fix(cmd/gc): gc init --skip-provider-readiness accepts any builtin provider (#4392)",
       "state": "open",
-      "mergeable_state": "blocked",
+      "mergeable_state": "dirty",
       "url": "https://github.com/gastownhall/gascity/pull/4406",
       "updated_at": "2026-07-19T00:31:29Z",
       "human_reviews": [
@@ -29,7 +29,7 @@
     "4384": {
       "title": "fix(cmd/gc): validate explicit city path before scanning registry rig bindings (#4364)",
       "state": "open",
-      "mergeable_state": "blocked",
+      "mergeable_state": "dirty",
       "url": "https://github.com/gastownhall/gascity/pull/4384",
       "updated_at": "2026-07-18T16:27:01Z",
       "human_reviews": [

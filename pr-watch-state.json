@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "last_checked_at": "2026-07-19T00:08:29Z",
+  "last_checked_at": "2026-07-19T01:07:57Z",
   "repo": "gastownhall/gascity",
   "author": "rjgeng",
   "prs": {
@@ -9,8 +9,10 @@
       "state": "open",
       "mergeable_state": "blocked",
       "url": "https://github.com/gastownhall/gascity/pull/4406",
-      "updated_at": "2026-07-18T12:28:07Z",
-      "human_reviews": [],
+      "updated_at": "2026-07-19T00:31:29Z",
+      "human_reviews": [
+        {"login": "sjarmak", "state": "COMMENTED", "submitted_at": "2026-07-19T00:31:29Z", "note": "clean fix, verified end to end; blocked only on a resource-census baseline rebase/bump (collided with #4190) — ready to approve after rebase + re-bump with green CI"}
+      ],
       "human_comments": []
     },
     "4405": {

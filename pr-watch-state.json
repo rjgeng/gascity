@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "last_checked_at": "2026-07-19T19:07:55Z",
+  "last_checked_at": "2026-07-19T19:35:00Z",
   "repo": "gastownhall/gascity",
   "author": "rjgeng",
   "prs": {
@@ -44,7 +44,7 @@
       "human_reviews": [
         {"login": "sjarmak", "state": "CHANGES_REQUESTED", "submitted_at": "2026-07-18T08:05:11Z"},
         {"login": "sjarmak", "state": "COMMENTED", "submitted_at": "2026-07-18T16:27:01Z", "note": "recommending approval, routing to maintainer queue"},
-        {"login": "quad341", "state": "DISMISSED", "submitted_at": "2026-07-19T13:48:25Z", "note": "originally APPROVED; dismissed as of this check. Comment body still says quad341 will rebase onto fresh main, regenerate resource-census numbers (conflict with test-resource debt-ledger churn), re-run build/vet/tests, and merge themselves — no action needed from rjgeng. mergeable_state now 'dirty' (unchanged from last check)."}
+        {"login": "quad341", "state": "DISMISSED", "submitted_at": "2026-07-19T13:48:25Z", "note": "originally APPROVED; dismissed as of this check. Comment body still says quad341 will rebase onto fresh main, regenerate resource-census numbers (conflict with test-resource debt-ledger churn), re-run build/vet/tests, and merge themselves — no action needed from rjgeng. mergeable_state remains 'dirty' (unchanged across last two checks)."}
       ],
       "human_comments": [
         {"login": "quad341", "created_at": "2026-07-19T14:12:51Z", "note": "re-reviewed fbeacee46..ea6e2e83d (55 new commits since last review): no new concerns, prior approval stands, verdict=fix-merge"}
@@ -71,7 +71,7 @@
     "3757": {
       "title": "feat(dolt): surface active compaction quarantine markers in gc dolt health",
       "state": "open",
-      "mergeable_state": "unknown",
+      "mergeable_state": "dirty",
       "url": "https://github.com/gastownhall/gascity/pull/3757",
       "updated_at": "2026-07-10T06:09:35Z",
       "human_reviews": [{"login": "rjgeng", "state": "COMMENTED"}],

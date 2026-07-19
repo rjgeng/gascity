@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "last_checked_at": "2026-07-19T17:08:24Z",
+  "last_checked_at": "2026-07-19T18:07:47Z",
   "repo": "gastownhall/gascity",
   "author": "rjgeng",
   "prs": {
@@ -38,13 +38,13 @@
     "4384": {
       "title": "fix(cmd/gc): validate explicit city path before scanning registry rig bindings (#4364)",
       "state": "open",
-      "mergeable_state": "blocked",
+      "mergeable_state": "dirty",
       "url": "https://github.com/gastownhall/gascity/pull/4384",
-      "updated_at": "2026-07-19T14:12:59Z",
+      "updated_at": "2026-07-19T17:41:31Z",
       "human_reviews": [
         {"login": "sjarmak", "state": "CHANGES_REQUESTED", "submitted_at": "2026-07-18T08:05:11Z"},
         {"login": "sjarmak", "state": "COMMENTED", "submitted_at": "2026-07-18T16:27:01Z", "note": "recommending approval, routing to maintainer queue"},
-        {"login": "quad341", "state": "APPROVED", "submitted_at": "2026-07-19T13:48:25Z", "note": "approved; will rebase onto fresh main, regenerate resource-census numbers (conflict with test-resource debt-ledger churn), re-run build/vet/tests, and merge themselves — no action needed from rjgeng"}
+        {"login": "quad341", "state": "DISMISSED", "submitted_at": "2026-07-19T13:48:25Z", "note": "originally APPROVED; dismissed as of this check. Comment body still says quad341 will rebase onto fresh main, regenerate resource-census numbers (conflict with test-resource debt-ledger churn), re-run build/vet/tests, and merge themselves — no action needed from rjgeng. mergeable_state now 'dirty' (was 'blocked' at last check), consistent with an in-progress rebase."}
       ],
       "human_comments": [
         {"login": "quad341", "created_at": "2026-07-19T14:12:51Z", "note": "re-reviewed fbeacee46..ea6e2e83d (55 new commits since last review): no new concerns, prior approval stands, verdict=fix-merge"}

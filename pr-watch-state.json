@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "last_checked_at": "2026-07-19T08:07:06Z",
+  "last_checked_at": "2026-07-19T08:15:00Z",
   "repo": "gastownhall/gascity",
   "author": "rjgeng",
   "prs": {
@@ -9,7 +9,7 @@
       "state": "open",
       "mergeable_state": "dirty",
       "url": "https://github.com/gastownhall/gascity/pull/4406",
-      "updated_at": "2026-07-19T00:31:29Z",
+      "updated_at": "2026-07-19T08:10:08Z",
       "human_reviews": [
         {"login": "sjarmak", "state": "COMMENTED", "submitted_at": "2026-07-19T00:31:29Z", "note": "clean fix, verified end to end; blocked only on a resource-census baseline rebase/bump (collided with #4190) — ready to approve after rebase + re-bump with green CI"}
       ],
@@ -20,7 +20,7 @@
       "state": "open",
       "mergeable_state": "blocked",
       "url": "https://github.com/gastownhall/gascity/pull/4405",
-      "updated_at": "2026-07-18T19:16:03Z",
+      "updated_at": "2026-07-19T08:10:11Z",
       "human_reviews": [
         {"login": "sjarmak", "state": "CHANGES_REQUESTED", "submitted_at": "2026-07-18T19:16:03Z", "note": "wrap findRunningPod's no-running-pod error with runtime.ErrSessionNotFound (match Relaunch's pattern) and add a test for the exec-stream-failure branch"}
       ],

@@ -1,9 +1,38 @@
 {
   "schema_version": 1,
-  "last_checked_at": "2026-07-20T14:08:51Z",
+  "last_checked_at": "2026-07-20T15:20:00Z",
   "repo": "gastownhall/gascity",
   "author": "rjgeng",
   "prs": {
+    "4483": {
+      "title": "fix(beads): skip nested Go modules in the bd-exec boundary walker (#4480)",
+      "state": "open",
+      "mergeable_state": "blocked",
+      "url": "https://github.com/gastownhall/gascity/pull/4483",
+      "updated_at": "2026-07-20T14:40:52Z",
+      "human_reviews": [],
+      "human_comments": []
+    },
+    "4482": {
+      "title": "test(cmd_hook): resolve \"true\" via LookPath instead of hardcoding /bin/true (#4454)",
+      "state": "open",
+      "mergeable_state": "blocked",
+      "url": "https://github.com/gastownhall/gascity/pull/4482",
+      "updated_at": "2026-07-20T14:33:34Z",
+      "human_reviews": [],
+      "human_comments": []
+    },
+    "4481": {
+      "title": "fix(runtime): treat a gone session as drain-acked (#4448)",
+      "state": "open",
+      "mergeable_state": "blocked",
+      "url": "https://github.com/gastownhall/gascity/pull/4481",
+      "updated_at": "2026-07-20T15:07:45Z",
+      "human_reviews": [],
+      "human_comments": [
+        {"login": "rjgeng", "created_at": "2026-07-20T15:07:45Z", "note": "author's own comment (self, explaining pre-existing CI flakiness unrelated to this PR) - not a maintainer touch, do not flag on its own"}
+      ]
+    },
     "4405": {
       "title": "fix(runtime/k8s): propagate Nudge/SendKeys transport errors (#4389)",
       "state": "open",
@@ -54,7 +83,7 @@
     "3757": {
       "title": "feat(dolt): surface active compaction quarantine markers in gc dolt health",
       "state": "open",
-      "mergeable_state": "dirty",
+      "mergeable_state": "unknown",
       "url": "https://github.com/gastownhall/gascity/pull/3757",
       "updated_at": "2026-07-10T06:09:35Z",
       "human_reviews": [{"login": "rjgeng", "state": "COMMENTED", "submitted_at": "2026-06-28T22:48:58Z"}],
@@ -62,8 +91,8 @@
     }
   },
   "recently_closed_prs": {
-    "4406": {"title": "fix(cmd/gc): gc init --skip-provider-readiness accepts any builtin provider (#4392)", "state": "merged", "url": "https://github.com/gastownhall/gascity/pull/4406", "updated_at": "2026-07-20T08:26:25Z", "merged_by": "quad341"},
     "4442": {"title": "fix(cmd/gc): gc hook --claim never adopts mail message beads as work (#4419)", "state": "merged", "url": "https://github.com/gastownhall/gascity/pull/4442", "updated_at": "2026-07-20T07:50:12Z", "merged_by": "julianknutsen"},
+    "4406": {"title": "fix(cmd/gc): gc init --skip-provider-readiness accepts any builtin provider (#4392)", "state": "merged", "url": "https://github.com/gastownhall/gascity/pull/4406", "updated_at": "2026-07-20T08:26:25Z", "merged_by": "quad341"},
     "4248": {"title": "fix(doctor): warn when beads-store silently fell back to BdStore (#4245)", "state": "merged", "url": "https://github.com/gastownhall/gascity/pull/4248", "updated_at": "2026-07-19T15:09:01Z", "merged_by": "quad341"},
     "4219": {"title": "fix(runproj): warming snapshot no longer marshals historicalLanes/recentChanges as null (#4142)", "state": "merged", "url": "https://github.com/gastownhall/gascity/pull/4219", "updated_at": "2026-07-17T07:07:17Z", "merged_by": "quad341"},
     "4216": {"title": "fix(cmd/gc): lint no longer flags the documented pool-disable form as a named-session conflict (#4184)", "state": "merged", "url": "https://github.com/gastownhall/gascity/pull/4216", "updated_at": "2026-07-17T06:05:24Z", "merged_by": "quad341"},

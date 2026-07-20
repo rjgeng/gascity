@@ -1,20 +1,9 @@
 {
   "schema_version": 1,
-  "last_checked_at": "2026-07-20T08:08:32Z",
+  "last_checked_at": "2026-07-20T09:08:42Z",
   "repo": "gastownhall/gascity",
   "author": "rjgeng",
   "prs": {
-    "4406": {
-      "title": "fix(cmd/gc): gc init --skip-provider-readiness accepts any builtin provider (#4392)",
-      "state": "open",
-      "mergeable_state": "dirty",
-      "url": "https://github.com/gastownhall/gascity/pull/4406",
-      "updated_at": "2026-07-20T07:54:33Z",
-      "human_reviews": [
-        {"login": "sjarmak", "state": "COMMENTED", "submitted_at": "2026-07-19T00:31:29Z", "note": "clean fix, verified end to end; blocked only on a resource-census baseline rebase/bump (collided with #4190) — ready to approve after rebase + re-bump with green CI"}
-      ],
-      "human_comments": []
-    },
     "4405": {
       "title": "fix(runtime/k8s): propagate Nudge/SendKeys transport errors (#4389)",
       "state": "open",
@@ -73,6 +62,7 @@
     }
   },
   "recently_closed_prs": {
+    "4406": {"title": "fix(cmd/gc): gc init --skip-provider-readiness accepts any builtin provider (#4392)", "state": "merged", "url": "https://github.com/gastownhall/gascity/pull/4406", "updated_at": "2026-07-20T08:26:25Z", "merged_by": "quad341"},
     "4442": {"title": "fix(cmd/gc): gc hook --claim never adopts mail message beads as work (#4419)", "state": "merged", "url": "https://github.com/gastownhall/gascity/pull/4442", "updated_at": "2026-07-20T07:50:12Z", "merged_by": "julianknutsen"},
     "4248": {"title": "fix(doctor): warn when beads-store silently fell back to BdStore (#4245)", "state": "merged", "url": "https://github.com/gastownhall/gascity/pull/4248", "updated_at": "2026-07-19T15:09:01Z", "merged_by": "quad341"},
     "4219": {"title": "fix(runproj): warming snapshot no longer marshals historicalLanes/recentChanges as null (#4142)", "state": "merged", "url": "https://github.com/gastownhall/gascity/pull/4219", "updated_at": "2026-07-17T07:07:17Z", "merged_by": "quad341"},

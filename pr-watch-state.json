@@ -1,24 +1,15 @@
 {
   "schema_version": 1,
-  "last_checked_at": "2026-07-20T07:09:24Z",
+  "last_checked_at": "2026-07-20T08:08:32Z",
   "repo": "gastownhall/gascity",
   "author": "rjgeng",
   "prs": {
-    "4442": {
-      "title": "fix(cmd/gc): gc hook --claim never adopts mail message beads as work (#4419)",
-      "state": "open",
-      "mergeable_state": "blocked",
-      "url": "https://github.com/gastownhall/gascity/pull/4442",
-      "updated_at": "2026-07-20T03:00:23Z",
-      "human_reviews": [],
-      "human_comments": []
-    },
     "4406": {
       "title": "fix(cmd/gc): gc init --skip-provider-readiness accepts any builtin provider (#4392)",
       "state": "open",
       "mergeable_state": "dirty",
       "url": "https://github.com/gastownhall/gascity/pull/4406",
-      "updated_at": "2026-07-19T14:15:25Z",
+      "updated_at": "2026-07-20T07:54:33Z",
       "human_reviews": [
         {"login": "sjarmak", "state": "COMMENTED", "submitted_at": "2026-07-19T00:31:29Z", "note": "clean fix, verified end to end; blocked only on a resource-census baseline rebase/bump (collided with #4190) — ready to approve after rebase + re-bump with green CI"}
       ],
@@ -29,9 +20,10 @@
       "state": "open",
       "mergeable_state": "blocked",
       "url": "https://github.com/gastownhall/gascity/pull/4405",
-      "updated_at": "2026-07-20T07:02:58Z",
+      "updated_at": "2026-07-20T07:23:43Z",
       "human_reviews": [
-        {"login": "sjarmak", "state": "CHANGES_REQUESTED", "submitted_at": "2026-07-18T19:16:03Z", "note": "wrap findRunningPod's no-running-pod error with runtime.ErrSessionNotFound (match Relaunch's pattern) and add a test for the exec-stream-failure branch"}
+        {"login": "sjarmak", "state": "CHANGES_REQUESTED", "submitted_at": "2026-07-18T19:16:03Z", "note": "wrap findRunningPod's no-running-pod error with runtime.ErrSessionNotFound (match Relaunch's pattern) and add a test for the exec-stream-failure branch"},
+        {"login": "quad341", "state": "APPROVED", "submitted_at": "2026-07-20T07:14:10Z", "note": "verdict=fix-merge; confirms ErrSessionNotFound wrap + exec-stream-failure test landed, addressing sjarmak's changes-requested; quad341 says they'll separately fix a SendKeys/conformance-suite subtlety on their own side before merge"}
       ],
       "human_comments": []
     },
@@ -81,6 +73,7 @@
     }
   },
   "recently_closed_prs": {
+    "4442": {"title": "fix(cmd/gc): gc hook --claim never adopts mail message beads as work (#4419)", "state": "merged", "url": "https://github.com/gastownhall/gascity/pull/4442", "updated_at": "2026-07-20T07:50:12Z", "merged_by": "julianknutsen"},
     "4248": {"title": "fix(doctor): warn when beads-store silently fell back to BdStore (#4245)", "state": "merged", "url": "https://github.com/gastownhall/gascity/pull/4248", "updated_at": "2026-07-19T15:09:01Z", "merged_by": "quad341"},
     "4219": {"title": "fix(runproj): warming snapshot no longer marshals historicalLanes/recentChanges as null (#4142)", "state": "merged", "url": "https://github.com/gastownhall/gascity/pull/4219", "updated_at": "2026-07-17T07:07:17Z", "merged_by": "quad341"},
     "4216": {"title": "fix(cmd/gc): lint no longer flags the documented pool-disable form as a named-session conflict (#4184)", "state": "merged", "url": "https://github.com/gastownhall/gascity/pull/4216", "updated_at": "2026-07-17T06:05:24Z", "merged_by": "quad341"},

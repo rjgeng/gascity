@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "last_checked_at": "2026-07-20T02:08:21Z",
+  "last_checked_at": "2026-07-20T03:07:57Z",
   "repo": "gastownhall/gascity",
   "author": "rjgeng",
   "prs": {
@@ -9,7 +9,7 @@
       "state": "open",
       "mergeable_state": "blocked",
       "url": "https://github.com/gastownhall/gascity/pull/4442",
-      "updated_at": "2026-07-19T15:30:16Z",
+      "updated_at": "2026-07-20T03:00:23Z",
       "human_reviews": [],
       "human_comments": []
     },
@@ -40,7 +40,7 @@
       "state": "open",
       "mergeable_state": "blocked",
       "url": "https://github.com/gastownhall/gascity/pull/4384",
-      "updated_at": "2026-07-20T02:03:14Z",
+      "updated_at": "2026-07-20T02:44:39Z",
       "human_reviews": [
         {"login": "sjarmak", "state": "CHANGES_REQUESTED", "submitted_at": "2026-07-18T08:05:11Z"},
         {"login": "sjarmak", "state": "COMMENTED", "submitted_at": "2026-07-18T16:27:01Z", "note": "recommending approval, routing to maintainer queue"},
@@ -48,7 +48,8 @@
         {"login": "quad341", "state": "APPROVED", "submitted_at": "2026-07-20T02:03:04Z", "note": "Re-reviewed ea6e2e83d..3b893facf (10 new commits since last review): no new concerns, prior approval stands, verdict=fix-merge"}
       ],
       "human_comments": [
-        {"login": "quad341", "created_at": "2026-07-19T14:12:51Z", "note": "re-reviewed fbeacee46..ea6e2e83d (55 new commits since last review): no new concerns, prior approval stands, verdict=fix-merge"}
+        {"login": "quad341", "created_at": "2026-07-19T14:12:51Z", "note": "re-reviewed fbeacee46..ea6e2e83d (55 new commits since last review): no new concerns, prior approval stands, verdict=fix-merge"},
+        {"login": "quad341", "created_at": "2026-07-20T02:44:30Z", "note": "automated mpr-review bot re-check: re-reviewed 3b893facf..f1909d780 (19 new commits since last review): no new concerns, prior approval stands, verdict=fix-merge"}
       ]
     },
     "4138": {

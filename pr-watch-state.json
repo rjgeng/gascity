@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "last_checked_at": "2026-07-20T03:15:00Z",
+  "last_checked_at": "2026-07-20T04:15:00Z",
   "repo": "gastownhall/gascity",
   "author": "rjgeng",
   "prs": {
@@ -16,7 +16,7 @@
     "4406": {
       "title": "fix(cmd/gc): gc init --skip-provider-readiness accepts any builtin provider (#4392)",
       "state": "open",
-      "mergeable_state": "unknown",
+      "mergeable_state": "dirty",
       "url": "https://github.com/gastownhall/gascity/pull/4406",
       "updated_at": "2026-07-19T14:15:25Z",
       "human_reviews": [
@@ -27,7 +27,7 @@
     "4405": {
       "title": "fix(runtime/k8s): propagate Nudge/SendKeys transport errors (#4389)",
       "state": "open",
-      "mergeable_state": "unknown",
+      "mergeable_state": "blocked",
       "url": "https://github.com/gastownhall/gascity/pull/4405",
       "updated_at": "2026-07-19T14:15:15Z",
       "human_reviews": [
@@ -38,7 +38,7 @@
     "4384": {
       "title": "fix(cmd/gc): validate explicit city path before scanning registry rig bindings (#4364)",
       "state": "open",
-      "mergeable_state": "blocked",
+      "mergeable_state": "dirty",
       "url": "https://github.com/gastownhall/gascity/pull/4384",
       "updated_at": "2026-07-20T02:44:39Z",
       "human_reviews": [
@@ -55,7 +55,7 @@
     "4138": {
       "title": "fix(session): gc session attach waits for an in-flight controller reset instead of racing it (#4079)",
       "state": "open",
-      "mergeable_state": "unknown",
+      "mergeable_state": "blocked",
       "url": "https://github.com/gastownhall/gascity/pull/4138",
       "updated_at": "2026-07-19T16:30:33Z",
       "human_reviews": [],
@@ -73,7 +73,7 @@
     "3757": {
       "title": "feat(dolt): surface active compaction quarantine markers in gc dolt health",
       "state": "open",
-      "mergeable_state": "unknown",
+      "mergeable_state": "dirty",
       "url": "https://github.com/gastownhall/gascity/pull/3757",
       "updated_at": "2026-07-10T06:09:35Z",
       "human_reviews": [{"login": "rjgeng", "state": "COMMENTED", "submitted_at": "2026-06-28T22:48:58Z"}],

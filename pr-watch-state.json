@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "last_checked_at": "2026-07-22T07:10:11Z",
+  "last_checked_at": "2026-07-22T08:09:43Z",
   "repo": "gastownhall/gascity",
   "author": "rjgeng",
   "prs": {
@@ -65,7 +65,7 @@
     "4138": {
       "title": "fix(session): gc session attach waits for an in-flight controller reset instead of racing it (#4079)",
       "state": "open",
-      "mergeable_state": "blocked",
+      "mergeable_state": "unknown",
       "url": "https://github.com/gastownhall/gascity/pull/4138",
       "updated_at": "2026-07-19T16:30:33Z",
       "human_reviews": [],
@@ -74,7 +74,7 @@
     "4095": {
       "title": "fix(session): refresh reset_committed_at on every continuation-reset re-arm (#4067)",
       "state": "open",
-      "mergeable_state": "blocked",
+      "mergeable_state": "unknown",
       "url": "https://github.com/gastownhall/gascity/pull/4095",
       "updated_at": "2026-07-19T21:29:54Z",
       "human_reviews": [],
@@ -85,7 +85,7 @@
     "3757": {
       "title": "feat(dolt): surface active compaction quarantine markers in gc dolt health",
       "state": "open",
-      "mergeable_state": "dirty",
+      "mergeable_state": "unknown",
       "url": "https://github.com/gastownhall/gascity/pull/3757",
       "updated_at": "2026-07-10T06:09:35Z",
       "human_reviews": [

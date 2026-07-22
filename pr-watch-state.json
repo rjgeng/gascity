@@ -1,9 +1,27 @@
 {
   "schema_version": 1,
-  "last_checked_at": "2026-07-22T12:09:31Z",
+  "last_checked_at": "2026-07-22T13:10:43Z",
   "repo": "gastownhall/gascity",
   "author": "rjgeng",
   "prs": {
+    "4542": {
+      "title": "fix(config): warn when a pack's agent_defaults never reaches its own imports (#4524)",
+      "state": "open",
+      "mergeable_state": "blocked",
+      "url": "https://github.com/gastownhall/gascity/pull/4542",
+      "updated_at": "2026-07-22T12:53:27Z",
+      "human_reviews": [],
+      "human_comments": []
+    },
+    "4540": {
+      "title": "fix(packman): walk local path-source packs' own transitive remote imports (#4523)",
+      "state": "open",
+      "mergeable_state": "blocked",
+      "url": "https://github.com/gastownhall/gascity/pull/4540",
+      "updated_at": "2026-07-22T12:12:26Z",
+      "human_reviews": [],
+      "human_comments": []
+    },
     "4538": {
       "title": "fix(config): hint the bare local name when a pack patch targets a qualified agent name (#4525)",
       "state": "open",

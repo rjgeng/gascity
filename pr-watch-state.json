@@ -1,9 +1,18 @@
 {
   "schema_version": 1,
-  "last_checked_at": "2026-07-22T15:11:21Z",
+  "last_checked_at": "2026-07-22T16:09:24Z",
   "repo": "gastownhall/gascity",
   "author": "rjgeng",
   "prs": {
+    "4555": {
+      "title": "fix(storehealth): add an absolute-size floor so small cities don't permanently trip maintenance-overdue (#3374)",
+      "state": "open",
+      "mergeable_state": "blocked",
+      "url": "https://github.com/gastownhall/gascity/pull/4555",
+      "updated_at": "2026-07-22T15:20:06Z",
+      "human_reviews": [],
+      "human_comments": []
+    },
     "4554": {
       "title": "fix(sling): warn when --on/default-formula attach drops the target bead's description (#3681)",
       "state": "open",

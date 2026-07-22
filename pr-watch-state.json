@@ -1,9 +1,18 @@
 {
   "schema_version": 1,
-  "last_checked_at": "2026-07-22T11:08:26Z",
+  "last_checked_at": "2026-07-22T12:09:31Z",
   "repo": "gastownhall/gascity",
   "author": "rjgeng",
   "prs": {
+    "4538": {
+      "title": "fix(config): hint the bare local name when a pack patch targets a qualified agent name (#4525)",
+      "state": "open",
+      "mergeable_state": "blocked",
+      "url": "https://github.com/gastownhall/gascity/pull/4538",
+      "updated_at": "2026-07-22T11:57:26Z",
+      "human_reviews": [],
+      "human_comments": []
+    },
     "4500": {
       "title": "fix(gc): reap closed-bead worktrees from the rig root, fail closed on probe errors (#4492)",
       "state": "open",

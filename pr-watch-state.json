@@ -1,9 +1,18 @@
 {
   "schema_version": 1,
-  "last_checked_at": "2026-07-22T13:10:43Z",
+  "last_checked_at": "2026-07-22T14:10:15Z",
   "repo": "gastownhall/gascity",
   "author": "rjgeng",
   "prs": {
+    "4545": {
+      "title": "fix(cmd/gc): only retarget engine-generated PreStart entries, not user-authored literals (#4069)",
+      "state": "open",
+      "mergeable_state": "blocked",
+      "url": "https://github.com/gastownhall/gascity/pull/4545",
+      "updated_at": "2026-07-22T13:44:10Z",
+      "human_reviews": [],
+      "human_comments": []
+    },
     "4542": {
       "title": "fix(config): warn when a pack's agent_defaults never reaches its own imports (#4524)",
       "state": "open",
@@ -18,7 +27,7 @@
       "state": "open",
       "mergeable_state": "blocked",
       "url": "https://github.com/gastownhall/gascity/pull/4540",
-      "updated_at": "2026-07-22T12:12:26Z",
+      "updated_at": "2026-07-22T13:14:39Z",
       "human_reviews": [],
       "human_comments": []
     },

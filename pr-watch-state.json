@@ -1,9 +1,45 @@
 {
   "schema_version": 1,
-  "last_checked_at": "2026-07-22T14:10:15Z",
+  "last_checked_at": "2026-07-22T15:11:21Z",
   "repo": "gastownhall/gascity",
   "author": "rjgeng",
   "prs": {
+    "4554": {
+      "title": "fix(sling): warn when --on/default-formula attach drops the target bead's description (#3681)",
+      "state": "open",
+      "mergeable_state": "blocked",
+      "url": "https://github.com/gastownhall/gascity/pull/4554",
+      "updated_at": "2026-07-22T15:06:48Z",
+      "human_reviews": [],
+      "human_comments": []
+    },
+    "4552": {
+      "title": "fix(doctor): rig-pack-coverage recognizes same-name local packs",
+      "state": "open",
+      "mergeable_state": "blocked",
+      "url": "https://github.com/gastownhall/gascity/pull/4552",
+      "updated_at": "2026-07-22T14:47:50Z",
+      "human_reviews": [],
+      "human_comments": []
+    },
+    "4549": {
+      "title": "fix(orders): give a never-run cron order one bounded catch-up",
+      "state": "open",
+      "mergeable_state": "blocked",
+      "url": "https://github.com/gastownhall/gascity/pull/4549",
+      "updated_at": "2026-07-22T14:32:09Z",
+      "human_reviews": [],
+      "human_comments": []
+    },
+    "4547": {
+      "title": "fix(cmd/gc): order dispatch searches all configured formula",
+      "state": "open",
+      "mergeable_state": "blocked",
+      "url": "https://github.com/gastownhall/gascity/pull/4547",
+      "updated_at": "2026-07-22T14:08:17Z",
+      "human_reviews": [],
+      "human_comments": []
+    },
     "4545": {
       "title": "fix(cmd/gc): only retarget engine-generated PreStart entries, not user-authored literals (#4069)",
       "state": "open",
@@ -61,7 +97,7 @@
     "4481": {
       "title": "fix(runtime): treat a gone session as drain-acked (#4448)",
       "state": "open",
-      "mergeable_state": "blocked",
+      "mergeable_state": "unknown",
       "url": "https://github.com/gastownhall/gascity/pull/4481",
       "updated_at": "2026-07-22T00:36:25Z",
       "human_reviews": [],
@@ -110,7 +146,7 @@
     "4095": {
       "title": "fix(session): refresh reset_committed_at on every continuation-reset re-arm (#4067)",
       "state": "open",
-      "mergeable_state": "blocked",
+      "mergeable_state": "unknown",
       "url": "https://github.com/gastownhall/gascity/pull/4095",
       "updated_at": "2026-07-19T21:29:54Z",
       "human_reviews": [],
@@ -121,7 +157,7 @@
     "3757": {
       "title": "feat(dolt): surface active compaction quarantine markers in gc dolt health",
       "state": "open",
-      "mergeable_state": "dirty",
+      "mergeable_state": "unknown",
       "url": "https://github.com/gastownhall/gascity/pull/3757",
       "updated_at": "2026-07-10T06:09:35Z",
       "human_reviews": [

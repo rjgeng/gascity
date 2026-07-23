@@ -1,18 +1,9 @@
 {
   "schema_version": 1,
-  "last_checked_at": "2026-07-23T17:07:55Z",
+  "last_checked_at": "2026-07-23T18:09:02Z",
   "repo": "gastownhall/gascity",
   "author": "rjgeng",
   "prs": {
-    "4547": {
-      "title": "fix(cmd/gc): order dispatch searches all configured formula layers, not just the order's own (#4378)",
-      "state": "open",
-      "mergeable_state": "blocked",
-      "url": "https://github.com/gastownhall/gascity/pull/4547",
-      "updated_at": "2026-07-23T14:42:30Z",
-      "human_reviews": [],
-      "human_comments": []
-    },
     "4584": {
       "title": "fix(sling): --nudge falls back to a running named session for instance-expandable agents (#3412)",
       "state": "open",
@@ -28,15 +19,6 @@
       "mergeable_state": "blocked",
       "url": "https://github.com/gastownhall/gascity/pull/4583",
       "updated_at": "2026-07-23T11:37:48Z",
-      "human_reviews": [],
-      "human_comments": []
-    },
-    "4500": {
-      "title": "fix(gc): reap closed-bead worktrees from the rig root, fail closed on probe errors (#4492)",
-      "state": "open",
-      "mergeable_state": "blocked",
-      "url": "https://github.com/gastownhall/gascity/pull/4500",
-      "updated_at": "2026-07-22T16:22:40Z",
       "human_reviews": [],
       "human_comments": []
     },
@@ -58,12 +40,21 @@
       "human_reviews": [],
       "human_comments": []
     },
-    "4552": {
-      "title": "fix(doctor): rig-pack-coverage recognizes same-name local pack replacements (#3907)",
+    "4547": {
+      "title": "fix(cmd/gc): order dispatch searches all configured formula layers, not just the order's own (#4378)",
       "state": "open",
       "mergeable_state": "blocked",
-      "url": "https://github.com/gastownhall/gascity/pull/4552",
-      "updated_at": "2026-07-22T14:47:50Z",
+      "url": "https://github.com/gastownhall/gascity/pull/4547",
+      "updated_at": "2026-07-23T14:42:30Z",
+      "human_reviews": [],
+      "human_comments": []
+    },
+    "4500": {
+      "title": "fix(gc): reap closed-bead worktrees from the rig root, fail closed on probe errors (#4492)",
+      "state": "open",
+      "mergeable_state": "blocked",
+      "url": "https://github.com/gastownhall/gascity/pull/4500",
+      "updated_at": "2026-07-22T16:22:40Z",
       "human_reviews": [],
       "human_comments": []
     },
@@ -198,6 +189,13 @@
     }
   },
   "recently_closed_prs": {
+    "4552": {
+      "title": "fix(doctor): rig-pack-coverage recognizes same-name local pack replacements (#3907)",
+      "state": "merged",
+      "url": "https://github.com/gastownhall/gascity/pull/4552",
+      "updated_at": "2026-07-23T17:18:12Z",
+      "merged_by": "quad341"
+    },
     "4549": {
       "title": "fix(orders): give a never-run cron order one bounded catch-up chance (#3947)",
       "state": "merged",

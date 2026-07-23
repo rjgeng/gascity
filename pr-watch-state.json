@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "last_checked_at": "2026-07-23T20:07:47Z",
+  "last_checked_at": "2026-07-23T21:11:42Z",
   "repo": "gastownhall/gascity",
   "author": "rjgeng",
   "prs": {
@@ -163,7 +163,7 @@
     "4555": {
       "title": "fix(storehealth): add an absolute-size floor so small cities don't permanently trip maintenance-overdue (#3374)",
       "state": "open",
-      "mergeable_state": "unknown",
+      "mergeable_state": "blocked",
       "url": "https://github.com/gastownhall/gascity/pull/4555",
       "updated_at": "2026-07-22T15:20:06Z",
       "human_reviews": [],
@@ -172,7 +172,7 @@
     "4583": {
       "title": "fix(cmd/gc): materialize newly-added skills on every applied config reload (#3459)",
       "state": "open",
-      "mergeable_state": "unknown",
+      "mergeable_state": "blocked",
       "url": "https://github.com/gastownhall/gascity/pull/4583",
       "updated_at": "2026-07-23T11:37:48Z",
       "human_reviews": [],
@@ -181,7 +181,7 @@
     "4584": {
       "title": "fix(sling): --nudge falls back to a running named session for instance-expandable agents (#3412)",
       "state": "open",
-      "mergeable_state": "unknown",
+      "mergeable_state": "blocked",
       "url": "https://github.com/gastownhall/gascity/pull/4584",
       "updated_at": "2026-07-23T11:48:53Z",
       "human_reviews": [],

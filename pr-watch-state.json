@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "last_checked_at": "2026-07-23T21:11:42Z",
+  "last_checked_at": "2026-07-23T22:08:28Z",
   "repo": "gastownhall/gascity",
   "author": "rjgeng",
   "prs": {
@@ -151,24 +151,6 @@
       "human_reviews": [],
       "human_comments": []
     },
-    "4554": {
-      "title": "fix(sling): warn when --on/default-formula attach drops the target bead's description (#3681)",
-      "state": "open",
-      "mergeable_state": "blocked",
-      "url": "https://github.com/gastownhall/gascity/pull/4554",
-      "updated_at": "2026-07-22T15:06:48Z",
-      "human_reviews": [],
-      "human_comments": []
-    },
-    "4555": {
-      "title": "fix(storehealth): add an absolute-size floor so small cities don't permanently trip maintenance-overdue (#3374)",
-      "state": "open",
-      "mergeable_state": "blocked",
-      "url": "https://github.com/gastownhall/gascity/pull/4555",
-      "updated_at": "2026-07-22T15:20:06Z",
-      "human_reviews": [],
-      "human_comments": []
-    },
     "4583": {
       "title": "fix(cmd/gc): materialize newly-added skills on every applied config reload (#3459)",
       "state": "open",
@@ -189,6 +171,20 @@
     }
   },
   "recently_closed_prs": {
+    "4555": {
+      "title": "fix(storehealth): add an absolute-size floor so small cities don't permanently trip maintenance-overdue (#3374)",
+      "state": "merged",
+      "url": "https://github.com/gastownhall/gascity/pull/4555",
+      "updated_at": "2026-07-23T21:56:05Z",
+      "merged_by": "quad341"
+    },
+    "4554": {
+      "title": "fix(sling): warn when --on/default-formula attach drops the target bead's description (#3681)",
+      "state": "merged",
+      "url": "https://github.com/gastownhall/gascity/pull/4554",
+      "updated_at": "2026-07-23T21:25:53Z",
+      "merged_by": "quad341"
+    },
     "4552": {
       "title": "fix(doctor): rig-pack-coverage recognizes same-name local pack replacements (#3907)",
       "state": "merged",
@@ -243,13 +239,6 @@
       "state": "merged",
       "url": "https://github.com/gastownhall/gascity/pull/4482",
       "updated_at": "2026-07-21T15:38:39Z",
-      "merged_by": "julianknutsen"
-    },
-    "4442": {
-      "title": "fix(cmd/gc): gc hook --claim never adopts mail message beads as work (#4419)",
-      "state": "merged",
-      "url": "https://github.com/gastownhall/gascity/pull/4442",
-      "updated_at": "2026-07-20T07:50:12Z",
       "merged_by": "julianknutsen"
     },
     "4406": {

@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "last_checked_at": "2026-07-23T15:09:41Z",
+  "last_checked_at": "2026-07-23T16:09:52Z",
   "repo": "gastownhall/gascity",
   "author": "rjgeng",
   "prs": {
@@ -64,15 +64,6 @@
       "mergeable_state": "blocked",
       "url": "https://github.com/gastownhall/gascity/pull/4552",
       "updated_at": "2026-07-22T14:47:50Z",
-      "human_reviews": [],
-      "human_comments": []
-    },
-    "4549": {
-      "title": "fix(orders): give a never-run cron order one bounded catch-up chance (#3947)",
-      "state": "open",
-      "mergeable_state": "blocked",
-      "url": "https://github.com/gastownhall/gascity/pull/4549",
-      "updated_at": "2026-07-22T14:32:09Z",
       "human_reviews": [],
       "human_comments": []
     },
@@ -207,6 +198,13 @@
     }
   },
   "recently_closed_prs": {
+    "4549": {
+      "title": "fix(orders): give a never-run cron order one bounded catch-up chance (#3947)",
+      "state": "merged",
+      "url": "https://github.com/gastownhall/gascity/pull/4549",
+      "updated_at": "2026-07-23T15:48:23Z",
+      "merged_by": "quad341"
+    },
     "4545": {
       "title": "fix(cmd/gc): only retarget engine-generated PreStart entries, not user-authored literals (#4069)",
       "state": "merged",

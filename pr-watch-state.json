@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "last_checked_at": "2026-07-24T09:10:16Z",
+  "last_checked_at": "2026-07-24T09:32:00Z",
   "repo": "gastownhall/gascity",
   "author": "rjgeng",
   "prs": {
@@ -156,7 +156,7 @@
       "state": "open",
       "mergeable_state": "blocked",
       "url": "https://github.com/gastownhall/gascity/pull/4584",
-      "updated_at": "2026-07-24T07:05:27Z",
+      "updated_at": "2026-07-24T09:31:39Z",
       "human_reviews": [],
       "human_comments": [
         {

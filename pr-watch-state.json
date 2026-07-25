@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "last_checked_at": "2026-07-25T21:09:38Z",
+  "last_checked_at": "2026-07-25T22:07:46Z",
   "repo": "gastownhall/gascity",
   "author": "rjgeng",
   "prs": {
@@ -87,15 +87,6 @@
       "human_reviews": [],
       "human_comments": []
     },
-    "4500": {
-      "title": "fix(gc): reap closed-bead worktrees from the rig root, fail closed on probe errors (#4492)",
-      "state": "open",
-      "mergeable_state": "dirty",
-      "url": "https://github.com/gastownhall/gascity/pull/4500",
-      "updated_at": "2026-07-22T16:22:40Z",
-      "human_reviews": [],
-      "human_comments": []
-    },
     "4547": {
       "title": "fix(cmd/gc): order dispatch searches all configured formula layers, not just the order's own (#4378)",
       "state": "open",
@@ -118,6 +109,7 @@
     }
   },
   "recently_closed_prs": {
+    "4500": { "title": "fix(gc): reap closed-bead worktrees from the rig root, fail closed on probe errors (#4492)", "state": "closed", "url": "https://github.com/gastownhall/gascity/pull/4500", "updated_at": "2026-07-25T22:00:17Z", "closed_note": "Superseded by merged #4598, per human comment from sjarmak" },
     "4583": { "title": "fix(cmd/gc): materialize newly-added skills on every applied config reload (#3459)", "state": "merged", "url": "https://github.com/gastownhall/gascity/pull/4583", "updated_at": "2026-07-24T09:01:34Z", "merged_by": "quad341" },
     "4555": { "title": "fix(storehealth): add an absolute-size floor so small cities don't permanently trip maintenance-overdue (#3374)", "state": "merged", "url": "https://github.com/gastownhall/gascity/pull/4555", "updated_at": "2026-07-23T21:56:05Z", "merged_by": "quad341" },
     "4554": { "title": "fix(sling): warn when --on/default-formula attach drops the target bead's description (#3681)", "state": "merged", "url": "https://github.com/gastownhall/gascity/pull/4554", "updated_at": "2026-07-23T21:25:53Z", "merged_by": "quad341" },

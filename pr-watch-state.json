@@ -1,1 +1,154 @@
-# placeholder, replaced below
+{
+  "schema_version": 1,
+  "last_checked_at": "2026-07-25T20:08:19Z",
+  "repo": "gastownhall/gascity",
+  "author": "rjgeng",
+  "prs": {
+    "3757": {
+      "title": "feat(dolt): surface active compaction quarantine markers in gc dolt health",
+      "state": "open",
+      "mergeable_state": "blocked",
+      "url": "https://github.com/gastownhall/gascity/pull/3757",
+      "updated_at": "2026-07-25T11:59:20Z",
+      "human_reviews": [
+        { "login": "rjgeng", "state": "COMMENTED", "submitted_at": "2026-06-28T22:48:58Z" }
+      ],
+      "human_comments": [
+        { "login": "wbern", "created_at": "2026-07-10T06:09:35Z" },
+        { "login": "rjgeng", "created_at": "2026-07-23T11:09:57Z" }
+      ]
+    },
+    "4095": {
+      "title": "fix(session): refresh reset_committed_at on every continuation-reset re-arm (#4067)",
+      "state": "open",
+      "mergeable_state": "blocked",
+      "url": "https://github.com/gastownhall/gascity/pull/4095",
+      "updated_at": "2026-07-19T21:29:54Z",
+      "human_reviews": [],
+      "human_comments": [
+        { "login": "rjgeng", "created_at": "2026-07-09T01:17:48Z" }
+      ]
+    },
+    "4138": {
+      "title": "fix(session): gc session attach waits for an in-flight controller reset instead of racing it (#4079)",
+      "state": "open",
+      "mergeable_state": "blocked",
+      "url": "https://github.com/gastownhall/gascity/pull/4138",
+      "updated_at": "2026-07-19T16:30:33Z",
+      "human_reviews": [],
+      "human_comments": []
+    },
+    "4384": {
+      "title": "fix(cmd/gc): validate explicit city path before scanning registry rig bindings (#4364)",
+      "state": "open",
+      "mergeable_state": "dirty",
+      "url": "https://github.com/gastownhall/gascity/pull/4384",
+      "updated_at": "2026-07-20T02:44:39Z",
+      "human_reviews": [
+        { "login": "sjarmak", "state": "CHANGES_REQUESTED", "submitted_at": "2026-07-18T08:05:11Z" },
+        { "login": "sjarmak", "state": "COMMENTED", "submitted_at": "2026-07-18T16:27:01Z" },
+        { "login": "quad341", "state": "DISMISSED", "submitted_at": "2026-07-19T13:48:25Z" },
+        { "login": "quad341", "state": "APPROVED", "submitted_at": "2026-07-20T02:03:04Z" }
+      ],
+      "human_comments": [
+        { "login": "quad341", "created_at": "2026-07-19T14:12:51Z" },
+        { "login": "quad341", "created_at": "2026-07-20T02:44:30Z" }
+      ]
+    },
+    "4405": {
+      "title": "fix(runtime/k8s): propagate Nudge/SendKeys transport errors (#4389)",
+      "state": "open",
+      "mergeable_state": "blocked",
+      "url": "https://github.com/gastownhall/gascity/pull/4405",
+      "updated_at": "2026-07-20T07:23:43Z",
+      "human_reviews": [
+        { "login": "sjarmak", "state": "CHANGES_REQUESTED", "submitted_at": "2026-07-18T19:16:03Z" },
+        { "login": "quad341", "state": "APPROVED", "submitted_at": "2026-07-20T07:14:10Z" }
+      ],
+      "human_comments": []
+    },
+    "4481": {
+      "title": "fix(runtime): treat a gone session as drain-acked (#4448)",
+      "state": "open",
+      "mergeable_state": "blocked",
+      "url": "https://github.com/gastownhall/gascity/pull/4481",
+      "updated_at": "2026-07-22T00:36:25Z",
+      "human_reviews": [],
+      "human_comments": [
+        { "login": "rjgeng", "created_at": "2026-07-20T15:07:45Z" }
+      ]
+    },
+    "4485": {
+      "title": "fix(supervisor): back off structural init failures far longer than transient ones (#4484)",
+      "state": "open",
+      "mergeable_state": "blocked",
+      "url": "https://github.com/gastownhall/gascity/pull/4485",
+      "updated_at": "2026-07-22T01:38:14Z",
+      "human_reviews": [],
+      "human_comments": []
+    },
+    "4500": {
+      "title": "fix(gc): reap closed-bead worktrees from the rig root, fail closed on probe errors (#4492)",
+      "state": "open",
+      "mergeable_state": "dirty",
+      "url": "https://github.com/gastownhall/gascity/pull/4500",
+      "updated_at": "2026-07-22T16:22:40Z",
+      "human_reviews": [],
+      "human_comments": []
+    },
+    "4547": {
+      "title": "fix(cmd/gc): order dispatch searches all configured formula layers, not just the order's own (#4378)",
+      "state": "open",
+      "mergeable_state": "blocked",
+      "url": "https://github.com/gastownhall/gascity/pull/4547",
+      "updated_at": "2026-07-23T14:42:30Z",
+      "human_reviews": [],
+      "human_comments": []
+    },
+    "4584": {
+      "title": "fix(sling): --nudge falls back to a running named session for instance-expandable agents (#3412)",
+      "state": "open",
+      "mergeable_state": "blocked",
+      "url": "https://github.com/gastownhall/gascity/pull/4584",
+      "updated_at": "2026-07-25T18:56:05Z",
+      "human_reviews": [],
+      "human_comments": [
+        { "login": "remuscazacu", "created_at": "2026-07-24T07:05:27Z" }
+      ]
+    }
+  },
+  "recently_closed_prs": {
+    "4583": { "title": "fix(cmd/gc): materialize newly-added skills on every applied config reload (#3459)", "state": "merged", "url": "https://github.com/gastownhall/gascity/pull/4583", "updated_at": "2026-07-24T09:01:34Z", "merged_by": "quad341" },
+    "4555": { "title": "fix(storehealth): add an absolute-size floor so small cities don't permanently trip maintenance-overdue (#3374)", "state": "merged", "url": "https://github.com/gastownhall/gascity/pull/4555", "updated_at": "2026-07-23T21:56:05Z", "merged_by": "quad341" },
+    "4554": { "title": "fix(sling): warn when --on/default-formula attach drops the target bead's description (#3681)", "state": "merged", "url": "https://github.com/gastownhall/gascity/pull/4554", "updated_at": "2026-07-23T21:25:53Z", "merged_by": "quad341" },
+    "4552": { "title": "fix(doctor): rig-pack-coverage recognizes same-name local pack replacements (#3907)", "state": "merged", "url": "https://github.com/gastownhall/gascity/pull/4552", "updated_at": "2026-07-23T17:18:12Z", "merged_by": "quad341" },
+    "4549": { "title": "fix(orders): give a never-run cron order one bounded catch-up chance (#3947)", "state": "merged", "url": "https://github.com/gastownhall/gascity/pull/4549", "updated_at": "2026-07-23T15:48:23Z", "merged_by": "quad341" },
+    "4545": { "title": "fix(cmd/gc): only retarget engine-generated PreStart entries, not user-authored literals (#4069)", "state": "merged", "url": "https://github.com/gastownhall/gascity/pull/4545", "updated_at": "2026-07-23T14:24:06Z", "merged_by": "quad341" },
+    "4542": { "title": "fix(config): warn when a pack's agent_defaults never reaches its own imports (#4524)", "state": "merged", "url": "https://github.com/gastownhall/gascity/pull/4542", "updated_at": "2026-07-23T13:26:30Z", "merged_by": "quad341" },
+    "4540": { "title": "fix(packman): walk local path-source packs' own transitive remote imports (#4523)", "state": "merged", "url": "https://github.com/gastownhall/gascity/pull/4540", "updated_at": "2026-07-23T12:32:42Z", "merged_by": "quad341" },
+    "4538": { "title": "fix(config): hint the bare local name when a pack patch targets a qualified agent name (#4525)", "state": "merged", "url": "https://github.com/gastownhall/gascity/pull/4538", "updated_at": "2026-07-23T11:12:49Z", "merged_by": "quad341" },
+    "4483": { "title": "fix(beads): skip nested Go modules in the bd-exec boundary walker (#4480)", "state": "merged", "url": "https://github.com/gastownhall/gascity/pull/4483", "updated_at": "2026-07-22T02:44:13Z", "merged_by": "quad341" },
+    "4482": { "title": "test(cmd_hook): resolve \"true\" via LookPath instead of hardcoding /bin/true (#4454)", "state": "merged", "url": "https://github.com/gastownhall/gascity/pull/4482", "updated_at": "2026-07-21T15:38:39Z", "merged_by": "julianknutsen" },
+    "4442": { "title": "fix(cmd/gc): gc hook --claim never adopts mail message beads as work (#4419)", "state": "merged", "url": "https://github.com/gastownhall/gascity/pull/4442", "updated_at": "2026-07-20T07:50:12Z", "merged_by": "julianknutsen" },
+    "4406": { "title": "fix(cmd/gc): gc init --skip-provider-readiness accepts any builtin provider (#4392)", "state": "merged", "url": "https://github.com/gastownhall/gascity/pull/4406", "updated_at": "2026-07-20T08:26:25Z", "merged_by": "quad341" },
+    "4248": { "title": "fix(doctor): warn when beads-store silently fell back to BdStore (#4245)", "state": "merged", "url": "https://github.com/gastownhall/gascity/pull/4248", "updated_at": "2026-07-19T15:09:01Z", "merged_by": "quad341" },
+    "4219": { "title": "fix(runproj): warming snapshot no longer marshals historicalLanes/recentChanges as null (#4142)", "state": "merged", "url": "https://github.com/gastownhall/gascity/pull/4219", "updated_at": "2026-07-17T07:07:17Z", "merged_by": "quad341" },
+    "4216": { "title": "fix(cmd/gc): lint no longer flags the documented pool-disable form as a named-session conflict (#4184)", "state": "merged", "url": "https://github.com/gastownhall/gascity/pull/4216", "updated_at": "2026-07-17T06:05:24Z", "merged_by": "quad341" },
+    "4213": { "title": "fix(materialize): log a debug line when a shared skill-catalog name is shadowed (#4131)", "state": "merged", "url": "https://github.com/gastownhall/gascity/pull/4213", "updated_at": "2026-07-17T04:31:56Z", "merged_by": "quad341" },
+    "4211": { "title": "test(cmd/gc): regression coverage for rig-scoped pool default scale_check + work_query (#4189)", "state": "merged", "url": "https://github.com/gastownhall/gascity/pull/4211", "updated_at": "2026-07-17T03:31:23Z", "merged_by": "quad341" },
+    "4186": { "title": "fix(reaper): head+tail window sanitize_output so long-query errors survive (#4161)", "state": "merged", "url": "https://github.com/gastownhall/gascity/pull/4186", "updated_at": "2026-07-16T16:06:26Z", "merged_by": "quad341" },
+    "4156": { "title": "fix(materialize): remember gc-written symlink targets so pack-sha bumps self-heal (#4130)", "state": "merged", "url": "https://github.com/gastownhall/gascity/pull/4156", "updated_at": "2026-07-16T12:35:54Z" },
+    "4129": { "title": "fix(dolt-cleanup): resolve DROP-stage user via GC_DOLT_USER instead of hardcoded root (#4123)", "state": "merged", "url": "https://github.com/gastownhall/gascity/pull/4129", "updated_at": "2026-07-16T02:51:35Z" },
+    "4019": { "title": "feat(config): gc config explain renders idle/lifecycle-timeout agent keys (#3965)", "state": "merged", "url": "https://github.com/gastownhall/gascity/pull/4019", "updated_at": "2026-07-15T12:47:22Z" },
+    "3981": { "title": "fix(cmd): imported command groups exit non-zero on unknown subcommands (#3966)", "state": "merged", "url": "https://github.com/gastownhall/gascity/pull/3981", "updated_at": "2026-07-14T02:05:11Z" },
+    "3979": { "title": "fix(doctor): clarify external Dolt backup message — endpoint may be local (#3868 follow-up)", "state": "merged", "url": "https://github.com/gastownhall/gascity/pull/3979", "updated_at": "2026-07-14T00:30:02Z" },
+    "3922": { "title": "fix(doctor): recognize external Dolt endpoints in the dolt-backup check (#3868)", "state": "merged", "url": "https://github.com/gastownhall/gascity/pull/3922", "updated_at": "2026-07-04T21:43:40Z" },
+    "3542": { "title": "fix(dolt): exclude dolt_ignore'd tables force-inlined into HEAD from compact flatten verification (#3431 follow-up)", "state": "closed", "url": "https://github.com/gastownhall/gascity/pull/3542", "updated_at": "2026-06-21T17:50:50Z" },
+    "3469": { "title": "fix(dolt): dedup mol-dog-doctor [MEDIUM] advisory storm (#3409)", "state": "merged", "url": "https://github.com/gastownhall/gascity/pull/3469", "updated_at": "2026-06-15T15:55:45Z" },
+    "2638": { "title": "fix(gc): warn before supervisor recycle during city init", "state": "merged", "url": "https://github.com/gastownhall/gascity/pull/2638", "updated_at": "2026-05-31T17:48:42Z" },
+    "2316": { "title": "fix(dolt): retry preflight when HEAD races on busy DBs in gc dolt compact", "state": "merged", "url": "https://github.com/gastownhall/gascity/pull/2316", "updated_at": "2026-05-20T14:54:39Z" },
+    "2136": { "title": "fix(maintenance): retry mol-dog-jsonl push on concurrent ref-update race", "state": "merged", "url": "https://github.com/gastownhall/gascity/pull/2136", "updated_at": "2026-05-24T10:57:29Z" },
+    "2088": { "title": "docs(convoy): clarify --help text re: workflows vs convoys", "state": "merged", "url": "https://github.com/gastownhall/gascity/pull/2088", "updated_at": "2026-05-20T18:45:45Z" },
+    "2037": { "title": "fix(packs): fallback to dolt-provider-state.json", "state": "merged", "url": "https://github.com/gastownhall/gascity/pull/2037", "updated_at": "2026-05-13T01:46:13Z" }
+  }
+}

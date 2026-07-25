@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "last_checked_at": "2026-07-25T16:08:54Z",
+  "last_checked_at": "2026-07-25T17:09:08Z",
   "repo": "gastownhall/gascity",
   "author": "rjgeng",
   "prs": {
@@ -90,7 +90,7 @@
     "4500": {
       "title": "fix(gc): reap closed-bead worktrees from the rig root, fail closed on probe errors (#4492)",
       "state": "open",
-      "mergeable_state": "blocked",
+      "mergeable_state": "dirty",
       "url": "https://github.com/gastownhall/gascity/pull/4500",
       "updated_at": "2026-07-22T16:22:40Z",
       "human_reviews": [],

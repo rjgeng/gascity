@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "last_checked_at": "2026-07-26T06:10:34Z",
+  "last_checked_at": "2026-07-26T07:12:13Z",
   "repo": "gastownhall/gascity",
   "author": "rjgeng",
   "prs": {
@@ -21,7 +21,7 @@
     "4095": {
       "title": "fix(session): refresh reset_committed_at on every continuation-reset re-arm (#4067)",
       "state": "open",
-      "mergeable_state": "blocked",
+      "mergeable_state": "unknown",
       "url": "https://github.com/gastownhall/gascity/pull/4095",
       "updated_at": "2026-07-19T21:29:54Z",
       "human_reviews": [],
@@ -32,7 +32,7 @@
     "4138": {
       "title": "fix(session): gc session attach waits for an in-flight controller reset instead of racing it (#4079)",
       "state": "open",
-      "mergeable_state": "blocked",
+      "mergeable_state": "unknown",
       "url": "https://github.com/gastownhall/gascity/pull/4138",
       "updated_at": "2026-07-19T16:30:33Z",
       "human_reviews": [],
@@ -70,7 +70,7 @@
     "4481": {
       "title": "fix(runtime): treat a gone session as drain-acked (#4448)",
       "state": "open",
-      "mergeable_state": "blocked",
+      "mergeable_state": "unknown",
       "url": "https://github.com/gastownhall/gascity/pull/4481",
       "updated_at": "2026-07-22T00:36:25Z",
       "human_reviews": [],
@@ -81,7 +81,7 @@
     "4485": {
       "title": "fix(supervisor): back off structural init failures far longer than transient ones (#4484)",
       "state": "open",
-      "mergeable_state": "blocked",
+      "mergeable_state": "unknown",
       "url": "https://github.com/gastownhall/gascity/pull/4485",
       "updated_at": "2026-07-22T01:38:14Z",
       "human_reviews": [],
@@ -90,7 +90,7 @@
     "4547": {
       "title": "fix(cmd/gc): order dispatch searches all configured formula layers, not just the order's own (#4378)",
       "state": "open",
-      "mergeable_state": "blocked",
+      "mergeable_state": "unknown",
       "url": "https://github.com/gastownhall/gascity/pull/4547",
       "updated_at": "2026-07-23T14:42:30Z",
       "human_reviews": [],
@@ -99,7 +99,7 @@
     "4584": {
       "title": "fix(sling): --nudge falls back to a running named session for instance-expandable agents (#3412)",
       "state": "open",
-      "mergeable_state": "blocked",
+      "mergeable_state": "unknown",
       "url": "https://github.com/gastownhall/gascity/pull/4584",
       "updated_at": "2026-07-25T18:56:05Z",
       "human_reviews": [],

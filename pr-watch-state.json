@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "last_checked_at": "2026-07-26T04:08:58Z",
+  "last_checked_at": "2026-07-26T05:08:13Z",
   "repo": "gastownhall/gascity",
   "author": "rjgeng",
   "prs": {
@@ -109,7 +109,7 @@
     }
   },
   "recently_closed_prs": {
-    "4500": { "title": "fix(gc): reap closed-bead worktrees from the rig root, fail closed on probe errors (#4492)", "state": "closed", "url": "https://github.com/gastownhall/gascity/pull/4500", "updated_at": "2026-07-25T22:00:17Z", "closed_note": "Superseded by merged #4598, per human comment from sjarmak" },
+    "4500": { "title": "fix(gc): reap closed-bead worktrees from the rig root, fail closed on probe errors (#4492)", "state": "closed", "url": "https://github.com/gastownhall/gascity/pull/4500", "updated_at": "2026-07-26T04:52:23Z", "closed_note": "Superseded by merged #4598, per human comment from sjarmak. New comment from rjgeng (2026-07-26T04:52:23Z) reports defects #2 (fail-open probe errors) and #3 (hyphenated rig-prefix parsing) are still unfixed on main and offers to open a fresh PR." },
     "4583": { "title": "fix(cmd/gc): materialize newly-added skills on every applied config reload (#3459)", "state": "merged", "url": "https://github.com/gastownhall/gascity/pull/4583", "updated_at": "2026-07-24T09:01:34Z", "merged_by": "quad341" },
     "4555": { "title": "fix(storehealth): add an absolute-size floor so small cities don't permanently trip maintenance-overdue (#3374)", "state": "merged", "url": "https://github.com/gastownhall/gascity/pull/4555", "updated_at": "2026-07-23T21:56:05Z", "merged_by": "quad341" },
     "4554": { "title": "fix(sling): warn when --on/default-formula attach drops the target bead's description (#3681)", "state": "merged", "url": "https://github.com/gastownhall/gascity/pull/4554", "updated_at": "2026-07-23T21:25:53Z", "merged_by": "quad341" },

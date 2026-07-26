@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "last_checked_at": "2026-07-26T19:15:00Z",
+  "last_checked_at": "2026-07-26T20:08:39Z",
   "repo": "gastownhall/gascity",
   "author": "rjgeng",
   "prs": {
@@ -122,6 +122,7 @@
     "4483": { "title": "fix(beads): skip nested Go modules in the bd-exec boundary walker (#4480)", "state": "merged", "url": "https://github.com/gastownhall/gascity/pull/4483", "updated_at": "2026-07-22T02:44:13Z", "merged_by": "quad341" },
     "4482": { "title": "test(cmd_hook): resolve \"true\" via LookPath instead of hardcoding /bin/true (#4454)", "state": "merged", "url": "https://github.com/gastownhall/gascity/pull/4482", "updated_at": "2026-07-21T15:38:39Z", "merged_by": "julianknutsen" },
     "4406": { "title": "fix(cmd/gc): gc init --skip-provider-readiness accepts any builtin provider (#4392)", "state": "merged", "url": "https://github.com/gastownhall/gascity/pull/4406", "updated_at": "2026-07-20T08:26:25Z", "merged_by": "quad341" },
+    "4442": { "title": "fix(cmd/gc): gc hook --claim never adopts mail message beads as work (#4419)", "state": "merged", "url": "https://github.com/gastownhall/gascity/pull/4442", "updated_at": "2026-07-20T07:50:12Z", "merged_by": "julianknutsen" },
     "4248": { "title": "fix(doctor): warn when beads-store silently fell back to BdStore (#4245)", "state": "merged", "url": "https://github.com/gastownhall/gascity/pull/4248", "updated_at": "2026-07-19T15:09:01Z", "merged_by": "quad341" },
     "4219": { "title": "fix(runproj): warming snapshot no longer marshals historicalLanes/recentChanges as null (#4142)", "state": "merged", "url": "https://github.com/gastownhall/gascity/pull/4219", "updated_at": "2026-07-17T07:07:17Z", "merged_by": "quad341" },
     "4216": { "title": "fix(cmd/gc): lint no longer flags the documented pool-disable form as a named-session conflict (#4184)", "state": "merged", "url": "https://github.com/gastownhall/gascity/pull/4216", "updated_at": "2026-07-17T06:05:24Z", "merged_by": "quad341" },
@@ -140,7 +141,6 @@
     "2316": { "title": "fix(dolt): retry preflight when HEAD races on busy DBs in gc dolt compact", "state": "merged", "url": "https://github.com/gastownhall/gascity/pull/2316", "updated_at": "2026-05-20T14:54:39Z" },
     "2136": { "title": "fix(maintenance): retry mol-dog-jsonl push on concurrent ref-update race", "state": "merged", "url": "https://github.com/gastownhall/gascity/pull/2136", "updated_at": "2026-05-24T10:57:29Z" },
     "2088": { "title": "docs(convoy): clarify --help text re: workflows vs convoys", "state": "merged", "url": "https://github.com/gastownhall/gascity/pull/2088", "updated_at": "2026-05-20T18:45:45Z" },
-    "2037": { "title": "fix(packs): fallback to dolt-provider-state.json", "state": "merged", "url": "https://github.com/gastownhall/gascity/pull/2037", "updated_at": "2026-05-13T01:46:13Z" },
-    "4442": { "title": "fix(cmd/gc): gc hook --claim never adopts mail message beads as work (#4419)", "state": "merged", "url": "https://github.com/gastownhall/gascity/pull/4442", "updated_at": "2026-07-20T07:50:12Z", "merged_by": "julianknutsen" }
+    "2037": { "title": "fix(packs): fallback to dolt-provider-state.json", "state": "merged", "url": "https://github.com/gastownhall/gascity/pull/2037", "updated_at": "2026-05-13T01:46:13Z" }
   }
 }

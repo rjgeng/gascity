@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "last_checked_at": "2026-07-26T08:08:07Z",
+  "last_checked_at": "2026-07-26T09:08:42Z",
   "repo": "gastownhall/gascity",
   "author": "rjgeng",
   "prs": {
@@ -90,7 +90,7 @@
     "4547": {
       "title": "fix(cmd/gc): order dispatch searches all configured formula layers, not just the order's own (#4378)",
       "state": "open",
-      "mergeable_state": "unknown",
+      "mergeable_state": "blocked",
       "url": "https://github.com/gastownhall/gascity/pull/4547",
       "updated_at": "2026-07-23T14:42:30Z",
       "human_reviews": [],
@@ -99,7 +99,7 @@
     "4584": {
       "title": "fix(sling): --nudge falls back to a running named session for instance-expandable agents (#3412)",
       "state": "open",
-      "mergeable_state": "unknown",
+      "mergeable_state": "blocked",
       "url": "https://github.com/gastownhall/gascity/pull/4584",
       "updated_at": "2026-07-25T18:56:05Z",
       "human_reviews": [],

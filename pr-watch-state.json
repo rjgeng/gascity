@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "last_checked_at": "2026-07-28T12:16:04Z",
+  "last_checked_at": "2026-07-28T13:11:53Z",
   "repo": "gastownhall/gascity",
   "author": "rjgeng",
   "prs": {
@@ -130,7 +130,7 @@
     "4211": { "title": "test(cmd/gc): regression coverage for rig-scoped pool default scale_check + work_query (#4189)", "state": "merged", "url": "https://github.com/gastownhall/gascity/pull/4211", "updated_at": "2026-07-17T03:31:23Z", "merged_by": "quad341" },
     "4186": { "title": "fix(reaper): head+tail window sanitize_output so long-query errors survive (#4161)", "state": "merged", "url": "https://github.com/gastownhall/gascity/pull/4186", "updated_at": "2026-07-16T16:06:26Z", "merged_by": "quad341" },
     "4156": { "title": "fix(materialize): remember gc-written symlink targets so pack-sha bumps self-heal (#4130)", "state": "merged", "url": "https://github.com/gastownhall/gascity/pull/4156", "updated_at": "2026-07-16T12:35:54Z", "merged_by": "quad341" },
-    "4129": { "title": "fix(dolt-cleanup): resolve DROP-stage user via GC_DOLT_USER instead of hardcoded root (#4123)", "state": "merged", "url": "https://github.com/gastownhall/gascity/pull/4129", "updated_at": "2026-07-16T02:51:35Z", "merged_by": "quad341" },
+    "4129": { "title": "fix(dolt-cleanup): resolve DROP-stage user via GC_DOLT_USER instead of hardcoded root (#4129)", "state": "merged", "url": "https://github.com/gastownhall/gascity/pull/4129", "updated_at": "2026-07-16T02:51:35Z", "merged_by": "quad341" },
     "4019": { "title": "feat(config): gc config explain renders idle/lifecycle-timeout agent keys (#3965)", "state": "merged", "url": "https://github.com/gastownhall/gascity/pull/4019", "updated_at": "2026-07-15T12:47:22Z", "merged_by": "quad341" },
     "3981": { "title": "fix(cmd): imported command groups exit non-zero on unknown subcommands (#3966)", "state": "merged", "url": "https://github.com/gastownhall/gascity/pull/3981", "updated_at": "2026-07-14T02:05:11Z", "merged_by": "quad341" },
     "3979": { "title": "fix(doctor): clarify external Dolt backup message — endpoint may be local (#3868 follow-up)", "state": "merged", "url": "https://github.com/gastownhall/gascity/pull/3979", "updated_at": "2026-07-14T00:30:02Z", "merged_by": "quad341" },

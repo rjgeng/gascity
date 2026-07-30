@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "last_checked_at": "2026-07-30T16:08:29Z",
+  "last_checked_at": "2026-07-30T17:07:44Z",
   "repo": "gastownhall/gascity",
   "author": "rjgeng",
   "prs": {
@@ -57,6 +57,24 @@
       "updated_at": "2026-07-25T18:56:05Z",
       "human_reviews": [],
       "human_comments": [ { "login": "remuscazacu", "created_at": "2026-07-24T07:05:27Z" } ]
+    },
+    "4856": {
+      "title": "fix(storehealth): bound LastMaintenance's event-log scan (#4418)",
+      "state": "open",
+      "mergeable_state": "blocked",
+      "url": "https://github.com/gastownhall/gascity/pull/4856",
+      "updated_at": "2026-07-30T16:52:45Z",
+      "human_reviews": [],
+      "human_comments": []
+    },
+    "4857": {
+      "title": "fix(mail): authorize --from against the calling session's own identity (#4070)",
+      "state": "open",
+      "mergeable_state": "blocked",
+      "url": "https://github.com/gastownhall/gascity/pull/4857",
+      "updated_at": "2026-07-30T17:04:39Z",
+      "human_reviews": [],
+      "human_comments": []
     }
   },
   "recently_closed_prs": {

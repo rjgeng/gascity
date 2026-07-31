@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "last_checked_at": "2026-07-31T20:09:57Z",
+  "last_checked_at": "2026-07-31T21:09:06Z",
   "repo": "gastownhall/gascity",
   "author": "rjgeng",
   "prs": {
-    "4095": {"title":"fix(session): refresh reset_committed_at on every continuation-reset re-arm (#4067)","state":"open","mergeable_state":"blocked","url":"https://github.com/gastownhall/gascity/pull/4095","updated_at":"2026-07-26T11:14:51Z","human_reviews":[],"human_comments":[{"login":"rjgeng","created_at":"2026-07-09T01:17:48Z"}]},
+    "4095": {"title":"fix(session): refresh reset_committed_at on every continuation-reset re-arm (#4067)","state":"open","mergeable_state":"blocked","url":"https://github.com/gastownhall/gascity/pull/4095","updated_at":"2026-07-26T11:14:51Z","human_reviews":[],"human_comments":[{"login":"rjgeng","created_at":"2026-07-09T01:17:48Z"}],"note":"A gascityinc-olivia[bot] auto-triage comment also appeared (2026-07-19T21:29:53Z) — bot, not a human maintainer, not reportable."},
     "4138": {"title":"fix(session): gc session attach waits for an in-flight controller reset instead of racing it (#4079)","state":"open","mergeable_state":"blocked","url":"https://github.com/gastownhall/gascity/pull/4138","updated_at":"2026-07-19T16:30:33Z","human_reviews":[],"human_comments":[],"note":"A gascityinc-olivia[bot] auto-triage comment appeared (2026-07-19T16:30:33Z) — bot, not a human maintainer, not reportable."},
     "4481": {"title":"fix(runtime): treat a gone session as drain-acked (#4448)","state":"open","mergeable_state":"blocked","url":"https://github.com/gastownhall/gascity/pull/4481","updated_at":"2026-07-22T00:36:25Z","human_reviews":[],"human_comments":[{"login":"rjgeng","created_at":"2026-07-20T15:07:45Z"}],"note":"A gascityinc-olivia[bot] auto-triage comment also appeared (2026-07-20T15:18:19Z) — bot, not reportable."},
     "4485": {"title":"fix(supervisor): back off structural init failures far longer than transient ones (#4484)","state":"open","mergeable_state":"blocked","url":"https://github.com/gastownhall/gascity/pull/4485","updated_at":"2026-07-30T17:34:22Z","human_reviews":[],"human_comments":[{"login":"rjgeng","created_at":"2026-07-30T17:34:22Z"}],"note":"The 2026-07-30T17:34:22Z comment is from rjgeng (the PR author) himself, describing an independently-built competing PR and offering backoff-duration data; not maintainer feedback, so not treated as a reportable event. A gascityinc-olivia[bot] auto-triage comment (2026-07-20T16:18:29Z) also present — bot, not reportable."},

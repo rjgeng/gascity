@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "last_checked_at": "2026-07-31T17:08:13Z",
+  "last_checked_at": "2026-07-31T18:07:35Z",
   "repo": "gastownhall/gascity",
   "author": "rjgeng",
   "prs": {
@@ -53,6 +53,6 @@
     "2316": {"title":"fix(dolt): retry preflight when HEAD races on busy DBs in gc dolt compact","state":"merged","url":"https://github.com/gastownhall/gascity/pull/2316","updated_at":"2026-05-20T14:54:39Z","merged_by":"julianknutsen"},
     "2136": {"title":"fix(maintenance): retry mol-dog-jsonl push on concurrent ref-update race","state":"merged","url":"https://github.com/gastownhall/gascity/pull/2136","updated_at":"2026-05-24T10:57:29Z","merged_by":"julianknutsen"},
     "2088": {"title":"docs(convoy): clarify --help text re: workflows vs convoys","state":"merged","url":"https://github.com/gastownhall/gascity/pull/2088","updated_at":"2026-05-20T18:45:45Z","merged_by":"quad341"},
-    "2037": {"title":"fix(packs): fallback to dolt-provider-state.json","state":"merged","url":"https://github.com/gastownhall/gascity/pull/2037","updated_at":"2026-05-13T01:46:13Z","merged_by":"sjarmak"}
+    "2037": {"title":"fix(packs): fallback to dolt-provider-state.json","state":"merged","url":"https://github.com/gastownhall/gascity/pull/2037","updated_at":"2026-05-13T01:46:13Z","merged_by":"quad341"}
   }
 }

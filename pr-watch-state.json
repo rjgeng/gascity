@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "last_checked_at": "2026-07-31T10:09:03Z",
+  "last_checked_at": "2026-07-31T11:08:49Z",
   "repo": "gastownhall/gascity",
   "author": "rjgeng",
   "prs": {
@@ -96,6 +96,16 @@
       "updated_at": "2026-07-30T17:04:39Z",
       "human_reviews": [],
       "human_comments": []
+    },
+    "4875": {
+      "title": "fix(dolt): send SIGTERM before SIGKILL in run_bounded's python3 fallback (#4823)",
+      "state": "open",
+      "mergeable_state": "blocked",
+      "url": "https://github.com/gastownhall/gascity/pull/4875",
+      "updated_at": "2026-07-31T10:42:55Z",
+      "human_reviews": [],
+      "human_comments": [],
+      "note": "First sighting this run. Sitting at the normal bot-review-only/BLOCKED default state, so not treated as a reportable event."
     }
   },
   "recently_closed_prs": {

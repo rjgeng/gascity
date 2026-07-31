@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "last_checked_at": "2026-07-31T11:08:49Z",
+  "last_checked_at": "2026-07-31T12:11:40Z",
   "repo": "gastownhall/gascity",
   "author": "rjgeng",
   "prs": {
@@ -104,8 +104,7 @@
       "url": "https://github.com/gastownhall/gascity/pull/4875",
       "updated_at": "2026-07-31T10:42:55Z",
       "human_reviews": [],
-      "human_comments": [],
-      "note": "First sighting this run. Sitting at the normal bot-review-only/BLOCKED default state, so not treated as a reportable event."
+      "human_comments": []
     }
   },
   "recently_closed_prs": {

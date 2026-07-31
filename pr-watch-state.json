@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "last_checked_at": "2026-07-31T22:10:56Z",
+  "last_checked_at": "2026-07-31T23:07:53Z",
   "repo": "gastownhall/gascity",
   "author": "rjgeng",
   "prs": {
@@ -30,7 +30,7 @@
     "4545": {"title":"fix(cmd/gc): only retarget engine-generated PreStart entries, not user-authored literals (#4069)","state":"merged","url":"https://github.com/gastownhall/gascity/pull/4545","updated_at":"2026-07-23T14:24:06Z","merged_by":"quad341"},
     "4542": {"title":"fix(config): warn when a pack's agent_defaults never reaches its own imports (#4524)","state":"merged","url":"https://github.com/gastownhall/gascity/pull/4542","updated_at":"2026-07-23T13:26:30Z","merged_by":"quad341"},
     "4540": {"title":"fix(packman): walk local path-source packs' own transitive remote imports (#4523)","state":"merged","url":"https://github.com/gastownhall/gascity/pull/4540","updated_at":"2026-07-23T12:32:42Z","merged_by":"quad341"},
-    "4538": {"title":"fix(config): hint the bare local name when a pack patch targets a qualified agent name (#4525)","state":"merged","url":"https://github.com/gastownhall/gascity/pull/4538","updated_at":"2026-07-23T11:12:49Z","merged_by":"quad341"},
+    "4538": {"title":"fix(config): hint the bare local name when a pack patch targets a qualified agent name (#4525)","state":"merged","url":"https://github.com/gastownhall/gascity/pull/4538","updated_at":"2026-07-23T11:12:49Z","merged_by":"quad341","note":"Backfilled 2026-07-31 — merged_at 2026-07-23T11:12:47Z, well before this tool's tracking began; omission from the prior baseline was a gap-fill, not a new event, so not reported."},
     "4483": {"title":"fix(beads): skip nested Go modules in the bd-exec boundary walker (#4480)","state":"merged","url":"https://github.com/gastownhall/gascity/pull/4483","updated_at":"2026-07-22T02:44:13Z","merged_by":"quad341"},
     "4482": {"title":"test(cmd_hook): resolve true via LookPath instead of hardcoding /bin/true (#4454)","state":"merged","url":"https://github.com/gastownhall/gascity/pull/4482","updated_at":"2026-07-21T15:38:39Z","merged_by":"julianknutsen"},
     "4406": {"title":"fix(cmd/gc): gc init --skip-provider-readiness accepts any builtin provider (#4392)","state":"merged","url":"https://github.com/gastownhall/gascity/pull/4406","updated_at":"2026-07-20T08:26:25Z","merged_by":"quad341"},

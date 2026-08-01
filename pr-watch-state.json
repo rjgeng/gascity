@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "last_checked_at": "2026-08-01T04:07:31Z",
+  "last_checked_at": "2026-08-01T05:07:14Z",
   "repo": "gastownhall/gascity",
   "author": "rjgeng",
   "prs": {
@@ -47,6 +47,7 @@
     "3981": {"title":"fix(cmd): imported command groups exit non-zero on unknown subcommands (#3966)","state":"merged","url":"https://github.com/gastownhall/gascity/pull/3981","updated_at":"2026-07-14T02:05:11Z","merged_by":"quad341"},
     "3979": {"title":"fix(doctor): clarify external Dolt backup message — endpoint may be local (#3868 follow-up)","state":"merged","url":"https://github.com/gastownhall/gascity/pull/3979","updated_at":"2026-07-14T00:30:02Z","merged_by":"quad341"},
     "3922": {"title":"fix(doctor): recognize external Dolt endpoints in the dolt-backup check (#3868)","state":"merged","url":"https://github.com/gastownhall/gascity/pull/3922","updated_at":"2026-07-04T21:43:40Z","merged_by":"quad341"},
+    "3757": {"title":"feat(dolt): surface active compaction quarantine markers in gc dolt health","state":"merged","url":"https://github.com/gastownhall/gascity/pull/3757","updated_at":"2026-07-29T03:54:54Z","merged_by":"quad341"},
     "3542": {"title":"fix(dolt): exclude dolt_ignore'd tables force-inlined into HEAD from compact flatten verification (#3431 follow-up)","state":"closed","url":"https://github.com/gastownhall/gascity/pull/3542","updated_at":"2026-06-21T17:50:50Z"},
     "3469": {"title":"fix(dolt): dedup mol-dog-doctor [MEDIUM] advisory storm (#3409)","state":"merged","url":"https://github.com/gastownhall/gascity/pull/3469","updated_at":"2026-06-15T15:55:45Z","merged_by":"quad341"},
     "2638": {"title":"fix(gc): warn before supervisor recycle during city init","state":"merged","url":"https://github.com/gastownhall/gascity/pull/2638","updated_at":"2026-05-31T17:48:42Z","merged_by":"julianknutsen"},

@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "last_checked_at": "2026-08-03T23:15:39Z",
+  "last_checked_at": "2026-08-04T00:15:00Z",
   "repo": "gastownhall/gascity",
   "author": "rjgeng",
   "prs": {
@@ -17,7 +17,7 @@
           "created_at": "2026-07-09T01:17:48Z"
         }
       ],
-      "note": "No change since prior baseline (reconfirmed 2026-08-03T23:15:39Z)."
+      "note": "No change since prior baseline (reconfirmed 2026-08-04T00:15:00Z)."
     },
     "4138": {
       "title": "fix(session): gc session attach waits for an in-flight controller reset instead of racing it (#4079)",
@@ -27,7 +27,7 @@
       "updated_at": "2026-07-19T16:30:33Z",
       "human_reviews": [],
       "human_comments": [],
-      "note": "No change since prior baseline (reconfirmed 2026-08-03T23:15:39Z)."
+      "note": "No change since prior baseline (reconfirmed 2026-08-04T00:15:00Z)."
     },
     "4481": {
       "title": "fix(runtime): treat a gone session as drain-acked (#4448)",
@@ -42,7 +42,7 @@
           "created_at": "2026-07-20T15:07:45Z"
         }
       ],
-      "note": "No change since prior baseline (reconfirmed 2026-08-03T23:15:39Z)."
+      "note": "No change since prior baseline (reconfirmed 2026-08-04T00:15:00Z)."
     },
     "4485": {
       "title": "fix(supervisor): back off structural init failures far longer than transient ones (#4484)",
@@ -57,7 +57,7 @@
           "created_at": "2026-07-30T17:34:22Z"
         }
       ],
-      "note": "Still DIRTY (unresolved merge conflict) since baseline — not reportable, rule only flags movement toward CLEAN/UNSTABLE (reconfirmed 2026-08-03T23:15:39Z)."
+      "note": "Still DIRTY (unresolved merge conflict) since baseline — not reportable, rule only flags movement toward CLEAN/UNSTABLE (reconfirmed 2026-08-04T00:15:00Z)."
     },
     "4547": {
       "title": "fix(cmd/gc): order dispatch searches all configured formula layers, not just the order's own (#4378)",
@@ -67,7 +67,7 @@
       "updated_at": "2026-07-23T14:42:30Z",
       "human_reviews": [],
       "human_comments": [],
-      "note": "No change since prior baseline (reconfirmed 2026-08-03T23:15:39Z)."
+      "note": "No change since prior baseline (reconfirmed 2026-08-04T00:15:00Z)."
     },
     "4584": {
       "title": "fix(sling): --nudge falls back to a running named session for instance-expandable agents (#3412)",
@@ -82,7 +82,7 @@
           "created_at": "2026-07-24T07:05:27Z"
         }
       ],
-      "note": "remuscazacu's comment asking a maintainer to triage remains unanswered. No change since prior baseline (reconfirmed 2026-08-03T23:15:39Z)."
+      "note": "remuscazacu's comment asking a maintainer to triage remains unanswered. No change since prior baseline (reconfirmed 2026-08-04T00:15:00Z)."
     },
     "4856": {
       "title": "fix(storehealth): bound LastMaintenance's event-log scan (#4418)",
@@ -92,7 +92,7 @@
       "updated_at": "2026-07-30T16:52:45Z",
       "human_reviews": [],
       "human_comments": [],
-      "note": "No change since prior baseline (already DIRTY, no human touch; reconfirmed 2026-08-03T23:15:39Z)."
+      "note": "No change since prior baseline (already DIRTY, no human touch; reconfirmed 2026-08-04T00:15:00Z)."
     },
     "4857": {
       "title": "fix(mail): authorize --from against the calling session's own identity (#4070)",
@@ -102,7 +102,7 @@
       "updated_at": "2026-07-30T17:04:39Z",
       "human_reviews": [],
       "human_comments": [],
-      "note": "No change since prior baseline (already DIRTY, no human touch; reconfirmed 2026-08-03T23:15:39Z)."
+      "note": "No change since prior baseline (already DIRTY, no human touch; reconfirmed 2026-08-04T00:15:00Z)."
     },
     "4876": {
       "title": "fix(api): sort run steps into topological order (#4699)",
@@ -112,7 +112,7 @@
       "updated_at": "2026-07-31T12:15:12Z",
       "human_reviews": [],
       "human_comments": [],
-      "note": "No change since prior baseline (already DIRTY, only a Copilot bot review; reconfirmed 2026-08-03T23:15:39Z)."
+      "note": "No change since prior baseline (already DIRTY, only a Copilot bot review; reconfirmed 2026-08-04T00:15:00Z)."
     },
     "4877": {
       "title": "fix(scripts): scan tracked files only in check-core-boundary.sh (#4479)",
@@ -122,7 +122,7 @@
       "updated_at": "2026-07-31T13:03:22Z",
       "human_reviews": [],
       "human_comments": [],
-      "note": "No change since prior baseline (already DIRTY, only a Copilot bot review; reconfirmed 2026-08-03T23:15:39Z)."
+      "note": "No change since prior baseline (already DIRTY, only a Copilot bot review; reconfirmed 2026-08-04T00:15:00Z)."
     },
     "4878": {
       "title": "fix(api): add cheap ?enrich=false roster mode to GET /sessions (#4390)",
@@ -132,7 +132,7 @@
       "updated_at": "2026-07-31T13:33:58Z",
       "human_reviews": [],
       "human_comments": [],
-      "note": "No change since prior baseline (already DIRTY, only a Copilot bot review; reconfirmed 2026-08-03T23:15:39Z)."
+      "note": "No change since prior baseline (already DIRTY, only a Copilot bot review; reconfirmed 2026-08-04T00:15:00Z)."
     },
     "4898": {
       "title": "fix(gc): stop bd's dolt-unreachable message from suggesting a conflicting bd dolt start",
@@ -142,7 +142,7 @@
       "updated_at": "2026-08-03T14:41:56Z",
       "human_reviews": [],
       "human_comments": [],
-      "note": "Still BLOCKED (non-mergeable bucket), only pre-existing Copilot bot review. No change since prior baseline (reconfirmed 2026-08-03T23:15:39Z)."
+      "note": "Still BLOCKED (non-mergeable bucket), only pre-existing Copilot bot review. No change since prior baseline (reconfirmed 2026-08-04T00:15:00Z)."
     },
     "4899": {
       "title": "fix(gc): document and JSON-report gc stop's supervisor unregister behavior",
@@ -152,7 +152,7 @@
       "updated_at": "2026-08-03T14:41:58Z",
       "human_reviews": [],
       "human_comments": [],
-      "note": "Still BLOCKED (non-mergeable bucket), only pre-existing Copilot bot review. No change since prior baseline (reconfirmed 2026-08-03T23:15:39Z)."
+      "note": "Still BLOCKED (non-mergeable bucket), only pre-existing Copilot bot review. No change since prior baseline (reconfirmed 2026-08-04T00:15:00Z)."
     },
     "4900": {
       "title": "fix(gc): correct gc formula cook --attach help text (blocks, not parent-child)",
@@ -162,7 +162,7 @@
       "updated_at": "2026-08-03T14:41:59Z",
       "human_reviews": [],
       "human_comments": [],
-      "note": "Still BLOCKED (non-mergeable bucket), only pre-existing Copilot bot review. No change since prior baseline (reconfirmed 2026-08-03T23:15:39Z)."
+      "note": "Still BLOCKED (non-mergeable bucket), only pre-existing Copilot bot review. No change since prior baseline (reconfirmed 2026-08-04T00:15:00Z)."
     },
     "4925": {
       "title": "fix(import): local-in-git pack imports lock to HEAD, not latest tag (#3659)",
@@ -172,7 +172,7 @@
       "updated_at": "2026-08-03T02:06:55Z",
       "human_reviews": [],
       "human_comments": [],
-      "note": "Only a Copilot bot review, no human touch. No change since prior baseline (reconfirmed 2026-08-03T23:15:39Z)."
+      "note": "Only a Copilot bot review, no human touch. No change since prior baseline (reconfirmed 2026-08-04T00:15:00Z)."
     },
     "4926": {
       "title": "fix(searchpath): find Nix-installed provider CLIs (#3962)",
@@ -182,7 +182,7 @@
       "updated_at": "2026-08-03T14:41:55Z",
       "human_reviews": [],
       "human_comments": [],
-      "note": "Still BLOCKED (non-mergeable bucket), only pre-existing Copilot bot review. No change since prior baseline (reconfirmed 2026-08-03T23:15:39Z)."
+      "note": "Still BLOCKED (non-mergeable bucket), only pre-existing Copilot bot review. No change since prior baseline (reconfirmed 2026-08-04T00:15:00Z)."
     },
     "4927": {
       "title": "fix(wisp-gc): reap rootless plain-task wisps (#3780)",
@@ -192,7 +192,7 @@
       "updated_at": "2026-08-03T03:33:15Z",
       "human_reviews": [],
       "human_comments": [],
-      "note": "Sitting at the normal bot-review-only/BLOCKED default — not reportable. No change since prior baseline (reconfirmed 2026-08-03T23:15:39Z)."
+      "note": "Sitting at the normal bot-review-only/BLOCKED default — not reportable. No change since prior baseline (reconfirmed 2026-08-04T00:15:00Z)."
     },
     "4946": {
       "title": "fix(doctor): order-firing-current timeout is advisory, not blocking (#4895)",
@@ -202,7 +202,7 @@
       "updated_at": "2026-08-03T16:17:44Z",
       "human_reviews": [],
       "human_comments": [],
-      "note": "Only a Copilot bot review (quota-limited, no actual review content) at the normal bot-review-only/BLOCKED default — not reportable. No change since prior baseline (reconfirmed 2026-08-03T23:15:39Z)."
+      "note": "Only a Copilot bot review (quota-limited, no actual review content) at the normal bot-review-only/BLOCKED default — not reportable. No change since prior baseline (reconfirmed 2026-08-04T00:15:00Z)."
     },
     "4947": {
       "title": "fix(config): caveat pack compatibility risk in workspace-identity deprecation warning (#3887)",
@@ -212,7 +212,7 @@
       "updated_at": "2026-08-03T18:22:59Z",
       "human_reviews": [],
       "human_comments": [],
-      "note": "Only a Copilot bot review (quota-limited, no content) at the normal bot-review-only/BLOCKED default — not reportable. No change since prior baseline (reconfirmed 2026-08-03T23:15:39Z)."
+      "note": "Only a Copilot bot review (quota-limited, no content) at the normal bot-review-only/BLOCKED default — not reportable. No change since prior baseline (reconfirmed 2026-08-04T00:15:00Z)."
     }
   },
   "recently_closed_prs": {

@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "last_checked_at": "2026-08-06T15:20:48Z",
+  "last_checked_at": "2026-08-06T16:16:20Z",
   "repo": "gastownhall/gascity",
   "author": "rjgeng",
   "prs": {
@@ -24,7 +24,7 @@
     "4947": {"title": "fix(config): caveat pack compatibility risk in workspace-identity deprecation warning (#3887)", "state": "open", "mergeable_state": "blocked", "url": "https://github.com/gastownhall/gascity/pull/4947", "human_reviews": [], "human_comments": [], "updated_at": "2026-08-03T18:22:59Z", "note": "No change since prior baseline (updated_at identical)."},
     "5032": {"title": "fix(dashboard): preserve dependency type on inverse blocks edges (#4365)", "state": "open", "mergeable_state": "blocked", "url": "https://github.com/gastownhall/gascity/pull/5032", "updated_at": "2026-08-05T13:04:51Z", "human_reviews": [], "human_comments": [], "note": "No change since prior baseline (updated_at identical)."},
     "5033": {"title": "fix(session): clear a named session's trigger stamp when its target is parked (#4373)", "state": "open", "mergeable_state": "blocked", "url": "https://github.com/gastownhall/gascity/pull/5033", "updated_at": "2026-08-05T13:20:33Z", "human_reviews": [], "human_comments": [], "note": "No change since prior baseline (updated_at identical)."},
-    "5055": {"title": "fix(work-record): resolve gc.work_branch against its remote-tracking ref", "state": "open", "mergeable_state": "blocked", "url": "https://github.com/gastownhall/gascity/pull/5055", "updated_at": "2026-08-06T13:18:23Z", "human_reviews": [], "human_comments": [], "note": "New PR first seen this run. Only a copilot-pull-request-reviewer bot review present (quota-limited, could not actually review) — normal bot-only/BLOCKED default, not news."}
+    "5055": {"title": "fix(work-record): resolve gc.work_branch against its remote-tracking ref", "state": "open", "mergeable_state": "blocked", "url": "https://github.com/gastownhall/gascity/pull/5055", "updated_at": "2026-08-06T13:18:23Z", "human_reviews": [], "human_comments": [], "note": "No change since prior baseline (updated_at identical). Only a copilot-pull-request-reviewer bot review present — normal bot-only/BLOCKED default, not news."}
   },
   "recently_closed_prs": {
     "4485": {"title": "fix(supervisor): back off structural init failures far longer than transient ones (#4484)", "state": "merged", "url": "https://github.com/gastownhall/gascity/pull/4485", "updated_at": "2026-08-05T14:35:22Z", "merged_by": "quad341", "merged_at": "2026-08-05T14:35:19Z", "note": "Already reported in a prior run."},

@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "last_checked_at": "2026-08-07T22:16:44Z",
+  "last_checked_at": "2026-08-07T23:15:09Z",
   "repo": "gastownhall/gascity",
   "author": "rjgeng",
   "prs": {
@@ -29,8 +29,8 @@
   "recently_closed_prs": {
     "4485": {"title": "fix(supervisor): back off structural init failures far longer than transient ones (#4484)", "state": "merged", "url": "https://github.com/gastownhall/gascity/pull/4485", "updated_at": "2026-08-05T14:35:22Z", "merged_by": "quad341", "merged_at": "2026-08-05T14:35:19Z", "note": "Already reported in a prior run."},
     "4875": {"title": "fix(dolt): send SIGTERM before SIGKILL in run_bounded's python3 fallback (#4823)", "state": "merged", "url": "https://github.com/gastownhall/gascity/pull/4875", "updated_at": "2026-08-02T22:59:05Z", "merged_by": "quad341", "merged_at": "2026-08-02T22:59:03Z", "note": "Already reported in a prior run."},
-    "4405": {"title": "fix(runtime/k8s): propagate Nudge/SendKeys transport errors (#4389)", "state": "merged", "url": "https://github.com/gastownhall/gascity/pull/4405", "merged_by": "quad341", "merged_at": "2026-07-29T13:55:27Z", "updated_at": "2026-07-29T13:55:27Z", "note": "Discovered on a prior run: merged 2026-07-29 but absent from every earlier baseline snapshot (tracking gap, not a new merge). Already reported."},
-    "4384": {"title": "fix(cmd/gc): validate explicit city path before scanning registry rig bindings (#4364)", "state": "merged", "url": "https://github.com/gastownhall/gascity/pull/4384", "merged_by": "quad341", "merged_at": "2026-07-29T15:56:17Z", "updated_at": "2026-07-29T15:56:17Z", "note": "Discovered on a prior run: merged 2026-07-29 but absent from every earlier baseline snapshot (tracking gap, not a new merge). Already reported."},
+    "4405": {"title": "fix(runtime/k8s): propagate Nudge/SendKeys transport errors (#4389)", "state": "merged", "url": "https://github.com/gastownhall/gascity/pull/4405", "merged_by": "quad341", "merged_at": "2026-07-29T13:55:27Z", "updated_at": "2026-07-29T13:55:27Z", "note": "Already reported."},
+    "4384": {"title": "fix(cmd/gc): validate explicit city path before scanning registry rig bindings (#4364)", "state": "merged", "url": "https://github.com/gastownhall/gascity/pull/4384", "merged_by": "quad341", "merged_at": "2026-07-29T15:56:17Z", "updated_at": "2026-07-29T15:56:17Z", "note": "Already reported."},
     "4583": {"title": "fix(cmd/gc): materialize newly-added skills on every applied config reload (#3459)", "state": "merged", "url": "https://github.com/gastownhall/gascity/pull/4583", "updated_at": "2026-07-24T09:01:36Z", "merged_by": "quad341"},
     "4555": {"title": "fix(storehealth): add an absolute-size floor so small cities don't permanently trip maintenance-overdue (#3374)", "state": "merged", "url": "https://github.com/gastownhall/gascity/pull/4555", "updated_at": "2026-07-23T21:56:05Z", "merged_by": "quad341"},
     "4554": {"title": "fix(sling): warn when --on/default-formula attach drops the target bead's description (#3681)", "state": "merged", "url": "https://github.com/gastownhall/gascity/pull/4554", "updated_at": "2026-07-23T21:25:53Z", "merged_by": "quad341"},

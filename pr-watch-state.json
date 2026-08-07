@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "last_checked_at": "2026-08-07T02:11:29Z",
+  "last_checked_at": "2026-08-07T03:12:55Z",
   "repo": "gastownhall/gascity",
   "author": "rjgeng",
   "prs": {
@@ -8,7 +8,7 @@
     "4138": {"title": "fix(session): gc session attach waits for an in-flight controller reset instead of racing it (#4079)", "state": "open", "mergeable_state": "blocked", "url": "https://github.com/gastownhall/gascity/pull/4138", "updated_at": "2026-07-19T16:30:33Z", "human_reviews": [], "human_comments": [], "note": "No change since prior baseline."},
     "4481": {"title": "fix(runtime): treat a gone session as drain-acked (#4448)", "state": "open", "mergeable_state": "blocked", "url": "https://github.com/gastownhall/gascity/pull/4481", "updated_at": "2026-07-22T00:36:25Z", "human_reviews": [], "human_comments": [{"login": "rjgeng"}], "note": "No change since prior baseline."},
     "4547": {"title": "fix(cmd/gc): order dispatch searches all configured formula layers, not just the order's own (#4378)", "state": "open", "mergeable_state": "blocked", "url": "https://github.com/gastownhall/gascity/pull/4547", "updated_at": "2026-07-23T14:42:30Z", "human_reviews": [], "human_comments": [], "note": "No change since prior baseline."},
-    "4584": {"title": "fix(sling): --nudge falls back to a running named session for instance-expandable agents (#3412)", "state": "open", "mergeable_state": "blocked", "url": "https://github.com/gastownhall/gascity/pull/4584", "updated_at": "2026-07-25T18:56:05Z", "human_reviews": [], "human_comments": [{"login": "remuscazacu"}], "note": "No change since prior baseline. remuscazacu's existing comment pings @julianknutsen for triage; watch for a julianknutsen reply next run."},
+    "4584": {"title": "fix(sling): --nudge falls back to a running named session for instance-expandable agents (#3412)", "state": "open", "mergeable_state": "blocked", "url": "https://github.com/gastownhall/gascity/pull/4584", "updated_at": "2026-07-25T18:56:05Z", "human_reviews": [], "human_comments": [{"login": "remuscazacu"}], "note": "No change since prior baseline. remuscazacu's existing comment pings @julianknutsen for triage; still unanswered, watch for a julianknutsen reply next run."},
     "4856": {"title": "fix(storehealth): bound LastMaintenance's event-log scan (#4418)", "state": "open", "mergeable_state": "blocked", "url": "https://github.com/gastownhall/gascity/pull/4856", "updated_at": "2026-08-05T15:24:27Z", "human_reviews": [], "human_comments": [], "note": "No change since prior baseline."},
     "4857": {"title": "fix(mail): authorize --from against the calling session's own identity (#4070)", "state": "open", "mergeable_state": "blocked", "url": "https://github.com/gastownhall/gascity/pull/4857", "updated_at": "2026-08-05T16:23:25Z", "human_reviews": [], "human_comments": [], "note": "No change since prior baseline."},
     "4876": {"title": "fix(api): sort run steps into topological order (#4699)", "state": "open", "mergeable_state": "blocked", "url": "https://github.com/gastownhall/gascity/pull/4876", "updated_at": "2026-08-05T16:53:58Z", "human_reviews": [], "human_comments": [], "note": "No change since prior baseline."},

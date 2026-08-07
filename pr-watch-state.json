@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "last_checked_at": "2026-08-07T16:12:50Z",
+  "last_checked_at": "2026-08-07T17:11:09Z",
   "repo": "gastownhall/gascity",
   "author": "rjgeng",
   "prs": {
@@ -29,6 +29,8 @@
   "recently_closed_prs": {
     "4485": {"title": "fix(supervisor): back off structural init failures far longer than transient ones (#4484)", "state": "merged", "url": "https://github.com/gastownhall/gascity/pull/4485", "updated_at": "2026-08-05T14:35:22Z", "merged_by": "quad341", "merged_at": "2026-08-05T14:35:19Z", "note": "Already reported in a prior run."},
     "4875": {"title": "fix(dolt): send SIGTERM before SIGKILL in run_bounded's python3 fallback (#4823)", "state": "merged", "url": "https://github.com/gastownhall/gascity/pull/4875", "updated_at": "2026-08-02T22:59:05Z", "merged_by": "quad341", "merged_at": "2026-08-02T22:59:03Z", "note": "Already reported in a prior run."},
+    "4405": {"title": "fix(runtime/k8s): propagate Nudge/SendKeys transport errors (#4389)", "state": "merged", "url": "https://github.com/gastownhall/gascity/pull/4405", "merged_by": "quad341", "merged_at": "2026-07-29T13:55:27Z", "updated_at": "2026-07-29T13:55:27Z", "note": "Discovered on this run: merged 2026-07-29 but absent from every prior baseline snapshot (tracking gap, not a new merge). Reported once here as newly surfaced."},
+    "4384": {"title": "fix(cmd/gc): validate explicit city path before scanning registry rig bindings (#4364)", "state": "merged", "url": "https://github.com/gastownhall/gascity/pull/4384", "merged_by": "quad341", "merged_at": "2026-07-29T15:56:17Z", "updated_at": "2026-07-29T15:56:17Z", "note": "Discovered on this run: merged 2026-07-29 but absent from every prior baseline snapshot (tracking gap, not a new merge). Reported once here as newly surfaced."},
     "4583": {"title": "fix(cmd/gc): materialize newly-added skills on every applied config reload (#3459)", "state": "merged", "url": "https://github.com/gastownhall/gascity/pull/4583", "updated_at": "2026-07-24T09:01:36Z", "merged_by": "quad341"},
     "4555": {"title": "fix(storehealth): add an absolute-size floor so small cities don't permanently trip maintenance-overdue (#3374)", "state": "merged", "url": "https://github.com/gastownhall/gascity/pull/4555", "updated_at": "2026-07-23T21:56:05Z", "merged_by": "quad341"},
     "4554": {"title": "fix(sling): warn when --on/default-formula attach drops the target bead's description (#3681)", "state": "merged", "url": "https://github.com/gastownhall/gascity/pull/4554", "updated_at": "2026-07-23T21:25:53Z", "merged_by": "quad341"},
@@ -43,8 +45,6 @@
     "4482": {"title": "test(cmd_hook): resolve \"true\" via LookPath instead of hardcoding /bin/true (#4454)", "state": "merged", "url": "https://github.com/gastownhall/gascity/pull/4482", "updated_at": "2026-07-21T15:38:39Z", "merged_by": "julianknutsen"},
     "4442": {"title": "fix(cmd/gc): gc hook --claim never adopts mail message beads as work (#4419)", "state": "merged", "url": "https://github.com/gastownhall/gascity/pull/4442", "updated_at": "2026-07-20T07:50:12Z", "merged_by": "julianknutsen"},
     "4406": {"title": "fix(cmd/gc): gc init --skip-provider-readiness accepts any builtin provider (#4392)", "state": "merged", "url": "https://github.com/gastownhall/gascity/pull/4406", "updated_at": "2026-07-20T08:26:25Z", "merged_by": "quad341"},
-    "4405": {"title": "fix(runtime/k8s): propagate Nudge/SendKeys transport errors (#4389)", "state": "merged", "url": "https://github.com/gastownhall/gascity/pull/4405", "updated_at": "2026-07-29T13:55:27Z", "merged_by": "quad341"},
-    "4384": {"title": "fix(cmd/gc): validate explicit city path before scanning registry rig bindings (#4364)", "state": "merged", "url": "https://github.com/gastownhall/gascity/pull/4384", "updated_at": "2026-07-29T15:56:17Z", "merged_by": "quad341"},
     "4248": {"title": "fix(doctor): warn when beads-store silently fell back to BdStore (#4245)", "state": "merged", "url": "https://github.com/gastownhall/gascity/pull/4248", "updated_at": "2026-07-19T15:09:01Z", "merged_by": "quad341"},
     "4219": {"title": "fix(runproj): warming snapshot no longer marshals historicalLanes/recentChanges as null (#4142)", "state": "merged", "url": "https://github.com/gastownhall/gascity/pull/4219", "updated_at": "2026-07-17T07:07:17Z", "merged_by": "quad341"},
     "4216": {"title": "fix(cmd/gc): lint no longer flags the documented pool-disable form as a named-session conflict (#4184)", "state": "merged", "url": "https://github.com/gastownhall/gascity/pull/4216", "updated_at": "2026-07-17T06:05:24Z", "merged_by": "quad341"},

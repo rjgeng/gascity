@@ -28,7 +28,6 @@
     "5138": {"title": "fix(session): thread liveness-probe observation into heal-state instead of hardcoding Observed:true", "state": "open", "mergeable_state": "blocked", "url": "https://github.com/gastownhall/gascity/pull/5138", "updated_at": "2026-08-09T16:43:19Z", "human_reviews": [], "human_comments": [], "note": "No change since prior baseline. Only copilot-pull-request-reviewer bot review."}
   },
   "recently_closed_prs": {
-    "4095_placeholder_do_not_use": null,
     "4485": {"title": "fix(supervisor): back off structural init failures far longer than transient ones (#4484)", "state": "merged", "url": "https://github.com/gastownhall/gascity/pull/4485", "merged_by": "quad341", "merged_at": "2026-08-05T14:35:19Z", "updated_at": "2026-08-05T14:35:22Z", "note": "Already reported in a prior run."},
     "4875": {"title": "fix(dolt): send SIGTERM before SIGKILL in run_bounded's python3 fallback (#4823)", "state": "merged", "url": "https://github.com/gastownhall/gascity/pull/4875", "updated_at": "2026-08-02T22:59:05Z", "merged_by": "quad341", "merged_at": "2026-08-02T22:59:03Z", "note": "Already reported in a prior run."},
     "4405": {"title": "fix(runtime/k8s): propagate Nudge/SendKeys transport errors (#4389)", "state": "merged", "url": "https://github.com/gastownhall/gascity/pull/4405", "updated_at": "2026-07-29T13:55:27Z", "merged_by": "quad341", "note": "Already reported."},

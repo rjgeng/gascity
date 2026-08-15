@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
-  "last_checked_at": "2026-08-15T01:45:00Z",
+  "last_checked_at": "2026-08-15T02:45:00Z",
   "repo": "gastownhall/gascity",
   "author": "rjgeng",
   "prs": {
     "4095": {"title": "fix(session): refresh reset_committed_at on every continuation-reset re-arm (#4067)", "state": "open", "mergeable_state": "blocked", "url": "https://github.com/gastownhall/gascity/pull/4095", "updated_at": "2026-07-26T11:14:51Z", "comments": 2, "note": "No change since prior baseline. mergeable_state and comment count unchanged."},
     "4138": {"title": "fix(session): gc session attach waits for an in-flight controller reset instead of racing it (#4079)", "state": "open", "mergeable_state": "blocked", "url": "https://github.com/gastownhall/gascity/pull/4138", "updated_at": "2026-07-19T16:30:33Z", "comments": 1, "note": "No change since prior baseline. mergeable_state and comment count unchanged."},
     "4481": {"title": "fix(runtime): treat a gone session as drain-acked (#4448)", "state": "open", "mergeable_state": "blocked", "url": "https://github.com/gastownhall/gascity/pull/4481", "updated_at": "2026-07-22T00:36:25Z", "comments": 2, "note": "No change since prior baseline. mergeable_state and comment count unchanged."},
-    "4547": {"title": "fix(cmd/gc): order dispatch searches all configured formula layers, not just the order's own (#4378)", "state": "open", "mergeable_state": "blocked", "url": "https://github.com/gastownhall/gascity/pull/4547", "updated_at": "2026-08-15T01:08:12Z", "comments": 1, "note": "updated_at bumped and comments 0->1, but the new comment is the gascityinc-olivia[bot] auto-triage comment, not a human. mergeable_state still blocked. Not reportable."},
+    "4547": {"title": "fix(cmd/gc): order dispatch searches all configured formula layers, not just the order's own (#4378)", "state": "open", "mergeable_state": "blocked", "url": "https://github.com/gastownhall/gascity/pull/4547", "updated_at": "2026-08-15T01:08:12Z", "comments": 1, "note": "No change since prior baseline. mergeable_state and comment count unchanged."},
     "4584": {"title": "fix(sling): --nudge falls back to a running named session for instance-expandable agents (#3412)", "state": "open", "mergeable_state": "blocked", "url": "https://github.com/gastownhall/gascity/pull/4584", "updated_at": "2026-08-15T00:02:57Z", "comments": 2, "note": "No change since prior baseline. mergeable_state still blocked; comment count unchanged."},
     "4856": {"title": "fix(storehealth): bound LastMaintenance's event-log scan (#4418)", "state": "open", "mergeable_state": "blocked", "url": "https://github.com/gastownhall/gascity/pull/4856", "updated_at": "2026-08-14T09:30:40Z", "comments": 2, "note": "No change since prior baseline. mergeable_state and comment count unchanged."},
     "4857": {"title": "fix(mail): authorize --from against the calling session's own identity (#4070)", "state": "open", "mergeable_state": "blocked", "url": "https://github.com/gastownhall/gascity/pull/4857", "updated_at": "2026-08-14T08:27:36Z", "comments": 1, "note": "No change since prior baseline. mergeable_state and comment count unchanged."},

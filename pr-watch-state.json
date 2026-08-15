@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "last_checked_at": "2026-08-15T21:50:00Z",
+  "last_checked_at": "2026-08-15T22:38:59Z",
   "repo": "gastownhall/gascity",
   "author": "rjgeng",
   "prs": {
@@ -11,8 +11,7 @@
     "4584": {"title": "fix(sling): --nudge falls back to a running named session for instance-expandable agents (#3412)", "state": "open", "mergeable_state": "blocked", "url": "https://github.com/gastownhall/gascity/pull/4584", "updated_at": "2026-08-15T00:02:57Z", "comments": 2, "note": "No change since prior baseline; human comment from remuscazacu already present at last check."},
     "4856": {"title": "fix(storehealth): bound LastMaintenance's event-log scan (#4418)", "state": "open", "mergeable_state": "blocked", "url": "https://github.com/gastownhall/gascity/pull/4856", "updated_at": "2026-08-14T09:30:40Z", "comments": 2, "note": "No change since prior baseline; human comment from quad341 already present at last check."},
     "4857": {"title": "fix(mail): authorize --from against the calling session's own identity (#4070)", "state": "open", "mergeable_state": "blocked", "url": "https://github.com/gastownhall/gascity/pull/4857", "updated_at": "2026-08-14T08:27:36Z", "comments": 1, "note": "No change since prior baseline."},
-    "4876": {"title": "fix(api): sort run steps into topological order (#4699)", "state": "open", "mergeable_state": "blocked", "url": "https://github.com/gastownhall/gascity/pull/4876", "updated_at": "2026-08-15T21:42:56Z", "comments": 1, "note": "No change since prior baseline. Timestamp bumped but comment count and mergeable_state unchanged (likely CI re-run)."},
-    "4877": {"title": "fix(scripts): scan tracked files only in check-core-boundary.sh (#4479)", "state": "open", "mergeable_state": "blocked", "url": "https://github.com/gastownhall/gascity/pull/4877", "updated_at": "2026-08-15T10:07:45Z", "comments": 1, "note": "No change since prior baseline."},
+    "4877": {"title": "fix(scripts): scan tracked files only in check-core-boundary.sh (#4479)", "state": "open", "mergeable_state": "blocked", "url": "https://github.com/gastownhall/gascity/pull/4877", "updated_at": "2026-08-15T22:38:59Z", "comments": 1, "note": "Author pushed a new commit (updated_at bumped, commit count 1->2); comment count and mergeable_state (blocked) unchanged from prior baseline - routine push, not reported."},
     "4878": {"title": "fix(api): add cheap ?enrich=false roster mode to GET /sessions (#4390)", "state": "open", "mergeable_state": "dirty", "url": "https://github.com/gastownhall/gascity/pull/4878", "updated_at": "2026-08-15T16:02:58Z", "comments": 1, "note": "No change since prior baseline. Only the automated copilot-pull-request-reviewer[bot] quota-limit message; requested reviewer julianknutsen has not reviewed."},
     "4898": {"title": "fix(gc): stop bd's dolt-unreachable message from suggesting a conflicting bd dolt start", "state": "open", "mergeable_state": "blocked", "url": "https://github.com/gastownhall/gascity/pull/4898", "updated_at": "2026-08-15T09:44:31Z", "comments": 1, "note": "No change since prior baseline."},
     "4899": {"title": "fix(gc): document and JSON-report gc stop's supervisor unregister behavior", "state": "open", "mergeable_state": "blocked", "url": "https://github.com/gastownhall/gascity/pull/4899", "updated_at": "2026-08-15T09:40:47Z", "comments": 1, "note": "No change since prior baseline."},
@@ -39,6 +38,7 @@
     "5302": {"title": "fix(dashboard): add Claude 5-gen models to TRUE_CONTEXT_WINDOWS (#5295)", "state": "open", "mergeable_state": "dirty", "url": "https://github.com/gastownhall/gascity/pull/5302", "updated_at": "2026-08-15T18:43:16Z", "comments": 2, "note": "No change since prior baseline; julianknutsen (COLLABORATOR) review-queue comment was already reported in a prior run. mergeable_state remains dirty (lateral, not a qualifying transition)."}
   },
   "recently_closed_prs": {
+    "4876": {"title": "fix(api): sort run steps into topological order (#4699)", "state": "merged", "url": "https://github.com/gastownhall/gascity/pull/4876", "merged_by": "quad341", "merged_at": "2026-08-15T21:54:27Z", "note": "Reported this run: merged."},
     "5138": {"title": "fix(session): thread liveness-probe observation into heal-state instead of hardcoding Observed:true", "state": "merged", "url": "https://github.com/gastownhall/gascity/pull/5138", "merged_by": "quad341", "merged_at": "2026-08-13T08:43:44Z", "note": "Already reported in a prior run."},
     "4485": {"title": "fix(supervisor): back off structural init failures far longer than transient ones (#4484)", "state": "merged", "url": "https://github.com/gastownhall/gascity/pull/4485", "merged_by": "quad341", "merged_at": "2026-08-05T14:35:19Z", "note": "Already reported in a prior run."},
     "4875": {"title": "fix(dolt): send SIGTERM before SIGKILL in run_bounded's python3 fallback (#4823)", "state": "merged", "url": "https://github.com/gastownhall/gascity/pull/4875", "updated_at": "2026-08-02T22:59:05Z", "merged_by": "quad341", "merged_at": "2026-08-02T22:59:03Z", "note": "Already reported in a prior run."},

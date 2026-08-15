@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "last_checked_at": "2026-08-15T20:45:08Z",
+  "last_checked_at": "2026-08-15T21:50:00Z",
   "repo": "gastownhall/gascity",
   "author": "rjgeng",
   "prs": {
@@ -11,7 +11,7 @@
     "4584": {"title": "fix(sling): --nudge falls back to a running named session for instance-expandable agents (#3412)", "state": "open", "mergeable_state": "blocked", "url": "https://github.com/gastownhall/gascity/pull/4584", "updated_at": "2026-08-15T00:02:57Z", "comments": 2, "note": "No change since prior baseline; human comment from remuscazacu already present at last check."},
     "4856": {"title": "fix(storehealth): bound LastMaintenance's event-log scan (#4418)", "state": "open", "mergeable_state": "blocked", "url": "https://github.com/gastownhall/gascity/pull/4856", "updated_at": "2026-08-14T09:30:40Z", "comments": 2, "note": "No change since prior baseline; human comment from quad341 already present at last check."},
     "4857": {"title": "fix(mail): authorize --from against the calling session's own identity (#4070)", "state": "open", "mergeable_state": "blocked", "url": "https://github.com/gastownhall/gascity/pull/4857", "updated_at": "2026-08-14T08:27:36Z", "comments": 1, "note": "No change since prior baseline."},
-    "4876": {"title": "fix(api): sort run steps into topological order (#4699)", "state": "open", "mergeable_state": "blocked", "url": "https://github.com/gastownhall/gascity/pull/4876", "updated_at": "2026-08-15T10:18:21Z", "comments": 1, "note": "No change since prior baseline."},
+    "4876": {"title": "fix(api): sort run steps into topological order (#4699)", "state": "open", "mergeable_state": "blocked", "url": "https://github.com/gastownhall/gascity/pull/4876", "updated_at": "2026-08-15T21:42:56Z", "comments": 1, "note": "No change since prior baseline. Timestamp bumped but comment count and mergeable_state unchanged (likely CI re-run)."},
     "4877": {"title": "fix(scripts): scan tracked files only in check-core-boundary.sh (#4479)", "state": "open", "mergeable_state": "blocked", "url": "https://github.com/gastownhall/gascity/pull/4877", "updated_at": "2026-08-15T10:07:45Z", "comments": 1, "note": "No change since prior baseline."},
     "4878": {"title": "fix(api): add cheap ?enrich=false roster mode to GET /sessions (#4390)", "state": "open", "mergeable_state": "dirty", "url": "https://github.com/gastownhall/gascity/pull/4878", "updated_at": "2026-08-15T16:02:58Z", "comments": 1, "note": "No change since prior baseline. Only the automated copilot-pull-request-reviewer[bot] quota-limit message; requested reviewer julianknutsen has not reviewed."},
     "4898": {"title": "fix(gc): stop bd's dolt-unreachable message from suggesting a conflicting bd dolt start", "state": "open", "mergeable_state": "blocked", "url": "https://github.com/gastownhall/gascity/pull/4898", "updated_at": "2026-08-15T09:44:31Z", "comments": 1, "note": "No change since prior baseline."},

@@ -1,6 +1,6 @@
-<![CDATA[{
+{
   "schema_version": 1,
-  "last_checked_at": "2026-08-15T12:45:00Z",
+  "last_checked_at": "2026-08-15T13:45:55Z",
   "repo": "gastownhall/gascity",
   "author": "rjgeng",
   "prs": {
@@ -33,8 +33,8 @@
     "5258": {"title": "fix(dispatch): default gc.kind on plain attempt-recipe children (#5246)", "state": "open", "mergeable_state": "blocked", "url": "https://github.com/gastownhall/gascity/pull/5258", "updated_at": "2026-08-15T00:18:07Z", "comments": 1, "note": "No change since prior baseline."},
     "5261": {"title": "docs(session): clarify primed_at as delivery-attempted, not consumed (#5236)", "state": "open", "mergeable_state": "blocked", "url": "https://github.com/gastownhall/gascity/pull/5261", "updated_at": "2026-08-15T00:14:53Z", "comments": 1, "note": "No change since prior baseline."},
     "5270": {"title": "fix(doctor): order-firing-current reads live suspension state, not just the deprecated rig.Suspended field", "state": "open", "mergeable_state": "blocked", "url": "https://github.com/gastownhall/gascity/pull/5270", "updated_at": "2026-08-14T23:57:02Z", "comments": 1, "note": "No change since prior baseline."},
-    "5298": {"title": "fix(bd): commit the beads runtime config write, scoped to config (#5286)", "state": "open", "mergeable_state": "blocked", "url": "https://github.com/gastownhall/gascity/pull/5298", "updated_at": "2026-08-15T12:39:07Z", "comments": 0, "note": "New PR since prior baseline. mergeable_state blocked on first sighting (normal default, not reported). Only bot review (copilot-pull-request-reviewer[bot], quota-limit message), no human activity."},
-    "5299": {"title": "fix(nudge): treat a reaped backing bead as terminal in dead-letter prune (#5278)", "state": "open", "mergeable_state": "blocked", "url": "https://github.com/gastownhall/gascity/pull/5299", "updated_at": "2026-08-15T12:39:29Z", "comments": 0, "note": "New PR since prior baseline. mergeable_state blocked on first sighting (normal default, not reported). Only bot review (copilot-pull-request-reviewer[bot], quota-limit message), no human activity."}
+    "5298": {"title": "fix(bd): commit the beads runtime config write, scoped to config (#5286)", "state": "open", "mergeable_state": "blocked", "url": "https://github.com/gastownhall/gascity/pull/5298", "updated_at": "2026-08-15T13:08:29Z", "comments": 1, "note": "No change since prior baseline. Gained one auto-triage comment from gascityinc-olivia[bot] (bot, not human) and reconfirmed the copilot-pull-request-reviewer[bot] quota-limit review; still no human activity, mergeable_state unchanged."},
+    "5299": {"title": "fix(nudge): treat a reaped backing bead as terminal in dead-letter prune (#5278)", "state": "open", "mergeable_state": "blocked", "url": "https://github.com/gastownhall/gascity/pull/5299", "updated_at": "2026-08-15T13:04:49Z", "comments": 1, "note": "No change since prior baseline. Gained one auto-triage comment from gascityinc-olivia[bot] (bot, not human) and reconfirmed the copilot-pull-request-reviewer[bot] quota-limit review; still no human activity, mergeable_state unchanged."}
   },
   "recently_closed_prs": {
     "5138": {"title": "fix(session): thread liveness-probe observation into heal-state instead of hardcoding Observed:true", "state": "merged", "url": "https://github.com/gastownhall/gascity/pull/5138", "merged_by": "quad341", "merged_at": "2026-08-13T08:43:44Z", "note": "Already reported in a prior run."},
@@ -78,4 +78,3 @@
     "2037": {"title": "fix(packs): fallback to dolt-provider-state.json", "state": "merged", "url": "https://github.com/gastownhall/gascity/pull/2037", "updated_at": "2026-05-13T01:46:13Z", "merged_by": "quad341"}
   }
 }
-]]>

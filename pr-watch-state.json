@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "last_checked_at": "2026-08-16T13:44:37Z",
+  "last_checked_at": "2026-08-16T14:45:18Z",
   "repo": "gastownhall/gascity",
   "author": "rjgeng",
   "prs": {
@@ -11,7 +11,7 @@
     "4584": {"title": "fix(sling): --nudge falls back to a running named session for instance-expandable agents (#3412)", "state": "open", "mergeable_state": "blocked", "url": "https://github.com/gastownhall/gascity/pull/4584", "updated_at": "2026-08-15T00:02:57Z", "comments": 2, "note": "No change since prior baseline."},
     "4857": {"title": "fix(mail): authorize --from against the calling session's own identity (#4070)", "state": "open", "mergeable_state": "dirty", "url": "https://github.com/gastownhall/gascity/pull/4857", "updated_at": "2026-08-16T03:08:46Z", "comments": 1, "note": "No change since prior baseline."},
     "4878": {"title": "fix(api): add cheap ?enrich=false roster mode to GET /sessions (#4390)", "state": "open", "mergeable_state": "dirty", "url": "https://github.com/gastownhall/gascity/pull/4878", "updated_at": "2026-08-16T12:00:35Z", "comments": 1, "note": "No change since prior baseline."},
-    "4898": {"title": "fix(gc): stop bd's dolt-unreachable message from suggesting a conflicting bd dolt start", "state": "open", "mergeable_state": "dirty", "url": "https://github.com/gastownhall/gascity/pull/4898", "updated_at": "2026-08-16T09:59:43Z", "comments": 1, "note": "No change since prior baseline."},
+    "4898": {"title": "fix(gc): stop bd's dolt-unreachable message from suggesting a conflicting bd dolt start", "state": "open", "mergeable_state": "dirty", "url": "https://github.com/gastownhall/gascity/pull/4898", "updated_at": "2026-08-16T14:09:33Z", "comments": 1, "note": "updated_at bumped from a bot-only comment/review (gascityinc-olivia[bot] triage comment, copilot-pull-request-reviewer[bot] review) already reflected in the prior comment count; mergeable_state unchanged (dirty). Not a reportable change."},
     "4925": {"title": "fix(import): local-in-git pack imports lock to HEAD, not latest tag (#3659)", "state": "open", "mergeable_state": "blocked", "url": "https://github.com/gastownhall/gascity/pull/4925", "updated_at": "2026-08-15T08:30:19Z", "comments": 1, "note": "No change since prior baseline."},
     "4926": {"title": "fix(searchpath): find Nix-installed provider CLIs (#3962)", "state": "open", "mergeable_state": "dirty", "url": "https://github.com/gastownhall/gascity/pull/4926", "updated_at": "2026-08-16T01:35:10Z", "comments": 1, "note": "No change since prior baseline."},
     "4927": {"title": "fix(wisp-gc): reap rootless plain-task wisps (#3780)", "state": "open", "mergeable_state": "blocked", "url": "https://github.com/gastownhall/gascity/pull/4927", "updated_at": "2026-08-15T08:22:21Z", "comments": 1, "note": "No change since prior baseline."},
@@ -43,6 +43,6 @@
     "4485": {"title": "fix(supervisor): back off structural init failures far longer than transient ones (#4484)", "state": "merged", "url": "https://github.com/gastownhall/gascity/pull/4485", "merged_by": "quad341", "merged_at": "2026-08-05T14:35:19Z", "note": "Already reported in a prior run."}
   },
   "notification_backlog": {
-    "note": "0 real changes this run. All 28 currently-open PRs by rjgeng have updated_at timestamps identical to the prior baseline (fetched via search_pull_requests, cross-checked against baseline's per-PR updated_at) -- an unchanged updated_at rules out any new comment, review, edit, or mergeable-state transition since the last check. No PR set membership changed (same 28 PR numbers open as baseline). No PRs transitioned to merged/closed since the prior baseline's last_checked_at (2026-08-16T12:48:41Z) -- newest closures found (#4899, #4900) were already in the prior baseline's recently_closed_prs and already reported. No brand-new PRs appeared. No Slack message sent this run."
+    "note": "0 real changes this run. All 28 currently-open PRs by rjgeng have the same PR-number set as the prior baseline. 27 of 28 have updated_at identical to the prior baseline. PR #4898's updated_at moved (09:59:43Z -> 14:09:33Z) but investigation via pull_request_read (get/get_comments/get_reviews) showed the only activity was a bot triage comment (gascityinc-olivia[bot]) and a bot review (copilot-pull-request-reviewer[bot]) -- no human maintainer touched it, comment count unchanged at 1, and mergeable_state unchanged (dirty). Not a reportable change per the human-review/comment criterion. No PR set membership changed. No PRs transitioned to merged/closed since the prior baseline (checked full author:rjgeng history via search_pull_requests state=all; newest closures are #4899/#4900, already in recently_closed_prs and already reported). No brand-new PRs appeared. No Slack message sent this run."
   }
 }

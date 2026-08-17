@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "last_checked_at": "2026-08-17T17:45:51Z",
+  "last_checked_at": "2026-08-17T18:45:11Z",
   "repo": "gastownhall/gascity",
   "author": "rjgeng",
   "prs": {
@@ -48,6 +48,6 @@
     "5138": {"title": "fix(session): thread liveness-probe observation into heal-state instead of hardcoding Observed:true", "state": "merged", "url": "https://github.com/gastownhall/gascity/pull/5138", "merged_by": "quad341", "merged_at": "2026-08-13T08:43:44Z"}
   },
   "notification_backlog": {
-    "note": "Checked all 31 open PRs (25 from baseline + 6 brand-new: 5360-5365) against the baseline from last_checked_at 2026-08-17T16:26:45Z. No PR transitioned to merged/closed since baseline (the 9 recently_closed_prs entries are unchanged). Comment counts unchanged on all 25 previously-tracked PRs vs baseline (verified via search_pull_requests). mergeable_state re-verified per-PR via pull_request_read (get) for all 31 open PRs -- all still 'blocked', none moved toward clean/unstable, none regressed to dirty. The 6 new PRs (5360-5365) were checked for get_comments and get_reviews on first sighting -- all show zero comments and only bot review activity (copilot-pull-request-reviewer), no human maintainer touch, so per the reporting rules they are not newsworthy on this first sighting (plain new PR at the normal bot-review-only/BLOCKED default). No Slack message sent -- nothing met the reportable-change bar this run."
+    "note": "Checked all 31 open PRs authored by rjgeng against the baseline from last_checked_at 2026-08-17T17:45:51Z. No PR transitioned to merged/closed since baseline (recently_closed_prs unchanged, still 9 entries, none overlap the open set). Comment counts unchanged on all 31 open PRs (verified via search_pull_requests, matched exactly against baseline). mergeable_state re-verified per-PR via pull_request_read (get) for all 31 open PRs -- all still 'blocked', none moved toward clean/unstable, none regressed to dirty. No new open PRs beyond the baseline's 31 (list_pull_requests confirmed no additional rjgeng-authored open PR numbers). No Slack message sent -- nothing met the reportable-change bar this run."
   }
 }

@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "last_checked_at": "2026-08-17T20:35:00Z",
+  "last_checked_at": "2026-08-17T21:20:00Z",
   "repo": "gastownhall/gascity",
   "author": "rjgeng",
   "prs": {
@@ -12,7 +12,7 @@
     "4857": {"title": "fix(mail): authorize --from against the calling session's own identity (#4070)", "state": "open", "mergeable_state": "blocked", "url": "https://github.com/gastownhall/gascity/pull/4857", "updated_at": "2026-08-17T16:26:09Z", "comments": 1},
     "4878": {"title": "fix(api): add cheap ?enrich=false roster mode to GET /sessions (#4390)", "state": "open", "mergeable_state": "blocked", "url": "https://github.com/gastownhall/gascity/pull/4878", "updated_at": "2026-08-17T20:18:13Z", "comments": 1},
     "4926": {"title": "fix(searchpath): find Nix-installed provider CLIs (#3962)", "state": "open", "mergeable_state": "blocked", "url": "https://github.com/gastownhall/gascity/pull/4926", "updated_at": "2026-08-17T20:31:02Z", "comments": 1},
-    "4927": {"title": "fix(wisp-gc): reap rootless plain-task wisps (#3780)", "state": "open", "mergeable_state": "blocked", "url": "https://github.com/gastownhall/gascity/pull/4927", "updated_at": "2026-08-17T20:07:03Z", "comments": 1},
+    "4927": {"title": "fix(wisp-gc): reap rootless plain-task wisps (#3780)", "state": "open", "mergeable_state": "blocked", "url": "https://github.com/gastownhall/gascity/pull/4927", "updated_at": "2026-08-17T21:07:49Z", "comments": 1},
     "4946": {"title": "fix(doctor): order-firing-current timeout is advisory, not blocking (#4895)", "state": "open", "mergeable_state": "blocked", "url": "https://github.com/gastownhall/gascity/pull/4946", "updated_at": "2026-08-17T20:04:33Z", "comments": 1},
     "4947": {"title": "fix(config): caveat pack compatibility risk in workspace-identity deprecation warning (#3887)", "state": "open", "mergeable_state": "blocked", "url": "https://github.com/gastownhall/gascity/pull/4947", "updated_at": "2026-08-17T19:59:49Z", "comments": 1},
     "5032": {"title": "fix(dashboard): preserve dependency type on inverse blocks edges (#4365)", "state": "open", "mergeable_state": "blocked", "url": "https://github.com/gastownhall/gascity/pull/5032", "updated_at": "2026-08-17T19:31:51Z", "comments": 1},
@@ -48,6 +48,7 @@
     "5138": {"title": "fix(session): thread liveness-probe observation into heal-state instead of hardcoding Observed:true", "state": "merged", "url": "https://github.com/gastownhall/gascity/pull/5138", "merged_by": "quad341", "merged_at": "2026-08-13T08:43:44Z"}
   },
   "notification_backlog": {
-    "note": "Checked all 31 open PRs authored by rjgeng against the baseline from last_checked_at 2026-08-17T19:45:00Z. No PR transitioned to merged/closed since baseline (open PR number set identical, 31 PRs, verified via search_pull_requests across both result pages). No new PRs appeared. mergeable_state re-verified per-PR via pull_request_read (get) for all 31 open PRs -- all still 'blocked', none moved toward clean/unstable. Comments/reviews re-checked per-PR (get_comments, get_reviews) for all 31 -- all comment-count changes traced to bot activity only (gascityinc-olivia[bot], copilot-pull-request-reviewer, github-actions bot); every human (non-bot) comment found (remuscazacu, AJBcoding, csauer02-personal-user, Toady00) predates the baseline's updated_at and was already reflected in the baseline's comment count. No new human comment or review since baseline on any PR. PR #4878 gained a requested reviewer (julianknutsen) but no review/comment submitted yet -- worth watching next cycle. No Slack message sent -- nothing met the reportable-change bar this run."
+    "note": "Checked all 31 open PRs authored by rjgeng against the baseline from last_checked_at 2026-08-17T20:35:00Z (gh CLI unavailable in this environment -- used search_pull_requests + pull_request_read via the GitHub MCP server instead). Open PR number set identical to baseline (31 PRs, same numbers) -- no PR transitioned to merged/closed, no new PR appeared. mergeable_state re-verified per-PR via pull_request_read (get) for all 31 -- all still 'blocked', none moved toward clean/unstable. Comment counts unchanged for every PR vs baseline. Investigated the three PRs carrying a 'status/review-failed' label (#5270, #5298, #5299): their only reviews are copilot-pull-request-reviewer[bot] reporting 'unable to review -- quota limit reached', not a human review -- label reflects a bot-tooling failure, not reviewer feedback, and isn't a reportable event. #4927's updated_at moved forward (20:07:03Z baseline -> 21:07:49Z now) with comment count unchanged (1) -- traced to no new comment/review of any kind; likely a routine internal timestamp bump. #4878 still shows requested reviewer julianknutsen with no review/comment submitted yet -- still worth watching next cycle. No new human (non-bot) comment or review found on any of the 31 PRs. No Slack message sent -- nothing met the reportable-change bar this run.",
+    "checked_by_run_at": "2026-08-17T21:20:00Z"
   }
 }

@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "last_checked_at": "2026-08-17T07:48:52Z",
+  "last_checked_at": "2026-08-17T08:45:09Z",
   "repo": "gastownhall/gascity",
   "author": "rjgeng",
   "prs": {
@@ -42,6 +42,6 @@
     "5138": {"title": "fix(session): thread liveness-probe observation into heal-state instead of hardcoding Observed:true", "state": "merged", "url": "https://github.com/gastownhall/gascity/pull/5138", "merged_by": "quad341", "merged_at": "2026-08-13T08:43:44Z"}
   },
   "notification_backlog": {
-    "note": "Checked all 26 previously-open PRs (fresh get() per PR for mergeable_state, plus reviews/comments/commits for the one PR - #4878 - whose updated_at moved past baseline) and re-ran a full state=all search (72 total PRs by rjgeng) to catch brand-new or newly-closed PRs. No open PR's mergeable_state moved toward clean/unstable, no new human (non-bot) comment or review landed since 2026-08-17T06:52:54Z, no baseline-open PR closed, and no brand-new PR appeared (open or already-closed). recently_closed_prs list is unchanged from last run. Slack notification: NOT needed this run - nothing crossed the 'real change' bar."
+    "note": "Checked all 26 open PRs (fresh get() per PR for mergeable_state + comments) and re-ran a full state=all search (72 total PRs by rjgeng) to catch brand-new or newly-closed PRs, comparing against the baseline from the prior run (last_checked_at 2026-08-17T07:48:52Z). Result: zero mergeable_state transitions, zero comment-count changes on any open PR, no baseline-open PR closed/merged, no brand-new PR appeared. recently_closed_prs list is unchanged from last run. Slack notification: NOT needed this run - nothing crossed the 'real change' bar."
   }
 }

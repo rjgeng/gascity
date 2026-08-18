@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "last_checked_at": "2026-08-18T01:47:42Z",
+  "last_checked_at": "2026-08-18T02:15:00Z",
   "repo": "gastownhall/gascity",
   "author": "rjgeng",
   "prs": {
@@ -47,5 +47,5 @@
     "4876": {"title": "fix(api): sort run steps into topological order (#4699)", "state": "merged", "url": "https://github.com/gastownhall/gascity/pull/4876", "merged_by": "quad341", "merged_at": "2026-08-15T21:54:27Z"},
     "5138": {"title": "fix(session): thread liveness-probe observation into heal-state instead of hardcoding Observed:true", "state": "merged", "url": "https://github.com/gastownhall/gascity/pull/5138", "merged_by": "quad341", "merged_at": "2026-08-13T08:43:44Z"}
   },
-  "last_run_note": "Re-checked all 31 open PRs authored by rjgeng against the baseline from last_checked_at 2026-08-18T00:46:29Z (gh CLI unavailable -- used search_pull_requests + pull_request_read via the GitHub MCP server, delegated per-PR mergeable_state/comment-author checks to a subagent to keep payloads out of main context). Open PR number set identical to baseline (same 31 numbers) -- no PR transitioned to merged/closed, no new PR appeared. mergeable_state re-verified per-PR -- all still 'blocked'. REPORTABLE CHANGE this run: two PRs picked up new human (non-bot) comments since baseline -- #5254 (AJBcoding flagged an alternative coverage-preserving approach via companion PR #5291) and #5261 (Toady00 flagged a retry-gate-logic implication of the doc change, tracked separately in #5340). Neither commenter objected to the PR itself merging as-is. Slack DM could not be sent this run -- the Slack connector is connected at the org level but not enabled in this session's chat (enabledInChat=false), so no Slack tools were loaded; used the PushNotification channel instead and flagged this for the operator to fix (enable Slack in this session/trigger's chat settings)."
+  "last_run_note": "Re-checked all 31 open PRs authored by rjgeng against the baseline from last_checked_at 2026-08-18T01:47:42Z (gh CLI unavailable -- used search_pull_requests via GitHub MCP for the full authored-PR list across 2 pages, then delegated per-PR mergeable_state/comment-count verification to 4 parallel subagents split into groups of ~8 to keep payloads out of main context). Open PR number set identical to baseline (same 31 numbers) -- no PR transitioned to merged/closed, no new PR appeared. mergeable_state re-verified per-PR -- all still 'blocked', none moved toward clean/unstable. Comment counts re-verified per-PR -- all identical to baseline, including the three PRs with previously-known human comments (#5254 AJBcoding, #5261 Toady00, #5364 csauer02-personal-user) which showed no newer comment beyond what was already known, and the three PRs with the status/review-failed label (#5270, #5298, #5299) which showed no further change. No reportable change this run -- no Slack/notification sent."
 }

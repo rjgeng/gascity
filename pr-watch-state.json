@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "last_checked_at": "2026-08-18T11:44:21Z",
+  "last_checked_at": "2026-08-18T12:45:08Z",
   "repo": "gastownhall/gascity",
   "author": "rjgeng",
   "prs": {
@@ -47,5 +47,5 @@
     "4876": {"title": "fix(api): sort run steps into topological order (#4699)", "state": "merged", "url": "https://github.com/gastownhall/gascity/pull/4876", "merged_by": "quad341", "merged_at": "2026-08-15T21:54:27Z"},
     "5138": {"title": "fix(session): thread liveness-probe observation into heal-state instead of hardcoding Observed:true", "state": "merged", "url": "https://github.com/gastownhall/gascity/pull/5138", "merged_by": "quad341", "merged_at": "2026-08-13T08:43:44Z"}
   },
-  "last_run_note": "Compared all 31 open PRs authored by rjgeng against the prior baseline (last_checked_at 2026-08-18T10:46:32Z). gh CLI unavailable; used GitHub MCP search_pull_requests (single page, 78 total PRs, trimmed fields) to confirm the open/closed set is unchanged (same 31 open PR numbers, no new merges/closures since baseline) and that 30 of 31 PRs have byte-for-byte identical updated_at timestamps vs the prior baseline (proof nothing changed on GitHub's side for those). PR #4878's updated_at moved (2026-08-18T02:57:48Z -> 11:16:18Z), so it was investigated directly via pull_request_read (get + get_comments + get_reviews): mergeable_state is still blocked (unchanged), the only comment is still the pre-existing bot triage comment from 2026-08-14, and the only review is still the pre-existing copilot-pull-request-reviewer[bot] quota-limit comment from 2026-07-31 -- no new human comment or review appeared, so the timestamp bump does not meet any reportable-change criterion (likely a routine push/metadata refresh). Result: 0 of 31 PRs showed a reportable change. No Slack notification sent this run."
+  "last_run_note": "Compared all 31 open PRs authored by rjgeng against the prior baseline (last_checked_at 2026-08-18T11:44:21Z). gh CLI unavailable; used GitHub MCP search_pull_requests (2 pages, 78 total PRs, trimmed fields) to enumerate all rjgeng PRs. The open PR set (31 numbers) is byte-for-byte identical to the baseline's tracked set -- no new merges/closures since baseline. All 31 open PRs' updated_at timestamps are byte-for-byte identical to the baseline values, which is conclusive proof nothing changed on any of them (no new comments, reviews, label changes, or commits) since updated_at bumps on any repo-side mutation. Because every timestamp matched exactly, no per-PR pull_request_read calls were needed this run. Result: 0 of 31 PRs showed a reportable change. No Slack notification sent this run."
 }

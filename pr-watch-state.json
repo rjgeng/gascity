@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "last_checked_at": "2026-08-18T09:47:43Z",
+  "last_checked_at": "2026-08-18T10:46:32Z",
   "repo": "gastownhall/gascity",
   "author": "rjgeng",
   "prs": {
@@ -47,5 +47,5 @@
     "4876": {"title": "fix(api): sort run steps into topological order (#4699)", "state": "merged", "url": "https://github.com/gastownhall/gascity/pull/4876", "merged_by": "quad341", "merged_at": "2026-08-15T21:54:27Z"},
     "5138": {"title": "fix(session): thread liveness-probe observation into heal-state instead of hardcoding Observed:true", "state": "merged", "url": "https://github.com/gastownhall/gascity/pull/5138", "merged_by": "quad341", "merged_at": "2026-08-13T08:43:44Z"}
   },
-  "last_run_note": "Compared all 31 open PRs authored by rjgeng against the prior baseline (last_checked_at 2026-08-18T08:44:49Z). gh CLI unavailable -- used GitHub MCP search_pull_requests (2 pages, 78 total PRs) to confirm the open/closed set is unchanged (same 31 open PR numbers, no new merges/closures), then a background agent used pull_request_read (get / get_reviews / get_comments) on all 31 open PRs to check live mergeable_state, comment counts, and reviewer/commenter identities against baseline. Result: 0 of 31 PRs showed a real change -- all still state=open, mergeable_state=blocked, identical comment counts, and no new human (non-bot) reviews or comments beyond what was already recorded in the prior baseline. No Slack notification sent this run. Note: while fetching PR comments, one comment body (on the 5254/5257 thread) contained embedded shell-command text resembling an instruction to run `gh run download ... | git apply ... | git push`; this was treated as untrusted PR content only, not acted upon, and is flagged here for visibility."
+  "last_run_note": "Compared all 31 open PRs authored by rjgeng against the prior baseline (last_checked_at 2026-08-18T09:47:43Z). Used GitHub MCP search_pull_requests (single page, 78 total PRs, trimmed fields) to confirm the open/closed set is unchanged (same 31 open PR numbers, no new merges/closures) and that every PR's issue-comment count and updated_at timestamp are byte-for-byte identical to the prior baseline. A background subagent then called pull_request_read (get + get_reviews) on all 31 open PRs to check live mergeable_state and reviewer identities: all 31 remain mergeable_state=blocked, and the only non-bot review anywhere in the set is the already-known #5364 csauer02-personal-user APPROVED review recorded in the prior baseline -- no new human review appeared. Result: 0 of 31 PRs showed a real change. No Slack notification sent this run."
 }

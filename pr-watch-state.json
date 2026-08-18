@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "last_checked_at": "2026-08-17T23:30:00Z",
+  "last_checked_at": "2026-08-18T00:46:29Z",
   "repo": "gastownhall/gascity",
   "author": "rjgeng",
   "prs": {
@@ -33,7 +33,7 @@
     "5361": {"title": "fix(gc import): report actual upgrade movement, not lockfile entry count (#5312)", "state": "open", "mergeable_state": "blocked", "url": "https://github.com/gastownhall/gascity/pull/5361", "updated_at": "2026-08-17T19:15:10Z", "comments": 0},
     "5362": {"title": "fix(prompt): resolve {{.ConfigDir}} in prompt template scope (#5315)", "state": "open", "mergeable_state": "blocked", "url": "https://github.com/gastownhall/gascity/pull/5362", "updated_at": "2026-08-17T19:12:39Z", "comments": 0},
     "5363": {"title": "fix(nudge): record dispatch skips for busy-session legacy nudge poll (#5317)", "state": "open", "mergeable_state": "blocked", "url": "https://github.com/gastownhall/gascity/pull/5363", "updated_at": "2026-08-17T19:09:59Z", "comments": 0},
-    "5364": {"title": "fix(nudge): re-validate mail nudges at delivery time too (#5321)", "state": "open", "mergeable_state": "blocked", "url": "https://github.com/gastownhall/gascity/pull/5364", "updated_at": "2026-08-17T23:17:11Z", "comments": 1, "last_human_comment_by": "csauer02-personal-user"},
+    "5364": {"title": "fix(nudge): re-validate mail nudges at delivery time too (#5321)", "state": "open", "mergeable_state": "blocked", "url": "https://github.com/gastownhall/gascity/pull/5364", "updated_at": "2026-08-17T23:59:37Z", "comments": 1, "last_human_comment_by": "csauer02-personal-user"},
     "5365": {"title": "fix(supervisor): auto-unregister on repeated stale-config load failures (#5313)", "state": "open", "mergeable_state": "blocked", "url": "https://github.com/gastownhall/gascity/pull/5365", "updated_at": "2026-08-17T19:01:05Z", "comments": 0}
   },
   "recently_closed_prs": {
@@ -47,8 +47,5 @@
     "4876": {"title": "fix(api): sort run steps into topological order (#4699)", "state": "merged", "url": "https://github.com/gastownhall/gascity/pull/4876", "merged_by": "quad341", "merged_at": "2026-08-15T21:54:27Z"},
     "5138": {"title": "fix(session): thread liveness-probe observation into heal-state instead of hardcoding Observed:true", "state": "merged", "url": "https://github.com/gastownhall/gascity/pull/5138", "merged_by": "quad341", "merged_at": "2026-08-13T08:43:44Z"}
   },
-  "notification_backlog": {
-    "note": "Re-checked all 31 open PRs authored by rjgeng against the baseline from last_checked_at 2026-08-17T22:45:00Z (gh CLI unavailable -- used search_pull_requests + pull_request_read via the GitHub MCP server, delegated to a subagent to keep the large PR-list payload out of main context). Open PR number set identical to baseline (same 31 numbers) -- no PR transitioned to merged/closed, no new PR appeared. mergeable_state re-verified per-PR -- all still 'blocked'. REPORTABLE CHANGE FOUND: PR #5364 received a new human (non-bot) issue comment from csauer02-personal-user (CONTRIBUTOR) proposing to reconcile this PR's fix with a related change in #5211, both touching cmd_nudge.go's delivery path. All other 30 PRs unchanged (comment counts and mergeable_state identical to baseline). Side note: PRs #5270, #5298, #5299 now carry a 'status/review-failed' label (not part of the tracked baseline schema before this run, now recorded as label_note for future comparison). SLACK DELIVERY BLOCKER: the Slack connector is installed and org-connected but not enabled in this chat session (enabledInChat=false), so no Slack tools were available to DM the user as instructed. Fell back to the PushNotification channel instead to ensure the reportable change reached the user. This should be reported to the operator so they can enable Slack for this scheduled session if DM delivery is required going forward.",
-    "checked_by_run_at": "2026-08-17T23:30:00Z"
-  }
+  "last_run_note": "Re-checked all 31 open PRs authored by rjgeng against the baseline from last_checked_at 2026-08-17T23:30:00Z (gh CLI unavailable -- used search_pull_requests + pull_request_read via the GitHub MCP server, delegated to a subagent to keep per-PR payloads out of main context). Open PR number set identical to baseline (same 31 numbers) -- no PR transitioned to merged/closed, no new PR appeared. mergeable_state re-verified per-PR -- all still 'blocked'. Comment counts re-verified per-PR -- all identical to baseline, no new human comments since baseline. NO REPORTABLE CHANGES this run; no Slack/notification sent."
 }

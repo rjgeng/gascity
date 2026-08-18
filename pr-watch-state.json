@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "last_checked_at": "2026-08-18T19:45:05Z",
+  "last_checked_at": "2026-08-18T20:00:00Z",
   "repo": "gastownhall/gascity",
   "author": "rjgeng",
   "prs": {
@@ -49,5 +49,5 @@
     "4876": {"title": "fix(api): sort run steps into topological order (#4699)", "state": "merged", "url": "https://github.com/gastownhall/gascity/pull/4876", "merged_by": "quad341", "merged_at": "2026-08-15T21:54:27Z"},
     "5138": {"title": "fix(session): thread liveness-probe observation into heal-state instead of hardcoding Observed:true", "state": "merged", "url": "https://github.com/gastownhall/gascity/pull/5138", "merged_by": "quad341", "merged_at": "2026-08-13T08:43:44Z"}
   },
-  "last_run_note": "Compared all 33 open PRs authored by rjgeng against the prior baseline (last_checked_at 2026-08-18T18:44:59Z). gh CLI unavailable in this session; used mcp__github__search_pull_requests (repo:gastownhall/gascity author:rjgeng, fields limited to number/title/state/html_url/updated_at to keep response size manageable, 80 total results across the repo's full history for this author, 2 pages) to get live state/updated_at for every PR. All 33 tracked open PR numbers are unchanged from baseline (same set), and every one has a byte-for-byte identical updated_at timestamp vs baseline -- since GitHub bumps updated_at on any comment, review, label, or state change, an unmoved timestamp rules out new activity without needing a per-PR get_comments/get_reviews call. No new PRs appeared. No closures or merges occurred among the tracked PRs since baseline (recently_closed_prs set unchanged, and PR #4875 -- closed but absent from both the open and recently_closed baseline sets -- has an updated_at of 2026-08-02, well before baseline, confirming it was already closed pre-baseline and is not a new event). Result: 0 of 33 PRs showed a reportable change. No Slack notification sent this run."
+  "last_run_note": "Compared all 33 open PRs authored by rjgeng against the prior baseline (last_checked_at 2026-08-18T19:45:05Z, itself a 0-change run). gh CLI unavailable; used mcp__github__search_pull_requests (repo:gastownhall/gascity author:rjgeng, fields limited to number/title/state/html_url/updated_at, sorted by updated desc, 80 total results across full author history) to get live state/updated_at for every PR. All 33 tracked open PR numbers are unchanged from baseline (same set), and every one has a byte-for-byte identical updated_at timestamp vs baseline. No new PRs appeared. recently_closed_prs set unchanged (no new merges/closes). Result: 0 of 33 PRs showed a reportable change. No Slack notification sent this run."
 }

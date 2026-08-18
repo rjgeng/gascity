@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "last_checked_at": "2026-08-18T12:45:08Z",
+  "last_checked_at": "2026-08-18T13:44:48Z",
   "repo": "gastownhall/gascity",
   "author": "rjgeng",
   "prs": {
@@ -47,5 +47,5 @@
     "4876": {"title": "fix(api): sort run steps into topological order (#4699)", "state": "merged", "url": "https://github.com/gastownhall/gascity/pull/4876", "merged_by": "quad341", "merged_at": "2026-08-15T21:54:27Z"},
     "5138": {"title": "fix(session): thread liveness-probe observation into heal-state instead of hardcoding Observed:true", "state": "merged", "url": "https://github.com/gastownhall/gascity/pull/5138", "merged_by": "quad341", "merged_at": "2026-08-13T08:43:44Z"}
   },
-  "last_run_note": "Compared all 31 open PRs authored by rjgeng against the prior baseline (last_checked_at 2026-08-18T11:44:21Z). gh CLI unavailable; used GitHub MCP search_pull_requests (2 pages, 78 total PRs, trimmed fields) to enumerate all rjgeng PRs. The open PR set (31 numbers) is byte-for-byte identical to the baseline's tracked set -- no new merges/closures since baseline. All 31 open PRs' updated_at timestamps are byte-for-byte identical to the baseline values, which is conclusive proof nothing changed on any of them (no new comments, reviews, label changes, or commits) since updated_at bumps on any repo-side mutation. Because every timestamp matched exactly, no per-PR pull_request_read calls were needed this run. Result: 0 of 31 PRs showed a reportable change. No Slack notification sent this run."
+  "last_run_note": "Compared all 31 open PRs authored by rjgeng against the prior baseline (last_checked_at 2026-08-18T12:45:08Z). gh CLI unavailable; curl to the GitHub REST API is blocked in this session (403, GitHub access not enabled for direct curl - only the github MCP server works), so used mcp__github__search_pull_requests (1 page, 78 total PRs, trimmed fields: number/title/state/updated_at/html_url/closed_at) to enumerate all rjgeng PRs. The open PR set (31 numbers) is byte-for-byte identical to the baseline's tracked set -- no new PRs, no merges/closures since baseline. All 31 open PRs' updated_at timestamps are byte-for-byte identical to the baseline values, which is conclusive proof nothing changed on any of them (no new comments, reviews, label changes, or commits) since updated_at bumps on any repo-side mutation. The closed-PR set also matches the baseline's recently_closed_prs exactly. Because every timestamp matched exactly, no per-PR pull_request_read calls were needed this run. Result: 0 of 31 PRs showed a reportable change. No Slack notification sent this run."
 }

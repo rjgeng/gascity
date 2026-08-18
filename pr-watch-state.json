@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "last_checked_at": "2026-08-18T04:44:56Z",
+  "last_checked_at": "2026-08-18T05:44:36Z",
   "repo": "gastownhall/gascity",
   "author": "rjgeng",
   "prs": {
@@ -47,5 +47,5 @@
     "4876": {"title": "fix(api): sort run steps into topological order (#4699)", "state": "merged", "url": "https://github.com/gastownhall/gascity/pull/4876", "merged_by": "quad341", "merged_at": "2026-08-15T21:54:27Z"},
     "5138": {"title": "fix(session): thread liveness-probe observation into heal-state instead of hardcoding Observed:true", "state": "merged", "url": "https://github.com/gastownhall/gascity/pull/5138", "merged_by": "quad341", "merged_at": "2026-08-13T08:43:44Z"}
   },
-  "last_run_note": "Compared all 31 open PRs authored by rjgeng against the prior baseline (last_checked_at 2026-08-18T03:47:20Z). gh CLI unavailable -- used search_pull_requests via GitHub MCP for the full history in one call, then compared each open PR's updated_at against the baseline's per-PR updated_at as a change filter. Open PR number set identical to baseline (same 31 numbers) -- no PR transitioned to merged/closed, no new PR appeared. 30 of 31 PRs had byte-identical updated_at vs baseline (no activity at all). Only #4878 showed a moved updated_at (2026-08-17T22:48:31Z -> 2026-08-18T02:57:48Z); investigated directly via pull_request_read (get/get_comments/get_reviews): mergeable_state still 'blocked' (unchanged), the sole comment is still the same bot triage comment (gascityinc-olivia[bot], 2026-08-14), the sole review is still the same bot copilot-quota-limit review (copilot-pull-request-reviewer[bot], 2026-07-31) -- no new human comment or review, no mergeable_state movement toward clean/unstable. Treated as a routine non-event (likely a branch push/rebase) per the 'routine timestamp bumps ... are NOT changes worth reporting' rule. No genuinely new activity meeting the reporting criteria -- no Slack notification sent this run."
+  "last_run_note": "Compared all 31 open PRs authored by rjgeng against the prior baseline (last_checked_at 2026-08-18T04:44:56Z). gh CLI unavailable -- used search_pull_requests via GitHub MCP for the full history in one call. Open PR number set identical to baseline (same 31 numbers, exact match) -- no PR transitioned to merged/closed, no new PR appeared. All 31 of 31 open PRs had byte-identical updated_at vs baseline (zero activity of any kind since the last check, including #4878 which had moved on the previous run and was already investigated then). No comment, review, or mergeable_state change possible without an updated_at bump. No genuinely new activity meeting the reporting criteria -- no Slack notification sent this run."
 }

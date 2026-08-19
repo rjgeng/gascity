@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "last_checked_at": "2026-08-19T05:47:29Z",
+  "last_checked_at": "2026-08-19T06:47:25Z",
   "repo": "gastownhall/gascity",
   "author": "rjgeng",
   "prs": {
@@ -49,6 +49,6 @@
     "4876": {"title": "fix(api): sort run steps into topological order (#4699)", "state": "merged", "url": "https://github.com/gastownhall/gascity/pull/4876", "merged_by": "quad341", "merged_at": "2026-08-15T21:54:27Z"},
     "5138": {"title": "fix(session): thread liveness-probe observation into heal-state instead of hardcoding Observed:true", "state": "merged", "url": "https://github.com/gastownhall/gascity/pull/5138", "merged_by": "quad341", "merged_at": "2026-08-13T08:43:44Z"}
   },
-  "last_run_note": "Compared all 33 open PRs authored by rjgeng against the prior baseline (last_checked_at 2026-08-19T05:10:00Z) via a subagent that fetched a full lightweight PR listing (search_pull_requests) plus per-PR mergeable_state (pull_request_read get) for all 33, with deeper get_reviews/get_comments checks reserved for PRs whose updated_at differed from baseline. No new PRs opened, none merged/closed since baseline. No PR moved from blocked/dirty toward clean/unstable. No new non-bot human comment or review appeared beyond what was already recorded in the baseline (including #5364's already-reported approval, which is unchanged). 0 of 33 PRs showed any reportable change under the task's defined criteria. No Slack notification sent this run.",
-  "no_slack_capability_note": "As of prior runs, ListConnectors shows Slack connected:true but enabledInChat:false, and ToolSearch for 'slack' surfaces no callable tool -- so even if a reportable event occurs, this session cannot currently send a Slack DM. Not re-verified this run since no reportable event occurred (matches the pattern from prior runs' notes)."
+  "last_run_note": "Live-checked all 33 currently-open rjgeng PRs in gastownhall/gascity via paginated search (80 total PRs by this author, state=all) plus the 9 baseline recently-closed entries. Every open PR's updated_at matched the prior baseline exactly, indicating no new comments, reviews, mergeable_state transitions, or merges/closes occurred since the last check. No new PRs appeared and no additional PRs merged or closed beyond what's already in recently_closed_prs. Nothing was reportable this run.",
+  "no_slack_capability_note": "Slack is connected (connected:true) but enabledInChat:false for this session, and no callable Slack-send tool is available -- so even a reportable event cannot be DM'd directly from this session; use PushNotification as the fallback channel instead."
 }

@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "last_checked_at": "2026-08-19T12:49:54Z",
+  "last_checked_at": "2026-08-19T13:46:55Z",
   "repo": "gastownhall/gascity",
   "author": "rjgeng",
   "prs": {
@@ -49,5 +49,5 @@
     "4876": {"title": "fix(api): sort run steps into topological order (#4699)", "state": "merged", "url": "https://github.com/gastownhall/gascity/pull/4876"},
     "5138": {"title": "fix(session): thread liveness-probe observation into heal-state instead of hardcoding Observed:true", "state": "merged", "url": "https://github.com/gastownhall/gascity/pull/5138"}
   },
-  "last_run_note": "Fetched all 33 currently-open rjgeng PRs plus a fresh closed-PR search; the open-PR set is identical to baseline (no new PRs, no baseline PRs merged/closed). Checked mergeable_state on every PR: all unchanged (still blocked, except 4878 and 5032 which remain dirty) -- no PR moved toward clean/unstable. Checked comments and reviews on every open PR: all activity this run is either bot-only (copilot-pull-request-reviewer quota-limit notices, gascityinc-olivia auto-triage) or human activity already captured/reported in the prior baseline (remuscazacu on 4584, AJBcoding on 5254, csauer02-personal-user on 5257/5364, Toady00 on 5261, julianknutsen review-queue notes on 5270/5298/5299, rjgeng's own self-reply on 5364). No new reportable events found this check."
+  "last_run_note": "Fetched all 33 currently-open rjgeng PRs via search (fields-limited) -- identical set to baseline, every issue-comment count unchanged. A subagent then fetched mergeable_state and reviews for all 33 PRs individually via pull_request_read: every mergeable_state is unchanged (still blocked, except 4878 and 5032 which remain dirty), no mergeable_state moved toward clean/unstable, and no PR has a new human review/comment beyond what was already reported in prior runs (5364's csauer02-personal-user APPROVED review and reconciliation comment remain the most recent human touch, already reported). No new reportable events found this check. Slack connector is installed/connected for this account but was not enabled in this chat session (enabledInChat: false) -- no Slack tools were loaded, but no Slack message was needed this run since there was nothing to report."
 }

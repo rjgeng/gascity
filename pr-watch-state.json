@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "last_checked_at": "2026-08-19T06:47:25Z",
+  "last_checked_at": "2026-08-19T07:45:49Z",
   "repo": "gastownhall/gascity",
   "author": "rjgeng",
   "prs": {
@@ -49,6 +49,6 @@
     "4876": {"title": "fix(api): sort run steps into topological order (#4699)", "state": "merged", "url": "https://github.com/gastownhall/gascity/pull/4876", "merged_by": "quad341", "merged_at": "2026-08-15T21:54:27Z"},
     "5138": {"title": "fix(session): thread liveness-probe observation into heal-state instead of hardcoding Observed:true", "state": "merged", "url": "https://github.com/gastownhall/gascity/pull/5138", "merged_by": "quad341", "merged_at": "2026-08-13T08:43:44Z"}
   },
-  "last_run_note": "Live-checked all 33 currently-open rjgeng PRs in gastownhall/gascity via paginated search (80 total PRs by this author, state=all) plus the 9 baseline recently-closed entries. Every open PR's updated_at matched the prior baseline exactly, indicating no new comments, reviews, mergeable_state transitions, or merges/closes occurred since the last check. No new PRs appeared and no additional PRs merged or closed beyond what's already in recently_closed_prs. Nothing was reportable this run.",
+  "last_run_note": "Live-checked all 33 currently-open rjgeng PRs in gastownhall/gascity: title/state/updated_at via search_pull_requests (80 total PRs by this author, state=all), plus a direct pull_request_read get on all 33 to confirm mergeable_state didn't silently drift (background recompute can change mergeable_state without bumping updated_at, e.g. after other maintainers merge into main -- checked explicitly this run rather than trusting updated_at alone). Every open PR's updated_at, mergeable_state, and comment count matched the prior baseline exactly. No new PRs appeared and no additional PRs merged or closed beyond what's already in recently_closed_prs. Nothing was reportable this run.",
   "no_slack_capability_note": "Slack is connected (connected:true) but enabledInChat:false for this session, and no callable Slack-send tool is available -- so even a reportable event cannot be DM'd directly from this session; use PushNotification as the fallback channel instead."
 }

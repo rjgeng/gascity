@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "last_checked_at": "2026-08-19T19:35:00Z",
+  "last_checked_at": "2026-08-19T20:44:53Z",
   "repo": "gastownhall/gascity",
   "author": "rjgeng",
   "prs": {
@@ -347,5 +347,5 @@
       "url": "https://github.com/gastownhall/gascity/pull/5138"
     }
   },
-  "last_run_note": "Re-verified all 33 currently-open rjgeng PRs. search_pull_requests (state=all) confirmed identical set of 33 open PR numbers -- no new PRs, no merges/closures since the prior baseline (checked ~48min earlier). Fetched pull_request_read get() for all 33 PRs directly (not via subagents this run) and compared mergeable_state + comment counts field-by-field against the prior baseline. Result: zero mergeable_state transitions (all identical to prior snapshot -- 4857/4878/5032/5257 still dirty, everything else still blocked), zero new human comments/reviews beyond what was already reported in prior runs. Only changes observed were two bot-only triage comments (gascityinc-olivia[bot] auto-triage) on #5376 and #5375 (comments 0->1 each, bumping their updated_at) and a stale updated_at correction on #4584 (prior baseline had incorrectly recorded the human comment's own timestamp instead of the PR's actual updated_at -- verified via fresh comment fetch that #4584 still has exactly the same 2 comments as before: remuscazacu's 2026-07-24 triage-ping (already known) and an olivia bot triage comment from 2026-08-15, both pre-dating this run). No reportable events this run; no Slack message sent."
+  "last_run_note": "Fetched search_pull_requests (state=all, fields limited to number/title/state/updated_at to avoid the 423k-char oversized-result error hit on the unfiltered call) for all 80 rjgeng PRs. The 33 open PR numbers exactly match the prior baseline's open set -- no new PRs, no merges/closures since the prior baseline (checked ~69min earlier). For every one of the 33 open PRs, the live updated_at timestamp is byte-identical to the value recorded in the prior baseline snapshot -- since GitHub bumps a PR's updated_at on any comment, review, label, or mergeable_state change, an unchanged updated_at rules out all of those simultaneously, so no per-PR detail fetch (reviews/comments/mergeable_state) was needed this run. Zero reportable events; no Slack message sent."
 }

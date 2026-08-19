@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "last_checked_at": "2026-08-19T08:48:35Z",
+  "last_checked_at": "2026-08-19T09:45:37Z",
   "repo": "gastownhall/gascity",
   "author": "rjgeng",
   "prs": {
@@ -53,6 +53,6 @@
     "4876": {"title": "fix(api): sort run steps into topological order (#4699)", "state": "merged", "url": "https://github.com/gastownhall/gascity/pull/4876", "merged_by": "quad341", "merged_at": "2026-08-15T21:54:27Z"},
     "5138": {"title": "fix(session): thread liveness-probe observation into heal-state instead of hardcoding Observed:true", "state": "merged", "url": "https://github.com/gastownhall/gascity/pull/5138", "merged_by": "quad341", "merged_at": "2026-08-13T08:43:44Z"}
   },
-  "last_run_note": "Live-checked all 33 currently-open rjgeng PRs in gastownhall/gascity (80 total PRs by this author, state=all via search_pull_requests). Open-PR number set is identical to the prior baseline -- no PR merged or closed since last check, no brand-new PR appeared. Comment counts matched baseline for 32/33 PRs. PR #5364 showed comments 0->1; a subagent check via pull_request_read (get_reviews/get_comments) resolved this as a genuinely new-to-us issue comment from csauer02-personal-user (2026-08-17T23:17:11Z, distinct from and 42min before the already-reported APPROVED review at 23:59:37Z) proposing to reconcile #5364 with overlapping PR #5211 -- reported this run. mergeable_state re-checked live for all 33 PRs (via a background subagent, since the search API doesn't expose it) -- all matched baseline exactly (30 blocked, 3 dirty on #4878/#5032/#5360, all pre-existing/non-reportable per rules), no BLOCKED/DIRTY -> CLEAN/UNSTABLE transitions.",
-  "no_slack_capability_note": "Slack send tool still not available in this session as of this run (checked via ToolSearch, only SendMessage/Monitor/MCP-resource tools surfaced for 'slack send message dm') -- using PushNotification as the fallback channel again."
+  "last_run_note": "Re-checked all 33 currently-open rjgeng PRs in gastownhall/gascity via search_pull_requests (state=all, 80 total PRs by this author). Compared each open PR's updated_at against the prior baseline: all 33 matched byte-for-byte identical to the previous check, and the open-PR number set itself was unchanged (same 33 numbers, including #4547 which is easy to miss in a manual scan). The closed-PR set also matched the baseline's recently_closed_prs exactly -- no PR newly merged or closed, no brand-new PR appeared. Since GitHub bumps a PR/issue's updated_at on any comment, review, label, or state activity, identical timestamps across all 33 open PRs is sufficient evidence nothing changed -- skipped the per-PR mergeable_state/comments subagent re-check this run since there was nothing to investigate. No Slack message sent.",
+  "no_slack_capability_note": "Slack send tool still not available in this session as of this run (checked via ListConnectors + ToolSearch: the Slack connector shows connected:true at org level but enabledInChat:false for this session, so no Slack tool is loaded) -- using PushNotification as the fallback channel; this is now the second consecutive run with the same finding, so it looks like a standing gap (connector enabled at the org but never toggled on for this scheduled session) rather than a transient issue."
 }

@@ -398,7 +398,7 @@ func cmdNudgeStatus(args []string, jsonOutput bool, stdout, stderr io.Writer) in
 		return 1
 	}
 
-	pending, inFlight, dead, err := listQueuedNudgesForTarget(target.cityPath, target, time.Now())
+	pending, inFlight, dead, err := listQueuedNudgesForTargetSnapshot(target.cityPath, target, time.Now())
 	if err != nil {
 		fmt.Fprintf(stderr, "gc nudge status: %v\n", err) //nolint:errcheck
 		return 1
@@ -2544,21 +2544,27 @@ func listQueuedNudges(cityPath, agentName string, now time.Time) ([]queuedNudge,
 }
 
 // listQueuedNudgesForTargetSnapshot returns target's queue buckets from a
-// lock-free read of the persisted state (ga-2kzci3 FR5, ported from the
-// unmerged ga-cn8dkj fix for the sibling cmdNudgeStatus regression). It is
-// the read-only peer of listQueuedNudgesForTarget: it runs no maintenance
-// pass, opens no bead store, takes no flock, and never writes.
+// lock-free read of the persisted state. It is the read-only peer of
+// listQueuedNudgesForTarget: it runs no maintenance pass, opens no bead store,
+// takes no flock, and never writes.
 //
-// A liveness check like shouldKeepNudgePollerAlive must not wait on the
-// queue's writer lock. Reading without the lock is safe because WithState
-// rewrites state.json atomically (temp file + rename), so a reader always
-// observes one whole snapshot, never a torn one.
+// Read-only status and liveness checks must not wait on the queue's writer
+// lock. `gc nudge status` used to reach the queue through
+// listQueuedNudgesForTarget, which takes the city-wide exclusive flock in
+// nudgequeue.WithState and then drains the whole backlog under it via serial
+// `bd` subprocesses. On a busy city that lock is permanently contended, so
+// status blocked in flock(2) and printed nothing until its caller timed out
+// (ga-cn8dkj).
 //
-// The bucketing below mirrors the in-memory effect of the recover/prune
-// passes so the result matches what a maintaining caller would report,
-// while mutating nothing. Dead-letter retention pruning is deliberately NOT
-// mirrored: it depends on the bead store, and treating a not-yet-swept dead
-// letter as still dead is harmless for a liveness check.
+// Reading without the lock is safe because WithState rewrites state.json
+// atomically (temp file + rename), so a reader observes one whole snapshot,
+// never a torn one.
+//
+// The bucketing below mirrors the in-memory effect of the recover/prune passes
+// so the displayed buckets match what a maintaining caller would report, while
+// mutating nothing. Dead-letter retention pruning is deliberately NOT mirrored:
+// it depends on the bead store, and showing a dead letter that has not been
+// swept yet is harmless in a status view.
 func listQueuedNudgesForTargetSnapshot(cityPath string, target nudgeTarget, now time.Time) ([]queuedNudge, []queuedNudge, []queuedNudge, error) {
 	state, err := nudgequeue.LoadState(cityPath)
 	if err != nil {

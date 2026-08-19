@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "last_checked_at": "2026-08-19T05:10:00Z",
+  "last_checked_at": "2026-08-19T05:47:29Z",
   "repo": "gastownhall/gascity",
   "author": "rjgeng",
   "prs": {
@@ -49,6 +49,6 @@
     "4876": {"title": "fix(api): sort run steps into topological order (#4699)", "state": "merged", "url": "https://github.com/gastownhall/gascity/pull/4876", "merged_by": "quad341", "merged_at": "2026-08-15T21:54:27Z"},
     "5138": {"title": "fix(session): thread liveness-probe observation into heal-state instead of hardcoding Observed:true", "state": "merged", "url": "https://github.com/gastownhall/gascity/pull/5138", "merged_by": "quad341", "merged_at": "2026-08-13T08:43:44Z"}
   },
-  "last_run_note": "Compared all 33 open PRs authored by rjgeng against the prior baseline (last_checked_at 2026-08-19T03:48:10Z). PR numbers identical to baseline (same 33), no new PRs opened, none merged/closed since baseline (recently_closed_prs unchanged, confirmed via search_pull_requests state=all sorted by updated_at desc). Every PR's updated_at timestamp was byte-identical to the baseline value -- since GitHub always bumps updated_at on a new comment or review, this alone rules out new human or bot activity on any of the 33 PRs. The one thing that can change without bumping updated_at is mergeable_state (recomputed server-side when the base branch moves), so delegated a dedicated check of mergeable_state across all 33 PRs to a subagent via mcp__github__pull_request_read (method=get). Result: 100% match against baseline for all 33 PRs, zero drift, including the three already-dirty PRs (#4878, #5032, #5360) which remained dirty. 0 of 33 PRs showed any reportable change under the task's defined criteria. No Slack notification sent this run.",
-  "no_slack_capability_note": "As of prior runs, ListConnectors shows Slack connected:true but enabledInChat:false, and ToolSearch for 'slack' surfaces no callable tool -- so even if a reportable event occurs, this session cannot currently send a Slack DM. Not re-verified this run since no reportable event occurred (matches the pattern from the prior run's note)."
+  "last_run_note": "Compared all 33 open PRs authored by rjgeng against the prior baseline (last_checked_at 2026-08-19T05:10:00Z) via a subagent that fetched a full lightweight PR listing (search_pull_requests) plus per-PR mergeable_state (pull_request_read get) for all 33, with deeper get_reviews/get_comments checks reserved for PRs whose updated_at differed from baseline. No new PRs opened, none merged/closed since baseline. No PR moved from blocked/dirty toward clean/unstable. No new non-bot human comment or review appeared beyond what was already recorded in the baseline (including #5364's already-reported approval, which is unchanged). 0 of 33 PRs showed any reportable change under the task's defined criteria. No Slack notification sent this run.",
+  "no_slack_capability_note": "As of prior runs, ListConnectors shows Slack connected:true but enabledInChat:false, and ToolSearch for 'slack' surfaces no callable tool -- so even if a reportable event occurs, this session cannot currently send a Slack DM. Not re-verified this run since no reportable event occurred (matches the pattern from prior runs' notes)."
 }

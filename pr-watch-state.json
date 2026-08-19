@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "last_checked_at": "2026-08-19T20:44:53Z",
+  "last_checked_at": "2026-08-19T21:44:45Z",
   "repo": "gastownhall/gascity",
   "author": "rjgeng",
   "prs": {
@@ -347,5 +347,5 @@
       "url": "https://github.com/gastownhall/gascity/pull/5138"
     }
   },
-  "last_run_note": "Fetched search_pull_requests (state=all, fields limited to number/title/state/updated_at to avoid the 423k-char oversized-result error hit on the unfiltered call) for all 80 rjgeng PRs. The 33 open PR numbers exactly match the prior baseline's open set -- no new PRs, no merges/closures since the prior baseline (checked ~69min earlier). For every one of the 33 open PRs, the live updated_at timestamp is byte-identical to the value recorded in the prior baseline snapshot -- since GitHub bumps a PR's updated_at on any comment, review, label, or mergeable_state change, an unchanged updated_at rules out all of those simultaneously, so no per-PR detail fetch (reviews/comments/mergeable_state) was needed this run. Zero reportable events; no Slack message sent."
+  "last_run_note": "Fetched search_pull_requests (state=all, 2 pages of 50) for all 80 rjgeng PRs, covering both the recent batch and the older tail (down to #2037). The open set is exactly the same 33 PR numbers as the prior baseline -- no new PRs, no merges/closures since the prior baseline (checked ~60min earlier). For every one of the 33 open PRs, the live updated_at timestamp is byte-identical to the value recorded in the prior baseline snapshot -- since GitHub bumps a PR's updated_at on any comment, review, label, or mergeable_state change, an unchanged updated_at rules out all of those simultaneously, so no per-PR detail fetch (reviews/comments/mergeable_state) was needed this run. Zero reportable events; no Slack message sent."
 }

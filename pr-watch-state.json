@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "last_checked_at": "2026-08-20T00:44:47Z",
+  "last_checked_at": "2026-08-20T01:46:27Z",
   "repo": "gastownhall/gascity",
   "author": "rjgeng",
   "prs": {
@@ -347,5 +347,5 @@
       "url": "https://github.com/gastownhall/gascity/pull/5138"
     }
   },
-  "last_run_note": "Fetched search_pull_requests (state=all, single call, perPage=100) covering all 80 rjgeng PRs. The open set is exactly the same 33 PR numbers as the prior baseline -- no new PRs, no merges/closures since the prior baseline (checked ~1hr earlier). For every one of the 33 open PRs, the live updated_at timestamp is byte-identical to the value recorded in the prior baseline snapshot. Zero reportable events; no Slack message sent."
+  "last_run_note": "Fetched search_pull_requests (state=all, single call, perPage=100) covering all 80 rjgeng PRs. The open set is exactly the same 33 PR numbers as the prior baseline -- no new PRs, no merges/closures since the prior baseline (checked ~1hr earlier). For every one of the 33 open PRs, the live updated_at timestamp is byte-identical to the value recorded in the prior baseline snapshot. Also independently re-verified mergeable_state via pull_request_read for all 33 open PRs (list_pull_requests doesn't return this field) -- every one matches its recorded baseline value exactly, so no BLOCKED/DIRTY -> CLEAN/UNSTABLE transitions either. Zero reportable events; no Slack message sent."
 }

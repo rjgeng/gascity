@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
-  "last_checked_at": "2026-08-20T03:44:34Z",
+  "last_checked_at": "2026-08-20T04:47:32Z",
   "repo": "gastownhall/gascity",
   "author": "rjgeng",
   "prs": {
     "4095": {
       "title": "fix(session): refresh reset_committed_at on every continuation-reset re-arm (#4067)",
       "state": "open",
-      "mergeable_state": "blocked",
+      "mergeable_state": "dirty",
       "url": "https://github.com/gastownhall/gascity/pull/4095",
       "updated_at": "2026-07-26T11:14:51Z",
       "comments": 2
@@ -42,9 +42,7 @@
       "mergeable_state": "blocked",
       "url": "https://github.com/gastownhall/gascity/pull/4584",
       "updated_at": "2026-08-15T00:02:57Z",
-      "comments": 2,
-      "last_human_comment_by": "remuscazcu",
-      "human_comment_note": "2026-07-24T07:05:27Z: confirms bug, pings @julianknutsen to triage/review; still unreviewed by a human as of this check"
+      "comments": 2
     },
     "4857": {
       "title": "fix(mail): authorize --from against the calling session's own identity (#4070)",
@@ -148,9 +146,7 @@
       "mergeable_state": "blocked",
       "url": "https://github.com/gastownhall/gascity/pull/5254",
       "updated_at": "2026-08-15T04:50:26Z",
-      "comments": 2,
-      "last_human_comment_by": "AJBcoding",
-      "human_comment_note": "opened #5291 as coverage-preserving alternative to this skip -- already known"
+      "comments": 2
     },
     "5257": {
       "title": "fix(mail): add unread-mail TTL so never-read mail wisps age out (#5240)",
@@ -158,9 +154,7 @@
       "mergeable_state": "dirty",
       "url": "https://github.com/gastownhall/gascity/pull/5257",
       "updated_at": "2026-08-15T00:24:51Z",
-      "comments": 3,
-      "last_human_comment_by": "csauer02-personal-user",
-      "human_comment_note": "2026-08-14T15:09:22Z: flags adjacent Provider.Archive close_reason bug, offers a follow-up PR -- already known"
+      "comments": 3
     },
     "5258": {
       "title": "fix(dispatch): default gc.kind on plain attempt-recipe children (#5246)",
@@ -176,9 +170,7 @@
       "mergeable_state": "blocked",
       "url": "https://github.com/gastownhall/gascity/pull/5261",
       "updated_at": "2026-08-17T02:51:10Z",
-      "comments": 2,
-      "last_human_comment_by": "Toady00",
-      "human_comment_note": "filed follow-up issue #5340 re: primed_at/stalled-claim-recovery gate -- already known"
+      "comments": 2
     },
     "5270": {
       "title": "fix(doctor): order-firing-current reads live suspension state, not just the deprecated rig.Suspended field",
@@ -186,10 +178,7 @@
       "mergeable_state": "blocked",
       "url": "https://github.com/gastownhall/gascity/pull/5270",
       "updated_at": "2026-08-16T14:45:16Z",
-      "comments": 2,
-      "label_note": "status/review-failed",
-      "last_human_comment_by": "julianknutsen",
-      "human_comment_note": "COLLABORATOR bot-workflow notice: PR added to review queue -- already known, routine"
+      "comments": 2
     },
     "5298": {
       "title": "fix(bd): commit the beads runtime config write, scoped to config (#5286)",
@@ -197,10 +186,7 @@
       "mergeable_state": "blocked",
       "url": "https://github.com/gastownhall/gascity/pull/5298",
       "updated_at": "2026-08-16T05:01:47Z",
-      "comments": 2,
-      "label_note": "status/review-failed",
-      "last_human_comment_by": "julianknutsen",
-      "human_comment_note": "COLLABORATOR bot-workflow notice: PR added to review queue -- already known, routine"
+      "comments": 2
     },
     "5299": {
       "title": "fix(nudge): treat a reaped backing bead as terminal in dead-letter prune (#5278)",
@@ -208,10 +194,7 @@
       "mergeable_state": "blocked",
       "url": "https://github.com/gastownhall/gascity/pull/5299",
       "updated_at": "2026-08-16T12:21:24Z",
-      "comments": 2,
-      "label_note": "status/review-failed",
-      "last_human_comment_by": "julianknutsen",
-      "human_comment_note": "COLLABORATOR bot-workflow notice: PR added to review queue -- already known, routine"
+      "comments": 2
     },
     "5301": {
       "title": "fix(events): normalize caller-supplied Ts to the recorder's zone (#5300)",
@@ -259,20 +242,7 @@
       "mergeable_state": "blocked",
       "url": "https://github.com/gastownhall/gascity/pull/5364",
       "updated_at": "2026-08-19T11:16:21Z",
-      "comments": 2,
-      "last_human_comment_by": "csauer02-personal-user",
-      "human_review": {
-        "author": "csauer02-personal-user",
-        "state": "APPROVED",
-        "submitted_at": "2026-08-17T23:59:37Z",
-        "note": "ALREADY REPORTED to the user, do not re-report this specific review"
-      },
-      "human_issue_comment": {
-        "author": "csauer02-personal-user",
-        "created_at": "2026-08-17T23:17:11Z",
-        "note": "Proposes reconciling with overlapping PR #5211. ALREADY REPORTED, do not re-report this specific comment."
-      },
-      "author_reply_note": "2026-08-19T11:16:21Z: rjgeng (the PR author) replied to csauer02 himself -- self-authored, not new external signal. Confirmed still the case this run."
+      "comments": 2
     },
     "5365": {
       "title": "fix(supervisor): auto-unregister on repeated stale-config load failures (#5313)",
@@ -296,8 +266,7 @@
       "mergeable_state": "blocked",
       "url": "https://github.com/gastownhall/gascity/pull/5376",
       "updated_at": "2026-08-19T19:23:36Z",
-      "comments": 1,
-      "label_note": "only activity is a copilot-pull-request-reviewer bot review noting it hit its quota and could not review"
+      "comments": 1
     }
   },
   "recently_closed_prs": {
@@ -347,5 +316,5 @@
       "url": "https://github.com/gastownhall/gascity/pull/5138"
     }
   },
-  "last_run_note": "Compared live search_pull_requests (state=all, single call, perPage=100, fields=[number,title,state,html_url,updated_at,closed_at]) covering all 80 rjgeng PRs against the prior baseline. Open set is exactly the same 33 PR numbers as baseline -- no new PRs. No previously-open PR transitioned to closed/merged. For all 33 open PRs, live updated_at is byte-identical to the baseline value, meaning no comments, reviews, or mergeable_state transitions occurred on any of them since the last check. Zero reportable events; no Slack message sent."
+  "last_run_note": "No reportable changes this run: open PR set (33) unchanged from baseline, all comment counts and updated_at timestamps byte-identical, no new merges/closures. mergeable_state re-checked live for all 33 PRs: only #4095 shifted (blocked -> dirty), which is a lateral move within the not-mergeable bucket, not a gate-clearing transition toward clean/unstable, so not reportable per the watch criteria."
 }

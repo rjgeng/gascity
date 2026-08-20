@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "last_checked_at": "2026-08-20T20:30:00Z",
+  "last_checked_at": "2026-08-20T21:47:36Z",
   "repo": "gastownhall/gascity",
   "author": "rjgeng",
   "prs": {
@@ -75,8 +75,9 @@
       "state": "open",
       "mergeable_state": "blocked",
       "url": "https://github.com/gastownhall/gascity/pull/4927",
-      "updated_at": "2026-08-20T18:42:16Z",
-      "comments": 1
+      "updated_at": "2026-08-20T21:30:50Z",
+      "comments": 1,
+      "note": "author (rjgeng) pushed a genuine follow-up fix commit (fence rootless plain-task reaping to leaves) plus a CI-retrigger and a main-merge on 2026-08-20; no new human comment/review, not reportable"
     },
     "4946": {
       "title": "fix(doctor): order-firing-current timeout is advisory, not blocking (#4895)",
@@ -176,7 +177,7 @@
       "updated_at": "2026-08-17T02:51:10Z",
       "comments": 2,
       "requested_reviewers": ["csells"],
-      "note": "human comment from Toady00 (2026-08-17); already in baseline. csells review request observed (reviewer request only, not a review)"
+      "note": "human comment from Toady00 (2026-08-17); already in baseline. csells review request observed (reviewer request only, not a review) - still not submitted as of this run"
     },
     "5270": {
       "title": "fix(doctor): order-firing-current reads live suspension state, not just the deprecated rig.Suspended field",
@@ -345,5 +346,5 @@
       "url": "https://github.com/gastownhall/gascity/pull/5138"
     }
   },
-  "last_run_note": "No reportable changes this run. Same 35 open PRs as baseline (identical PR-number set: no new PRs, no merges, no closures). All 35 verified via 3 parallel sub-agents using method=get/get_comments/get_reviews. Every PR still state=open, mergeable_state=blocked. Comment counts match baseline exactly on all 35 (only bot activity beyond baseline). No new human comments or reviews on any PR, including #5261/#5433 where a reviewer was requested but has not yet submitted a review, and #5364 where the previously-recorded csauer02-personal-user approval remains the only review. Most recent closure remains #4925 merged, already recorded. No Slack message sent."
+  "last_run_note": "No reportable changes this run. Same 35 open PRs as baseline (identical PR-number set: no new PRs, no merges, no closures). All 35 verified via 3 parallel sub-agents using method=get/get_comments/get_reviews. Every PR still state=open, mergeable_state=blocked. Comment counts match baseline exactly on all 35 (only bot activity beyond baseline, plus #4927 where the author pushed a genuine follow-up commit but no new human comment/review). No new human comments or reviews on any PR, including #5261 and #5433 where csells was requested as reviewer but has not yet submitted a review, and #5364 where the previously-recorded csauer02-personal-user approval remains the only review. Most recent closure remains #4925 merged, already recorded. No Slack message sent."
 }

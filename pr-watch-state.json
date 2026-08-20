@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "last_checked_at": "2026-08-20T11:46:34Z",
+  "last_checked_at": "2026-08-20T12:30:00Z",
   "repo": "gastownhall/gascity",
   "author": "rjgeng",
   "prs": {
@@ -57,7 +57,7 @@
       "state": "open",
       "mergeable_state": "blocked",
       "url": "https://github.com/gastownhall/gascity/pull/4878",
-      "updated_at": "2026-08-20T10:13:52Z",
+      "updated_at": "2026-08-20T12:16:00Z",
       "comments": 1
     },
     "4926": {
@@ -332,5 +332,5 @@
       "url": "https://github.com/gastownhall/gascity/pull/5138"
     }
   },
-  "last_run_note": "No reportable changes this run: open PR set (35, including 2 new PRs #5432/#5433 not previously seen) has no mergeable_state transitions toward clean/unstable and no new non-bot comments/reviews vs baseline. Several PRs (4095, 4857, 5032, 5257) shifted mergeable_state from dirty to blocked -- a lateral move, not a clearing of the gate, so not reportable. #5270, #5298, #5299 now carry a status/review-failed label instead of status/reviewing, but label changes are outside the tracked criteria (mergeable_state + human comments/reviews only). No merges/closures among tracked PRs."
+  "last_run_note": "No reportable changes this run: same 35 open PRs as baseline, no new PRs, no merges/closures. Only #4878 had a moved updated_at (10:13:52Z -> 12:16:00Z); investigated directly -- still mergeable_state=blocked, comment/review activity remains bot-only (gascityinc-olivia[bot] triage comment, copilot-pull-request-reviewer[bot] quota-limit review), no human review or comment, no mergeable_state transition. All other 34 PRs had byte-identical updated_at vs baseline, confirming no activity to check."
 }

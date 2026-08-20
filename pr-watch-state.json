@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "last_checked_at": "2026-08-20T15:45:00Z",
+  "last_checked_at": "2026-08-20T16:55:00Z",
   "repo": "gastownhall/gascity",
   "author": "rjgeng",
   "prs": {
@@ -82,7 +82,7 @@
       "state": "open",
       "mergeable_state": "blocked",
       "url": "https://github.com/gastownhall/gascity/pull/4946",
-      "updated_at": "2026-08-20T09:54:19Z",
+      "updated_at": "2026-08-20T16:13:37Z",
       "comments": 1
     },
     "4947": {
@@ -243,7 +243,10 @@
       "mergeable_state": "blocked",
       "url": "https://github.com/gastownhall/gascity/pull/5364",
       "updated_at": "2026-08-19T11:16:21Z",
-      "comments": 2
+      "comments": 2,
+      "reviews": [
+        {"user": "csauer02-personal-user", "state": "APPROVED", "submitted_at": "2026-08-17T23:59:37Z"}
+      ]
     },
     "5365": {
       "title": "fix(supervisor): auto-unregister on repeated stale-config load failures (#5313)",
@@ -333,5 +336,5 @@
       "url": "https://github.com/gastownhall/gascity/pull/5138"
     }
   },
-  "last_run_note": "No reportable changes this run: same 35 open PRs as baseline (identical PR-number set; no new PRs, no merges, no closures; all still mergeable_state=blocked). Only #4927 moved (updated_at 08-20T09:54:23Z -> 15:36:44Z) from new commits (head now 246ab7e, 3 commits); inspected directly -- still blocked, comments still 1, reviews still only copilot-pull-request-reviewer[bot] COMMENTED (08-03) and the sole comment still the gascityinc-olivia[bot] triage (08-14). No human review/comment and no merge-state transition, so not reported. #4878 still carries requested_reviewers=[julianknutsen] (a review request, not a human review). All other 33 open PRs byte-identical updated_at vs baseline. Most recent closure remains #4925 (merged 08-17), already in baseline -- nothing newly closed."
+  "last_run_note": "No reportable changes this run: same 35 open PRs as baseline (identical PR-number set; no new PRs, no merges, no closures; all still mergeable_state=blocked). Checked all 35 PRs individually via 4 parallel sub-agents for mergeable_state, reviews, and comments (not just the top-level comments count, unlike prior runs). Found PR #5364 carries a human APPROVED review from csauer02-personal-user (CONTRIBUTOR) plus a substantive discussion thread proposing convergence with #5211 -- but the review was submitted 2026-08-17T23:59:37Z and the comment thread's latest entry (rjgeng's reply) is 2026-08-19T11:16:21Z, both well before this baseline's prior last_checked_at of 2026-08-20T15:45:00Z, so this was pre-existing state, not a new event this run -- not reported. No other PR showed a new non-bot comment/review or a mergeable_state transition off blocked. Several PRs (e.g. #4946, #4927) got new commits (updated_at bumped) with no other change -- not reportable. Most recent closure remains #4925 (merged 08-17), already in baseline -- nothing newly closed. This run added reviews[] tracking for PR #5364 to catch any further review activity going forward."
 }

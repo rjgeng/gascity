@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "last_checked_at": "2026-08-20T21:47:36Z",
+  "last_checked_at": "2026-08-20T22:46:30Z",
   "repo": "gastownhall/gascity",
   "author": "rjgeng",
   "prs": {
@@ -43,7 +43,7 @@
       "url": "https://github.com/gastownhall/gascity/pull/4584",
       "updated_at": "2026-08-15T00:02:57Z",
       "comments": 2,
-      "note": "human comment from remuscazacu (2026-07-24) tagging julianknutsen for triage; already in baseline"
+      "note": "human comment from remuscazacu (2026-07-24) tagging julianknutsen for triage; already accounted for in prior baselines"
     },
     "4857": {
       "title": "fix(mail): authorize --from against the calling session's own identity (#4070)",
@@ -75,9 +75,9 @@
       "state": "open",
       "mergeable_state": "blocked",
       "url": "https://github.com/gastownhall/gascity/pull/4927",
-      "updated_at": "2026-08-20T21:30:50Z",
-      "comments": 1,
-      "note": "author (rjgeng) pushed a genuine follow-up fix commit (fence rootless plain-task reaping to leaves) plus a CI-retrigger and a main-merge on 2026-08-20; no new human comment/review, not reportable"
+      "updated_at": "2026-08-20T22:05:49Z",
+      "comments": 2,
+      "note": "reported this run: substantive human comment from maintainer/collaborator quad341 (2026-08-20T22:05:49Z) confirming two of rjgeng's fixes were correct, rebutting a reviewer concern, noting an unbounded dry-run probe quad341 will fix themselves, and explaining the red CI is an unrelated sum.golang.org error being re-run. No action currently required from rjgeng beyond an optional PR description refresh."
     },
     "4946": {
       "title": "fix(doctor): order-firing-current timeout is advisory, not blocking (#4895)",
@@ -150,7 +150,7 @@
       "url": "https://github.com/gastownhall/gascity/pull/5254",
       "updated_at": "2026-08-15T04:50:26Z",
       "comments": 2,
-      "note": "human comment from AJBcoding (2026-08-15); already in baseline"
+      "note": "human comment from AJBcoding (2026-08-15); already accounted for in prior baselines"
     },
     "5257": {
       "title": "fix(mail): add unread-mail TTL so never-read mail wisps age out (#5240)",
@@ -159,7 +159,7 @@
       "url": "https://github.com/gastownhall/gascity/pull/5257",
       "updated_at": "2026-08-20T11:14:39Z",
       "comments": 3,
-      "note": "human comment from csauer02-personal-user; already in baseline"
+      "note": "human comment from csauer02-personal-user; already accounted for in prior baselines"
     },
     "5258": {
       "title": "fix(dispatch): default gc.kind on plain attempt-recipe children (#5246)",
@@ -177,7 +177,7 @@
       "updated_at": "2026-08-17T02:51:10Z",
       "comments": 2,
       "requested_reviewers": ["csells"],
-      "note": "human comment from Toady00 (2026-08-17); already in baseline. csells review request observed (reviewer request only, not a review) - still not submitted as of this run"
+      "note": "human comment from Toady00 (2026-08-17); already accounted for. csells review request observed (reviewer request only, not a review) - still not submitted as of this run"
     },
     "5270": {
       "title": "fix(doctor): order-firing-current reads live suspension state, not just the deprecated rig.Suspended field",
@@ -186,7 +186,7 @@
       "url": "https://github.com/gastownhall/gascity/pull/5270",
       "updated_at": "2026-08-16T14:45:16Z",
       "comments": 2,
-      "note": "julianknutsen review-queue note; already in baseline"
+      "note": "julianknutsen review-queue note; already accounted for in prior baselines"
     },
     "5298": {
       "title": "fix(bd): commit the beads runtime config write, scoped to config (#5286)",
@@ -195,7 +195,7 @@
       "url": "https://github.com/gastownhall/gascity/pull/5298",
       "updated_at": "2026-08-16T05:01:47Z",
       "comments": 2,
-      "note": "julianknutsen review-queue note; already in baseline"
+      "note": "julianknutsen review-queue note; already accounted for in prior baselines"
     },
     "5299": {
       "title": "fix(nudge): treat a reaped backing bead as terminal in dead-letter prune (#5278)",
@@ -204,7 +204,7 @@
       "url": "https://github.com/gastownhall/gascity/pull/5299",
       "updated_at": "2026-08-16T12:21:24Z",
       "comments": 2,
-      "note": "julianknutsen review-queue note; already in baseline"
+      "note": "julianknutsen review-queue note; already accounted for in prior baselines"
     },
     "5301": {
       "title": "fix(events): normalize caller-supplied Ts to the recorder's zone (#5300)",
@@ -346,5 +346,5 @@
       "url": "https://github.com/gastownhall/gascity/pull/5138"
     }
   },
-  "last_run_note": "No reportable changes this run. Same 35 open PRs as baseline (identical PR-number set: no new PRs, no merges, no closures). All 35 verified via 3 parallel sub-agents using method=get/get_comments/get_reviews. Every PR still state=open, mergeable_state=blocked. Comment counts match baseline exactly on all 35 (only bot activity beyond baseline, plus #4927 where the author pushed a genuine follow-up commit but no new human comment/review). No new human comments or reviews on any PR, including #5261 and #5433 where csells was requested as reviewer but has not yet submitted a review, and #5364 where the previously-recorded csauer02-personal-user approval remains the only review. Most recent closure remains #4925 merged, already recorded. No Slack message sent."
+  "last_run_note": "Checked all 35 open PRs against prior baseline via 3 parallel sub-agents using method=get/get_comments/get_reviews. Same 35-PR open set as baseline (no new PRs, no merges, no closures). One reportable change: #4927 got a substantive new human comment from collaborator quad341 (author_association COLLABORATOR) confirming two of rjgeng's fixes were correct, rebutting a reviewer's tier-loss concern, flagging an unbounded dry-run probe they'll fix themselves, and explaining red CI is an unrelated sum.golang.org error being re-run. Slack MCP tool was not connected in this session, so a PushNotification was sent to the user instead as the available equivalent channel. All other 34 PRs unchanged: same comment counts/authors, same mergeable_state=blocked, still open. #5261 (csells requested) and #5433 (csells requested) and #4878 (julianknutsen requested) still have no submitted review as of this run."
 }

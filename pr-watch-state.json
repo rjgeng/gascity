@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "last_checked_at": "2026-08-20T18:47:30Z",
+  "last_checked_at": "2026-08-20T19:47:35Z",
   "repo": "gastownhall/gascity",
   "author": "rjgeng",
   "prs": {
@@ -60,8 +60,7 @@
       "url": "https://github.com/gastownhall/gascity/pull/4878",
       "updated_at": "2026-08-20T17:50:41Z",
       "comments": 1,
-      "requested_reviewers": ["julianknutsen"],
-      "note": "updated_at bumped 2026-08-20 with no new comment/review (still 1 bot comment, 1 copilot review); CI/base churn only"
+      "requested_reviewers": ["julianknutsen"]
     },
     "4926": {
       "title": "fix(searchpath): find Nix-installed provider CLIs (#3962)",
@@ -77,15 +76,14 @@
       "mergeable_state": "blocked",
       "url": "https://github.com/gastownhall/gascity/pull/4927",
       "updated_at": "2026-08-20T18:42:16Z",
-      "comments": 1,
-      "note": "updated_at bumped 2026-08-20 with no new comment/review (still 1 bot comment, 1 copilot review); CI/base churn only"
+      "comments": 1
     },
     "4946": {
       "title": "fix(doctor): order-firing-current timeout is advisory, not blocking (#4895)",
       "state": "open",
       "mergeable_state": "blocked",
       "url": "https://github.com/gastownhall/gascity/pull/4946",
-      "updated_at": "2026-08-20T16:13:37Z",
+      "updated_at": "2026-08-20T19:17:42Z",
       "comments": 1
     },
     "4947": {
@@ -178,7 +176,7 @@
       "updated_at": "2026-08-17T02:51:10Z",
       "comments": 2,
       "requested_reviewers": ["csells"],
-      "note": "human comment from Toady00 (2026-08-17); already in baseline. csells review request observed 2026-08-20 (reviewer request only, not a review)"
+      "note": "human comment from Toady00 (2026-08-17); already in baseline. csells review request observed (reviewer request only, not a review)"
     },
     "5270": {
       "title": "fix(doctor): order-firing-current reads live suspension state, not just the deprecated rig.Suspended field",
@@ -347,5 +345,5 @@
       "url": "https://github.com/gastownhall/gascity/pull/5138"
     }
   },
-  "last_run_note": "No reportable changes this run. Same 35 open PRs as baseline (identical PR-number set: no new PRs, no merges, no closures). Every PR still state=open, merged=false, mergeable_state=blocked -- verified individually via method=get across 3 parallel sub-agents. Issue-comment counts match baseline exactly on all 35, so no new human comments are possible. Only two PRs bumped updated_at since baseline: #4878 (14:26 -> 17:50) and #4927 (15:36 -> 18:42); both inspected via get_comments and get_reviews and both still carry exactly one gascityinc-olivia[bot] triage comment and one copilot-pull-request-reviewer[bot] review -- no human touch, CI/base churn only. One non-reportable delta observed: #5261 now shows csells as a requested reviewer (a review request, not a review or comment). Most recent closure remains #4925 merged, already recorded. No Slack message sent."
+  "last_run_note": "No reportable changes this run. Same 35 open PRs as baseline (identical PR-number set: no new PRs, no merges, no closures). All 35 verified via 3 parallel sub-agents using method=get/get_comments/get_reviews. Every PR still state=open, mergeable_state=blocked. Comment counts match baseline exactly on all 35 (only gascityinc-olivia[bot] and copilot-pull-request-reviewer[bot] activity beyond baseline). No new human comments or reviews on any PR, including #5261/#5433 where a reviewer was requested but has not yet submitted a review. Most recent closure remains #4925 merged, already recorded. No Slack message sent."
 }

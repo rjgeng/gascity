@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "last_checked_at": "2026-08-20T19:47:35Z",
+  "last_checked_at": "2026-08-20T20:30:00Z",
   "repo": "gastownhall/gascity",
   "author": "rjgeng",
   "prs": {
@@ -91,7 +91,7 @@
       "state": "open",
       "mergeable_state": "blocked",
       "url": "https://github.com/gastownhall/gascity/pull/4947",
-      "updated_at": "2026-08-20T09:54:15Z",
+      "updated_at": "2026-08-20T20:21:42Z",
       "comments": 1
     },
     "5032": {
@@ -345,5 +345,5 @@
       "url": "https://github.com/gastownhall/gascity/pull/5138"
     }
   },
-  "last_run_note": "No reportable changes this run. Same 35 open PRs as baseline (identical PR-number set: no new PRs, no merges, no closures). All 35 verified via 3 parallel sub-agents using method=get/get_comments/get_reviews. Every PR still state=open, mergeable_state=blocked. Comment counts match baseline exactly on all 35 (only gascityinc-olivia[bot] and copilot-pull-request-reviewer[bot] activity beyond baseline). No new human comments or reviews on any PR, including #5261/#5433 where a reviewer was requested but has not yet submitted a review. Most recent closure remains #4925 merged, already recorded. No Slack message sent."
+  "last_run_note": "No reportable changes this run. Same 35 open PRs as baseline (identical PR-number set: no new PRs, no merges, no closures). All 35 verified via 3 parallel sub-agents using method=get/get_comments/get_reviews. Every PR still state=open, mergeable_state=blocked. Comment counts match baseline exactly on all 35 (only bot activity beyond baseline). No new human comments or reviews on any PR, including #5261/#5433 where a reviewer was requested but has not yet submitted a review, and #5364 where the previously-recorded csauer02-personal-user approval remains the only review. Most recent closure remains #4925 merged, already recorded. No Slack message sent."
 }

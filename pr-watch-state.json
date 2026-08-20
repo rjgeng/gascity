@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "last_checked_at": "2026-08-20T12:30:00Z",
+  "last_checked_at": "2026-08-20T13:45:17Z",
   "repo": "gastownhall/gascity",
   "author": "rjgeng",
   "prs": {
@@ -49,7 +49,7 @@
       "state": "open",
       "mergeable_state": "blocked",
       "url": "https://github.com/gastownhall/gascity/pull/4857",
-      "updated_at": "2026-08-20T11:29:40Z",
+      "updated_at": "2026-08-20T13:40:12Z",
       "comments": 1
     },
     "4878": {
@@ -332,5 +332,5 @@
       "url": "https://github.com/gastownhall/gascity/pull/5138"
     }
   },
-  "last_run_note": "No reportable changes this run: same 35 open PRs as baseline, no new PRs, no merges/closures. Only #4878 had a moved updated_at (10:13:52Z -> 12:16:00Z); investigated directly -- still mergeable_state=blocked, comment/review activity remains bot-only (gascityinc-olivia[bot] triage comment, copilot-pull-request-reviewer[bot] quota-limit review), no human review or comment, no mergeable_state transition. All other 34 PRs had byte-identical updated_at vs baseline, confirming no activity to check."
+  "last_run_note": "No reportable changes this run: same 35 open PRs as baseline (no new PRs, no merges/closures). Only #4857 had a moved updated_at (11:29:40Z -> 13:40:12Z); investigated directly -- still mergeable_state=blocked, comments still 1 (bot-only: gascityinc-olivia[bot] triage comment from 08-14, unchanged), only review remains the pre-existing copilot-pull-request-reviewer[bot] quota-limit COMMENTED review from 07-30. No human review or comment, no mergeable_state transition -- likely a label/metadata touch. All other 34 PRs had byte-identical updated_at vs baseline, confirming no activity to check."
 }

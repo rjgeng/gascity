@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "last_checked_at": "2026-08-20T13:45:17Z",
+  "last_checked_at": "2026-08-20T14:45:46Z",
   "repo": "gastownhall/gascity",
   "author": "rjgeng",
   "prs": {
@@ -57,8 +57,9 @@
       "state": "open",
       "mergeable_state": "blocked",
       "url": "https://github.com/gastownhall/gascity/pull/4878",
-      "updated_at": "2026-08-20T12:16:00Z",
-      "comments": 1
+      "updated_at": "2026-08-20T14:26:01Z",
+      "comments": 1,
+      "requested_reviewers": ["julianknutsen"]
     },
     "4926": {
       "title": "fix(searchpath): find Nix-installed provider CLIs (#3962)",
@@ -332,5 +333,5 @@
       "url": "https://github.com/gastownhall/gascity/pull/5138"
     }
   },
-  "last_run_note": "No reportable changes this run: same 35 open PRs as baseline (no new PRs, no merges/closures). Only #4857 had a moved updated_at (11:29:40Z -> 13:40:12Z); investigated directly -- still mergeable_state=blocked, comments still 1 (bot-only: gascityinc-olivia[bot] triage comment from 08-14, unchanged), only review remains the pre-existing copilot-pull-request-reviewer[bot] quota-limit COMMENTED review from 07-30. No human review or comment, no mergeable_state transition -- likely a label/metadata touch. All other 34 PRs had byte-identical updated_at vs baseline, confirming no activity to check."
+  "last_run_note": "No reportable changes this run: same 35 open PRs as baseline (no new PRs, no merges, no closures; all still mergeable_state=blocked). Only #4878 had a moved updated_at (12:16:00Z -> 14:26:01Z); investigated directly -- still blocked, comments still 1 (bot-only: gascityinc-olivia[bot] triage comment from 08-14, unchanged), only review remains the pre-existing copilot-pull-request-reviewer[bot] quota-limit COMMENTED review from 07-31. No human review or comment and no merge-state transition. PR now shows requested_reviewers=[julianknutsen], which likely accounts for the timestamp bump (a review request is not itself a human review, so not reported); recorded here so a future human review from that login is detectable as new. All other 34 open PRs had byte-identical updated_at vs baseline. #4857's 13:40:12Z bump from the prior run remains unchanged and unexplained-but-benign."
 }

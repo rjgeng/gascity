@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "last_checked_at": "2026-08-20T14:45:46Z",
+  "last_checked_at": "2026-08-20T15:45:00Z",
   "repo": "gastownhall/gascity",
   "author": "rjgeng",
   "prs": {
@@ -74,7 +74,7 @@
       "state": "open",
       "mergeable_state": "blocked",
       "url": "https://github.com/gastownhall/gascity/pull/4927",
-      "updated_at": "2026-08-20T09:54:23Z",
+      "updated_at": "2026-08-20T15:36:44Z",
       "comments": 1
     },
     "4946": {
@@ -333,5 +333,5 @@
       "url": "https://github.com/gastownhall/gascity/pull/5138"
     }
   },
-  "last_run_note": "No reportable changes this run: same 35 open PRs as baseline (no new PRs, no merges, no closures; all still mergeable_state=blocked). Only #4878 had a moved updated_at (12:16:00Z -> 14:26:01Z); investigated directly -- still blocked, comments still 1 (bot-only: gascityinc-olivia[bot] triage comment from 08-14, unchanged), only review remains the pre-existing copilot-pull-request-reviewer[bot] quota-limit COMMENTED review from 07-31. No human review or comment and no merge-state transition. PR now shows requested_reviewers=[julianknutsen], which likely accounts for the timestamp bump (a review request is not itself a human review, so not reported); recorded here so a future human review from that login is detectable as new. All other 34 open PRs had byte-identical updated_at vs baseline. #4857's 13:40:12Z bump from the prior run remains unchanged and unexplained-but-benign."
+  "last_run_note": "No reportable changes this run: same 35 open PRs as baseline (identical PR-number set; no new PRs, no merges, no closures; all still mergeable_state=blocked). Only #4927 moved (updated_at 08-20T09:54:23Z -> 15:36:44Z) from new commits (head now 246ab7e, 3 commits); inspected directly -- still blocked, comments still 1, reviews still only copilot-pull-request-reviewer[bot] COMMENTED (08-03) and the sole comment still the gascityinc-olivia[bot] triage (08-14). No human review/comment and no merge-state transition, so not reported. #4878 still carries requested_reviewers=[julianknutsen] (a review request, not a human review). All other 33 open PRs byte-identical updated_at vs baseline. Most recent closure remains #4925 (merged 08-17), already in baseline -- nothing newly closed."
 }

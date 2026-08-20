@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "last_checked_at": "2026-08-20T16:55:00Z",
+  "last_checked_at": "2026-08-20T17:55:00Z",
   "repo": "gastownhall/gascity",
   "author": "rjgeng",
   "prs": {
@@ -42,7 +42,8 @@
       "mergeable_state": "blocked",
       "url": "https://github.com/gastownhall/gascity/pull/4584",
       "updated_at": "2026-08-15T00:02:57Z",
-      "comments": 2
+      "comments": 2,
+      "note": "human comment from remuscazacu (2026-07-24) tagging julianknutsen for triage; already in baseline"
     },
     "4857": {
       "title": "fix(mail): authorize --from against the calling session's own identity (#4070)",
@@ -147,7 +148,8 @@
       "mergeable_state": "blocked",
       "url": "https://github.com/gastownhall/gascity/pull/5254",
       "updated_at": "2026-08-15T04:50:26Z",
-      "comments": 2
+      "comments": 2,
+      "note": "human comment from AJBcoding (2026-08-15); already in baseline"
     },
     "5257": {
       "title": "fix(mail): add unread-mail TTL so never-read mail wisps age out (#5240)",
@@ -155,7 +157,8 @@
       "mergeable_state": "blocked",
       "url": "https://github.com/gastownhall/gascity/pull/5257",
       "updated_at": "2026-08-20T11:14:39Z",
-      "comments": 3
+      "comments": 3,
+      "note": "human comment from csauer02-personal-user; already in baseline"
     },
     "5258": {
       "title": "fix(dispatch): default gc.kind on plain attempt-recipe children (#5246)",
@@ -171,7 +174,8 @@
       "mergeable_state": "blocked",
       "url": "https://github.com/gastownhall/gascity/pull/5261",
       "updated_at": "2026-08-17T02:51:10Z",
-      "comments": 2
+      "comments": 2,
+      "note": "human comment from Toady00 (2026-08-17); already in baseline"
     },
     "5270": {
       "title": "fix(doctor): order-firing-current reads live suspension state, not just the deprecated rig.Suspended field",
@@ -179,7 +183,8 @@
       "mergeable_state": "blocked",
       "url": "https://github.com/gastownhall/gascity/pull/5270",
       "updated_at": "2026-08-16T14:45:16Z",
-      "comments": 2
+      "comments": 2,
+      "note": "julianknutsen review-queue note; already in baseline"
     },
     "5298": {
       "title": "fix(bd): commit the beads runtime config write, scoped to config (#5286)",
@@ -187,7 +192,8 @@
       "mergeable_state": "blocked",
       "url": "https://github.com/gastownhall/gascity/pull/5298",
       "updated_at": "2026-08-16T05:01:47Z",
-      "comments": 2
+      "comments": 2,
+      "note": "julianknutsen review-queue note; already in baseline"
     },
     "5299": {
       "title": "fix(nudge): treat a reaped backing bead as terminal in dead-letter prune (#5278)",
@@ -195,7 +201,8 @@
       "mergeable_state": "blocked",
       "url": "https://github.com/gastownhall/gascity/pull/5299",
       "updated_at": "2026-08-16T12:21:24Z",
-      "comments": 2
+      "comments": 2,
+      "note": "julianknutsen review-queue note; already in baseline"
     },
     "5301": {
       "title": "fix(events): normalize caller-supplied Ts to the recorder's zone (#5300)",
@@ -286,7 +293,8 @@
       "mergeable_state": "blocked",
       "url": "https://github.com/gastownhall/gascity/pull/5433",
       "updated_at": "2026-08-20T11:36:56Z",
-      "comments": 0
+      "comments": 0,
+      "requested_reviewers": ["csells"]
     }
   },
   "recently_closed_prs": {
@@ -336,5 +344,5 @@
       "url": "https://github.com/gastownhall/gascity/pull/5138"
     }
   },
-  "last_run_note": "No reportable changes this run: same 35 open PRs as baseline (identical PR-number set; no new PRs, no merges, no closures; all still mergeable_state=blocked). Checked all 35 PRs individually via 4 parallel sub-agents for mergeable_state, reviews, and comments (not just the top-level comments count, unlike prior runs). Found PR #5364 carries a human APPROVED review from csauer02-personal-user (CONTRIBUTOR) plus a substantive discussion thread proposing convergence with #5211 -- but the review was submitted 2026-08-17T23:59:37Z and the comment thread's latest entry (rjgeng's reply) is 2026-08-19T11:16:21Z, both well before this baseline's prior last_checked_at of 2026-08-20T15:45:00Z, so this was pre-existing state, not a new event this run -- not reported. No other PR showed a new non-bot comment/review or a mergeable_state transition off blocked. Several PRs (e.g. #4946, #4927) got new commits (updated_at bumped) with no other change -- not reportable. Most recent closure remains #4925 (merged 08-17), already in baseline -- nothing newly closed. This run added reviews[] tracking for PR #5364 to catch any further review activity going forward."
+  "last_run_note": "No reportable changes this run: same 35 open PRs as baseline (identical PR-number set; no new PRs, no merges, no closures; all still mergeable_state=blocked). Checked all 35 PRs individually via 5 parallel sub-agents against method=get (state/mergeable_state), get_reviews, and get_comments. Every PR now carries exactly one review, but in all cases it is copilot-pull-request-reviewer[bot] (mostly quota-limit placeholders) -- excluded. Comment counts match baseline exactly on every PR; the only human comments present (remuscazacu on #4584, AJBcoding on #5254, csauer02-personal-user on #5257 and the APPROVED review on #5364, Toady00 on #5261, julianknutsen review-queue notes on #5270/#5298/#5299) were all already reflected in the prior baseline -- none newer than baseline. No mergeable_state transitioned off blocked; no PR merged or closed since prior baseline (most recent closure remains #4925 merged, already recorded). No Slack message sent."
 }

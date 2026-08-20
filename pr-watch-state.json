@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "last_checked_at": "2026-08-20T04:47:32Z",
+  "last_checked_at": "2026-08-20T05:46:17Z",
   "repo": "gastownhall/gascity",
   "author": "rjgeng",
   "prs": {
@@ -316,5 +316,5 @@
       "url": "https://github.com/gastownhall/gascity/pull/5138"
     }
   },
-  "last_run_note": "No reportable changes this run: open PR set (33) unchanged from baseline, all comment counts and updated_at timestamps byte-identical, no new merges/closures. mergeable_state re-checked live for all 33 PRs: only #4095 shifted (blocked -> dirty), which is a lateral move within the not-mergeable bucket, not a gate-clearing transition toward clean/unstable, so not reportable per the watch criteria."
+  "last_run_note": "No reportable changes this run: open PR set (33) unchanged from baseline, all mergeable_state values and comment counts identical to prior check. No new merges/closures, no new human reviews/comments, no gate-clearing mergeable_state transitions."
 }

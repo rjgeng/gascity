@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "last_checked_at": "2026-08-21T18:44:42Z",
+  "last_checked_at": "2026-08-21T19:44:43Z",
   "repo": "gastownhall/gascity",
   "author": "rjgeng",
   "prs": {
@@ -49,6 +49,6 @@
     "4877": {"title": "fix(scripts): scan tracked files only in check-core-boundary.sh (#4479)", "state": "merged", "url": "https://github.com/gastownhall/gascity/pull/4877"},
     "4876": {"title": "fix(api): sort run steps into topological order (#4699)", "state": "merged", "url": "https://github.com/gastownhall/gascity/pull/4876"}
   },
-  "last_run_note": "Compared live state of all 32 open rjgeng PRs against prior baseline (last_checked_at 2026-08-21T17:45:16Z), via search_pull_requests(repo:gastownhall/gascity author:rjgeng is:pr, state=all, 2 pages / 82 total results). Every one of the 32 currently-open PRs had updated_at strictly before the prior last_checked_at, so none received any new comment, review, or state-transition activity since the last check -- carried forward unchanged, no per-PR re-fetch needed. Open PR set is identical to the baseline set (no new PRs, no PRs dropped from open). No PR transitioned to MERGED or CLOSED since the baseline (the only closure in the recently_closed_prs list, #4947, was already reported and recorded in the prior run). No Slack notification sent this run -- nothing changed.",
-  "prior_last_checked_at": "2026-08-21T17:45:16Z"
+  "last_run_note": "Compared live state of all 32 open rjgeng PRs against prior baseline (last_checked_at 2026-08-21T18:44:42Z), via search_pull_requests(repo:gastownhall/gascity author:rjgeng is:pr, state=all, 2 pages / 82 total results). Every one of the 32 currently-open PRs had updated_at strictly before the prior baseline's last_checked_at, so none received any new comment, review, or state-transition activity since the last check -- carried forward unchanged, no per-PR re-fetch needed. Open PR set is identical to the baseline set (no new PRs, no PRs dropped from open). No PR transitioned to MERGED or CLOSED since the baseline (the only closure in the recently_closed_prs list, #4947, was already reported and recorded in a prior run). No Slack notification sent this run -- nothing changed.",
+  "prior_last_checked_at": "2026-08-21T18:44:42Z"
 }

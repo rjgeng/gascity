@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "last_checked_at": "2026-08-21T17:45:16Z",
+  "last_checked_at": "2026-08-21T18:44:42Z",
   "repo": "gastownhall/gascity",
   "author": "rjgeng",
   "prs": {
@@ -49,6 +49,6 @@
     "4877": {"title": "fix(scripts): scan tracked files only in check-core-boundary.sh (#4479)", "state": "merged", "url": "https://github.com/gastownhall/gascity/pull/4877"},
     "4876": {"title": "fix(api): sort run steps into topological order (#4699)", "state": "merged", "url": "https://github.com/gastownhall/gascity/pull/4876"}
   },
-  "last_run_note": "Compared live state of all 32 open rjgeng PRs (plus #4947, previously open) against prior baseline (last_checked_at 2026-08-21T16:45:05Z). Only #4947 had updated_at after the baseline timestamp among all rjgeng PRs (open or previously-open); every other currently-open PR's updated_at was unchanged since the baseline, so their state was carried forward without re-fetching. #4947 was confirmed merged (merged_by quad341, merged_at 2026-08-21T17:41:56Z) via pull_request_read -- this is a reportable state-to-MERGED transition per the watch criteria. No new PRs appeared. Push notification sent for #4947.",
-  "prior_last_checked_at": "2026-08-21T16:45:05Z"
+  "last_run_note": "Compared live state of all 32 open rjgeng PRs against prior baseline (last_checked_at 2026-08-21T17:45:16Z), via search_pull_requests(repo:gastownhall/gascity author:rjgeng is:pr, state=all, 2 pages / 82 total results). Every one of the 32 currently-open PRs had updated_at strictly before the prior last_checked_at, so none received any new comment, review, or state-transition activity since the last check -- carried forward unchanged, no per-PR re-fetch needed. Open PR set is identical to the baseline set (no new PRs, no PRs dropped from open). No PR transitioned to MERGED or CLOSED since the baseline (the only closure in the recently_closed_prs list, #4947, was already reported and recorded in the prior run). No Slack notification sent this run -- nothing changed.",
+  "prior_last_checked_at": "2026-08-21T17:45:16Z"
 }

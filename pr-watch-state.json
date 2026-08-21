@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "last_checked_at": "2026-08-21T04:44:58Z",
+  "last_checked_at": "2026-08-21T05:44:34Z",
   "repo": "gastownhall/gascity",
   "author": "rjgeng",
   "prs": {
@@ -86,7 +86,7 @@
       "url": "https://github.com/gastownhall/gascity/pull/4947",
       "comments": 1,
       "reviews": [{"user": "copilot-pull-request-reviewer[bot]", "state": "COMMENTED", "submitted_at": "2026-08-03T18:21:46Z"}],
-      "note": "updated_at 2026-08-21T03:42:26Z, only comment is from bot gascityinc-olivia[bot] (auto-triage); mergeable_state still dirty, no human review/comment, no mergeStateStatus movement toward clean/unstable. Not reportable. mergeable_state moved blocked -> dirty on 2026-08-21 (merge conflict) was already reported in a prior baseline."
+      "note": "only comment is from bot gascityinc-olivia[bot] (auto-triage); mergeable_state still dirty, no human review/comment, no mergeStateStatus movement toward clean/unstable. Not reportable. mergeable_state moved blocked -> dirty on 2026-08-21 (merge conflict) was already reported in a prior baseline."
     },
     "5032": {
       "title": "fix(dashboard): preserve dependency type on inverse blocks edges (#4365)",
@@ -345,5 +345,5 @@
       "url": "https://github.com/gastownhall/gascity/pull/4946"
     }
   },
-  "last_run_note": "Compared full 82-PR history (all states) for author rjgeng against prior baseline (last_checked_at 2026-08-21T03:44:38Z). Open-PR set identical to baseline (same 34 PR numbers). Every open PR's updated_at is <= the baseline's last_checked_at, so no PR was touched since the last check (no new reviews/comments, no mergeable_state movement, no closures). recently_closed_prs list unchanged. No reportable changes this run; no notification sent."
+  "last_run_note": "Compared full 82-PR history (all states) for author rjgeng against prior baseline (last_checked_at 2026-08-21T04:44:58Z). Open-PR set identical to baseline (same 34 PR numbers). Every open PR's updated_at is <= the baseline's last_checked_at, so no PR was touched since the last check (no new reviews/comments, no mergeable_state movement, no closures). recently_closed_prs list unchanged. No reportable changes this run; no notification sent."
 }

@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "last_checked_at": "2026-08-21T20:44:27Z",
+  "last_checked_at": "2026-08-21T21:45:10Z",
   "repo": "gastownhall/gascity",
   "author": "rjgeng",
   "prs": {
@@ -47,8 +47,9 @@
     "4900": {"title": "fix(gc): correct gc formula cook --attach help text (blocks, not parent-child)", "state": "merged", "url": "https://github.com/gastownhall/gascity/pull/4900"},
     "4856": {"title": "fix(storehealth): bound LastMaintenance's event-log scan (#4418)", "state": "merged", "url": "https://github.com/gastownhall/gascity/pull/4856"},
     "4877": {"title": "fix(scripts): scan tracked files only in check-core-boundary.sh (#4479)", "state": "merged", "url": "https://github.com/gastownhall/gascity/pull/4877"},
-    "4876": {"title": "fix(api): sort run steps into topological order (#4699)", "state": "merged", "url": "https://github.com/gastownhall/gascity/pull/4876"}
+    "4876": {"title": "fix(api): sort run steps into topological order (#4699)", "state": "merged", "url": "https://github.com/gastownhall/gascity/pull/4876"},
+    "4946": {"title": "fix(doctor): order-firing-current timeout is advisory, not blocking (#4895)", "state": "closed", "url": "https://github.com/gastownhall/gascity/pull/4946"}
   },
-  "last_run_note": "Compared live state of all 32 open rjgeng PRs against prior baseline (last_checked_at 2026-08-21T19:44:43Z), via search_pull_requests(repo:gastownhall/gascity author:rjgeng is:pr, state=all, 2 pages / 82 total results). Open PR set is identical to the baseline set (no new PRs, no PRs dropped from open, no PR merged/closed since baseline). Only #4878 had updated_at strictly after the prior baseline's last_checked_at (20:07:39Z vs 19:44:43Z); deep-checked it directly (get/get_comments/get_reviews) and found comments (1, bot auto-triage), reviews (1, copilot quota-limit non-review), and mergeable_state (blocked) all unchanged from baseline -- the updated_at bump reflects something else (e.g. a push/rebase) with no reportable signal. All other 31 open PRs had updated_at unchanged since baseline -- carried forward unchanged, no per-PR re-fetch needed. No Slack notification sent this run -- nothing changed.",
-  "prior_last_checked_at": "2026-08-21T19:44:43Z"
+  "last_run_note": "Fetched live state of all rjgeng PRs in gastownhall/gascity via search_pull_requests(repo:gastownhall/gascity author:rjgeng, state=all, 82 total results) and compared against baseline (last_checked_at 2026-08-21T20:44:27Z). Open PR set (32 PRs) identical to baseline set -- no new PRs opened, none dropped from open. Every open PR's updated_at is earlier than the baseline's last_checked_at, so nothing changed on any of them since the last check (no new non-bot comments/reviews, no mergeStateStatus movement). No PR transitioned to merged/closed since baseline (closed_at on all closed PRs in this fetch predates or matches baseline's recorded merges; #4946 closed 2026-08-20, before baseline, and simply wasn't previously logged in recently_closed_prs -- added here for completeness, not a new event). No Slack notification sent this run -- nothing changed. Note: the Slack connector was not enabled in this session's toolset, so a fallback push notification would have been used instead had a reportable change been found.",
+  "prior_last_checked_at": "2026-08-21T20:44:27Z"
 }

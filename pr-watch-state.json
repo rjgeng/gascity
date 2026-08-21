@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "last_checked_at": "2026-08-21T00:45:01Z",
+  "last_checked_at": "2026-08-21T01:45:00Z",
   "repo": "gastownhall/gascity",
   "author": "rjgeng",
   "prs": {
@@ -86,7 +86,7 @@
       "url": "https://github.com/gastownhall/gascity/pull/4947",
       "comments": 1,
       "reviews": [{"user": "copilot-pull-request-reviewer[bot]", "state": "COMMENTED", "submitted_at": "2026-08-03T18:21:46Z"}],
-      "note": "mergeable_state moved blocked -> dirty (2026-08-21, a merge conflict developed) — not a reportable direction per spec (only blocked/dirty -> clean/unstable counts), so not surfaced this run, but flagged here for visibility"
+      "note": "mergeable_state moved blocked -> dirty (2026-08-21, a merge conflict developed) — not a reportable direction per spec (only blocked/dirty -> clean/unstable counts). Already reported in prior baseline; unchanged this run."
     },
     "5032": {
       "title": "fix(dashboard): preserve dependency type on inverse blocks edges (#4365)",
@@ -345,5 +345,5 @@
       "url": "https://github.com/gastownhall/gascity/pull/4946"
     }
   },
-  "last_run_note": "Compared 34 open PRs (35 minus #4946) plus the previously-open set against the prior baseline (last_checked_at 2026-08-20T23:47:04Z) using updated_at as a change filter: any PR whose updated_at was <= last_checked_at is provably unchanged since the snapshot, so only PRs with a newer updated_at needed a live re-fetch. That isolated exactly two candidates: #4946 and #4947. #4946 (fix(doctor) order-firing-current) MERGED by quad341 at 2026-08-20T23:49:24Z -- reportable, notified via PushNotification (Slack connector is installed but not enabled in this chat session, so the DM channel specified in the task instructions was unavailable this run; used the scheduled-routine push/email channel instead). #4947's mergeable_state moved blocked -> dirty (a conflict developed, not a move toward clean/unstable) with no new human comments (still 1 comment, copilot-only review) -- not reportable per spec, recorded in the state file for visibility. No new PRs appeared. All other 32 open PRs unchanged (updated_at predates last check)."
+  "last_run_note": "Compared the full 82-PR history (all states) for author rjgeng against the prior baseline (last_checked_at 2026-08-21T00:45:01Z). The open-PR set is identical to baseline (same 34 PR numbers) -- no PR closed/merged, no new PR appeared. Every one of those 34 PRs' updated_at is <= last_checked_at, so all are provably unchanged since the snapshot (no live re-fetch needed, no human review/comment/mergeable_state changes possible). recently_closed_prs list unchanged (no new closures). No reportable changes this run; no notification sent."
 }

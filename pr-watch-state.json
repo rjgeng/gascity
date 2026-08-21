@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "last_checked_at": "2026-08-20T23:47:04Z",
+  "last_checked_at": "2026-08-21T00:45:01Z",
   "repo": "gastownhall/gascity",
   "author": "rjgeng",
   "prs": {
@@ -79,21 +79,14 @@
       "reviews": [{"user": "copilot-pull-request-reviewer[bot]", "state": "COMMENTED", "submitted_at": "2026-08-03T03:33:15Z"}],
       "note": "substantive human comment from maintainer/collaborator quad341 (2026-08-20T22:05:49Z) confirming two of rjgeng's fixes were correct, rebutting a reviewer concern, noting an unbounded dry-run probe quad341 will fix themselves, and explaining red CI is an unrelated sum.golang.org error being re-run. Already reported to the user in a prior run; no newer human activity as of this run."
     },
-    "4946": {
-      "title": "fix(doctor): order-firing-current timeout is advisory, not blocking (#4895)",
-      "state": "open",
-      "mergeable_state": "blocked",
-      "url": "https://github.com/gastownhall/gascity/pull/4946",
-      "comments": 1,
-      "reviews": [{"user": "copilot-pull-request-reviewer[bot]", "state": "COMMENTED", "submitted_at": "2026-08-03T16:17:36Z"}]
-    },
     "4947": {
       "title": "fix(config): caveat pack compatibility risk in workspace-identity deprecation warning (#3887)",
       "state": "open",
-      "mergeable_state": "blocked",
+      "mergeable_state": "dirty",
       "url": "https://github.com/gastownhall/gascity/pull/4947",
       "comments": 1,
-      "reviews": [{"user": "copilot-pull-request-reviewer[bot]", "state": "COMMENTED", "submitted_at": "2026-08-03T18:21:46Z"}]
+      "reviews": [{"user": "copilot-pull-request-reviewer[bot]", "state": "COMMENTED", "submitted_at": "2026-08-03T18:21:46Z"}],
+      "note": "mergeable_state moved blocked -> dirty (2026-08-21, a merge conflict developed) — not a reportable direction per spec (only blocked/dirty -> clean/unstable counts), so not surfaced this run, but flagged here for visibility"
     },
     "5032": {
       "title": "fix(dashboard): preserve dependency type on inverse blocks edges (#4365)",
@@ -344,7 +337,13 @@
       "title": "fix(session): thread liveness-probe observation into heal-state instead of hardcoding Observed:true",
       "state": "merged",
       "url": "https://github.com/gastownhall/gascity/pull/5138"
+    },
+    "4946": {
+      "title": "fix(doctor): order-firing-current timeout is advisory, not blocking (#4895)",
+      "state": "merged",
+      "merged_by": "quad341",
+      "url": "https://github.com/gastownhall/gascity/pull/4946"
     }
   },
-  "last_run_note": "Checked all 35 open PRs against prior baseline via 3 parallel sub-agents using method=get/get_comments/get_reviews. Same 35-PR open set as baseline (no new PRs, no merges, no closures). No reportable changes this run: all 35 PRs unchanged (same comment counts/authors, same mergeable_state=blocked, still open). No Slack message sent (nothing to report). #5261 (csells requested), #5433 (csells requested), and #4878 (julianknutsen requested) still have no submitted review as of this run. #4927's quad341 human comment remains the most recent reportable event but was already surfaced in a prior run."
+  "last_run_note": "Compared 34 open PRs (35 minus #4946) plus the previously-open set against the prior baseline (last_checked_at 2026-08-20T23:47:04Z) using updated_at as a change filter: any PR whose updated_at was <= last_checked_at is provably unchanged since the snapshot, so only PRs with a newer updated_at needed a live re-fetch. That isolated exactly two candidates: #4946 and #4947. #4946 (fix(doctor) order-firing-current) MERGED by quad341 at 2026-08-20T23:49:24Z -- reportable, notified via PushNotification (Slack connector is installed but not enabled in this chat session, so the DM channel specified in the task instructions was unavailable this run; used the scheduled-routine push/email channel instead). #4947's mergeable_state moved blocked -> dirty (a conflict developed, not a move toward clean/unstable) with no new human comments (still 1 comment, copilot-only review) -- not reportable per spec, recorded in the state file for visibility. No new PRs appeared. All other 32 open PRs unchanged (updated_at predates last check)."
 }

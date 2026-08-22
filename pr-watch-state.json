@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "last_checked_at": "2026-08-21T23:44:30Z",
+  "last_checked_at": "2026-08-22T00:44:23Z",
   "repo": "gastownhall/gascity",
   "author": "rjgeng",
   "prs": {
@@ -51,6 +51,6 @@
     "4946": {"title": "fix(doctor): order-firing-current timeout is advisory, not blocking (#4895)", "state": "closed", "url": "https://github.com/gastownhall/gascity/pull/4946"},
     "5138": {"title": "fix(session): thread liveness-probe observation into heal-state instead of hardcoding Observed:true", "state": "closed", "closed_at": "2026-08-13T21:57:12Z", "url": "https://github.com/gastownhall/gascity/pull/5138"}
   },
-  "last_run_note": "Fetched live state via search_pull_requests(repo:gastownhall/gascity author:rjgeng, state=all, 82 total results) and compared against baseline (last_checked_at 2026-08-21T22:00:00Z). Open PR set (32 PRs) identical to baseline set -- no new PRs opened, none dropped from open. Every open PR's updated_at is earlier than the baseline's last_checked_at, so nothing changed on any of them since the last check (no new non-bot comments/reviews, no mergeStateStatus movement) -- confirmed via updated_at diff against baseline timestamp, no per-PR detail re-fetch was needed since none had moved. No PR transitioned to merged/closed since baseline. No Slack/notification tool named 'Slack' is available in this session's toolset; the harness's PushNotification mechanism is the reachable channel and was not invoked since nothing changed. No Slack notification sent this run -- nothing changed.",
-  "prior_last_checked_at": "2026-08-21T22:00:00Z"
+  "last_run_note": "Fetched live state via search_pull_requests(repo:gastownhall/gascity author:rjgeng, 82 total results) and compared against baseline (last_checked_at 2026-08-21T23:44:30Z). Open PR set (32 PRs) identical to baseline set -- no new PRs opened, none dropped from open, none merged/closed since baseline. Every open PR's updated_at is earlier than the baseline's last_checked_at (latest was #4878 at 2026-08-21T20:07:39Z), so nothing changed on any of them since the last check -- no per-PR detail re-fetch was needed since none had moved. No PR transitioned to merged/closed since baseline. No Slack notification sent this run -- nothing changed.",
+  "prior_last_checked_at": "2026-08-21T23:44:30Z"
 }

@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "last_checked_at": "2026-08-22T01:44:00Z",
+  "last_checked_at": "2026-08-22T02:46:16Z",
   "repo": "gastownhall/gascity",
   "author": "rjgeng",
   "prs": {
@@ -51,6 +51,6 @@
     "4946": {"title": "fix(doctor): order-firing-current timeout is advisory, not blocking (#4895)", "state": "closed", "url": "https://github.com/gastownhall/gascity/pull/4946"},
     "5138": {"title": "fix(session): thread liveness-probe observation into heal-state instead of hardcoding Observed:true", "state": "closed", "closed_at": "2026-08-13T21:57:12Z", "url": "https://github.com/gastownhall/gascity/pull/5138"}
   },
-  "last_run_note": "Fetched live state via search_pull_requests(repo:gastownhall/gascity author:rjgeng, 82 total results) and compared against baseline (last_checked_at 2026-08-22T00:44:23Z). Open PR set (32 PRs) identical to baseline set -- no new PRs opened, none dropped from open, none merged/closed since baseline. Every open PR's updated_at is earlier than the baseline's last_checked_at (latest was #4878 at 2026-08-21T20:07:39Z), so nothing changed on any of them since the last check -- no per-PR detail re-fetch was needed since none had moved. No PR transitioned to merged/closed since baseline. No Slack notification sent this run -- nothing changed.",
-  "prior_last_checked_at": "2026-08-22T00:44:23Z"
+  "last_run_note": "Fetched live state via list_pull_requests(state=open, paginated across 4 pages of up to 100) since search_pull_requests' 82-result payload exceeded the tool output token cap. Filtered to author rjgeng: found exactly the same 32 open PR numbers as the baseline (4095, 4138, 4481, 4547, 4584, 4857, 4878, 4926, 5032, 5033, 5055, 5251-5254, 5257, 5258, 5261, 5270, 5298, 5299, 5301, 5360-5365, 5375, 5376, 5432, 5433) -- no new PRs opened, none dropped from open (so none merged/closed since baseline). Every open PR's updated_at is earlier than the baseline's last_checked_at (2026-08-22T01:44:00Z) -- latest was #4878 at 2026-08-21T20:07:39Z -- so nothing changed on any of them since the last check (a new comment, review, or mergeable_state change always bumps updated_at). No per-PR detail re-fetch was needed since none had moved. No Slack notification sent this run -- nothing changed.",
+  "prior_last_checked_at": "2026-08-22T01:44:00Z"
 }

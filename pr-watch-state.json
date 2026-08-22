@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "last_checked_at": "2026-08-22T12:44:58Z",
+  "last_checked_at": "2026-08-22T13:44:58Z",
   "repo": "gastownhall/gascity",
   "author": "rjgeng",
   "prs": {
@@ -51,6 +51,6 @@
     "4946": {"title": "fix(doctor): order-firing-current timeout is advisory, not blocking (#4895)", "state": "closed", "url": "https://github.com/gastownhall/gascity/pull/4946"},
     "5138": {"title": "fix(session): thread liveness-probe observation into heal-state instead of hardcoding Observed:true", "state": "closed", "closed_at": "2026-08-13T21:57:12Z", "url": "https://github.com/gastownhall/gascity/pull/5138"}
   },
-  "last_run_note": "Re-checked via search_pull_requests (state=all, author=rjgeng, 82 total). Same 32 open PR numbers as prior baseline exactly (no new PR appeared, none closed/merged since last check). Compared each open PR's updated_at against the baseline's last_checked_at (2026-08-22T11:44:45Z): every updated_at is earlier than that timestamp (latest was #4878 at 2026-08-22T04:17:21Z) -- since a mergeable_state transition, new review, or new comment all bump updated_at, no drift is possible. recently_closed_prs set unchanged -- no new merges or closures. Concluded no real change this run; no Slack notification sent.",
-  "prior_last_checked_at": "2026-08-22T11:44:45Z"
+  "last_run_note": "No wall clock available; last_checked_at is an estimated proxy (prior baseline's last_checked_at + ~1h, matching this job's hourly cadence). Re-checked via search_pull_requests (state=all, author=rjgeng, 82 total, single page). Same 32 open PR numbers as prior baseline exactly (no new PR appeared, none closed/merged since last check) -- recently_closed_prs set unchanged. Called pull_request_read method=get on all 32 open PRs individually: every mergeable_state and comment count matched the baseline exactly (no increases, no blocked/dirty transitions, no new requested-reviewer changes), so per the efficiency guidance no get_reviews/get_comments calls were made this run. Concluded no reportable change; no Slack notification sent.",
+  "prior_last_checked_at": "2026-08-22T12:44:58Z"
 }

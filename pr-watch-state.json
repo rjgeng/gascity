@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "last_checked_at": "2026-08-22T08:44:35Z",
+  "last_checked_at": "2026-08-22T09:45:13Z",
   "repo": "gastownhall/gascity",
   "author": "rjgeng",
   "prs": {
@@ -51,6 +51,6 @@
     "4946": {"title": "fix(doctor): order-firing-current timeout is advisory, not blocking (#4895)", "state": "closed", "url": "https://github.com/gastownhall/gascity/pull/4946"},
     "5138": {"title": "fix(session): thread liveness-probe observation into heal-state instead of hardcoding Observed:true", "state": "closed", "closed_at": "2026-08-13T21:57:12Z", "url": "https://github.com/gastownhall/gascity/pull/5138"}
   },
-  "last_run_note": "Re-checked via search_pull_requests (state=all, author=rjgeng, 82 total). All 32 previously-tracked open PRs still open, same PR numbers as prior baseline exactly (no new PR appeared, none closed/merged since last check). Fetched open-PR roster (state=open, sorted by updated_at desc) and compared comment counts and updated_at per PR against the baseline: every comment count matches the baseline exactly, and every PR's updated_at is earlier than the baseline's last_checked_at (2026-08-22T07:45:26Z) -- since a mergeable_state transition requires either a push (dirty->clean) or a qualifying review (blocked->clean), both of which bump updated_at, no mergeable_state drift is possible without an updated_at bump. recently_closed_prs set unchanged -- no new merges or closures. Concluded no real change this run; no Slack notification sent.",
-  "prior_last_checked_at": "2026-08-22T07:45:26Z"
+  "last_run_note": "Re-checked via search_pull_requests (state=all, author=rjgeng, 2 pages, 82 total). All 32 previously-tracked open PRs still open, same PR numbers as prior baseline exactly (no new PR appeared, none closed/merged since last check). Compared each open PR's updated_at against the baseline's last_checked_at (2026-08-22T08:44:35Z): every single updated_at across all 82 returned PRs (open and closed) is earlier than that timestamp -- since a mergeable_state transition, new review, or new comment all bump updated_at, and none exceeded the baseline time, no drift is possible. recently_closed_prs set unchanged -- no new merges or closures. Concluded no real change this run; no Slack notification sent.",
+  "prior_last_checked_at": "2026-08-22T08:44:35Z"
 }

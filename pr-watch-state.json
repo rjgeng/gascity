@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "last_checked_at": "2026-08-23T05:44:18Z",
+  "last_checked_at": "2026-08-23T06:44:58Z",
   "repo": "gastownhall/gascity",
   "author": "rjgeng",
   "prs": {
@@ -65,6 +65,6 @@
     "4555": {"title": "fix(storehealth): add absolute-size floor so small cities don't trip maintenance-overdue (#3374)", "state": "merged", "merged_at": "2026-07-23T21:56:02Z", "url": "https://github.com/gastownhall/gascity/pull/4555"},
     "4583": {"title": "fix(cmd/gc): materialize newly-added skills on every applied config reload (#3459)", "state": "merged", "merged_at": "2026-07-24T09:01:34Z", "url": "https://github.com/gastownhall/gascity/pull/4583"}
   },
-  "last_run_note": "Fetched via search_pull_requests (author=rjgeng, 82 total, minimal fields: number/title/state/updated_at). Open PR set (32 numbers) identical to prior baseline's open set -- no closes/merges, no new PRs. Closed/merged set also identical. Every open PR's updated_at precedes prior last_checked_at (2026-08-23T04:44:56Z) -- latest was #4878 at 2026-08-23T02:05:07Z -- so no PR was touched since the last check, meaning no new comments/reviews/mergeable_state transitions are possible; per-PR fields (mergeable_state, comments, reviews) carried forward unchanged from prior baseline rather than re-fetched, since nothing could have changed. No reportable change found; no notification sent.",
-  "prior_last_checked_at": "2026-08-23T04:44:56Z"
+  "last_run_note": "Fetched via search_pull_requests (author=rjgeng, repo=gastownhall/gascity, 82 total, fields: number/title/state/html_url/updated_at/closed_at). Open PR set (32 numbers) identical to prior baseline's open set -- no closes/merges, no new PRs. Closed/merged set superset also identical for the tracked window (no new entries beyond prior recently_closed_prs). Every open PR's updated_at precedes prior last_checked_at (2026-08-23T05:44:18Z) -- latest was #4878 at 2026-08-23T02:05:07Z -- so no PR was touched since the last check, meaning no new comments/reviews/mergeable_state transitions are possible; per-PR fields (mergeable_state, comments, reviews) carried forward unchanged from prior baseline rather than re-fetched, since nothing could have changed. No reportable change found; no notification sent.",
+  "prior_last_checked_at": "2026-08-23T05:44:18Z"
 }

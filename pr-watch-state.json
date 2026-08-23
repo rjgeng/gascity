@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "last_checked_at": "2026-08-23T17:48:26Z",
+  "last_checked_at": "2026-08-23T18:44:29Z",
   "repo": "gastownhall/gascity",
   "author": "rjgeng",
   "prs": {
@@ -65,6 +65,6 @@
     "4555": {"title": "fix(storehealth): add absolute-size floor so small cities don't trip maintenance-overdue (#3374)", "state": "merged", "merged_at": "2026-07-23T21:56:02Z", "url": "https://github.com/gastownhall/gascity/pull/4555"},
     "4583": {"title": "fix(cmd/gc): materialize newly-added skills on every applied config reload (#3459)", "state": "merged", "merged_at": "2026-07-24T09:01:34Z", "url": "https://github.com/gastownhall/gascity/pull/4583"}
   },
-  "last_run_note": "Verified via search_pull_requests + per-PR pull_request_read(get) on all 32 open PRs (author=rjgeng, repo=gastownhall/gascity). Open PR set (32 numbers) identical to prior baseline's open set -- no closes/merges, no new PRs. mergeable_state independently reconfirmed 'blocked' for all 32 (not just inferred from unchanged updated_at). requested_reviewers reconfirmed unchanged (4878->julianknutsen, 5261->csells, 5433->csells). No new human review/comment activity beyond what was already accounted for in prior baselines. No Slack notification sent. CAVEAT (unchanged from prior runs): Slack MCP tools remain unavailable to this session (no mcp__slack__* tools found via ToolSearch) -- if a reportable change had been found, it would have used the PushNotification fallback instead of a Slack DM.",
-  "prior_last_checked_at": "2026-08-23T16:45:05Z"
+  "last_run_note": "Verified via search_pull_requests (2 pages, total_count=82) covering all open+closed PRs authored by rjgeng. Open PR set (32 numbers) identical to prior baseline's open set -- no closes/merges, no new PRs. Every open PR's updated_at predates the prior baseline's last_checked_at (2026-08-23T17:48:26Z), confirming no new comments/reviews/state changes since then (an updated_at bump would be required for any of those). No new human review/comment activity beyond what was already accounted for in prior baselines. No Slack notification sent. CAVEAT (unchanged from prior runs): Slack MCP tools remain unavailable to this session (no mcp__slack__* tools found via ToolSearch) -- if a reportable change had been found, it would have used the PushNotification fallback instead of a Slack DM.",
+  "prior_last_checked_at": "2026-08-23T17:48:26Z"
 }

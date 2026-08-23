@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "last_checked_at": "2026-08-23T18:44:29Z",
+  "last_checked_at": "2026-08-23T19:44:50Z",
   "repo": "gastownhall/gascity",
   "author": "rjgeng",
   "prs": {
@@ -43,7 +43,7 @@
     "4946": {"title": "fix(doctor): order-firing-current timeout is advisory, not blocking (#4895)", "state": "closed", "closed_at": "2026-08-20T23:49:24Z", "url": "https://github.com/gastownhall/gascity/pull/4946"},
     "4925": {"title": "fix(import): local-in-git pack imports lock to HEAD, not latest tag (#3659)", "state": "merged", "url": "https://github.com/gastownhall/gascity/pull/4925"},
     "4898": {"title": "fix(gc): stop bd's dolt-unreachable message from suggesting a conflicting bd dolt start", "state": "merged", "url": "https://github.com/gastownhall/gascity/pull/4898"},
-    "5302": {"title": "fix(dashboard): add Claude 5-gen models to TRUE_CONTEXT_WINDOWS (#5295)", "state": "merged", "url": "https://github.com/gastownhall/gascity/pull/5302"},
+    "5302": {"title": "fix(dashboard): add Claude 5-gen models to TRUE_CONTEXT_WINDOWS (#5295)", "state": "merged", "merged_by": "julianknutsen", "merged_at": "2026-08-16T19:38:23Z", "url": "https://github.com/gastownhall/gascity/pull/5302", "note": "discovered as a gap-fill this run (updated_at 2026-08-16, well before this run's baseline window) -- not a fresh event, added for future-baseline completeness only"},
     "4899": {"title": "fix(gc): document and JSON-report gc stop's supervisor unregister behavior", "state": "merged", "url": "https://github.com/gastownhall/gascity/pull/4899"},
     "4900": {"title": "fix(gc): correct gc formula cook --attach help text (blocks, not parent-child)", "state": "merged", "url": "https://github.com/gastownhall/gascity/pull/4900"},
     "4856": {"title": "fix(storehealth): bound LastMaintenance's event-log scan (#4418)", "state": "merged", "url": "https://github.com/gastownhall/gascity/pull/4856"},
@@ -65,6 +65,6 @@
     "4555": {"title": "fix(storehealth): add absolute-size floor so small cities don't trip maintenance-overdue (#3374)", "state": "merged", "merged_at": "2026-07-23T21:56:02Z", "url": "https://github.com/gastownhall/gascity/pull/4555"},
     "4583": {"title": "fix(cmd/gc): materialize newly-added skills on every applied config reload (#3459)", "state": "merged", "merged_at": "2026-07-24T09:01:34Z", "url": "https://github.com/gastownhall/gascity/pull/4583"}
   },
-  "last_run_note": "Verified via search_pull_requests (2 pages, total_count=82) covering all open+closed PRs authored by rjgeng. Open PR set (32 numbers) identical to prior baseline's open set -- no closes/merges, no new PRs. Every open PR's updated_at predates the prior baseline's last_checked_at (2026-08-23T17:48:26Z), confirming no new comments/reviews/state changes since then (an updated_at bump would be required for any of those). No new human review/comment activity beyond what was already accounted for in prior baselines. No Slack notification sent. CAVEAT (unchanged from prior runs): Slack MCP tools remain unavailable to this session (no mcp__slack__* tools found via ToolSearch) -- if a reportable change had been found, it would have used the PushNotification fallback instead of a Slack DM.",
-  "prior_last_checked_at": "2026-08-23T17:48:26Z"
+  "last_run_note": "Compared live state (search_pull_requests, fields=number/title/state/updated_at/comments) against the baseline recorded at 2026-08-23T18:44:29Z. Open PR set (32 numbers) identical to prior baseline's open set -- no closes/merges, no new PRs. Every open PR's updated_at and comments count are unchanged from the prior baseline snapshot, confirming no new comments/reviews/state changes since then. No new human review/comment activity beyond what was already accounted for in prior baselines. No Slack/push notification sent. Gap-fill: PR #5302 (merged by julianknutsen on 2026-08-16, well before this run's window) was found missing from recently_closed_prs and added for future-baseline completeness -- not treated as a fresh event since it's days-stale. CAVEAT (unchanged from prior runs): Slack MCP tools remain unavailable to this session (no mcp__slack__* tools found via ToolSearch) -- if a reportable change had been found, it would have used the PushNotification fallback instead of a Slack DM. gh CLI is also unavailable in this environment; used the github MCP server's search_pull_requests/pull_request_read tools instead.",
+  "prior_last_checked_at": "2026-08-23T18:44:29Z"
 }

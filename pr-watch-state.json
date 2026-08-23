@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "last_checked_at": "2026-08-23T20:47:54Z",
+  "last_checked_at": "2026-08-23T21:44:34Z",
   "repo": "gastownhall/gascity",
   "author": "rjgeng",
   "prs": {
@@ -65,6 +65,6 @@
     "4555": {"title": "fix(storehealth): add absolute-size floor so small cities don't trip maintenance-overdue (#3374)", "state": "merged", "merged_at": "2026-07-23T21:56:02Z", "url": "https://github.com/gastownhall/gascity/pull/4555"},
     "4583": {"title": "fix(cmd/gc): materialize newly-added skills on every applied config reload (#3459)", "state": "merged", "merged_at": "2026-07-24T09:01:34Z", "url": "https://github.com/gastownhall/gascity/pull/4583"}
   },
-  "last_run_note": "Compared live state (search_pull_requests for all rjgeng PRs in gastownhall/gascity, plus pull_request_read get+get_reviews on each of the 32 open PRs) against the baseline recorded at 2026-08-23T19:44:50Z. Open PR set (32 numbers) identical to prior baseline's open set -- no closes/merges, no new PRs. Every open PR's mergeable_state remains 'blocked', comment counts unchanged, and no new human review/comment beyond what was already recorded in the baseline (the sole human review, csauer02-personal-user's APPROVED on #5364, matches the baseline entry exactly by user+timestamp -- not new). No Slack/push notification sent. gh CLI is unavailable in this environment; used the github MCP server's search_pull_requests/pull_request_read tools instead.",
-  "prior_last_checked_at": "2026-08-23T19:44:50Z"
+  "last_run_note": "Compared live state (search_pull_requests for all rjgeng PRs in gastownhall/gascity, then a targeted comments+updated_at search for the 32 open PRs) against the baseline recorded at 2026-08-23T20:47:54Z. Open PR set (32 numbers) identical to prior baseline's open set -- no closes/merges, no new PRs. Every open PR's comment count and updated_at timestamp matched the baseline exactly, meaning no new comments, reviews, or commits occurred since the baseline check (a new review or comment would bump updated_at). No Slack/push notification sent -- nothing changed. gh CLI is unavailable in this environment; used the github MCP server's search_pull_requests/get_file_contents/create_or_update_file tools instead.",
+  "prior_last_checked_at": "2026-08-23T20:47:54Z"
 }

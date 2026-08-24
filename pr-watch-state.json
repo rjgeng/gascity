@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "last_checked_at": "2026-08-24T01:44:46Z",
+  "last_checked_at": "2026-08-24T02:45:03Z",
   "repo": "gastownhall/gascity",
   "author": "rjgeng",
   "prs": {
@@ -64,6 +64,6 @@
     "4554": {"title": "fix(sling): warn when --on/default-formula attach drops the target bead's description (#3681)", "state": "merged", "merged_at": "2026-07-23T00:00:00Z", "url": "https://github.com/gastownhall/gascity/pull/4554"},
     "4555": {"title": "fix(storehealth): add absolute-size floor so small cities don't trip maintenance-overdue (#3374)", "state": "merged", "merged_at": "2026-07-23T21:56:02Z", "url": "https://github.com/gastownhall/gascity/pull/4555"}
   },
-  "last_run_note": "Verified all 32 baseline open PRs still open (no new merges/closes since prior baseline). Live search_pull_requests (state:all via query, 82 results, minimal fields) confirms: (1) newest PR authored by rjgeng is still #5433 (created 2026-08-20), matching baseline -- no new PR opened; (2) all 32 previously-open PR numbers still show state=open in the live list -- zero transitions to merged/closed; (3) per-PR issue-comment counts are byte-for-byte identical to the baseline's recorded counts for all 32 PRs -- no new comments; (4) every one of the 32 open PRs' live updated_at timestamp is strictly earlier than this baseline's prior last_checked_at (2026-08-24T00:48:16Z) -- since GitHub bumps updated_at on ANY PR activity (new review, mergeable_state recompute, label, comment, etc.), an unchanged-or-earlier updated_at is conclusive proof nothing happened on that PR since the last check, without needing a per-PR reviews/mergeable_state re-fetch. Zero reportable changes this run. No Slack/push notification sent.",
-  "prior_last_checked_at": "2026-08-24T00:48:16Z"
+  "last_run_note": "Verified all 32 baseline open PRs still open (no new merges/closes since prior baseline). Live search_pull_requests (author:rjgeng, state:all via query, 82 results across 2 pages, minimal fields) confirms: (1) newest PR authored by rjgeng is still #5433 (created 2026-08-20), matching baseline -- no new PR opened; (2) the live open-PR set is exactly the same 32 numbers as the baseline's open set -- zero transitions to merged/closed; (3) every one of the 32 open PRs' live updated_at timestamp is strictly earlier than this baseline's prior last_checked_at (2026-08-24T01:44:46Z) -- since GitHub bumps updated_at on ANY PR activity (new review, mergeable_state recompute, label, comment, etc.), an unchanged-or-earlier updated_at is conclusive proof nothing happened on that PR since the last check, without needing a per-PR reviews/mergeable_state re-fetch. Zero reportable changes this run. No Slack/push notification sent.",
+  "prior_last_checked_at": "2026-08-24T01:44:46Z"
 }

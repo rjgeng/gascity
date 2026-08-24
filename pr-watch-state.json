@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "last_checked_at": "2026-08-24T03:44:38Z",
+  "last_checked_at": "2026-08-24T04:44:33Z",
   "repo": "gastownhall/gascity",
   "author": "rjgeng",
   "prs": {
@@ -64,6 +64,6 @@
     "4554": {"title": "fix(sling): warn when --on/default-formula attach drops the target bead's description (#3681)", "state": "merged", "merged_at": "2026-07-23T00:00:00Z", "url": "https://github.com/gastownhall/gascity/pull/4554"},
     "4555": {"title": "fix(storehealth): add absolute-size floor so small cities don't trip maintenance-overdue (#3374)", "state": "merged", "merged_at": "2026-07-23T21:56:02Z", "url": "https://github.com/gastownhall/gascity/pull/4555"}
   },
-  "last_run_note": "Verified all 32 baseline open PRs (4095,4138,4481,4547,4584,4857,4878,4926,5032,5033,5055,5251,5252,5253,5254,5257,5258,5261,5270,5298,5299,5301,5360,5361,5362,5363,5364,5365,5375,5376,5432,5433) still open. search_pull_requests (author:rjgeng, state:all, minimal fields) returned 82 PRs total; the live open-PR set matches the baseline's 32 open PR numbers exactly -- zero transitions to merged/closed, no new PR opened (5433 remains the newest). Every one of the 32 open PRs' live updated_at is strictly earlier than this baseline's prior last_checked_at (2026-08-24T02:45:03Z), which is conclusive proof nothing happened on any of them (new review, comment, mergeable_state recompute, label, etc.) since the last check -- no per-PR reviews/mergeable_state re-fetch was needed. Zero reportable changes this run. No Slack/push notification sent.",
-  "prior_last_checked_at": "2026-08-24T02:45:03Z"
+  "last_run_note": "search_pull_requests (author:rjgeng, state:all, minimal fields, 2 pages) returned all 82 PRs; the live open-PR set (32 PRs) matches the baseline's 32 open PR numbers exactly -- zero transitions to merged/closed, no new PR opened. Every one of the 32 open PRs' live updated_at is strictly earlier than the prior baseline's last_checked_at (2026-08-24T03:44:38Z), which is conclusive proof nothing happened on any of them (new review, comment, mergeable_state recompute, label, etc.) since the last check -- no per-PR reviews/mergeable_state re-fetch was needed. Zero reportable changes this run. No Slack DM sent (also note: no Slack MCP tool is connected in this session, so a real change this run could not have been relayed via Slack -- only the PushNotification phone/email channel was available).",
+  "prior_last_checked_at": "2026-08-24T03:44:38Z"
 }

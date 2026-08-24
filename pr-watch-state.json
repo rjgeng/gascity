@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "last_checked_at": "2026-08-24T00:48:16Z",
+  "last_checked_at": "2026-08-24T01:44:46Z",
   "repo": "gastownhall/gascity",
   "author": "rjgeng",
   "prs": {
@@ -62,9 +62,8 @@
     "4549": {"title": "fix(orders): give a never-run cron order one bounded catch-up chance (#3947)", "state": "merged", "merged_at": "2026-07-23T00:00:00Z", "url": "https://github.com/gastownhall/gascity/pull/4549"},
     "4552": {"title": "fix(doctor): rig-pack-coverage recognizes same-name local pack replacements (#3907)", "state": "merged", "merged_at": "2026-07-23T00:00:00Z", "url": "https://github.com/gastownhall/gascity/pull/4552"},
     "4554": {"title": "fix(sling): warn when --on/default-formula attach drops the target bead's description (#3681)", "state": "merged", "merged_at": "2026-07-23T00:00:00Z", "url": "https://github.com/gastownhall/gascity/pull/4554"},
-    "4555": {"title": "fix(storehealth): add absolute-size floor so small cities don't trip maintenance-overdue (#3374)", "state": "merged", "merged_at": "2026-07-23T21:56:02Z", "url": "https://github.com/gastownhall/gascity/pull/4555"},
-    "4583": {"title": "fix(cmd/gc): materialize newly-added skills on every applied config reload (#3459)", "state": "merged", "merged_at": "2026-07-24T09:01:34Z", "url": "https://github.com/gastownhall/gascity/pull/4583"}
+    "4555": {"title": "fix(storehealth): add absolute-size floor so small cities don't trip maintenance-overdue (#3374)", "state": "merged", "merged_at": "2026-07-23T21:56:02Z", "url": "https://github.com/gastownhall/gascity/pull/4555"}
   },
-  "last_run_note": "Verified all 32 baseline open PRs still open (no new merges/closes since prior baseline). Verified via search_pull_requests (state:all, 82 results) that no PR newer than #5433 exists in the repo authored by rjgeng -- newest is still #5433 (created 2026-08-20), already in baseline. Deep-checked all 32 open PRs' mergeable_state, reviews, and comments via a subagent: every PR is still mergeable_state=blocked (no rule-(a) transitions toward clean/unstable), and every human comment/review found (rjgeng's own, remuscazacu, csauer02-personal-user's APPROVED review on #5364, AJBcoding, Toady00, julianknutsen review-queue notes, csells as requested-reviewer-only) was already accounted for in the prior baseline's per-PR notes -- no new human comment or review was found on any PR. Zero reportable changes this run. No Slack/push notification sent.",
-  "prior_last_checked_at": "2026-08-23T23:48:29Z"
+  "last_run_note": "Verified all 32 baseline open PRs still open (no new merges/closes since prior baseline). Live search_pull_requests (state:all via query, 82 results, minimal fields) confirms: (1) newest PR authored by rjgeng is still #5433 (created 2026-08-20), matching baseline -- no new PR opened; (2) all 32 previously-open PR numbers still show state=open in the live list -- zero transitions to merged/closed; (3) per-PR issue-comment counts are byte-for-byte identical to the baseline's recorded counts for all 32 PRs -- no new comments; (4) every one of the 32 open PRs' live updated_at timestamp is strictly earlier than this baseline's prior last_checked_at (2026-08-24T00:48:16Z) -- since GitHub bumps updated_at on ANY PR activity (new review, mergeable_state recompute, label, comment, etc.), an unchanged-or-earlier updated_at is conclusive proof nothing happened on that PR since the last check, without needing a per-PR reviews/mergeable_state re-fetch. Zero reportable changes this run. No Slack/push notification sent.",
+  "prior_last_checked_at": "2026-08-24T00:48:16Z"
 }

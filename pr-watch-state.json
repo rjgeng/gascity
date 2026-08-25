@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "last_checked_at": "2026-08-25T14:47:30Z",
+  "last_checked_at": "2026-08-25T15:47:30Z",
   "repo": "gastownhall/gascity",
   "author": "rjgeng",
   "prs": {
@@ -32,10 +32,10 @@
     "5363": {"title": "fix(nudge): record dispatch skips for busy-session legacy nudge poll (#5317)", "state": "open", "mergeable_state": "blocked", "url": "https://github.com/gastownhall/gascity/pull/5363", "comments": 1, "reviews": [{"user":"copilot-pull-request-reviewer[bot]","state":"COMMENTED"}]},
     "5364": {"title": "fix(nudge): re-validate mail nudges at delivery time too (#5321)", "state": "open", "mergeable_state": "blocked", "url": "https://github.com/gastownhall/gascity/pull/5364", "comments": 2, "reviews": [{"user":"copilot-pull-request-reviewer[bot]","state":"COMMENTED"},{"user":"csauer02-personal-user","state":"APPROVED"}]},
     "5365": {"title": "fix(supervisor): auto-unregister on repeated stale-config load failures (#5313)", "state": "open", "mergeable_state": "blocked", "url": "https://github.com/gastownhall/gascity/pull/5365", "comments": 0, "reviews": [{"user":"copilot-pull-request-reviewer[bot]","state":"COMMENTED"}]},
-    "5375": {"title": "fix(session): evict wedged reset-pending sessions and bound crash-event noise (#5355)", "state": "open", "mergeable_state": "blocked", "url": "https://github.com/gastownhall/gascity/pull/5375", "comments": 1, "reviews": [{"user":"copilot-pull-request-reviewer[bot]","state":"COMMENTED"}]},
-    "5376": {"title": "fix(gc): print short usage pointer instead of full command help on flag/arg errors (#5359)", "state": "open", "mergeable_state": "blocked", "url": "https://github.com/gastownhall/gascity/pull/5376", "comments": 1, "reviews": [{"user":"copilot-pull-request-reviewer[bot]","state":"COMMENTED"}]},
-    "5432": {"title": "fix(sling): --on dedup guard now covers convoy-first formulas-v2 launches (#5420)", "state": "open", "mergeable_state": "blocked", "url": "https://github.com/gastownhall/gascity/pull/5432", "comments": 0, "reviews": [{"user":"copilot-pull-request-reviewer[bot]","state":"COMMENTED"}]},
-    "5433": {"title": "fix(worker): codex auto-edit uses --sandbox workspace-write, not removed --full-auto (#5415)", "state": "open", "mergeable_state": "blocked", "url": "https://github.com/gastownhall/gascity/pull/5433", "comments": 0, "reviews": [{"user":"copilot-pull-request-reviewer[bot]","state":"COMMENTED"}], "requested_reviewers": ["csells"]}
+    "5375": {"title": "fix(session): evict wedged reset-pending sessions and bound crash-event noise (#5355)", "state": "open", "mergeable_state": "unknown", "url": "https://github.com/gastownhall/gascity/pull/5375", "comments": 1, "reviews": [{"user":"copilot-pull-request-reviewer[bot]","state":"COMMENTED"}]},
+    "5376": {"title": "fix(gc): print short usage pointer instead of full command help on flag/arg errors (#5359)", "state": "open", "mergeable_state": "unknown", "url": "https://github.com/gastownhall/gascity/pull/5376", "comments": 1, "reviews": [{"user":"copilot-pull-request-reviewer[bot]","state":"COMMENTED"}]},
+    "5432": {"title": "fix(sling): --on dedup guard now covers convoy-first formulas-v2 launches (#5420)", "state": "open", "mergeable_state": "unknown", "url": "https://github.com/gastownhall/gascity/pull/5432", "comments": 0, "reviews": [{"user":"copilot-pull-request-reviewer[bot]","state":"COMMENTED"}]},
+    "5433": {"title": "fix(worker): codex auto-edit uses --sandbox workspace-write, not removed --full-auto (#5415)", "state": "open", "mergeable_state": "unknown", "url": "https://github.com/gastownhall/gascity/pull/5433", "comments": 0, "reviews": [{"user":"copilot-pull-request-reviewer[bot]","state":"COMMENTED"}], "requested_reviewers": ["csells"]}
   },
   "recently_closed_prs": {
     "4947": {"title": "fix(config): caveat pack compatibility risk in workspace-identity deprecation warning (#3887)", "state": "merged", "merged_by": "quad341", "merged_at": "2026-08-21T17:41:56Z", "url": "https://github.com/gastownhall/gascity/pull/4947"},

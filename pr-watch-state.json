@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "last_checked_at": "2026-08-26T06:55:00Z",
+  "last_checked_at": "2026-08-26T07:48:38Z",
   "repo": "gastownhall/gascity",
   "author": "rjgeng",
   "prs": {
@@ -37,12 +37,12 @@
     "5433": {"title": "fix(worker): codex auto-edit uses --sandbox workspace-write, not removed --full-auto (#5415)", "state": "open", "mergeable_state": "blocked", "url": "https://github.com/gastownhall/gascity/pull/5433", "comments": 0, "reviews": [{"user":"copilot-pull-request-reviewer[bot]","state":"COMMENTED"}], "requested_reviewers": ["csells"]},
     "5613": {"title": "fix(reaper): expired-nudge cleanup now closes rig-scoped shadows too (#5285)", "state": "open", "mergeable_state": "blocked", "url": "https://github.com/gastownhall/gascity/pull/5613", "comments": 0, "reviews": [{"user":"copilot-pull-request-reviewer[bot]","state":"COMMENTED"}]},
     "5614": {"title": "fix(events): truncate a NUL-padded tail left by an unclean shutdown (#5336)", "state": "open", "mergeable_state": "blocked", "url": "https://github.com/gastownhall/gascity/pull/5614", "comments": 0, "reviews": [{"user":"copilot-pull-request-reviewer[bot]","state":"COMMENTED"},{"user":"sjarmak","state":"CHANGES_REQUESTED"}]},
-    "5616": {"title": "fix(config): keep resume's option-defaults gate scoped to explicit overrides (#5185)", "state": "open", "mergeable_state": "blocked", "url": "https://github.com/gastownhall/gascity/pull/5616", "comments": 3, "reviews": [{"user":"copilot-pull-request-reviewer[bot]","state":"COMMENTED"},{"user":"sjarmak","state":"DISMISSED"},{"user":"sjarmak","state":"APPROVED"}]},
     "5617": {"title": "fix(tmux): don't clear-before-paste on an attached session (#5192)", "state": "open", "mergeable_state": "dirty", "url": "https://github.com/gastownhall/gascity/pull/5617", "comments": 1, "reviews": [{"user":"copilot-pull-request-reviewer[bot]","state":"COMMENTED"},{"user":"sjarmak","state":"APPROVED"}]},
     "5618": {"title": "fix(import): validate composed config after install, not just at doctor time (#5382)", "state": "open", "mergeable_state": "blocked", "url": "https://github.com/gastownhall/gascity/pull/5618", "comments": 0, "reviews": [{"user":"copilot-pull-request-reviewer[bot]","state":"COMMENTED"}]}
   },
   "recently_closed_prs": {
     "5628": {"title": "fix(bd): disclose which store gc bd list/ready/search/show answered from (#5170)", "state": "merged", "merged_by": "sjarmak", "merged_at": "2026-08-26T06:37:31Z", "url": "https://github.com/gastownhall/gascity/pull/5628"},
+    "5616": {"title": "fix(config): keep resume's option-defaults gate scoped to explicit overrides (#5185)", "state": "merged", "merged_by": "sjarmak", "merged_at": "2026-08-26T06:51:02Z", "url": "https://github.com/gastownhall/gascity/pull/5616"},
     "5615": {"title": "fix(session): surface two setup-timeout config footguns as validation warnings (#5279)", "state": "merged", "merged_by": "sjarmak", "merged_at": "2026-08-26T05:33:10Z", "url": "https://github.com/gastownhall/gascity/pull/5615"},
     "5612": {"title": "fix(ci): mac-regression's path filter was inert, gate the smoke tier properly (#5155)", "state": "merged", "merged_by": "sjarmak", "merged_at": "2026-08-26T04:30:53Z", "url": "https://github.com/gastownhall/gascity/pull/5612"},
     "5032": {"title": "fix(dashboard): preserve dependency type on inverse blocks edges (#4365)", "state": "merged", "merged_by": "quad341", "merged_at": "2026-08-26T03:32:08Z", "url": "https://github.com/gastownhall/gascity/pull/5032"},
@@ -51,23 +51,6 @@
     "4946": {"title": "fix(doctor): order-firing-current timeout is advisory, not blocking (#4895)", "state": "closed", "closed_at": "2026-08-20T23:49:24Z", "url": "https://github.com/gastownhall/gascity/pull/4946"},
     "4925": {"title": "fix(import): local-in-git pack imports lock to HEAD, not latest tag (#3659)", "state": "closed", "closed_at": "2026-08-17T09:48:54Z", "url": "https://github.com/gastownhall/gascity/pull/4925"},
     "4898": {"title": "fix(gc): stop bd's dolt-unreachable message from suggesting a conflicting bd dolt start", "state": "closed", "closed_at": "2026-08-17T02:51:41Z", "url": "https://github.com/gastownhall/gascity/pull/4898"},
-    "5302": {"title": "fix(dashboard): add Claude 5-gen models to TRUE_CONTEXT_WINDOWS (#5295)", "state": "merged", "merged_by": "julianknutsen", "merged_at": "2026-08-16T19:38:23Z", "url": "https://github.com/gastownhall/gascity/pull/5302"},
-    "4899": {"title": "fix(gc): document and JSON-report gc stop's supervisor unregister behavior", "state": "closed", "closed_at": "2026-08-16T08:46:42Z", "url": "https://github.com/gastownhall/gascity/pull/4899"},
-    "4900": {"title": "fix(gc): correct gc formula cook --attach help text (blocks, not parent-child)", "state": "closed", "closed_at": "2026-08-16T07:24:04Z", "url": "https://github.com/gastownhall/gascity/pull/4900"},
-    "4856": {"title": "fix(storehealth): bound LastMaintenance's event-log scan (#4418)", "state": "closed", "closed_at": "2026-08-16T03:00:53Z", "url": "https://github.com/gastownhall/gascity/pull/4856"},
-    "4877": {"title": "fix(scripts): scan tracked files only in check-core-boundary.sh (#4479)", "state": "closed", "closed_at": "2026-08-15T23:01:45Z", "url": "https://github.com/gastownhall/gascity/pull/4877"},
-    "4876": {"title": "fix(api): sort run steps into topological order (#4699)", "state": "closed", "closed_at": "2026-08-15T21:54:27Z", "url": "https://github.com/gastownhall/gascity/pull/4876"},
-    "5138": {"title": "fix(session): thread liveness-probe observation into heal-state instead of hardcoding Observed:true", "state": "closed", "closed_at": "2026-08-13T21:57:12Z", "url": "https://github.com/gastownhall/gascity/pull/5138"},
-    "4485": {"title": "fix(supervisor): back off structural init failures far longer than transient ones (#4484)", "state": "closed", "closed_at": "2026-08-05T14:35:19Z", "url": "https://github.com/gastownhall/gascity/pull/4485"},
-    "4875": {"title": "fix(dolt): send SIGTERM before SIGKILL in run_bounded's python3 fallback (#4823)", "state": "merged", "merged_at": "2026-08-02T22:59:03Z", "url": "https://github.com/gastownhall/gascity/pull/4875"},
-    "4384": {"title": "fix(cmd/gc): validate explicit city path before scanning registry rig bindings (#4364)", "state": "closed", "closed_at": "2026-07-29T15:56:17Z", "url": "https://github.com/gastownhall/gascity/pull/4384"},
-    "4405": {"title": "fix(runtime/k8s): propagate Nudge/SendKeys transport errors (#4389)", "state": "closed", "closed_at": "2026-07-29T13:55:27Z", "url": "https://github.com/gastownhall/gascity/pull/4405"},
-    "3757": {"title": "feat(dolt): surface active compaction quarantine markers in gc dolt health", "state": "closed", "closed_at": "2026-07-29T03:54:54Z", "url": "https://github.com/gastownhall/gascity/pull/3757"},
-    "4500": {"title": "fix(gc): reap closed-bead worktrees from the rig root, fail closed on probe errors (#4492)", "state": "closed", "closed_at": "2026-07-25T22:00:17Z", "url": "https://github.com/gastownhall/gascity/pull/4500"},
-    "4540": {"title": "fix(packman): walk local path-source packs' own transitive remote imports (#4523)", "state": "merged", "merged_at": "2026-07-23T00:00:00Z", "url": "https://github.com/gastownhall/gascity/pull/4540"},
-    "4542": {"title": "fix(config): warn when a pack's agent_defaults never reaches its own imports (#4524)", "state": "merged", "merged_at": "2026-07-23T00:00:00Z", "url": "https://github.com/gastownhall/gascity/pull/4542"},
-    "4545": {"title": "fix(cmd/gc): only retarget engine-generated PreStart entries, not user-authored literals (#4069)", "state": "merged", "merged_at": "2026-07-23T00:00:00Z", "url": "https://github.com/gastownhall/gascity/pull/4545"},
-    "4549": {"title": "fix(orders): give a never-run cron order one bounded catch-up chance (#3947)", "state": "merged", "merged_at": "2026-07-23T00:00:00Z", "url": "https://github.com/gastownhall/gascity/pull/4549"},
-    "4552": {"title": "fix(doctor): rig-pack-coverage recognizes same-name local pack replacements (#3907)", "state": "merged", "merged_at": "2026-07-23T00:00:00Z", "url": "https://github.com/gastownhall/gascity/pull/4552"}
+    "5302": {"title": "fix(dashboard): add Claude 5-gen models to TRUE_CONTEXT_WINDOWS (#5295)", "state": "merged", "merged_by": "julianknutsen", "merged_at": "2026-08-16T19:38:23Z", "url": "https://github.com/gastownhall/gascity/pull/5302"}
   }
 }

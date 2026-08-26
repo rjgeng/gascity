@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "last_checked_at": "2026-08-25T23:45:00Z",
+  "last_checked_at": "2026-08-26T00:46:37Z",
   "repo": "gastownhall/gascity",
   "author": "rjgeng",
   "prs": {
@@ -70,6 +70,6 @@
     "4549": {"title": "fix(orders): give a never-run cron order one bounded catch-up chance (#3947)", "state": "merged", "merged_at": "2026-07-23T00:00:00Z", "url": "https://github.com/gastownhall/gascity/pull/4549"},
     "4552": {"title": "fix(doctor): rig-pack-coverage recognizes same-name local pack replacements (#3907)", "state": "merged", "merged_at": "2026-07-23T00:00:00Z", "url": "https://github.com/gastownhall/gascity/pull/4552"},
     "4554": {"title": "fix(sling): warn when --on/default-formula attach drops the target bead's description (#3681)", "state": "merged", "merged_at": "2026-07-23T00:00:00Z", "url": "https://github.com/gastownhall/gascity/pull/4554"},
-    "4555": {"title": "fix(storehealth): add absolute-size floor so small cities don't trip maintenance-overdue (#3374)", "state": "merged", "merged_at": "2026-08-23T21:56:02Z", "url": "https://github.com/gastownhall/gascity/pull/4555"}
+    "4555": {"title": "fix(storehealth): add absolute-size floor so small cities don't trip maintenance-overdue (#3374)", "state": "merged", "merged_at": "2026-07-23T21:56:02Z", "url": "https://github.com/gastownhall/gascity/pull/4555"}
   }
 }

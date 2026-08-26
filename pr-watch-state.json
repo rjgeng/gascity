@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "last_checked_at": "2026-08-26T07:48:38Z",
+  "last_checked_at": "2026-08-26T08:48:25Z",
   "repo": "gastownhall/gascity",
   "author": "rjgeng",
   "prs": {
@@ -37,10 +37,10 @@
     "5433": {"title": "fix(worker): codex auto-edit uses --sandbox workspace-write, not removed --full-auto (#5415)", "state": "open", "mergeable_state": "blocked", "url": "https://github.com/gastownhall/gascity/pull/5433", "comments": 0, "reviews": [{"user":"copilot-pull-request-reviewer[bot]","state":"COMMENTED"}], "requested_reviewers": ["csells"]},
     "5613": {"title": "fix(reaper): expired-nudge cleanup now closes rig-scoped shadows too (#5285)", "state": "open", "mergeable_state": "blocked", "url": "https://github.com/gastownhall/gascity/pull/5613", "comments": 0, "reviews": [{"user":"copilot-pull-request-reviewer[bot]","state":"COMMENTED"}]},
     "5614": {"title": "fix(events): truncate a NUL-padded tail left by an unclean shutdown (#5336)", "state": "open", "mergeable_state": "blocked", "url": "https://github.com/gastownhall/gascity/pull/5614", "comments": 0, "reviews": [{"user":"copilot-pull-request-reviewer[bot]","state":"COMMENTED"},{"user":"sjarmak","state":"CHANGES_REQUESTED"}]},
-    "5617": {"title": "fix(tmux): don't clear-before-paste on an attached session (#5192)", "state": "open", "mergeable_state": "dirty", "url": "https://github.com/gastownhall/gascity/pull/5617", "comments": 1, "reviews": [{"user":"copilot-pull-request-reviewer[bot]","state":"COMMENTED"},{"user":"sjarmak","state":"APPROVED"}]},
-    "5618": {"title": "fix(import): validate composed config after install, not just at doctor time (#5382)", "state": "open", "mergeable_state": "blocked", "url": "https://github.com/gastownhall/gascity/pull/5618", "comments": 0, "reviews": [{"user":"copilot-pull-request-reviewer[bot]","state":"COMMENTED"}]}
+    "5617": {"title": "fix(tmux): don't clear-before-paste on an attached session (#5192)", "state": "open", "mergeable_state": "dirty", "url": "https://github.com/gastownhall/gascity/pull/5617", "comments": 1, "reviews": [{"user":"copilot-pull-request-reviewer[bot]","state":"COMMENTED"},{"user":"sjarmak","state":"APPROVED"}]}
   },
   "recently_closed_prs": {
+    "5618": {"title": "fix(import): validate composed config after install, not just at doctor time (#5382)", "state": "merged", "merged_by": "sjarmak", "merged_at": "2026-08-26T08:00:03Z", "url": "https://github.com/gastownhall/gascity/pull/5618"},
     "5628": {"title": "fix(bd): disclose which store gc bd list/ready/search/show answered from (#5170)", "state": "merged", "merged_by": "sjarmak", "merged_at": "2026-08-26T06:37:31Z", "url": "https://github.com/gastownhall/gascity/pull/5628"},
     "5616": {"title": "fix(config): keep resume's option-defaults gate scoped to explicit overrides (#5185)", "state": "merged", "merged_by": "sjarmak", "merged_at": "2026-08-26T06:51:02Z", "url": "https://github.com/gastownhall/gascity/pull/5616"},
     "5615": {"title": "fix(session): surface two setup-timeout config footguns as validation warnings (#5279)", "state": "merged", "merged_by": "sjarmak", "merged_at": "2026-08-26T05:33:10Z", "url": "https://github.com/gastownhall/gascity/pull/5615"},

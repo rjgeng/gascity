@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "last_checked_at": "2026-08-27T04:52:00Z",
+  "last_checked_at": "2026-08-27T05:46:29Z",
   "repo": "gastownhall/gascity",
   "author": "rjgeng",
   "prs": {
@@ -11,10 +11,7 @@
       "url": "https://github.com/gastownhall/gascity/pull/4095",
       "comments": 2,
       "reviews": [
-        {
-          "user": "copilot-pull-request-reviewer[bot]",
-          "state": "COMMENTED"
-        }
+        { "user": "copilot-pull-request-reviewer[bot]", "state": "COMMENTED" }
       ]
     },
     "4138": {
@@ -24,10 +21,7 @@
       "url": "https://github.com/gastownhall/gascity/pull/4138",
       "comments": 1,
       "reviews": [
-        {
-          "user": "copilot-pull-request-reviewer[bot]",
-          "state": "COMMENTED"
-        }
+        { "user": "copilot-pull-request-reviewer[bot]", "state": "COMMENTED" }
       ]
     },
     "4481": {
@@ -37,10 +31,7 @@
       "url": "https://github.com/gastownhall/gascity/pull/4481",
       "comments": 2,
       "reviews": [
-        {
-          "user": "copilot-pull-request-reviewer[bot]",
-          "state": "COMMENTED"
-        }
+        { "user": "copilot-pull-request-reviewer[bot]", "state": "COMMENTED" }
       ]
     },
     "4547": {
@@ -50,10 +41,7 @@
       "url": "https://github.com/gastownhall/gascity/pull/4547",
       "comments": 1,
       "reviews": [
-        {
-          "user": "copilot-pull-request-reviewer[bot]",
-          "state": "COMMENTED"
-        }
+        { "user": "copilot-pull-request-reviewer[bot]", "state": "COMMENTED" }
       ]
     },
     "4584": {
@@ -63,10 +51,7 @@
       "url": "https://github.com/gastownhall/gascity/pull/4584",
       "comments": 2,
       "reviews": [
-        {
-          "user": "copilot-pull-request-reviewer[bot]",
-          "state": "COMMENTED"
-        }
+        { "user": "copilot-pull-request-reviewer[bot]", "state": "COMMENTED" }
       ]
     },
     "4857": {
@@ -76,10 +61,7 @@
       "url": "https://github.com/gastownhall/gascity/pull/4857",
       "comments": 1,
       "reviews": [
-        {
-          "user": "copilot-pull-request-reviewer[bot]",
-          "state": "COMMENTED"
-        }
+        { "user": "copilot-pull-request-reviewer[bot]", "state": "COMMENTED" }
       ]
     },
     "4878": {
@@ -89,14 +71,9 @@
       "url": "https://github.com/gastownhall/gascity/pull/4878",
       "comments": 4,
       "reviews": [
-        {
-          "user": "copilot-pull-request-reviewer[bot]",
-          "state": "COMMENTED"
-        }
+        { "user": "copilot-pull-request-reviewer[bot]", "state": "COMMENTED" }
       ],
-      "requested_reviewers": [
-        "julianknutsen"
-      ]
+      "requested_reviewers": ["julianknutsen"]
     },
     "4926": {
       "title": "fix(searchpath): find Nix-installed provider CLIs (#3962)",
@@ -105,10 +82,7 @@
       "url": "https://github.com/gastownhall/gascity/pull/4926",
       "comments": 1,
       "reviews": [
-        {
-          "user": "copilot-pull-request-reviewer[bot]",
-          "state": "COMMENTED"
-        }
+        { "user": "copilot-pull-request-reviewer[bot]", "state": "COMMENTED" }
       ]
     },
     "5033": {
@@ -118,10 +92,7 @@
       "url": "https://github.com/gastownhall/gascity/pull/5033",
       "comments": 1,
       "reviews": [
-        {
-          "user": "copilot-pull-request-reviewer[bot]",
-          "state": "COMMENTED"
-        }
+        { "user": "copilot-pull-request-reviewer[bot]", "state": "COMMENTED" }
       ]
     },
     "5055": {
@@ -131,10 +102,7 @@
       "url": "https://github.com/gastownhall/gascity/pull/5055",
       "comments": 2,
       "reviews": [
-        {
-          "user": "copilot-pull-request-reviewer[bot]",
-          "state": "COMMENTED"
-        }
+        { "user": "copilot-pull-request-reviewer[bot]", "state": "COMMENTED" }
       ]
     },
     "5251": {
@@ -144,10 +112,7 @@
       "url": "https://github.com/gastownhall/gascity/pull/5251",
       "comments": 1,
       "reviews": [
-        {
-          "user": "copilot-pull-request-reviewer[bot]",
-          "state": "COMMENTED"
-        }
+        { "user": "copilot-pull-request-reviewer[bot]", "state": "COMMENTED" }
       ]
     },
     "5252": {
@@ -157,10 +122,7 @@
       "url": "https://github.com/gastownhall/gascity/pull/5252",
       "comments": 1,
       "reviews": [
-        {
-          "user": "copilot-pull-request-reviewer[bot]",
-          "state": "COMMENTED"
-        }
+        { "user": "copilot-pull-request-reviewer[bot]", "state": "COMMENTED" }
       ]
     },
     "5253": {
@@ -170,10 +132,7 @@
       "url": "https://github.com/gastownhall/gascity/pull/5253",
       "comments": 1,
       "reviews": [
-        {
-          "user": "copilot-pull-request-reviewer[bot]",
-          "state": "COMMENTED"
-        }
+        { "user": "copilot-pull-request-reviewer[bot]", "state": "COMMENTED" }
       ]
     },
     "5254": {
@@ -183,10 +142,7 @@
       "url": "https://github.com/gastownhall/gascity/pull/5254",
       "comments": 2,
       "reviews": [
-        {
-          "user": "copilot-pull-request-reviewer[bot]",
-          "state": "COMMENTED"
-        }
+        { "user": "copilot-pull-request-reviewer[bot]", "state": "COMMENTED" }
       ]
     },
     "5257": {
@@ -196,10 +152,7 @@
       "url": "https://github.com/gastownhall/gascity/pull/5257",
       "comments": 3,
       "reviews": [
-        {
-          "user": "copilot-pull-request-reviewer[bot]",
-          "state": "COMMENTED"
-        }
+        { "user": "copilot-pull-request-reviewer[bot]", "state": "COMMENTED" }
       ]
     },
     "5258": {
@@ -209,10 +162,7 @@
       "url": "https://github.com/gastownhall/gascity/pull/5258",
       "comments": 1,
       "reviews": [
-        {
-          "user": "copilot-pull-request-reviewer[bot]",
-          "state": "COMMENTED"
-        }
+        { "user": "copilot-pull-request-reviewer[bot]", "state": "COMMENTED" }
       ]
     },
     "5261": {
@@ -222,14 +172,9 @@
       "url": "https://github.com/gastownhall/gascity/pull/5261",
       "comments": 2,
       "reviews": [
-        {
-          "user": "copilot-pull-request-reviewer[bot]",
-          "state": "COMMENTED"
-        }
+        { "user": "copilot-pull-request-reviewer[bot]", "state": "COMMENTED" }
       ],
-      "requested_reviewers": [
-        "csells"
-      ]
+      "requested_reviewers": ["csells"]
     },
     "5270": {
       "title": "fix(doctor): order-firing-current reads live suspension state, not just the deprecated rig.Suspended field",
@@ -238,10 +183,7 @@
       "url": "https://github.com/gastownhall/gascity/pull/5270",
       "comments": 3,
       "reviews": [
-        {
-          "user": "copilot-pull-request-reviewer[bot]",
-          "state": "COMMENTED"
-        }
+        { "user": "copilot-pull-request-reviewer[bot]", "state": "COMMENTED" }
       ]
     },
     "5298": {
@@ -251,10 +193,7 @@
       "url": "https://github.com/gastownhall/gascity/pull/5298",
       "comments": 2,
       "reviews": [
-        {
-          "user": "copilot-pull-request-reviewer[bot]",
-          "state": "COMMENTED"
-        }
+        { "user": "copilot-pull-request-reviewer[bot]", "state": "COMMENTED" }
       ]
     },
     "5299": {
@@ -264,10 +203,7 @@
       "url": "https://github.com/gastownhall/gascity/pull/5299",
       "comments": 2,
       "reviews": [
-        {
-          "user": "copilot-pull-request-reviewer[bot]",
-          "state": "COMMENTED"
-        }
+        { "user": "copilot-pull-request-reviewer[bot]", "state": "COMMENTED" }
       ]
     },
     "5301": {
@@ -277,10 +213,7 @@
       "url": "https://github.com/gastownhall/gascity/pull/5301",
       "comments": 1,
       "reviews": [
-        {
-          "user": "copilot-pull-request-reviewer[bot]",
-          "state": "COMMENTED"
-        }
+        { "user": "copilot-pull-request-reviewer[bot]", "state": "COMMENTED" }
       ]
     },
     "5360": {
@@ -290,10 +223,7 @@
       "url": "https://github.com/gastownhall/gascity/pull/5360",
       "comments": 2,
       "reviews": [
-        {
-          "user": "copilot-pull-request-reviewer[bot]",
-          "state": "COMMENTED"
-        }
+        { "user": "copilot-pull-request-reviewer[bot]", "state": "COMMENTED" }
       ]
     },
     "5361": {
@@ -303,10 +233,7 @@
       "url": "https://github.com/gastownhall/gascity/pull/5361",
       "comments": 1,
       "reviews": [
-        {
-          "user": "copilot-pull-request-reviewer[bot]",
-          "state": "COMMENTED"
-        }
+        { "user": "copilot-pull-request-reviewer[bot]", "state": "COMMENTED" }
       ]
     },
     "5362": {
@@ -316,10 +243,7 @@
       "url": "https://github.com/gastownhall/gascity/pull/5362",
       "comments": 1,
       "reviews": [
-        {
-          "user": "copilot-pull-request-reviewer[bot]",
-          "state": "COMMENTED"
-        }
+        { "user": "copilot-pull-request-reviewer[bot]", "state": "COMMENTED" }
       ]
     },
     "5363": {
@@ -329,10 +253,7 @@
       "url": "https://github.com/gastownhall/gascity/pull/5363",
       "comments": 1,
       "reviews": [
-        {
-          "user": "copilot-pull-request-reviewer[bot]",
-          "state": "COMMENTED"
-        }
+        { "user": "copilot-pull-request-reviewer[bot]", "state": "COMMENTED" }
       ]
     },
     "5364": {
@@ -342,14 +263,8 @@
       "url": "https://github.com/gastownhall/gascity/pull/5364",
       "comments": 2,
       "reviews": [
-        {
-          "user": "copilot-pull-request-reviewer[bot]",
-          "state": "COMMENTED"
-        },
-        {
-          "user": "csauer02-personal-user",
-          "state": "APPROVED"
-        }
+        { "user": "copilot-pull-request-reviewer[bot]", "state": "COMMENTED" },
+        { "user": "csauer02-personal-user", "state": "APPROVED" }
       ]
     },
     "5365": {
@@ -359,10 +274,7 @@
       "url": "https://github.com/gastownhall/gascity/pull/5365",
       "comments": 0,
       "reviews": [
-        {
-          "user": "copilot-pull-request-reviewer[bot]",
-          "state": "COMMENTED"
-        }
+        { "user": "copilot-pull-request-reviewer[bot]", "state": "COMMENTED" }
       ]
     },
     "5375": {
@@ -372,10 +284,7 @@
       "url": "https://github.com/gastownhall/gascity/pull/5375",
       "comments": 1,
       "reviews": [
-        {
-          "user": "copilot-pull-request-reviewer[bot]",
-          "state": "COMMENTED"
-        }
+        { "user": "copilot-pull-request-reviewer[bot]", "state": "COMMENTED" }
       ]
     },
     "5376": {
@@ -385,10 +294,7 @@
       "url": "https://github.com/gastownhall/gascity/pull/5376",
       "comments": 1,
       "reviews": [
-        {
-          "user": "copilot-pull-request-reviewer[bot]",
-          "state": "COMMENTED"
-        }
+        { "user": "copilot-pull-request-reviewer[bot]", "state": "COMMENTED" }
       ]
     },
     "5432": {
@@ -398,10 +304,7 @@
       "url": "https://github.com/gastownhall/gascity/pull/5432",
       "comments": 1,
       "reviews": [
-        {
-          "user": "copilot-pull-request-reviewer[bot]",
-          "state": "COMMENTED"
-        }
+        { "user": "copilot-pull-request-reviewer[bot]", "state": "COMMENTED" }
       ]
     },
     "5433": {
@@ -411,14 +314,9 @@
       "url": "https://github.com/gastownhall/gascity/pull/5433",
       "comments": 0,
       "reviews": [
-        {
-          "user": "copilot-pull-request-reviewer[bot]",
-          "state": "COMMENTED"
-        }
+        { "user": "copilot-pull-request-reviewer[bot]", "state": "COMMENTED" }
       ],
-      "requested_reviewers": [
-        "csells"
-      ]
+      "requested_reviewers": ["csells"]
     },
     "5613": {
       "title": "fix(reaper): expired-nudge cleanup now closes rig-scoped shadows too (#5285)",
@@ -427,10 +325,7 @@
       "url": "https://github.com/gastownhall/gascity/pull/5613",
       "comments": 0,
       "reviews": [
-        {
-          "user": "copilot-pull-request-reviewer[bot]",
-          "state": "COMMENTED"
-        }
+        { "user": "copilot-pull-request-reviewer[bot]", "state": "COMMENTED" }
       ]
     },
     "5614": {
@@ -440,14 +335,8 @@
       "url": "https://github.com/gastownhall/gascity/pull/5614",
       "comments": 0,
       "reviews": [
-        {
-          "user": "copilot-pull-request-reviewer[bot]",
-          "state": "COMMENTED"
-        },
-        {
-          "user": "sjarmak",
-          "state": "CHANGES_REQUESTED"
-        }
+        { "user": "copilot-pull-request-reviewer[bot]", "state": "COMMENTED" },
+        { "user": "sjarmak", "state": "CHANGES_REQUESTED" }
       ]
     },
     "5617": {
@@ -457,14 +346,8 @@
       "url": "https://github.com/gastownhall/gascity/pull/5617",
       "comments": 2,
       "reviews": [
-        {
-          "user": "copilot-pull-request-reviewer[bot]",
-          "state": "COMMENTED"
-        },
-        {
-          "user": "sjarmak",
-          "state": "DISMISSED"
-        }
+        { "user": "copilot-pull-request-reviewer[bot]", "state": "COMMENTED" },
+        { "user": "sjarmak", "state": "DISMISSED" }
       ]
     }
   },

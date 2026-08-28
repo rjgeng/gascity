@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "last_checked_at": "2026-08-28T11:48:44Z",
+  "last_checked_at": "2026-08-28T00:00:00Z",
   "repo": "gastownhall/gascity",
   "author": "rjgeng",
   "prs": {
@@ -21,7 +21,7 @@
     "5261": {"title":"docs(session): clarify primed_at as delivery-attempted, not consumed (#5236)","state":"open","mergeable_state":"blocked","url":"https://github.com/gastownhall/gascity/pull/5261","comments":2,"reviews":[{"user":"copilot-pull-request-reviewer[bot]","state":"COMMENTED"}],"requested_reviewers":["csells"]},
     "5270": {"title":"fix(doctor): order-firing-current reads live suspension state, not just the deprecated rig.Suspended field","state":"open","mergeable_state":"blocked","url":"https://github.com/gastownhall/gascity/pull/5270","comments":3,"reviews":[{"user":"copilot-pull-request-reviewer[bot]","state":"COMMENTED"}]},
     "5298": {"title":"fix(bd): commit the beads runtime config write, scoped to config (#5286)","state":"open","mergeable_state":"blocked","url":"https://github.com/gastownhall/gascity/pull/5298","comments":2,"reviews":[{"user":"copilot-pull-request-reviewer[bot]","state":"COMMENTED"}]},
-    "5299": {"title":"fix(nudge): treat a reaped backing bead as terminal in dead-letter prune (#5278)","state":"open","mergeable_state":"blocked","url":"https://github.com/gastownhall/gascity/pull/5299","comments":2,"reviews":[{"user":"copilot-pull-request-reviewer[bot]","state":"COMMENTED"}]},
+    "5299": {"title":"fix(nudge): treat a reaped backing bead as terminal in dead-letter prune (#5278)","state":"open","mergeable_state":"dirty","url":"https://github.com/gastownhall/gascity/pull/5299","comments":2,"reviews":[{"user":"copilot-pull-request-reviewer[bot]","state":"COMMENTED"}]},
     "5301": {"title":"fix(events): normalize caller-supplied Ts to the recorder's zone (#5300)","state":"open","mergeable_state":"blocked","url":"https://github.com/gastownhall/gascity/pull/5301","comments":1,"reviews":[{"user":"copilot-pull-request-reviewer[bot]","state":"COMMENTED"}]},
     "5360": {"title":"fix(dashboard): widen city-name regex to match registry grammar (#5316)","state":"open","mergeable_state":"blocked","url":"https://github.com/gastownhall/gascity/pull/5360","comments":2,"reviews":[{"user":"copilot-pull-request-reviewer[bot]","state":"COMMENTED"}]},
     "5361": {"title":"fix(gc import): report actual upgrade movement, not lockfile entry count (#5312)","state":"open","mergeable_state":"blocked","url":"https://github.com/gastownhall/gascity/pull/5361","comments":1,"reviews":[{"user":"copilot-pull-request-reviewer[bot]","state":"COMMENTED"}]},

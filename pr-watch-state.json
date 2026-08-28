@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "last_checked_at": "2026-08-28T07:52:00Z",
+  "last_checked_at": "2026-08-28T18:00:00Z",
   "repo": "gastownhall/gascity",
   "author": "rjgeng",
   "prs": {
@@ -18,7 +18,7 @@
     "5254": {"title":"test(pidutil): skip TestCmdline_FailsClosedWhenUnreadable on darwin too","state":"open","mergeable_state":"blocked","url":"https://github.com/gastownhall/gascity/pull/5254","updated_at":"2026-08-15T04:50:26Z","comments":2,"reviews":[{"user":"copilot-pull-request-reviewer[bot]","state":"COMMENTED"}]},
     "5257": {"title":"fix(mail): add unread-mail TTL so never-read mail wisps age out (#5240)","state":"open","mergeable_state":"blocked","url":"https://github.com/gastownhall/gascity/pull/5257","updated_at":"2026-08-20T11:14:39Z","comments":3,"reviews":[{"user":"copilot-pull-request-reviewer[bot]","state":"COMMENTED"}]},
     "5258": {"title":"fix(dispatch): default gc.kind on plain attempt-recipe children (#5246)","state":"open","mergeable_state":"blocked","url":"https://github.com/gastownhall/gascity/pull/5258","updated_at":"2026-08-15T00:18:07Z","comments":1,"reviews":[{"user":"copilot-pull-request-reviewer[bot]","state":"COMMENTED"}]},
-    "5261": {"title":"docs(session): clarify primed_at as delivery-attempted, not consumed (#5236)","state":"open","mergeable_state":"blocked","url":"https://github.com/gastownhall/gascity/pull/5261","updated_at":"2026-08-17T02:51:10Z","comments":2,"reviews":[{"user":"copilot-pull-request-reviewer[bot]","state":"COMMENTED"}],"requested_reviewers":["csells"]},
+    "5261": {"title":"docs(session): clarify primed_at as delivery-attempted, not consumed (#5236)","state":"open","mergeable_state":"blocked","url":"https://github.com/gastownhall/gascity/pull/5261","updated_at":"2026-08-17T02:51:10Z","comments":2,"reviews":[{"user":"copilot-pull-request-reviewer[bot]","state":"COMMENTED"}]},
     "5270": {"title":"fix(doctor): order-firing-current reads live suspension state, not just the deprecated rig.Suspended field","state":"open","mergeable_state":"blocked","url":"https://github.com/gastownhall/gascity/pull/5270","updated_at":"2026-08-24T23:02:23Z","comments":3,"reviews":[{"user":"copilot-pull-request-reviewer[bot]","state":"COMMENTED"}]},
     "5298": {"title":"fix(bd): commit the beads runtime config write, scoped to config (#5286)","state":"open","mergeable_state":"blocked","url":"https://github.com/gastownhall/gascity/pull/5298","updated_at":"2026-08-16T05:01:47Z","comments":2,"reviews":[{"user":"copilot-pull-request-reviewer[bot]","state":"COMMENTED"}]},
     "5299": {"title":"fix(nudge): treat a reaped backing bead as terminal in dead-letter prune (#5278)","state":"open","mergeable_state":"blocked","url":"https://github.com/gastownhall/gascity/pull/5299","updated_at":"2026-08-16T12:21:24Z","comments":2,"reviews":[{"user":"copilot-pull-request-reviewer[bot]","state":"COMMENTED"}]},

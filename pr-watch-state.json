@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "last_checked_at": "2026-08-28T19:54:17Z",
+  "last_checked_at": "2026-08-28T20:46:50Z",
   "repo": "gastownhall/gascity",
   "author": "rjgeng",
   "prs": {
@@ -26,7 +26,7 @@
     "5361": {"title":"fix(gc import): report actual upgrade movement, not lockfile entry count (#5312)","state":"open","mergeable_state":"blocked","url":"https://github.com/gastownhall/gascity/pull/5361","comments":1,"reviews":[{"user":"copilot-pull-request-reviewer[bot]","state":"COMMENTED"}]},
     "5362": {"title":"fix(prompt): resolve {{.ConfigDir}} in prompt template scope (#5315)","state":"open","mergeable_state":"blocked","url":"https://github.com/gastownhall/gascity/pull/5362","comments":1,"reviews":[{"user":"copilot-pull-request-reviewer[bot]","state":"COMMENTED"}]},
     "5363": {"title":"fix(nudge): record dispatch skips for busy-session legacy nudge poll (#5317)","state":"open","mergeable_state":"blocked","url":"https://github.com/gastownhall/gascity/pull/5363","comments":1,"reviews":[{"user":"copilot-pull-request-reviewer[bot]","state":"COMMENTED"}]},
-    "5364": {"title":"fix(nudge): re-validate mail nudges at delivery time too (#5321)","state":"open","mergeable_state":"unknown","url":"https://github.com/gastownhall/gascity/pull/5364","comments":2,"reviews":[{"user":"copilot-pull-request-reviewer[bot]","state":"COMMENTED"},{"user":"csauer02-personal-user","state":"APPROVED"}]},
+    "5364": {"title":"fix(nudge): re-validate mail nudges at delivery time too (#5321)","state":"open","mergeable_state":"blocked","url":"https://github.com/gastownhall/gascity/pull/5364","comments":2,"reviews":[{"user":"copilot-pull-request-reviewer[bot]","state":"COMMENTED"},{"user":"csauer02-personal-user","state":"APPROVED"}]},
     "5365": {"title":"fix(supervisor): auto-unregister on repeated stale-config load failures (#5313)","state":"open","mergeable_state":"blocked","url":"https://github.com/gastownhall/gascity/pull/5365","comments":0,"reviews":[{"user":"copilot-pull-request-reviewer[bot]","state":"COMMENTED"}]},
     "5375": {"title":"fix(session): evict wedged reset-pending sessions and bound crash-event noise (#5355)","state":"open","mergeable_state":"blocked","url":"https://github.com/gastownhall/gascity/pull/5375","comments":1,"reviews":[{"user":"copilot-pull-request-reviewer[bot]","state":"COMMENTED"}]},
     "5376": {"title":"fix(gc): print short usage pointer instead of full command help on flag/arg errors (#5359)","state":"open","mergeable_state":"blocked","url":"https://github.com/gastownhall/gascity/pull/5376","comments":1,"reviews":[{"user":"copilot-pull-request-reviewer[bot]","state":"COMMENTED"}]},

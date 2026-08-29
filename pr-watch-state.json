@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "last_checked_at": "2026-08-28T23:30:00Z",
+  "last_checked_at": "2026-08-29T00:15:00Z",
   "repo": "gastownhall/gascity",
   "author": "rjgeng",
   "prs": {
@@ -19,7 +19,6 @@
     "5258": {"title":"fix(dispatch): default gc.kind on plain attempt-recipe children (#5246)","state":"open","mergeable_state":"blocked","url":"https://github.com/gastownhall/gascity/pull/5258","comments":1,"reviews":[{"user":"copilot-pull-request-reviewer[bot]","state":"COMMENTED"}]},
     "5261": {"title":"docs(session): clarify primed_at as delivery-attempted, not consumed (#5236)","state":"open","mergeable_state":"blocked","url":"https://github.com/gastownhall/gascity/pull/5261","comments":2,"reviews":[{"user":"copilot-pull-request-reviewer[bot]","state":"COMMENTED"}],"requested_reviewers":["csells"]},
     "5270": {"title":"fix(doctor): order-firing-current reads live suspension state, not just the deprecated rig.Suspended field","state":"open","mergeable_state":"blocked","url":"https://github.com/gastownhall/gascity/pull/5270","comments":4,"reviews":[{"user":"copilot-pull-request-reviewer[bot]","state":"COMMENTED"}]},
-    "5298": {"title":"fix(bd): commit the beads runtime config write, scoped to config (#5286)","state":"open","mergeable_state":"blocked","url":"https://github.com/gastownhall/gascity/pull/5298","comments":3,"reviews":[{"user":"copilot-pull-request-reviewer[bot]","state":"COMMENTED"}]},
     "5299": {"title":"fix(nudge): treat a reaped backing bead as terminal in dead-letter prune (#5278)","state":"open","mergeable_state":"dirty","url":"https://github.com/gastownhall/gascity/pull/5299","comments":2,"reviews":[{"user":"copilot-pull-request-reviewer[bot]","state":"COMMENTED"}]},
     "5301": {"title":"fix(events): normalize caller-supplied Ts to the recorder's zone (#5300)","state":"open","mergeable_state":"blocked","url":"https://github.com/gastownhall/gascity/pull/5301","comments":1,"reviews":[{"user":"copilot-pull-request-reviewer[bot]","state":"COMMENTED"}]},
     "5360": {"title":"fix(dashboard): widen city-name regex to match registry grammar (#5316)","state":"open","mergeable_state":"blocked","url":"https://github.com/gastownhall/gascity/pull/5360","comments":2,"reviews":[{"user":"copilot-pull-request-reviewer[bot]","state":"COMMENTED"}]},
@@ -38,6 +37,7 @@
     "5700": {"title":"fix(dashboardbff): unwrap the response writer before the Flusher check on run-detail stream","state":"open","mergeable_state":"blocked","url":"https://github.com/gastownhall/gascity/pull/5700","comments":1,"reviews":[{"user":"copilot-pull-request-reviewer[bot]","state":"COMMENTED"}]}
   },
   "recently_closed_prs": {
+    "5298": {"title":"fix(bd): commit the beads runtime config write, scoped to config (#5286)","state":"closed","merged":false,"closed_at":"2026-08-29T00:02:14Z","url":"https://github.com/gastownhall/gascity/pull/5298","note":"closed by rjgeng: duplicate of #5287 (opened earlier the same day), flagged by Toady00; superseded in favor of #5287"},
     "5251": {"title":"test(orders): pass nil routes to newMemoryOrderDispatcher in test call sites","state":"closed","merged":false,"closed_at":"2026-08-28T18:05:47Z","url":"https://github.com/gastownhall/gascity/pull/5251","note":"closed by rjgeng: equivalent change already landed on main, would be an empty diff"},
     "5055": {"title":"fix(work-record): resolve gc.work_branch against its remote-tracking ref","state":"merged","merged_by":"quad341","merged_at":"2026-08-27T12:43:46Z","url":"https://github.com/gastownhall/gascity/pull/5055"},
     "5033": {"title":"fix(session): clear a named session's trigger stamp when its target is parked (#4373)","state":"merged","merged_by":"quad341","merged_at":"2026-08-27T09:54:20Z","url":"https://github.com/gastownhall/gascity/pull/5033"},

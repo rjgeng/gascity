@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "last_checked_at": "2026-08-30T15:xx:00Z",
+  "last_checked_at": "2026-08-30T20:47:33Z",
   "repo": "gastownhall/gascity",
   "author": "rjgeng",
   "prs": {
@@ -36,14 +36,14 @@
     "5301": {"title":"fix(events): normalize caller-supplied Ts to the recorder's zone (#5300)","state":"merged","merged":true,"merged_by":"quad341","merged_at":"2026-08-30T12:30:26Z","url":"https://github.com/gastownhall/gascity/pull/5301"},
     "5270": {"title":"fix(doctor): order-firing-current reads live suspension state, not just the deprecated rig.Suspended field","state":"merged","merged":true,"merged_by":"quad341","merged_at":"2026-08-30T07:47:57Z","url":"https://github.com/gastownhall/gascity/pull/5270"},
     "5261": {"title":"docs(session): clarify primed_at as delivery-attempted, not consumed (#5236)","state":"merged","merged":true,"merged_by":"quad341","merged_at":"2026-08-30T05:51:40Z","url":"https://github.com/gastownhall/gascity/pull/5261"},
-    "5258": {"title":"fix(dispatch): default gc.kind on plain attempt-recipe children (#5246)","state":"closed","merged":true,"merged_by":"quad341","merged_at":"2026-08-30T05:09:23Z","url":"https://github.com/gastownhall/gascity/pull/5258"},
+    "5258": {"title":"fix(dispatch): default gc.kind on plain attempt-recipe children (#5246)","state":"merged","merged":true,"merged_by":"quad341","merged_at":"2026-08-30T05:09:23Z","url":"https://github.com/gastownhall/gascity/pull/5258"},
     "5254": {"title":"test(pidutil): skip TestCmdline_FailsClosedWhenUnreadable on darwin too","state":"closed","merged":false,"closed_at":"2026-08-30T03:07:44Z","url":"https://github.com/gastownhall/gascity/pull/5254","note":"superseded by #5746, which lands the same approach"},
-    "5253": {"title":"fix(dolt-cleanup): drop rss= from the reap-stage ps scan (#5201)","state":"merged","merged_by":"quad341","merged_at":"2026-08-30T02:27:06Z","url":"https://github.com/gastownhall/gascity/pull/5253"},
-    "5252": {"title":"fix(beads): allow a semver-compatible newer bd release past version_compat (#5164)","state":"merged","merged_by":"quad341","merged_at":"2026-08-30T01:53:59Z","url":"https://github.com/gastownhall/gascity/pull/5252"},
-    "5299": {"title":"fix(nudge): treat a reaped backing bead as terminal in dead-letter prune (#5278)","state":"closed","merged":false,"closed_at":"2026-08-29T16:27:41Z","url":"https://github.com/gastownhall/gascity/pull/5299","note":"superseded by #5328, already merged on main"},
-    "5298": {"title":"fix(bd): commit the beads runtime config write, scoped to config (#5286)","state":"closed","merged":false,"closed_at":"2026-08-29T00:02:14Z","url":"https://github.com/gastownhall/gascity/pull/5298","note":"duplicate of #5287"},
-    "5251": {"title":"test(orders): pass nil routes to newMemoryOrderDispatcher in test call sites","state":"closed","merged":false,"closed_at":"2026-08-28T18:05:47Z","url":"https://github.com/gastownhall/gascity/pull/5251","note":"equivalent change already landed on main"},
-    "5055": {"title":"fix(work-record): resolve gc.work_branch against its remote-tracking ref","state":"merged","merged_by":"quad341","merged_at":"2026-08-27T12:43:46Z","url":"https://github.com/gastownhall/gascity/pull/5055"},
-    "5033": {"title":"fix(session): clear a named session's trigger stamp when its target is parked (#4373)","state":"merged","merged_by":"quad341","merged_at":"2026-08-27T09:54:20Z","url":"https://github.com/gastownhall/gascity/pull/5033"}
+    "5253": {"title":"fix(dolt-cleanup): drop rss= from the reap-stage ps scan (#5201)","state":"merged","merged":true,"merged_by":"quad341","merged_at":"2026-08-30T02:27:06Z","url":"https://github.com/gastownhall/gascity/pull/5253"},
+    "5252": {"title":"fix(beads): allow a semver-compatible newer bd release past version_compat (#5164)","state":"merged","merged":true,"merged_by":"quad341","merged_at":"2026-08-30T01:53:59Z","url":"https://github.com/gastownhall/gascity/pull/5252"},
+    "5618": {"title":"fix(import): validate composed config after install, not just at doctor time (#5382)","state":"merged","merged":true,"merged_by":"sjarmak","merged_at":"2026-08-26T08:00:03Z","url":"https://github.com/gastownhall/gascity/pull/5618"},
+    "5616": {"title":"fix(config): keep resume's option-defaults gate scoped to explicit overrides (#5185)","state":"merged","merged":true,"merged_by":"sjarmak","merged_at":"2026-08-26T06:51:02Z","url":"https://github.com/gastownhall/gascity/pull/5616"},
+    "5628": {"title":"fix(bd): disclose which store gc bd list/ready/search/show answered from (#5170)","state":"merged","merged":true,"merged_by":"sjarmak","merged_at":"2026-08-26T06:37:31Z","url":"https://github.com/gastownhall/gascity/pull/5628"},
+    "5615": {"title":"fix(session): surface two setup-timeout config footguns as validation warnings (#5279)","state":"merged","merged":true,"merged_by":"sjarmak","merged_at":"2026-08-26T05:33:10Z","url":"https://github.com/gastownhall/gascity/pull/5615"},
+    "5612": {"title":"fix(ci): mac-regression's path filter was inert, gate the smoke tier properly (#5155)","state":"merged","merged":true,"merged_by":"sjarmak","merged_at":"2026-08-26T04:30:53Z","url":"https://github.com/gastownhall/gascity/pull/5612"}
   }
 }

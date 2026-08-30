@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "last_checked_at": "2026-08-30T06:47:34Z",
+  "last_checked_at": "2026-08-30T07:48:15Z",
   "repo": "gastownhall/gascity",
   "author": "rjgeng",
   "prs": {
@@ -27,7 +27,7 @@
     "5433": {"title":"fix(worker): codex auto-edit uses --sandbox workspace-write, not removed --full-auto (#5415)","state":"open","mergeable_state":"blocked","url":"https://github.com/gastownhall/gascity/pull/5433","comments":1,"reviews":[{"user":"copilot-pull-request-reviewer[bot]","state":"COMMENTED"}],"requested_reviewers":["csells"]},
     "5613": {"title":"fix(reaper): expired-nudge cleanup now closes rig-scoped shadows too (#5285)","state":"open","mergeable_state":"blocked","url":"https://github.com/gastownhall/gascity/pull/5613","comments":1,"reviews":[{"user":"copilot-pull-request-reviewer[bot]","state":"COMMENTED"}]},
     "5614": {"title":"fix(events): truncate a NUL-padded tail left by an unclean shutdown (#5336)","state":"open","mergeable_state":"blocked","url":"https://github.com/gastownhall/gascity/pull/5614","comments":2,"reviews":[{"user":"copilot-pull-request-reviewer[bot]","state":"COMMENTED"},{"user":"sjarmak","state":"CHANGES_REQUESTED"}]},
-    "5617": {"title":"fix(tmux): don't clear-before-paste on an attached session (#5192)","state":"open","mergeable_state":"blocked","url":"https://github.com/gastownhall/gascity/pull/5617","comments":3,"reviews":[{"user":"copilot-pull-request-reviewer[bot]","state":"COMMENTED"},{"user":"sjarmak","state":"DISMISSED"}]},
+    "5617": {"title":"fix(tmux): don't clear-before-paste on an attached session (#5192)","state":"open","mergeable_state":"blocked","url":"https://github.com/gastownhall/gascity/pull/5617","comments":4,"reviews":[{"user":"copilot-pull-request-reviewer[bot]","state":"COMMENTED"},{"user":"sjarmak","state":"DISMISSED"}]},
     "5700": {"title":"fix(dashboardbff): unwrap the response writer before the Flusher check on run-detail stream","state":"open","mergeable_state":"blocked","url":"https://github.com/gastownhall/gascity/pull/5700","comments":1,"reviews":[{"user":"copilot-pull-request-reviewer[bot]","state":"COMMENTED"}]},
     "5748": {"title":"fix(events): activeScanStart falls back to a full scan on a reversed-seq log (#5650)","state":"open","mergeable_state":"blocked","url":"https://github.com/gastownhall/gascity/pull/5748","comments":0,"reviews":[{"user":"copilot-pull-request-reviewer[bot]","state":"COMMENTED"}]},
     "5752": {"title":"fix(events): a wide --since window now truncates instead of failing with nothing","state":"open","mergeable_state":"blocked","url":"https://github.com/gastownhall/gascity/pull/5752","comments":0,"reviews":[{"user":"copilot-pull-request-reviewer[bot]","state":"COMMENTED"}]},

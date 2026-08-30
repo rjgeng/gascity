@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "last_checked_at": "2026-08-29T23:48:14Z",
+  "last_checked_at": "2026-08-30T00:45:26Z",
   "repo": "gastownhall/gascity",
   "author": "rjgeng",
   "prs": {
@@ -34,7 +34,8 @@
     "5614": {"title":"fix(events): truncate a NUL-padded tail left by an unclean shutdown (#5336)","state":"open","mergeable_state":"blocked","url":"https://github.com/gastownhall/gascity/pull/5614","comments":2,"reviews":[{"user":"copilot-pull-request-reviewer[bot]","state":"COMMENTED"},{"user":"sjarmak","state":"CHANGES_REQUESTED"}]},
     "5617": {"title":"fix(tmux): don't clear-before-paste on an attached session (#5192)","state":"open","mergeable_state":"dirty","url":"https://github.com/gastownhall/gascity/pull/5617","comments":3,"reviews":[{"user":"copilot-pull-request-reviewer[bot]","state":"COMMENTED"},{"user":"sjarmak","state":"DISMISSED"}]},
     "5700": {"title":"fix(dashboardbff): unwrap the response writer before the Flusher check on run-detail stream","state":"open","mergeable_state":"blocked","url":"https://github.com/gastownhall/gascity/pull/5700","comments":1,"reviews":[{"user":"copilot-pull-request-reviewer[bot]","state":"COMMENTED"}]},
-    "5748": {"title":"fix(events): activeScanStart falls back to a full scan on a reversed-seq log (#5650)","state":"open","mergeable_state":"blocked","url":"https://github.com/gastownhall/gascity/pull/5748","comments":0,"reviews":[{"user":"copilot-pull-request-reviewer[bot]","state":"COMMENTED"}]}
+    "5748": {"title":"fix(events): activeScanStart falls back to a full scan on a reversed-seq log (#5650)","state":"open","mergeable_state":"blocked","url":"https://github.com/gastownhall/gascity/pull/5748","comments":0,"reviews":[{"user":"copilot-pull-request-reviewer[bot]","state":"COMMENTED"}]},
+    "5752": {"title":"fix(events): a wide --since window now truncates instead of failing with nothing","state":"open","mergeable_state":"blocked","url":"https://github.com/gastownhall/gascity/pull/5752","comments":0,"reviews":[{"user":"copilot-pull-request-reviewer[bot]","state":"COMMENTED"}]}
   },
   "recently_closed_prs": {
     "5299": {"title":"fix(nudge): treat a reaped backing bead as terminal in dead-letter prune (#5278)","state":"closed","merged":false,"closed_at":"2026-08-29T16:27:41Z","url":"https://github.com/gastownhall/gascity/pull/5299","note":"closed by rjgeng: superseded by #5328 (already merged on main), which fixes the same issue with a cleaner approach"},

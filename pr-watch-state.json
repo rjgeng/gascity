@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "last_checked_at": "2026-08-31T20:45:22Z",
+  "last_checked_at": "2026-08-31T21:30:00Z",
   "repo": "gastownhall/gascity",
   "author": "rjgeng",
   "prs": {
@@ -46,6 +46,21 @@
     "5616": {"title":"fix(config): keep resume's option-defaults gate scoped to explicit overrides (#5185)","state":"merged","merged":true,"merged_by":"sjarmak","merged_at":"2026-08-26T06:51:02Z","url":"https://github.com/gastownhall/gascity/pull/5616"},
     "5628": {"title":"fix(bd): disclose which store gc bd list/ready/search/show answered from (#5170)","state":"merged","merged":true,"merged_by":"sjarmak","merged_at":"2026-08-26T06:37:31Z","url":"https://github.com/gastownhall/gascity/pull/5628"},
     "5615": {"title":"fix(session): surface two setup-timeout config footguns as validation warnings (#5279)","state":"merged","merged":true,"merged_by":"sjarmak","merged_at":"2026-08-26T05:33:10Z","url":"https://github.com/gastownhall/gascity/pull/5615"},
-    "5612": {"title":"fix(ci): mac-regression's path filter was inert, gate the smoke tier properly (#5155)","state":"merged","merged":true,"merged_by":"sjarmak","merged_at":"2026-08-26T04:30:53Z","url":"https://github.com/gastownhall/gascity/pull/5612"}
+    "5612": {"title":"fix(ci): mac-regression's path filter was inert, gate the smoke tier properly (#5155)","state":"merged","merged":true,"merged_by":"sjarmak","merged_at":"2026-08-26T04:30:53Z","url":"https://github.com/gastownhall/gascity/pull/5612"},
+    "4898": {"title":"fix(gc): stop bd's dolt-unreachable message from being swallowed","state":"merged","merged":true,"merged_at":"2026-08-17T00:00:00Z","url":"https://github.com/gastownhall/gascity/pull/4898"},
+    "4899": {"title":"fix(gc): document and JSON-report gc stop's behavior","state":"merged","merged":true,"merged_at":"2026-08-16T00:00:00Z","url":"https://github.com/gastownhall/gascity/pull/4899"},
+    "4900": {"title":"fix(gc): correct gc formula cook --attach behavior","state":"merged","merged":true,"merged_at":"2026-08-16T00:00:00Z","url":"https://github.com/gastownhall/gascity/pull/4900"},
+    "4925": {"title":"fix(import): local-in-git pack imports lock handling","state":"merged","merged":true,"merged_at":"2026-08-17T00:00:00Z","url":"https://github.com/gastownhall/gascity/pull/4925"},
+    "4927": {"title":"fix(wisp-gc): reap rootless plain-task wisps","state":"merged","merged":true,"merged_at":"2026-08-21T00:00:00Z","url":"https://github.com/gastownhall/gascity/pull/4927"},
+    "4946": {"title":"fix(doctor): order-firing-current timeout handling","state":"merged","merged":true,"merged_at":"2026-08-20T00:00:00Z","url":"https://github.com/gastownhall/gascity/pull/4946"},
+    "4947": {"title":"fix(config): caveat pack compatibility risk","state":"merged","merged":true,"merged_at":"2026-08-21T00:00:00Z","url":"https://github.com/gastownhall/gascity/pull/4947"},
+    "5032": {"title":"fix(dashboard): preserve dependency type","state":"merged","merged":true,"merged_at":"2026-08-26T00:00:00Z","url":"https://github.com/gastownhall/gascity/pull/5032"},
+    "5033": {"title":"fix(session): clear a named session's trigger","state":"merged","merged":true,"merged_at":"2026-08-27T00:00:00Z","url":"https://github.com/gastownhall/gascity/pull/5033"},
+    "5055": {"title":"fix(work-record): resolve gc.work_branch","state":"merged","merged":true,"merged_at":"2026-08-27T00:00:00Z","url":"https://github.com/gastownhall/gascity/pull/5055"},
+    "5138": {"title":"fix(session): thread liveness-probe observation","state":"merged","merged":true,"merged_at":"2026-08-13T00:00:00Z","url":"https://github.com/gastownhall/gascity/pull/5138"},
+    "5251": {"title":"test(orders): pass nil routes","state":"closed","merged":false,"closed_at":"2026-08-28T00:00:00Z","url":"https://github.com/gastownhall/gascity/pull/5251"},
+    "5298": {"title":"fix(bd): commit the beads runtime config write","state":"closed","merged":false,"url":"https://github.com/gastownhall/gascity/pull/5298"},
+    "5299": {"title":"fix(nudge): treat a reaped backing bead as terminal","state":"closed","merged":false,"url":"https://github.com/gastownhall/gascity/pull/5299"},
+    "5302": {"title":"fix(dashboard): add Claude 5-gen models","state":"merged","merged":true,"merged_by":"julianknutsen","merged_at":"2026-08-16T00:00:00Z","url":"https://github.com/gastownhall/gascity/pull/5302"}
   }
 }

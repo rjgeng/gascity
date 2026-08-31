@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "last_checked_at": "2026-08-31T21:30:00Z",
+  "last_checked_at": "2026-08-31T22:30:00Z",
   "repo": "gastownhall/gascity",
   "author": "rjgeng",
   "prs": {
@@ -61,6 +61,6 @@
     "5251": {"title":"test(orders): pass nil routes","state":"closed","merged":false,"closed_at":"2026-08-28T00:00:00Z","url":"https://github.com/gastownhall/gascity/pull/5251"},
     "5298": {"title":"fix(bd): commit the beads runtime config write","state":"closed","merged":false,"url":"https://github.com/gastownhall/gascity/pull/5298"},
     "5299": {"title":"fix(nudge): treat a reaped backing bead as terminal","state":"closed","merged":false,"url":"https://github.com/gastownhall/gascity/pull/5299"},
-    "5302": {"title":"fix(dashboard): add Claude 5-gen models","state":"merged","merged":true,"merged_by":"julianknutsen","merged_at":"2026-08-16T00:00:00Z","url":"https://github.com/gastownhall/gascity/pull/5302"}
+    "5302": {"title":"fix(dashboard): add Claude 5-gen models","state":"merged","merged":true,"merged_at":"2026-08-16T00:00:00Z","url":"https://github.com/gastownhall/gascity/pull/5302"}
   }
 }

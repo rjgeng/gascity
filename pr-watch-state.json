@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "last_checked_at": "2026-09-01T09:35:00Z",
+  "last_checked_at": "2026-09-01T10:05:00Z",
   "repo": "gastownhall/gascity",
   "author": "rjgeng",
   "prs": {
@@ -10,7 +10,7 @@
     "4547": {"title":"fix(cmd/gc): order dispatch searches all configured formula layers, not just the order's own (#4378)","state":"open","mergeable_state":"blocked","url":"https://github.com/gastownhall/gascity/pull/4547","comments":1,"reviews":[{"user":"copilot-pull-request-reviewer[bot]","state":"COMMENTED"}]},
     "4584": {"title":"fix(sling): --nudge falls back to a running named session for instance-expandable agents (#3412)","state":"open","mergeable_state":"blocked","url":"https://github.com/gastownhall/gascity/pull/4584","comments":2,"reviews":[{"user":"copilot-pull-request-reviewer[bot]","state":"COMMENTED"}]},
     "4857": {"title":"fix(mail): authorize --from against the calling session's own identity (#4070)","state":"open","mergeable_state":"blocked","url":"https://github.com/gastownhall/gascity/pull/4857","comments":1,"reviews":[{"user":"copilot-pull-request-reviewer[bot]","state":"COMMENTED"}]},
-    "4878": {"title":"fix(api): add cheap ?enrich=false roster mode to GET /sessions (#4390)","state":"open","mergeable_state":"dirty","url":"https://github.com/gastownhall/gascity/pull/4878","comments":7,"reviews":[{"user":"copilot-pull-request-reviewer[bot]","state":"COMMENTED"}],"requested_reviewers":["julianknutsen"],"note":"quad341 (collaborator) has now commented 3x declining review, citing a >20k-line diff-size ceiling; reported to user 2026-09-01"},
+    "4878": {"title":"fix(api): add cheap ?enrich=false roster mode to GET /sessions (#4390)","state":"open","mergeable_state":"dirty","url":"https://github.com/gastownhall/gascity/pull/4878","comments":7,"reviews":[{"user":"copilot-pull-request-reviewer[bot]","state":"COMMENTED"}],"requested_reviewers":["julianknutsen"],"note":"quad341 (collaborator) has commented 3x declining review, citing a >20k-line diff-size ceiling; reported to user 2026-09-01"},
     "4926": {"title":"fix(searchpath): find Nix-installed provider CLIs (#3962)","state":"open","mergeable_state":"blocked","url":"https://github.com/gastownhall/gascity/pull/4926","comments":1,"reviews":[{"user":"copilot-pull-request-reviewer[bot]","state":"COMMENTED"}]},
     "5257": {"title":"fix(mail): add unread-mail TTL so never-read mail wisps age out (#5240)","state":"open","mergeable_state":"blocked","url":"https://github.com/gastownhall/gascity/pull/5257","comments":3,"reviews":[{"user":"copilot-pull-request-reviewer[bot]","state":"COMMENTED"}]},
     "5360": {"title":"fix(dashboard): widen city-name regex to match registry grammar (#5316)","state":"open","mergeable_state":"dirty","url":"https://github.com/gastownhall/gascity/pull/5360","comments":2,"reviews":[{"user":"copilot-pull-request-reviewer[bot]","state":"COMMENTED"}]},

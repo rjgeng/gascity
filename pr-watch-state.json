@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "last_checked_at": "2026-09-01T16:49:11Z",
+  "last_checked_at": "2026-09-01T17:56:00Z",
   "repo": "gastownhall/gascity",
   "author": "rjgeng",
   "prs": {
@@ -33,7 +33,7 @@
     "5810": {"title":"fix(runtime): send Down before Enter on Claude's workspace-trust dialog when \"No, exit\" is the default (#5796)","state":"open","mergeable_state":"blocked","url":"https://github.com/gastownhall/gascity/pull/5810","comments":1,"reviews":[{"user":"copilot-pull-request-reviewer[bot]","state":"COMMENTED"}]},
     "5812": {"title":"fix(session): fail loudly when waking a session whose rig is suspended (#5785)","state":"open","mergeable_state":"blocked","url":"https://github.com/gastownhall/gascity/pull/5812","comments":0,"reviews":[{"user":"copilot-pull-request-reviewer[bot]","state":"COMMENTED"}]},
     "5854": {"title":"chore(api): regenerate generated artifacts for a new GET /sessions ?enrich= query param","state":"open","mergeable_state":"blocked","url":"https://github.com/gastownhall/gascity/pull/5854","comments":1,"reviews":[{"user":"copilot-pull-request-reviewer[bot]","state":"COMMENTED"}],"note":"split-off part 1/2 of #4878, which was closed in favor of this + a follow-up PR 2"},
-    "5855": {"title":"fix(formula): tell review-quorum workers not to poison success closes with failure metadata (#5838)","state":"open","mergeable_state":"blocked","url":"https://github.com/gastownhall/gascity/pull/5855","comments":0,"reviews":[{"user":"copilot-pull-request-reviewer[bot]","state":"COMMENTED"}]}
+    "5855": {"title":"fix(formula): tell review-quorum workers not to poison success closes with failure metadata (#5838)","state":"open","mergeable_state":"blocked","url":"https://github.com/gastownhall/gascity/pull/5855","comments":1,"reviews":[{"user":"copilot-pull-request-reviewer[bot]","state":"COMMENTED"}]}
   },
   "recently_closed_prs": {
     "4878": {"title":"fix(api): add cheap ?enrich=false roster mode to GET /sessions (#4390)","state":"closed","merged":false,"closed_at":"2026-09-01T15:41:32Z","closed_by":"rjgeng","url":"https://github.com/gastownhall/gascity/pull/4878","note":"self-closed by rjgeng, split into #5854 (schema/artifacts, opened) + an unopened PR 2 (feature logic), per quad341's repeated oversized-diff feedback"},

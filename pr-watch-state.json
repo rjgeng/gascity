@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "last_checked_at": "2026-09-01T14:45:00Z",
+  "last_checked_at": "2026-09-01T15:55:00Z",
   "repo": "gastownhall/gascity",
   "author": "rjgeng",
   "prs": {
@@ -10,7 +10,6 @@
     "4547": {"title":"fix(cmd/gc): order dispatch searches all configured formula layers, not just the order's own (#4378)","state":"open","mergeable_state":"blocked","url":"https://github.com/gastownhall/gascity/pull/4547","comments":1,"reviews":[{"user":"copilot-pull-request-reviewer[bot]","state":"COMMENTED"}]},
     "4584": {"title":"fix(sling): --nudge falls back to a running named session for instance-expandable agents (#3412)","state":"open","mergeable_state":"blocked","url":"https://github.com/gastownhall/gascity/pull/4584","comments":2,"reviews":[{"user":"copilot-pull-request-reviewer[bot]","state":"COMMENTED"}]},
     "4857": {"title":"fix(mail): authorize --from against the calling session's own identity (#4070)","state":"open","mergeable_state":"blocked","url":"https://github.com/gastownhall/gascity/pull/4857","comments":1,"reviews":[{"user":"copilot-pull-request-reviewer[bot]","state":"COMMENTED"}]},
-    "4878": {"title":"fix(api): add cheap ?enrich=false roster mode to GET /sessions (#4390)","state":"open","mergeable_state":"blocked","url":"https://github.com/gastownhall/gascity/pull/4878","comments":7,"reviews":[{"user":"copilot-pull-request-reviewer[bot]","state":"COMMENTED"}],"requested_reviewers":["julianknutsen"]},
     "4926": {"title":"fix(searchpath): find Nix-installed provider CLIs (#3962)","state":"open","mergeable_state":"blocked","url":"https://github.com/gastownhall/gascity/pull/4926","comments":1,"reviews":[{"user":"copilot-pull-request-reviewer[bot]","state":"COMMENTED"}]},
     "5257": {"title":"fix(mail): add unread-mail TTL so never-read mail wisps age out (#5240)","state":"open","mergeable_state":"blocked","url":"https://github.com/gastownhall/gascity/pull/5257","comments":3,"reviews":[{"user":"copilot-pull-request-reviewer[bot]","state":"COMMENTED"}]},
     "5360": {"title":"fix(dashboard): widen city-name regex to match registry grammar (#5316)","state":"open","mergeable_state":"blocked","url":"https://github.com/gastownhall/gascity/pull/5360","comments":2,"reviews":[{"user":"copilot-pull-request-reviewer[bot]","state":"COMMENTED"}]},
@@ -32,9 +31,11 @@
     "5756": {"title":"fix(events): fail a short single-record write instead of counting it as written","state":"open","mergeable_state":"blocked","url":"https://github.com/gastownhall/gascity/pull/5756","comments":0,"reviews":[{"user":"copilot-pull-request-reviewer[bot]","state":"COMMENTED"}]},
     "5757": {"title":"fix(hook): read each ephemeral scan once per query, not once per identity (#5712)","state":"open","mergeable_state":"blocked","url":"https://github.com/gastownhall/gascity/pull/5757","comments":0,"reviews":[{"user":"copilot-pull-request-reviewer[bot]","state":"COMMENTED"}]},
     "5810": {"title":"fix(runtime): send Down before Enter on Claude's workspace-trust dialog when \"No, exit\" is the default (#5796)","state":"open","mergeable_state":"blocked","url":"https://github.com/gastownhall/gascity/pull/5810","comments":1,"reviews":[{"user":"copilot-pull-request-reviewer[bot]","state":"COMMENTED"}]},
-    "5812": {"title":"fix(session): fail loudly when waking a session whose rig is suspended (#5785)","state":"open","mergeable_state":"blocked","url":"https://github.com/gastownhall/gascity/pull/5812","comments":0,"reviews":[{"user":"copilot-pull-request-reviewer[bot]","state":"COMMENTED"}]}
+    "5812": {"title":"fix(session): fail loudly when waking a session whose rig is suspended (#5785)","state":"open","mergeable_state":"blocked","url":"https://github.com/gastownhall/gascity/pull/5812","comments":0,"reviews":[{"user":"copilot-pull-request-reviewer[bot]","state":"COMMENTED"}]},
+    "5854": {"title":"chore(api): regenerate generated artifacts for a new GET /sessions ?enrich= query param","state":"open","mergeable_state":"blocked","url":"https://github.com/gastownhall/gascity/pull/5854","comments":1,"reviews":[{"user":"copilot-pull-request-reviewer[bot]","state":"COMMENTED"}],"note":"split-off part 1/2 of #4878, which was closed in favor of this + a follow-up PR 2"}
   },
   "recently_closed_prs": {
+    "4878": {"title":"fix(api): add cheap ?enrich=false roster mode to GET /sessions (#4390)","state":"closed","merged":false,"closed_at":"2026-09-01T15:41:32Z","closed_by":"rjgeng","url":"https://github.com/gastownhall/gascity/pull/4878","note":"self-closed by rjgeng, split into #5854 (schema/artifacts, opened) + an unopened PR 2 (feature logic), per quad341's repeated oversized-diff feedback"},
     "5301": {"title":"fix(events): normalize caller-supplied Ts to the recorder's zone (#5300)","state":"merged","merged":true,"merged_by":"quad341","merged_at":"2026-08-30T12:30:26Z","url":"https://github.com/gastownhall/gascity/pull/5301"},
     "5270": {"title":"fix(doctor): order-firing-current reads live suspension state, not just the deprecated rig.Suspended field","state":"merged","merged":true,"merged_by":"quad341","merged_at":"2026-08-30T07:47:57Z","url":"https://github.com/gastownhall/gascity/pull/5270"},
     "5261": {"title":"docs(session): clarify primed_at as delivery-attempted, not consumed (#5236)","state":"merged","merged":true,"merged_by":"quad341","merged_at":"2026-08-30T05:51:40Z","url":"https://github.com/gastownhall/gascity/pull/5261"},

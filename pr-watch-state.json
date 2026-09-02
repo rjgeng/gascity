@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "last_checked_at": "2026-09-02T05:00:00Z",
+  "last_checked_at": "2026-09-02T05:30:00Z",
   "repo": "gastownhall/gascity",
   "author": "rjgeng",
   "prs": {
@@ -26,8 +26,8 @@
     "5614": {"title":"fix(events): truncate a NUL-padded tail left by an unclean shutdown (#5336)","state":"open","mergeable_state":"blocked","url":"https://github.com/gastownhall/gascity/pull/5614","comments":2,"reviews":[{"user":"copilot-pull-request-reviewer[bot]","state":"COMMENTED"},{"user":"sjarmak","state":"CHANGES_REQUESTED"}]},
     "5617": {"title":"fix(tmux): don't clear-before-paste on an attached session (#5192)","state":"open","mergeable_state":"dirty","url":"https://github.com/gastownhall/gascity/pull/5617","comments":3,"reviews":[{"user":"copilot-pull-request-reviewer[bot]","state":"COMMENTED"},{"user":"sjarmak","state":"DISMISSED"}]},
     "5700": {"title":"fix(dashboardbff): unwrap the response writer before the Flusher check on run-detail stream","state":"open","mergeable_state":"blocked","url":"https://github.com/gastownhall/gascity/pull/5700","comments":1,"reviews":[{"user":"copilot-pull-request-reviewer[bot]","state":"COMMENTED"}]},
-    "5748": {"title":"fix(events): activeScanStart falls back to a full scan on a reversed-seq log (#5650)","state":"open","mergeable_state":"blocked","url":"https://github.com/gastownhall/gascity/pull/5748","comments":0,"reviews":[{"user":"copilot-pull-request-reviewer[bot]","state":"COMMENTED"}]},
-    "5752": {"title":"fix(events): a wide --since window now truncates instead of failing with nothing","state":"open","mergeable_state":"blocked","url":"https://github.com/gastownhall/gascity/pull/5752","comments":0,"reviews":[{"user":"copilot-pull-request-reviewer[bot]","state":"COMMENTED"}]},
+    "5748": {"title":"fix(events): activeScanStart falls back to a full scan on a reversed-seq log (#5650)","state":"open","mergeable_state":"blocked","url":"https://github.com/gastownhall/gascity/pull/5748","comments":1,"reviews":[{"user":"copilot-pull-request-reviewer[bot]","state":"COMMENTED"}],"note":"only comment is from gascityinc-olivia[bot] (auto-triage), not a human -- not reported"},
+    "5752": {"title":"fix(events): a wide --since window now truncates instead of failing with nothing","state":"open","mergeable_state":"blocked","url":"https://github.com/gastownhall/gascity/pull/5752","comments":1,"reviews":[{"user":"copilot-pull-request-reviewer[bot]","state":"COMMENTED"}],"note":"only comment is from gascityinc-olivia[bot] (auto-triage), not a human -- not reported"},
     "5756": {"title":"fix(events): fail a short single-record write instead of counting it as written","state":"open","mergeable_state":"blocked","url":"https://github.com/gastownhall/gascity/pull/5756","comments":1,"reviews":[{"user":"copilot-pull-request-reviewer[bot]","state":"COMMENTED"}],"note":"only comment is from gascityinc-olivia[bot] (auto-triage), not a human -- not reported"},
     "5757": {"title":"fix(hook): read each ephemeral scan once per query, not once per identity (#5712)","state":"open","mergeable_state":"blocked","url":"https://github.com/gastownhall/gascity/pull/5757","comments":1,"reviews":[{"user":"copilot-pull-request-reviewer[bot]","state":"COMMENTED"}],"note":"only comment is from gascityinc-olivia[bot] (auto-triage), not a human -- not reported"},
     "5810": {"title":"fix(runtime): send Down before Enter on Claude's workspace-trust dialog when \"No, exit\" is the default (#5796)","state":"open","mergeable_state":"blocked","url":"https://github.com/gastownhall/gascity/pull/5810","comments":1,"reviews":[{"user":"copilot-pull-request-reviewer[bot]","state":"COMMENTED"}]},

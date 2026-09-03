@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "last_checked_at": "2026-09-03T08:15:00Z",
+  "last_checked_at": "2026-09-03T10:15:00Z",
   "repo": "gastownhall/gascity",
   "author": "rjgeng",
   "prs": {
@@ -46,7 +46,7 @@
     "4547": {
       "title": "fix(cmd/gc): order dispatch searches all configured formula layers, not just the order's own (#4378)",
       "state": "open",
-      "mergeable_state": "blocked",
+      "mergeable_state": "dirty",
       "url": "https://github.com/gastownhall/gascity/pull/4547",
       "comments": 1,
       "reviews": [
@@ -54,7 +54,8 @@
           "user": "copilot-pull-request-reviewer[bot]",
           "state": "COMMENTED"
         }
-      ]
+      ],
+      "note": "mergeable_state moved blocked -> dirty this run (now has a real merge conflict against main, needs a rebase); not reported to Slack since this rule only flags moves toward clean/unstable, not away from it"
     },
     "4584": {
       "title": "fix(sling): --nudge falls back to a running named session for instance-expandable agents (#3412)",
@@ -126,7 +127,7 @@
           "state": "APPROVED"
         }
       ],
-      "note": "maintainer quad341 (collaborator) APPROVED at 03:42, said he's taking two small follow-ups himself (a lint site + a test assertion) and 'Merging with those on top' -- no action needed from rjgeng, expect this to merge soon"
+      "note": "maintainer quad341 (collaborator) APPROVED, said he's taking two small follow-ups himself (a lint site + a test assertion) and 'Merging with those on top' -- no action needed from rjgeng, expect this to merge soon; unchanged this run"
     },
     "5363": {
       "title": "fix(nudge): record dispatch skips for busy-session legacy nudge poll (#5317)",
@@ -144,7 +145,7 @@
           "state": "APPROVED"
         }
       ],
-      "note": "maintainer quad341 (collaborator) APPROVED at 05:06, praised the fix and test approach, said he'll add an empty-queue gate + negative test on his side before merging, then merge with rjgeng's commit and credit -- no action needed from rjgeng, expect this to merge soon"
+      "note": "maintainer quad341 (collaborator) APPROVED, said he'll add an empty-queue gate + negative test on his side before merging, then merge with rjgeng's commit and credit -- no action needed from rjgeng, expect this to merge soon; unchanged this run"
     },
     "5364": {
       "title": "fix(nudge): re-validate mail nudges at delivery time too (#5321)",
@@ -263,7 +264,7 @@
           "state": "CHANGES_REQUESTED"
         }
       ],
-      "note": "rjgeng pushed fixes for sjarmak's blocking findings on 08-29 and replied in detail; sjarmak's review still CHANGES_REQUESTED, no re-review yet -- may just need a nudge to re-review and approve"
+      "note": "rjgeng pushed fixes for sjarmak's blocking findings on 08-29 and replied in detail; sjarmak's review still CHANGES_REQUESTED, no re-review yet -- may just need a nudge to re-review and approve; unchanged this run"
     },
     "5617": {
       "title": "fix(tmux): don't clear-before-paste on an attached session (#5192)",

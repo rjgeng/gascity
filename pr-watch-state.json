@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "last_checked_at": "2026-09-03T05:44:50Z",
+  "last_checked_at": "2026-09-03T06:48:32Z",
   "repo": "gastownhall/gascity",
   "author": "rjgeng",
   "prs": {
@@ -126,7 +126,7 @@
           "state": "APPROVED"
         }
       ],
-      "note": "Unchanged since 2026-09-03 02:47 check: maintainer quad341 (collaborator) APPROVED, said he'll fix two minor wording nits himself and merge -- no action needed from rjgeng, still expected to merge soon"
+      "note": "maintainer quad341 (collaborator) APPROVED, said he'll fix two minor wording nits himself and merge -- no action needed from rjgeng, still expected to merge soon"
     },
     "5362": {
       "title": "fix(prompt): resolve {{.ConfigDir}} in prompt template scope (#5315)",
@@ -144,7 +144,7 @@
           "state": "APPROVED"
         }
       ],
-      "note": "Reported 2026-09-03 03:45: maintainer quad341 (collaborator) APPROVED at 03:42, said he's taking two small follow-ups himself (a lint site + a test assertion) and 'Merging with those on top' -- no action needed from rjgeng, expect this to merge soon"
+      "note": "maintainer quad341 (collaborator) APPROVED at 03:42, said he's taking two small follow-ups himself (a lint site + a test assertion) and 'Merging with those on top' -- no action needed from rjgeng, expect this to merge soon"
     },
     "5363": {
       "title": "fix(nudge): record dispatch skips for busy-session legacy nudge poll (#5317)",
@@ -162,7 +162,7 @@
           "state": "APPROVED"
         }
       ],
-      "note": "Reported 2026-09-03 05:44: maintainer quad341 (collaborator) APPROVED at 05:06, praised the fix and test approach, said he'll add an empty-queue gate + negative test on his side before merging, then merge with rjgeng's commit and credit -- no action needed from rjgeng, expect this to merge soon"
+      "note": "maintainer quad341 (collaborator) APPROVED at 05:06, praised the fix and test approach, said he'll add an empty-queue gate + negative test on his side before merging, then merge with rjgeng's commit and credit -- no action needed from rjgeng, expect this to merge soon"
     },
     "5364": {
       "title": "fix(nudge): re-validate mail nudges at delivery time too (#5321)",
@@ -233,7 +233,7 @@
           "state": "COMMENTED"
         }
       ],
-      "note": "comments are rjgeng's note about an unrelated pre-existing CI flake (#5668) plus bot triage -- unchanged, no human reviewer touch"
+      "note": "comments are rjgeng's own note about an unrelated pre-existing CI flake (#5668) plus bot triage -- unchanged, no human reviewer touch"
     },
     "5433": {
       "title": "fix(worker): codex auto-edit uses --sandbox workspace-write, not removed --full-auto (#5415)",
@@ -387,7 +387,7 @@
     "5854": {
       "title": "chore(api): regenerate generated artifacts for a new GET /sessions ?enrich= query param",
       "state": "open",
-      "mergeable_state": "dirty",
+      "mergeable_state": "blocked",
       "url": "https://github.com/gastownhall/gascity/pull/5854",
       "comments": 1,
       "reviews": [
@@ -396,7 +396,7 @@
           "state": "COMMENTED"
         }
       ],
-      "note": "mergeable_state has been dirty (merge conflict against base) since 2026-09-03; not reported since the rules only flag movement toward CLEAN/UNSTABLE, but worth a human glance. Only comment is bot triage (Copilot flagged a non-pointer bool default typing issue)"
+      "note": "REPORTED 2026-09-03 06:48: mergeable_state moved dirty -> blocked, merge conflict resolved. Still no human reviewer -- only comment is bot triage (Copilot flagged a non-pointer bool default typing issue)."
     },
     "5855": {
       "title": "fix(formula): tell review-quorum workers not to poison success closes with failure metadata (#5838)",
@@ -438,35 +438,35 @@
           "state": "COMMENTED"
         }
       ],
-      "note": "Reported 2026-09-03 03:45: human collaborator julianknutsen commented at 03:29 'This PR has been added to the review queue' with a factory tracking link -- no review submitted yet, just confirmation it's queued for review; unchanged as of 2026-09-03 05:44"
+      "note": "human collaborator julianknutsen commented 'This PR has been added to the review queue' with a factory tracking link -- no review submitted yet, just confirmation it's queued for review; unchanged as of 2026-09-03 06:48"
     },
     "5939": {
       "title": "fix(nudge): add a drop verb for stale pending nudges instead of requiring manual state.json surgery (#5816)",
       "state": "open",
       "mergeable_state": "blocked",
       "url": "https://github.com/gastownhall/gascity/pull/5939",
-      "comments": 0,
+      "comments": 1,
       "reviews": [
         {
           "user": "copilot-pull-request-reviewer[bot]",
           "state": "COMMENTED"
         }
       ],
-      "note": "bot review only (Copilot hit its review quota), BLOCKED, no comments -- not reported, unchanged as of 2026-09-03 05:44"
+      "note": "new comment is gascityinc-olivia[bot] triage only -- bot, not reported, unchanged as of 2026-09-03 06:48"
     },
     "5938": {
       "title": "fix(sessionlog): thread the transcript entry's own timestamp through to Fact.At instead of stamping now (#5825)",
       "state": "open",
       "mergeable_state": "blocked",
       "url": "https://github.com/gastownhall/gascity/pull/5938",
-      "comments": 0,
+      "comments": 1,
       "reviews": [
         {
           "user": "copilot-pull-request-reviewer[bot]",
           "state": "COMMENTED"
         }
       ],
-      "note": "bot review only (Copilot hit its review quota), BLOCKED, no comments -- not reported, unchanged as of 2026-09-03 05:44"
+      "note": "new comment is gascityinc-olivia[bot] triage only -- bot, not reported, unchanged as of 2026-09-03 06:48"
     }
   },
   "recently_closed_prs": {

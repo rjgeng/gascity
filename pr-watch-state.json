@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "last_checked_at": "2026-09-04T23:20:00Z",
+  "last_checked_at": "2026-09-05T00:48:57Z",
   "repo": "gastownhall/gascity",
   "author": "rjgeng",
   "prs": {
@@ -14,7 +14,6 @@
     "5257": {"title": "fix(mail): add unread-mail TTL so never-read mail wisps age out (#5240)", "state": "open", "merged": false, "mergeable_state": "blocked", "url": "https://github.com/gastownhall/gascity/pull/5257", "reviews": [{"user": "copilot-pull-request-reviewer[bot]", "state": "COMMENTED"}], "human_comment_authors": ["csauer02-personal-user"]},
     "5364": {"title": "fix(nudge): re-validate mail nudges at delivery time too (#5321)", "state": "open", "merged": false, "mergeable_state": "blocked", "url": "https://github.com/gastownhall/gascity/pull/5364", "reviews": [{"user": "copilot-pull-request-reviewer[bot]", "state": "COMMENTED"}, {"user": "csauer02-personal-user", "state": "APPROVED"}], "human_comment_authors": ["csauer02-personal-user", "rjgeng"]},
     "5365": {"title": "fix(supervisor): auto-unregister on repeated stale-config load failures (#5313)", "state": "open", "merged": false, "mergeable_state": "blocked", "url": "https://github.com/gastownhall/gascity/pull/5365", "reviews": [{"user": "copilot-pull-request-reviewer[bot]", "state": "COMMENTED"}], "human_comment_authors": []},
-    "5432": {"title": "fix(sling): --on dedup guard now covers convoy-first formulas-v2 launches (#5420)", "state": "open", "merged": false, "mergeable_state": "blocked", "url": "https://github.com/gastownhall/gascity/pull/5432", "reviews": [{"user": "copilot-pull-request-reviewer[bot]", "state": "COMMENTED"}], "human_comment_authors": ["rjgeng"]},
     "5433": {"title": "fix(worker): codex auto-edit uses --sandbox workspace-write, not removed --full-auto (#5415)", "state": "open", "merged": false, "mergeable_state": "blocked", "url": "https://github.com/gastownhall/gascity/pull/5433", "reviews": [{"user": "copilot-pull-request-reviewer[bot]", "state": "COMMENTED"}], "human_comment_authors": []},
     "5613": {"title": "fix(reaper): expired-nudge cleanup now closes rig-scoped shadows too (#5285)", "state": "open", "merged": false, "mergeable_state": "blocked", "url": "https://github.com/gastownhall/gascity/pull/5613", "reviews": [{"user": "copilot-pull-request-reviewer[bot]", "state": "COMMENTED"}], "human_comment_authors": []},
     "5614": {"title": "fix(events): truncate a NUL-padded tail left by an unclean shutdown (#5336)", "state": "open", "merged": false, "mergeable_state": "blocked", "url": "https://github.com/gastownhall/gascity/pull/5614", "reviews": [{"user": "copilot-pull-request-reviewer[bot]", "state": "COMMENTED"}, {"user": "sjarmak", "state": "CHANGES_REQUESTED"}], "human_comment_authors": ["rjgeng"]},
@@ -37,6 +36,7 @@
     "6007": {"title": "fix(beads): consult native-open deferral before dialing the identity probe (#5965)", "state": "open", "merged": false, "mergeable_state": "blocked", "url": "https://github.com/gastownhall/gascity/pull/6007", "reviews": [{"user": "copilot-pull-request-reviewer[bot]", "state": "COMMENTED"}], "human_comment_authors": []}
   },
   "recently_closed_prs": {
+    "5432": {"state": "closed", "merged": true},
     "5376": {"state": "closed", "merged": true},
     "5375": {"state": "closed", "merged": true},
     "5363": {"state": "closed", "merged": true},

@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "last_checked_at": "2026-09-05T00:00:00Z",
+  "last_checked_at": "2026-09-05T07:30:00Z",
   "repo": "gastownhall/gascity",
   "author": "rjgeng",
   "prs": {
@@ -32,7 +32,8 @@
     "5972": {"title": "fix(worktree): gc worktree ensure now materializes skills when --agent is given (#5951)", "state": "open", "merged": false, "mergeable_state": "blocked", "url": "https://github.com/gastownhall/gascity/pull/5972", "reviews": [{"user": "copilot-pull-request-reviewer[bot]", "state": "COMMENTED"}], "human_comment_authors": ["jacobhausler"]},
     "5977": {"title": "fix(tmux): detect Claude's bare-gerund spinner, fix submit-confirm baseline, surface two swallowed errors (#5954)", "state": "open", "merged": false, "mergeable_state": "blocked", "url": "https://github.com/gastownhall/gascity/pull/5977", "reviews": [{"user": "copilot-pull-request-reviewer[bot]", "state": "COMMENTED"}], "human_comment_authors": []},
     "6006": {"title": "fix(doctor): gc doctor --json's ok field reflects real blocking-failure state (#5950)", "state": "open", "merged": false, "mergeable_state": "blocked", "url": "https://github.com/gastownhall/gascity/pull/6006", "reviews": [{"user": "copilot-pull-request-reviewer[bot]", "state": "COMMENTED"}], "human_comment_authors": []},
-    "6007": {"title": "fix(beads): consult native-open deferral before dialing the identity probe (#5965)", "state": "open", "merged": false, "mergeable_state": "blocked", "url": "https://github.com/gastownhall/gascity/pull/6007", "reviews": [{"user": "copilot-pull-request-reviewer[bot]", "state": "COMMENTED"}], "human_comment_authors": []}
+    "6007": {"title": "fix(beads): consult native-open deferral before dialing the identity probe (#5965)", "state": "open", "merged": false, "mergeable_state": "blocked", "url": "https://github.com/gastownhall/gascity/pull/6007", "reviews": [{"user": "copilot-pull-request-reviewer[bot]", "state": "COMMENTED"}], "human_comment_authors": []},
+    "6038": {"title": "fix(sling): skip a child bead the fresh check finds already terminal (#5927)", "state": "open", "merged": false, "mergeable_state": "blocked", "url": "https://github.com/gastownhall/gascity/pull/6038", "reviews": [{"user": "copilot-pull-request-reviewer[bot]", "state": "COMMENTED"}], "human_comment_authors": []}
   },
   "recently_closed_prs": {
     "5432": {"state": "closed", "merged": true},

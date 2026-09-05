@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "last_checked_at": "2026-09-05T15:48:42Z",
+  "last_checked_at": "2026-09-05T16:47:12Z",
   "repo": "gastownhall/gascity",
   "author": "rjgeng",
   "prs": {
@@ -34,7 +34,8 @@
     "6006": {"title": "fix(doctor): gc doctor --json's ok field reflects real blocking-failure state (#5950)", "state": "open", "merged": false, "mergeable_state": "blocked", "url": "https://github.com/gastownhall/gascity/pull/6006", "reviews": [{"user": "copilot-pull-request-reviewer[bot]", "state": "COMMENTED"}], "human_comment_authors": []},
     "6007": {"title": "fix(beads): consult native-open deferral before dialing the identity probe (#5965)", "state": "open", "merged": false, "mergeable_state": "blocked", "url": "https://github.com/gastownhall/gascity/pull/6007", "reviews": [{"user": "copilot-pull-request-reviewer[bot]", "state": "COMMENTED"}], "human_comment_authors": []},
     "6038": {"title": "fix(sling): skip a child bead the fresh check finds already terminal (#5927)", "state": "open", "merged": false, "mergeable_state": "blocked", "url": "https://github.com/gastownhall/gascity/pull/6038", "reviews": [{"user": "copilot-pull-request-reviewer[bot]", "state": "COMMENTED"}], "human_comment_authors": []},
-    "6043": {"title": "fix(processenv): keep valid secrets.env entries when one line is malformed (#5982)", "state": "open", "merged": false, "mergeable_state": "blocked", "url": "https://github.com/gastownhall/gascity/pull/6043", "reviews": [{"user": "copilot-pull-request-reviewer[bot]", "state": "COMMENTED"}], "human_comment_authors": []}
+    "6043": {"title": "fix(processenv): keep valid secrets.env entries when one line is malformed (#5982)", "state": "open", "merged": false, "mergeable_state": "blocked", "url": "https://github.com/gastownhall/gascity/pull/6043", "reviews": [{"user": "copilot-pull-request-reviewer[bot]", "state": "COMMENTED"}], "human_comment_authors": []},
+    "6053": {"title": "fix(core-pack): anchor worktree creation on $GC_DIR, not $(pwd) (#6014)", "state": "open", "merged": false, "mergeable_state": "blocked", "url": "https://github.com/gastownhall/gascity/pull/6053", "reviews": [{"user": "copilot-pull-request-reviewer[bot]", "state": "COMMENTED"}], "human_comment_authors": []}
   },
   "recently_closed_prs": {
     "5810": {"state": "closed", "merged": false},

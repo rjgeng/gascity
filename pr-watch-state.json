@@ -2,7 +2,7 @@
   "schema_version": 1,
   "repo": "gastownhall/gascity",
   "author": "rjgeng",
-  "last_checked_at": "2026-09-06T10:49:05Z",
+  "last_checked_at": "2026-09-06T11:48:39Z",
   "prs": {
     "4095": {"title": "fix(session): refresh reset_committed_at on every continuation-reset re-arm (#4067)", "state": "open", "merged": false, "mergeable_state": "unknown", "url": "https://github.com/gastownhall/gascity/pull/4095", "reviews": [{"user": "copilot-pull-request-reviewer[bot]", "state": "COMMENTED"}], "human_comment_authors": ["rjgeng"]},
     "4138": {"title": "fix(session): gc session attach waits for an in-flight controller reset instead of racing it (#4079)", "state": "open", "merged": false, "mergeable_state": "unknown", "url": "https://github.com/gastownhall/gascity/pull/4138", "reviews": [{"user": "copilot-pull-request-reviewer[bot]", "state": "COMMENTED"}], "human_comment_authors": []},

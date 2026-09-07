@@ -2,7 +2,7 @@
   "schema_version": 1,
   "repo": "gastownhall/gascity",
   "author": "rjgeng",
-  "last_checked_at": "2026-09-07T15:49:34Z",
+  "last_checked_at": "2026-09-07T16:45:29Z",
   "prs": {
     "6097": {"title": "fix(suspensionstate): serialize rig suspend/resume with a cross-process flock (#6056)", "state": "open", "merged": false, "mergeable_state": "blocked", "url": "https://github.com/gastownhall/gascity/pull/6097", "reviews": [{"user": "copilot-pull-request-reviewer[bot]", "state": "COMMENTED"}], "human_comment_authors": []},
     "6062": {"title": "fix(cmd/gc): reopen-source also reopens tracking convoys (#6045)", "state": "open", "merged": false, "mergeable_state": "blocked", "url": "https://github.com/gastownhall/gascity/pull/6062", "reviews": [{"user": "copilot-pull-request-reviewer[bot]", "state": "COMMENTED"}], "human_comment_authors": []},
@@ -39,7 +39,7 @@
     "4547": {"title": "fix(cmd/gc): order dispatch searches all configured formula layers, not just the order's own (#4378)", "state": "open", "merged": false, "mergeable_state": "blocked", "url": "https://github.com/gastownhall/gascity/pull/4547", "reviews": [{"user": "copilot-pull-request-reviewer[bot]", "state": "COMMENTED"}], "human_comment_authors": []},
     "4481": {"title": "fix(runtime): treat a gone session as drain-acked (#4448)", "state": "open", "merged": false, "mergeable_state": "blocked", "url": "https://github.com/gastownhall/gascity/pull/4481", "reviews": [{"user": "copilot-pull-request-reviewer[bot]", "state": "COMMENTED"}], "human_comment_authors": ["rjgeng"]},
     "4138": {"title": "fix(session): gc session attach waits for an in-flight controller reset instead of racing it (#4079)", "state": "open", "merged": false, "mergeable_state": "blocked", "url": "https://github.com/gastownhall/gascity/pull/4138", "reviews": [{"user": "copilot-pull-request-reviewer[bot]", "state": "COMMENTED"}], "human_comment_authors": []},
-    "4095": {"title": "fix(session): refresh reset_committed_at on every continuation-reset re-arm (#4067)", "state": "open", "merged": false, "mergeable_state": "dirty", "url": "https://github.com/gastownhall/gascity/pull/4095", "reviews": [{"user": "copilot-pull-request-reviewer[bot]", "state": "COMMENTED"}], "human_comment_authors": ["rjgeng"]}
+    "4095": {"title": "fix(session): refresh reset_committed_at on every continuation-reset re-arm (#4067)", "state": "open", "merged": false, "mergeable_state": "blocked", "url": "https://github.com/gastownhall/gascity/pull/4095", "reviews": [{"user": "copilot-pull-request-reviewer[bot]", "state": "COMMENTED"}], "human_comment_authors": ["rjgeng"]}
   },
   "recently_closed_prs": {
     "5810": {"state": "closed", "merged": false},

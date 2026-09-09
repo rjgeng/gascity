@@ -2,9 +2,9 @@
   "schema_version": 1,
   "repo": "gastownhall/gascity",
   "author": "rjgeng",
-  "last_checked_at": "2026-09-09T17:47:08Z",
+  "last_checked_at": "2026-09-09T18:49:40Z",
   "prs": {
-    "6167": {"title": "fix(doctor): surface effective city suspension as a doctor check (#6126)", "state": "open", "merged": false, "mergeable_state": "unknown", "url": "https://github.com/gastownhall/gascity/pull/6167", "human_comment_authors": []},
+    "6167": {"title": "fix(doctor): surface effective city suspension as a doctor check (#6126)", "state": "open", "merged": false, "mergeable_state": "blocked", "url": "https://github.com/gastownhall/gascity/pull/6167", "human_comment_authors": []},
     "6165": {"title": "perf(cli): reuse the loaded city config on gc ready's store opens (#6132)", "state": "open", "merged": false, "mergeable_state": "blocked", "url": "https://github.com/gastownhall/gascity/pull/6165", "human_comment_authors": []},
     "6163": {"title": "fix(workflow): read workflow descendants at TierBoth through the live handle (#6129)", "state": "open", "merged": false, "mergeable_state": "blocked", "url": "https://github.com/gastownhall/gascity/pull/6163", "human_comment_authors": ["A3Ackerman"]},
     "6097": {"title": "fix(suspensionstate): serialize rig suspend/resume with a cross-process flock (#6056)", "state": "open", "merged": false, "mergeable_state": "blocked", "url": "https://github.com/gastownhall/gascity/pull/6097", "human_comment_authors": []},
@@ -43,7 +43,5 @@
     "4138": {"title": "fix(session): gc session attach waits for an in-flight controller reset instead of racing it (#4079)", "state": "open", "merged": false, "mergeable_state": "blocked", "url": "https://github.com/gastownhall/gascity/pull/4138", "human_comment_authors": []},
     "4095": {"title": "fix(session): refresh reset_committed_at on every continuation-reset re-arm (#4067)", "state": "open", "merged": false, "mergeable_state": "blocked", "url": "https://github.com/gastownhall/gascity/pull/4095", "human_comment_authors": ["rjgeng"]}
   },
-  "recently_closed_prs": {
-    "4926": {"title": "fix(searchpath): find Nix-installed provider CLIs (#3962)", "state": "closed", "merged": true, "merged_by": "quad341", "merged_at": "2026-09-09T14:51:54Z", "url": "https://github.com/gastownhall/gascity/pull/4926"}
-  }
+  "recently_closed_prs": {}
 }

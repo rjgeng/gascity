@@ -2,7 +2,7 @@
   "schema_version": 1,
   "repo": "gastownhall/gascity",
   "author": "rjgeng",
-  "last_checked_at": "2026-09-09T00:00:00Z",
+  "last_checked_at": "2026-09-09T12:00:00Z",
   "prs": {
     "6167": {"title": "fix(doctor): surface effective city suspension as a doctor check (#6126)", "state": "open", "merged": false, "mergeable_state": "blocked", "url": "https://github.com/gastownhall/gascity/pull/6167", "reviews": [{"user": "copilot-pull-request-reviewer[bot]", "state": "COMMENTED"}], "human_comment_authors": []},
     "6165": {"title": "perf(cli): reuse the loaded city config on gc ready's store opens (#6132)", "state": "open", "merged": false, "mergeable_state": "blocked", "url": "https://github.com/gastownhall/gascity/pull/6165", "reviews": [{"user": "copilot-pull-request-reviewer[bot]", "state": "COMMENTED"}], "human_comment_authors": []},

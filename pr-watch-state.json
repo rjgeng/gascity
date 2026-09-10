@@ -2,7 +2,7 @@
   "schema_version": 1,
   "repo": "gastownhall/gascity",
   "author": "rjgeng",
-  "last_checked_at": "2026-09-10T14:30:00Z",
+  "last_checked_at": "2026-09-10T16:05:00Z",
   "prs": {
     "4095": {"title": "fix(session): refresh reset_committed_at on every continuation-reset re-arm (#4067)", "state": "open", "merged": false, "mergeable_state": "blocked", "url": "https://github.com/gastownhall/gascity/pull/4095", "human_comment_authors": ["rjgeng"]},
     "4138": {"title": "fix(session): gc session attach waits for an in-flight controller reset instead of racing it (#4079)", "state": "open", "merged": false, "mergeable_state": "blocked", "url": "https://github.com/gastownhall/gascity/pull/4138", "human_comment_authors": []},
@@ -13,7 +13,6 @@
     "5257": {"title": "fix(mail): add unread-mail TTL so never-read mail wisps age out (#5240)", "state": "open", "merged": false, "mergeable_state": "blocked", "url": "https://github.com/gastownhall/gascity/pull/5257", "human_comment_authors": ["csauer02-personal-user"]},
     "5364": {"title": "fix(nudge): re-validate mail nudges at delivery time too (#5321)", "state": "open", "merged": false, "mergeable_state": "blocked", "url": "https://github.com/gastownhall/gascity/pull/5364", "human_comment_authors": ["csauer02-personal-user", "rjgeng"]},
     "5365": {"title": "fix(supervisor): auto-unregister on repeated stale-config load failures (#5313)", "state": "open", "merged": false, "mergeable_state": "blocked", "url": "https://github.com/gastownhall/gascity/pull/5365", "human_comment_authors": []},
-    "5613": {"title": "fix(reaper): expired-nudge cleanup now closes rig-scoped shadows too (#5285)", "state": "open", "merged": false, "mergeable_state": "blocked", "url": "https://github.com/gastownhall/gascity/pull/5613", "human_comment_authors": []},
     "5614": {"title": "fix(events): truncate a NUL-padded tail left by an unclean shutdown (#5336)", "state": "open", "merged": false, "mergeable_state": "blocked", "url": "https://github.com/gastownhall/gascity/pull/5614", "human_comment_authors": ["rjgeng", "sjarmak"]},
     "5617": {"title": "fix(tmux): don't clear-before-paste on an attached session (#5192)", "state": "open", "merged": false, "mergeable_state": "blocked", "url": "https://github.com/gastownhall/gascity/pull/5617", "human_comment_authors": ["rjgeng", "sjarmak"]},
     "5700": {"title": "fix(dashboardbff): unwrap the response writer before the Flusher check on run-detail stream", "state": "open", "merged": false, "mergeable_state": "blocked", "url": "https://github.com/gastownhall/gascity/pull/5700", "human_comment_authors": []},
@@ -43,5 +42,7 @@
     "6165": {"title": "perf(cli): reuse the loaded city config on gc ready's store opens (#6132)", "state": "open", "merged": false, "mergeable_state": "blocked", "url": "https://github.com/gastownhall/gascity/pull/6165", "human_comment_authors": []},
     "6167": {"title": "fix(doctor): surface effective city suspension as a doctor check (#6126)", "state": "open", "merged": false, "mergeable_state": "blocked", "url": "https://github.com/gastownhall/gascity/pull/6167", "human_comment_authors": []}
   },
-  "recently_closed_prs": {}
+  "recently_closed_prs": {
+    "5613": {"title": "fix(reaper): expired-nudge cleanup now closes rig-scoped shadows too (#5285)", "state": "closed", "merged": true, "merged_by": "quad341", "merged_at": "2026-09-10T15:31:46Z", "url": "https://github.com/gastownhall/gascity/pull/5613"}
+  }
 }

@@ -2,7 +2,7 @@
   "schema_version": 1,
   "repo": "gastownhall/gascity",
   "author": "rjgeng",
-  "last_checked_at": "2026-09-10T00:00:00Z",
+  "last_checked_at": "2026-09-10T01:48:43Z",
   "prs": {
     "6167": {
       "title": "fix(doctor): surface effective city suspension as a doctor check (#6126)",

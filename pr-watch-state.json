@@ -2,7 +2,7 @@
   "schema_version": 1,
   "repo": "gastownhall/gascity",
   "author": "rjgeng",
-  "last_checked_at": "2026-09-10T18:48:35Z",
+  "last_checked_at": "2026-09-10T19:50:14Z",
   "prs": {
     "4095": {
       "title": "fix(session): refresh reset_committed_at on every continuation-reset re-arm (#4067)",
@@ -10,9 +10,7 @@
       "merged": false,
       "mergeable_state": "blocked",
       "url": "https://github.com/gastownhall/gascity/pull/4095",
-      "human_comment_authors": [
-        "rjgeng"
-      ]
+      "human_comment_authors": ["rjgeng"]
     },
     "4138": {
       "title": "fix(session): gc session attach waits for an in-flight controller reset instead of racing it (#4079)",
@@ -28,9 +26,7 @@
       "merged": false,
       "mergeable_state": "blocked",
       "url": "https://github.com/gastownhall/gascity/pull/4481",
-      "human_comment_authors": [
-        "rjgeng"
-      ]
+      "human_comment_authors": ["rjgeng"]
     },
     "4547": {
       "title": "fix(cmd/gc): order dispatch searches all configured formula layers, not just the order's own (#4378)",
@@ -38,9 +34,7 @@
       "merged": false,
       "mergeable_state": "blocked",
       "url": "https://github.com/gastownhall/gascity/pull/4547",
-      "human_comment_authors": [
-        "quad341"
-      ]
+      "human_comment_authors": ["quad341"]
     },
     "4584": {
       "title": "fix(sling): --nudge falls back to a running named session for instance-expandable agents (#3412)",
@@ -48,9 +42,7 @@
       "merged": false,
       "mergeable_state": "blocked",
       "url": "https://github.com/gastownhall/gascity/pull/4584",
-      "human_comment_authors": [
-        "remuscazacu"
-      ]
+      "human_comment_authors": ["remuscazacu"]
     },
     "4857": {
       "title": "fix(mail): authorize --from against the calling session's own identity (#4070)",
@@ -66,9 +58,7 @@
       "merged": false,
       "mergeable_state": "blocked",
       "url": "https://github.com/gastownhall/gascity/pull/5257",
-      "human_comment_authors": [
-        "csauer02-personal-user"
-      ]
+      "human_comment_authors": ["csauer02-personal-user"]
     },
     "5364": {
       "title": "fix(nudge): re-validate mail nudges at delivery time too (#5321)",
@@ -76,10 +66,7 @@
       "merged": false,
       "mergeable_state": "blocked",
       "url": "https://github.com/gastownhall/gascity/pull/5364",
-      "human_comment_authors": [
-        "csauer02-personal-user",
-        "rjgeng"
-      ]
+      "human_comment_authors": ["csauer02-personal-user", "rjgeng"]
     },
     "5365": {
       "title": "fix(supervisor): auto-unregister on repeated stale-config load failures (#5313)",
@@ -95,10 +82,7 @@
       "merged": false,
       "mergeable_state": "blocked",
       "url": "https://github.com/gastownhall/gascity/pull/5614",
-      "human_comment_authors": [
-        "rjgeng",
-        "sjarmak"
-      ]
+      "human_comment_authors": ["rjgeng", "sjarmak"]
     },
     "5617": {
       "title": "fix(tmux): don't clear-before-paste on an attached session (#5192)",
@@ -106,10 +90,7 @@
       "merged": false,
       "mergeable_state": "blocked",
       "url": "https://github.com/gastownhall/gascity/pull/5617",
-      "human_comment_authors": [
-        "rjgeng",
-        "sjarmak"
-      ]
+      "human_comment_authors": ["rjgeng", "sjarmak"]
     },
     "5700": {
       "title": "fix(dashboardbff): unwrap the response writer before the Flusher check on run-detail stream",
@@ -189,9 +170,7 @@
       "merged": false,
       "mergeable_state": "blocked",
       "url": "https://github.com/gastownhall/gascity/pull/5933",
-      "human_comment_authors": [
-        "julianknutsen"
-      ]
+      "human_comment_authors": ["julianknutsen"]
     },
     "5938": {
       "title": "fix(sessionlog): thread the transcript entry's own timestamp through to Fact.At instead of stamping now (#5825)",
@@ -215,9 +194,7 @@
       "merged": false,
       "mergeable_state": "blocked",
       "url": "https://github.com/gastownhall/gascity/pull/5972",
-      "human_comment_authors": [
-        "jacobhausler"
-      ]
+      "human_comment_authors": ["jacobhausler"]
     },
     "5977": {
       "title": "fix(tmux): detect Claude's bare-gerund spinner, fix submit-confirm baseline, surface two swallowed errors (#5954)",
@@ -241,9 +218,7 @@
       "merged": false,
       "mergeable_state": "blocked",
       "url": "https://github.com/gastownhall/gascity/pull/6007",
-      "human_comment_authors": [
-        "A3Ackerman"
-      ]
+      "human_comment_authors": ["A3Ackerman"]
     },
     "6038": {
       "title": "fix(sling): skip a child bead the fresh check finds already terminal (#5927)",
@@ -307,9 +282,7 @@
       "merged": false,
       "mergeable_state": "blocked",
       "url": "https://github.com/gastownhall/gascity/pull/6163",
-      "human_comment_authors": [
-        "A3Ackerman"
-      ]
+      "human_comment_authors": ["A3Ackerman"]
     },
     "6165": {
       "title": "perf(cli): reuse the loaded city config on gc ready's store opens (#6132)",

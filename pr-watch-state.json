@@ -2,7 +2,7 @@
   "schema_version": 1,
   "repo": "gastownhall/gascity",
   "author": "rjgeng",
-  "last_checked_at": "2026-09-10T22:45:00Z",
+  "last_checked_at": "2026-09-10T23:20:00Z",
   "prs": {
     "4095": {
       "title": "fix(session): refresh reset_committed_at on every continuation-reset re-arm (#4067)",
@@ -75,22 +75,6 @@
       "mergeable_state": "blocked",
       "url": "https://github.com/gastownhall/gascity/pull/5365",
       "human_comment_authors": []
-    },
-    "5614": {
-      "title": "fix(events): truncate a NUL-padded tail left by an unclean shutdown (#5336)",
-      "state": "open",
-      "merged": false,
-      "mergeable_state": "blocked",
-      "url": "https://github.com/gastownhall/gascity/pull/5614",
-      "human_comment_authors": ["rjgeng", "sjarmak"]
-    },
-    "5617": {
-      "title": "fix(tmux): don't clear-before-paste on an attached session (#5192)",
-      "state": "open",
-      "merged": false,
-      "mergeable_state": "blocked",
-      "url": "https://github.com/gastownhall/gascity/pull/5617",
-      "human_comment_authors": ["rjgeng", "sjarmak", "quad341"]
     },
     "5700": {
       "title": "fix(dashboardbff): unwrap the response writer before the Flusher check on run-detail stream",
@@ -302,13 +286,13 @@
     }
   },
   "recently_closed_prs": {
-    "5613": {
-      "title": "fix(reaper): expired-nudge cleanup now closes rig-scoped shadows too (#5285)",
+    "5617": {
+      "title": "fix(tmux): don't clear-before-paste on an attached session (#5192)",
       "state": "closed",
       "merged": true,
       "merged_by": "quad341",
-      "merged_at": "2026-09-10T15:31:46Z",
-      "url": "https://github.com/gastownhall/gascity/pull/5613"
+      "merged_at": "2026-09-10T22:50:06Z",
+      "url": "https://github.com/gastownhall/gascity/pull/5617"
     }
   }
 }

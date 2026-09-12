@@ -2,7 +2,7 @@
   "schema_version": 1,
   "repo": "gastownhall/gascity",
   "author": "rjgeng",
-  "last_checked_at": "2026-09-11T23:50:00Z",
+  "last_checked_at": "2026-09-12T01:20:00Z",
   "prs": {
     "4095": {"title": "fix(session): refresh reset_committed_at on every continuation-reset re-arm (#4067)", "state": "open", "merged": false, "mergeable_state": "blocked", "url": "https://github.com/gastownhall/gascity/pull/4095", "human_comment_authors": ["rjgeng"]},
     "4138": {"title": "fix(session): gc session attach waits for an in-flight controller reset instead of racing it (#4079)", "state": "open", "merged": false, "mergeable_state": "blocked", "url": "https://github.com/gastownhall/gascity/pull/4138", "human_comment_authors": []},
@@ -40,8 +40,8 @@
     "6163": {"title": "fix(workflow): read workflow descendants at TierBoth through the live handle (#6129)", "state": "open", "merged": false, "mergeable_state": "blocked", "url": "https://github.com/gastownhall/gascity/pull/6163", "human_comment_authors": ["A3Ackerman"]},
     "6165": {"title": "perf(cli): reuse the loaded city config on gc ready's store opens (#6132)", "state": "open", "merged": false, "mergeable_state": "blocked", "url": "https://github.com/gastownhall/gascity/pull/6165", "human_comment_authors": []},
     "6167": {"title": "fix(doctor): surface effective city suspension as a doctor check (#6126)", "state": "open", "merged": false, "mergeable_state": "blocked", "url": "https://github.com/gastownhall/gascity/pull/6167", "human_comment_authors": []},
-    "6270": {"title": "fix(molecule): retry a dropped molecule_failed stamp before giving up (#6235)", "state": "open", "merged": false, "mergeable_state": "blocked", "url": "https://github.com/gastownhall/gascity/pull/6270", "human_comment_authors": []},
-    "6269": {"title": "fix(config): apply feature flags in the supervisor's per-city loader (#6236)", "state": "open", "merged": false, "mergeable_state": "blocked", "url": "https://github.com/gastownhall/gascity/pull/6269", "human_comment_authors": []}
+    "6269": {"title": "fix(config): apply feature flags in the supervisor's per-city loader (#6236)", "state": "open", "merged": false, "mergeable_state": "blocked", "url": "https://github.com/gastownhall/gascity/pull/6269", "human_comment_authors": []},
+    "6270": {"title": "fix(molecule): retry a dropped molecule_failed stamp before giving up (#6235)", "state": "open", "merged": false, "mergeable_state": "blocked", "url": "https://github.com/gastownhall/gascity/pull/6270", "human_comment_authors": []}
   },
   "recently_closed_prs": {
     "5617": {"title": "fix(tmux): don't clear-before-paste on an attached session (#5192)", "state": "closed", "merged": true, "merged_by": "quad341", "merged_at": "2026-09-10T22:50:06Z", "url": "https://github.com/gastownhall/gascity/pull/5617"},

@@ -125,7 +125,9 @@ func WithArchiveRetainAge(d time.Duration) FileRecorderOption {
 // .tmp path. What it skips is the sweep's RECOVERY WORK — a directory pass that
 // gzips and renames the files a crash stranded — not the open's directory read,
 // which happens either way because ReadLatestSeq consults the archives to
-// continue the sequence.
+// continue the sequence. As of the NUL-tail repair it also skips
+// truncateNulPaddedTail, so a transient per-open recorder does not repair an
+// unclean-shutdown tail; the long-lived recorder does that on its next open.
 //
 // The long-lived recorder keeps the sweep, so crash recovery of orphaned
 // rotating files is unaffected, and stranded rotating files stay readable

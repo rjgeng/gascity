@@ -582,11 +582,12 @@ func TestTruncateNulPaddedTailSerializesAgainstConcurrentAppend(t *testing.T) {
 
 	start := time.Now()
 	var stderr bytes.Buffer
-	if err := truncateNulPaddedTail(path, &stderr); err != nil {
-		t.Fatalf("truncateNulPaddedTail: %v", err)
-	}
+	err := truncateNulPaddedTail(path, &stderr)
 	elapsed := time.Since(start)
 	<-appended
+	if err != nil {
+		t.Fatalf("truncateNulPaddedTail: %v", err)
+	}
 
 	if elapsed < 50*time.Millisecond {
 		t.Errorf("truncateNulPaddedTail returned after %v, want it to have blocked until the sibling released its flock", elapsed)

@@ -2,7 +2,7 @@
   "schema_version": 1,
   "repo": "gastownhall/gascity",
   "author": "rjgeng",
-  "last_checked_at": "2026-09-16T02:48:12Z",
+  "last_checked_at": "2026-09-16T03:41:00Z",
   "prs": {
     "4095": {"title": "fix(session): refresh reset_committed_at on every continuation-reset re-arm (#4067)", "state": "open", "merged": false, "mergeable_state": "blocked", "url": "https://github.com/gastownhall/gascity/pull/4095", "human_comment_authors": ["rjgeng"]},
     "4138": {"title": "fix(session): gc session attach waits for an in-flight controller reset instead of racing it (#4079)", "state": "open", "merged": false, "mergeable_state": "blocked", "url": "https://github.com/gastownhall/gascity/pull/4138", "human_comment_authors": []},
@@ -12,7 +12,6 @@
     "5257": {"title": "fix(mail): add unread-mail TTL so never-read mail wisps age out (#5240)", "state": "open", "merged": false, "mergeable_state": "blocked", "url": "https://github.com/gastownhall/gascity/pull/5257", "human_comment_authors": ["csauer02-personal-user", "quad341"]},
     "5365": {"title": "fix(supervisor): auto-unregister on repeated stale-config load failures (#5313)", "state": "open", "merged": false, "mergeable_state": "blocked", "url": "https://github.com/gastownhall/gascity/pull/5365", "human_comment_authors": []},
     "5756": {"title": "fix(events): fail a short single-record write instead of counting it as written", "state": "open", "merged": false, "mergeable_state": "dirty", "url": "https://github.com/gastownhall/gascity/pull/5756", "human_comment_authors": []},
-    "5812": {"title": "fix(session): fail loudly when waking a session whose rig is suspended (#5785)", "state": "open", "merged": false, "mergeable_state": "blocked", "url": "https://github.com/gastownhall/gascity/pull/5812", "human_comment_authors": []},
     "5854": {"title": "chore(api): regenerate generated artifacts for a new GET /sessions ?enrich= query param", "state": "open", "merged": false, "mergeable_state": "dirty", "url": "https://github.com/gastownhall/gascity/pull/5854", "human_comment_authors": []},
     "5913": {"title": "fix(supervisor): guard the supervisor socket path against Unix domain socket length limits (#5845)", "state": "open", "merged": false, "mergeable_state": "blocked", "url": "https://github.com/gastownhall/gascity/pull/5913", "human_comment_authors": []},
     "5933": {"title": "fix(mail): respect cfg.Mail.RetentionTTL in the nudge-mail sweep instead of a hardcoded 60m (#5877)", "state": "open", "merged": false, "mergeable_state": "blocked", "url": "https://github.com/gastownhall/gascity/pull/5933", "human_comment_authors": ["julianknutsen"]},
@@ -41,9 +40,11 @@
     "6340": {"title": "fix(convoy): order the workflow root last in delete-sweep so an interrupted delete never leaves it closed with open descendants", "state": "open", "merged": false, "mergeable_state": "blocked", "url": "https://github.com/gastownhall/gascity/pull/6340", "human_comment_authors": []},
     "6364": {"title": "fix(config): let a template opt a cold pool out of the wake-probe's clamped-1 override (Agent.ColdWake)", "state": "open", "merged": false, "mergeable_state": "dirty", "url": "https://github.com/gastownhall/gascity/pull/6364", "human_comment_authors": []},
     "6365": {"title": "fix(handoff): give PreCompact its own flat systemMessage shape under --hook-format codex", "state": "open", "merged": false, "mergeable_state": "blocked", "url": "https://github.com/gastownhall/gascity/pull/6365", "human_comment_authors": []},
-    "6366": {"title": "fix(nudge): derive the CLI's session-class store from the city's work store at every call site", "state": "open", "merged": false, "mergeable_state": "blocked", "url": "https://github.com/gastownhall/gascity/pull/6366", "human_comment_authors": []}
+    "6366": {"title": "fix(nudge): derive the CLI's session-class store from the city's work store at every call site", "state": "open", "merged": false, "mergeable_state": "blocked", "url": "https://github.com/gastownhall/gascity/pull/6366", "human_comment_authors": []},
+    "6397": {"title": "fix(nudge): probe controller liveness before suppressing the per-session nudge poller", "state": "open", "merged": false, "mergeable_state": "blocked", "url": "https://github.com/gastownhall/gascity/pull/6397", "human_comment_authors": []}
   },
   "recently_closed_prs": {
+    "5812": {"title": "fix(session): fail loudly when waking a session whose rig is suspended (#5785)", "state": "closed", "merged": true, "merged_by": "quad341", "merged_at": "2026-09-16T03:04:09Z", "url": "https://github.com/gastownhall/gascity/pull/5812"},
     "5855": {"title": "fix(formula): tell review-quorum workers not to poison success closes with failure metadata (#5838)", "state": "closed", "merged": true, "merged_by": "quad341", "merged_at": "2026-09-15T17:02:58Z", "url": "https://github.com/gastownhall/gascity/pull/5855"},
     "5757": {"title": "fix(hook): read each ephemeral scan once per query, not once per identity (#5712)", "state": "closed", "merged": true, "merged_by": "quad341", "merged_at": "2026-09-15T04:18:12Z", "url": "https://github.com/gastownhall/gascity/pull/5757"},
     "5752": {"title": "fix(events): a wide --since window now truncates instead of failing with nothing", "state": "closed", "merged": true, "merged_by": "quad341", "merged_at": "2026-09-15T03:22:34Z", "url": "https://github.com/gastownhall/gascity/pull/5752"},
@@ -52,18 +53,6 @@
     "5364": {"title": "fix(nudge): re-validate mail nudges at delivery time too (#5321)", "state": "closed", "merged": true, "merged_by": "quad341", "merged_at": "2026-09-14T02:28:59Z", "url": "https://github.com/gastownhall/gascity/pull/5364"},
     "5614": {"title": "fix(events): truncate a NUL-padded tail left by an unclean shutdown (#5336)", "state": "closed", "merged": true, "merged_by": "quad341", "merged_at": "2026-09-13T06:34:34Z", "url": "https://github.com/gastownhall/gascity/pull/5614"},
     "4547": {"title": "fix(cmd/gc): order dispatch searches all configured formula layers, not just the order's own (#4378)", "state": "closed", "merged": true, "merged_by": "quad341", "merged_at": "2026-09-13T02:20:39Z", "url": "https://github.com/gastownhall/gascity/pull/4547"},
-    "5617": {"title": "fix(tmux): don't clear-before-paste on an attached session (#5192)", "state": "closed", "merged": true, "merged_by": "quad341", "merged_at": "2026-09-10T22:50:06Z", "url": "https://github.com/gastownhall/gascity/pull/5617"},
-    "5613": {"title": "fix(reaper): expired-nudge cleanup now closes rig-scoped shadows too (#5285)", "state": "closed", "merged": true, "merged_by": "quad341", "merged_at": "2026-09-10T15:31:46Z", "url": "https://github.com/gastownhall/gascity/pull/5613"},
-    "4926": {"title": "fix(searchpath): find Nix-installed provider CLIs (#3962)", "state": "closed", "merged": true, "merged_by": "quad341", "merged_at": "2026-09-09T14:51:54Z", "url": "https://github.com/gastownhall/gascity/pull/4926"},
-    "5810": {"title": "fix(runtime): send Down before Enter on Claude's workspace-trust dialog when \"No, exit\" is the default (#5796)", "state": "closed", "closed_at": "2026-09-02T14:13:30Z", "url": "https://github.com/gastownhall/gascity/pull/5810"},
-    "5628": {"title": "fix(bd): disclose which store gc bd list/ready/search/show answered from (#5170)", "state": "closed", "closed_at": "2026-08-26T06:37:31Z", "url": "https://github.com/gastownhall/gascity/pull/5628"},
-    "5618": {"title": "fix(import): validate composed config after install, not just at doctor time (#5382)", "state": "closed", "closed_at": "2026-08-26T08:00:03Z", "url": "https://github.com/gastownhall/gascity/pull/5618"},
-    "5616": {"title": "fix(config): keep resume's option-defaults gate scoped to explicit overrides (#5185)", "state": "closed", "closed_at": "2026-08-26T06:51:02Z", "url": "https://github.com/gastownhall/gascity/pull/5616"},
-    "5615": {"title": "fix(session): surface two setup-timeout config footguns as validation warnings (#5279)", "state": "closed", "closed_at": "2026-08-26T05:33:10Z", "url": "https://github.com/gastownhall/gascity/pull/5615"},
-    "5612": {"title": "fix(ci): mac-regression's path filter was inert, gate the smoke tier properly (#5155)", "state": "closed", "closed_at": "2026-08-26T04:30:54Z", "url": "https://github.com/gastownhall/gascity/pull/5612"},
-    "5433": {"title": "fix(worker): codex auto-edit uses --sandbox workspace-write, not removed --full-auto (#5415)", "state": "closed", "closed_at": "2026-09-05T04:02:40Z", "url": "https://github.com/gastownhall/gascity/pull/5433"},
-    "5432": {"title": "fix(sling): --on dedup guard now covers convoy-first formulas-v2 launches (#5420)", "state": "closed", "closed_at": "2026-09-05T00:06:05Z", "url": "https://github.com/gastownhall/gascity/pull/5432"},
-    "5376": {"title": "fix(gc): print short usage pointer instead of full command help on flag/arg errors (#5359)", "state": "closed", "closed_at": "2026-09-03T19:17:30Z", "url": "https://github.com/gastownhall/gascity/pull/5376"},
-    "5375": {"title": "fix(session): evict wedged reset-pending sessions and bound crash-event noise (#5355)", "state": "closed", "closed_at": "2026-09-03T18:10:51Z", "url": "https://github.com/gastownhall/gascity/pull/5375"}
+    "5617": {"title": "fix(tmux): don't clear-before-paste on an attached session (#5192)", "state": "closed", "merged": true, "merged_by": "quad341", "merged_at": "2026-09-10T22:50:06Z", "url": "https://github.com/gastownhall/gascity/pull/5617"}
   }
 }

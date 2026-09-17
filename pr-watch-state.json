@@ -56,5 +56,5 @@
     "4547": {"title": "fix(cmd/gc): order dispatch searches all configured formula layers, not just the order's own (#4378)", "state": "closed", "merged": true, "merged_by": "quad341", "merged_at": "2026-09-13T02:20:39Z", "url": "https://github.com/gastownhall/gascity/pull/4547"},
     "5617": {"title": "fix(tmux): don't clear-before-paste on an attached session (#5192)", "state": "closed", "merged": true, "merged_by": "quad341", "merged_at": "2026-09-10T22:50:06Z", "url": "https://github.com/gastownhall/gascity/pull/5617"}
   },
-  "last_checked_at": "2026-09-17T06:49:18Z"
+  "last_checked_at": "2026-09-17T09:30:00Z"
 }

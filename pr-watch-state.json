@@ -3,14 +3,13 @@
   "repo": "gastownhall/gascity",
   "author": "rjgeng",
   "prs": {
-    "4095": {"title": "fix(session): refresh reset_committed_at on every continuation-reset re-arm (#4067)", "state": "open", "merged": false, "mergeable_state": "blocked", "url": "https://github.com/gastownhall/gascity/pull/4095", "human_comment_authors": []},
-    "4138": {"title": "fix(session): gc session attach waits for an in-flight controller reset instead of racing it (#4079)", "state": "open", "merged": false, "mergeable_state": "blocked", "url": "https://github.com/gastownhall/gascity/pull/4138", "human_comment_authors": []},
-    "4481": {"title": "fix(runtime): treat a gone session as drain-acked (#4448)", "state": "open", "merged": false, "mergeable_state": "blocked", "url": "https://github.com/gastownhall/gascity/pull/4481", "human_comment_authors": []},
-    "4584": {"title": "fix(sling): --nudge falls back to a running named session for instance-expandable agents (#3412)", "state": "open", "merged": false, "mergeable_state": "blocked", "url": "https://github.com/gastownhall/gascity/pull/4584", "human_comment_authors": ["remuscazacu"]},
-    "4857": {"title": "fix(mail): authorize --from against the calling session's own identity (#4070)", "state": "open", "merged": false, "mergeable_state": "blocked", "url": "https://github.com/gastownhall/gascity/pull/4857", "human_comment_authors": []},
-    "5257": {"title": "fix(mail): add unread-mail TTL so never-read mail wisps age out (#5240)", "state": "open", "merged": false, "mergeable_state": "blocked", "url": "https://github.com/gastownhall/gascity/pull/5257", "human_comment_authors": ["csauer02-personal-user", "quad341"]},
+    "4095": {"title": "fix(session): refresh reset_committed_at on every continuation-reset re-arm (#4067)", "state": "open", "merged": false, "mergeable_state": "unknown", "url": "https://github.com/gastownhall/gascity/pull/4095", "human_comment_authors": []},
+    "4138": {"title": "fix(session): gc session attach waits for an in-flight controller reset instead of racing it (#4079)", "state": "open", "merged": false, "mergeable_state": "unknown", "url": "https://github.com/gastownhall/gascity/pull/4138", "human_comment_authors": []},
+    "4481": {"title": "fix(runtime): treat a gone session as drain-acked (#4448)", "state": "open", "merged": false, "mergeable_state": "unknown", "url": "https://github.com/gastownhall/gascity/pull/4481", "human_comment_authors": []},
+    "4584": {"title": "fix(sling): --nudge falls back to a running named session for instance-expandable agents (#3412)", "state": "open", "merged": false, "mergeable_state": "unknown", "url": "https://github.com/gastownhall/gascity/pull/4584", "human_comment_authors": ["remuscazacu"]},
+    "4857": {"title": "fix(mail): authorize --from against the calling session's own identity (#4070)", "state": "open", "merged": false, "mergeable_state": "unknown", "url": "https://github.com/gastownhall/gascity/pull/4857", "human_comment_authors": []},
+    "5257": {"title": "fix(mail): add unread-mail TTL so never-read mail wisps age out (#5240)", "state": "open", "merged": false, "mergeable_state": "unknown", "url": "https://github.com/gastownhall/gascity/pull/5257", "human_comment_authors": ["csauer02-personal-user", "quad341"]},
     "5365": {"title": "fix(supervisor): auto-unregister on repeated stale-config load failures (#5313)", "state": "open", "merged": false, "mergeable_state": "blocked", "url": "https://github.com/gastownhall/gascity/pull/5365", "human_comment_authors": []},
-    "5756": {"title": "fix(events): fail a short single-record write instead of counting it as written", "state": "open", "merged": false, "mergeable_state": "blocked", "url": "https://github.com/gastownhall/gascity/pull/5756", "human_comment_authors": []},
     "5854": {"title": "chore(api): regenerate generated artifacts for a new GET /sessions ?enrich= query param", "state": "open", "merged": false, "mergeable_state": "blocked", "url": "https://github.com/gastownhall/gascity/pull/5854", "human_comment_authors": []},
     "5913": {"title": "fix(supervisor): guard the supervisor socket path against Unix domain socket length limits (#5845)", "state": "open", "merged": false, "mergeable_state": "blocked", "url": "https://github.com/gastownhall/gascity/pull/5913", "human_comment_authors": []},
     "5933": {"title": "fix(mail): respect cfg.Mail.RetentionTTL in the nudge-mail sweep instead of a hardcoded 60m (#5877)", "state": "open", "merged": false, "mergeable_state": "blocked", "url": "https://github.com/gastownhall/gascity/pull/5933", "human_comment_authors": ["julianknutsen"]},
@@ -45,6 +44,7 @@
     "6411": {"title": "fix(ci): raise cmd-gc-productmetrics-testhook's timeout to fit the runner it actually gets", "state": "open", "merged": false, "mergeable_state": "blocked", "url": "https://github.com/gastownhall/gascity/pull/6411", "human_comment_authors": []}
   },
   "recently_closed_prs": {
+    "5756": {"title": "fix(events): fail a short single-record write instead of counting it as written", "state": "closed", "merged": true, "merged_by": "quad341", "merged_at": "2026-09-17T09:14:26Z", "url": "https://github.com/gastownhall/gascity/pull/5756"},
     "5812": {"title": "fix(session): fail loudly when waking a session whose rig is suspended (#5785)", "state": "closed", "merged": true, "merged_by": "quad341", "merged_at": "2026-09-16T03:04:09Z", "url": "https://github.com/gastownhall/gascity/pull/5812"},
     "5855": {"title": "fix(formula): tell review-quorum workers not to poison success closes with failure metadata (#5838)", "state": "closed", "merged": true, "merged_by": "quad341", "merged_at": "2026-09-15T17:02:58Z", "url": "https://github.com/gastownhall/gascity/pull/5855"},
     "5757": {"title": "fix(hook): read each ephemeral scan once per query, not once per identity (#5712)", "state": "closed", "merged": true, "merged_by": "quad341", "merged_at": "2026-09-15T04:18:12Z", "url": "https://github.com/gastownhall/gascity/pull/5757"},
@@ -53,8 +53,7 @@
     "5700": {"title": "fix(dashboardbff): unwrap the response writer before the Flusher check on run-detail stream", "state": "closed", "merged": true, "merged_by": "quad341", "merged_at": "2026-09-15T00:28:27Z", "url": "https://github.com/gastownhall/gascity/pull/5700"},
     "5364": {"title": "fix(nudge): re-validate mail nudges at delivery time too (#5321)", "state": "closed", "merged": true, "merged_by": "quad341", "merged_at": "2026-09-14T02:28:59Z", "url": "https://github.com/gastownhall/gascity/pull/5364"},
     "5614": {"title": "fix(events): truncate a NUL-padded tail left by an unclean shutdown (#5336)", "state": "closed", "merged": true, "merged_by": "quad341", "merged_at": "2026-09-13T06:34:34Z", "url": "https://github.com/gastownhall/gascity/pull/5614"},
-    "4547": {"title": "fix(cmd/gc): order dispatch searches all configured formula layers, not just the order's own (#4378)", "state": "closed", "merged": true, "merged_by": "quad341", "merged_at": "2026-09-13T02:20:39Z", "url": "https://github.com/gastownhall/gascity/pull/4547"},
-    "5617": {"title": "fix(tmux): don't clear-before-paste on an attached session (#5192)", "state": "closed", "merged": true, "merged_by": "quad341", "merged_at": "2026-09-10T22:50:06Z", "url": "https://github.com/gastownhall/gascity/pull/5617"}
+    "4547": {"title": "fix(cmd/gc): order dispatch searches all configured formula layers, not just the order's own (#4378)", "state": "closed", "merged": true, "merged_by": "quad341", "merged_at": "2026-09-13T02:20:39Z", "url": "https://github.com/gastownhall/gascity/pull/4547"}
   },
-  "last_checked_at": "2026-09-17T09:45:00Z"
+  "last_checked_at": "2026-09-17T09:56:00Z"
 }

@@ -45,7 +45,7 @@
   },
   "recently_closed_prs": {
     "5756": {"title": "fix(events): fail a short single-record write instead of counting it as written", "state": "closed", "merged": true, "merged_by": "quad341", "merged_at": "2026-09-17T09:14:26Z", "url": "https://github.com/gastownhall/gascity/pull/5756"},
-    "5812": {"title": "fix(session): fail loudly when waking a session whose rig is suspended (#5785)", "state": "closed", "merged": true, "merged_by": "quad341", "merged_at": "2026-09-16T03:04:09Z", "url": "https://github.com/gastownhall/gascity/pull/5812"},
+    "5812": {"title": "fix(session): fail loudly when waking a session whose rig is suspended (#5785)", "state": "closed", "merged": true, "merged_by": "quad341", "merged_at": "2026-09-16T03:04:07Z", "url": "https://github.com/gastownhall/gascity/pull/5812"},
     "5855": {"title": "fix(formula): tell review-quorum workers not to poison success closes with failure metadata (#5838)", "state": "closed", "merged": true, "merged_by": "quad341", "merged_at": "2026-09-15T17:02:58Z", "url": "https://github.com/gastownhall/gascity/pull/5855"},
     "5757": {"title": "fix(hook): read each ephemeral scan once per query, not once per identity (#5712)", "state": "closed", "merged": true, "merged_by": "quad341", "merged_at": "2026-09-15T04:18:12Z", "url": "https://github.com/gastownhall/gascity/pull/5757"},
     "5752": {"title": "fix(events): a wide --since window now truncates instead of failing with nothing", "state": "closed", "merged": true, "merged_by": "quad341", "merged_at": "2026-09-15T03:22:34Z", "url": "https://github.com/gastownhall/gascity/pull/5752"},
@@ -55,5 +55,5 @@
     "5614": {"title": "fix(events): truncate a NUL-padded tail left by an unclean shutdown (#5336)", "state": "closed", "merged": true, "merged_by": "quad341", "merged_at": "2026-09-13T06:34:34Z", "url": "https://github.com/gastownhall/gascity/pull/5614"},
     "4547": {"title": "fix(cmd/gc): order dispatch searches all configured formula layers, not just the order's own (#4378)", "state": "closed", "merged": true, "merged_by": "quad341", "merged_at": "2026-09-13T02:20:39Z", "url": "https://github.com/gastownhall/gascity/pull/4547"}
   },
-  "last_checked_at": "2026-09-17T15:46:54Z"
+  "last_checked_at": "2026-09-17T16:52:00Z"
 }

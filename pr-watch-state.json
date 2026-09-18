@@ -2,7 +2,7 @@
   "schema_version": 1,
   "repo": "gastownhall/gascity",
   "author": "rjgeng",
-  "last_checked_at": "2026-09-18T11:48:52Z",
+  "last_checked_at": "2026-09-18T13:10:00Z",
   "prs": {
     "4095": {"title": "fix(session): refresh reset_committed_at on every continuation-reset re-arm (#4067)", "state": "open", "merged": false, "mergeable_state": "blocked", "url": "https://github.com/gastownhall/gascity/pull/4095", "human_comment_authors": ["rjgeng"]},
     "4138": {"title": "fix(session): gc session attach waits for an in-flight controller reset instead of racing it (#4079)", "state": "open", "merged": false, "mergeable_state": "blocked", "url": "https://github.com/gastownhall/gascity/pull/4138", "human_comment_authors": []},
@@ -26,7 +26,7 @@
     "6057": {"title": "fix(processenv): error on unterminated quote in env file value (#6022)", "state": "open", "merged": false, "mergeable_state": "blocked", "url": "https://github.com/gastownhall/gascity/pull/6057", "human_comment_authors": []},
     "6059": {"title": "fix(cmd/gc): skip dispatch-held siblings in continuation pre-assignment (#6026)", "state": "open", "merged": false, "mergeable_state": "blocked", "url": "https://github.com/gastownhall/gascity/pull/6059", "human_comment_authors": []},
     "6062": {"title": "fix(cmd/gc): reopen-source also reopens tracking convoys (#6045)", "state": "open", "merged": false, "mergeable_state": "blocked", "url": "https://github.com/gastownhall/gascity/pull/6062", "human_comment_authors": []},
-    "6097": {"title": "fix(suspensionstate): serialize rig suspend/resume with a cross-process flock (#6056)", "state": "open", "merged": false, "mergeable_state": "dirty", "url": "https://github.com/gastownhall/gascity/pull/6097", "human_comment_authors": []},
+    "6097": {"title": "fix(suspensionstate): serialize rig suspend/resume with a cross-process flock (#6056)", "state": "open", "merged": false, "mergeable_state": "blocked", "url": "https://github.com/gastownhall/gascity/pull/6097", "human_comment_authors": []},
     "6163": {"title": "fix(workflow): read workflow descendants at TierBoth through the live handle (#6129)", "state": "open", "merged": false, "mergeable_state": "blocked", "url": "https://github.com/gastownhall/gascity/pull/6163", "human_comment_authors": ["A3Ackerman"]},
     "6165": {"title": "perf(cli): reuse the loaded city config on gc ready's store opens (#6132)", "state": "open", "merged": false, "mergeable_state": "blocked", "url": "https://github.com/gastownhall/gascity/pull/6165", "human_comment_authors": []},
     "6167": {"title": "fix(doctor): surface effective city suspension as a doctor check (#6126)", "state": "open", "merged": false, "mergeable_state": "blocked", "url": "https://github.com/gastownhall/gascity/pull/6167", "human_comment_authors": []},

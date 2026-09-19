@@ -2,7 +2,7 @@
   "schema_version": 1,
   "repo": "gastownhall/gascity",
   "author": "rjgeng",
-  "last_checked_at": "2026-09-19T02:46:46Z",
+  "last_checked_at": "2026-09-19T03:48:14Z",
   "prs": {
     "6411": {"title":"fix(ci): raise cmd-gc-productmetrics-testhook's timeout to fit the runner it actually gets","state":"open","merged":false,"mergeable_state":"blocked","url":"https://github.com/gastownhall/gascity/pull/6411","human_comment_authors":[]},
     "6410": {"title":"fix(pool): treat a live session's currently_processing_bead_id as first-party proof of ownership","state":"open","merged":false,"mergeable_state":"blocked","url":"https://github.com/gastownhall/gascity/pull/6410","human_comment_authors":[]},
@@ -39,9 +39,9 @@
     "5257": {"title":"fix(mail): add unread-mail TTL so never-read mail wisps age out (#5240)","state":"open","merged":false,"mergeable_state":"blocked","url":"https://github.com/gastownhall/gascity/pull/5257","human_comment_authors":["csauer02-personal-user","quad341"]},
     "4857": {"title":"fix(mail): authorize --from against the calling session's own identity (#4070)","state":"open","merged":false,"mergeable_state":"blocked","url":"https://github.com/gastownhall/gascity/pull/4857","human_comment_authors":["atbrace"]},
     "4584": {"title":"fix(sling): --nudge falls back to a running named session for instance-expandable agents (#3412)","state":"open","merged":false,"mergeable_state":"blocked","url":"https://github.com/gastownhall/gascity/pull/4584","human_comment_authors":["remuscazacu"]},
-    "4481": {"title":"fix(runtime): treat a gone session as drain-acked (#4448)","state":"open","merged":false,"mergeable_state":"blocked","url":"https://github.com/gastownhall/gascity/pull/4481","human_comment_authors":["rjgeng"]},
+    "4481": {"title":"fix(runtime): treat a gone session as drain-acked (#4448)","state":"open","merged":false,"mergeable_state":"blocked","url":"https://github.com/gastownhall/gascity/pull/4481","human_comment_authors":[]},
     "4138": {"title":"fix(session): gc session attach waits for an in-flight controller reset instead of racing it (#4079)","state":"open","merged":false,"mergeable_state":"blocked","url":"https://github.com/gastownhall/gascity/pull/4138","human_comment_authors":[]},
-    "4095": {"title":"fix(session): refresh reset_committed_at on every continuation-reset re-arm (#4067)","state":"open","merged":false,"mergeable_state":"blocked","url":"https://github.com/gastownhall/gascity/pull/4095","human_comment_authors":["rjgeng"]}
+    "4095": {"title":"fix(session): refresh reset_committed_at on every continuation-reset re-arm (#4067)","state":"open","merged":false,"mergeable_state":"blocked","url":"https://github.com/gastownhall/gascity/pull/4095","human_comment_authors":[]}
   },
   "recently_closed_prs": {
     "5913": {"title":"fix(supervisor): guard the supervisor socket path against Unix domain socket length limits (#5845)","state":"closed","merged":true,"merged_by":"quad341","merged_at":"2026-09-18T22:10:29Z","url":"https://github.com/gastownhall/gascity/pull/5913"},

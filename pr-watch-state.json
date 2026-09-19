@@ -2,7 +2,7 @@
   "schema_version": 1,
   "repo": "gastownhall/gascity",
   "author": "rjgeng",
-  "last_checked_at": "2026-09-19T08:44:15Z",
+  "last_checked_at": "2026-09-19T09:45:27Z",
   "prs": {
     "6411": {"title":"fix(ci): raise cmd-gc-productmetrics-testhook's timeout to fit the runner it actually gets","state":"open","merged":false,"mergeable_state":"blocked","url":"https://github.com/gastownhall/gascity/pull/6411","human_comment_authors":[]},
     "6410": {"title":"fix(pool): treat a live session's currently_processing_bead_id as first-party proof of ownership","state":"open","merged":false,"mergeable_state":"blocked","url":"https://github.com/gastownhall/gascity/pull/6410","human_comment_authors":[]},
@@ -35,7 +35,7 @@
     "5854": {"title":"chore(api): regenerate generated artifacts for a new GET /sessions ?enrich= query param","state":"open","merged":false,"mergeable_state":"blocked","url":"https://github.com/gastownhall/gascity/pull/5854","human_comment_authors":[]},
     "5365": {"title":"fix(supervisor): auto-unregister on repeated stale-config load failures (#5313)","state":"open","merged":false,"mergeable_state":"blocked","url":"https://github.com/gastownhall/gascity/pull/5365","human_comment_authors":[]},
     "5257": {"title":"fix(mail): add unread-mail TTL so never-read mail wisps age out (#5240)","state":"open","merged":false,"mergeable_state":"dirty","url":"https://github.com/gastownhall/gascity/pull/5257","human_comment_authors":["csauer02-personal-user","quad341"]},
-    "4857": {"title":"fix(mail): authorize --from against the calling session's own identity (#4070)","state":"open","merged":false,"mergeable_state":"blocked","url":"https://github.com/gastownhall/gascity/pull/4857","human_comment_authors":["atbrace"]},
+    "4857": {"title":"fix(mail): authorize --from against the calling session's own identity (#4070)","state":"open","merged":false,"mergeable_state":"blocked","url":"https://github.com/gastownhall/gascity/pull/4857","human_comment_authors":["atbrace","quad341"]},
     "4584": {"title":"fix(sling): --nudge falls back to a running named session for instance-expandable agents (#3412)","state":"open","merged":false,"mergeable_state":"blocked","url":"https://github.com/gastownhall/gascity/pull/4584","human_comment_authors":["remuscazacu"]},
     "4481": {"title":"fix(runtime): treat a gone session as drain-acked (#4448)","state":"open","merged":false,"mergeable_state":"blocked","url":"https://github.com/gastownhall/gascity/pull/4481","human_comment_authors":[]},
     "4138": {"title":"fix(session): gc session attach waits for an in-flight controller reset instead of racing it (#4079)","state":"open","merged":false,"mergeable_state":"blocked","url":"https://github.com/gastownhall/gascity/pull/4138","human_comment_authors":[]},

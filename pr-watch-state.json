@@ -2,7 +2,7 @@
   "schema_version": 1,
   "repo": "gastownhall/gascity",
   "author": "rjgeng",
-  "last_checked_at": "2026-09-19T14:45:42Z",
+  "last_checked_at": "2026-09-19T15:47:47Z",
   "prs": {
     "6411": {"title":"fix(ci): raise cmd-gc-productmetrics-testhook's timeout to fit the runner it actually gets","state":"open","merged":false,"mergeable_state":"blocked","url":"https://github.com/gastownhall/gascity/pull/6411","human_comment_authors":[]},
     "6410": {"title":"fix(pool): treat a live session's currently_processing_bead_id as first-party proof of ownership","state":"open","merged":false,"mergeable_state":"blocked","url":"https://github.com/gastownhall/gascity/pull/6410","human_comment_authors":[]},
@@ -31,7 +31,6 @@
     "6006": {"title":"fix(doctor): gc doctor --json's ok field reflects real blocking-failure state (#5950)","state":"open","merged":false,"mergeable_state":"blocked","url":"https://github.com/gastownhall/gascity/pull/6006","human_comment_authors":[]},
     "5977": {"title":"fix(tmux): detect Claude's bare-gerund spinner, fix submit-confirm baseline, surface two swallowed errors (#5954)","state":"open","merged":false,"mergeable_state":"dirty","url":"https://github.com/gastownhall/gascity/pull/5977","human_comment_authors":["sJohnsonStoever"]},
     "5972": {"title":"fix(worktree): gc worktree ensure now materializes skills when --agent is given (#5951)","state":"open","merged":false,"mergeable_state":"blocked","url":"https://github.com/gastownhall/gascity/pull/5972","human_comment_authors":["jacobhausler"]},
-    "5939": {"title":"fix(nudge): add a drop verb for stale pending nudges instead of requiring manual state.json surgery (#5816)","state":"open","merged":false,"mergeable_state":"blocked","url":"https://github.com/gastownhall/gascity/pull/5939","human_comment_authors":[]},
     "5854": {"title":"chore(api): regenerate generated artifacts for a new GET /sessions ?enrich= query param","state":"open","merged":false,"mergeable_state":"dirty","url":"https://github.com/gastownhall/gascity/pull/5854","human_comment_authors":[]},
     "5365": {"title":"fix(supervisor): auto-unregister on repeated stale-config load failures (#5313)","state":"open","merged":false,"mergeable_state":"blocked","url":"https://github.com/gastownhall/gascity/pull/5365","human_comment_authors":[]},
     "5257": {"title":"fix(mail): add unread-mail TTL so never-read mail wisps age out (#5240)","state":"open","merged":false,"mergeable_state":"dirty","url":"https://github.com/gastownhall/gascity/pull/5257","human_comment_authors":["csauer02-personal-user","quad341"]},
@@ -42,6 +41,7 @@
     "4095": {"title":"fix(session): refresh reset_committed_at on every continuation-reset re-arm (#4067)","state":"open","merged":false,"mergeable_state":"blocked","url":"https://github.com/gastownhall/gascity/pull/4095","human_comment_authors":[]}
   },
   "recently_closed_prs": {
+    "5939": {"title":"fix(nudge): add a drop verb for stale pending nudges instead of requiring manual state.json surgery (#5816)","state":"closed","merged":true,"merged_by":"quad341","merged_at":"2026-09-19T15:18:06Z","url":"https://github.com/gastownhall/gascity/pull/5939"},
     "5938": {"title":"fix(sessionlog): thread the transcript entry's own timestamp through to Fact.At instead of stamping now (#5825)","state":"closed","merged":true,"merged_by":"quad341","merged_at":"2026-09-19T07:20:46Z","url":"https://github.com/gastownhall/gascity/pull/5938"},
     "5933": {"title":"fix(mail): respect cfg.Mail.RetentionTTL in the nudge-mail sweep instead of a hardcoded 60m (#5877)","state":"closed","merged":true,"merged_by":"quad341","merged_at":"2026-09-19T05:15:43Z","url":"https://github.com/gastownhall/gascity/pull/5933"},
     "5913": {"title":"fix(supervisor): guard the supervisor socket path against Unix domain socket length limits (#5845)","state":"closed","merged":true,"merged_by":"quad341","merged_at":"2026-09-18T22:10:29Z","url":"https://github.com/gastownhall/gascity/pull/5913"},
@@ -50,7 +50,6 @@
     "5855": {"title":"fix(formula): tell review-quorum workers not to poison success closes with failure metadata (#5838)","state":"closed","merged":true,"merged_by":"quad341","merged_at":"2026-09-15T17:02:58Z","url":"https://github.com/gastownhall/gascity/pull/5855"},
     "5757": {"title":"fix(hook): read each ephemeral scan once per query, not once per identity (#5712)","state":"closed","merged":true,"merged_by":"quad341","merged_at":"2026-09-15T04:18:12Z","url":"https://github.com/gastownhall/gascity/pull/5757"},
     "5752": {"title":"fix(events): a wide --since window now truncates instead of failing with nothing","state":"closed","merged":true,"merged_by":"quad341","merged_at":"2026-09-15T03:22:34Z","url":"https://github.com/gastownhall/gascity/pull/5752"},
-    "5748": {"title":"fix(events): activeScanStart falls back to a full scan on a reversed-seq log (#5650)","state":"closed","merged":true,"merged_by":"quad341","merged_at":"2026-09-15T02:26:18Z","url":"https://github.com/gastownhall/gascity/pull/5748"},
-    "5700": {"title":"fix(dashboardbff): unwrap the response writer before the Flusher check on run-detail stream","state":"closed","merged":true,"merged_by":"quad341","merged_at":"2026-09-15T00:28:27Z","url":"https://github.com/gastownhall/gascity/pull/5700"}
+    "5748": {"title":"fix(events): activeScanStart falls back to a full scan on a reversed-seq log (#5650)","state":"closed","merged":true,"merged_by":"quad341","merged_at":"2026-09-15T02:26:18Z","url":"https://github.com/gastownhall/gascity/pull/5748"}
   }
 }

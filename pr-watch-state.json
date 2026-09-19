@@ -2,7 +2,7 @@
   "schema_version": 1,
   "repo": "gastownhall/gascity",
   "author": "rjgeng",
-  "last_checked_at": "2026-09-19T12:00:00Z",
+  "last_checked_at": "2026-09-19T12:48:31Z",
   "prs": {
     "6411": {"title":"fix(ci): raise cmd-gc-productmetrics-testhook's timeout to fit the runner it actually gets","state":"open","merged":false,"mergeable_state":"blocked","url":"https://github.com/gastownhall/gascity/pull/6411","human_comment_authors":[]},
     "6410": {"title":"fix(pool): treat a live session's currently_processing_bead_id as first-party proof of ownership","state":"open","merged":false,"mergeable_state":"blocked","url":"https://github.com/gastownhall/gascity/pull/6410","human_comment_authors":[]},

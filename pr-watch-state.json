@@ -2,7 +2,7 @@
   "schema_version": 1,
   "repo": "gastownhall/gascity",
   "author": "rjgeng",
-  "last_checked_at": "2026-09-22T03:45:00Z",
+  "last_checked_at": "2026-09-22T23:48:11Z",
   "prs": {
     "6512": {"title":"fix(dolt): unblock watchdog SIGKILL on Darwin","state":"open","merged":false,"mergeable_state":"blocked","url":"https://github.com/gastownhall/gascity/pull/6512","human_comment_authors":[]},
     "6411": {"title":"fix(ci): raise cmd-gc-productmetrics-testhook's timeout to fit the runner it actually gets","state":"open","merged":false,"mergeable_state":"blocked","url":"https://github.com/gastownhall/gascity/pull/6411","human_comment_authors":[]},
@@ -28,7 +28,7 @@
     "6053": {"title":"fix(core-pack): anchor worktree creation on $GC_DIR, not $(pwd) (#6014)","state":"open","merged":false,"mergeable_state":"blocked","url":"https://github.com/gastownhall/gascity/pull/6053","human_comment_authors":[]},
     "6043": {"title":"fix(processenv): keep valid secrets.env entries when one line is malformed (#5982)","state":"open","merged":false,"mergeable_state":"blocked","url":"https://github.com/gastownhall/gascity/pull/6043","human_comment_authors":[]},
     "6038": {"title":"fix(sling): skip a child bead the fresh check finds already terminal (#5927)","state":"open","merged":false,"mergeable_state":"blocked","url":"https://github.com/gastownhall/gascity/pull/6038","human_comment_authors":[]},
-    "6007": {"title":"fix(beads): consult native-open deferral before dialing the identity probe (#5965)","state":"open","merged":false,"mergeable_state":"blocked","url":"https://github.com/gastownhall/gascity/pull/6007","human_comment_authors":["A3Ackerman"]},
+    "6007": {"title":"fix(beads): consult native-open deferral before dialing the identity probe (#5965)","state":"open","merged":false,"mergeable_state":"blocked","url":"https://github.com/gastownhall/gascity/pull/6007","human_comment_authors":["A3Ackerman"],"last_notable_event":"baseline correction 2026-09-22: A3Ackerman's 2026-09-08 comment (cross-references a two-city measurement, composes with #6123) was missing from prior baseline; backfilled, not a new event"},
     "6006": {"title":"fix(doctor): gc doctor --json's ok field reflects real blocking-failure state (#5950)","state":"open","merged":false,"mergeable_state":"blocked","url":"https://github.com/gastownhall/gascity/pull/6006","human_comment_authors":[]},
     "5977": {"title":"fix(tmux): detect Claude's bare-gerund spinner, fix submit-confirm baseline, surface two swallowed errors (#5954)","state":"open","merged":false,"mergeable_state":"blocked","url":"https://github.com/gastownhall/gascity/pull/5977","human_comment_authors":["sJohnsonStoever"]},
     "5972": {"title":"fix(worktree): gc worktree ensure now materializes skills when --agent is given (#5951)","state":"open","merged":false,"mergeable_state":"blocked","url":"https://github.com/gastownhall/gascity/pull/5972","human_comment_authors":["jacobhausler"]},

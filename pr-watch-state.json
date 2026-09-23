@@ -2,10 +2,10 @@
   "schema_version": 1,
   "repo": "gastownhall/gascity",
   "author": "rjgeng",
-  "last_checked_at": "2026-09-23T07:44:37Z",
+  "last_checked_at": "2026-09-23T08:46:54Z",
   "prs": {
     "6512": {"title":"fix(dolt): unblock watchdog SIGKILL on Darwin","state":"open","merged":false,"mergeable_state":"blocked","url":"https://github.com/gastownhall/gascity/pull/6512","human_comment_authors":[]},
-    "6411": {"title":"fix(ci): raise cmd-gc-productmetrics-testhook's timeout to fit the runner it actually gets","state":"open","merged":false,"mergeable_state":"blocked","url":"https://github.com/gastownhall/gascity/pull/6411","human_comment_authors":["julianknutsen"],"last_notable_event":"julianknutsen (collaborator) commented 2026-09-23T02:52:43Z that the PR was added to the review queue (factory.gascity.com run link) — queued for review, no actual review/approval yet."},
+    "6411": {"title":"fix(ci): raise cmd-gc-productmetrics-testhook's timeout to fit the runner it actually gets","state":"open","merged":false,"mergeable_state":"blocked","url":"https://github.com/gastownhall/gascity/pull/6411","human_comment_authors":["julianknutsen"],"last_notable_event":"julianknutsen (collaborator) commented 2026-09-23T02:52:43Z that the PR was added to the review queue (factory.gascity.com run link) — queued for review, no actual review/approval yet. julianknutsen also pushed a maintainer review-fixup commit (comment-only doc corrections) at 2026-09-23T06:42:17Z. No new comment/review since; the head's updated_at bumped to 08:37:19Z but no additional human-visible event was found beyond what's recorded here."},
     "6410": {"title":"fix(pool): treat a live session's currently_processing_bead_id as first-party proof of ownership","state":"open","merged":false,"mergeable_state":"blocked","url":"https://github.com/gastownhall/gascity/pull/6410","human_comment_authors":[]},
     "6397": {"title":"fix(nudge): probe controller liveness before suppressing the per-session nudge poller","state":"open","merged":false,"mergeable_state":"blocked","url":"https://github.com/gastownhall/gascity/pull/6397","human_comment_authors":[]},
     "6366": {"title":"fix(nudge): derive the CLI's session-class store from the city's work store at every call site","state":"open","merged":false,"mergeable_state":"blocked","url":"https://github.com/gastownhall/gascity/pull/6366","human_comment_authors":[]},

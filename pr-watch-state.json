@@ -2,7 +2,7 @@
   "schema_version": 1,
   "repo": "gastownhall/gascity",
   "author": "rjgeng",
-  "last_checked_at": "2026-09-23T19:48:33Z",
+  "last_checked_at": "2026-09-23T20:48:43Z",
   "prs": {
     "6512": {
       "title": "fix(dolt): unblock watchdog SIGKILL on Darwin",

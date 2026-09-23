@@ -2,11 +2,11 @@
   "schema_version": 1,
   "repo": "gastownhall/gascity",
   "author": "rjgeng",
-  "last_checked_at": "2026-09-23T11:50:00Z",
+  "last_checked_at": "2026-09-23T12:15:00Z",
   "prs": {
     "6512": {"title":"fix(dolt): unblock watchdog SIGKILL on Darwin","state":"open","merged":false,"mergeable_state":"blocked","url":"https://github.com/gastownhall/gascity/pull/6512","human_comment_authors":[]},
     "6410": {"title":"fix(pool): treat a live session's currently_processing_bead_id as first-party proof of ownership","state":"open","merged":false,"mergeable_state":"blocked","url":"https://github.com/gastownhall/gascity/pull/6410","human_comment_authors":[]},
-    "6397": {"title":"fix(nudge): probe controller liveness before suppressing the per-session nudge poller","state":"open","merged":false,"mergeable_state":"blocked","url":"https://github.com/gastownhall/gascity/pull/6397","human_comment_authors":[],"last_notable_event":"rjgeng (author) commented 2026-09-21T11:29:32Z asking a maintainer to rerun a flaky CI shard. Not a human-reviewer event (author's own comment). No response yet as of this check."},
+    "6397": {"title":"fix(nudge): probe controller liveness before suppressing the per-session nudge poller","state":"open","merged":false,"mergeable_state":"blocked","url":"https://github.com/gastownhall/gascity/pull/6397","human_comment_authors":[],"last_notable_event":"rjgeng (author) commented 2026-09-21T11:29:32Z asking a maintainer to rerun a flaky CI shard. Not a human-reviewer event (author's own comment). Still no response as of this check."},
     "6366": {"title":"fix(nudge): derive the CLI's session-class store from the city's work store at every call site","state":"open","merged":false,"mergeable_state":"blocked","url":"https://github.com/gastownhall/gascity/pull/6366","human_comment_authors":[]},
     "6365": {"title":"fix(handoff): give PreCompact its own flat systemMessage shape under --hook-format codex","state":"open","merged":false,"mergeable_state":"blocked","url":"https://github.com/gastownhall/gascity/pull/6365","human_comment_authors":[]},
     "6364": {"title":"fix(config): let a template opt a cold pool out of the wake-probe's clamped-1 override (Agent.ColdWake)","state":"open","merged":false,"mergeable_state":"dirty","url":"https://github.com/gastownhall/gascity/pull/6364","human_comment_authors":[],"last_notable_event":"mergeable_state has been dirty (merge conflict with base) since at least 2026-09-23T09:46:40Z, unchanged as of this check. Not a reportable improvement (still not mergeable)."},

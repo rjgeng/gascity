@@ -2,7 +2,7 @@
   "schema_version": 1,
   "repo": "gastownhall/gascity",
   "author": "rjgeng",
-  "last_checked_at": "2026-09-23T04:49:01Z",
+  "last_checked_at": "2026-09-23T05:45:20Z",
   "prs": {
     "6512": {"title":"fix(dolt): unblock watchdog SIGKILL on Darwin","state":"open","merged":false,"mergeable_state":"blocked","url":"https://github.com/gastownhall/gascity/pull/6512","human_comment_authors":[]},
     "6411": {"title":"fix(ci): raise cmd-gc-productmetrics-testhook's timeout to fit the runner it actually gets","state":"open","merged":false,"mergeable_state":"blocked","url":"https://github.com/gastownhall/gascity/pull/6411","human_comment_authors":["julianknutsen"],"last_notable_event":"julianknutsen (collaborator) commented 2026-09-23T02:52:43Z that the PR was added to the review queue (factory.gascity.com run link) — queued for review, no actual review/approval yet."},

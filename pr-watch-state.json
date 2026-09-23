@@ -2,7 +2,7 @@
   "schema_version": 1,
   "repo": "gastownhall/gascity",
   "author": "rjgeng",
-  "last_checked_at": "2026-09-23T16:45:21Z",
+  "last_checked_at": "2026-09-23T20:30:00Z",
   "prs": {
     "6512": {
       "title": "fix(dolt): unblock watchdog SIGKILL on Darwin",
@@ -27,7 +27,7 @@
       "mergeable_state": "dirty",
       "url": "https://github.com/gastownhall/gascity/pull/6397",
       "human_comment_authors": [],
-      "last_notable_event": "mergeable_state remains dirty (merge conflict with base) as of this check, unchanged since prior check at 2026-09-23T15:00Z. No human comment/review."
+      "last_notable_event": "mergeable_state remains dirty (merge conflict with base), unchanged since baseline. The only PR-side comment is rjgeng's own (2026-09-21) asking a maintainer to rerun an unrelated CI flake; no third-party human comment/review."
     },
     "6366": {
       "title": "fix(nudge): derive the CLI's session-class store from the city's work store at every call site",
@@ -143,7 +143,7 @@
       "mergeable_state": "dirty",
       "url": "https://github.com/gastownhall/gascity/pull/6097",
       "human_comment_authors": [],
-      "last_notable_event": "mergeable_state remains dirty (merge conflict with base), unchanged since prior check at 2026-09-23T15:00Z."
+      "last_notable_event": "mergeable_state remains dirty (merge conflict with base), unchanged since baseline. No human comment/review."
     },
     "6062": {
       "title": "fix(cmd/gc): reopen-source also reopens tracking convoys (#6045)",
@@ -219,7 +219,8 @@
       "url": "https://github.com/gastownhall/gascity/pull/5977",
       "human_comment_authors": [
         "sJohnsonStoever"
-      ]
+      ],
+      "last_notable_event": "sJohnsonStoever's technical follow-up (2026-09-15) on Claude Code 2.1.27x spinner behavior predates this check and needs no new action; no activity since."
     },
     "5972": {
       "title": "fix(worktree): gc worktree ensure now materializes skills when --agent is given (#5951)",
@@ -258,7 +259,7 @@
         "csauer02-personal-user",
         "quad341"
       ],
-      "last_notable_event": "quad341 (collaborator) commented 2026-09-13T16:05:18Z: decided to keep the sweep but make it optin/off-by-default, with a specific implementation checklist, and noted a benign rebase (pull first, merges cleanly). No response from rjgeng yet as of this check. No new activity since."
+      "last_notable_event": "quad341 (collaborator) commented 2026-09-13T16:05:18Z: decided to keep the sweep but make it opt-in/off-by-default, with a specific implementation checklist, and noted a benign rebase (pull first, merges cleanly). No response from rjgeng yet as of this check. No new activity since."
     },
     "4857": {
       "title": "fix(mail): authorize --from against the calling session's own identity (#4070)",
@@ -270,7 +271,7 @@
         "atbrace",
         "quad341"
       ],
-      "last_notable_event": "quad341's APPROVED review (2026-09-19T08:56) remains DISMISSED (head moved). atbrace posted a stricter follow-up patch stack on 2026-09-18/09-19 (stop exempting human/controller reserved senders too); rjgeng accepted it 2026-09-20 and pushed the hardened version 2026-09-21, then asked quad341 for a fresh look (self-comment) - still unanswered as of this check. No new reviewer beyond atbrace/quad341."
+      "last_notable_event": "quad341's APPROVED review (2026-09-19T08:56) remains DISMISSED (head moved). atbrace posted a stricter follow-up patch stack on 2026-09-18/09-19 (stop exempting human/controller reserved senders too); rjgeng accepted it 2026-09-20 and pushed the hardened version 2026-09-21, then asked quad341 for a fresh look (self-comment) - still unanswered as of this check. No new reviewer beyond atbrace/quad341, and no new activity since the prior check."
     },
     "4584": {
       "title": "fix(sling): --nudge falls back to a running named session for instance-expandable agents (#3412)",

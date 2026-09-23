@@ -2,7 +2,7 @@
   "schema_version": 1,
   "repo": "gastownhall/gascity",
   "author": "rjgeng",
-  "last_checked_at": "2026-09-23T15:00:00Z",
+  "last_checked_at": "2026-09-23T16:45:21Z",
   "prs": {
     "6512": {
       "title": "fix(dolt): unblock watchdog SIGKILL on Darwin",
@@ -27,7 +27,7 @@
       "mergeable_state": "dirty",
       "url": "https://github.com/gastownhall/gascity/pull/6397",
       "human_comment_authors": [],
-      "last_notable_event": "mergeable_state moved blocked->dirty (merge conflict with base) between 2026-09-23T13:00Z and this check. No human comment/review since rjgeng's own 2026-09-21T11:29:32Z ask for a CI rerun."
+      "last_notable_event": "mergeable_state remains dirty (merge conflict with base) as of this check, unchanged since prior check at 2026-09-23T15:00Z. No human comment/review."
     },
     "6366": {
       "title": "fix(nudge): derive the CLI's session-class store from the city's work store at every call site",
@@ -52,7 +52,7 @@
       "mergeable_state": "dirty",
       "url": "https://github.com/gastownhall/gascity/pull/6364",
       "human_comment_authors": [],
-      "last_notable_event": "mergeable_state has been dirty (merge conflict with base) since at least 2026-09-23T09:46:40Z, unchanged as of this check. Not a reportable improvement (still not mergeable)."
+      "last_notable_event": "mergeable_state remains dirty (merge conflict with base), unchanged since at least 2026-09-23T09:46:40Z. Not a reportable improvement (still not mergeable)."
     },
     "6340": {
       "title": "fix(convoy): order the workflow root last in delete-sweep so an interrupted delete never leaves it closed with open descendants",
@@ -143,7 +143,7 @@
       "mergeable_state": "dirty",
       "url": "https://github.com/gastownhall/gascity/pull/6097",
       "human_comment_authors": [],
-      "last_notable_event": "mergeable_state moved blocked->dirty (merge conflict with base) between 2026-09-23T13:00Z and this check."
+      "last_notable_event": "mergeable_state remains dirty (merge conflict with base), unchanged since prior check at 2026-09-23T15:00Z."
     },
     "6062": {
       "title": "fix(cmd/gc): reopen-source also reopens tracking convoys (#6045)",
@@ -238,7 +238,7 @@
       "mergeable_state": "dirty",
       "url": "https://github.com/gastownhall/gascity/pull/5854",
       "human_comment_authors": [],
-      "last_notable_event": "mergeable_state has been dirty (merge conflict with base) since at least 2026-09-23T09:46:40Z, unchanged as of this check. Not a reportable improvement (still not mergeable)."
+      "last_notable_event": "mergeable_state remains dirty (merge conflict with base), unchanged since at least 2026-09-23T09:46:40Z. Not a reportable improvement (still not mergeable)."
     },
     "5365": {
       "title": "fix(supervisor): auto-unregister on repeated stale-config load failures (#5313)",

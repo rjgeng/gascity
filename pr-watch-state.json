@@ -2,7 +2,7 @@
   "schema_version": 1,
   "repo": "gastownhall/gascity",
   "author": "rjgeng",
-  "last_checked_at": "2026-09-24T07:15:00Z",
+  "last_checked_at": "2026-09-24T07:46:10Z",
   "prs": {
     "6512": {
       "title": "fix(dolt): unblock watchdog SIGKILL on Darwin",
@@ -161,15 +161,6 @@
       "url": "https://github.com/gastownhall/gascity/pull/6059",
       "human_comment_authors": []
     },
-    "6057": {
-      "title": "fix(processenv): error on unterminated quote in env file value (#6022)",
-      "state": "open",
-      "merged": false,
-      "mergeable_state": "blocked",
-      "url": "https://github.com/gastownhall/gascity/pull/6057",
-      "human_comment_authors": [],
-      "last_notable_event": "Maintainer Julian Knutsen reworked #6022's fix directly on #6043 instead, and #6043's body/commits now explicitly say 'Supersedes #6057'. Reported 2026-09-24; #6057 itself has no new comments/reviews."
-    },
     "6053": {
       "title": "fix(core-pack): anchor worktree creation on $GC_DIR, not $(pwd) (#6014)",
       "state": "open",
@@ -185,7 +176,7 @@
       "mergeable_state": "blocked",
       "url": "https://github.com/gastownhall/gascity/pull/6043",
       "human_comment_authors": [],
-      "last_notable_event": "REPORTED 2026-09-24: maintainer Julian Knutsen pushed 2 commits directly onto rjgeng's branch (merged origin/main, reworked to also fix #6022, plus a review-follow-up commit) between 05:32 and 06:39 UTC. PR now says it fixes #5982+#6022 and supersedes #6057. No new comments/reviews; mergeable_state still blocked."
+      "last_notable_event": "Maintainer Julian Knutsen reworked #6022's fix directly on #6043 (merged origin/main, reworked to also fix #6022, plus a review-follow-up commit); PR now says it fixes #5982+#6022 and supersedes #6057. As of 2026-09-24T07:46Z: still no new PR comments/reviews beyond the original bot triage; #6057 has now been closed in its favor (see recently_closed_prs)."
     },
     "6038": {
       "title": "fix(sling): skip a child bead the fresh check finds already terminal (#5927)",
@@ -314,6 +305,15 @@
     }
   },
   "recently_closed_prs": {
+    "6057": {
+      "title": "fix(processenv): error on unterminated quote in env file value (#6022)",
+      "state": "closed",
+      "merged": false,
+      "closed_by": "julianknutsen",
+      "closed_at": "2026-09-24T07:45:21Z",
+      "url": "https://github.com/gastownhall/gascity/pull/6057",
+      "note": "Closed (not merged) by maintainer Julian Knutsen in favor of #6043, which absorbed this PR's unterminated-quote detection as its starting point."
+    },
     "6411": {
       "title": "fix(ci): raise cmd-gc-productmetrics-testhook's timeout to fit the runner it actually gets",
       "state": "closed",

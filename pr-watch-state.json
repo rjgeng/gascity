@@ -2,7 +2,7 @@
   "schema_version": 1,
   "repo": "gastownhall/gascity",
   "author": "rjgeng",
-  "last_checked_at": "2026-09-24T13:48:42Z",
+  "last_checked_at": "2026-09-24T14:44:51Z",
   "prs": {
     "6566": {
       "title": "test(bazel): declare hermetic source guard runfiles",

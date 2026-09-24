@@ -2,7 +2,7 @@
   "schema_version": 1,
   "repo": "gastownhall/gascity",
   "author": "rjgeng",
-  "last_checked_at": "2026-09-24T07:46:10Z",
+  "last_checked_at": "2026-09-24T08:00:00Z",
   "prs": {
     "6512": {
       "title": "fix(dolt): unblock watchdog SIGKILL on Darwin",
@@ -169,15 +169,6 @@
       "url": "https://github.com/gastownhall/gascity/pull/6053",
       "human_comment_authors": []
     },
-    "6043": {
-      "title": "fix(processenv): partial secrets.env parse, skip multi-line quoted blocks, redact parse errors (#5982, #6022)",
-      "state": "open",
-      "merged": false,
-      "mergeable_state": "blocked",
-      "url": "https://github.com/gastownhall/gascity/pull/6043",
-      "human_comment_authors": [],
-      "last_notable_event": "Maintainer Julian Knutsen reworked #6022's fix directly on #6043 (merged origin/main, reworked to also fix #6022, plus a review-follow-up commit); PR now says it fixes #5982+#6022 and supersedes #6057. As of 2026-09-24T07:46Z: still no new PR comments/reviews beyond the original bot triage; #6057 has now been closed in its favor (see recently_closed_prs)."
-    },
     "6038": {
       "title": "fix(sling): skip a child bead the fresh check finds already terminal (#5927)",
       "state": "open",
@@ -305,6 +296,15 @@
     }
   },
   "recently_closed_prs": {
+    "6043": {
+      "title": "fix(processenv): partial secrets.env parse, skip multi-line quoted blocks, redact parse errors (#5982, #6022)",
+      "state": "closed",
+      "merged": true,
+      "merged_by": "julianknutsen",
+      "merged_at": "2026-09-24T07:45:12Z",
+      "url": "https://github.com/gastownhall/gascity/pull/6043",
+      "note": "Baseline written at 2026-09-24T07:46:10Z had lagged and still showed this PR as open ~1 minute after it actually merged; this run's live re-check caught and reported the merge. Fixes #5982 and #6022; superseded #6057 (already closed in its favor)."
+    },
     "6057": {
       "title": "fix(processenv): error on unterminated quote in env file value (#6022)",
       "state": "closed",
@@ -377,14 +377,6 @@
       "merged_by": "quad341",
       "merged_at": "2026-09-15T03:22:34Z",
       "url": "https://github.com/gastownhall/gascity/pull/5752"
-    },
-    "5748": {
-      "title": "fix(events): activeScanStart falls back to a full scan on a reversed-seq log (#5650)",
-      "state": "closed",
-      "merged": true,
-      "merged_by": "quad341",
-      "merged_at": "2026-09-15T02:26:18Z",
-      "url": "https://github.com/gastownhall/gascity/pull/5748"
     }
   }
 }

@@ -2,8 +2,17 @@
   "schema_version": 1,
   "repo": "gastownhall/gascity",
   "author": "rjgeng",
-  "last_checked_at": "2026-09-24T11:15:00Z",
+  "last_checked_at": "2026-09-24T11:48:23Z",
   "prs": {
+    "6566": {
+      "title": "test(bazel): declare hermetic source guard runfiles",
+      "state": "open",
+      "merged": false,
+      "mergeable_state": "blocked",
+      "url": "https://github.com/gastownhall/gascity/pull/6566",
+      "human_comment_authors": [],
+      "last_notable_event": "First sighting on 2026-09-24T11:48Z run: bot-only touch, blocked gate — the expected default, not news."
+    },
     "6512": {
       "title": "fix(dolt): unblock watchdog SIGKILL on Darwin",
       "state": "open",
@@ -27,7 +36,7 @@
       "mergeable_state": "blocked",
       "url": "https://github.com/gastownhall/gascity/pull/6397",
       "human_comment_authors": [],
-      "last_notable_event": "mergeable_state moved dirty->blocked (not a resolution, still blocked); only non-bot comment remains rjgeng's own CI-flake note."
+      "last_notable_event": "rjgeng (author, self-comment) 2026-09-24T11:26:14Z: Bazel failure is unrelated to this PR, shared fix is #6566; not a third-party signal."
     },
     "6366": {
       "title": "fix(nudge): derive the CLI's session-class store from the city's work store at every call site",
@@ -49,10 +58,10 @@
       "title": "fix(config): let a template opt a cold pool out of the wake-probe's clamped-1 override (Agent.ColdWake)",
       "state": "open",
       "merged": false,
-      "mergeable_state": "dirty",
+      "mergeable_state": "blocked",
       "url": "https://github.com/gastownhall/gascity/pull/6364",
       "human_comment_authors": [],
-      "last_notable_event": "Dirty/merge conflict, unchanged."
+      "last_notable_event": "mergeable_state moved dirty->blocked (still not mergeable, not a resolution)."
     },
     "6340": {
       "title": "fix(convoy): order the workflow root last in delete-sweep so an interrupted delete never leaves it closed with open descendants",
@@ -82,9 +91,10 @@
       "title": "fix(tmux): corroborate ListRunning's ServerAbsent with a socket observation",
       "state": "open",
       "merged": false,
-      "mergeable_state": "dirty",
+      "mergeable_state": "blocked",
       "url": "https://github.com/gastownhall/gascity/pull/6326",
-      "human_comment_authors": []
+      "human_comment_authors": [],
+      "last_notable_event": "mergeable_state moved dirty->blocked (still not mergeable, not a resolution)."
     },
     "6325": {
       "title": "fix(worktree): stop TestManagedDryRunDoesNotPublishProvenance flaking on transient git lock files",

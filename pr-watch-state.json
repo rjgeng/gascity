@@ -2,7 +2,7 @@
   "schema_version": 1,
   "repo": "gastownhall/gascity",
   "author": "rjgeng",
-  "last_checked_at": "2026-09-24T05:47:36Z",
+  "last_checked_at": "2026-09-24T07:15:00Z",
   "prs": {
     "6512": {
       "title": "fix(dolt): unblock watchdog SIGKILL on Darwin",
@@ -167,7 +167,8 @@
       "merged": false,
       "mergeable_state": "blocked",
       "url": "https://github.com/gastownhall/gascity/pull/6057",
-      "human_comment_authors": []
+      "human_comment_authors": [],
+      "last_notable_event": "Maintainer Julian Knutsen reworked #6022's fix directly on #6043 instead, and #6043's body/commits now explicitly say 'Supersedes #6057'. Reported 2026-09-24; #6057 itself has no new comments/reviews."
     },
     "6053": {
       "title": "fix(core-pack): anchor worktree creation on $GC_DIR, not $(pwd) (#6014)",
@@ -178,12 +179,13 @@
       "human_comment_authors": []
     },
     "6043": {
-      "title": "fix(processenv): keep valid secrets.env entries when one line is malformed (#5982)",
+      "title": "fix(processenv): partial secrets.env parse, skip multi-line quoted blocks, redact parse errors (#5982, #6022)",
       "state": "open",
       "merged": false,
       "mergeable_state": "blocked",
       "url": "https://github.com/gastownhall/gascity/pull/6043",
-      "human_comment_authors": []
+      "human_comment_authors": [],
+      "last_notable_event": "REPORTED 2026-09-24: maintainer Julian Knutsen pushed 2 commits directly onto rjgeng's branch (merged origin/main, reworked to also fix #6022, plus a review-follow-up commit) between 05:32 and 06:39 UTC. PR now says it fixes #5982+#6022 and supersedes #6057. No new comments/reviews; mergeable_state still blocked."
     },
     "6038": {
       "title": "fix(sling): skip a child bead the fresh check finds already terminal (#5927)",

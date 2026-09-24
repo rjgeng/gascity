@@ -2,7 +2,7 @@
   "schema_version": 1,
   "repo": "gastownhall/gascity",
   "author": "rjgeng",
-  "last_checked_at": "2026-09-24T08:00:00Z",
+  "last_checked_at": "2026-09-24T09:15:00Z",
   "prs": {
     "6512": {
       "title": "fix(dolt): unblock watchdog SIGKILL on Darwin",
@@ -256,7 +256,7 @@
         "atbrace",
         "quad341"
       ],
-      "last_notable_event": "quad341's approval was dismissed on head move; atbrace's follow-up patch stack (2026-09-18/19) accepted by rjgeng; rjgeng asked quad341 for a fresh look on 2026-09-21 — still unanswered."
+      "last_notable_event": "quad341's approval was dismissed on head move; atbrace's follow-up patch stack (2026-09-18/19) accepted by rjgeng; rjgeng asked quad341 for a fresh look on 2026-09-21 — still unanswered (confirmed still unanswered as of this check)."
     },
     "4584": {
       "title": "fix(sling): --nudge falls back to a running named session for instance-expandable agents (#3412)",

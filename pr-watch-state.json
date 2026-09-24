@@ -2,7 +2,7 @@
   "schema_version": 1,
   "repo": "gastownhall/gascity",
   "author": "rjgeng",
-  "last_checked_at": "2026-09-24T14:44:51Z",
+  "last_checked_at": "2026-09-24T15:45:03Z",
   "prs": {
     "6566": {
       "title": "test(bazel): declare hermetic source guard runfiles",
@@ -59,8 +59,7 @@
       "merged": false,
       "mergeable_state": "blocked",
       "url": "https://github.com/gastownhall/gascity/pull/6364",
-      "human_comment_authors": [],
-      "last_notable_event": "mergeable_state moved dirty->blocked (still not mergeable, not a resolution)."
+      "human_comment_authors": []
     },
     "6340": {
       "title": "fix(convoy): order the workflow root last in delete-sweep so an interrupted delete never leaves it closed with open descendants",
@@ -92,8 +91,7 @@
       "merged": false,
       "mergeable_state": "blocked",
       "url": "https://github.com/gastownhall/gascity/pull/6326",
-      "human_comment_authors": [],
-      "last_notable_event": "mergeable_state moved dirty->blocked (still not mergeable, not a resolution)."
+      "human_comment_authors": []
     },
     "6325": {
       "title": "fix(worktree): stop TestManagedDryRunDoesNotPublishProvenance flaking on transient git lock files",
@@ -206,7 +204,7 @@
       "human_comment_authors": [
         "sJohnsonStoever"
       ],
-      "last_notable_event": "mergeable_state moved dirty->blocked (still not mergeable, not a resolution); sJohnsonStoever's 2026-09-15 comment (already known) — no new activity."
+      "last_notable_event": "sJohnsonStoever's 2026-09-15 comment (already known) — no new activity."
     },
     "5972": {
       "title": "fix(worktree): gc worktree ensure now materializes skills when --agent is given (#5951)",

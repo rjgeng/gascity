@@ -2,7 +2,7 @@
   "schema_version": 1,
   "repo": "gastownhall/gascity",
   "author": "rjgeng",
-  "last_checked_at": "2026-09-24T09:15:00Z",
+  "last_checked_at": "2026-09-24T11:15:00Z",
   "prs": {
     "6512": {
       "title": "fix(dolt): unblock watchdog SIGKILL on Darwin",
@@ -24,10 +24,10 @@
       "title": "fix(nudge): probe controller liveness before suppressing the per-session nudge poller",
       "state": "open",
       "merged": false,
-      "mergeable_state": "dirty",
+      "mergeable_state": "blocked",
       "url": "https://github.com/gastownhall/gascity/pull/6397",
       "human_comment_authors": [],
-      "last_notable_event": "Dirty due to merge conflict, unchanged; only non-bot comment is rjgeng's own CI-flake note (asking a maintainer to rerun failed jobs)."
+      "last_notable_event": "mergeable_state moved dirty->blocked (not a resolution, still blocked); only non-bot comment remains rjgeng's own CI-flake note."
     },
     "6366": {
       "title": "fix(nudge): derive the CLI's session-class store from the city's work store at every call site",
@@ -116,14 +116,6 @@
       "merged": false,
       "mergeable_state": "blocked",
       "url": "https://github.com/gastownhall/gascity/pull/6167",
-      "human_comment_authors": []
-    },
-    "6165": {
-      "title": "perf(cli): reuse the loaded city config on gc ready's store opens (#6132)",
-      "state": "open",
-      "merged": false,
-      "mergeable_state": "dirty",
-      "url": "https://github.com/gastownhall/gascity/pull/6165",
       "human_comment_authors": []
     },
     "6163": {
@@ -256,7 +248,7 @@
         "atbrace",
         "quad341"
       ],
-      "last_notable_event": "quad341's approval was dismissed on head move; atbrace's follow-up patch stack (2026-09-18/19) accepted by rjgeng; rjgeng asked quad341 for a fresh look on 2026-09-21 — still unanswered (confirmed still unanswered as of this check)."
+      "last_notable_event": "quad341's approval was dismissed on head move; atbrace's follow-up patch stack (2026-09-18/19) accepted by rjgeng; rjgeng asked quad341 for a fresh look on 2026-09-21 — still unanswered."
     },
     "4584": {
       "title": "fix(sling): --nudge falls back to a running named session for instance-expandable agents (#3412)",
@@ -296,6 +288,15 @@
     }
   },
   "recently_closed_prs": {
+    "6165": {
+      "title": "perf(cli): reuse the loaded city config on gc ready's store opens (#6132)",
+      "state": "closed",
+      "merged": false,
+      "closed_by": "rjgeng",
+      "closed_at": "2026-09-24T10:12:31Z",
+      "url": "https://github.com/gastownhall/gascity/pull/6165",
+      "note": "Self-closed by rjgeng: superseded by merged #6536, which implements the same config-reuse optimization across one-shot paths while preserving reload-per-open freshness on controller/supervisor paths."
+    },
     "6043": {
       "title": "fix(processenv): partial secrets.env parse, skip multi-line quoted blocks, redact parse errors (#5982, #6022)",
       "state": "closed",
@@ -303,7 +304,7 @@
       "merged_by": "julianknutsen",
       "merged_at": "2026-09-24T07:45:12Z",
       "url": "https://github.com/gastownhall/gascity/pull/6043",
-      "note": "Baseline written at 2026-09-24T07:46:10Z had lagged and still showed this PR as open ~1 minute after it actually merged; this run's live re-check caught and reported the merge. Fixes #5982 and #6022; superseded #6057 (already closed in its favor)."
+      "note": "Fixes #5982 and #6022; superseded #6057 (already closed in its favor)."
     },
     "6057": {
       "title": "fix(processenv): error on unterminated quote in env file value (#6022)",
@@ -369,14 +370,6 @@
       "merged_by": "quad341",
       "merged_at": "2026-09-15T04:18:12Z",
       "url": "https://github.com/gastownhall/gascity/pull/5757"
-    },
-    "5752": {
-      "title": "fix(events): a wide --since window now truncates instead of failing with nothing",
-      "state": "closed",
-      "merged": true,
-      "merged_by": "quad341",
-      "merged_at": "2026-09-15T03:22:34Z",
-      "url": "https://github.com/gastownhall/gascity/pull/5752"
     }
   }
 }

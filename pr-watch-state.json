@@ -2,7 +2,7 @@
   "schema_version": 1,
   "repo": "gastownhall/gascity",
   "author": "rjgeng",
-  "last_checked_at": "2026-09-25T15:49:13Z",
+  "last_checked_at": "2026-09-25T16:45:00Z",
   "prs": {
     "4095": {
       "title": "fix(session): refresh reset_committed_at on every continuation-reset re-arm (#4067)",
@@ -77,7 +77,7 @@
       "title": "chore(api): regenerate generated artifacts for a new GET /sessions ?enrich= query param",
       "state": "open",
       "merged": false,
-      "mergeable_state": "dirty",
+      "mergeable_state": "blocked",
       "url": "https://github.com/gastownhall/gascity/pull/5854",
       "human_comment_authors": []
     },

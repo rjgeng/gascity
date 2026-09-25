@@ -2,7 +2,7 @@
   "schema_version": 1,
   "repo": "gastownhall/gascity",
   "author": "rjgeng",
-  "last_checked_at": "2026-09-25T16:45:00Z",
+  "last_checked_at": "2026-09-25T17:48:18Z",
   "prs": {
     "4095": {
       "title": "fix(session): refresh reset_committed_at on every continuation-reset re-arm (#4067)",
@@ -10,9 +10,7 @@
       "merged": false,
       "mergeable_state": "blocked",
       "url": "https://github.com/gastownhall/gascity/pull/4095",
-      "human_comment_authors": [
-        "rjgeng"
-      ]
+      "human_comment_authors": ["rjgeng"]
     },
     "4138": {
       "title": "fix(session): gc session attach waits for an in-flight controller reset instead of racing it (#4079)",
@@ -28,9 +26,7 @@
       "merged": false,
       "mergeable_state": "blocked",
       "url": "https://github.com/gastownhall/gascity/pull/4481",
-      "human_comment_authors": [
-        "rjgeng"
-      ]
+      "human_comment_authors": ["rjgeng"]
     },
     "4584": {
       "title": "fix(sling): --nudge falls back to a running named session for instance-expandable agents (#3412)",
@@ -38,9 +34,7 @@
       "merged": false,
       "mergeable_state": "blocked",
       "url": "https://github.com/gastownhall/gascity/pull/4584",
-      "human_comment_authors": [
-        "remuscazacu"
-      ]
+      "human_comment_authors": ["remuscazacu"]
     },
     "4857": {
       "title": "fix(mail): authorize --from against the calling session's own identity (#4070)",
@@ -48,11 +42,7 @@
       "merged": false,
       "mergeable_state": "blocked",
       "url": "https://github.com/gastownhall/gascity/pull/4857",
-      "human_comment_authors": [
-        "atbrace",
-        "quad341",
-        "rjgeng"
-      ]
+      "human_comment_authors": ["atbrace", "quad341", "rjgeng"]
     },
     "5257": {
       "title": "fix(mail): add unread-mail TTL so never-read mail wisps age out (#5240)",
@@ -60,10 +50,7 @@
       "merged": false,
       "mergeable_state": "blocked",
       "url": "https://github.com/gastownhall/gascity/pull/5257",
-      "human_comment_authors": [
-        "csauer02-personal-user",
-        "quad341"
-      ]
+      "human_comment_authors": ["csauer02-personal-user", "quad341"]
     },
     "5365": {
       "title": "fix(supervisor): auto-unregister on repeated stale-config load failures (#5313)",
@@ -87,9 +74,7 @@
       "merged": false,
       "mergeable_state": "blocked",
       "url": "https://github.com/gastownhall/gascity/pull/5972",
-      "human_comment_authors": [
-        "jacobhausler"
-      ]
+      "human_comment_authors": ["jacobhausler"]
     },
     "5977": {
       "title": "fix(tmux): detect Claude's bare-gerund spinner, fix submit-confirm baseline, surface two swallowed errors (#5954)",
@@ -97,9 +82,7 @@
       "merged": false,
       "mergeable_state": "blocked",
       "url": "https://github.com/gastownhall/gascity/pull/5977",
-      "human_comment_authors": [
-        "sJohnsonStoever"
-      ]
+      "human_comment_authors": ["sJohnsonStoever"]
     },
     "6006": {
       "title": "fix(doctor): gc doctor --json's ok field reflects real blocking-failure state (#5950)",
@@ -115,9 +98,7 @@
       "merged": false,
       "mergeable_state": "blocked",
       "url": "https://github.com/gastownhall/gascity/pull/6007",
-      "human_comment_authors": [
-        "A3Ackerman"
-      ]
+      "human_comment_authors": ["A3Ackerman"]
     },
     "6038": {
       "title": "fix(sling): skip a child bead the fresh check finds already terminal (#5927)",
@@ -165,9 +146,7 @@
       "merged": false,
       "mergeable_state": "blocked",
       "url": "https://github.com/gastownhall/gascity/pull/6163",
-      "human_comment_authors": [
-        "A3Ackerman"
-      ]
+      "human_comment_authors": ["A3Ackerman"]
     },
     "6167": {
       "title": "fix(doctor): surface effective city suspension as a doctor check (#6126)",
@@ -263,9 +242,7 @@
       "merged": false,
       "mergeable_state": "blocked",
       "url": "https://github.com/gastownhall/gascity/pull/6397",
-      "human_comment_authors": [
-        "rjgeng"
-      ]
+      "human_comment_authors": ["rjgeng"]
     },
     "6410": {
       "title": "fix(pool): treat a live session's currently_processing_bead_id as first-party proof of ownership",
@@ -281,9 +258,7 @@
       "merged": false,
       "mergeable_state": "blocked",
       "url": "https://github.com/gastownhall/gascity/pull/6512",
-      "human_comment_authors": [
-        "rjgeng"
-      ]
+      "human_comment_authors": ["rjgeng"]
     },
     "6620": {
       "title": "test(bazel): keep filesystem assumptions hermetic",

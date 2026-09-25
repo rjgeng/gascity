@@ -2,7 +2,7 @@
   "schema_version": 1,
   "repo": "gastownhall/gascity",
   "author": "rjgeng",
-  "last_checked_at": "2026-09-25T18:45:00Z",
+  "last_checked_at": "2026-09-25T20:46:10Z",
   "prs": {
     "4095": {
       "title": "fix(session): refresh reset_committed_at on every continuation-reset re-arm (#4067)",
@@ -136,7 +136,7 @@
       "title": "fix(suspensionstate): serialize rig suspend/resume with a cross-process flock (#6056)",
       "state": "open",
       "merged": false,
-      "mergeable_state": "blocked",
+      "mergeable_state": "dirty",
       "url": "https://github.com/gastownhall/gascity/pull/6097",
       "human_comment_authors": []
     },
@@ -240,7 +240,7 @@
       "title": "fix(nudge): probe controller liveness before suppressing the per-session nudge poller",
       "state": "open",
       "merged": false,
-      "mergeable_state": "blocked",
+      "mergeable_state": "dirty",
       "url": "https://github.com/gastownhall/gascity/pull/6397",
       "human_comment_authors": ["rjgeng"]
     },

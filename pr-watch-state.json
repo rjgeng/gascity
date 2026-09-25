@@ -2,7 +2,7 @@
   "schema_version": 1,
   "repo": "gastownhall/gascity",
   "author": "rjgeng",
-  "last_checked_at": "2026-09-25T04:48:05Z",
+  "last_checked_at": "2026-09-25T05:46:29Z",
   "prs": {
     "6566": {"title":"test(bazel): declare hermetic source guard runfiles","state":"open","merged":false,"mergeable_state":"dirty","url":"https://github.com/gastownhall/gascity/pull/6566","human_comment_authors":[]},
     "6512": {"title":"fix(dolt): unblock watchdog SIGKILL on Darwin","state":"open","merged":false,"mergeable_state":"blocked","url":"https://github.com/gastownhall/gascity/pull/6512","human_comment_authors":["rjgeng"],"last_notable_event":"rjgeng's 2026-09-24 comment asking a maintainer to rerun a failed shard (unrelated flake)."},

@@ -2,7 +2,7 @@
   "schema_version": 1,
   "repo": "gastownhall/gascity",
   "author": "rjgeng",
-  "last_checked_at": "2026-09-25T14:49:17Z",
+  "last_checked_at": "2026-09-25T15:49:13Z",
   "prs": {
     "4095": {
       "title": "fix(session): refresh reset_committed_at on every continuation-reset re-arm (#4067)",
@@ -50,8 +50,8 @@
       "url": "https://github.com/gastownhall/gascity/pull/4857",
       "human_comment_authors": [
         "atbrace",
-        "rjgeng",
-        "quad341"
+        "quad341",
+        "rjgeng"
       ]
     },
     "5257": {

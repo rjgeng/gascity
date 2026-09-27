@@ -2,7 +2,7 @@
   "schema_version": 1,
   "repo": "gastownhall/gascity",
   "author": "rjgeng",
-  "last_checked_at": "2026-09-27T00:00:00Z",
+  "last_checked_at": "2026-09-27T15:48:13Z",
   "prs": {
     "6620": {
       "title": "test(bazel): keep filesystem assumptions hermetic",
@@ -340,7 +340,7 @@
       "merged": true
     },
     "5933": {
-      "title": "fix(nudge): respect cfg.Mail.RetentionTTL in the nudge-mail sweep instead of a hardcoded 60m (#5877)",
+      "title": "fix(mail): respect cfg.Mail.RetentionTTL in the nudge-mail sweep instead of a hardcoded 60m (#5877)",
       "state": "closed",
       "merged": true
     },

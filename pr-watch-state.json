@@ -2,7 +2,7 @@
   "schema_version": 1,
   "repo": "gastownhall/gascity",
   "author": "rjgeng",
-  "last_checked_at": "2026-09-27T00:47:26Z",
+  "last_checked_at": "2026-09-27T01:15:00Z",
   "prs": {
     "4095": {"title": "fix(session): refresh reset_committed_at on every continuation-reset re-arm (#4067)", "state": "open", "merged": false, "mergeable_state": "blocked", "url": "https://github.com/gastownhall/gascity/pull/4095", "human_comment_authors": ["rjgeng"]},
     "4138": {"title": "fix(session): gc session attach waits for an in-flight controller reset instead of racing it (#4079)", "state": "open", "merged": false, "mergeable_state": "blocked", "url": "https://github.com/gastownhall/gascity/pull/4138", "human_comment_authors": []},
@@ -39,15 +39,15 @@
     "6620": {"title": "test(bazel): keep filesystem assumptions hermetic", "state": "open", "merged": false, "mergeable_state": "blocked", "url": "https://github.com/gastownhall/gascity/pull/6620", "human_comment_authors": []}
   },
   "recently_closed_prs": {
-    "6606": {"title": "test(bazel): run process-owning gc suite unsandboxed", "state": "closed", "merged": false, "closed_by": "rjgeng", "closed_at": "2026-09-25T12:57:22Z", "url": "https://github.com/gastownhall/gascity/pull/6606"},
-    "6566": {"title": "test(bazel): declare hermetic source guard runfiles", "state": "closed", "merged": false, "closed_by": "rjgeng", "closed_at": "2026-09-25T07:54:13Z", "url": "https://github.com/gastownhall/gascity/pull/6566"},
-    "6165": {"title": "perf(cli): reuse the loaded city config on gc ready's store opens (#6132)", "state": "closed", "merged": false, "closed_by": "rjgeng", "closed_at": "2026-09-24T10:12:31Z", "url": "https://github.com/gastownhall/gascity/pull/6165"},
-    "6057": {"title": "fix(processenv): error on unterminated quote in env file value (#6022)", "state": "closed", "merged": false, "closed_by": "julianknutsen", "closed_at": "2026-09-24T07:45:21Z", "url": "https://github.com/gastownhall/gascity/pull/6057"},
-    "6043": {"title": "fix(processenv): partial secrets.env parse, skip multi-line quoted blocks, redact parse errors (#5982, #6022)", "state": "closed", "merged": true, "merged_by": "julianknutsen", "merged_at": "2026-09-24T07:45:12Z", "url": "https://github.com/gastownhall/gascity/pull/6043"},
-    "6411": {"title": "fix(ci): raise cmd-gc-productmetrics-testhook's timeout to fit the runner it actually gets", "state": "closed", "merged": true, "merged_by": "julianknutsen", "merged_at": "2026-09-23T09:40:22Z", "url": "https://github.com/gastownhall/gascity/pull/6411"},
-    "5939": {"title": "fix(nudge): add a drop verb for stale pending nudges instead of requiring manual state.json surgery (#5816)", "state": "closed", "merged": true, "merged_by": "quad341", "merged_at": "2026-09-19T15:18:06Z", "url": "https://github.com/gastownhall/gascity/pull/5939"},
-    "5938": {"title": "fix(sessionlog): thread the transcript entry's own timestamp through to Fact.At instead of stamping now (#5825)", "state": "closed", "merged": true, "merged_by": "quad341", "merged_at": "2026-09-19T07:20:46Z", "url": "https://github.com/gastownhall/gascity/pull/5938"},
-    "5933": {"title": "fix(mail): respect cfg.Mail.RetentionTTL in the nudge-mail sweep instead of a hardcoded 60m (#5877)", "state": "closed", "merged": true, "merged_by": "quad341", "merged_at": "2026-09-19T05:15:43Z", "url": "https://github.com/gastownhall/gascity/pull/5933"},
-    "5913": {"title": "fix(supervisor): guard the supervisor socket path against Unix domain socket length limits (#5845)", "state": "closed", "merged": true, "merged_by": "quad341", "merged_at": "2026-09-18T22:10:29Z", "url": "https://github.com/gastownhall/gascity/pull/5913"}
+    "6606": {"title": "test(bazel): run process-owning gc suite unsandboxed", "state": "closed"},
+    "6566": {"title": "test(bazel): declare hermetic source guard runfiles", "state": "closed"},
+    "6165": {"title": "perf(cli): reuse the loaded city config on gc ready's store opens (#6132)", "state": "closed"},
+    "6057": {"title": "fix(processenv): error on unterminated quote in env file value (#6022)", "state": "closed"},
+    "6043": {"title": "fix(processenv): partial secrets.env parse, skip multi-line quoted blocks, redact parse errors (#5982, #6022)", "state": "closed", "merged": true},
+    "6411": {"title": "fix(ci): raise cmd-gc-productmetrics-testhook's timeout to fit the runner it actually gets", "state": "closed", "merged": true},
+    "5939": {"title": "fix(nudge): add a drop verb for stale pending nudges instead of requiring manual state.json surgery (#5816)", "state": "closed", "merged": true},
+    "5938": {"title": "fix(sessionlog): thread the transcript entry's own timestamp through to Fact.At instead of stamping now (#5825)", "state": "closed", "merged": true},
+    "5933": {"title": "fix(mail): respect cfg.Mail.RetentionTTL in the nudge-mail sweep instead of a hardcoded 60m (#5877)", "state": "closed", "merged": true},
+    "5913": {"title": "fix(supervisor): guard the supervisor socket path against Unix domain socket length limits (#5845)", "state": "closed", "merged": true}
   }
 }

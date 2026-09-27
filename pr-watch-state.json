@@ -2,7 +2,7 @@
   "schema_version": 1,
   "repo": "gastownhall/gascity",
   "author": "rjgeng",
-  "last_checked_at": "2026-09-27T14:03:00Z",
+  "last_checked_at": "2026-09-27T14:10:00Z",
   "prs": {
     "6620": {
       "title": "test(bazel): keep filesystem assumptions hermetic",

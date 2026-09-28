@@ -2,8 +2,11 @@
   "schema_version": 1,
   "repo": "gastownhall/gascity",
   "author": "rjgeng",
-  "last_checked_at": "2026-09-28T00:54:19Z",
+  "last_checked_at": "2026-09-28T02:15:00Z",
   "prs": {
+    "6734": {"title": "fix(runtime): recognize Codex trust dialog", "state": "open", "merged": false, "mergeable_state": "blocked", "url": "https://github.com/gastownhall/gascity/pull/6734", "human_comment_authors": [], "human_review_authors": []},
+    "6732": {"title": "fix(worktrees): honor configured root during cleanup", "state": "open", "merged": false, "mergeable_state": "blocked", "url": "https://github.com/gastownhall/gascity/pull/6732", "human_comment_authors": [], "human_review_authors": []},
+    "6728": {"title": "fix(orphan-sweep): avoid pipefail membership misses", "state": "open", "merged": false, "mergeable_state": "blocked", "url": "https://github.com/gastownhall/gascity/pull/6728", "human_comment_authors": [], "human_review_authors": []},
     "6512": {"title": "fix(dolt): unblock watchdog SIGKILL on Darwin", "state": "open", "merged": false, "mergeable_state": "blocked", "url": "https://github.com/gastownhall/gascity/pull/6512", "human_comment_authors": ["rjgeng"], "human_review_authors": []},
     "6410": {"title": "fix(pool): treat a live session's currently_processing_bead_id as first-party proof of ownership", "state": "open", "merged": false, "mergeable_state": "blocked", "url": "https://github.com/gastownhall/gascity/pull/6410", "human_comment_authors": [], "human_review_authors": []},
     "6397": {"title": "fix(nudge): probe controller liveness before suppressing the per-session nudge poller", "state": "open", "merged": false, "mergeable_state": "blocked", "url": "https://github.com/gastownhall/gascity/pull/6397", "human_comment_authors": ["rjgeng"], "human_review_authors": []},
@@ -39,14 +42,14 @@
   },
   "recently_closed_prs": {
     "6620": {"title": "test(bazel): keep filesystem assumptions hermetic", "state": "closed", "merged": true, "merged_by": "quad341", "url": "https://github.com/gastownhall/gascity/pull/6620"},
-    "6606": {"title": "test(bazel): run process-owning gc suite unsandboxed", "state": "closed"},
-    "6566": {"title": "test(bazel): declare hermetic source guard runfiles", "state": "closed"},
-    "6165": {"title": "perf(cli): reuse the loaded city config on gc ready's store opens (#6132)", "state": "closed"},
-    "6057": {"title": "fix(processenv): error on unterminated quote in env file value (#6022)", "state": "closed"},
-    "6043": {"title": "fix(processenv): partial secrets.env parse, skip multi-line quoted blocks, redact parse errors (#5982, #6022)", "state": "closed", "merged": true},
-    "6411": {"title": "fix(ci): raise cmd-gc-productmetrics-testhook's timeout to fit the runner it actually gets", "state": "closed", "merged": true},
-    "5939": {"title": "fix(nudge): add a drop verb for stale pending nudges instead of requiring manual state.json surgery (#5816)", "state": "closed", "merged": true},
-    "5938": {"title": "fix(sessionlog): thread the transcript entry's own timestamp through to Fact.At instead of stamping now (#5825)", "state": "closed", "merged": true},
-    "5933": {"title": "fix(mail): respect cfg.Mail.RetentionTTL in the nudge-mail sweep instead of a hardcoded 60m (#5877)", "state": "closed", "merged": true}
+    "6606": {"title": "test(bazel): run process-owning gc suite unsandboxed", "state": "closed", "merged": false, "url": "https://github.com/gastownhall/gascity/pull/6606"},
+    "6566": {"title": "test(bazel): declare hermetic source guard runfiles", "state": "closed", "merged": false, "url": "https://github.com/gastownhall/gascity/pull/6566"},
+    "6411": {"title": "fix(ci): raise cmd-gc-productmetrics-testhook's timeout to fit the runner it actually gets", "state": "closed", "merged": true, "merged_by": "julianknutsen", "url": "https://github.com/gastownhall/gascity/pull/6411"},
+    "6165": {"title": "perf(cli): reuse the loaded city config on gc ready's store opens (#6132)", "state": "closed", "merged": false, "url": "https://github.com/gastownhall/gascity/pull/6165"},
+    "6057": {"title": "fix(processenv): error on unterminated quote in env file value (#6022)", "state": "closed", "merged": false, "url": "https://github.com/gastownhall/gascity/pull/6057"},
+    "6043": {"title": "fix(processenv): partial secrets.env parse, skip multi-line quoted blocks, redact parse errors (#5982, #6022)", "state": "closed", "merged": true, "merged_by": "julianknutsen", "url": "https://github.com/gastownhall/gascity/pull/6043"},
+    "5939": {"title": "fix(nudge): add a drop verb for stale pending nudges instead of requiring manual state.json surgery (#5816)", "state": "closed", "merged": true, "merged_by": "quad341", "url": "https://github.com/gastownhall/gascity/pull/5939"},
+    "5938": {"title": "fix(sessionlog): thread the transcript entry's own timestamp through to Fact.At instead of stamping now (#5825)", "state": "closed", "merged": true, "merged_by": "quad341", "url": "https://github.com/gastownhall/gascity/pull/5938"},
+    "5933": {"title": "fix(mail): respect cfg.Mail.RetentionTTL in the nudge-mail sweep instead of a hardcoded 60m (#5877)", "state": "closed", "merged": true, "merged_by": "quad341", "url": "https://github.com/gastownhall/gascity/pull/5933"}
   }
 }

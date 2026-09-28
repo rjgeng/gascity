@@ -2,7 +2,7 @@
   "schema_version": 1,
   "repo": "gastownhall/gascity",
   "author": "rjgeng",
-  "last_checked_at": "2026-09-28T02:15:00Z",
+  "last_checked_at": "2026-09-28T02:50:00Z",
   "prs": {
     "6734": {"title": "fix(runtime): recognize Codex trust dialog", "state": "open", "merged": false, "mergeable_state": "blocked", "url": "https://github.com/gastownhall/gascity/pull/6734", "human_comment_authors": [], "human_review_authors": []},
     "6732": {"title": "fix(worktrees): honor configured root during cleanup", "state": "open", "merged": false, "mergeable_state": "blocked", "url": "https://github.com/gastownhall/gascity/pull/6732", "human_comment_authors": [], "human_review_authors": []},
@@ -16,7 +16,7 @@
     "6340": {"title": "fix(convoy): order the workflow root last in delete-sweep so an interrupted delete never leaves it closed with open descendants", "state": "open", "merged": false, "mergeable_state": "blocked", "url": "https://github.com/gastownhall/gascity/pull/6340", "human_comment_authors": [], "human_review_authors": []},
     "6337": {"title": "fix(hook): close 3 fail-open gaps in hookClaimDirLooksLikeRepo repo-marker detection", "state": "open", "merged": false, "mergeable_state": "blocked", "url": "https://github.com/gastownhall/gascity/pull/6337", "human_comment_authors": [], "human_review_authors": []},
     "6331": {"title": "fix(reaper): stop Step 6 SQL prune from crashing the run on zero matched rows (#6284)", "state": "open", "merged": false, "mergeable_state": "blocked", "url": "https://github.com/gastownhall/gascity/pull/6331", "human_comment_authors": [], "human_review_authors": []},
-    "6326": {"title": "fix(tmux): corroborate ListRunning's ServerAbsent with a socket observation", "state": "open", "merged": false, "mergeable_state": "blocked", "url": "https://github.com/gastownhall/gascity/pull/6326", "human_comment_authors": [], "human_review_authors": []},
+    "6326": {"title": "fix(tmux): corroborate ListRunning's ServerAbsent with a socket observation", "state": "open", "merged": false, "mergeable_state": "dirty", "url": "https://github.com/gastownhall/gascity/pull/6326", "human_comment_authors": [], "human_review_authors": []},
     "6325": {"title": "fix(worktree): stop TestManagedDryRunDoesNotPublishProvenance flaking on transient git lock files", "state": "open", "merged": false, "mergeable_state": "blocked", "url": "https://github.com/gastownhall/gascity/pull/6325", "human_comment_authors": [], "human_review_authors": []},
     "6270": {"title": "fix(molecule): retry a dropped molecule_failed stamp before giving up (#6235)", "state": "open", "merged": false, "mergeable_state": "blocked", "url": "https://github.com/gastownhall/gascity/pull/6270", "human_comment_authors": [], "human_review_authors": []},
     "6269": {"title": "fix(config): apply feature flags in the supervisor's per-city loader (#6236)", "state": "open", "merged": false, "mergeable_state": "blocked", "url": "https://github.com/gastownhall/gascity/pull/6269", "human_comment_authors": [], "human_review_authors": []},

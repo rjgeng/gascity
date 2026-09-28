@@ -2,11 +2,11 @@
   "schema_version": 1,
   "repo": "gastownhall/gascity",
   "author": "rjgeng",
-  "last_checked_at": "2026-09-28T10:49:08Z",
+  "last_checked_at": "2026-09-28T11:50:00Z",
   "prs": {
     "6740": {"title": "ci(bazel): provision shared test tmpdir", "state": "open", "merged": false, "mergeable_state": "blocked", "url": "https://github.com/gastownhall/gascity/pull/6740", "human_comment_authors": [], "human_review_authors": []},
     "6734": {"title": "fix(runtime): recognize Codex trust dialog", "state": "open", "merged": false, "mergeable_state": "blocked", "url": "https://github.com/gastownhall/gascity/pull/6734", "human_comment_authors": [], "human_review_authors": []},
-    "6732": {"title": "fix(worktrees): honor configured root during cleanup", "state": "open", "merged": false, "mergeable_state": "unknown", "url": "https://github.com/gastownhall/gascity/pull/6732", "human_comment_authors": [], "human_review_authors": []},
+    "6732": {"title": "fix(worktrees): honor configured root during cleanup", "state": "open", "merged": false, "mergeable_state": "blocked", "url": "https://github.com/gastownhall/gascity/pull/6732", "human_comment_authors": [], "human_review_authors": []},
     "6728": {"title": "fix(orphan-sweep): avoid pipefail membership misses", "state": "open", "merged": false, "mergeable_state": "blocked", "url": "https://github.com/gastownhall/gascity/pull/6728", "human_comment_authors": [], "human_review_authors": []},
     "6512": {"title": "fix(dolt): unblock watchdog SIGKILL on Darwin", "state": "open", "merged": false, "mergeable_state": "blocked", "url": "https://github.com/gastownhall/gascity/pull/6512", "human_comment_authors": ["rjgeng"], "human_review_authors": []},
     "6410": {"title": "fix(pool): treat a live session's currently_processing_bead_id as first-party proof of ownership", "state": "open", "merged": false, "mergeable_state": "blocked", "url": "https://github.com/gastownhall/gascity/pull/6410", "human_comment_authors": [], "human_review_authors": []},

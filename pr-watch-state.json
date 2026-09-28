@@ -2,8 +2,9 @@
   "schema_version": 1,
   "repo": "gastownhall/gascity",
   "author": "rjgeng",
-  "last_checked_at": "2026-09-28T11:50:00Z",
+  "last_checked_at": "2026-09-28T12:15:00Z",
   "prs": {
+    "6773": {"title": "fix(backstop): require affirmative idle snapshot", "state": "open", "merged": false, "mergeable_state": "blocked", "url": "https://github.com/gastownhall/gascity/pull/6773", "human_comment_authors": [], "human_review_authors": []},
     "6740": {"title": "ci(bazel): provision shared test tmpdir", "state": "open", "merged": false, "mergeable_state": "blocked", "url": "https://github.com/gastownhall/gascity/pull/6740", "human_comment_authors": [], "human_review_authors": []},
     "6734": {"title": "fix(runtime): recognize Codex trust dialog", "state": "open", "merged": false, "mergeable_state": "blocked", "url": "https://github.com/gastownhall/gascity/pull/6734", "human_comment_authors": [], "human_review_authors": []},
     "6732": {"title": "fix(worktrees): honor configured root during cleanup", "state": "open", "merged": false, "mergeable_state": "blocked", "url": "https://github.com/gastownhall/gascity/pull/6732", "human_comment_authors": [], "human_review_authors": []},

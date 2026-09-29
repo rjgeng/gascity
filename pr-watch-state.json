@@ -2,7 +2,7 @@
   "schema_version": 1,
   "repo": "gastownhall/gascity",
   "author": "rjgeng",
-  "last_checked_at": "2026-09-29T12:47:15Z",
+  "last_checked_at": "2026-09-29T13:15:00Z",
   "prs": {
     "6811": {"title": "fix(beads): preserve city JSONL retention opt-out","state":"open","merged":false,"mergeable_state":"blocked","url":"https://github.com/gastownhall/gascity/pull/6811","human_comment_authors":["julianknutsen"],"human_review_authors":[]},
     "6773": {"title": "fix(backstop): require affirmative idle snapshot","state":"open","merged":false,"mergeable_state":"blocked","url":"https://github.com/gastownhall/gascity/pull/6773","human_comment_authors":[],"human_review_authors":[]},
@@ -50,9 +50,6 @@
     "6411": {"title": "fix(ci): raise cmd-gc-productmetrics-testhook's timeout to fit the runner it actually gets","state":"closed","merged":true,"merged_by":"julianknutsen","url":"https://github.com/gastownhall/gascity/pull/6411"},
     "6165": {"title": "perf(cli): reuse the loaded city config on gc ready's store opens (#6132)","state":"closed","merged":false,"url":"https://github.com/gastownhall/gascity/pull/6165"},
     "6057": {"title": "fix(processenv): error on unterminated quote in env file value (#6022)","state":"closed","merged":false,"url":"https://github.com/gastownhall/gascity/pull/6057"},
-    "6043": {"title": "fix(processenv): partial secrets.env parse, skip multi-line quoted blocks, redact parse errors (#5982, #6022)","state":"closed","merged":true,"merged_by":"julianknutsen","url":"https://github.com/gastownhall/gascity/pull/6043"},
-    "5939": {"title": "fix(nudge): add a drop verb for stale pending nudges instead of requiring manual state.json surgery (#5816)","state":"closed","merged":true,"merged_by":"quad341","url":"https://github.com/gastownhall/gascity/pull/5939"},
-    "5938": {"title": "fix(sessionlog): thread the transcript entry's own timestamp through to Fact.At instead of stamping now (#5825)","state":"closed","merged":true,"merged_by":"quad341","url":"https://github.com/gastownhall/gascity/pull/5938"},
-    "5933": {"title": "fix(mail): respect cfg.Mail.RetentionTTL in the nudge-mail sweep instead of a hardcoded 60m (#5877)","state":"closed","merged":true,"merged_by":"quad341","url":"https://github.com/gastownhall/gascity/pull/5933"}
+    "6043": {"title": "fix(processenv): partial secrets.env parse, skip multi-line quoted blocks, redact parse errors (#5982, #6022)","state":"closed","merged":true,"merged_by":"julianknutsen","url":"https://github.com/gastownhall/gascity/pull/6043"}
   }
 }

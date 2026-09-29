@@ -2,9 +2,9 @@
   "schema_version": 1,
   "repo": "gastownhall/gascity",
   "author": "rjgeng",
-  "last_checked_at": "2026-09-29T12:00:00Z",
+  "last_checked_at": "2026-09-29T12:47:15Z",
   "prs": {
-    "6811": {"title": "fix(beads): preserve city JSONL retention opt-out","state":"open","merged":false,"mergeable_state":"dirty","url":"https://github.com/gastownhall/gascity/pull/6811","human_comment_authors":["julianknutsen"],"human_review_authors":[]},
+    "6811": {"title": "fix(beads): preserve city JSONL retention opt-out","state":"open","merged":false,"mergeable_state":"blocked","url":"https://github.com/gastownhall/gascity/pull/6811","human_comment_authors":["julianknutsen"],"human_review_authors":[]},
     "6773": {"title": "fix(backstop): require affirmative idle snapshot","state":"open","merged":false,"mergeable_state":"blocked","url":"https://github.com/gastownhall/gascity/pull/6773","human_comment_authors":[],"human_review_authors":[]},
     "6740": {"title": "ci(bazel): provision shared test tmpdir","state":"open","merged":false,"mergeable_state":"blocked","url":"https://github.com/gastownhall/gascity/pull/6740","human_comment_authors":[],"human_review_authors":[]},
     "6734": {"title": "fix(runtime): recognize Codex trust dialog","state":"open","merged":false,"mergeable_state":"blocked","url":"https://github.com/gastownhall/gascity/pull/6734","human_comment_authors":[],"human_review_authors":[]},

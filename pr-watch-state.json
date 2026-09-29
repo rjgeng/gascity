@@ -2,7 +2,7 @@
   "schema_version": 1,
   "repo": "gastownhall/gascity",
   "author": "rjgeng",
-  "last_checked_at": "2026-09-29T06:34:00Z",
+  "last_checked_at": "2026-09-29T07:48:49Z",
   "prs": {
     "6811": {"title": "fix(beads): preserve city JSONL retention opt-out","state":"open","merged":false,"mergeable_state":"blocked","url":"https://github.com/gastownhall/gascity/pull/6811","human_comment_authors":[],"human_review_authors":[]},
     "6773": {"title": "fix(backstop): require affirmative idle snapshot","state":"open","merged":false,"mergeable_state":"blocked","url":"https://github.com/gastownhall/gascity/pull/6773","human_comment_authors":[],"human_review_authors":[]},
@@ -15,6 +15,7 @@
     "6397": {"title": "fix(nudge): probe controller liveness before suppressing the per-session nudge poller","state":"open","merged":false,"mergeable_state":"dirty","url":"https://github.com/gastownhall/gascity/pull/6397","human_comment_authors":["rjgeng"],"human_review_authors":[]},
     "6366": {"title": "fix(nudge): derive the CLI's session-class store from the city's work store at every call site","state":"open","merged":false,"mergeable_state":"blocked","url":"https://github.com/gastownhall/gascity/pull/6366","human_comment_authors":[],"human_review_authors":[]},
     "6365": {"title": "fix(handoff): give PreCompact its own flat systemMessage shape under --hook-format codex","state":"open","merged":false,"mergeable_state":"blocked","url":"https://github.com/gastownhall/gascity/pull/6365","human_comment_authors":[],"human_review_authors":[]},
+    "6364": {"title": "fix(config): let a template opt a cold pool out of the wake-probe's clamped-1 override (Agent.ColdWake)","state":"open","merged":false,"mergeable_state":"dirty","url":"https://github.com/gastownhall/gascity/pull/6364","human_comment_authors":[],"human_review_authors":[]},
     "6340": {"title": "fix(convoy): order the workflow root last in delete-sweep so an interrupted delete never leaves it closed with open descendants","state":"open","merged":false,"mergeable_state":"blocked","url":"https://github.com/gastownhall/gascity/pull/6340","human_comment_authors":[],"human_review_authors":[]},
     "6337": {"title": "fix(hook): close 3 fail-open gaps in hookClaimDirLooksLikeRepo repo-marker detection","state":"open","merged":false,"mergeable_state":"blocked","url":"https://github.com/gastownhall/gascity/pull/6337","human_comment_authors":[],"human_review_authors":[]},
     "6331": {"title": "fix(reaper): stop Step 6 SQL prune from crashing the run on zero matched rows (#6284)","state":"open","merged":false,"mergeable_state":"dirty","url":"https://github.com/gastownhall/gascity/pull/6331","human_comment_authors":[],"human_review_authors":[]},
@@ -40,8 +41,7 @@
     "4584": {"title": "fix(sling): --nudge falls back to a running named session for instance-expandable agents (#3412)","state":"open","merged":false,"mergeable_state":"blocked","url":"https://github.com/gastownhall/gascity/pull/4584","human_comment_authors":["remuscazacu"],"human_review_authors":[]},
     "4481": {"title": "fix(runtime): treat a gone session as drain-acked (#4448)","state":"open","merged":false,"mergeable_state":"blocked","url":"https://github.com/gastownhall/gascity/pull/4481","human_comment_authors":["rjgeng"],"human_review_authors":[]},
     "4138": {"title": "fix(session): gc session attach waits for an in-flight controller reset instead of racing it (#4079)","state":"open","merged":false,"mergeable_state":"blocked","url":"https://github.com/gastownhall/gascity/pull/4138","human_comment_authors":[],"human_review_authors":[]},
-    "4095": {"title": "fix(session): refresh reset_committed_at on every continuation-reset re-arm (#4067)","state":"open","merged":false,"mergeable_state":"blocked","url":"https://github.com/gastownhall/gascity/pull/4095","human_comment_authors":["rjgeng"],"human_review_authors":[]},
-    "6364": {"title": "fix(config): let a template opt a cold pool out of the wake-probe's clamped-1 override (Agent.ColdWake)","state":"open","merged":false,"mergeable_state":"dirty","url":"https://github.com/gastownhall/gascity/pull/6364","human_comment_authors":[],"human_review_authors":[]}
+    "4095": {"title": "fix(session): refresh reset_committed_at on every continuation-reset re-arm (#4067)","state":"open","merged":false,"mergeable_state":"blocked","url":"https://github.com/gastownhall/gascity/pull/4095","human_comment_authors":["rjgeng"],"human_review_authors":[]}
   },
   "recently_closed_prs": {
     "6620": {"title": "test(bazel): keep filesystem assumptions hermetic","state":"closed","merged":true,"merged_by":"quad341","url":"https://github.com/gastownhall/gascity/pull/6620"},

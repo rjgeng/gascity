@@ -2,7 +2,7 @@
   "schema_version": 1,
   "repo": "gastownhall/gascity",
   "author": "rjgeng",
-  "last_checked_at": "2026-09-30T08:49:52Z",
+  "last_checked_at": "2026-09-30T09:47:33Z",
   "prs": {
     "6811": {
       "title": "fix(beads): preserve city JSONL retention opt-out",

@@ -2,7 +2,7 @@
   "schema_version": 1,
   "repo": "gastownhall/gascity",
   "author": "rjgeng",
-  "last_checked_at": "2026-09-30T00:00:00Z",
+  "last_checked_at": "2026-09-30T12:00:00Z",
   "prs": {
     "6811": {"title": "fix(beads): preserve city JSONL retention opt-out", "state": "open", "merged": false, "mergeable_state": "blocked", "url": "https://github.com/gastownhall/gascity/pull/6811", "human_comment_authors": ["julianknutsen"], "human_review_authors": []},
     "6773": {"title": "fix(backstop): require affirmative idle snapshot", "state": "open", "merged": false, "mergeable_state": "blocked", "url": "https://github.com/gastownhall/gascity/pull/6773", "human_comment_authors": [], "human_review_authors": []},
@@ -122,8 +122,8 @@
     "4485": {"title": "fix(supervisor): back off structural init failures far longer than transient ones (#4484)", "state": "closed", "closed_at": "2026-08-05T14:35:19Z", "merged": null, "url": "https://github.com/gastownhall/gascity/pull/4485"},
     "4483": {"title": "fix(beads): skip nested Go modules in the bd-exec boundary walker (#4480)", "state": "closed", "closed_at": "2026-07-22T02:44:11Z", "merged": null, "url": "https://github.com/gastownhall/gascity/pull/4483"},
     "4482": {"title": "test(cmd_hook): resolve \"true\" via LookPath instead of hardcoding /bin/true (#4454)", "state": "closed", "closed_at": "2026-07-21T15:38:24Z", "merged": null, "url": "https://github.com/gastownhall/gascity/pull/4482"},
-    "4442": {"title": "fix(cmd/gc): gc hook --claim never adopts mail message beads as work (#4419)", "state": "closed", "closed_at": "2026-07-20T07:49:14Z", "merged": null, "url": "https://github.com/gastownhall/gascity/pull/4442"},
     "4406": {"title": "fix(cmd/gc): gc init --skip-provider-readiness accepts any builtin provider (#4392)", "state": "closed", "closed_at": "2026-07-20T08:26:23Z", "merged": null, "url": "https://github.com/gastownhall/gascity/pull/4406"},
+    "4442": {"title": "fix(cmd/gc): gc hook --claim never adopts mail message beads as work (#4419)", "state": "closed", "closed_at": "2026-07-20T07:49:14Z", "merged": null, "url": "https://github.com/gastownhall/gascity/pull/4442"},
     "4405": {"title": "fix(runtime/k8s): propagate Nudge/SendKeys transport errors (#4389)", "state": "closed", "closed_at": "2026-07-29T13:55:27Z", "merged": null, "url": "https://github.com/gastownhall/gascity/pull/4405"},
     "4384": {"title": "fix(cmd/gc): validate explicit city path before scanning registry rig bindings (#4364)", "state": "closed", "closed_at": "2026-07-29T15:56:17Z", "merged": null, "url": "https://github.com/gastownhall/gascity/pull/4384"},
     "4248": {"title": "fix(doctor): warn when beads-store silently fell back to BdStore (#4245)", "state": "closed", "closed_at": "2026-07-19T15:09:00Z", "merged": null, "url": "https://github.com/gastownhall/gascity/pull/4248"},

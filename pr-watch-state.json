@@ -2,7 +2,7 @@
   "schema_version": 1,
   "repo": "gastownhall/gascity",
   "author": "rjgeng",
-  "last_checked_at": "2026-10-01T12:48:36Z",
+  "last_checked_at": "2026-10-01T13:47:34Z",
   "prs": {
     "6811": { "title": "fix(beads): preserve city JSONL retention opt-out", "state": "open", "merged": false, "mergeable_state": "blocked", "url": "https://github.com/gastownhall/gascity/pull/6811", "human_comment_authors": ["julianknutsen"], "human_review_authors": [] },
     "6773": { "title": "fix(backstop): require affirmative idle snapshot", "state": "open", "merged": false, "mergeable_state": "blocked", "url": "https://github.com/gastownhall/gascity/pull/6773", "human_comment_authors": [], "human_review_authors": [] },
@@ -62,7 +62,6 @@
     "5756": { "title": "fix(events): fail a short single-record write instead of counting it as written", "state": "closed", "closed_at": "2026-09-17T09:14:26Z", "merged": null, "url": "https://github.com/gastownhall/gascity/pull/5756" },
     "5752": { "title": "fix(events): a wide --since window now truncates instead of failing with nothing", "state": "closed", "closed_at": "2026-09-15T03:22:34Z", "merged": null, "url": "https://github.com/gastownhall/gascity/pull/5752" },
     "5748": { "title": "fix(events): activeScanStart falls back to a full scan on a reversed-seq log (#5650)", "state": "closed", "closed_at": "2026-09-15T02:26:18Z", "merged": null, "url": "https://github.com/gastownhall/gascity/pull/5748" },
-    "5700": { "title": "fix(dashboardbff): unwrap the response writer before the Flusher check on run-detail stream", "state": "closed", "closed_at": "2026-09-15T00:28:27Z", "merged": null, "url": "https://github.com/gastownhall/gascity/pull/5700" },
-    "5628": { "title": "fix(bd): disclose which store gc bd list/ready/search/show answered from (#5170)", "state": "closed", "closed_at": "2026-08-26T06:37:31Z", "merged": null, "url": "https://github.com/gastownhall/gascity/pull/5628" }
+    "5700": { "title": "fix(dashboardbff): unwrap the response writer before the Flusher check on run-detail stream", "state": "closed", "closed_at": "2026-09-15T00:28:27Z", "merged": null, "url": "https://github.com/gastownhall/gascity/pull/5700" }
   }
 }

@@ -2,8 +2,17 @@
   "schema_version": 1,
   "repo": "gastownhall/gascity",
   "author": "rjgeng",
-  "last_checked_at": "2026-10-02T18:49:31Z",
+  "last_checked_at": "2026-10-02T19:46:54Z",
   "prs": {
+    "6938": {
+      "title": "test(contract): isolate managed-city reachability checks",
+      "state": "open",
+      "merged": false,
+      "mergeable_state": "blocked",
+      "url": "https://github.com/gastownhall/gascity/pull/6938",
+      "human_comment_authors": [],
+      "human_review_authors": []
+    },
     "6811": {
       "title": "fix(beads): preserve city JSONL retention opt-out",
       "state": "open",
@@ -187,7 +196,7 @@
       "title": "fix(doctor): surface effective city suspension as a doctor check (#6126)",
       "state": "open",
       "merged": false,
-      "mergeable_state": "blocked",
+      "mergeable_state": "dirty",
       "url": "https://github.com/gastownhall/gascity/pull/6167",
       "human_comment_authors": [],
       "human_review_authors": []

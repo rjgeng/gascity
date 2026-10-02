@@ -2,7 +2,7 @@
   "schema_version": 1,
   "repo": "gastownhall/gascity",
   "author": "rjgeng",
-  "last_checked_at": "2026-10-02T20:47:55Z",
+  "last_checked_at": "2026-10-02T21:49:37Z",
   "prs": {
     "6938": {
       "title": "test(contract): isolate managed-city reachability checks",

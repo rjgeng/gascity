@@ -2,7 +2,7 @@
   "schema_version": 1,
   "repo": "gastownhall/gascity",
   "author": "rjgeng",
-  "last_checked_at": "2026-10-02T23:00:00Z",
+  "last_checked_at": "2026-10-03T00:00:00Z",
   "prs": {
     "6938": {"title": "test(contract): isolate managed-city reachability checks", "state": "open", "merged": false, "mergeable_state": "unstable", "url": "https://github.com/gastownhall/gascity/pull/6938", "human_comment_authors": [], "human_review_authors": []},
     "6811": {"title": "fix(beads): preserve city JSONL retention opt-out", "state": "open", "merged": false, "mergeable_state": "blocked", "url": "https://github.com/gastownhall/gascity/pull/6811", "human_comment_authors": ["julianknutsen"], "human_review_authors": []},

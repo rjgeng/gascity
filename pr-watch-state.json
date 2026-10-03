@@ -8,7 +8,7 @@
       "url": "https://github.com/gastownhall/gascity/pull/6956",
       "state": "open",
       "merged": false,
-      "mergeable_state": "unstable",
+      "mergeable_state": "blocked",
       "human_review_authors": [],
       "human_comment_authors": []
     },
@@ -44,7 +44,7 @@
       "url": "https://github.com/gastownhall/gascity/pull/6949",
       "state": "open",
       "merged": false,
-      "mergeable_state": "blocked",
+      "mergeable_state": "unstable",
       "human_review_authors": [],
       "human_comment_authors": []
     },
@@ -419,5 +419,5 @@
       ]
     }
   },
-  "last_checked_at": "2026-10-03T19:50:12Z"
+  "last_checked_at": "2026-10-03T20:50:51Z"
 }

@@ -2,7 +2,7 @@
   "schema_version": 1,
   "repo": "gastownhall/gascity",
   "author": "rjgeng",
-  "last_checked_at": "2026-10-03T16:30:00Z",
+  "last_checked_at": "2026-10-03T17:50:09Z",
   "prs": {
     "6956": {
       "title": "fix(dispatch): retry direct Ralph infrastructure failures",

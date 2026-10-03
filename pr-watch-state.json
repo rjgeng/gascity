@@ -1,6 +1,6 @@
 {
   "author": "rjgeng",
-  "last_checked_at": "2026-10-03T05:48:16Z",
+  "last_checked_at": "2026-10-03T06:48:03Z",
   "prs": {
     "4095": {"human_comment_authors": [], "human_review_authors": [], "mergeable_state": "blocked", "merged": false, "state": "open", "title": "fix(session): refresh reset_committed_at on every continuation-reset re-arm (#4067)", "url": "https://github.com/gastownhall/gascity/pull/4095"},
     "4138": {"human_comment_authors": [], "human_review_authors": [], "mergeable_state": "blocked", "merged": false, "state": "open", "title": "fix(session): gc session attach waits for an in-flight controller reset instead of racing it (#4079)", "url": "https://github.com/gastownhall/gascity/pull/4138"},
@@ -42,7 +42,10 @@
     "6811": {"human_comment_authors": ["julianknutsen"], "human_review_authors": [], "mergeable_state": "blocked", "merged": false, "state": "open", "title": "fix(beads): preserve city JSONL retention opt-out", "url": "https://github.com/gastownhall/gascity/pull/6811"},
     "6938": {"human_comment_authors": [], "human_review_authors": [], "mergeable_state": "unstable", "merged": false, "state": "open", "title": "test(contract): isolate managed-city reachability checks", "url": "https://github.com/gastownhall/gascity/pull/6938"},
     "6949": {"human_comment_authors": [], "human_review_authors": [], "mergeable_state": "blocked", "merged": false, "state": "open", "title": "fix(jsonl): honor archive branch and remote locality", "url": "https://github.com/gastownhall/gascity/pull/6949"},
-    "6950": {"human_comment_authors": [], "human_review_authors": [], "mergeable_state": "blocked", "merged": false, "state": "open", "title": "fix(pi): honor managed gc runtime in hooks", "url": "https://github.com/gastownhall/gascity/pull/6950"}
+    "6950": {"human_comment_authors": [], "human_review_authors": [], "mergeable_state": "unstable", "merged": false, "state": "open", "title": "fix(pi): honor managed gc runtime in hooks", "url": "https://github.com/gastownhall/gascity/pull/6950"},
+    "6954": {"human_comment_authors": [], "human_review_authors": [], "mergeable_state": "blocked", "merged": false, "state": "open", "title": "fix(formula): reject unsupported check keys", "url": "https://github.com/gastownhall/gascity/pull/6954"},
+    "6955": {"human_comment_authors": [], "human_review_authors": [], "mergeable_state": "blocked", "merged": false, "state": "open", "title": "fix(pool): preserve canonical human handoffs", "url": "https://github.com/gastownhall/gascity/pull/6955"},
+    "6956": {"human_comment_authors": [], "human_review_authors": [], "mergeable_state": "blocked", "merged": false, "state": "open", "title": "fix(dispatch): retry direct Ralph infrastructure failures", "url": "https://github.com/gastownhall/gascity/pull/6956"}
   },
   "repo": "gastownhall/gascity",
   "schema_version": 1

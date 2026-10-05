@@ -2,7 +2,7 @@
  "schema_version": 1,
  "repo": "gastownhall/gascity",
  "author": "rjgeng",
- "last_checked_at": "2026-10-05T08:49:11Z",
+ "last_checked_at": "2026-10-05T09:47:04Z",
  "prs": {
   "4095": {
    "title": "fix(session): refresh reset_committed_at on every continuation-reset re-arm (#4067)",
@@ -147,7 +147,7 @@
    "title": "fix(workflow): read workflow descendants at TierBoth through the live handle (#6129)",
    "state": "open",
    "merged": false,
-   "mergeable_state": "clean",
+   "mergeable_state": "unknown",
    "url": "https://github.com/gastownhall/gascity/pull/6163",
    "human_comment_authors": [
     "A3Ackerman"

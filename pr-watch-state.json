@@ -2,7 +2,7 @@
   "schema_version": 1,
   "repo": "gastownhall/gascity",
   "author": "rjgeng",
-  "last_checked_at": "2026-10-05T20:07:17Z",
+  "last_checked_at": "2026-10-05T21:01:04Z",
   "prs": {
     "4095": {
       "title": "fix(session): refresh reset_committed_at on every continuation-reset re-arm (#4067)",
@@ -210,7 +210,7 @@
       "title": "fix(convoy): order the workflow root last in delete-sweep so an interrupted delete never leaves it closed with open descendants",
       "state": "open",
       "merged": false,
-      "mergeable_state": "unknown",
+      "mergeable_state": "blocked",
       "url": "https://github.com/gastownhall/gascity/pull/6340",
       "human_comment_authors": [],
       "human_review_authors": []
@@ -219,7 +219,7 @@
       "title": "fix(config): let a template opt a cold pool out of the wake-probe's clamped-1 override (Agent.ColdWake)",
       "state": "open",
       "merged": false,
-      "mergeable_state": "unknown",
+      "mergeable_state": "dirty",
       "url": "https://github.com/gastownhall/gascity/pull/6364",
       "human_comment_authors": [],
       "human_review_authors": []
@@ -228,7 +228,7 @@
       "title": "fix(handoff): give PreCompact its own flat systemMessage shape under --hook-format codex",
       "state": "open",
       "merged": false,
-      "mergeable_state": "unknown",
+      "mergeable_state": "blocked",
       "url": "https://github.com/gastownhall/gascity/pull/6365",
       "human_comment_authors": [],
       "human_review_authors": []
@@ -237,7 +237,7 @@
       "title": "fix(nudge): derive the CLI's session-class store from the city's work store at every call site",
       "state": "open",
       "merged": false,
-      "mergeable_state": "unknown",
+      "mergeable_state": "blocked",
       "url": "https://github.com/gastownhall/gascity/pull/6366",
       "human_comment_authors": [
         "julianknutsen"
@@ -248,7 +248,7 @@
       "title": "fix(nudge): probe controller liveness before suppressing the per-session nudge poller",
       "state": "open",
       "merged": false,
-      "mergeable_state": "unknown",
+      "mergeable_state": "dirty",
       "url": "https://github.com/gastownhall/gascity/pull/6397",
       "human_comment_authors": [
         "rjgeng"
@@ -259,7 +259,7 @@
       "title": "fix(pool): treat a live session's currently_processing_bead_id as first-party proof of ownership",
       "state": "open",
       "merged": false,
-      "mergeable_state": "unknown",
+      "mergeable_state": "blocked",
       "url": "https://github.com/gastownhall/gascity/pull/6410",
       "human_comment_authors": [],
       "human_review_authors": []
@@ -268,7 +268,7 @@
       "title": "fix(dolt): unblock watchdog SIGKILL on Darwin",
       "state": "open",
       "merged": false,
-      "mergeable_state": "unknown",
+      "mergeable_state": "blocked",
       "url": "https://github.com/gastownhall/gascity/pull/6512",
       "human_comment_authors": [
         "rjgeng"
@@ -279,7 +279,7 @@
       "title": "fix(worktrees): honor configured root during cleanup",
       "state": "open",
       "merged": false,
-      "mergeable_state": "unknown",
+      "mergeable_state": "blocked",
       "url": "https://github.com/gastownhall/gascity/pull/6732",
       "human_comment_authors": [],
       "human_review_authors": []
@@ -288,7 +288,7 @@
       "title": "fix(runtime): recognize Codex trust dialog",
       "state": "open",
       "merged": false,
-      "mergeable_state": "unknown",
+      "mergeable_state": "blocked",
       "url": "https://github.com/gastownhall/gascity/pull/6734",
       "human_comment_authors": [
         "julianknutsen"
@@ -299,7 +299,7 @@
       "title": "ci(bazel): provision shared test tmpdir",
       "state": "open",
       "merged": false,
-      "mergeable_state": "unknown",
+      "mergeable_state": "dirty",
       "url": "https://github.com/gastownhall/gascity/pull/6740",
       "human_comment_authors": [],
       "human_review_authors": []
@@ -308,7 +308,7 @@
       "title": "fix(backstop): require affirmative idle snapshot",
       "state": "open",
       "merged": false,
-      "mergeable_state": "unknown",
+      "mergeable_state": "blocked",
       "url": "https://github.com/gastownhall/gascity/pull/6773",
       "human_comment_authors": [],
       "human_review_authors": []
@@ -317,7 +317,7 @@
       "title": "fix(beads): preserve city JSONL retention opt-out",
       "state": "open",
       "merged": false,
-      "mergeable_state": "unknown",
+      "mergeable_state": "blocked",
       "url": "https://github.com/gastownhall/gascity/pull/6811",
       "human_comment_authors": [
         "julianknutsen"
@@ -328,7 +328,7 @@
       "title": "test(contract): isolate managed-city reachability checks",
       "state": "open",
       "merged": false,
-      "mergeable_state": "unknown",
+      "mergeable_state": "unstable",
       "url": "https://github.com/gastownhall/gascity/pull/6938",
       "human_comment_authors": [],
       "human_review_authors": []
@@ -337,7 +337,7 @@
       "title": "fix(jsonl): honor archive branch and remote locality",
       "state": "open",
       "merged": false,
-      "mergeable_state": "unknown",
+      "mergeable_state": "unstable",
       "url": "https://github.com/gastownhall/gascity/pull/6949",
       "human_comment_authors": [],
       "human_review_authors": []
@@ -346,7 +346,7 @@
       "title": "fix(pi): honor managed gc runtime in hooks",
       "state": "open",
       "merged": false,
-      "mergeable_state": "unknown",
+      "mergeable_state": "unstable",
       "url": "https://github.com/gastownhall/gascity/pull/6950",
       "human_comment_authors": [],
       "human_review_authors": []
@@ -355,7 +355,7 @@
       "title": "fix(formula): reject unsupported check keys",
       "state": "open",
       "merged": false,
-      "mergeable_state": "unknown",
+      "mergeable_state": "unstable",
       "url": "https://github.com/gastownhall/gascity/pull/6954",
       "human_comment_authors": [],
       "human_review_authors": []
@@ -364,7 +364,7 @@
       "title": "fix(pool): preserve canonical human handoffs",
       "state": "open",
       "merged": false,
-      "mergeable_state": "unknown",
+      "mergeable_state": "unstable",
       "url": "https://github.com/gastownhall/gascity/pull/6955",
       "human_comment_authors": [],
       "human_review_authors": []
@@ -373,7 +373,7 @@
       "title": "fix(dispatch): retry direct Ralph infrastructure failures",
       "state": "open",
       "merged": false,
-      "mergeable_state": "unknown",
+      "mergeable_state": "blocked",
       "url": "https://github.com/gastownhall/gascity/pull/6956",
       "human_comment_authors": [
         "julianknutsen"
@@ -384,7 +384,7 @@
       "title": "fix(controller): no wake demand for a deferred molecule root",
       "state": "open",
       "merged": false,
-      "mergeable_state": "unknown",
+      "mergeable_state": "blocked",
       "url": "https://github.com/gastownhall/gascity/pull/7110",
       "human_comment_authors": [],
       "human_review_authors": []
@@ -393,7 +393,7 @@
       "title": "fix(test): schema probe no longer leaks a gate-lock file, prefers tmpfs on Linux",
       "state": "open",
       "merged": false,
-      "mergeable_state": "unknown",
+      "mergeable_state": "blocked",
       "url": "https://github.com/gastownhall/gascity/pull/7111",
       "human_comment_authors": [],
       "human_review_authors": []
@@ -402,7 +402,7 @@
       "title": "fix(test): TestCachingStoreScanFencesStress no longer flakes on a legitimate recent-local-write keep",
       "state": "open",
       "merged": false,
-      "mergeable_state": "unknown",
+      "mergeable_state": "blocked",
       "url": "https://github.com/gastownhall/gascity/pull/7114",
       "human_comment_authors": [],
       "human_review_authors": []
@@ -411,7 +411,7 @@
       "title": "fix(lint): gc lint catches hook matchers that can't compile as regex",
       "state": "open",
       "merged": false,
-      "mergeable_state": "unknown",
+      "mergeable_state": "blocked",
       "url": "https://github.com/gastownhall/gascity/pull/7123",
       "human_comment_authors": [],
       "human_review_authors": []

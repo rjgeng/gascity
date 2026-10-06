@@ -1,1 +1,420 @@
-ewogICJzY2hlbWFfdmVyc2lvbiI6IDEsCiAgInJlcG8iOiAiZ2FzdG93bmhhbGwvZ2FzY2l0eSIsCiAgImF1dGhvciI6ICJyamdlbmciLAogICJsYXN0X2NoZWNrZWRfYXQiOiAiMjAyNi0xMC0wNlQxMzo0OTowNFoiLAogICJwcnMiOiB7CiAgICAiNDA5NSI6IHsKICAgICAgInRpdGxlIjogImZpeChzZXNzaW9uKTogcmVmcmVzaCByZXNldF9jb21taXR0ZWRfYXQgb24gZXZlcnkgY29udGludWF0aW9uLXJlc2V0IHJlLWFybSAoIzQwNjcpIiwKICAgICAgInN0YXRlIjogIm9wZW4iLAogICAgICAibWVyZ2VkIjogZmFsc2UsCiAgICAgICJtZXJnZWFibGVfc3RhdGUiOiAiYmxvY2tlZCIsCiAgICAgICJ1cmwiOiAiaHR0cHM6Ly9naXRodWIuY29tL2dhc3Rvd25oYWxsL2dhc2NpdHkvcHVsbC80MDk1IiwKICAgICAgImh1bWFuX2NvbW1lbnRfYXV0aG9ycyI6IFsKICAgICAgICAicmpnZW5nIgogICAgICBdLAogICAgICAiaHVtYW5fcmV2aWV3X2F1dGhvcnMiOiBbXQogICAgfSwKICAgICI0MTM4IjogewogICAgICAidGl0bGUiOiAiZml4KHNlc3Npb24pOiBnYyBzZXNzaW9uIGF0dGFjaCB3YWl0cyBmb3IgYW4gaW4tZmxpZ2h0IGNvbnRyb2xsZXIgcmVzZXQgaW5zdGVhZCBvZiByYWNpbmcgaXQgKCM0MDc5KSIsCiAgICAgICJzdGF0ZSI6ICJvcGVuIiwKICAgICAgIm1lcmdlZCI6IGZhbHNlLAogICAgICAibWVyZ2VhYmxlX3N0YXRlIjogImJsb2NrZWQiLAogICAgICAidXJsIjogImh0dHBzOi8vZ2l0aHViLmNvbS9nYXN0b3duaGFsbC9nYXNjaXR5L3B1bGwvNDEzOCIsCiAgICAgICJodW1hbl9jb21tZW50X2F1dGhvcnMiOiBbXSwKICAgICAgImh1bWFuX3Jldmlld19hdXRob3JzIjogW10KICAgIH0sCiAgICAiNDQ4MSI6IHsKICAgICAgInRpdGxlIjogImZpeChydW50aW1lKTogdHJlYXQgYSBnb25lIHNlc3Npb24gYXMgZHJhaW4tYWNrZWQgKCM0NDQ4KSIsCiAgICAgICJzdGF0ZSI6ICJvcGVuIiwKICAgICAgIm1lcmdlZCI6IGZhbHNlLAogICAgICAibWVyZ2VhYmxlX3N0YXRlIjogImJsb2NrZWQiLAogICAgICAidXJsIjogImh0dHBzOi8vZ2l0aHViLmNvbS9nYXN0b3duaGFsbC9nYXNjaXR5L3B1bGwvNDQ4MSIsCiAgICAgICJodW1hbl9jb21tZW50X2F1dGhvcnMiOiBbCiAgICAgICAgInJqZ2VuZyIKICAgICAgXSwKICAgICAgImh1bWFuX3Jldmlld19hdXRob3JzIjogW10KICAgIH0sCiAgICAiNDU4NCI6IHsKICAgICAgInRpdGxlIjogImZpeChzbGluZyk6IC0tbnVkZ2UgZmFsbHMgYmFjayB0byBhIHJ1bm5pbmcgbmFtZWQgc2Vzc2lvbiBmb3IgaW5zdGFuY2UtZXhwYW5kYWJsZSBhZ2VudHMgKCMzNDEyKSIsCiAgICAgICJzdGF0ZSI6ICJvcGVuIiwKICAgICAgIm1lcmdlZCI6IGZhbHNlLAogICAgICAibWVyZ2VhYmxlX3N0YXRlIjogImJsb2NrZWQiLAogICAgICAidXJsIjogImh0dHBzOi8vZ2l0aHViLmNvbS9nYXN0b3duaGFsbC9nYXNjaXR5L3B1bGwvNDU4NCIsCiAgICAgICJodW1hbl9jb21tZW50X2F1dGhvcnMiOiBbCiAgICAgICAgInJlbXVzY2F6YWN1IgogICAgICBdLAogICAgICAiaHVtYW5fcmV2aWV3X2F1dGhvcnMiOiBbXQogICAgfSwKICAgICI1MjU3IjogewogICAgICAidGl0bGUiOiAiZml4KG1haWwpOiBhZGQgdW5yZWFkLW1haWwgVFRMIHNvIG5ldmVyLXJlYWQgbWFpbCB3aXNwcyBhZ2Ugb3V0ICgjNTI0MCkiLAogICAgICAic3RhdGUiOiAib3BlbiIsCiAgICAgICJtZXJnZWQiOiBmYWxzZSwKICAgICAgIm1lcmdlYWJsZV9zdGF0ZSI6ICJkaXJ0eSIsCiAgICAgICJ1cmwiOiAiaHR0cHM6Ly9naXRodWIuY29tL2dhc3Rvd25oYWxsL2dhc2NpdHkvcHVsbC81MjU3IiwKICAgICAgImh1bWFuX2NvbW1lbnRfYXV0aG9ycyI6IFsKICAgICAgICAiY3NhdWVyMDItcGVyc29uYWwtdXNlciIsCiAgICAgICAgInF1YWQzNDEiCiAgICAgIF0sCiAgICAgICJodW1hbl9yZXZpZXdfYXV0aG9ycyI6IFtdCiAgICB9LAogICAgIjUzNjUiOiB7CiAgICAgICJ0aXRsZSI6ICJmaXgoc3VwZXJ2aXNvcik6IGF1dG8tdW5yZWdpc3RlciBvbiByZXBlYXRlZCBzdGFsZS1jb25maWcgbG9hZCBmYWlsdXJlcyAoIzUzMTMpIiwKICAgICAgInN0YXRlIjogIm9wZW4iLAogICAgICAibWVyZ2VkIjogZmFsc2UsCiAgICAgICJtZXJnZWFibGVfc3RhdGUiOiAiYmxvY2tlZCIsCiAgICAgICJ1cmwiOiAiaHR0cHM6Ly9naXRodWIuY29tL2dhc3Rvd25oYWxsL2dhc2NpdHkvcHVsbC81MzY1IiwKICAgICAgImh1bWFuX2NvbW1lbnRfYXV0aG9ycyI6IFtdLAogICAgICAiaHVtYW5fcmV2aWV3X2F1dGhvcnMiOiBbXQogICAgfSwKICAgICI1ODU0IjogewogICAgICAidGl0bGUiOiAiY2hvcmUoYXBpKTogcmVnZW5lcmF0ZSBnZW5lcmF0ZWQgYXJ0aWZhY3RzIGZvciBhIG5ldyBHRVQgL3Nlc3Npb25zID9lbnJpY2g9IHF1ZXJ5IHBhcmFtIiwKICAgICAgInN0YXRlIjogIm9wZW4iLAogICAgICAibWVyZ2VkIjogZmFsc2UsCiAgICAgICJtZXJnZWFibGVfc3RhdGUiOiAiZGlydHkiLAogICAgICAidXJsIjogImh0dHBzOi8vZ2l0aHViLmNvbS9nYXN0b3duaGFsbC9nYXNjaXR5L3B1bGwvNTg1NCIsCiAgICAgICJodW1hbl9jb21tZW50X2F1dGhvcnMiOiBbXSwKICAgICAgImh1bWFuX3Jldmlld19hdXRob3JzIjogW10KICAgIH0sCiAgICAiNTk3NyI6IHsKICAgICAgInRpdGxlIjogImZpeCh0bXV4KTogZGV0ZWN0IENsYXVkZSdzIGJhcmUtZ2VydW5kIHNwaW5uZXIsIGZpeCBzdWJtaXQtY29uZmlybSBiYXNlbGluZSwgc3VyZmFjZSB0d28gc3dhbGxvd2VkIGVycm9ycyAoIzU5NTQpIiwKICAgICAgInN0YXRlIjogIm9wZW4iLAogICAgICAibWVyZ2VkIjogZmFsc2UsCiAgICAgICJtZXJnZWFibGVfc3RhdGUiOiAiZGlydHkiLAogICAgICAidXJsIjogImh0dHBzOi8vZ2l0aHViLmNvbS9nYXN0b3duaGFsbC9nYXNjaXR5L3B1bGwvNTk3NyIsCiAgICAgICJodW1hbl9jb21tZW50X2F1dGhvcnMiOiBbCiAgICAgICAgInNKb2huc29uU3RvZXZlciIKICAgICAgXSwKICAgICAgImh1bWFuX3Jldmlld19hdXRob3JzIjogW10KICAgIH0sCiAgICAiNjAwNyI6IHsKICAgICAgInRpdGxlIjogImZpeChiZWFkcyk6IGNvbnN1bHQgbmF0aXZlLW9wZW4gZGVmZXJyYWwgYmVmb3JlIGRpYWxpbmcgdGhlIGlkZW50aXR5IHByb2JlICgjNTk2NSkiLAogICAgICAic3RhdGUiOiAib3BlbiIsCiAgICAgICJtZXJnZWQiOiBmYWxzZSwKICAgICAgIm1lcmdlYWJsZV9zdGF0ZSI6ICJ1bnN0YWJsZSIsCiAgICAgICJ1cmwiOiAiaHR0cHM6Ly9naXRodWIuY29tL2dhc3Rvd25oYWxsL2dhc2NpdHkvcHVsbC82MDA3IiwKICAgICAgImh1bWFuX2NvbW1lbnRfYXV0aG9ycyI6IFsKICAgICAgICAiQTNBY2tlcm1hbiIKICAgICAgXSwKICAgICAgImh1bWFuX3Jldmlld19hdXRob3JzIjogW10KICAgIH0sCiAgICAiNjAzOCI6IHsKICAgICAgInRpdGxlIjogImZpeChzbGluZyk6IHNraXAgYSBjaGlsZCBiZWFkIHRoZSBmcmVzaCBjaGVjayBmaW5kcyBhbHJlYWR5IHRlcm1pbmFsICgjNTkyNykiLAogICAgICAic3RhdGUiOiAib3BlbiIsCiAgICAgICJtZXJnZWQiOiBmYWxzZSwKICAgICAgIm1lcmdlYWJsZV9zdGF0ZSI6ICJibG9ja2VkIiwKICAgICAgInVybCI6ICJodHRwczovL2dpdGh1Yi5jb20vZ2FzdG93bmhhbGwvZ2FzY2l0eS9wdWxsLzYwMzgiLAogICAgICAiaHVtYW5fY29tbWVudF9hdXRob3JzIjogW10sCiAgICAgICJodW1hbl9yZXZpZXdfYXV0aG9ycyI6IFtdCiAgICB9LAogICAgIjYwNTMiOiB7CiAgICAgICJ0aXRsZSI6ICJmaXgoY29yZS1wYWNrKTogYW5jaG9yIHdvcmt0cmVlIGNyZWF0aW9uIG9uICRHQ19ESVIsIG5vdCAkKHB3ZCkgKCM2MDE0KSIsCiAgICAgICJzdGF0ZSI6ICJvcGVuIiwKICAgICAgIm1lcmdlZCI6IGZhbHNlLAogICAgICAibWVyZ2VhYmxlX3N0YXRlIjogImJsb2NrZWQiLAogICAgICAidXJsIjogImh0dHBzOi8vZ2l0aHViLmNvbS9nYXN0b3duaGFsbC9nYXNjaXR5L3B1bGwvNjA1MyIsCiAgICAgICJodW1hbl9jb21tZW50X2F1dGhvcnMiOiBbXSwKICAgICAgImh1bWFuX3Jldmlld19hdXRob3JzIjogW10KICAgIH0sCiAgICAiNjA1OSI6IHsKICAgICAgInRpdGxlIjogImZpeChjbWQvZ2MpOiBza2lwIGRpc3BhdGNoLWhlbGQgc2libGluZ3MgaW4gY29udGludWF0aW9uIHByZS1hc3NpZ25tZW50ICgjNjAyNikiLAogICAgICAic3RhdGUiOiAib3BlbiIsCiAgICAgICJtZXJnZWQiOiBmYWxzZSwKICAgICAgIm1lcmdlYWJsZV9zdGF0ZSI6ICJibG9ja2VkIiwKICAgICAgInVybCI6ICJodHRwczovL2dpdGh1Yi5jb20vZ2FzdG93bmhhbGwvZ2FzY2l0eS9wdWxsLzYwNTkiLAogICAgICAiaHVtYW5fY29tbWVudF9hdXRob3JzIjogW10sCiAgICAgICJodW1hbl9yZXZpZXdfYXV0aG9ycyI6IFtdCiAgICB9LAogICAgIjYwNjIiOiB7CiAgICAgICJ0aXRsZSI6ICJmaXgoY21kL2djKTogcmVvcGVuLXNvdXJjZSBhbHNvIHJlb3BlbnMgdHJhY2tpbmcgY29udm95cyAoIzYwNDUpIiwKICAgICAgInN0YXRlIjogIm9wZW4iLAogICAgICAibWVyZ2VkIjogZmFsc2UsCiAgICAgICJtZXJnZWFibGVfc3RhdGUiOiAiYmxvY2tlZCIsCiAgICAgICJ1cmwiOiAiaHR0cHM6Ly9naXRodWIuY29tL2dhc3Rvd25oYWxsL2dhc2NpdHkvcHVsbC82MDYyIiwKICAgICAgImh1bWFuX2NvbW1lbnRfYXV0aG9ycyI6IFtdLAogICAgICAiaHVtYW5fcmV2aWV3X2F1dGhvcnMiOiBbXQogICAgfSwKICAgICI2MDk3IjogewogICAgICAidGl0bGUiOiAiZml4KHN1c3BlbnNpb25zdGF0ZSk6IHNlcmlhbGl6ZSByaWcgc3VzcGVuZC9yZXN1bWUgd2l0aCBhIGNyb3NzLXByb2Nlc3MgZmxvY2sgKCM2MDU2KSIsCiAgICAgICJzdGF0ZSI6ICJvcGVuIiwKICAgICAgIm1lcmdlZCI6IGZhbHNlLAogICAgICAibWVyZ2VhYmxlX3N0YXRlIjogImRpcnR5IiwKICAgICAgInVybCI6ICJodHRwczovL2dpdGh1Yi5jb20vZ2FzdG93bmhhbGwvZ2FzY2l0eS9wdWxsLzYwOTciLAogICAgICAiaHVtYW5fY29tbWVudF9hdXRob3JzIjogW10sCiAgICAgICJodW1hbl9yZXZpZXdfYXV0aG9ycyI6IFtdCiAgICB9LAogICAgIjYxNjciOiB7CiAgICAgICJ0aXRsZSI6ICJmaXgoZG9jdG9yKTogc3VyZmFjZSBlZmZlY3RpdmUgY2l0eSBzdXNwZW5zaW9uIGFzIGEgZG9jdG9yIGNoZWNrICgjNjEyNikiLAogICAgICAic3RhdGUiOiAib3BlbiIsCiAgICAgICJtZXJnZWQiOiBmYWxzZSwKICAgICAgIm1lcmdlYWJsZV9zdGF0ZSI6ICJkaXJ0eSIsCiAgICAgICJ1cmwiOiAiaHR0cHM6Ly9naXRodWIuY29tL2dhc3Rvd25oYWxsL2dhc2NpdHkvcHVsbC82MTY3IiwKICAgICAgImh1bWFuX2NvbW1lbnRfYXV0aG9ycyI6IFtdLAogICAgICAiaHVtYW5fcmV2aWV3X2F1dGhvcnMiOiBbXQogICAgfSwKICAgICI2MjY5IjogewogICAgICAidGl0bGUiOiAiZml4KGNvbmZpZyk6IGFwcGx5IGZlYXR1cmUgZmxhZ3MgaW4gdGhlIHN1cGVydmlzb3IncyBwZXItY2l0eSBsb2FkZXIgKCM2MjM2KSIsCiAgICAgICJzdGF0ZSI6ICJvcGVuIiwKICAgICAgIm1lcmdlZCI6IGZhbHNlLAogICAgICAibWVyZ2VhYmxlX3N0YXRlIjogImJsb2NrZWQiLAogICAgICAidXJsIjogImh0dHBzOi8vZ2l0aHViLmNvbS9nYXN0b3duaGFsbC9nYXNjaXR5L3B1bGwvNjI2OSIsCiAgICAgICJodW1hbl9jb21tZW50X2F1dGhvcnMiOiBbXSwKICAgICAgImh1bWFuX3Jldmlld19hdXRob3JzIjogW10KICAgIH0sCiAgICAiNjI3MCI6IHsKICAgICAgInRpdGxlIjogImZpeChtb2xlY3VsZSk6IHJldHJ5IGEgZHJvcHBlZCBtb2xlY3VsZV9mYWlsZWQgc3RhbXAgYmVmb3JlIGdpdmluZyB1cCAoIzYyMzUpIiwKICAgICAgInN0YXRlIjogIm9wZW4iLAogICAgICAibWVyZ2VkIjogZmFsc2UsCiAgICAgICJtZXJnZWFibGVfc3RhdGUiOiAiYmxvY2tlZCIsCiAgICAgICJ1cmwiOiAiaHR0cHM6Ly9naXRodWIuY29tL2dhc3Rvd25oYWxsL2dhc2NpdHkvcHVsbC82MjcwIiwKICAgICAgImh1bWFuX2NvbW1lbnRfYXV0aG9ycyI6IFtdLAogICAgICAiaHVtYW5fcmV2aWV3X2F1dGhvcnMiOiBbXQogICAgfSwKICAgICI2MzI1IjogewogICAgICAidGl0bGUiOiAiZml4KHdvcmt0cmVlKTogc3RvcCBUZXN0TWFuYWdlZERyeVJ1bkRvZXNOb3RQdWJsaXNoUHJvdmVuYW5jZSBmbGFraW5nIG9uIHRyYW5zaWVudCBnaXQgbG9jayBmaWxlcyIsCiAgICAgICJzdGF0ZSI6ICJvcGVuIiwKICAgICAgIm1lcmdlZCI6IGZhbHNlLAogICAgICAibWVyZ2VhYmxlX3N0YXRlIjogImJsb2NrZWQiLAogICAgICAidXJsIjogImh0dHBzOi8vZ2l0aHViLmNvbS9nYXN0b3duaGFsbC9nYXNjaXR5L3B1bGwvNjMyNSIsCiAgICAgICJodW1hbl9jb21tZW50X2F1dGhvcnMiOiBbXSwKICAgICAgImh1bWFuX3Jldmlld19hdXRob3JzIjogW10KICAgIH0sCiAgICAiNjMyNiI6IHsKICAgICAgInRpdGxlIjogImZpeCh0bXV4KTogY29ycm9ib3JhdGUgTGlzdFJ1bm5pbmcncyBTZXJ2ZXJBYnNlbnQgd2l0aCBhIHNvY2tldCBvYnNlcnZhdGlvbiIsCiAgICAgICJzdGF0ZSI6ICJvcGVuIiwKICAgICAgIm1lcmdlZCI6IGZhbHNlLAogICAgICAibWVyZ2VhYmxlX3N0YXRlIjogImRpcnR5IiwKICAgICAgInVybCI6ICJodHRwczovL2dpdGh1Yi5jb20vZ2FzdG93bmhhbGwvZ2FzY2l0eS9wdWxsLzYzMjYiLAogICAgICAiaHVtYW5fY29tbWVudF9hdXRob3JzIjogW10sCiAgICAgICJodW1hbl9yZXZpZXdfYXV0aG9ycyI6IFtdCiAgICB9LAogICAgIjYzMzEiOiB7CiAgICAgICJ0aXRsZSI6ICJmaXgocmVhcGVyKTogc3RvcCBTdGVwIDYgU1FMIHBydW5lIGZyb20gY3Jhc2hpbmcgdGhlIHJ1biBvbiB6ZXJvIG1hdGNoZWQgcm93cyAoIzYyODQpIiwKICAgICAgInN0YXRlIjogIm9wZW4iLAogICAgICAibWVyZ2VkIjogZmFsc2UsCiAgICAgICJtZXJnZWFibGVfc3RhdGUiOiAiZGlydHkiLAogICAgICAidXJsIjogImh0dHBzOi8vZ2l0aHViLmNvbS9nYXN0b3duaGFsbC9nYXNjaXR5L3B1bGwvNjMzMSIsCiAgICAgICJodW1hbl9jb21tZW50X2F1dGhvcnMiOiBbXSwKICAgICAgImh1bWFuX3Jldmlld19hdXRob3JzIjogW10KICAgIH0sCiAgICAiNjMzNyI6IHsKICAgICAgInRpdGxlIjogImZpeChob29rKTogY2xvc2UgMyBmYWlsLW9wZW4gZ2FwcyBpbiBob29rQ2xhaW1EaXJMb29rc0xpa2VSZXBvIHJlcG8tbWFya2VyIGRldGVjdGlvbiIsCiAgICAgICJzdGF0ZSI6ICJvcGVuIiwKICAgICAgIm1lcmdlZCI6IGZhbHNlLAogICAgICAibWVyZ2VhYmxlX3N0YXRlIjogImJsb2NrZWQiLAogICAgICAidXJsIjogImh0dHBzOi8vZ2l0aHViLmNvbS9nYXN0b3duaGFsbC9nYXNjaXR5L3B1bGwvNjMzNyIsCiAgICAgICJodW1hbl9jb21tZW50X2F1dGhvcnMiOiBbXSwKICAgICAgImh1bWFuX3Jldmlld19hdXRob3JzIjogW10KICAgIH0sCiAgICAiNjM0MCI6IHsKICAgICAgInRpdGxlIjogImZpeChjb252b3kpOiBvcmRlciB0aGUgd29ya2Zsb3cgcm9vdCBsYXN0IGluIGRlbGV0ZS1zd2VlcCBzbyBhbiBpbnRlcnJ1cHRlZCBkZWxldGUgbmV2ZXIgbGVhdmVzIGl0IGNsb3NlZCB3aXRoIG9wZW4gZGVzY2VuZGFudHMiLAogICAgICAic3RhdGUiOiAib3BlbiIsCiAgICAgICJtZXJnZWQiOiBmYWxzZSwKICAgICAgIm1lcmdlYWJsZV9zdGF0ZSI6ICJibG9ja2VkIiwKICAgICAgInVybCI6ICJodHRwczovL2dpdGh1Yi5jb20vZ2FzdG93bmhhbGwvZ2FzY2l0eS9wdWxsLzYzNDAiLAogICAgICAiaHVtYW5fY29tbWVudF9hdXRob3JzIjogW10sCiAgICAgICJodW1hbl9yZXZpZXdfYXV0aG9ycyI6IFtdCiAgICB9LAogICAgIjYzNjQiOiB7CiAgICAgICJ0aXRsZSI6ICJmaXgoY29uZmlnKTogbGV0IGEgdGVtcGxhdGUgb3B0IGEgY29sZCBwb29sIG91dCBvZiB0aGUgd2FrZS1wcm9iZSdzIGNsYW1wZWQtMSBvdmVycmlkZSAoQWdlbnQuQ29sZFdha2UpIiwKICAgICAgInN0YXRlIjogIm9wZW4iLAogICAgICAibWVyZ2VkIjogZmFsc2UsCiAgICAgICJtZXJnZWFibGVfc3RhdGUiOiAiZGlydHkiLAogICAgICAidXJsIjogImh0dHBzOi8vZ2l0aHViLmNvbS9nYXN0b3duaGFsbC9nYXNjaXR5L3B1bGwvNjM2NCIsCiAgICAgICJodW1hbl9jb21tZW50X2F1dGhvcnMiOiBbXSwKICAgICAgImh1bWFuX3Jldmlld19hdXRob3JzIjogW10KICAgIH0sCiAgICAiNjM2NSI6IHsKICAgICAgInRpdGxlIjogImZpeChoYW5kb2ZmKTogZ2l2ZSBQcmVDb21wYWN0IGl0cyBvd24gZmxhdCBzeXN0ZW1NZXNzYWdlIHNoYXBlIHVuZGVyIC0taG9vay1mb3JtYXQgY29kZXgiLAogICAgICAic3RhdGUiOiAib3BlbiIsCiAgICAgICJtZXJnZWQiOiBmYWxzZSwKICAgICAgIm1lcmdlYWJsZV9zdGF0ZSI6ICJibG9ja2VkIiwKICAgICAgInVybCI6ICJodHRwczovL2dpdGh1Yi5jb20vZ2FzdG93bmhhbGwvZ2FzY2l0eS9wdWxsLzYzNjUiLAogICAgICAiaHVtYW5fY29tbWVudF9hdXRob3JzIjogW10sCiAgICAgICJodW1hbl9yZXZpZXdfYXV0aG9ycyI6IFtdCiAgICB9LAogICAgIjYzNjYiOiB7CiAgICAgICJ0aXRsZSI6ICJmaXgobnVkZ2UpOiBkZXJpdmUgdGhlIENMSSdzIHNlc3Npb24tY2xhc3Mgc3RvcmUgZnJvbSB0aGUgY2l0eSdzIHdvcmsgc3RvcmUgYXQgZXZlcnkgY2FsbCBzaXRlIiwKICAgICAgInN0YXRlIjogIm9wZW4iLAogICAgICAibWVyZ2VkIjogZmFsc2UsCiAgICAgICJtZXJnZWFibGVfc3RhdGUiOiAiYmxvY2tlZCIsCiAgICAgICJ1cmwiOiAiaHR0cHM6Ly9naXRodWIuY29tL2dhc3Rvd25oYWxsL2dhc2NpdHkvcHVsbC82MzY2IiwKICAgICAgImh1bWFuX2NvbW1lbnRfYXV0aG9ycyI6IFsKICAgICAgICAianVsaWFua251dHNlbiIKICAgICAgXSwKICAgICAgImh1bWFuX3Jldmlld19hdXRob3JzIjogW10KICAgIH0sCiAgICAiNjM5NyI6IHsKICAgICAgInRpdGxlIjogImZpeChudWRnZSk6IHByb2JlIGNvbnRyb2xsZXIgbGl2ZW5lc3MgYmVmb3JlIHN1cHByZXNzaW5nIHRoZSBwZXItc2Vzc2lvbiBudWRnZSBwb2xsZXIiLAogICAgICAic3RhdGUiOiAib3BlbiIsCiAgICAgICJtZXJnZWQiOiBmYWxzZSwKICAgICAgIm1lcmdlYWJsZV9zdGF0ZSI6ICJkaXJ0eSIsCiAgICAgICJ1cmwiOiAiaHR0cHM6Ly9naXRodWIuY29tL2dhc3Rvd25oYWxsL2dhc2NpdHkvcHVsbC82Mzk3IiwKICAgICAgImh1bWFuX2NvbW1lbnRfYXV0aG9ycyI6IFsKICAgICAgICAicmpnZW5nIgogICAgICBdLAogICAgICAiaHVtYW5fcmV2aWV3X2F1dGhvcnMiOiBbXQogICAgfSwKICAgICI2NDEwIjogewogICAgICAidGl0bGUiOiAiZml4KHBvb2wpOiB0cmVhdCBhIGxpdmUgc2Vzc2lvbidzIGN1cnJlbnRseV9wcm9jZXNzaW5nX2JlYWRfaWQgYXMgZmlyc3QtcGFydHkgcHJvb2Ygb2Ygb3duZXJzaGlwIiwKICAgICAgInN0YXRlIjogIm9wZW4iLAogICAgICAibWVyZ2VkIjogZmFsc2UsCiAgICAgICJtZXJnZWFibGVfc3RhdGUiOiAiYmxvY2tlZCIsCiAgICAgICJ1cmwiOiAiaHR0cHM6Ly9naXRodWIuY29tL2dhc3Rvd25oYWxsL2dhc2NpdHkvcHVsbC82NDEwIiwKICAgICAgImh1bWFuX2NvbW1lbnRfYXV0aG9ycyI6IFtdLAogICAgICAiaHVtYW5fcmV2aWV3X2F1dGhvcnMiOiBbXQogICAgfSwKICAgICI2NTEyIjogewogICAgICAidGl0bGUiOiAiZml4KGRvbHQpOiB1bmJsb2NrIHdhdGNoZG9nIFNJR0tJTEwgb24gRGFyd2luIiwKICAgICAgInN0YXRlIjogIm9wZW4iLAogICAgICAibWVyZ2VkIjogZmFsc2UsCiAgICAgICJtZXJnZWFibGVfc3RhdGUiOiAiYmxvY2tlZCIsCiAgICAgICJ1cmwiOiAiaHR0cHM6Ly9naXRodWIuY29tL2dhc3Rvd25oYWxsL2dhc2NpdHkvcHVsbC82NTEyIiwKICAgICAgImh1bWFuX2NvbW1lbnRfYXV0aG9ycyI6IFsKICAgICAgICAicmpnZW5nIgogICAgICBdLAogICAgICAiaHVtYW5fcmV2aWV3X2F1dGhvcnMiOiBbXQogICAgfSwKICAgICI2NzMyIjogewogICAgICAidGl0bGUiOiAiZml4KHdvcmt0cmVlcyk6IGhvbm9yIGNvbmZpZ3VyZWQgcm9vdCBkdXJpbmcgY2xlYW51cCIsCiAgICAgICJzdGF0ZSI6ICJvcGVuIiwKICAgICAgIm1lcmdlZCI6IGZhbHNlLAogICAgICAibWVyZ2VhYmxlX3N0YXRlIjogImJsb2NrZWQiLAogICAgICAidXJsIjogImh0dHBzOi8vZ2l0aHViLmNvbS9nYXN0b3duaGFsbC9nYXNjaXR5L3B1bGwvNjczMiIsCiAgICAgICJodW1hbl9jb21tZW50X2F1dGhvcnMiOiBbXSwKICAgICAgImh1bWFuX3Jldmlld19hdXRob3JzIjogW10KICAgIH0sCiAgICAiNjczNCI6IHsKICAgICAgInRpdGxlIjogImZpeChydW50aW1lKTogcmVjb2duaXplIENvZGV4IHRydXN0IGRpYWxvZyIsCiAgICAgICJzdGF0ZSI6ICJvcGVuIiwKICAgICAgIm1lcmdlZCI6IGZhbHNlLAogICAgICAibWVyZ2VhYmxlX3N0YXRlIjogImJsb2NrZWQiLAogICAgICAidXJsIjogImh0dHBzOi8vZ2l0aHViLmNvbS9nYXN0b3duaGFsbC9nYXNjaXR5L3B1bGwvNjczNCIsCiAgICAgICJodW1hbl9jb21tZW50X2F1dGhvcnMiOiBbCiAgICAgICAgImp1bGlhbmtudXRzZW4iCiAgICAgIF0sCiAgICAgICJodW1hbl9yZXZpZXdfYXV0aG9ycyI6IFtdCiAgICB9LAogICAgIjY3NDAiOiB7CiAgICAgICJ0aXRsZSI6ICJjaShiYXplbCk6IHByb3Zpc2lvbiBzaGFyZWQgdGVzdCB0bXBkaXIiLAogICAgICAic3RhdGUiOiAib3BlbiIsCiAgICAgICJtZXJnZWQiOiBmYWxzZSwKICAgICAgIm1lcmdlYWJsZV9zdGF0ZSI6ICJkaXJ0eSIsCiAgICAgICJ1cmwiOiAiaHR0cHM6Ly9naXRodWIuY29tL2dhc3Rvd25oYWxsL2dhc2NpdHkvcHVsbC82NzQwIiwKICAgICAgImh1bWFuX2NvbW1lbnRfYXV0aG9ycyI6IFtdLAogICAgICAiaHVtYW5fcmV2aWV3X2F1dGhvcnMiOiBbXQogICAgfSwKICAgICI2NzczIjogewogICAgICAidGl0bGUiOiAiZml4KGJhY2tzdG9wKTogcmVxdWlyZSBhZmZpcm1hdGl2ZSBpZGxlIHNuYXBzaG90IiwKICAgICAgInN0YXRlIjogIm9wZW4iLAogICAgICAibWVyZ2VkIjogZmFsc2UsCiAgICAgICJtZXJnZWFibGVfc3RhdGUiOiAiYmxvY2tlZCIsCiAgICAgICJ1cmwiOiAiaHR0cHM6Ly9naXRodWIuY29tL2dhc3Rvd25oYWxsL2dhc2NpdHkvcHVsbC82NzczIiwKICAgICAgImh1bWFuX2NvbW1lbnRfYXV0aG9ycyI6IFtdLAogICAgICAiaHVtYW5fcmV2aWV3X2F1dGhvcnMiOiBbXQogICAgfSwKICAgICI2ODExIjogewogICAgICAidGl0bGUiOiAiZml4KGJlYWRzKTogcHJlc2VydmUgY2l0eSBKU09OTCByZXRlbnRpb24gb3B0LW91dCIsCiAgICAgICJzdGF0ZSI6ICJvcGVuIiwKICAgICAgIm1lcmdlZCI6IGZhbHNlLAogICAgICAibWVyZ2VhYmxlX3N0YXRlIjogImJsb2NrZWQiLAogICAgICAidXJsIjogImh0dHBzOi8vZ2l0aHViLmNvbS9nYXN0b3duaGFsbC9nYXNjaXR5L3B1bGwvNjgxMSIsCiAgICAgICJodW1hbl9jb21tZW50X2F1dGhvcnMiOiBbCiAgICAgICAgImp1bGlhbmtudXRzZW4iCiAgICAgIF0sCiAgICAgICJodW1hbl9yZXZpZXdfYXV0aG9ycyI6IFtdCiAgICB9LAogICAgIjY5MzgiOiB7CiAgICAgICJ0aXRsZSI6ICJ0ZXN0KGNvbnRyYWN0KTogaXNvbGF0ZSBtYW5hZ2VkLWNpdHkgcmVhY2hhYmlsaXR5IGNoZWNrcyIsCiAgICAgICJzdGF0ZSI6ICJvcGVuIiwKICAgICAgIm1lcmdlZCI6IGZhbHNlLAogICAgICAibWVyZ2VhYmxlX3N0YXRlIjogInVuc3RhYmxlIiwKICAgICAgInVybCI6ICJodHRwczovL2dpdGh1Yi5jb20vZ2FzdG93bmhhbGwvZ2FzY2l0eS9wdWxsLzY5MzgiLAogICAgICAiaHVtYW5fY29tbWVudF9hdXRob3JzIjogW10sCiAgICAgICJodW1hbl9yZXZpZXdfYXV0aG9ycyI6IFtdCiAgICB9LAogICAgIjY5NDkiOiB7CiAgICAgICJ0aXRsZSI6ICJmaXgoanNvbmwpOiBob25vciBhcmNoaXZlIGJyYW5jaCBhbmQgcmVtb3RlIGxvY2FsaXR5IiwKICAgICAgInN0YXRlIjogIm9wZW4iLAogICAgICAibWVyZ2VkIjogZmFsc2UsCiAgICAgICJtZXJnZWFibGVfc3RhdGUiOiAidW5zdGFibGUiLAogICAgICAidXJsIjogImh0dHBzOi8vZ2l0aHViLmNvbS9nYXN0b3duaGFsbC9nYXNjaXR5L3B1bGwvNjk0OSIsCiAgICAgICJodW1hbl9jb21tZW50X2F1dGhvcnMiOiBbXSwKICAgICAgImh1bWFuX3Jldmlld19hdXRob3JzIjogW10KICAgIH0sCiAgICAiNjk1MCI6IHsKICAgICAgInRpdGxlIjogImZpeChwaSk6IGhvbm9yIG1hbmFnZWQgZ2MgcnVudGltZSBpbiBob29rcyIsCiAgICAgICJzdGF0ZSI6ICJvcGVuIiwKICAgICAgIm1lcmdlZCI6IGZhbHNlLAogICAgICAibWVyZ2VhYmxlX3N0YXRlIjogInVuc3RhYmxlIiwKICAgICAgInVybCI6ICJodHRwczovL2dpdGh1Yi5jb20vZ2FzdG93bmhhbGwvZ2FzY2l0eS9wdWxsLzY5NTAiLAogICAgICAiaHVtYW5fY29tbWVudF9hdXRob3JzIjogW10sCiAgICAgICJodW1hbl9yZXZpZXdfYXV0aG9ycyI6IFtdCiAgICB9LAogICAgIjY5NTQiOiB7CiAgICAgICJ0aXRsZSI6ICJmaXgoZm9ybXVsYSk6IHJlamVjdCB1bnN1cHBvcnRlZCBjaGVjayBrZXlzIiwKICAgICAgInN0YXRlIjogIm9wZW4iLAogICAgICAibWVyZ2VkIjogZmFsc2UsCiAgICAgICJtZXJnZWFibGVfc3RhdGUiOiAidW5zdGFibGUiLAogICAgICAidXJsIjogImh0dHBzOi8vZ2l0aHViLmNvbS9nYXN0b3duaGFsbC9nYXNjaXR5L3B1bGwvNjk1NCIsCiAgICAgICJodW1hbl9jb21tZW50X2F1dGhvcnMiOiBbXSwKICAgICAgImh1bWFuX3Jldmlld19hdXRob3JzIjogW10KICAgIH0sCiAgICAiNjk1NSI6IHsKICAgICAgInRpdGxlIjogImZpeChwb29sKTogcHJlc2VydmUgY2Fub25pY2FsIGh1bWFuIGhhbmRvZmZzIiwKICAgICAgInN0YXRlIjogIm9wZW4iLAogICAgICAibWVyZ2VkIjogZmFsc2UsCiAgICAgICJtZXJnZWFibGVfc3RhdGUiOiAidW5zdGFibGUiLAogICAgICAidXJsIjogImh0dHBzOi8vZ2l0aHViLmNvbS9nYXN0b3duaGFsbC9nYXNjaXR5L3B1bGwvNjk1NSIsCiAgICAgICJodW1hbl9jb21tZW50X2F1dGhvcnMiOiBbXSwKICAgICAgImh1bWFuX3Jldmlld19hdXRob3JzIjogW10KICAgIH0sCiAgICAiNjk1NiI6IHsKICAgICAgInRpdGxlIjogImZpeChkaXNwYXRjaCk6IHJldHJ5IGRpcmVjdCBSYWxwaCBpbmZyYXN0cnVjdHVyZSBmYWlsdXJlcyIsCiAgICAgICJzdGF0ZSI6ICJvcGVuIiwKICAgICAgIm1lcmdlZCI6IGZhbHNlLAogICAgICAibWVyZ2VhYmxlX3N0YXRlIjogImJsb2NrZWQiLAogICAgICAidXJsIjogImh0dHBzOi8vZ2l0aHViLmNvbS9nYXN0b3duaGFsbC9nYXNjaXR5L3B1bGwvNjk1NiIsCiAgICAgICJodW1hbl9jb21tZW50X2F1dGhvcnMiOiBbCiAgICAgICAgImp1bGlhbmtudXRzZW4iCiAgICAgIF0sCiAgICAgICJodW1hbl9yZXZpZXdfYXV0aG9ycyI6IFtdCiAgICB9LAogICAgIjcxMTAiOiB7CiAgICAgICJ0aXRsZSI6ICJmaXgoY29udHJvbGxlcik6IG5vIHdha2UgZGVtYW5kIGZvciBhIGRlZmVycmVkIG1vbGVjdWxlIHJvb3QiLAogICAgICAic3RhdGUiOiAib3BlbiIsCiAgICAgICJtZXJnZWQiOiBmYWxzZSwKICAgICAgIm1lcmdlYWJsZV9zdGF0ZSI6ICJibG9ja2VkIiwKICAgICAgInVybCI6ICJodHRwczovL2dpdGh1Yi5jb20vZ2FzdG93bmhhbGwvZ2FzY2l0eS9wdWxsLzcxMTAiLAogICAgICAiaHVtYW5fY29tbWVudF9hdXRob3JzIjogW10sCiAgICAgICJodW1hbl9yZXZpZXdfYXV0aG9ycyI6IFtdCiAgICB9LAogICAgIjcxMTEiOiB7CiAgICAgICJ0aXRsZSI6ICJmaXgodGVzdCk6IHNjaGVtYSBwcm9iZSBubyBsb25nZXIgbGVha3MgYSBnYXRlLWxvY2sgZmlsZSwgcHJlZmVycyB0bXBmcyBvbiBMaW51eCIsCiAgICAgICJzdGF0ZSI6ICJvcGVuIiwKICAgICAgIm1lcmdlZCI6IGZhbHNlLAogICAgICAibWVyZ2VhYmxlX3N0YXRlIjogImJsb2NrZWQiLAogICAgICAidXJsIjogImh0dHBzOi8vZ2l0aHViLmNvbS9nYXN0b3duaGFsbC9nYXNjaXR5L3B1bGwvNzExMSIsCiAgICAgICJodW1hbl9jb21tZW50X2F1dGhvcnMiOiBbXSwKICAgICAgImh1bWFuX3Jldmlld19hdXRob3JzIjogW10KICAgIH0sCiAgICAiNzExNCI6IHsKICAgICAgInRpdGxlIjogImZpeCh0ZXN0KTogVGVzdENhY2hpbmdTdG9yZVNjYW5GZW5jZXNTdHJlc3Mgbm8gbG9uZ2VyIGZsYWtlcyBvbiBhIGxlZ2l0aW1hdGUgcmVjZW50LWxvY2FsLXdyaXRlIGtlZXAiLAogICAgICAic3RhdGUiOiAib3BlbiIsCiAgICAgICJtZXJnZWQiOiBmYWxzZSwKICAgICAgIm1lcmdlYWJsZV9zdGF0ZSI6ICJibG9ja2VkIiwKICAgICAgInVybCI6ICJodHRwczovL2dpdGh1Yi5jb20vZ2FzdG93bmhhbGwvZ2FzY2l0eS9wdWxsLzcxMTQiLAogICAgICAiaHVtYW5fY29tbWVudF9hdXRob3JzIjogW10sCiAgICAgICJodW1hbl9yZXZpZXdfYXV0aG9ycyI6IFtdCiAgICB9LAogICAgIjcxMjMiOiB7CiAgICAgICJ0aXRsZSI6ICJmaXgobGludCk6IGdjIGxpbnQgY2F0Y2hlcyBob29rIG1hdGNoZXJzIHRoYXQgY2FuJ3QgY29tcGlsZSBhcyByZWdleCIsCiAgICAgICJzdGF0ZSI6ICJvcGVuIiwKICAgICAgIm1lcmdlZCI6IGZhbHNlLAogICAgICAibWVyZ2VhYmxlX3N0YXRlIjogImJsb2NrZWQiLAogICAgICAidXJsIjogImh0dHBzOi8vZ2l0aHViLmNvbS9nYXN0b3duaGFsbC9nYXNjaXR5L3B1bGwvNzEyMyIsCiAgICAgICJodW1hbl9jb21tZW50X2F1dGhvcnMiOiBbXSwKICAgICAgImh1bWFuX3Jldmlld19hdXRob3JzIjogW10KICAgIH0KICB9Cn0K
+{
+  "schema_version": 1,
+  "repo": "gastownhall/gascity",
+  "author": "rjgeng",
+  "last_checked_at": "2026-10-06T13:58:34Z",
+  "prs": {
+    "4095": {
+      "title": "fix(session): refresh reset_committed_at on every continuation-reset re-arm (#4067)",
+      "state": "open",
+      "merged": false,
+      "mergeable_state": "blocked",
+      "url": "https://github.com/gastownhall/gascity/pull/4095",
+      "human_comment_authors": [
+        "rjgeng"
+      ],
+      "human_review_authors": []
+    },
+    "4138": {
+      "title": "fix(session): gc session attach waits for an in-flight controller reset instead of racing it (#4079)",
+      "state": "open",
+      "merged": false,
+      "mergeable_state": "blocked",
+      "url": "https://github.com/gastownhall/gascity/pull/4138",
+      "human_comment_authors": [],
+      "human_review_authors": []
+    },
+    "4481": {
+      "title": "fix(runtime): treat a gone session as drain-acked (#4448)",
+      "state": "open",
+      "merged": false,
+      "mergeable_state": "blocked",
+      "url": "https://github.com/gastownhall/gascity/pull/4481",
+      "human_comment_authors": [
+        "rjgeng"
+      ],
+      "human_review_authors": []
+    },
+    "4584": {
+      "title": "fix(sling): --nudge falls back to a running named session for instance-expandable agents (#3412)",
+      "state": "open",
+      "merged": false,
+      "mergeable_state": "blocked",
+      "url": "https://github.com/gastownhall/gascity/pull/4584",
+      "human_comment_authors": [
+        "remuscazacu"
+      ],
+      "human_review_authors": []
+    },
+    "5257": {
+      "title": "fix(mail): add unread-mail TTL so never-read mail wisps age out (#5240)",
+      "state": "open",
+      "merged": false,
+      "mergeable_state": "dirty",
+      "url": "https://github.com/gastownhall/gascity/pull/5257",
+      "human_comment_authors": [
+        "csauer02-personal-user",
+        "quad341"
+      ],
+      "human_review_authors": []
+    },
+    "5365": {
+      "title": "fix(supervisor): auto-unregister on repeated stale-config load failures (#5313)",
+      "state": "open",
+      "merged": false,
+      "mergeable_state": "blocked",
+      "url": "https://github.com/gastownhall/gascity/pull/5365",
+      "human_comment_authors": [],
+      "human_review_authors": []
+    },
+    "5854": {
+      "title": "chore(api): regenerate generated artifacts for a new GET /sessions ?enrich= query param",
+      "state": "open",
+      "merged": false,
+      "mergeable_state": "dirty",
+      "url": "https://github.com/gastownhall/gascity/pull/5854",
+      "human_comment_authors": [],
+      "human_review_authors": []
+    },
+    "5977": {
+      "title": "fix(tmux): detect Claude's bare-gerund spinner, fix submit-confirm baseline, surface two swallowed errors (#5954)",
+      "state": "open",
+      "merged": false,
+      "mergeable_state": "dirty",
+      "url": "https://github.com/gastownhall/gascity/pull/5977",
+      "human_comment_authors": [
+        "sJohnsonStoever"
+      ],
+      "human_review_authors": []
+    },
+    "6007": {
+      "title": "fix(beads): consult native-open deferral before dialing the identity probe (#5965)",
+      "state": "open",
+      "merged": false,
+      "mergeable_state": "unstable",
+      "url": "https://github.com/gastownhall/gascity/pull/6007",
+      "human_comment_authors": [
+        "A3Ackerman"
+      ],
+      "human_review_authors": []
+    },
+    "6038": {
+      "title": "fix(sling): skip a child bead the fresh check finds already terminal (#5927)",
+      "state": "open",
+      "merged": false,
+      "mergeable_state": "blocked",
+      "url": "https://github.com/gastownhall/gascity/pull/6038",
+      "human_comment_authors": [],
+      "human_review_authors": []
+    },
+    "6053": {
+      "title": "fix(core-pack): anchor worktree creation on $GC_DIR, not $(pwd) (#6014)",
+      "state": "open",
+      "merged": false,
+      "mergeable_state": "blocked",
+      "url": "https://github.com/gastownhall/gascity/pull/6053",
+      "human_comment_authors": [],
+      "human_review_authors": []
+    },
+    "6059": {
+      "title": "fix(cmd/gc): skip dispatch-held siblings in continuation pre-assignment (#6026)",
+      "state": "open",
+      "merged": false,
+      "mergeable_state": "blocked",
+      "url": "https://github.com/gastownhall/gascity/pull/6059",
+      "human_comment_authors": [],
+      "human_review_authors": []
+    },
+    "6062": {
+      "title": "fix(cmd/gc): reopen-source also reopens tracking convoys (#6045)",
+      "state": "open",
+      "merged": false,
+      "mergeable_state": "blocked",
+      "url": "https://github.com/gastownhall/gascity/pull/6062",
+      "human_comment_authors": [],
+      "human_review_authors": []
+    },
+    "6097": {
+      "title": "fix(suspensionstate): serialize rig suspend/resume with a cross-process flock (#6056)",
+      "state": "open",
+      "merged": false,
+      "mergeable_state": "dirty",
+      "url": "https://github.com/gastownhall/gascity/pull/6097",
+      "human_comment_authors": [],
+      "human_review_authors": []
+    },
+    "6167": {
+      "title": "fix(doctor): surface effective city suspension as a doctor check (#6126)",
+      "state": "open",
+      "merged": false,
+      "mergeable_state": "dirty",
+      "url": "https://github.com/gastownhall/gascity/pull/6167",
+      "human_comment_authors": [],
+      "human_review_authors": []
+    },
+    "6269": {
+      "title": "fix(config): apply feature flags in the supervisor's per-city loader (#6236)",
+      "state": "open",
+      "merged": false,
+      "mergeable_state": "blocked",
+      "url": "https://github.com/gastownhall/gascity/pull/6269",
+      "human_comment_authors": [],
+      "human_review_authors": []
+    },
+    "6270": {
+      "title": "fix(molecule): retry a dropped molecule_failed stamp before giving up (#6235)",
+      "state": "open",
+      "merged": false,
+      "mergeable_state": "blocked",
+      "url": "https://github.com/gastownhall/gascity/pull/6270",
+      "human_comment_authors": [],
+      "human_review_authors": []
+    },
+    "6325": {
+      "title": "fix(worktree): stop TestManagedDryRunDoesNotPublishProvenance flaking on transient git lock files",
+      "state": "open",
+      "merged": false,
+      "mergeable_state": "blocked",
+      "url": "https://github.com/gastownhall/gascity/pull/6325",
+      "human_comment_authors": [],
+      "human_review_authors": []
+    },
+    "6326": {
+      "title": "fix(tmux): corroborate ListRunning's ServerAbsent with a socket observation",
+      "state": "open",
+      "merged": false,
+      "mergeable_state": "dirty",
+      "url": "https://github.com/gastownhall/gascity/pull/6326",
+      "human_comment_authors": [],
+      "human_review_authors": []
+    },
+    "6331": {
+      "title": "fix(reaper): stop Step 6 SQL prune from crashing the run on zero matched rows (#6284)",
+      "state": "open",
+      "merged": false,
+      "mergeable_state": "dirty",
+      "url": "https://github.com/gastownhall/gascity/pull/6331",
+      "human_comment_authors": [],
+      "human_review_authors": []
+    },
+    "6337": {
+      "title": "fix(hook): close 3 fail-open gaps in hookClaimDirLooksLikeRepo repo-marker detection",
+      "state": "open",
+      "merged": false,
+      "mergeable_state": "blocked",
+      "url": "https://github.com/gastownhall/gascity/pull/6337",
+      "human_comment_authors": [],
+      "human_review_authors": []
+    },
+    "6340": {
+      "title": "fix(convoy): order the workflow root last in delete-sweep so an interrupted delete never leaves it closed with open descendants",
+      "state": "open",
+      "merged": false,
+      "mergeable_state": "blocked",
+      "url": "https://github.com/gastownhall/gascity/pull/6340",
+      "human_comment_authors": [],
+      "human_review_authors": []
+    },
+    "6364": {
+      "title": "fix(config): let a template opt a cold pool out of the wake-probe's clamped-1 override (Agent.ColdWake)",
+      "state": "open",
+      "merged": false,
+      "mergeable_state": "dirty",
+      "url": "https://github.com/gastownhall/gascity/pull/6364",
+      "human_comment_authors": [],
+      "human_review_authors": []
+    },
+    "6365": {
+      "title": "fix(handoff): give PreCompact its own flat systemMessage shape under --hook-format codex",
+      "state": "open",
+      "merged": false,
+      "mergeable_state": "blocked",
+      "url": "https://github.com/gastownhall/gascity/pull/6365",
+      "human_comment_authors": [],
+      "human_review_authors": []
+    },
+    "6366": {
+      "title": "fix(nudge): derive the CLI's session-class store from the city's work store at every call site",
+      "state": "open",
+      "merged": false,
+      "mergeable_state": "blocked",
+      "url": "https://github.com/gastownhall/gascity/pull/6366",
+      "human_comment_authors": [
+        "julianknutsen"
+      ],
+      "human_review_authors": []
+    },
+    "6397": {
+      "title": "fix(nudge): probe controller liveness before suppressing the per-session nudge poller",
+      "state": "open",
+      "merged": false,
+      "mergeable_state": "dirty",
+      "url": "https://github.com/gastownhall/gascity/pull/6397",
+      "human_comment_authors": [
+        "rjgeng"
+      ],
+      "human_review_authors": []
+    },
+    "6410": {
+      "title": "fix(pool): treat a live session's currently_processing_bead_id as first-party proof of ownership",
+      "state": "open",
+      "merged": false,
+      "mergeable_state": "blocked",
+      "url": "https://github.com/gastownhall/gascity/pull/6410",
+      "human_comment_authors": [],
+      "human_review_authors": []
+    },
+    "6512": {
+      "title": "fix(dolt): unblock watchdog SIGKILL on Darwin",
+      "state": "open",
+      "merged": false,
+      "mergeable_state": "blocked",
+      "url": "https://github.com/gastownhall/gascity/pull/6512",
+      "human_comment_authors": [
+        "rjgeng"
+      ],
+      "human_review_authors": []
+    },
+    "6732": {
+      "title": "fix(worktrees): honor configured root during cleanup",
+      "state": "open",
+      "merged": false,
+      "mergeable_state": "blocked",
+      "url": "https://github.com/gastownhall/gascity/pull/6732",
+      "human_comment_authors": [],
+      "human_review_authors": []
+    },
+    "6734": {
+      "title": "fix(runtime): recognize Codex trust dialog",
+      "state": "open",
+      "merged": false,
+      "mergeable_state": "blocked",
+      "url": "https://github.com/gastownhall/gascity/pull/6734",
+      "human_comment_authors": [
+        "julianknutsen"
+      ],
+      "human_review_authors": []
+    },
+    "6740": {
+      "title": "ci(bazel): provision shared test tmpdir",
+      "state": "open",
+      "merged": false,
+      "mergeable_state": "dirty",
+      "url": "https://github.com/gastownhall/gascity/pull/6740",
+      "human_comment_authors": [],
+      "human_review_authors": []
+    },
+    "6773": {
+      "title": "fix(backstop): require affirmative idle snapshot",
+      "state": "open",
+      "merged": false,
+      "mergeable_state": "blocked",
+      "url": "https://github.com/gastownhall/gascity/pull/6773",
+      "human_comment_authors": [],
+      "human_review_authors": []
+    },
+    "6811": {
+      "title": "fix(beads): preserve city JSONL retention opt-out",
+      "state": "open",
+      "merged": false,
+      "mergeable_state": "blocked",
+      "url": "https://github.com/gastownhall/gascity/pull/6811",
+      "human_comment_authors": [
+        "julianknutsen"
+      ],
+      "human_review_authors": []
+    },
+    "6938": {
+      "title": "test(contract): isolate managed-city reachability checks",
+      "state": "open",
+      "merged": false,
+      "mergeable_state": "unstable",
+      "url": "https://github.com/gastownhall/gascity/pull/6938",
+      "human_comment_authors": [],
+      "human_review_authors": []
+    },
+    "6949": {
+      "title": "fix(jsonl): honor archive branch and remote locality",
+      "state": "open",
+      "merged": false,
+      "mergeable_state": "unstable",
+      "url": "https://github.com/gastownhall/gascity/pull/6949",
+      "human_comment_authors": [],
+      "human_review_authors": []
+    },
+    "6950": {
+      "title": "fix(pi): honor managed gc runtime in hooks",
+      "state": "open",
+      "merged": false,
+      "mergeable_state": "unstable",
+      "url": "https://github.com/gastownhall/gascity/pull/6950",
+      "human_comment_authors": [],
+      "human_review_authors": []
+    },
+    "6954": {
+      "title": "fix(formula): reject unsupported check keys",
+      "state": "open",
+      "merged": false,
+      "mergeable_state": "unstable",
+      "url": "https://github.com/gastownhall/gascity/pull/6954",
+      "human_comment_authors": [],
+      "human_review_authors": []
+    },
+    "6955": {
+      "title": "fix(pool): preserve canonical human handoffs",
+      "state": "open",
+      "merged": false,
+      "mergeable_state": "unstable",
+      "url": "https://github.com/gastownhall/gascity/pull/6955",
+      "human_comment_authors": [],
+      "human_review_authors": []
+    },
+    "6956": {
+      "title": "fix(dispatch): retry direct Ralph infrastructure failures",
+      "state": "open",
+      "merged": false,
+      "mergeable_state": "blocked",
+      "url": "https://github.com/gastownhall/gascity/pull/6956",
+      "human_comment_authors": [
+        "julianknutsen"
+      ],
+      "human_review_authors": []
+    },
+    "7110": {
+      "title": "fix(controller): no wake demand for a deferred molecule root",
+      "state": "open",
+      "merged": false,
+      "mergeable_state": "blocked",
+      "url": "https://github.com/gastownhall/gascity/pull/7110",
+      "human_comment_authors": [],
+      "human_review_authors": []
+    },
+    "7111": {
+      "title": "fix(test): schema probe no longer leaks a gate-lock file, prefers tmpfs on Linux",
+      "state": "open",
+      "merged": false,
+      "mergeable_state": "blocked",
+      "url": "https://github.com/gastownhall/gascity/pull/7111",
+      "human_comment_authors": [],
+      "human_review_authors": []
+    },
+    "7114": {
+      "title": "fix(test): TestCachingStoreScanFencesStress no longer flakes on a legitimate recent-local-write keep",
+      "state": "open",
+      "merged": false,
+      "mergeable_state": "blocked",
+      "url": "https://github.com/gastownhall/gascity/pull/7114",
+      "human_comment_authors": [],
+      "human_review_authors": []
+    },
+    "7123": {
+      "title": "fix(lint): gc lint catches hook matchers that can't compile as regex",
+      "state": "open",
+      "merged": false,
+      "mergeable_state": "blocked",
+      "url": "https://github.com/gastownhall/gascity/pull/7123",
+      "human_comment_authors": [],
+      "human_review_authors": []
+    }
+  }
+}

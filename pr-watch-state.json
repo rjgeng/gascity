@@ -2,7 +2,7 @@
   "schema_version": 1,
   "repo": "gastownhall/gascity",
   "author": "rjgeng",
-  "last_checked_at": "2026-10-07T21:47:30Z",
+  "last_checked_at": "2026-10-07T22:49:39Z",
   "prs": {
     "7123": {"state": "open", "merged": false, "mergeable_state": "blocked", "human_review_authors": [], "human_comment_authors": [], "title": "fix(lint): gc lint catches hook matchers that can't compile as regex", "url": "https://github.com/gastownhall/gascity/pull/7123"},
     "7114": {"state": "open", "merged": false, "mergeable_state": "blocked", "human_review_authors": [], "human_comment_authors": [], "title": "fix(test): TestCachingStoreScanFencesStress no longer flakes on a legitimate recent-local-write keep", "url": "https://github.com/gastownhall/gascity/pull/7114"},
@@ -19,9 +19,9 @@
     "6740": {"state": "open", "merged": false, "mergeable_state": "dirty", "human_review_authors": [], "human_comment_authors": [], "title": "ci(bazel): provision shared test tmpdir", "url": "https://github.com/gastownhall/gascity/pull/6740"},
     "6734": {"state": "open", "merged": false, "mergeable_state": "blocked", "human_review_authors": [], "human_comment_authors": ["julianknutsen"], "title": "fix(runtime): recognize Codex trust dialog", "url": "https://github.com/gastownhall/gascity/pull/6734"},
     "6732": {"state": "open", "merged": false, "mergeable_state": "blocked", "human_review_authors": [], "human_comment_authors": [], "title": "fix(worktrees): honor configured root during cleanup", "url": "https://github.com/gastownhall/gascity/pull/6732"},
-    "6512": {"state": "open", "merged": false, "mergeable_state": "blocked", "human_review_authors": [], "human_comment_authors": [], "title": "fix(dolt): unblock watchdog SIGKILL on Darwin", "url": "https://github.com/gastownhall/gascity/pull/6512"},
+    "6512": {"state": "open", "merged": false, "mergeable_state": "blocked", "human_review_authors": [], "human_comment_authors": ["rjgeng"], "title": "fix(dolt): unblock watchdog SIGKILL on Darwin", "url": "https://github.com/gastownhall/gascity/pull/6512"},
     "6410": {"state": "open", "merged": false, "mergeable_state": "blocked", "human_review_authors": [], "human_comment_authors": [], "title": "fix(pool): treat a live session's currently_processing_bead_id as first-party proof of ownership", "url": "https://github.com/gastownhall/gascity/pull/6410"},
-    "6397": {"state": "open", "merged": false, "mergeable_state": "dirty", "human_review_authors": [], "human_comment_authors": [], "title": "fix(nudge): probe controller liveness before suppressing the per-session nudge poller", "url": "https://github.com/gastownhall/gascity/pull/6397"},
+    "6397": {"state": "open", "merged": false, "mergeable_state": "dirty", "human_review_authors": [], "human_comment_authors": ["rjgeng"], "title": "fix(nudge): probe controller liveness before suppressing the per-session nudge poller", "url": "https://github.com/gastownhall/gascity/pull/6397"},
     "6366": {"state": "open", "merged": false, "mergeable_state": "blocked", "human_review_authors": [], "human_comment_authors": ["julianknutsen"], "title": "fix(nudge): derive the CLI's session-class store from the city's work store at every call site", "url": "https://github.com/gastownhall/gascity/pull/6366"},
     "6365": {"state": "open", "merged": false, "mergeable_state": "blocked", "human_review_authors": [], "human_comment_authors": [], "title": "fix(handoff): give PreCompact its own flat systemMessage shape under --hook-format codex", "url": "https://github.com/gastownhall/gascity/pull/6365"},
     "6364": {"state": "open", "merged": false, "mergeable_state": "dirty", "human_review_authors": [], "human_comment_authors": [], "title": "fix(config): let a template opt a cold pool out of the wake-probe's clamped-1 override (Agent.ColdWake)", "url": "https://github.com/gastownhall/gascity/pull/6364"},
@@ -44,8 +44,8 @@
     "5365": {"state": "open", "merged": false, "mergeable_state": "blocked", "human_review_authors": [], "human_comment_authors": [], "title": "fix(supervisor): auto-unregister on repeated stale-config load failures (#5313)", "url": "https://github.com/gastownhall/gascity/pull/5365"},
     "5257": {"state": "open", "merged": false, "mergeable_state": "dirty", "human_review_authors": [], "human_comment_authors": ["csauer02-personal-user", "quad341"], "title": "fix(mail): add unread-mail TTL so never-read mail wisps age out (#5240)", "url": "https://github.com/gastownhall/gascity/pull/5257"},
     "4584": {"state": "open", "merged": false, "mergeable_state": "blocked", "human_review_authors": [], "human_comment_authors": ["remuscazacu"], "title": "fix(sling): --nudge falls back to a running named session for instance-expandable agents (#3412)", "url": "https://github.com/gastownhall/gascity/pull/4584"},
-    "4481": {"state": "open", "merged": false, "mergeable_state": "blocked", "human_review_authors": [], "human_comment_authors": [], "title": "fix(runtime): treat a gone session as drain-acked (#4448)", "url": "https://github.com/gastownhall/gascity/pull/4481"},
+    "4481": {"state": "open", "merged": false, "mergeable_state": "blocked", "human_review_authors": [], "human_comment_authors": ["rjgeng"], "title": "fix(runtime): treat a gone session as drain-acked (#4448)", "url": "https://github.com/gastownhall/gascity/pull/4481"},
     "4138": {"state": "open", "merged": false, "mergeable_state": "blocked", "human_review_authors": [], "human_comment_authors": [], "title": "fix(session): gc session attach waits for an in-flight controller reset instead of racing it (#4079)", "url": "https://github.com/gastownhall/gascity/pull/4138"},
-    "4095": {"state": "open", "merged": false, "mergeable_state": "blocked", "human_review_authors": [], "human_comment_authors": [], "title": "fix(session): refresh reset_committed_at on every continuation-reset re-arm (#4067)", "url": "https://github.com/gastownhall/gascity/pull/4095"}
+    "4095": {"state": "open", "merged": false, "mergeable_state": "blocked", "human_review_authors": [], "human_comment_authors": ["rjgeng"], "title": "fix(session): refresh reset_committed_at on every continuation-reset re-arm (#4067)", "url": "https://github.com/gastownhall/gascity/pull/4095"}
   }
 }

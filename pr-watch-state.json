@@ -2,7 +2,7 @@
   "schema_version": 1,
   "repo": "gastownhall/gascity",
   "author": "rjgeng",
-  "last_checked_at": "2026-10-07T06:46:50Z",
+  "last_checked_at": "2026-10-07T07:51:58Z",
   "prs": {
     "4095": {
       "title": "fix(session): refresh reset_committed_at on every continuation-reset re-arm (#4067)",
@@ -10,9 +10,7 @@
       "merged": false,
       "mergeable_state": "blocked",
       "url": "https://github.com/gastownhall/gascity/pull/4095",
-      "human_comment_authors": [
-        "rjgeng"
-      ],
+      "human_comment_authors": ["rjgeng"],
       "human_review_authors": []
     },
     "4138": {
@@ -30,9 +28,7 @@
       "merged": false,
       "mergeable_state": "blocked",
       "url": "https://github.com/gastownhall/gascity/pull/4481",
-      "human_comment_authors": [
-        "rjgeng"
-      ],
+      "human_comment_authors": ["rjgeng"],
       "human_review_authors": []
     },
     "4584": {
@@ -41,9 +37,7 @@
       "merged": false,
       "mergeable_state": "blocked",
       "url": "https://github.com/gastownhall/gascity/pull/4584",
-      "human_comment_authors": [
-        "remuscazacu"
-      ],
+      "human_comment_authors": ["remuscazacu"],
       "human_review_authors": []
     },
     "5257": {
@@ -52,10 +46,7 @@
       "merged": false,
       "mergeable_state": "dirty",
       "url": "https://github.com/gastownhall/gascity/pull/5257",
-      "human_comment_authors": [
-        "csauer02-personal-user",
-        "quad341"
-      ],
+      "human_comment_authors": ["csauer02-personal-user", "quad341"],
       "human_review_authors": []
     },
     "5365": {
@@ -82,9 +73,7 @@
       "merged": false,
       "mergeable_state": "dirty",
       "url": "https://github.com/gastownhall/gascity/pull/5977",
-      "human_comment_authors": [
-        "sJohnsonStoever"
-      ],
+      "human_comment_authors": ["sJohnsonStoever"],
       "human_review_authors": []
     },
     "6007": {
@@ -93,9 +82,7 @@
       "merged": false,
       "mergeable_state": "dirty",
       "url": "https://github.com/gastownhall/gascity/pull/6007",
-      "human_comment_authors": [
-        "A3Ackerman"
-      ],
+      "human_comment_authors": ["A3Ackerman"],
       "human_review_authors": []
     },
     "6038": {
@@ -239,9 +226,7 @@
       "merged": false,
       "mergeable_state": "blocked",
       "url": "https://github.com/gastownhall/gascity/pull/6366",
-      "human_comment_authors": [
-        "julianknutsen"
-      ],
+      "human_comment_authors": ["julianknutsen"],
       "human_review_authors": []
     },
     "6397": {
@@ -250,9 +235,7 @@
       "merged": false,
       "mergeable_state": "dirty",
       "url": "https://github.com/gastownhall/gascity/pull/6397",
-      "human_comment_authors": [
-        "rjgeng"
-      ],
+      "human_comment_authors": ["rjgeng"],
       "human_review_authors": []
     },
     "6410": {
@@ -270,9 +253,7 @@
       "merged": false,
       "mergeable_state": "blocked",
       "url": "https://github.com/gastownhall/gascity/pull/6512",
-      "human_comment_authors": [
-        "rjgeng"
-      ],
+      "human_comment_authors": ["rjgeng"],
       "human_review_authors": []
     },
     "6732": {
@@ -290,9 +271,7 @@
       "merged": false,
       "mergeable_state": "blocked",
       "url": "https://github.com/gastownhall/gascity/pull/6734",
-      "human_comment_authors": [
-        "julianknutsen"
-      ],
+      "human_comment_authors": ["julianknutsen"],
       "human_review_authors": []
     },
     "6740": {
@@ -319,9 +298,7 @@
       "merged": false,
       "mergeable_state": "blocked",
       "url": "https://github.com/gastownhall/gascity/pull/6811",
-      "human_comment_authors": [
-        "julianknutsen"
-      ],
+      "human_comment_authors": ["julianknutsen"],
       "human_review_authors": []
     },
     "6938": {
@@ -375,9 +352,7 @@
       "merged": false,
       "mergeable_state": "blocked",
       "url": "https://github.com/gastownhall/gascity/pull/6956",
-      "human_comment_authors": [
-        "julianknutsen"
-      ],
+      "human_comment_authors": ["julianknutsen"],
       "human_review_authors": []
     },
     "7110": {

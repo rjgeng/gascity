@@ -2,7 +2,7 @@
   "schema_version": 1,
   "repo": "gastownhall/gascity",
   "author": "rjgeng",
-  "last_checked_at": "2026-10-07T19:05:00Z",
+  "last_checked_at": "2026-10-07T19:48:33Z",
   "prs": {
     "7123": {"state": "open", "merged": false, "mergeable_state": "blocked", "human_review_authors": [], "human_comment_authors": [], "title": "fix(lint): gc lint catches hook matchers that can't compile as regex", "url": "https://github.com/gastownhall/gascity/pull/7123"},
     "7114": {"state": "open", "merged": false, "mergeable_state": "blocked", "human_review_authors": [], "human_comment_authors": [], "title": "fix(test): TestCachingStoreScanFencesStress no longer flakes on a legitimate recent-local-write keep", "url": "https://github.com/gastownhall/gascity/pull/7114"},

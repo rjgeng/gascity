@@ -1,15 +1,13 @@
 {
   "author": "rjgeng",
-  "last_checked_at": "2026-10-08T22:48:25Z",
+  "last_checked_at": "2026-10-08T23:45:44Z",
   "repo": "gastownhall/gascity",
   "schema_version": 1,
   "prs": {
     "4095": {
       "title": "fix(session): refresh reset_committed_at on every continuation-reset re-arm (#4067)",
       "url": "https://github.com/gastownhall/gascity/pull/4095",
-      "human_comment_authors": [
-        "rjgeng"
-      ],
+      "human_comment_authors": ["rjgeng"],
       "human_review_authors": [],
       "mergeable_state": "blocked",
       "merged": false,
@@ -27,9 +25,7 @@
     "4481": {
       "title": "fix(runtime): treat a gone session as drain-acked (#4448)",
       "url": "https://github.com/gastownhall/gascity/pull/4481",
-      "human_comment_authors": [
-        "rjgeng"
-      ],
+      "human_comment_authors": ["rjgeng"],
       "human_review_authors": [],
       "mergeable_state": "blocked",
       "merged": false,
@@ -38,9 +34,7 @@
     "4584": {
       "title": "fix(sling): --nudge falls back to a running named session for instance-expandable agents (#3412)",
       "url": "https://github.com/gastownhall/gascity/pull/4584",
-      "human_comment_authors": [
-        "remuscazacu"
-      ],
+      "human_comment_authors": ["remuscazacu"],
       "human_review_authors": [],
       "mergeable_state": "blocked",
       "merged": false,
@@ -49,10 +43,7 @@
     "5257": {
       "title": "fix(mail): add unread-mail TTL so never-read mail wisps age out (#5240)",
       "url": "https://github.com/gastownhall/gascity/pull/5257",
-      "human_comment_authors": [
-        "csauer02-personal-user",
-        "quad341"
-      ],
+      "human_comment_authors": ["csauer02-personal-user", "quad341"],
       "human_review_authors": [],
       "mergeable_state": "dirty",
       "merged": false,
@@ -79,10 +70,7 @@
     "5977": {
       "title": "fix(tmux): detect Claude's bare-gerund spinner, fix submit-confirm baseline, surface two swallowed errors (#5954)",
       "url": "https://github.com/gastownhall/gascity/pull/5977",
-      "human_comment_authors": [
-        "julianknutsen",
-        "sJohnsonStoever"
-      ],
+      "human_comment_authors": ["julianknutsen", "sJohnsonStoever"],
       "human_review_authors": [],
       "mergeable_state": "dirty",
       "merged": false,
@@ -91,20 +79,16 @@
     "6007": {
       "title": "fix(beads): consult native-open deferral before dialing the identity probe (#5965)",
       "url": "https://github.com/gastownhall/gascity/pull/6007",
-      "human_comment_authors": [
-        "A3Ackerman"
-      ],
+      "human_comment_authors": ["A3Ackerman"],
       "human_review_authors": [],
       "mergeable_state": "dirty",
       "merged": false,
       "state": "open"
     },
     "6038": {
-      "title": "fix(sling): skip a child bead the fresh check finds already terminal (#5927)",
+      "title": "fix(sling): skip a batch child the fresh check finds no longer open (#5927)",
       "url": "https://github.com/gastownhall/gascity/pull/6038",
-      "human_comment_authors": [
-        "julianknutsen"
-      ],
+      "human_comment_authors": ["julianknutsen"],
       "human_review_authors": [],
       "mergeable_state": "blocked",
       "merged": false,
@@ -122,20 +106,16 @@
     "6059": {
       "title": "fix(cmd/gc): skip dispatch-held siblings in continuation pre-assignment (#6026)",
       "url": "https://github.com/gastownhall/gascity/pull/6059",
-      "human_comment_authors": [
-        "julianknutsen"
-      ],
+      "human_comment_authors": ["julianknutsen"],
       "human_review_authors": [],
-      "mergeable_state": "blocked",
+      "mergeable_state": "unstable",
       "merged": false,
       "state": "open"
     },
     "6062": {
       "title": "fix(cmd/gc): reopen-source also reopens tracking convoys (#6045)",
       "url": "https://github.com/gastownhall/gascity/pull/6062",
-      "human_comment_authors": [
-        "julianknutsen"
-      ],
+      "human_comment_authors": ["julianknutsen"],
       "human_review_authors": [],
       "mergeable_state": "blocked",
       "merged": false,
@@ -198,9 +178,7 @@
     "6331": {
       "title": "fix(reaper): stop Step 6 SQL prune from crashing the run on zero matched rows (#6284)",
       "url": "https://github.com/gastownhall/gascity/pull/6331",
-      "human_comment_authors": [
-        "julianknutsen"
-      ],
+      "human_comment_authors": ["julianknutsen"],
       "human_review_authors": [],
       "mergeable_state": "dirty",
       "merged": false,
@@ -245,9 +223,7 @@
     "6366": {
       "title": "fix(nudge): derive the CLI's session-class store from the city's work store at every call site",
       "url": "https://github.com/gastownhall/gascity/pull/6366",
-      "human_comment_authors": [
-        "julianknutsen"
-      ],
+      "human_comment_authors": ["julianknutsen"],
       "human_review_authors": [],
       "mergeable_state": "blocked",
       "merged": false,
@@ -256,9 +232,7 @@
     "6397": {
       "title": "fix(nudge): probe controller liveness before suppressing the per-session nudge poller",
       "url": "https://github.com/gastownhall/gascity/pull/6397",
-      "human_comment_authors": [
-        "rjgeng"
-      ],
+      "human_comment_authors": ["rjgeng"],
       "human_review_authors": [],
       "mergeable_state": "dirty",
       "merged": false,
@@ -276,9 +250,7 @@
     "6512": {
       "title": "fix(dolt): unblock watchdog SIGKILL on Darwin",
       "url": "https://github.com/gastownhall/gascity/pull/6512",
-      "human_comment_authors": [
-        "rjgeng"
-      ],
+      "human_comment_authors": ["rjgeng"],
       "human_review_authors": [],
       "mergeable_state": "blocked",
       "merged": false,
@@ -296,9 +268,7 @@
     "6734": {
       "title": "fix(runtime): recognize Codex trust dialog",
       "url": "https://github.com/gastownhall/gascity/pull/6734",
-      "human_comment_authors": [
-        "julianknutsen"
-      ],
+      "human_comment_authors": ["julianknutsen"],
       "human_review_authors": [],
       "mergeable_state": "clean",
       "merged": false,
@@ -314,11 +284,9 @@
       "state": "open"
     },
     "6773": {
-      "title": "fix(backstop): require affirmative idle snapshot",
+      "title": "fix(backstop): hold a stale claim while its busy indicator shows",
       "url": "https://github.com/gastownhall/gascity/pull/6773",
-      "human_comment_authors": [
-        "julianknutsen"
-      ],
+      "human_comment_authors": ["julianknutsen"],
       "human_review_authors": [],
       "mergeable_state": "blocked",
       "merged": false,
@@ -327,9 +295,7 @@
     "6811": {
       "title": "fix(beads): preserve city JSONL retention opt-out",
       "url": "https://github.com/gastownhall/gascity/pull/6811",
-      "human_comment_authors": [
-        "julianknutsen"
-      ],
+      "human_comment_authors": ["julianknutsen"],
       "human_review_authors": [],
       "mergeable_state": "blocked",
       "merged": false,
@@ -383,9 +349,7 @@
     "6956": {
       "title": "fix(dispatch): retry direct Ralph infrastructure failures",
       "url": "https://github.com/gastownhall/gascity/pull/6956",
-      "human_comment_authors": [
-        "julianknutsen"
-      ],
+      "human_comment_authors": ["julianknutsen"],
       "human_review_authors": [],
       "mergeable_state": "blocked",
       "merged": false,

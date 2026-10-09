@@ -2,7 +2,7 @@
   "schema_version": 1,
   "repo": "gastownhall/gascity",
   "author": "rjgeng",
-  "last_checked_at": "2026-10-09T17:48:40Z",
+  "last_checked_at": "2026-10-09T18:49:44Z",
   "prs": {
     "4095": {
       "title": "fix(session): refresh reset_committed_at on every continuation-reset re-arm (#4067)",
@@ -238,15 +238,6 @@
       "human_comment_authors": [],
       "human_review_authors": []
     },
-    "6512": {
-      "title": "fix(dolt): unblock watchdog SIGKILL on Darwin",
-      "url": "https://github.com/gastownhall/gascity/pull/6512",
-      "state": "open",
-      "merged": false,
-      "mergeable_state": "BLOCKED",
-      "human_comment_authors": ["rjgeng"],
-      "human_review_authors": []
-    },
     "6732": {
       "title": "fix(worktrees): honor configured root during cleanup",
       "url": "https://github.com/gastownhall/gascity/pull/6732",
@@ -379,7 +370,7 @@
       "state": "open",
       "merged": false,
       "mergeable_state": "CLEAN",
-      "human_comment_authors": [],
+      "human_comment_authors": ["gascityinc-olivia"],
       "human_review_authors": []
     },
     "7421": {

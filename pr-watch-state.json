@@ -1,6 +1,6 @@
 {
  "author": "rjgeng",
- "last_checked_at": "2026-10-10T20:48:38Z",
+ "last_checked_at": "2026-10-10T21:49:03Z",
  "prs": {
   "2037": {
    "human_comment_authors": [],
@@ -99,7 +99,7 @@
    "merged": true,
    "merged_at": "2026-07-14T00:30:00Z",
    "state": "closed",
-   "title": "fix(doctor): clarify external Dolt backup message \u2014 endpoint may be local (#3868 follow-up)",
+   "title": "fix(doctor): clarify external Dolt backup message — endpoint may be local (#3868 follow-up)",
    "url": "https://github.com/gastownhall/gascity/pull/3979"
   },
   "3981": {

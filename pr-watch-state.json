@@ -2,7 +2,7 @@
   "schema_version": 1,
   "repo": "gastownhall/gascity",
   "author": "rjgeng",
-  "last_checked_at": "2026-10-10T07:00:00Z",
+  "last_checked_at": "2026-10-10T06:48:45Z",
   "prs": {
     "4095": {
       "title": "fix(session): refresh reset_committed_at on every continuation-reset re-arm (#4067)",
@@ -10,7 +10,9 @@
       "state": "open",
       "merged": false,
       "mergeable_state": "blocked",
-      "human_comment_authors": ["rjgeng"],
+      "human_comment_authors": [
+        "rjgeng"
+      ],
       "human_review_authors": []
     },
     "4138": {
@@ -28,7 +30,9 @@
       "state": "open",
       "merged": false,
       "mergeable_state": "blocked",
-      "human_comment_authors": ["rjgeng"],
+      "human_comment_authors": [
+        "rjgeng"
+      ],
       "human_review_authors": []
     },
     "4584": {
@@ -37,7 +41,9 @@
       "state": "open",
       "merged": false,
       "mergeable_state": "blocked",
-      "human_comment_authors": ["remuscazacu"],
+      "human_comment_authors": [
+        "remuscazacu"
+      ],
       "human_review_authors": []
     },
     "5257": {
@@ -46,7 +52,10 @@
       "state": "open",
       "merged": false,
       "mergeable_state": "dirty",
-      "human_comment_authors": ["csauer02-personal-user", "quad341"],
+      "human_comment_authors": [
+        "csauer02-personal-user",
+        "quad341"
+      ],
       "human_review_authors": []
     },
     "5365": {
@@ -73,7 +82,10 @@
       "state": "open",
       "merged": false,
       "mergeable_state": "dirty",
-      "human_comment_authors": ["julianknutsen", "sJohnsonStoever"],
+      "human_comment_authors": [
+        "julianknutsen",
+        "sJohnsonStoever"
+      ],
       "human_review_authors": []
     },
     "6007": {
@@ -82,7 +94,9 @@
       "state": "open",
       "merged": false,
       "mergeable_state": "dirty",
-      "human_comment_authors": ["A3Ackerman"],
+      "human_comment_authors": [
+        "A3Ackerman"
+      ],
       "human_review_authors": []
     },
     "6038": {
@@ -91,7 +105,9 @@
       "state": "open",
       "merged": false,
       "mergeable_state": "blocked",
-      "human_comment_authors": ["julianknutsen"],
+      "human_comment_authors": [
+        "julianknutsen"
+      ],
       "human_review_authors": []
     },
     "6053": {
@@ -109,7 +125,9 @@
       "state": "open",
       "merged": false,
       "mergeable_state": "blocked",
-      "human_comment_authors": ["julianknutsen"],
+      "human_comment_authors": [
+        "julianknutsen"
+      ],
       "human_review_authors": []
     },
     "6097": {
@@ -172,7 +190,9 @@
       "state": "open",
       "merged": false,
       "mergeable_state": "dirty",
-      "human_comment_authors": ["julianknutsen"],
+      "human_comment_authors": [
+        "julianknutsen"
+      ],
       "human_review_authors": []
     },
     "6337": {
@@ -217,7 +237,9 @@
       "state": "open",
       "merged": false,
       "mergeable_state": "dirty",
-      "human_comment_authors": ["rjgeng"],
+      "human_comment_authors": [
+        "rjgeng"
+      ],
       "human_review_authors": []
     },
     "6410": {
@@ -244,7 +266,9 @@
       "state": "open",
       "merged": false,
       "mergeable_state": "clean",
-      "human_comment_authors": ["julianknutsen"],
+      "human_comment_authors": [
+        "julianknutsen"
+      ],
       "human_review_authors": []
     },
     "6740": {
@@ -262,7 +286,9 @@
       "state": "open",
       "merged": false,
       "mergeable_state": "blocked",
-      "human_comment_authors": ["julianknutsen"],
+      "human_comment_authors": [
+        "julianknutsen"
+      ],
       "human_review_authors": []
     },
     "6938": {
@@ -316,7 +342,9 @@
       "state": "open",
       "merged": false,
       "mergeable_state": "blocked",
-      "human_comment_authors": ["julianknutsen"],
+      "human_comment_authors": [
+        "julianknutsen"
+      ],
       "human_review_authors": []
     },
     "7110": {

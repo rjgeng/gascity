@@ -1,6 +1,6 @@
 {
   "author": "rjgeng",
-  "last_checked_at": "2026-10-10T10:50:51Z",
+  "last_checked_at": "2026-10-10T11:25:00Z",
   "prs": {
     "2037": {
       "human_comment_authors": [],
@@ -646,10 +646,11 @@
     "5257": {
       "human_comment_authors": [
         "csauer02-personal-user",
-        "quad341"
+        "quad341",
+        "rjgeng"
       ],
       "human_review_authors": [],
-      "mergeable_state": "dirty",
+      "mergeable_state": "clean",
       "merged": false,
       "merged_at": null,
       "state": "open",
@@ -974,7 +975,9 @@
       "url": "https://github.com/gastownhall/gascity/pull/5812"
     },
     "5854": {
-      "human_comment_authors": [],
+      "human_comment_authors": [
+        "rjgeng"
+      ],
       "human_review_authors": [],
       "mergeable_state": "dirty",
       "merged": false,
@@ -1045,11 +1048,12 @@
     },
     "5977": {
       "human_comment_authors": [
+        "sJohnsonStoever",
         "julianknutsen",
-        "sJohnsonStoever"
+        "rjgeng"
       ],
       "human_review_authors": [],
-      "mergeable_state": "dirty",
+      "mergeable_state": "blocked",
       "merged": false,
       "merged_at": null,
       "state": "open",
@@ -1068,10 +1072,11 @@
     },
     "6007": {
       "human_comment_authors": [
-        "A3Ackerman"
+        "A3Ackerman",
+        "rjgeng"
       ],
       "human_review_authors": [],
-      "mergeable_state": "dirty",
+      "mergeable_state": "blocked",
       "merged": false,
       "merged_at": null,
       "state": "open",
@@ -1422,7 +1427,7 @@
         "rjgeng"
       ],
       "human_review_authors": [],
-      "mergeable_state": "blocked",
+      "mergeable_state": "clean",
       "merged": false,
       "merged_at": null,
       "state": "open",
@@ -1434,7 +1439,7 @@
         "rjgeng"
       ],
       "human_review_authors": [],
-      "mergeable_state": "blocked",
+      "mergeable_state": "clean",
       "merged": false,
       "merged_at": null,
       "state": "open",
@@ -1446,7 +1451,7 @@
         "rjgeng"
       ],
       "human_review_authors": [],
-      "mergeable_state": "blocked",
+      "mergeable_state": "clean",
       "merged": false,
       "merged_at": null,
       "state": "open",

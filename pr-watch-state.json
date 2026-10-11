@@ -1,6 +1,6 @@
 {
   "author": "rjgeng",
-  "last_checked_at": "2026-10-11T21:51:29Z",
+  "last_checked_at": "2026-10-11T22:50:46Z",
   "prs": {
     "2037": {"human_comment_authors": [], "human_review_authors": [], "mergeable_state": null, "merged": true, "merged_at": "2026-05-13T01:46:12Z", "state": "closed", "title": "fix(packs): fallback to dolt-provider-state.json", "url": "https://github.com/gastownhall/gascity/pull/2037"},
     "2088": {"human_comment_authors": [], "human_review_authors": [], "mergeable_state": null, "merged": true, "merged_at": "2026-05-20T18:45:45Z", "state": "closed", "title": "docs(convoy): clarify --help text re: workflows vs convoys", "url": "https://github.com/gastownhall/gascity/pull/2088"},
@@ -139,8 +139,8 @@
     "6728": {"human_comment_authors": [], "human_review_authors": [], "mergeable_state": null, "merged": true, "merged_at": "2026-10-04T11:42:31Z", "state": "closed", "title": "fix(orphan-sweep): avoid pipefail membership misses", "url": "https://github.com/gastownhall/gascity/pull/6728"},
     "6732": {"human_comment_authors": [], "human_review_authors": [], "mergeable_state": "blocked", "merged": false, "merged_at": null, "state": "open", "title": "fix(worktrees): honor configured root during cleanup", "url": "https://github.com/gastownhall/gascity/pull/6732"},
     "6734": {"human_comment_authors": ["julianknutsen"], "human_review_authors": [], "mergeable_state": "clean", "merged": false, "merged_at": null, "state": "open", "title": "fix(runtime): recognize Codex trust dialog", "url": "https://github.com/gastownhall/gascity/pull/6734"},
-    "6740": {"human_comment_authors": [], "human_review_authors": [], "mergeable_state": "dirty", "merged": false, "merged_at": null, "state": "closed", "title": "ci(bazel): provision shared test tmpdir", "url": "https://github.com/gastownhall/gascity/pull/6740"},
-    "6773": {"human_comment_authors": ["julianknutsen"], "human_review_authors": [], "mergeable_state": "blocked", "merged": false, "merged_at": null, "state": "open", "title": "fix(backstop): hold a stale claim while its busy indicator shows", "url": "https://github.com/gastownhall/gascity/pull/6773"},
+    "6740": {"human_comment_authors": [], "human_review_authors": [], "mergeable_state": null, "merged": false, "merged_at": null, "state": "closed", "title": "ci(bazel): provision shared test tmpdir", "url": "https://github.com/gastownhall/gascity/pull/6740"},
+    "6773": {"human_comment_authors": ["julianknutsen"], "human_review_authors": [], "mergeable_state": "clean", "merged": false, "merged_at": null, "state": "open", "title": "fix(backstop): hold a stale claim while its busy indicator shows", "url": "https://github.com/gastownhall/gascity/pull/6773"},
     "6811": {"human_comment_authors": [], "human_review_authors": [], "mergeable_state": null, "merged": true, "merged_at": "2026-10-09T00:41:28Z", "state": "closed", "title": "fix(beads): preserve city JSONL retention opt-out", "url": "https://github.com/gastownhall/gascity/pull/6811"},
     "6938": {"human_comment_authors": ["rjgeng"], "human_review_authors": [], "mergeable_state": "clean", "merged": false, "merged_at": null, "state": "open", "title": "test(contract): isolate managed-city reachability checks", "url": "https://github.com/gastownhall/gascity/pull/6938"},
     "6949": {"human_comment_authors": ["rjgeng"], "human_review_authors": [], "mergeable_state": "clean", "merged": false, "merged_at": null, "state": "open", "title": "fix(jsonl): honor archive branch and remote locality", "url": "https://github.com/gastownhall/gascity/pull/6949"},

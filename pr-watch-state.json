@@ -1,6 +1,6 @@
 {
   "author": "rjgeng",
-  "last_checked_at": "2026-10-11T13:48:18Z",
+  "last_checked_at": "2026-10-11T14:49:17Z",
   "prs": {
     "2037": {"human_comment_authors": [], "human_review_authors": [], "mergeable_state": null, "merged": true, "merged_at": "2026-05-13T01:46:12Z", "state": "closed", "title": "fix(packs): fallback to dolt-provider-state.json", "url": "https://github.com/gastownhall/gascity/pull/2037"},
     "2088": {"human_comment_authors": [], "human_review_authors": [], "mergeable_state": null, "merged": true, "merged_at": "2026-05-20T18:45:45Z", "state": "closed", "title": "docs(convoy): clarify --help text re: workflows vs convoys", "url": "https://github.com/gastownhall/gascity/pull/2088"},

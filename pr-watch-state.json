@@ -1,6 +1,6 @@
 {
   "author": "rjgeng",
-  "last_checked_at": "2026-10-12T17:45:40Z",
+  "last_checked_at": "2026-10-12T19:00:00Z",
   "prs": {
     "2037": {
       "human_comment_authors": [],
@@ -99,7 +99,7 @@
       "merged": true,
       "merged_at": "2026-07-14T00:30:00Z",
       "state": "closed",
-      "title": "fix(doctor): clarify external Dolt backup message \u2014 endpoint may be local (#3868 follow-up)",
+      "title": "fix(doctor): clarify external Dolt backup message — endpoint may be local (#3868 follow-up)",
       "url": "https://github.com/gastownhall/gascity/pull/3979"
     },
     "3981": {
@@ -124,7 +124,8 @@
     },
     "4095": {
       "human_comment_authors": [
-        "rjgeng"
+        "rjgeng",
+        "gascityinc-olivia[bot]"
       ],
       "human_review_authors": [],
       "mergeable_state": "blocked",
@@ -145,7 +146,9 @@
       "url": "https://github.com/gastownhall/gascity/pull/4129"
     },
     "4138": {
-      "human_comment_authors": [],
+      "human_comment_authors": [
+        "gascityinc-olivia[bot]"
+      ],
       "human_review_authors": [],
       "mergeable_state": "dirty",
       "merged": false,
@@ -266,7 +269,8 @@
     },
     "4481": {
       "human_comment_authors": [
-        "rjgeng"
+        "rjgeng",
+        "gascityinc-olivia[bot]"
       ],
       "human_review_authors": [],
       "mergeable_state": "blocked",
@@ -418,7 +422,8 @@
     },
     "4584": {
       "human_comment_authors": [
-        "remuscazacu"
+        "remuscazacu",
+        "gascityinc-olivia[bot]"
       ],
       "human_review_authors": [],
       "mergeable_state": "blocked",
@@ -984,8 +989,9 @@
     },
     "5854": {
       "human_comment_authors": [
-        "quad341",
-        "rjgeng"
+        "gascityinc-olivia[bot]",
+        "rjgeng",
+        "quad341"
       ],
       "human_review_authors": [],
       "mergeable_state": "clean",
@@ -1081,6 +1087,7 @@
     },
     "6007": {
       "human_comment_authors": [
+        "gascityinc-olivia[bot]",
         "A3Ackerman",
         "rjgeng"
       ],
@@ -1115,7 +1122,9 @@
       "url": "https://github.com/gastownhall/gascity/pull/6043"
     },
     "6053": {
-      "human_comment_authors": [],
+      "human_comment_authors": [
+        "gascityinc-olivia[bot]"
+      ],
       "human_review_authors": [],
       "mergeable_state": "blocked",
       "merged": false,
@@ -1158,6 +1167,7 @@
     },
     "6097": {
       "human_comment_authors": [
+        "gascityinc-olivia[bot]",
         "rjgeng"
       ],
       "human_review_authors": [],
@@ -1189,7 +1199,9 @@
       "url": "https://github.com/gastownhall/gascity/pull/6165"
     },
     "6167": {
-      "human_comment_authors": [],
+      "human_comment_authors": [
+        "gascityinc-olivia[bot]"
+      ],
       "human_review_authors": [],
       "mergeable_state": "blocked",
       "merged": false,
@@ -1199,7 +1211,9 @@
       "url": "https://github.com/gastownhall/gascity/pull/6167"
     },
     "6269": {
-      "human_comment_authors": [],
+      "human_comment_authors": [
+        "gascityinc-olivia[bot]"
+      ],
       "human_review_authors": [],
       "mergeable_state": "blocked",
       "merged": false,
@@ -1209,7 +1223,9 @@
       "url": "https://github.com/gastownhall/gascity/pull/6269"
     },
     "6270": {
-      "human_comment_authors": [],
+      "human_comment_authors": [
+        "gascityinc-olivia[bot]"
+      ],
       "human_review_authors": [],
       "mergeable_state": "blocked",
       "merged": false,
@@ -1219,7 +1235,9 @@
       "url": "https://github.com/gastownhall/gascity/pull/6270"
     },
     "6325": {
-      "human_comment_authors": [],
+      "human_comment_authors": [
+        "gascityinc-olivia[bot]"
+      ],
       "human_review_authors": [],
       "mergeable_state": "blocked",
       "merged": false,
@@ -1229,7 +1247,9 @@
       "url": "https://github.com/gastownhall/gascity/pull/6325"
     },
     "6326": {
-      "human_comment_authors": [],
+      "human_comment_authors": [
+        "gascityinc-olivia[bot]"
+      ],
       "human_review_authors": [],
       "mergeable_state": "blocked",
       "merged": false,
@@ -1252,7 +1272,9 @@
       "url": "https://github.com/gastownhall/gascity/pull/6331"
     },
     "6337": {
-      "human_comment_authors": [],
+      "human_comment_authors": [
+        "gascityinc-olivia[bot]"
+      ],
       "human_review_authors": [],
       "mergeable_state": "blocked",
       "merged": false,
@@ -1262,7 +1284,9 @@
       "url": "https://github.com/gastownhall/gascity/pull/6337"
     },
     "6340": {
-      "human_comment_authors": [],
+      "human_comment_authors": [
+        "gascityinc-olivia[bot]"
+      ],
       "human_review_authors": [],
       "mergeable_state": "blocked",
       "merged": false,
@@ -1272,7 +1296,9 @@
       "url": "https://github.com/gastownhall/gascity/pull/6340"
     },
     "6364": {
-      "human_comment_authors": [],
+      "human_comment_authors": [
+        "gascityinc-olivia[bot]"
+      ],
       "human_review_authors": [],
       "mergeable_state": "clean",
       "merged": false,
@@ -1282,7 +1308,9 @@
       "url": "https://github.com/gastownhall/gascity/pull/6364"
     },
     "6365": {
-      "human_comment_authors": [],
+      "human_comment_authors": [
+        "gascityinc-olivia[bot]"
+      ],
       "human_review_authors": [],
       "mergeable_state": "blocked",
       "merged": false,
@@ -1303,6 +1331,7 @@
     },
     "6397": {
       "human_comment_authors": [
+        "gascityinc-olivia[bot]",
         "rjgeng"
       ],
       "human_review_authors": [],
@@ -1314,7 +1343,9 @@
       "url": "https://github.com/gastownhall/gascity/pull/6397"
     },
     "6410": {
-      "human_comment_authors": [],
+      "human_comment_authors": [
+        "gascityinc-olivia[bot]"
+      ],
       "human_review_authors": [],
       "mergeable_state": "blocked",
       "merged": false,
@@ -1384,7 +1415,9 @@
       "url": "https://github.com/gastownhall/gascity/pull/6728"
     },
     "6732": {
-      "human_comment_authors": [],
+      "human_comment_authors": [
+        "gascityinc-olivia[bot]"
+      ],
       "human_review_authors": [],
       "mergeable_state": "blocked",
       "merged": false,
@@ -1395,6 +1428,7 @@
     },
     "6734": {
       "human_comment_authors": [
+        "gascityinc-olivia[bot]",
         "julianknutsen"
       ],
       "human_review_authors": [],
@@ -1570,7 +1604,9 @@
       "url": "https://github.com/gastownhall/gascity/pull/7350"
     },
     "7351": {
-      "human_comment_authors": [],
+      "human_comment_authors": [
+        "gascityinc-olivia[bot]"
+      ],
       "human_review_authors": [],
       "mergeable_state": "clean",
       "merged": false,

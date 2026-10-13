@@ -1,6 +1,6 @@
 {
   "author": "rjgeng",
-  "last_checked_at": "2026-10-13T18:48:29Z",
+  "last_checked_at": "2026-10-13T20:00:00Z",
   "prs": {
     "2037": {"human_comment_authors": [], "human_review_authors": [], "mergeable_state": null, "merged": true, "merged_at": "2026-05-13T01:46:12Z", "state": "closed", "title": "fix(packs): fallback to dolt-provider-state.json", "url": "https://github.com/gastownhall/gascity/pull/2037"},
     "2088": {"human_comment_authors": [], "human_review_authors": [], "mergeable_state": null, "merged": true, "merged_at": "2026-05-20T18:45:45Z", "state": "closed", "title": "docs(convoy): clarify --help text re: workflows vs convoys", "url": "https://github.com/gastownhall/gascity/pull/2088"},
@@ -127,7 +127,7 @@
     "6337": {"human_comment_authors": [], "human_review_authors": [], "mergeable_state": "clean", "merged": false, "merged_at": null, "state": "open", "title": "fix(hook): close 3 fail-open gaps in hookClaimDirLooksLikeRepo repo-marker detection", "url": "https://github.com/gastownhall/gascity/pull/6337"},
     "6340": {"human_comment_authors": [], "human_review_authors": [], "mergeable_state": "blocked", "merged": false, "merged_at": null, "state": "open", "title": "fix(convoy): order the workflow root last in delete-sweep so an interrupted delete never leaves it closed with open descendants", "url": "https://github.com/gastownhall/gascity/pull/6340"},
     "6364": {"human_comment_authors": [], "human_review_authors": [], "mergeable_state": "dirty", "merged": false, "merged_at": null, "state": "open", "title": "fix(config): let a template opt a cold pool out of the wake-probe's clamped-1 override (Agent.ColdWake)", "url": "https://github.com/gastownhall/gascity/pull/6364"},
-    "6365": {"human_comment_authors": [], "human_review_authors": [], "mergeable_state": "blocked", "merged": false, "merged_at": null, "state": "open", "title": "fix(handoff): give PreCompact its own flat systemMessage shape under --hook-format codex", "url": "https://github.com/gastownhall/gascity/pull/6365"},
+    "6365": {"human_comment_authors": [], "human_review_authors": ["quad341"], "mergeable_state": "blocked", "merged": false, "merged_at": null, "state": "open", "title": "fix(handoff): give PreCompact its own flat systemMessage shape under --hook-format codex", "url": "https://github.com/gastownhall/gascity/pull/6365"},
     "6366": {"human_comment_authors": [], "human_review_authors": [], "mergeable_state": null, "merged": false, "merged_at": null, "state": "closed", "title": "fix(nudge): derive the CLI's session-class store from the city's work store at every call site", "url": "https://github.com/gastownhall/gascity/pull/6366"},
     "6397": {"human_comment_authors": ["rjgeng"], "human_review_authors": [], "mergeable_state": "dirty", "merged": false, "merged_at": null, "state": "open", "title": "fix(nudge): probe controller liveness before suppressing the per-session nudge poller", "url": "https://github.com/gastownhall/gascity/pull/6397"},
     "6410": {"human_comment_authors": [], "human_review_authors": [], "mergeable_state": "blocked", "merged": false, "merged_at": null, "state": "open", "title": "fix(pool): treat a live session's currently_processing_bead_id as first-party proof of ownership", "url": "https://github.com/gastownhall/gascity/pull/6410"},

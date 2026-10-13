@@ -1,6 +1,6 @@
 {
  "author": "rjgeng",
- "last_checked_at": "2026-10-13T21:53:49Z",
+ "last_checked_at": "2026-10-13T22:15:00Z",
  "prs": {
   "2037": {"human_comment_authors": [], "human_review_authors": [], "mergeable_state": null, "merged": true, "merged_at": "2026-05-13T01:46:12Z", "state": "closed", "title": "fix(packs): fallback to dolt-provider-state.json", "url": "https://github.com/gastownhall/gascity/pull/2037"},
   "2088": {"human_comment_authors": [], "human_review_authors": [], "mergeable_state": null, "merged": true, "merged_at": "2026-05-20T18:45:45Z", "state": "closed", "title": "docs(convoy): clarify --help text re: workflows vs convoys", "url": "https://github.com/gastownhall/gascity/pull/2088"},
@@ -23,7 +23,7 @@
   "4213": {"human_comment_authors": [], "human_review_authors": [], "mergeable_state": null, "merged": true, "merged_at": "2026-07-17T04:31:54Z", "state": "closed", "title": "fix(materialize): log a debug line when a shared skill-catalog name is shadowed (#4131)", "url": "https://github.com/gastownhall/gascity/pull/4213"},
   "4216": {"human_comment_authors": [], "human_review_authors": [], "mergeable_state": null, "merged": true, "merged_at": "2026-07-17T06:05:22Z", "state": "closed", "title": "fix(cmd/gc): lint no longer flags the documented pool-disable form as a named-session conflict (#4184)", "url": "https://github.com/gastownhall/gascity/pull/4216"},
   "4219": {"human_comment_authors": [], "human_review_authors": [], "mergeable_state": null, "merged": true, "merged_at": "2026-07-17T07:07:14Z", "state": "closed", "title": "fix(runproj): warming snapshot no longer marshals historicalLanes/recentChanges as null (#4142)", "url": "https://github.com/gastownhall/gascity/pull/4219"},
-  "4248": {"human_comment_authors": [], "human_review_authors": [], "mergeable_state": null, "merged": true, "merged_at": "2026-07-19T15:09:00Z", "state": "closed", "title": "fix(doctor): warn when beads-store silently fell back to BdStore (#4245)", "url": "https://github.com/gastownhall/gascity/pull/4248"},
+  "4248": {"human_comment_authors": [], "human_review_authors": [], "mergeable_state": null, "merged": true, "merged_at": "2026-07-19T15:09:00Z", "state": "closed", "title": "fix(doctor): warn when beads-store silently fell back to BdStore (#4245)", "url": "https://github.com/gastownhall/gascity/pull/4245"},
   "4384": {"human_comment_authors": [], "human_review_authors": [], "mergeable_state": null, "merged": true, "merged_at": "2026-07-29T15:56:17Z", "state": "closed", "title": "fix(cmd/gc): validate explicit city path before scanning registry rig bindings (#4364)", "url": "https://github.com/gastownhall/gascity/pull/4384"},
   "4405": {"human_comment_authors": [], "human_review_authors": [], "mergeable_state": null, "merged": true, "merged_at": "2026-07-29T13:55:27Z", "state": "closed", "title": "fix(runtime/k8s): propagate Nudge/SendKeys transport errors (#4389)", "url": "https://github.com/gastownhall/gascity/pull/4405"},
   "4406": {"human_comment_authors": [], "human_review_authors": [], "mergeable_state": null, "merged": true, "merged_at": "2026-07-20T08:26:22Z", "state": "closed", "title": "fix(cmd/gc): gc init --skip-provider-readiness accepts any builtin provider (#4392)", "url": "https://github.com/gastownhall/gascity/pull/4406"},

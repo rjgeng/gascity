@@ -1,6 +1,6 @@
 {
  "author": "rjgeng",
- "last_checked_at": "2026-10-13T22:15:00Z",
+ "last_checked_at": "2026-10-13T23:46:44Z",
  "prs": {
   "2037": {"human_comment_authors": [], "human_review_authors": [], "mergeable_state": null, "merged": true, "merged_at": "2026-05-13T01:46:12Z", "state": "closed", "title": "fix(packs): fallback to dolt-provider-state.json", "url": "https://github.com/gastownhall/gascity/pull/2037"},
   "2088": {"human_comment_authors": [], "human_review_authors": [], "mergeable_state": null, "merged": true, "merged_at": "2026-05-20T18:45:45Z", "state": "closed", "title": "docs(convoy): clarify --help text re: workflows vs convoys", "url": "https://github.com/gastownhall/gascity/pull/2088"},
@@ -16,7 +16,7 @@
   "4019": {"human_comment_authors": [], "human_review_authors": [], "mergeable_state": null, "merged": true, "merged_at": "2026-07-15T12:47:20Z", "state": "closed", "title": "feat(config): gc config explain renders idle/lifecycle-timeout agent keys (#3965)", "url": "https://github.com/gastownhall/gascity/pull/4019"},
   "4095": {"human_comment_authors": ["rjgeng"], "human_review_authors": [], "mergeable_state": "dirty", "merged": false, "merged_at": null, "state": "open", "title": "fix(session): refresh reset_committed_at on every continuation-reset re-arm (#4067)", "url": "https://github.com/gastownhall/gascity/pull/4095"},
   "4129": {"human_comment_authors": [], "human_review_authors": [], "mergeable_state": null, "merged": true, "merged_at": "2026-07-16T02:51:33Z", "state": "closed", "title": "fix(dolt-cleanup): resolve DROP-stage user via GC_DOLT_USER instead of hardcoded root (#4123)", "url": "https://github.com/gastownhall/gascity/pull/4129"},
-  "4138": {"human_comment_authors": [], "human_review_authors": [], "mergeable_state": "clean", "merged": false, "merged_at": null, "state": "open", "title": "fix(session): gc session attach waits for an in-flight controller reset instead of racing it (#4079)", "url": "https://github.com/gastownhall/gascity/pull/4138"},
+  "4138": {"human_comment_authors": [], "human_review_authors": [], "mergeable_state": "dirty", "merged": false, "merged_at": null, "state": "open", "title": "fix(session): gc session attach waits for an in-flight controller reset instead of racing it (#4079)", "url": "https://github.com/gastownhall/gascity/pull/4138"},
   "4156": {"human_comment_authors": [], "human_review_authors": [], "mergeable_state": null, "merged": true, "merged_at": "2026-07-16T12:35:52Z", "state": "closed", "title": "fix(materialize): remember gc-written symlink targets so pack-sha bumps self-heal (#4130)", "url": "https://github.com/gastownhall/gascity/pull/4156"},
   "4186": {"human_comment_authors": [], "human_review_authors": [], "mergeable_state": null, "merged": true, "merged_at": "2026-07-16T16:06:23Z", "state": "closed", "title": "fix(reaper): head+tail window sanitize_output so long-query errors survive (#4161)", "url": "https://github.com/gastownhall/gascity/pull/4186"},
   "4211": {"human_comment_authors": [], "human_review_authors": [], "mergeable_state": null, "merged": true, "merged_at": "2026-07-17T03:31:20Z", "state": "closed", "title": "test(cmd/gc): regression coverage for rig-scoped pool default scale_check + work_query (#4189)", "url": "https://github.com/gastownhall/gascity/pull/4211"},

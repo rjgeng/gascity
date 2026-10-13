@@ -1,6 +1,6 @@
 {
   "author": "rjgeng",
-  "last_checked_at": "2026-10-12T23:51:09Z",
+  "last_checked_at": "2026-10-13T00:48:29Z",
   "prs": {
     "2037": {
       "human_comment_authors": [],
@@ -99,7 +99,7 @@
       "merged": true,
       "merged_at": "2026-07-14T00:30:00Z",
       "state": "closed",
-      "title": "fix(doctor): clarify external Dolt backup message — endpoint may be local (#3868 follow-up)",
+      "title": "fix(doctor): clarify external Dolt backup message \u2014 endpoint may be local (#3868 follow-up)",
       "url": "https://github.com/gastownhall/gascity/pull/3979"
     },
     "3981": {
@@ -127,7 +127,7 @@
         "rjgeng"
       ],
       "human_review_authors": [],
-      "mergeable_state": "blocked",
+      "mergeable_state": "dirty",
       "merged": false,
       "merged_at": null,
       "state": "open",
@@ -1581,7 +1581,7 @@
     "7123": {
       "human_comment_authors": [],
       "human_review_authors": [],
-      "mergeable_state": "blocked",
+      "mergeable_state": "dirty",
       "merged": false,
       "merged_at": null,
       "state": "open",

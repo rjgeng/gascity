@@ -1,6 +1,6 @@
 {
   "author": "rjgeng",
-  "last_checked_at": "2026-10-13T04:49:42Z",
+  "last_checked_at": "2026-10-13T05:50:00Z",
   "prs": {
     "2037": {
       "human_comment_authors": [],
@@ -150,7 +150,7 @@
       "merged": false,
       "merged_at": null,
       "url": "https://github.com/gastownhall/gascity/pull/4138",
-      "mergeable_state": "clean",
+      "mergeable_state": "dirty",
       "human_comment_authors": [],
       "human_review_authors": []
     },
@@ -1162,7 +1162,7 @@
       "merged": false,
       "merged_at": null,
       "url": "https://github.com/gastownhall/gascity/pull/6097",
-      "mergeable_state": "clean",
+      "mergeable_state": "dirty",
       "human_comment_authors": [
         "rjgeng"
       ],
@@ -1307,7 +1307,7 @@
       "merged": false,
       "merged_at": null,
       "url": "https://github.com/gastownhall/gascity/pull/6397",
-      "mergeable_state": "clean",
+      "mergeable_state": "dirty",
       "human_comment_authors": [
         "rjgeng"
       ],

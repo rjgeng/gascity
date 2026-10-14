@@ -1,6 +1,6 @@
 {
   "author": "rjgeng",
-  "last_checked_at": "2026-10-14T13:47:59Z",
+  "last_checked_at": "2026-10-14T14:45:00Z",
   "prs": {
     "2037": {
       "human_comment_authors": [],
@@ -131,7 +131,8 @@
       "merged": false,
       "merged_at": null,
       "state": "open",
-      "title": "fix(session): refresh reset_committed_at on every continuation-reset re-arm (#4067)"
+      "title": "fix(session): refresh reset_committed_at on every continuation-reset re-arm (#4067)",
+      "url": "https://github.com/gastownhall/gascity/pull/4095"
     },
     "4129": {
       "human_comment_authors": [],
@@ -150,7 +151,8 @@
       "merged": false,
       "merged_at": null,
       "state": "open",
-      "title": "fix(session): gc session attach waits for an in-flight controller reset instead of racing it (#4079)"
+      "title": "fix(session): gc session attach waits for an in-flight controller reset instead of racing it (#4079)",
+      "url": "https://github.com/gastownhall/gascity/pull/4138"
     },
     "4156": {
       "human_comment_authors": [],
@@ -271,7 +273,8 @@
       "merged": false,
       "merged_at": null,
       "state": "open",
-      "title": "fix(runtime): treat a gone session as drain-acked (#4448)"
+      "title": "fix(runtime): treat a gone session as drain-acked (#4448)",
+      "url": "https://github.com/gastownhall/gascity/pull/4481"
     },
     "4482": {
       "human_comment_authors": [],
@@ -422,7 +425,8 @@
       "merged": false,
       "merged_at": null,
       "state": "open",
-      "title": "fix(sling): --nudge falls back to a running named session for instance-expandable agents (#3412)"
+      "title": "fix(sling): --nudge falls back to a running named session for instance-expandable agents (#3412)",
+      "url": "https://github.com/gastownhall/gascity/pull/4584"
     },
     "4856": {
       "human_comment_authors": [],
@@ -785,7 +789,8 @@
       "merged": false,
       "merged_at": null,
       "state": "open",
-      "title": "fix(supervisor): auto-unregister on repeated stale-config load failures (#5313)"
+      "title": "fix(supervisor): auto-unregister on repeated stale-config load failures (#5313)",
+      "url": "https://github.com/gastownhall/gascity/pull/5365"
     },
     "5375": {
       "human_comment_authors": [],
@@ -987,7 +992,8 @@
       "merged": false,
       "merged_at": null,
       "state": "open",
-      "title": "chore(api): regenerate generated artifacts for a new GET /sessions ?enrich= query param"
+      "title": "chore(api): regenerate generated artifacts for a new GET /sessions ?enrich= query param",
+      "url": "https://github.com/gastownhall/gascity/pull/5854"
     },
     "5855": {
       "human_comment_authors": [],
@@ -1083,7 +1089,8 @@
       "merged": false,
       "merged_at": null,
       "state": "open",
-      "title": "fix(beads): consult native-open deferral before dialing the identity probe (#5965)"
+      "title": "fix(beads): consult native-open deferral before dialing the identity probe (#5965)",
+      "url": "https://github.com/gastownhall/gascity/pull/6007"
     },
     "6038": {
       "human_comment_authors": [
@@ -1114,7 +1121,8 @@
       "merged": false,
       "merged_at": null,
       "state": "open",
-      "title": "fix(core-pack): anchor worktree creation on $GC_DIR, not $(pwd) (#6014)"
+      "title": "fix(core-pack): anchor worktree creation on $GC_DIR, not $(pwd) (#6014)",
+      "url": "https://github.com/gastownhall/gascity/pull/6053"
     },
     "6057": {
       "human_comment_authors": [],
@@ -1157,7 +1165,8 @@
       "merged": false,
       "merged_at": null,
       "state": "open",
-      "title": "fix(suspensionstate): serialize rig suspend/resume with a cross-process flock (#6056)"
+      "title": "fix(suspensionstate): serialize rig suspend/resume with a cross-process flock (#6056)",
+      "url": "https://github.com/gastownhall/gascity/pull/6097"
     },
     "6163": {
       "human_comment_authors": [],
@@ -1186,7 +1195,8 @@
       "merged": false,
       "merged_at": null,
       "state": "open",
-      "title": "fix(doctor): surface effective city suspension as a doctor check (#6126)"
+      "title": "fix(doctor): surface effective city suspension as a doctor check (#6126)",
+      "url": "https://github.com/gastownhall/gascity/pull/6167"
     },
     "6269": {
       "human_comment_authors": [],
@@ -1195,7 +1205,8 @@
       "merged": false,
       "merged_at": null,
       "state": "open",
-      "title": "fix(config): apply feature flags in the supervisor's per-city loader (#6236)"
+      "title": "fix(config): apply feature flags in the supervisor's per-city loader (#6236)",
+      "url": "https://github.com/gastownhall/gascity/pull/6269"
     },
     "6270": {
       "human_comment_authors": [],
@@ -1204,7 +1215,8 @@
       "merged": false,
       "merged_at": null,
       "state": "open",
-      "title": "fix(molecule): retry a dropped molecule_failed stamp before giving up (#6235)"
+      "title": "fix(molecule): retry a dropped molecule_failed stamp before giving up (#6235)",
+      "url": "https://github.com/gastownhall/gascity/pull/6270"
     },
     "6325": {
       "human_comment_authors": [],
@@ -1213,7 +1225,8 @@
       "merged": false,
       "merged_at": null,
       "state": "open",
-      "title": "fix(worktree): stop TestManagedDryRunDoesNotPublishProvenance flaking on transient git lock files"
+      "title": "fix(worktree): stop TestManagedDryRunDoesNotPublishProvenance flaking on transient git lock files",
+      "url": "https://github.com/gastownhall/gascity/pull/6325"
     },
     "6326": {
       "human_comment_authors": [],
@@ -1222,7 +1235,8 @@
       "merged": false,
       "merged_at": null,
       "state": "open",
-      "title": "fix(tmux): corroborate ListRunning's ServerAbsent with a socket observation"
+      "title": "fix(tmux): corroborate ListRunning's ServerAbsent with a socket observation",
+      "url": "https://github.com/gastownhall/gascity/pull/6326"
     },
     "6331": {
       "human_comment_authors": [
@@ -1244,7 +1258,8 @@
       "merged": false,
       "merged_at": null,
       "state": "open",
-      "title": "fix(hook): close 3 fail-open gaps in hookClaimDirLooksLikeRepo repo-marker detection"
+      "title": "fix(hook): close 3 fail-open gaps in hookClaimDirLooksLikeRepo repo-marker detection",
+      "url": "https://github.com/gastownhall/gascity/pull/6337"
     },
     "6340": {
       "human_comment_authors": [],
@@ -1253,7 +1268,8 @@
       "merged": false,
       "merged_at": null,
       "state": "open",
-      "title": "fix(convoy): order the workflow root last in delete-sweep so an interrupted delete never leaves it closed with open descendants"
+      "title": "fix(convoy): order the workflow root last in delete-sweep so an interrupted delete never leaves it closed with open descendants",
+      "url": "https://github.com/gastownhall/gascity/pull/6340"
     },
     "6364": {
       "human_comment_authors": [],
@@ -1262,7 +1278,8 @@
       "merged": false,
       "merged_at": null,
       "state": "open",
-      "title": "fix(config): let a template opt a cold pool out of the wake-probe's clamped-1 override (Agent.ColdWake)"
+      "title": "fix(config): let a template opt a cold pool out of the wake-probe's clamped-1 override (Agent.ColdWake)",
+      "url": "https://github.com/gastownhall/gascity/pull/6364"
     },
     "6365": {
       "human_comment_authors": [],
@@ -1273,7 +1290,8 @@
       "merged": false,
       "merged_at": null,
       "state": "open",
-      "title": "fix(handoff): give PreCompact its own flat systemMessage shape under --hook-format codex"
+      "title": "fix(handoff): give PreCompact its own flat systemMessage shape under --hook-format codex",
+      "url": "https://github.com/gastownhall/gascity/pull/6365"
     },
     "6366": {
       "human_comment_authors": [],
@@ -1294,7 +1312,8 @@
       "merged": false,
       "merged_at": null,
       "state": "open",
-      "title": "fix(nudge): probe controller liveness before suppressing the per-session nudge poller"
+      "title": "fix(nudge): probe controller liveness before suppressing the per-session nudge poller",
+      "url": "https://github.com/gastownhall/gascity/pull/6397"
     },
     "6410": {
       "human_comment_authors": [],
@@ -1305,7 +1324,8 @@
       "merged": false,
       "merged_at": null,
       "state": "open",
-      "title": "fix(pool): treat a live session's currently_processing_bead_id as first-party proof of ownership"
+      "title": "fix(pool): treat a live session's currently_processing_bead_id as first-party proof of ownership",
+      "url": "https://github.com/gastownhall/gascity/pull/6410"
     },
     "6411": {
       "human_comment_authors": [],
@@ -1374,7 +1394,8 @@
       "merged": false,
       "merged_at": null,
       "state": "open",
-      "title": "fix(worktrees): honor configured root during cleanup"
+      "title": "fix(worktrees): honor configured root during cleanup",
+      "url": "https://github.com/gastownhall/gascity/pull/6732"
     },
     "6734": {
       "human_comment_authors": [
@@ -1385,7 +1406,8 @@
       "merged": false,
       "merged_at": null,
       "state": "open",
-      "title": "fix(runtime): recognize Codex trust dialog"
+      "title": "fix(runtime): recognize Codex trust dialog",
+      "url": "https://github.com/gastownhall/gascity/pull/6734"
     },
     "6740": {
       "human_comment_authors": [],
@@ -1428,7 +1450,8 @@
       "merged": false,
       "merged_at": null,
       "state": "open",
-      "title": "test(contract): isolate managed-city reachability checks"
+      "title": "test(contract): isolate managed-city reachability checks",
+      "url": "https://github.com/gastownhall/gascity/pull/6938"
     },
     "6949": {
       "human_comment_authors": [
@@ -1439,7 +1462,8 @@
       "merged": false,
       "merged_at": null,
       "state": "open",
-      "title": "fix(jsonl): honor archive branch and remote locality"
+      "title": "fix(jsonl): honor archive branch and remote locality",
+      "url": "https://github.com/gastownhall/gascity/pull/6949"
     },
     "6950": {
       "human_comment_authors": [
@@ -1450,7 +1474,8 @@
       "merged": false,
       "merged_at": null,
       "state": "open",
-      "title": "fix(pi): honor managed gc runtime in hooks"
+      "title": "fix(pi): honor managed gc runtime in hooks",
+      "url": "https://github.com/gastownhall/gascity/pull/6950"
     },
     "6954": {
       "human_comment_authors": [
@@ -1461,7 +1486,8 @@
       "merged": false,
       "merged_at": null,
       "state": "open",
-      "title": "fix(formula): reject unsupported check keys"
+      "title": "fix(formula): reject unsupported check keys",
+      "url": "https://github.com/gastownhall/gascity/pull/6954"
     },
     "6955": {
       "human_comment_authors": [
@@ -1484,7 +1510,8 @@
       "merged": false,
       "merged_at": null,
       "state": "open",
-      "title": "fix(dispatch): retry direct Ralph infrastructure failures"
+      "title": "fix(dispatch): retry direct Ralph infrastructure failures",
+      "url": "https://github.com/gastownhall/gascity/pull/6956"
     },
     "6978": {
       "human_comment_authors": [],
@@ -1503,7 +1530,8 @@
       "merged": false,
       "merged_at": null,
       "state": "open",
-      "title": "fix(controller): no wake demand for a deferred molecule root"
+      "title": "fix(controller): no wake demand for a deferred molecule root",
+      "url": "https://github.com/gastownhall/gascity/pull/7110"
     },
     "7111": {
       "human_comment_authors": [],
@@ -1516,13 +1544,16 @@
       "url": "https://github.com/gastownhall/gascity/pull/7111"
     },
     "7114": {
-      "human_comment_authors": [],
+      "human_comment_authors": [
+        "rjgeng"
+      ],
       "human_review_authors": [],
       "mergeable_state": "dirty",
       "merged": false,
       "merged_at": null,
-      "state": "open",
-      "title": "fix(test): TestCachingStoreScanFencesStress no longer flakes on a legitimate recent-local-write keep"
+      "state": "closed",
+      "title": "fix(test): TestCachingStoreScanFencesStress no longer flakes on a legitimate recent-local-write keep",
+      "url": "https://github.com/gastownhall/gascity/pull/7114"
     },
     "7123": {
       "human_comment_authors": [],
@@ -1551,7 +1582,8 @@
       "merged": false,
       "merged_at": null,
       "state": "open",
-      "title": "fix(formula): gc formula cook --attach no longer drops --meta"
+      "title": "fix(formula): gc formula cook --attach no longer drops --meta",
+      "url": "https://github.com/gastownhall/gascity/pull/7351"
     },
     "7395": {
       "human_comment_authors": [],
@@ -1570,7 +1602,8 @@
       "merged": false,
       "merged_at": null,
       "state": "open",
-      "title": "fix(controller): route-recovery backstop no longer flags a single-store city"
+      "title": "fix(controller): route-recovery backstop no longer flags a single-store city",
+      "url": "https://github.com/gastownhall/gascity/pull/7421"
     },
     "7426": {
       "human_comment_authors": [],
@@ -1579,7 +1612,8 @@
       "merged": false,
       "merged_at": null,
       "state": "open",
-      "title": "fix(session): a killed session loses its resume identity"
+      "title": "fix(session): a killed session loses its resume identity",
+      "url": "https://github.com/gastownhall/gascity/pull/7426"
     },
     "7482": {
       "human_comment_authors": [],
@@ -1588,7 +1622,8 @@
       "merged": false,
       "merged_at": null,
       "state": "open",
-      "title": "fix(nudge): resolve the session-class store from the city path, not the nudges store"
+      "title": "fix(nudge): resolve the session-class store from the city path, not the nudges store",
+      "url": "https://github.com/gastownhall/gascity/pull/7482"
     },
     "7524": {
       "human_comment_authors": [],
@@ -1597,7 +1632,18 @@
       "merged": false,
       "merged_at": null,
       "state": "open",
-      "title": "fix(pool): preserve canonical human handoffs"
+      "title": "fix(pool): preserve canonical human handoffs",
+      "url": "https://github.com/gastownhall/gascity/pull/7524"
+    },
+    "7903": {
+      "human_comment_authors": [],
+      "human_review_authors": [],
+      "mergeable_state": "clean",
+      "merged": false,
+      "merged_at": null,
+      "state": "open",
+      "title": "fix(beads): List with two or more Assignees fans out per assignee instead of scanning",
+      "url": "https://github.com/gastownhall/gascity/pull/7903"
     }
   }
 }

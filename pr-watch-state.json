@@ -1,6 +1,6 @@
 {
   "author": "rjgeng",
-  "last_checked_at": "2026-10-14T01:48:52Z",
+  "last_checked_at": "2026-10-14T02:50:12Z",
   "prs": {
     "2037": {
       "human_comment_authors": [],
@@ -222,7 +222,7 @@
       "merged_at": "2026-07-19T15:09:00Z",
       "state": "closed",
       "title": "fix(doctor): warn when beads-store silently fell back to BdStore (#4245)",
-      "url": "https://github.com/gastownhall/gascity/pull/4245"
+      "url": "https://github.com/gastownhall/gascity/pull/4248"
     },
     "4384": {
       "human_comment_authors": [],
@@ -1317,7 +1317,9 @@
     },
     "6410": {
       "human_comment_authors": [],
-      "human_review_authors": [],
+      "human_review_authors": [
+        "quad341"
+      ],
       "mergeable_state": "blocked",
       "merged": false,
       "merged_at": null,

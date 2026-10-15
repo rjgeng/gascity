@@ -1,6 +1,6 @@
 {
   "author": "rjgeng",
-  "last_checked_at": "2026-10-15T05:49:00Z",
+  "last_checked_at": "2026-10-15T06:48:31Z",
   "prs": {
     "2037": {
       "human_comment_authors": [],
@@ -1085,7 +1085,7 @@
         "rjgeng"
       ],
       "human_review_authors": [],
-      "mergeable_state": "blocked",
+      "mergeable_state": "clean",
       "merged": false,
       "merged_at": null,
       "state": "open",

@@ -1,6 +1,6 @@
 {
   "author": "rjgeng",
-  "last_checked_at": "2026-10-15T14:46:19Z",
+  "last_checked_at": "2026-10-15T15:46:42Z",
   "prs": {
     "7955": {
       "title": "fix(config): gc rig remove preserves city.toml comments via surgical removal",

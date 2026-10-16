@@ -1,6 +1,6 @@
 {
   "author": "rjgeng",
-  "last_checked_at": "2026-10-16T10:47:16Z",
+  "last_checked_at": "2026-10-16T11:48:53Z",
   "prs": {
     "4095": {
       "title": "fix(session): refresh reset_committed_at on every continuation-reset re-arm (#4067)",
@@ -10,9 +10,7 @@
       "merged_at": null,
       "mergeable_state": "blocked",
       "human_review_authors": [],
-      "human_comment_authors": [
-        "rjgeng"
-      ]
+      "human_comment_authors": ["rjgeng"]
     },
     "4138": {
       "title": "fix(session): gc session attach waits for an in-flight controller reset instead of racing it (#4079)",
@@ -32,9 +30,7 @@
       "merged_at": null,
       "mergeable_state": "blocked",
       "human_review_authors": [],
-      "human_comment_authors": [
-        "rjgeng"
-      ]
+      "human_comment_authors": ["rjgeng"]
     },
     "4584": {
       "title": "fix(sling): --nudge falls back to a running named session for instance-expandable agents (#3412)",
@@ -44,9 +40,7 @@
       "merged_at": null,
       "mergeable_state": "blocked",
       "human_review_authors": [],
-      "human_comment_authors": [
-        "remuscazacu"
-      ]
+      "human_comment_authors": ["remuscazacu"]
     },
     "5365": {
       "title": "fix(supervisor): auto-unregister on repeated stale-config load failures (#5313)",
@@ -66,10 +60,7 @@
       "merged_at": null,
       "mergeable_state": "unstable",
       "human_review_authors": [],
-      "human_comment_authors": [
-        "quad341",
-        "rjgeng"
-      ]
+      "human_comment_authors": ["quad341", "rjgeng"]
     },
     "6007": {
       "title": "fix(beads): consult native-open deferral before dialing the identity probe (#5965)",
@@ -79,10 +70,7 @@
       "merged_at": null,
       "mergeable_state": "clean",
       "human_review_authors": [],
-      "human_comment_authors": [
-        "A3Ackerman",
-        "rjgeng"
-      ]
+      "human_comment_authors": ["A3Ackerman", "rjgeng"]
     },
     "6053": {
       "title": "fix(core-pack): anchor worktree creation on $GC_DIR, not $(pwd) (#6014)",
@@ -102,9 +90,7 @@
       "merged_at": null,
       "mergeable_state": "clean",
       "human_review_authors": [],
-      "human_comment_authors": [
-        "rjgeng"
-      ]
+      "human_comment_authors": ["rjgeng"]
     },
     "6167": {
       "title": "fix(doctor): surface effective city suspension as a doctor check (#6126)",
@@ -193,9 +179,7 @@
       "merged": false,
       "merged_at": null,
       "mergeable_state": "blocked",
-      "human_review_authors": [
-        "quad341"
-      ],
+      "human_review_authors": ["quad341"],
       "human_comment_authors": []
     },
     "6397": {
@@ -206,9 +190,7 @@
       "merged_at": null,
       "mergeable_state": "clean",
       "human_review_authors": [],
-      "human_comment_authors": [
-        "rjgeng"
-      ]
+      "human_comment_authors": ["rjgeng"]
     },
     "6410": {
       "title": "fix(pool): treat a live session's currently_processing_bead_id as first-party proof of ownership",
@@ -217,12 +199,8 @@
       "merged": false,
       "merged_at": null,
       "mergeable_state": "blocked",
-      "human_review_authors": [
-        "quad341"
-      ],
-      "human_comment_authors": [
-        "brandonmartin"
-      ]
+      "human_review_authors": ["quad341"],
+      "human_comment_authors": ["brandonmartin"]
     },
     "6732": {
       "title": "fix(worktrees): honor configured root during cleanup",
@@ -242,9 +220,7 @@
       "merged_at": null,
       "mergeable_state": "clean",
       "human_review_authors": [],
-      "human_comment_authors": [
-        "rjgeng"
-      ]
+      "human_comment_authors": ["rjgeng"]
     },
     "6949": {
       "title": "fix(jsonl): honor archive branch and remote locality",
@@ -254,9 +230,7 @@
       "merged_at": null,
       "mergeable_state": "clean",
       "human_review_authors": [],
-      "human_comment_authors": [
-        "rjgeng"
-      ]
+      "human_comment_authors": ["rjgeng"]
     },
     "6950": {
       "title": "fix(pi): honor managed gc runtime in hooks",
@@ -266,9 +240,7 @@
       "merged_at": null,
       "mergeable_state": "clean",
       "human_review_authors": [],
-      "human_comment_authors": [
-        "rjgeng"
-      ]
+      "human_comment_authors": ["rjgeng"]
     },
     "6954": {
       "title": "fix(formula): reject unsupported check keys",
@@ -278,9 +250,7 @@
       "merged_at": null,
       "mergeable_state": "blocked",
       "human_review_authors": [],
-      "human_comment_authors": [
-        "rjgeng"
-      ]
+      "human_comment_authors": ["rjgeng"]
     },
     "6956": {
       "title": "fix(dispatch): retry direct Ralph infrastructure failures",
@@ -290,9 +260,7 @@
       "merged_at": null,
       "mergeable_state": "blocked",
       "human_review_authors": [],
-      "human_comment_authors": [
-        "julianknutsen"
-      ]
+      "human_comment_authors": ["julianknutsen"]
     },
     "7110": {
       "title": "fix(controller): no wake demand for a deferred molecule root",
@@ -362,9 +330,7 @@
       "merged_at": null,
       "mergeable_state": "clean",
       "human_review_authors": [],
-      "human_comment_authors": [
-        "julianknutsen"
-      ]
+      "human_comment_authors": ["julianknutsen"]
     },
     "7955": {
       "title": "fix(config): gc rig remove preserves city.toml comments via surgical removal",

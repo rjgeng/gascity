@@ -1,6 +1,6 @@
 {
   "author": "rjgeng",
-  "last_checked_at": "2026-10-16T05:48:11Z",
+  "last_checked_at": "2026-10-16T06:05:00Z",
   "prs": {
     "4095": {
       "title": "fix(session): refresh reset_committed_at on every continuation-reset re-arm (#4067)",
@@ -8,9 +8,7 @@
       "merged": false,
       "merged_at": null,
       "mergeable_state": "blocked",
-      "human_comment_authors": [
-        "rjgeng"
-      ],
+      "human_comment_authors": ["rjgeng"],
       "human_review_authors": [],
       "url": "https://github.com/gastownhall/gascity/pull/4095"
     },
@@ -30,9 +28,7 @@
       "merged": false,
       "merged_at": null,
       "mergeable_state": "blocked",
-      "human_comment_authors": [
-        "rjgeng"
-      ],
+      "human_comment_authors": ["rjgeng"],
       "human_review_authors": [],
       "url": "https://github.com/gastownhall/gascity/pull/4481"
     },
@@ -42,9 +38,7 @@
       "merged": false,
       "merged_at": null,
       "mergeable_state": "blocked",
-      "human_comment_authors": [
-        "remuscazacu"
-      ],
+      "human_comment_authors": ["remuscazacu"],
       "human_review_authors": [],
       "url": "https://github.com/gastownhall/gascity/pull/4584"
     },
@@ -64,10 +58,7 @@
       "merged": false,
       "merged_at": null,
       "mergeable_state": "unstable",
-      "human_comment_authors": [
-        "quad341",
-        "rjgeng"
-      ],
+      "human_comment_authors": ["quad341", "rjgeng"],
       "human_review_authors": [],
       "url": "https://github.com/gastownhall/gascity/pull/5854"
     },
@@ -77,10 +68,7 @@
       "merged": false,
       "merged_at": null,
       "mergeable_state": "clean",
-      "human_comment_authors": [
-        "A3Ackerman",
-        "rjgeng"
-      ],
+      "human_comment_authors": ["A3Ackerman", "rjgeng"],
       "human_review_authors": [],
       "url": "https://github.com/gastownhall/gascity/pull/6007"
     },
@@ -100,9 +88,7 @@
       "merged": false,
       "merged_at": null,
       "mergeable_state": "clean",
-      "human_comment_authors": [
-        "rjgeng"
-      ],
+      "human_comment_authors": ["rjgeng"],
       "human_review_authors": [],
       "url": "https://github.com/gastownhall/gascity/pull/6097"
     },
@@ -193,9 +179,7 @@
       "merged_at": null,
       "mergeable_state": "blocked",
       "human_comment_authors": [],
-      "human_review_authors": [
-        "quad341"
-      ],
+      "human_review_authors": ["quad341"],
       "url": "https://github.com/gastownhall/gascity/pull/6365"
     },
     "6397": {
@@ -204,9 +188,7 @@
       "merged": false,
       "merged_at": null,
       "mergeable_state": "clean",
-      "human_comment_authors": [
-        "rjgeng"
-      ],
+      "human_comment_authors": ["rjgeng"],
       "human_review_authors": [],
       "url": "https://github.com/gastownhall/gascity/pull/6397"
     },
@@ -216,12 +198,8 @@
       "merged": false,
       "merged_at": null,
       "mergeable_state": "blocked",
-      "human_comment_authors": [
-        "brandonmartin"
-      ],
-      "human_review_authors": [
-        "quad341"
-      ],
+      "human_comment_authors": ["brandonmartin"],
+      "human_review_authors": ["quad341"],
       "url": "https://github.com/gastownhall/gascity/pull/6410"
     },
     "6732": {
@@ -240,9 +218,7 @@
       "merged": false,
       "merged_at": null,
       "mergeable_state": "clean",
-      "human_comment_authors": [
-        "rjgeng"
-      ],
+      "human_comment_authors": ["rjgeng"],
       "human_review_authors": [],
       "url": "https://github.com/gastownhall/gascity/pull/6938"
     },
@@ -252,9 +228,7 @@
       "merged": false,
       "merged_at": null,
       "mergeable_state": "clean",
-      "human_comment_authors": [
-        "rjgeng"
-      ],
+      "human_comment_authors": ["rjgeng"],
       "human_review_authors": [],
       "url": "https://github.com/gastownhall/gascity/pull/6949"
     },
@@ -264,9 +238,7 @@
       "merged": false,
       "merged_at": null,
       "mergeable_state": "clean",
-      "human_comment_authors": [
-        "rjgeng"
-      ],
+      "human_comment_authors": ["rjgeng"],
       "human_review_authors": [],
       "url": "https://github.com/gastownhall/gascity/pull/6950"
     },
@@ -276,9 +248,7 @@
       "merged": false,
       "merged_at": null,
       "mergeable_state": "blocked",
-      "human_comment_authors": [
-        "rjgeng"
-      ],
+      "human_comment_authors": ["rjgeng"],
       "human_review_authors": [],
       "url": "https://github.com/gastownhall/gascity/pull/6954"
     },
@@ -288,9 +258,7 @@
       "merged": false,
       "merged_at": null,
       "mergeable_state": "blocked",
-      "human_comment_authors": [
-        "julianknutsen"
-      ],
+      "human_comment_authors": ["julianknutsen"],
       "human_review_authors": [],
       "url": "https://github.com/gastownhall/gascity/pull/6956"
     },
@@ -360,9 +328,7 @@
       "merged": false,
       "merged_at": null,
       "mergeable_state": "clean",
-      "human_comment_authors": [
-        "julianknutsen"
-      ],
+      "human_comment_authors": ["julianknutsen"],
       "human_review_authors": [],
       "url": "https://github.com/gastownhall/gascity/pull/7903"
     },

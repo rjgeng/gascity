@@ -1,6 +1,6 @@
 {
   "author": "rjgeng",
-  "last_checked_at": "2026-10-17T11:00:00Z",
+  "last_checked_at": "2026-10-17T11:47:49Z",
   "prs": {
     "4095": {
       "title": "fix(session): refresh reset_committed_at on every continuation-reset re-arm (#4067)",
@@ -30,7 +30,7 @@
       "state": "open",
       "merged": false,
       "merged_at": null,
-      "mergeable_state": "unknown",
+      "mergeable_state": "blocked",
       "human_comment_authors": [
         "rjgeng"
       ],
@@ -42,7 +42,7 @@
       "state": "open",
       "merged": false,
       "merged_at": null,
-      "mergeable_state": "unknown",
+      "mergeable_state": "blocked",
       "human_comment_authors": [
         "remuscazacu"
       ],
@@ -54,7 +54,7 @@
       "state": "open",
       "merged": false,
       "merged_at": null,
-      "mergeable_state": "unknown",
+      "mergeable_state": "blocked",
       "human_comment_authors": [],
       "human_review_authors": []
     },
@@ -382,7 +382,7 @@
       "state": "open",
       "merged": false,
       "merged_at": null,
-      "mergeable_state": "blocked",
+      "mergeable_state": "dirty",
       "human_comment_authors": [],
       "human_review_authors": []
     },

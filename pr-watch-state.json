@@ -1,6 +1,6 @@
 {
   "author": "rjgeng",
-  "last_checked_at": "2026-10-17T08:47:33Z",
+  "last_checked_at": "2026-10-17T09:45:00Z",
   "prs": {
     "4095": {
       "title": "fix(session): refresh reset_committed_at on every continuation-reset re-arm (#4067)",
@@ -168,7 +168,7 @@
       "state": "open",
       "merged": false,
       "merged_at": null,
-      "mergeable_state": "clean",
+      "mergeable_state": "unstable",
       "human_comment_authors": [],
       "human_review_authors": []
     },
@@ -339,6 +339,16 @@
       "merged": false,
       "merged_at": null,
       "mergeable_state": "clean",
+      "human_comment_authors": [],
+      "human_review_authors": []
+    },
+    "8050": {
+      "title": "fix: four quick-win fixes (#7967 TOML printf escaping, #7991 mol-do-work self-close, #7979 dashboard PATH, #7995 maintenance.dolt docs)",
+      "url": "https://github.com/gastownhall/gascity/pull/8050",
+      "state": "open",
+      "merged": false,
+      "merged_at": null,
+      "mergeable_state": "blocked",
       "human_comment_authors": [],
       "human_review_authors": []
     }

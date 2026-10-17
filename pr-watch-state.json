@@ -1,6 +1,6 @@
 {
   "author": "rjgeng",
-  "last_checked_at": "2026-10-17T02:47:41Z",
+  "last_checked_at": "2026-10-17T03:47:52Z",
   "prs": {
     "4095": {
       "human_comment_authors": [
@@ -297,7 +297,7 @@
     "7110": {
       "human_comment_authors": [],
       "human_review_authors": [],
-      "mergeable_state": "dirty",
+      "mergeable_state": "clean",
       "merged": false,
       "merged_at": null,
       "state": "open",
@@ -337,7 +337,7 @@
     "7482": {
       "human_comment_authors": [],
       "human_review_authors": [],
-      "mergeable_state": "dirty",
+      "mergeable_state": "blocked",
       "merged": false,
       "merged_at": null,
       "state": "open",

@@ -1,7 +1,7 @@
 {
   "author": "rjgeng",
-  "checked_at_this_run": "2026-10-18T09:48:28Z",
-  "last_checked_at": "2026-10-18T08:48:14Z",
+  "checked_at_this_run": "2026-10-18T10:47:37Z",
+  "last_checked_at": "2026-10-18T09:48:28Z",
   "prs": {
     "4095": {
       "title": "fix(session): refresh reset_committed_at on every continuation-reset re-arm (#4067)",

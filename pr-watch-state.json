@@ -1,6 +1,6 @@
 {
   "author": "rjgeng",
-  "last_checked_at": "2026-10-18T17:47:02Z",
+  "last_checked_at": "2026-10-18T18:48:29Z",
   "prs": {
     "8070": {
       "title": "fix(trace): report the specific cap, not no_demand, when a pool with real demand is refused",
@@ -49,9 +49,7 @@
       "merged": false,
       "merged_at": null,
       "mergeable_state": "clean",
-      "human_comment_authors": [
-        "rjgeng"
-      ],
+      "human_comment_authors": ["rjgeng"],
       "human_review_authors": []
     },
     "7955": {
@@ -71,9 +69,7 @@
       "merged": false,
       "merged_at": null,
       "mergeable_state": "clean",
-      "human_comment_authors": [
-        "julianknutsen"
-      ],
+      "human_comment_authors": ["julianknutsen"],
       "human_review_authors": []
     },
     "7524": {
@@ -143,9 +139,7 @@
       "merged": false,
       "merged_at": null,
       "mergeable_state": "blocked",
-      "human_comment_authors": [
-        "julianknutsen"
-      ],
+      "human_comment_authors": ["julianknutsen"],
       "human_review_authors": []
     },
     "6954": {
@@ -155,9 +149,7 @@
       "merged": false,
       "merged_at": null,
       "mergeable_state": "blocked",
-      "human_comment_authors": [
-        "rjgeng"
-      ],
+      "human_comment_authors": ["rjgeng"],
       "human_review_authors": []
     },
     "6950": {
@@ -167,9 +159,7 @@
       "merged": false,
       "merged_at": null,
       "mergeable_state": "clean",
-      "human_comment_authors": [
-        "rjgeng"
-      ],
+      "human_comment_authors": ["rjgeng"],
       "human_review_authors": []
     },
     "6949": {
@@ -179,9 +169,7 @@
       "merged": false,
       "merged_at": null,
       "mergeable_state": "clean",
-      "human_comment_authors": [
-        "rjgeng"
-      ],
+      "human_comment_authors": ["rjgeng"],
       "human_review_authors": []
     },
     "6938": {
@@ -191,9 +179,7 @@
       "merged": false,
       "merged_at": null,
       "mergeable_state": "clean",
-      "human_comment_authors": [
-        "rjgeng"
-      ],
+      "human_comment_authors": ["rjgeng"],
       "human_review_authors": []
     },
     "6732": {
@@ -213,12 +199,8 @@
       "merged": false,
       "merged_at": null,
       "mergeable_state": "blocked",
-      "human_comment_authors": [
-        "brandonmartin"
-      ],
-      "human_review_authors": [
-        "quad341"
-      ]
+      "human_comment_authors": ["brandonmartin"],
+      "human_review_authors": ["quad341"]
     },
     "6397": {
       "title": "fix(nudge): probe controller liveness before suppressing the per-session nudge poller",
@@ -227,9 +209,7 @@
       "merged": false,
       "merged_at": null,
       "mergeable_state": "clean",
-      "human_comment_authors": [
-        "rjgeng"
-      ],
+      "human_comment_authors": ["rjgeng"],
       "human_review_authors": []
     },
     "6365": {
@@ -240,9 +220,7 @@
       "merged_at": null,
       "mergeable_state": "blocked",
       "human_comment_authors": [],
-      "human_review_authors": [
-        "quad341"
-      ]
+      "human_review_authors": ["quad341"]
     },
     "6364": {
       "title": "fix(config): let a template opt a cold pool out of the wake-probe's clamped-1 override (Agent.ColdWake)",
@@ -331,9 +309,7 @@
       "merged": false,
       "merged_at": null,
       "mergeable_state": "clean",
-      "human_comment_authors": [
-        "rjgeng"
-      ],
+      "human_comment_authors": ["rjgeng"],
       "human_review_authors": []
     },
     "6053": {
@@ -353,10 +329,7 @@
       "merged": false,
       "merged_at": null,
       "mergeable_state": "clean",
-      "human_comment_authors": [
-        "A3Ackerman",
-        "rjgeng"
-      ],
+      "human_comment_authors": ["A3Ackerman", "rjgeng"],
       "human_review_authors": []
     },
     "5854": {
@@ -366,10 +339,7 @@
       "merged": false,
       "merged_at": null,
       "mergeable_state": "blocked",
-      "human_comment_authors": [
-        "quad341",
-        "rjgeng"
-      ],
+      "human_comment_authors": ["quad341", "rjgeng"],
       "human_review_authors": []
     },
     "5365": {
@@ -389,9 +359,7 @@
       "merged": false,
       "merged_at": null,
       "mergeable_state": "blocked",
-      "human_comment_authors": [
-        "remuscazacu"
-      ],
+      "human_comment_authors": ["remuscazacu"],
       "human_review_authors": []
     },
     "4481": {
@@ -401,9 +369,7 @@
       "merged": false,
       "merged_at": null,
       "mergeable_state": "blocked",
-      "human_comment_authors": [
-        "rjgeng"
-      ],
+      "human_comment_authors": ["rjgeng"],
       "human_review_authors": []
     },
     "4138": {
@@ -423,9 +389,7 @@
       "merged": false,
       "merged_at": null,
       "mergeable_state": "blocked",
-      "human_comment_authors": [
-        "rjgeng"
-      ],
+      "human_comment_authors": ["rjgeng"],
       "human_review_authors": []
     }
   }

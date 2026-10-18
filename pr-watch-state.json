@@ -1,6 +1,6 @@
 {
   "author": "rjgeng",
-  "last_checked_at": "2026-10-18T16:52:06Z",
+  "last_checked_at": "2026-10-18T17:47:02Z",
   "prs": {
     "8070": {
       "title": "fix(trace): report the specific cap, not no_demand, when a pool with real demand is refused",

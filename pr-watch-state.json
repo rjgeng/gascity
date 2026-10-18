@@ -1,7 +1,7 @@
 {
   "author": "rjgeng",
-  "checked_at_this_run": "2026-10-18T10:47:37Z",
-  "last_checked_at": "2026-10-18T09:48:28Z",
+  "checked_at_this_run": "2026-10-18T11:47:05Z",
+  "last_checked_at": "2026-10-18T10:47:37Z",
   "prs": {
     "4095": {
       "title": "fix(session): refresh reset_committed_at on every continuation-reset re-arm (#4067)",
@@ -10,9 +10,7 @@
       "merged": false,
       "merged_at": null,
       "mergeable_state": "blocked",
-      "human_comment_authors": [
-        "rjgeng"
-      ],
+      "human_comment_authors": ["rjgeng"],
       "human_review_authors": []
     },
     "4138": {
@@ -32,9 +30,7 @@
       "merged": false,
       "merged_at": null,
       "mergeable_state": "blocked",
-      "human_comment_authors": [
-        "rjgeng"
-      ],
+      "human_comment_authors": ["rjgeng"],
       "human_review_authors": []
     },
     "4584": {
@@ -44,9 +40,7 @@
       "merged": false,
       "merged_at": null,
       "mergeable_state": "blocked",
-      "human_comment_authors": [
-        "remuscazacu"
-      ],
+      "human_comment_authors": ["remuscazacu"],
       "human_review_authors": []
     },
     "5365": {
@@ -66,10 +60,7 @@
       "merged": false,
       "merged_at": null,
       "mergeable_state": "dirty",
-      "human_comment_authors": [
-        "quad341",
-        "rjgeng"
-      ],
+      "human_comment_authors": ["quad341", "rjgeng"],
       "human_review_authors": []
     },
     "6007": {
@@ -79,10 +70,7 @@
       "merged": false,
       "merged_at": null,
       "mergeable_state": "clean",
-      "human_comment_authors": [
-        "A3Ackerman",
-        "rjgeng"
-      ],
+      "human_comment_authors": ["A3Ackerman", "rjgeng"],
       "human_review_authors": []
     },
     "6053": {
@@ -102,9 +90,7 @@
       "merged": false,
       "merged_at": null,
       "mergeable_state": "clean",
-      "human_comment_authors": [
-        "rjgeng"
-      ],
+      "human_comment_authors": ["rjgeng"],
       "human_review_authors": []
     },
     "6167": {
@@ -195,9 +181,7 @@
       "merged_at": null,
       "mergeable_state": "blocked",
       "human_comment_authors": [],
-      "human_review_authors": [
-        "quad341"
-      ]
+      "human_review_authors": ["quad341"]
     },
     "6397": {
       "title": "fix(nudge): probe controller liveness before suppressing the per-session nudge poller",
@@ -206,9 +190,7 @@
       "merged": false,
       "merged_at": null,
       "mergeable_state": "clean",
-      "human_comment_authors": [
-        "rjgeng"
-      ],
+      "human_comment_authors": ["rjgeng"],
       "human_review_authors": []
     },
     "6410": {
@@ -218,12 +200,8 @@
       "merged": false,
       "merged_at": null,
       "mergeable_state": "blocked",
-      "human_comment_authors": [
-        "brandonmartin"
-      ],
-      "human_review_authors": [
-        "quad341"
-      ]
+      "human_comment_authors": ["brandonmartin"],
+      "human_review_authors": ["quad341"]
     },
     "6732": {
       "title": "fix(worktrees): honor configured root during cleanup",
@@ -242,9 +220,7 @@
       "merged": false,
       "merged_at": null,
       "mergeable_state": "clean",
-      "human_comment_authors": [
-        "rjgeng"
-      ],
+      "human_comment_authors": ["rjgeng"],
       "human_review_authors": []
     },
     "6949": {
@@ -254,9 +230,7 @@
       "merged": false,
       "merged_at": null,
       "mergeable_state": "clean",
-      "human_comment_authors": [
-        "rjgeng"
-      ],
+      "human_comment_authors": ["rjgeng"],
       "human_review_authors": []
     },
     "6950": {
@@ -266,9 +240,7 @@
       "merged": false,
       "merged_at": null,
       "mergeable_state": "clean",
-      "human_comment_authors": [
-        "rjgeng"
-      ],
+      "human_comment_authors": ["rjgeng"],
       "human_review_authors": []
     },
     "6954": {
@@ -278,9 +250,7 @@
       "merged": false,
       "merged_at": null,
       "mergeable_state": "blocked",
-      "human_comment_authors": [
-        "rjgeng"
-      ],
+      "human_comment_authors": ["rjgeng"],
       "human_review_authors": []
     },
     "6956": {
@@ -290,9 +260,7 @@
       "merged": false,
       "merged_at": null,
       "mergeable_state": "blocked",
-      "human_comment_authors": [
-        "julianknutsen"
-      ],
+      "human_comment_authors": ["julianknutsen"],
       "human_review_authors": []
     },
     "7110": {
@@ -362,9 +330,7 @@
       "merged": false,
       "merged_at": null,
       "mergeable_state": "clean",
-      "human_comment_authors": [
-        "julianknutsen"
-      ],
+      "human_comment_authors": ["julianknutsen"],
       "human_review_authors": []
     },
     "7955": {
@@ -384,9 +350,7 @@
       "merged": false,
       "merged_at": null,
       "mergeable_state": "clean",
-      "human_comment_authors": [
-        "rjgeng"
-      ],
+      "human_comment_authors": ["rjgeng"],
       "human_review_authors": []
     },
     "8052": {

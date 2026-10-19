@@ -1,6 +1,6 @@
 {
   "author": "rjgeng",
-  "last_checked_at": "2026-10-19T21:47:07Z",
+  "last_checked_at": "2026-10-19T22:50:36Z",
   "prs": {
     "4095": {
       "title": "fix(session): refresh reset_committed_at on every continuation-reset re-arm (#4067)",
@@ -232,7 +232,9 @@
       "merged_at": null,
       "mergeable_state": "blocked",
       "human_comment_authors": [],
-      "human_review_authors": []
+      "human_review_authors": [
+        "quad341"
+      ]
     },
     "6938": {
       "title": "test(contract): isolate managed-city reachability checks",

@@ -1,6 +1,6 @@
 {
   "author": "rjgeng",
-  "last_checked_at": "2026-10-20T18:44:00Z",
+  "last_checked_at": "2026-10-20T19:30:00Z",
   "prs": {
     "4095": {
       "title": "fix(session): refresh reset_committed_at on every continuation-reset re-arm (#4067)",
@@ -348,7 +348,7 @@
       "state": "open",
       "merged": false,
       "merged_at": null,
-      "mergeable_state": "clean",
+      "mergeable_state": "dirty",
       "human_comment_authors": ["rjgeng"],
       "human_review_authors": []
     },

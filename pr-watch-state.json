@@ -1,6 +1,6 @@
 {
   "author": "rjgeng",
-  "last_checked_at": "2026-10-22T20:15:00Z",
+  "last_checked_at": "2026-10-22T20:48:28Z",
   "prs": {
     "4095": {
       "title": "fix(session): refresh reset_committed_at on every continuation-reset re-arm (#4067)",
@@ -227,16 +227,6 @@
       "human_comment_authors": [
         "quad341"
       ]
-    },
-    "6938": {
-      "title": "test(contract): isolate managed-city reachability checks",
-      "state": "open",
-      "merged": false,
-      "merged_at": null,
-      "mergeable_state": "clean",
-      "url": "https://github.com/gastownhall/gascity/pull/6938",
-      "human_review_authors": [],
-      "human_comment_authors": []
     },
     "6949": {
       "title": "fix(jsonl): honor archive branch and remote locality",

@@ -1,6 +1,6 @@
 {
   "author": "rjgeng",
-  "last_checked_at": "2026-10-23T13:49:40Z",
+  "last_checked_at": "2026-10-23T14:48:06Z",
   "prs": {
     "8227": {
       "title": "fix(mail/beadmail): read-mail retention sweep no longer closes a message marked unread after the snapshot",

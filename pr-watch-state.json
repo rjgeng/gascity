@@ -1,7 +1,37 @@
 {
   "author": "rjgeng",
-  "last_checked_at": "2026-10-25T06:30:00Z",
+  "last_checked_at": "2026-10-25T07:49:12Z",
   "prs": {
+    "8227": {
+      "title": "fix(mail/beadmail): read-mail retention sweep no longer closes a message marked unread after the snapshot",
+      "url": "https://github.com/gastownhall/gascity/pull/8227",
+      "state": "open",
+      "merged": false,
+      "merged_at": null,
+      "mergeable_state": "clean",
+      "human_comment_authors": [],
+      "human_review_authors": []
+    },
+    "8226": {
+      "title": "fix(mail/beadmail): ID-addressed mail operations now reject non-message bead types",
+      "url": "https://github.com/gastownhall/gascity/pull/8226",
+      "state": "open",
+      "merged": false,
+      "merged_at": null,
+      "mergeable_state": "clean",
+      "human_comment_authors": [],
+      "human_review_authors": []
+    },
+    "8190": {
+      "title": "fix(cmd/gc): a still-configured named session's close must not release identity-addressed work",
+      "url": "https://github.com/gastownhall/gascity/pull/8190",
+      "state": "open",
+      "merged": false,
+      "merged_at": null,
+      "mergeable_state": "clean",
+      "human_comment_authors": [],
+      "human_review_authors": []
+    },
     "4095": {
       "title": "fix(session): refresh reset_committed_at on every continuation-reset re-arm (#4067)",
       "url": "https://github.com/gastownhall/gascity/pull/4095",
@@ -39,7 +69,9 @@
       "merged": false,
       "merged_at": null,
       "mergeable_state": "blocked",
-      "human_comment_authors": ["remuscazacu"],
+      "human_comment_authors": [
+        "remuscazacu"
+      ],
       "human_review_authors": []
     },
     "5365": {
@@ -59,7 +91,9 @@
       "merged": false,
       "merged_at": null,
       "mergeable_state": "blocked",
-      "human_comment_authors": ["quad341"],
+      "human_comment_authors": [
+        "quad341"
+      ],
       "human_review_authors": []
     },
     "6007": {
@@ -69,7 +103,9 @@
       "merged": false,
       "merged_at": null,
       "mergeable_state": "clean",
-      "human_comment_authors": ["A3Ackerman"],
+      "human_comment_authors": [
+        "A3Ackerman"
+      ],
       "human_review_authors": []
     },
     "6053": {
@@ -180,7 +216,9 @@
       "merged_at": null,
       "mergeable_state": "blocked",
       "human_comment_authors": [],
-      "human_review_authors": ["quad341"]
+      "human_review_authors": [
+        "quad341"
+      ]
     },
     "6397": {
       "title": "fix(nudge): probe controller liveness before suppressing the per-session nudge poller",
@@ -199,8 +237,12 @@
       "merged": false,
       "merged_at": null,
       "mergeable_state": "blocked",
-      "human_comment_authors": ["brandonmartin"],
-      "human_review_authors": ["quad341"]
+      "human_comment_authors": [
+        "brandonmartin"
+      ],
+      "human_review_authors": [
+        "quad341"
+      ]
     },
     "6732": {
       "title": "fix(worktrees): honor configured root during cleanup",
@@ -209,8 +251,12 @@
       "merged": false,
       "merged_at": null,
       "mergeable_state": "clean",
-      "human_comment_authors": ["quad341"],
-      "human_review_authors": ["quad341"]
+      "human_comment_authors": [
+        "quad341"
+      ],
+      "human_review_authors": [
+        "quad341"
+      ]
     },
     "6949": {
       "title": "fix(jsonl): honor archive branch and remote locality",
@@ -249,8 +295,12 @@
       "merged": false,
       "merged_at": null,
       "mergeable_state": "blocked",
-      "human_comment_authors": ["julianknutsen"],
-      "human_review_authors": ["quad341"]
+      "human_comment_authors": [
+        "julianknutsen"
+      ],
+      "human_review_authors": [
+        "quad341"
+      ]
     },
     "7110": {
       "title": "fix(controller): no wake demand for a deferred molecule root",
@@ -319,7 +369,9 @@
       "merged": false,
       "merged_at": null,
       "mergeable_state": "clean",
-      "human_comment_authors": ["julianknutsen"],
+      "human_comment_authors": [
+        "julianknutsen"
+      ],
       "human_review_authors": []
     },
     "8050": {
@@ -419,46 +471,6 @@
       "merged": false,
       "merged_at": null,
       "mergeable_state": "clean",
-      "human_comment_authors": [],
-      "human_review_authors": []
-    },
-    "8190": {
-      "title": "fix(cmd/gc): a still-configured named session's close must not release identity-addressed work",
-      "url": "https://github.com/gastownhall/gascity/pull/8190",
-      "state": "open",
-      "merged": false,
-      "merged_at": null,
-      "mergeable_state": "clean",
-      "human_comment_authors": [],
-      "human_review_authors": []
-    },
-    "8226": {
-      "title": "fix(mail/beadmail): ID-addressed mail operations now reject non-message bead types",
-      "url": "https://github.com/gastownhall/gascity/pull/8226",
-      "state": "open",
-      "merged": false,
-      "merged_at": null,
-      "mergeable_state": "clean",
-      "human_comment_authors": [],
-      "human_review_authors": []
-    },
-    "8227": {
-      "title": "fix(mail/beadmail): read-mail retention sweep no longer closes a message marked unread after the snapshot",
-      "url": "https://github.com/gastownhall/gascity/pull/8227",
-      "state": "open",
-      "merged": false,
-      "merged_at": null,
-      "mergeable_state": "clean",
-      "human_comment_authors": [],
-      "human_review_authors": []
-    },
-    "8273": {
-      "title": "fix(cmd/gc): a still-configured named session's close must not release identity-addressed work",
-      "url": "https://github.com/gastownhall/gascity/pull/8273",
-      "state": "closed",
-      "merged": false,
-      "merged_at": null,
-      "mergeable_state": "blocked",
       "human_comment_authors": [],
       "human_review_authors": []
     }

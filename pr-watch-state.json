@@ -1,6 +1,6 @@
 {
   "author": "rjgeng",
-  "last_checked_at": "2026-10-25T15:49:19Z",
+  "last_checked_at": "2026-10-25T16:47:11Z",
   "prs": {
     "4095": {
       "title": "fix(session): refresh reset_committed_at on every continuation-reset re-arm (#4067)",
@@ -471,6 +471,16 @@
       "merged": false,
       "merged_at": null,
       "mergeable_state": "clean",
+      "human_comment_authors": [],
+      "human_review_authors": []
+    },
+    "8273": {
+      "title": null,
+      "url": "https://github.com/gastownhall/gascity/pull/8273",
+      "state": "closed",
+      "merged": false,
+      "merged_at": null,
+      "mergeable_state": "blocked",
       "human_comment_authors": [],
       "human_review_authors": []
     }

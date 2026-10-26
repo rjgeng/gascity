@@ -1,6 +1,6 @@
 {
   "author": "rjgeng",
-  "last_checked_at": "2026-10-26T12:00:00Z",
+  "last_checked_at": "2026-10-26T12:56:54Z",
   "prs": {
     "4095": {
       "title": "fix(session): refresh reset_committed_at on every continuation-reset re-arm (#4067)",
@@ -477,6 +477,36 @@
     "8306": {
       "title": "fix(mcp): name the agent-local mcp/ dir when it conflicts with an implicit agent",
       "url": "https://github.com/gastownhall/gascity/pull/8306",
+      "state": "open",
+      "merged": false,
+      "merged_at": null,
+      "mergeable_state": "clean",
+      "human_comment_authors": [],
+      "human_review_authors": []
+    },
+    "8348": {
+      "title": "fix(dolt): declare a typed outcome when sync skips every remote, treat git+file:// as local",
+      "url": "https://github.com/gastownhall/gascity/pull/8348",
+      "state": "open",
+      "merged": false,
+      "merged_at": null,
+      "mergeable_state": "clean",
+      "human_comment_authors": [],
+      "human_review_authors": []
+    },
+    "8349": {
+      "title": "fix(rig): clear an orphaned .gc/site.toml binding on rig remove",
+      "url": "https://github.com/gastownhall/gascity/pull/8349",
+      "state": "open",
+      "merged": false,
+      "merged_at": null,
+      "mergeable_state": "clean",
+      "human_comment_authors": [],
+      "human_review_authors": []
+    },
+    "8350": {
+      "title": "fix(formula): list every {{name}} an oversized description_file references in its stub, not only declared vars",
+      "url": "https://github.com/gastownhall/gascity/pull/8350",
       "state": "open",
       "merged": false,
       "merged_at": null,

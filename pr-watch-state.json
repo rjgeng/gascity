@@ -1,6 +1,6 @@
 {
   "author": "rjgeng",
-  "last_checked_at": "2026-10-27T12:48:00Z",
+  "last_checked_at": "2026-10-27T13:45:46Z",
   "prs": {
     "8390": {
       "title": "fix(convergence): close a stopped loop's active-wisp children, not just the wisp root",
@@ -390,7 +390,7 @@
       "state": "open",
       "merged": false,
       "merged_at": null,
-      "mergeable_state": "blocked",
+      "mergeable_state": "clean",
       "human_comment_authors": [],
       "human_review_authors": []
     },

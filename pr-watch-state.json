@@ -1,6 +1,6 @@
 {
   "author": "rjgeng",
-  "last_checked_at": "2026-10-28T14:48:32Z",
+  "last_checked_at": "2026-10-28T15:51:36Z",
   "prs": {
     "4095": {
       "title": "fix(session): refresh reset_committed_at on every continuation-reset re-arm (#4067)",
@@ -239,7 +239,7 @@
       "title": "fix(formula): reject unsupported check keys",
       "state": "closed",
       "merged": true,
-      "merged_at": "2026-10-28T11:15:22Z",
+      "merged_at": "2026-10-28T11:15:23Z",
       "mergeable_state": "unknown",
       "human_review_authors": [
         "quad341"
@@ -422,7 +422,7 @@
       "state": "open",
       "merged": false,
       "merged_at": null,
-      "mergeable_state": "dirty",
+      "mergeable_state": "blocked",
       "human_review_authors": [],
       "human_comment_authors": [],
       "url": "https://github.com/gastownhall/gascity/pull/8349"

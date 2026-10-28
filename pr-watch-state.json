@@ -1,6 +1,6 @@
 {
   "author": "rjgeng",
-  "last_checked_at": "2026-10-28T10:45:15Z",
+  "last_checked_at": "2026-10-28T11:50:00Z",
   "prs": {
     "4095": {
       "human_comment_authors": [],
@@ -15,7 +15,7 @@
     "4138": {
       "human_comment_authors": [],
       "human_review_authors": [],
-      "mergeable_state": "blocked",
+      "mergeable_state": "clean",
       "merged": false,
       "merged_at": null,
       "state": "open",
@@ -37,7 +37,7 @@
         "remuscazacu"
       ],
       "human_review_authors": [],
-      "mergeable_state": "blocked",
+      "mergeable_state": "clean",
       "merged": false,
       "merged_at": null,
       "state": "open",
@@ -47,7 +47,7 @@
     "5365": {
       "human_comment_authors": [],
       "human_review_authors": [],
-      "mergeable_state": "blocked",
+      "mergeable_state": "clean",
       "merged": false,
       "merged_at": null,
       "state": "open",
@@ -81,7 +81,7 @@
     "6053": {
       "human_comment_authors": [],
       "human_review_authors": [],
-      "mergeable_state": "blocked",
+      "mergeable_state": "clean",
       "merged": false,
       "merged_at": null,
       "state": "open",
@@ -111,7 +111,7 @@
     "6269": {
       "human_comment_authors": [],
       "human_review_authors": [],
-      "mergeable_state": "blocked",
+      "mergeable_state": "clean",
       "merged": false,
       "merged_at": null,
       "state": "open",
@@ -121,7 +121,7 @@
     "6270": {
       "human_comment_authors": [],
       "human_review_authors": [],
-      "mergeable_state": "blocked",
+      "mergeable_state": "clean",
       "merged": false,
       "merged_at": null,
       "state": "open",
@@ -131,7 +131,7 @@
     "6325": {
       "human_comment_authors": [],
       "human_review_authors": [],
-      "mergeable_state": "blocked",
+      "mergeable_state": "clean",
       "merged": false,
       "merged_at": null,
       "state": "open",
@@ -161,7 +161,7 @@
     "6340": {
       "human_comment_authors": [],
       "human_review_authors": [],
-      "mergeable_state": "blocked",
+      "mergeable_state": "clean",
       "merged": false,
       "merged_at": null,
       "state": "open",
@@ -236,11 +236,13 @@
     },
     "6954": {
       "human_comment_authors": [],
-      "human_review_authors": [],
-      "mergeable_state": "clean",
-      "merged": false,
-      "merged_at": null,
-      "state": "open",
+      "human_review_authors": [
+        "quad341"
+      ],
+      "mergeable_state": "unknown",
+      "merged": true,
+      "merged_at": "2026-10-28T11:15:22Z",
+      "state": "closed",
       "title": "fix(formula): reject unsupported check keys",
       "url": "https://github.com/gastownhall/gascity/pull/6954"
     },
@@ -447,7 +449,7 @@
     "8384": {
       "human_comment_authors": [],
       "human_review_authors": [],
-      "mergeable_state": "blocked",
+      "mergeable_state": "clean",
       "merged": false,
       "merged_at": null,
       "state": "open",
@@ -467,7 +469,7 @@
     "8390": {
       "human_comment_authors": [],
       "human_review_authors": [],
-      "mergeable_state": "blocked",
+      "mergeable_state": "clean",
       "merged": false,
       "merged_at": null,
       "state": "open",
@@ -477,7 +479,7 @@
     "8427": {
       "human_comment_authors": [],
       "human_review_authors": [],
-      "mergeable_state": "blocked",
+      "mergeable_state": "clean",
       "merged": false,
       "merged_at": null,
       "state": "open",

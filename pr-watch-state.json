@@ -1,6 +1,6 @@
 {
   "author": "rjgeng",
-  "last_checked_at": "2026-10-28T11:50:00Z",
+  "last_checked_at": "2026-10-28T12:50:03Z",
   "prs": {
     "4095": {
       "human_comment_authors": [],
@@ -101,7 +101,7 @@
     "6167": {
       "human_comment_authors": [],
       "human_review_authors": [],
-      "mergeable_state": "blocked",
+      "mergeable_state": "clean",
       "merged": false,
       "merged_at": null,
       "state": "open",
@@ -202,7 +202,8 @@
     },
     "6410": {
       "human_comment_authors": [
-        "brandonmartin"
+        "brandonmartin",
+        "quad341"
       ],
       "human_review_authors": [
         "quad341"

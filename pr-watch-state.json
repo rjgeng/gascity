@@ -1,6 +1,6 @@
 {
   "author": "rjgeng",
-  "last_checked_at": "2026-10-28T02:47:34Z",
+  "last_checked_at": "2026-10-28T03:53:19Z",
   "prs": {
     "4095": {
       "state": "open",
@@ -298,21 +298,11 @@
       "human_comment_authors": [],
       "human_review_authors": []
     },
-    "7482": {
-      "state": "open",
-      "merged": false,
-      "merged_at": null,
-      "mergeable_state": "blocked",
-      "title": "fix(nudge): resolve the session-class store from the city path, not the nudges store",
-      "url": "https://github.com/gastownhall/gascity/pull/7482",
-      "human_comment_authors": [],
-      "human_review_authors": []
-    },
     "7524": {
       "state": "open",
       "merged": false,
       "merged_at": null,
-      "mergeable_state": "blocked",
+      "mergeable_state": "clean",
       "title": "fix(pool): preserve canonical human handoffs",
       "url": "https://github.com/gastownhall/gascity/pull/7524",
       "human_comment_authors": [],
@@ -527,6 +517,46 @@
       "mergeable_state": "blocked",
       "title": "fix(convergence): close a stopped loop's active-wisp children, not just the wisp root",
       "url": "https://github.com/gastownhall/gascity/pull/8390",
+      "human_comment_authors": [],
+      "human_review_authors": []
+    },
+    "8427": {
+      "state": "open",
+      "merged": false,
+      "merged_at": null,
+      "mergeable_state": "blocked",
+      "title": "fix(convoy): add every bead id given to gc convoy add, not just the first",
+      "url": "https://github.com/gastownhall/gascity/pull/8427",
+      "human_comment_authors": [],
+      "human_review_authors": []
+    },
+    "8428": {
+      "state": "open",
+      "merged": false,
+      "merged_at": null,
+      "mergeable_state": "blocked",
+      "title": "fix(api): reject unknown query parameters on GET /beads",
+      "url": "https://github.com/gastownhall/gascity/pull/8428",
+      "human_comment_authors": [],
+      "human_review_authors": []
+    },
+    "8429": {
+      "state": "open",
+      "merged": false,
+      "merged_at": null,
+      "mergeable_state": "blocked",
+      "title": "fix(beads): keep a never-locally-written row absent from Prime's active scan, don't drop it silently",
+      "url": "https://github.com/gastownhall/gascity/pull/8429",
+      "human_comment_authors": [],
+      "human_review_authors": []
+    },
+    "8430": {
+      "state": "open",
+      "merged": false,
+      "merged_at": null,
+      "mergeable_state": "clean",
+      "title": "fix(doctor): pin the gate-sandbox probe to the city's own Dolt endpoint",
+      "url": "https://github.com/gastownhall/gascity/pull/8430",
       "human_comment_authors": [],
       "human_review_authors": []
     }

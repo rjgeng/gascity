@@ -1,57 +1,533 @@
 {
   "author": "rjgeng",
-  "last_checked_at": "2026-10-29T02:30:00Z",
+  "last_checked_at": "2026-10-29T02:50:06Z",
   "prs": {
-    "4095": {"title": "fix(session): refresh reset_committed_at on every continuation-reset re-arm (#4067)", "url": "https://github.com/gastownhall/gascity/pull/4095", "state": "open", "merged": false, "merged_at": null, "mergeable_state": "blocked", "human_review_authors": [], "human_comment_authors": []},
-    "4138": {"title": "fix(session): gc session attach waits for an in-flight controller reset instead of racing it (#4079)", "url": "https://github.com/gastownhall/gascity/pull/4138", "state": "open", "merged": false, "merged_at": null, "mergeable_state": "clean", "human_review_authors": [], "human_comment_authors": []},
-    "4481": {"title": "fix(runtime): treat a gone session as drain-acked (#4448)", "url": "https://github.com/gastownhall/gascity/pull/4481", "state": "open", "merged": false, "merged_at": null, "mergeable_state": "clean", "human_review_authors": [], "human_comment_authors": []},
-    "4584": {"title": "fix(sling): --nudge falls back to a running named session for instance-expandable agents (#3412)", "url": "https://github.com/gastownhall/gascity/pull/4584", "state": "open", "merged": false, "merged_at": null, "mergeable_state": "clean", "human_review_authors": [], "human_comment_authors": ["remuscazacu"]},
-    "5365": {"title": "fix(supervisor): auto-unregister on repeated stale-config load failures (#5313)", "url": "https://github.com/gastownhall/gascity/pull/5365", "state": "open", "merged": false, "merged_at": null, "mergeable_state": "clean", "human_review_authors": [], "human_comment_authors": []},
-    "5854": {"title": "chore(api): regenerate generated artifacts for a new GET /sessions ?enrich= query param", "url": "https://github.com/gastownhall/gascity/pull/5854", "state": "open", "merged": false, "merged_at": null, "mergeable_state": "dirty", "human_review_authors": [], "human_comment_authors": ["quad341"]},
-    "6007": {"title": "fix(beads): consult native-open deferral before dialing the identity probe (#5965)", "url": "https://github.com/gastownhall/gascity/pull/6007", "state": "open", "merged": false, "merged_at": null, "mergeable_state": "clean", "human_review_authors": [], "human_comment_authors": ["A3Ackerman"]},
-    "6053": {"title": "fix(core-pack): anchor worktree creation on $GC_DIR, not $(pwd) (#6014)", "url": "https://github.com/gastownhall/gascity/pull/6053", "state": "open", "merged": false, "merged_at": null, "mergeable_state": "clean", "human_review_authors": [], "human_comment_authors": []},
-    "6097": {"title": "fix(suspensionstate): serialize rig suspend/resume with a cross-process flock (#6056)", "url": "https://github.com/gastownhall/gascity/pull/6097", "state": "open", "merged": false, "merged_at": null, "mergeable_state": "clean", "human_review_authors": [], "human_comment_authors": []},
-    "6167": {"title": "fix(doctor): surface effective city suspension as a doctor check (#6126)", "url": "https://github.com/gastownhall/gascity/pull/6167", "state": "open", "merged": false, "merged_at": null, "mergeable_state": "clean", "human_review_authors": [], "human_comment_authors": []},
-    "6269": {"title": "fix(config): apply feature flags in the supervisor's per-city loader (#6236)", "url": "https://github.com/gastownhall/gascity/pull/6269", "state": "open", "merged": false, "merged_at": null, "mergeable_state": "clean", "human_review_authors": [], "human_comment_authors": []},
-    "6270": {"title": "fix(molecule): retry a dropped molecule_failed stamp before giving up (#6235)", "url": "https://github.com/gastownhall/gascity/pull/6270", "state": "open", "merged": false, "merged_at": null, "mergeable_state": "clean", "human_review_authors": [], "human_comment_authors": []},
-    "6325": {"title": "fix(worktree): stop TestManagedDryRunDoesNotPublishProvenance flaking on transient git lock files", "url": "https://github.com/gastownhall/gascity/pull/6325", "state": "open", "merged": false, "merged_at": null, "mergeable_state": "clean", "human_review_authors": [], "human_comment_authors": []},
-    "6326": {"title": "fix(tmux): corroborate ListRunning's ServerAbsent with a socket observation", "url": "https://github.com/gastownhall/gascity/pull/6326", "state": "open", "merged": false, "merged_at": null, "mergeable_state": "clean", "human_review_authors": [], "human_comment_authors": []},
-    "6337": {"title": "fix(hook): close 3 fail-open gaps in hookClaimDirLooksLikeRepo repo-marker detection", "url": "https://github.com/gastownhall/gascity/pull/6337", "state": "open", "merged": false, "merged_at": null, "mergeable_state": "clean", "human_review_authors": [], "human_comment_authors": []},
-    "6340": {"title": "fix(convoy): order the workflow root last in delete-sweep so an interrupted delete never leaves it closed with open descendants", "url": "https://github.com/gastownhall/gascity/pull/6340", "state": "open", "merged": false, "merged_at": null, "mergeable_state": "clean", "human_review_authors": [], "human_comment_authors": []},
-    "6364": {"title": "fix(config): let a template opt a cold pool out of the wake-probe's clamped-1 override (Agent.ColdWake)", "url": "https://github.com/gastownhall/gascity/pull/6364", "state": "open", "merged": false, "merged_at": null, "mergeable_state": "dirty", "human_review_authors": [], "human_comment_authors": []},
-    "6365": {"title": "fix(handoff): give PreCompact its own flat systemMessage shape under --hook-format codex", "url": "https://github.com/gastownhall/gascity/pull/6365", "state": "open", "merged": false, "merged_at": null, "mergeable_state": "clean", "human_review_authors": ["quad341"], "human_comment_authors": []},
-    "6397": {"title": "fix(nudge): probe controller liveness before suppressing the per-session nudge poller", "url": "https://github.com/gastownhall/gascity/pull/6397", "state": "open", "merged": false, "merged_at": null, "mergeable_state": "clean", "human_review_authors": [], "human_comment_authors": []},
-    "6410": {"title": "fix(pool): treat a live session's currently_processing_bead_id as first-party proof of ownership", "url": "https://github.com/gastownhall/gascity/pull/6410", "state": "open", "merged": false, "merged_at": null, "mergeable_state": "blocked", "human_review_authors": ["quad341"], "human_comment_authors": ["brandonmartin", "quad341"]},
-    "6949": {"title": "fix(jsonl): honor archive branch and remote locality", "url": "https://github.com/gastownhall/gascity/pull/6949", "state": "open", "merged": false, "merged_at": null, "mergeable_state": "clean", "human_review_authors": [], "human_comment_authors": []},
-    "6950": {"title": "fix(pi): honor managed gc runtime in hooks", "url": "https://github.com/gastownhall/gascity/pull/6950", "state": "open", "merged": false, "merged_at": null, "mergeable_state": "clean", "human_review_authors": [], "human_comment_authors": []},
-    "7110": {"title": "fix(controller): no wake demand for a deferred molecule root", "url": "https://github.com/gastownhall/gascity/pull/7110", "state": "open", "merged": false, "merged_at": null, "mergeable_state": "clean", "human_review_authors": [], "human_comment_authors": []},
-    "7351": {"title": "fix(formula): gc formula cook --attach no longer drops --meta", "url": "https://github.com/gastownhall/gascity/pull/7351", "state": "open", "merged": false, "merged_at": null, "mergeable_state": "clean", "human_review_authors": [], "human_comment_authors": []},
-    "7421": {"title": "fix(controller): route-recovery backstop no longer flags a single-store city", "url": "https://github.com/gastownhall/gascity/pull/7421", "state": "open", "merged": false, "merged_at": null, "mergeable_state": "dirty", "human_review_authors": [], "human_comment_authors": []},
-    "7524": {"title": "fix(pool): preserve canonical human handoffs", "url": "https://github.com/gastownhall/gascity/pull/7524", "state": "open", "merged": false, "merged_at": null, "mergeable_state": "clean", "human_review_authors": [], "human_comment_authors": []},
-    "8052": {"title": "docs(wait): document the every-leg-fatal invariant in prepareWaitWakeStateHooked (#7998)", "url": "https://github.com/gastownhall/gascity/pull/8052", "state": "open", "merged": false, "merged_at": null, "mergeable_state": "clean", "human_review_authors": [], "human_comment_authors": []},
-    "8061": {"title": "fix: supervisor launchd throttling (#8015) and reaper's false escalation on bd 1.3.1 single-delete (#8007)", "url": "https://github.com/gastownhall/gascity/pull/8061", "state": "open", "merged": false, "merged_at": null, "mergeable_state": "clean", "human_review_authors": [], "human_comment_authors": []},
-    "8069": {"title": "fix(config): assigned-ready tier falls through past a held open assignment", "url": "https://github.com/gastownhall/gascity/pull/8069", "state": "open", "merged": false, "merged_at": null, "mergeable_state": "blocked", "human_review_authors": [], "human_comment_authors": []},
-    "8070": {"title": "fix(trace): report the specific cap, not no_demand, when a pool with real demand is refused", "url": "https://github.com/gastownhall/gascity/pull/8070", "state": "open", "merged": false, "merged_at": null, "mergeable_state": "clean", "human_review_authors": [], "human_comment_authors": []},
-    "8112": {"title": "fix(gc): drain-ack close prunes worker_dir; stash refusal scoped per-worktree", "url": "https://github.com/gastownhall/gascity/pull/8112", "state": "open", "merged": false, "merged_at": null, "mergeable_state": "clean", "human_review_authors": [], "human_comment_authors": []},
-    "8176": {"title": "fix(workladder): exclude lifecycle=one_shot agents from ladder governance", "url": "https://github.com/gastownhall/gascity/pull/8176", "state": "open", "merged": false, "merged_at": null, "mergeable_state": "clean", "human_review_authors": [], "human_comment_authors": []},
-    "8177": {"title": "fix(dispatch): retire drain-unit convoys when their drain control closes", "url": "https://github.com/gastownhall/gascity/pull/8177", "state": "open", "merged": false, "merged_at": null, "mergeable_state": "clean", "human_review_authors": [], "human_comment_authors": []},
-    "8178": {"title": "fix(gc): gate fresh-wake pool demand on store-scoped readiness", "url": "https://github.com/gastownhall/gascity/pull/8178", "state": "open", "merged": false, "merged_at": null, "mergeable_state": "clean", "human_review_authors": [], "human_comment_authors": []},
-    "8190": {"title": "fix(cmd/gc): a still-configured named session's close must not release identity-addressed work", "url": "https://github.com/gastownhall/gascity/pull/8190", "state": "open", "merged": false, "merged_at": null, "mergeable_state": "clean", "human_review_authors": [], "human_comment_authors": []},
-    "8226": {"title": "fix(mail/beadmail): ID-addressed mail operations now reject non-message bead types", "url": "https://github.com/gastownhall/gascity/pull/8226", "state": "open", "merged": false, "merged_at": null, "mergeable_state": "clean", "human_review_authors": [], "human_comment_authors": []},
-    "8227": {"title": "fix(mail/beadmail): read-mail retention sweep no longer closes a message marked unread after the snapshot", "url": "https://github.com/gastownhall/gascity/pull/8227", "state": "open", "merged": false, "merged_at": null, "mergeable_state": "clean", "human_review_authors": [], "human_comment_authors": []},
-    "8306": {"title": "fix(mcp): name the agent-local mcp/ dir when it conflicts with an implicit agent", "url": "https://github.com/gastownhall/gascity/pull/8306", "state": "open", "merged": false, "merged_at": null, "mergeable_state": "clean", "human_review_authors": [], "human_comment_authors": []},
-    "8348": {"title": "fix(dolt): declare a typed outcome when sync skips every remote, treat git+file:// as local", "url": "https://github.com/gastownhall/gascity/pull/8348", "state": "open", "merged": false, "merged_at": null, "mergeable_state": "clean", "human_review_authors": [], "human_comment_authors": []},
-    "8349": {"title": "fix(rig): clear an orphaned .gc/site.toml binding on rig remove", "url": "https://github.com/gastownhall/gascity/pull/8349", "state": "open", "merged": false, "merged_at": null, "mergeable_state": "clean", "human_review_authors": [], "human_comment_authors": []},
-    "8350": {"title": "fix(formula): list every {{name}} an oversized description_file references in its stub, not only declared vars", "url": "https://github.com/gastownhall/gascity/pull/8350", "state": "open", "merged": false, "merged_at": null, "mergeable_state": "clean", "human_review_authors": [], "human_comment_authors": []},
-    "8374": {"title": "fix(pricing): add claude-sonnet-5-5 default pricing entry", "url": "https://github.com/gastownhall/gascity/pull/8374", "state": "open", "merged": false, "merged_at": null, "mergeable_state": "clean", "human_review_authors": [], "human_comment_authors": []},
-    "8384": {"title": "fix(dolt): stop passing the Dolt password as a gc-beads-bd.sh argv flag", "url": "https://github.com/gastownhall/gascity/pull/8384", "state": "open", "merged": false, "merged_at": null, "mergeable_state": "clean", "human_review_authors": [], "human_comment_authors": []},
-    "8389": {"title": "fix(converge): skip a timed-out create instead of still running it", "url": "https://github.com/gastownhall/gascity/pull/8389", "state": "open", "merged": false, "merged_at": null, "mergeable_state": "blocked", "human_review_authors": [], "human_comment_authors": []},
-    "8390": {"title": "fix(convergence): close a stopped loop's active-wisp children, not just the wisp root", "url": "https://github.com/gastownhall/gascity/pull/8390", "state": "open", "merged": false, "merged_at": null, "mergeable_state": "clean", "human_review_authors": [], "human_comment_authors": []},
-    "8427": {"title": "fix(convoy): add every bead id given to gc convoy add, not just the first", "url": "https://github.com/gastownhall/gascity/pull/8427", "state": "open", "merged": false, "merged_at": null, "mergeable_state": "clean", "human_review_authors": [], "human_comment_authors": []},
-    "8428": {"title": "fix(api): reject unknown query parameters on GET /beads", "url": "https://github.com/gastownhall/gascity/pull/8428", "state": "open", "merged": false, "merged_at": null, "mergeable_state": "clean", "human_review_authors": [], "human_comment_authors": []},
-    "8429": {"title": "fix(beads): keep a never-locally-written row absent from Prime's active scan, don't drop it silently", "url": "https://github.com/gastownhall/gascity/pull/8429", "state": "open", "merged": false, "merged_at": null, "mergeable_state": "blocked", "human_review_authors": [], "human_comment_authors": []},
-    "8430": {"title": "fix(doctor): pin the gate-sandbox probe to the city's own Dolt endpoint", "url": "https://github.com/gastownhall/gascity/pull/8430", "state": "open", "merged": false, "merged_at": null, "mergeable_state": "clean", "human_review_authors": [], "human_comment_authors": []},
-    "8440": {"title": "fix: dashboard rig-store-health PATH on Apple Silicon + correct [maintenance.dolt] docs (split from #8050)", "url": "https://github.com/gastownhall/gascity/pull/8440", "state": "open", "merged": false, "merged_at": null, "mergeable_state": "clean", "human_review_authors": [], "human_comment_authors": []},
-    "8443": {"title": "fix(sling): surface a failed custom sling_query's diagnostic output", "url": "https://github.com/gastownhall/gascity/pull/8443", "state": "open", "merged": false, "merged_at": null, "mergeable_state": "clean", "human_review_authors": [], "human_comment_authors": []}
+    "4095": {
+      "title": "fix(session): refresh reset_committed_at on every continuation-reset re-arm (#4067)",
+      "url": "https://github.com/gastownhall/gascity/pull/4095",
+      "state": "open",
+      "merged": false,
+      "merged_at": null,
+      "mergeable_state": "blocked",
+      "human_review_authors": [],
+      "human_comment_authors": []
+    },
+    "4138": {
+      "title": "fix(session): gc session attach waits for an in-flight controller reset instead of racing it (#4079)",
+      "url": "https://github.com/gastownhall/gascity/pull/4138",
+      "state": "open",
+      "merged": false,
+      "merged_at": null,
+      "mergeable_state": "clean",
+      "human_review_authors": [],
+      "human_comment_authors": []
+    },
+    "4481": {
+      "title": "fix(runtime): treat a gone session as drain-acked (#4448)",
+      "url": "https://github.com/gastownhall/gascity/pull/4481",
+      "state": "open",
+      "merged": false,
+      "merged_at": null,
+      "mergeable_state": "clean",
+      "human_review_authors": [],
+      "human_comment_authors": []
+    },
+    "4584": {
+      "title": "fix(sling): --nudge falls back to a running named session for instance-expandable agents (#3412)",
+      "url": "https://github.com/gastownhall/gascity/pull/4584",
+      "state": "open",
+      "merged": false,
+      "merged_at": null,
+      "mergeable_state": "clean",
+      "human_review_authors": [],
+      "human_comment_authors": [
+        "remuscazacu"
+      ]
+    },
+    "5365": {
+      "title": "fix(supervisor): auto-unregister on repeated stale-config load failures (#5313)",
+      "url": "https://github.com/gastownhall/gascity/pull/5365",
+      "state": "open",
+      "merged": false,
+      "merged_at": null,
+      "mergeable_state": "clean",
+      "human_review_authors": [],
+      "human_comment_authors": []
+    },
+    "5854": {
+      "title": "chore(api): regenerate generated artifacts for a new GET /sessions ?enrich= query param",
+      "url": "https://github.com/gastownhall/gascity/pull/5854",
+      "state": "open",
+      "merged": false,
+      "merged_at": null,
+      "mergeable_state": "dirty",
+      "human_review_authors": [],
+      "human_comment_authors": [
+        "quad341"
+      ]
+    },
+    "6007": {
+      "title": "fix(beads): consult native-open deferral before dialing the identity probe (#5965)",
+      "url": "https://github.com/gastownhall/gascity/pull/6007",
+      "state": "open",
+      "merged": false,
+      "merged_at": null,
+      "mergeable_state": "clean",
+      "human_review_authors": [],
+      "human_comment_authors": [
+        "A3Ackerman"
+      ]
+    },
+    "6053": {
+      "title": "fix(core-pack): anchor worktree creation on $GC_DIR, not $(pwd) (#6014)",
+      "url": "https://github.com/gastownhall/gascity/pull/6053",
+      "state": "open",
+      "merged": false,
+      "merged_at": null,
+      "mergeable_state": "clean",
+      "human_review_authors": [],
+      "human_comment_authors": []
+    },
+    "6097": {
+      "title": "fix(suspensionstate): serialize rig suspend/resume with a cross-process flock (#6056)",
+      "url": "https://github.com/gastownhall/gascity/pull/6097",
+      "state": "open",
+      "merged": false,
+      "merged_at": null,
+      "mergeable_state": "clean",
+      "human_review_authors": [],
+      "human_comment_authors": []
+    },
+    "6167": {
+      "title": "fix(doctor): surface effective city suspension as a doctor check (#6126)",
+      "url": "https://github.com/gastownhall/gascity/pull/6167",
+      "state": "open",
+      "merged": false,
+      "merged_at": null,
+      "mergeable_state": "clean",
+      "human_review_authors": [],
+      "human_comment_authors": []
+    },
+    "6269": {
+      "title": "fix(config): apply feature flags in the supervisor's per-city loader (#6236)",
+      "url": "https://github.com/gastownhall/gascity/pull/6269",
+      "state": "open",
+      "merged": false,
+      "merged_at": null,
+      "mergeable_state": "clean",
+      "human_review_authors": [],
+      "human_comment_authors": []
+    },
+    "6270": {
+      "title": "fix(molecule): retry a dropped molecule_failed stamp before giving up (#6235)",
+      "url": "https://github.com/gastownhall/gascity/pull/6270",
+      "state": "open",
+      "merged": false,
+      "merged_at": null,
+      "mergeable_state": "clean",
+      "human_review_authors": [],
+      "human_comment_authors": []
+    },
+    "6325": {
+      "title": "fix(worktree): stop TestManagedDryRunDoesNotPublishProvenance flaking on transient git lock files",
+      "url": "https://github.com/gastownhall/gascity/pull/6325",
+      "state": "open",
+      "merged": false,
+      "merged_at": null,
+      "mergeable_state": "clean",
+      "human_review_authors": [],
+      "human_comment_authors": []
+    },
+    "6326": {
+      "title": "fix(tmux): corroborate ListRunning's ServerAbsent with a socket observation",
+      "url": "https://github.com/gastownhall/gascity/pull/6326",
+      "state": "open",
+      "merged": false,
+      "merged_at": null,
+      "mergeable_state": "clean",
+      "human_review_authors": [],
+      "human_comment_authors": []
+    },
+    "6337": {
+      "title": "fix(hook): close 3 fail-open gaps in hookClaimDirLooksLikeRepo repo-marker detection",
+      "url": "https://github.com/gastownhall/gascity/pull/6337",
+      "state": "open",
+      "merged": false,
+      "merged_at": null,
+      "mergeable_state": "clean",
+      "human_review_authors": [],
+      "human_comment_authors": []
+    },
+    "6340": {
+      "title": "fix(convoy): order the workflow root last in delete-sweep so an interrupted delete never leaves it closed with open descendants",
+      "url": "https://github.com/gastownhall/gascity/pull/6340",
+      "state": "open",
+      "merged": false,
+      "merged_at": null,
+      "mergeable_state": "clean",
+      "human_review_authors": [],
+      "human_comment_authors": []
+    },
+    "6364": {
+      "title": "fix(config): let a template opt a cold pool out of the wake-probe's clamped-1 override (Agent.ColdWake)",
+      "url": "https://github.com/gastownhall/gascity/pull/6364",
+      "state": "open",
+      "merged": false,
+      "merged_at": null,
+      "mergeable_state": "dirty",
+      "human_review_authors": [],
+      "human_comment_authors": []
+    },
+    "6365": {
+      "title": "fix(handoff): give PreCompact its own flat systemMessage shape under --hook-format codex",
+      "url": "https://github.com/gastownhall/gascity/pull/6365",
+      "state": "open",
+      "merged": false,
+      "merged_at": null,
+      "mergeable_state": "clean",
+      "human_review_authors": [
+        "quad341"
+      ],
+      "human_comment_authors": []
+    },
+    "6397": {
+      "title": "fix(nudge): probe controller liveness before suppressing the per-session nudge poller",
+      "url": "https://github.com/gastownhall/gascity/pull/6397",
+      "state": "open",
+      "merged": false,
+      "merged_at": null,
+      "mergeable_state": "clean",
+      "human_review_authors": [],
+      "human_comment_authors": []
+    },
+    "6410": {
+      "title": "fix(pool): treat a live session's currently_processing_bead_id as first-party proof of ownership",
+      "url": "https://github.com/gastownhall/gascity/pull/6410",
+      "state": "open",
+      "merged": false,
+      "merged_at": null,
+      "mergeable_state": "blocked",
+      "human_review_authors": [
+        "quad341"
+      ],
+      "human_comment_authors": [
+        "brandonmartin",
+        "quad341"
+      ]
+    },
+    "6949": {
+      "title": "fix(jsonl): honor archive branch and remote locality",
+      "url": "https://github.com/gastownhall/gascity/pull/6949",
+      "state": "open",
+      "merged": false,
+      "merged_at": null,
+      "mergeable_state": "clean",
+      "human_review_authors": [],
+      "human_comment_authors": []
+    },
+    "6950": {
+      "title": "fix(pi): honor managed gc runtime in hooks",
+      "url": "https://github.com/gastownhall/gascity/pull/6950",
+      "state": "open",
+      "merged": false,
+      "merged_at": null,
+      "mergeable_state": "clean",
+      "human_review_authors": [],
+      "human_comment_authors": []
+    },
+    "7110": {
+      "title": "fix(controller): no wake demand for a deferred molecule root",
+      "url": "https://github.com/gastownhall/gascity/pull/7110",
+      "state": "open",
+      "merged": false,
+      "merged_at": null,
+      "mergeable_state": "clean",
+      "human_review_authors": [],
+      "human_comment_authors": []
+    },
+    "7351": {
+      "title": "fix(formula): gc formula cook --attach no longer drops --meta",
+      "url": "https://github.com/gastownhall/gascity/pull/7351",
+      "state": "open",
+      "merged": false,
+      "merged_at": null,
+      "mergeable_state": "clean",
+      "human_review_authors": [],
+      "human_comment_authors": []
+    },
+    "7421": {
+      "title": "fix(controller): route-recovery backstop no longer flags a single-store city",
+      "url": "https://github.com/gastownhall/gascity/pull/7421",
+      "state": "open",
+      "merged": false,
+      "merged_at": null,
+      "mergeable_state": "dirty",
+      "human_review_authors": [],
+      "human_comment_authors": []
+    },
+    "7524": {
+      "title": "fix(pool): preserve canonical human handoffs",
+      "url": "https://github.com/gastownhall/gascity/pull/7524",
+      "state": "open",
+      "merged": false,
+      "merged_at": null,
+      "mergeable_state": "clean",
+      "human_review_authors": [],
+      "human_comment_authors": []
+    },
+    "8052": {
+      "title": "docs(wait): document the every-leg-fatal invariant in prepareWaitWakeStateHooked (#7998)",
+      "url": "https://github.com/gastownhall/gascity/pull/8052",
+      "state": "open",
+      "merged": false,
+      "merged_at": null,
+      "mergeable_state": "clean",
+      "human_review_authors": [],
+      "human_comment_authors": []
+    },
+    "8061": {
+      "title": "fix: supervisor launchd throttling (#8015) and reaper's false escalation on bd 1.3.1 single-delete (#8007)",
+      "url": "https://github.com/gastownhall/gascity/pull/8061",
+      "state": "open",
+      "merged": false,
+      "merged_at": null,
+      "mergeable_state": "clean",
+      "human_review_authors": [],
+      "human_comment_authors": []
+    },
+    "8069": {
+      "title": "fix(config): assigned-ready tier falls through past a held open assignment",
+      "url": "https://github.com/gastownhall/gascity/pull/8069",
+      "state": "open",
+      "merged": false,
+      "merged_at": null,
+      "mergeable_state": "blocked",
+      "human_review_authors": [],
+      "human_comment_authors": []
+    },
+    "8070": {
+      "title": "fix(trace): report the specific cap, not no_demand, when a pool with real demand is refused",
+      "url": "https://github.com/gastownhall/gascity/pull/8070",
+      "state": "open",
+      "merged": false,
+      "merged_at": null,
+      "mergeable_state": "clean",
+      "human_review_authors": [],
+      "human_comment_authors": []
+    },
+    "8112": {
+      "title": "fix(gc): drain-ack close prunes worker_dir; stash refusal scoped per-worktree",
+      "url": "https://github.com/gastownhall/gascity/pull/8112",
+      "state": "open",
+      "merged": false,
+      "merged_at": null,
+      "mergeable_state": "clean",
+      "human_review_authors": [],
+      "human_comment_authors": []
+    },
+    "8176": {
+      "title": "fix(workladder): exclude lifecycle=one_shot agents from ladder governance",
+      "url": "https://github.com/gastownhall/gascity/pull/8176",
+      "state": "open",
+      "merged": false,
+      "merged_at": null,
+      "mergeable_state": "clean",
+      "human_review_authors": [],
+      "human_comment_authors": []
+    },
+    "8177": {
+      "title": "fix(dispatch): retire drain-unit convoys when their drain control closes",
+      "url": "https://github.com/gastownhall/gascity/pull/8177",
+      "state": "open",
+      "merged": false,
+      "merged_at": null,
+      "mergeable_state": "clean",
+      "human_review_authors": [],
+      "human_comment_authors": []
+    },
+    "8178": {
+      "title": "fix(gc): gate fresh-wake pool demand on store-scoped readiness",
+      "url": "https://github.com/gastownhall/gascity/pull/8178",
+      "state": "open",
+      "merged": false,
+      "merged_at": null,
+      "mergeable_state": "clean",
+      "human_review_authors": [],
+      "human_comment_authors": []
+    },
+    "8190": {
+      "title": "fix(cmd/gc): a still-configured named session's close must not release identity-addressed work",
+      "url": "https://github.com/gastownhall/gascity/pull/8190",
+      "state": "open",
+      "merged": false,
+      "merged_at": null,
+      "mergeable_state": "clean",
+      "human_review_authors": [],
+      "human_comment_authors": []
+    },
+    "8226": {
+      "title": "fix(mail/beadmail): ID-addressed mail operations now reject non-message bead types",
+      "url": "https://github.com/gastownhall/gascity/pull/8226",
+      "state": "open",
+      "merged": false,
+      "merged_at": null,
+      "mergeable_state": "clean",
+      "human_review_authors": [],
+      "human_comment_authors": []
+    },
+    "8227": {
+      "title": "fix(mail/beadmail): read-mail retention sweep no longer closes a message marked unread after the snapshot",
+      "url": "https://github.com/gastownhall/gascity/pull/8227",
+      "state": "open",
+      "merged": false,
+      "merged_at": null,
+      "mergeable_state": "clean",
+      "human_review_authors": [],
+      "human_comment_authors": []
+    },
+    "8306": {
+      "title": "fix(mcp): name the agent-local mcp/ dir when it conflicts with an implicit agent",
+      "url": "https://github.com/gastownhall/gascity/pull/8306",
+      "state": "open",
+      "merged": false,
+      "merged_at": null,
+      "mergeable_state": "clean",
+      "human_review_authors": [],
+      "human_comment_authors": []
+    },
+    "8348": {
+      "title": "fix(dolt): declare a typed outcome when sync skips every remote, treat git+file:// as local",
+      "url": "https://github.com/gastownhall/gascity/pull/8348",
+      "state": "open",
+      "merged": false,
+      "merged_at": null,
+      "mergeable_state": "clean",
+      "human_review_authors": [],
+      "human_comment_authors": []
+    },
+    "8349": {
+      "title": "fix(rig): clear an orphaned .gc/site.toml binding on rig remove",
+      "url": "https://github.com/gastownhall/gascity/pull/8349",
+      "state": "open",
+      "merged": false,
+      "merged_at": null,
+      "mergeable_state": "clean",
+      "human_review_authors": [],
+      "human_comment_authors": []
+    },
+    "8350": {
+      "title": "fix(formula): list every {{name}} an oversized description_file references in its stub, not only declared vars",
+      "url": "https://github.com/gastownhall/gascity/pull/8350",
+      "state": "open",
+      "merged": false,
+      "merged_at": null,
+      "mergeable_state": "clean",
+      "human_review_authors": [],
+      "human_comment_authors": []
+    },
+    "8374": {
+      "title": "fix(pricing): add claude-sonnet-5-5 default pricing entry",
+      "url": "https://github.com/gastownhall/gascity/pull/8374",
+      "state": "open",
+      "merged": false,
+      "merged_at": null,
+      "mergeable_state": "clean",
+      "human_review_authors": [],
+      "human_comment_authors": []
+    },
+    "8384": {
+      "title": "fix(dolt): stop passing the Dolt password as a gc-beads-bd.sh argv flag",
+      "url": "https://github.com/gastownhall/gascity/pull/8384",
+      "state": "open",
+      "merged": false,
+      "merged_at": null,
+      "mergeable_state": "clean",
+      "human_review_authors": [],
+      "human_comment_authors": []
+    },
+    "8389": {
+      "title": "fix(converge): skip a timed-out create instead of still running it",
+      "url": "https://github.com/gastownhall/gascity/pull/8389",
+      "state": "open",
+      "merged": false,
+      "merged_at": null,
+      "mergeable_state": "blocked",
+      "human_review_authors": [],
+      "human_comment_authors": [
+        "kyoto-bonsai"
+      ]
+    },
+    "8390": {
+      "title": "fix(convergence): close a stopped loop's active-wisp children, not just the wisp root",
+      "url": "https://github.com/gastownhall/gascity/pull/8390",
+      "state": "open",
+      "merged": false,
+      "merged_at": null,
+      "mergeable_state": "clean",
+      "human_review_authors": [],
+      "human_comment_authors": [
+        "kyoto-bonsai"
+      ]
+    },
+    "8427": {
+      "title": "fix(convoy): add every bead id given to gc convoy add, not just the first",
+      "url": "https://github.com/gastownhall/gascity/pull/8427",
+      "state": "open",
+      "merged": false,
+      "merged_at": null,
+      "mergeable_state": "clean",
+      "human_review_authors": [],
+      "human_comment_authors": []
+    },
+    "8428": {
+      "title": "fix(api): reject unknown query parameters on GET /beads",
+      "url": "https://github.com/gastownhall/gascity/pull/8428",
+      "state": "open",
+      "merged": false,
+      "merged_at": null,
+      "mergeable_state": "clean",
+      "human_review_authors": [],
+      "human_comment_authors": []
+    },
+    "8429": {
+      "title": "fix(beads): keep a never-locally-written row absent from Prime's active scan, don't drop it silently",
+      "url": "https://github.com/gastownhall/gascity/pull/8429",
+      "state": "open",
+      "merged": false,
+      "merged_at": null,
+      "mergeable_state": "blocked",
+      "human_review_authors": [],
+      "human_comment_authors": []
+    },
+    "8430": {
+      "title": "fix(doctor): pin the gate-sandbox probe to the city's own Dolt endpoint",
+      "url": "https://github.com/gastownhall/gascity/pull/8430",
+      "state": "open",
+      "merged": false,
+      "merged_at": null,
+      "mergeable_state": "clean",
+      "human_review_authors": [],
+      "human_comment_authors": []
+    },
+    "8440": {
+      "title": "fix: dashboard rig-store-health PATH on Apple Silicon + correct [maintenance.dolt] docs (split from #8050)",
+      "url": "https://github.com/gastownhall/gascity/pull/8440",
+      "state": "open",
+      "merged": false,
+      "merged_at": null,
+      "mergeable_state": "clean",
+      "human_review_authors": [],
+      "human_comment_authors": []
+    },
+    "8443": {
+      "title": "fix(sling): surface a failed custom sling_query's diagnostic output",
+      "url": "https://github.com/gastownhall/gascity/pull/8443",
+      "state": "open",
+      "merged": false,
+      "merged_at": null,
+      "mergeable_state": "clean",
+      "human_review_authors": [],
+      "human_comment_authors": []
+    }
   }
 }

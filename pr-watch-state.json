@@ -1,6 +1,6 @@
 {
   "author": "rjgeng",
-  "last_checked_at": "2026-10-30T01:52:26Z",
+  "last_checked_at": "2026-10-30T02:44:00Z",
   "prs": {
     "8443": {
       "title": "fix(sling): surface a failed custom sling_query's diagnostic output",
@@ -338,7 +338,7 @@
       "state": "open",
       "merged": false,
       "merged_at": null,
-      "mergeable_state": "dirty",
+      "mergeable_state": "clean",
       "human_comment_authors": [],
       "human_review_authors": ["rjgeng"]
     },
@@ -448,7 +448,7 @@
       "state": "open",
       "merged": false,
       "merged_at": null,
-      "mergeable_state": "dirty",
+      "mergeable_state": "clean",
       "human_comment_authors": ["quad341", "rjgeng"],
       "human_review_authors": ["rjgeng"]
     },

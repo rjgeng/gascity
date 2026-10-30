@@ -1,6 +1,6 @@
 {
   "author": "rjgeng",
-  "last_checked_at": "2026-10-29T23:47:11Z",
+  "last_checked_at": "2026-10-30T00:48:12Z",
   "prs": {
     "8443": {
       "title": "fix(sling): surface a failed custom sling_query's diagnostic output",

@@ -1,6 +1,6 @@
 {
   "author": "rjgeng",
-  "last_checked_at": "2026-10-30T00:48:12Z",
+  "last_checked_at": "2026-10-30T01:52:26Z",
   "prs": {
     "8443": {
       "title": "fix(sling): surface a failed custom sling_query's diagnostic output",
@@ -9,9 +9,7 @@
       "merged": false,
       "merged_at": null,
       "mergeable_state": "clean",
-      "human_comment_authors": [
-        "kyoto-bonsai"
-      ],
+      "human_comment_authors": ["kyoto-bonsai"],
       "human_review_authors": []
     },
     "8440": {
@@ -31,9 +29,7 @@
       "merged": false,
       "merged_at": null,
       "mergeable_state": "clean",
-      "human_comment_authors": [
-        "kyoto-bonsai"
-      ],
+      "human_comment_authors": ["kyoto-bonsai"],
       "human_review_authors": []
     },
     "8429": {
@@ -43,9 +39,7 @@
       "merged": false,
       "merged_at": null,
       "mergeable_state": "clean",
-      "human_comment_authors": [
-        "kyoto-bonsai"
-      ],
+      "human_comment_authors": ["kyoto-bonsai"],
       "human_review_authors": []
     },
     "8428": {
@@ -55,9 +49,7 @@
       "merged": false,
       "merged_at": null,
       "mergeable_state": "clean",
-      "human_comment_authors": [
-        "kyoto-bonsai"
-      ],
+      "human_comment_authors": ["kyoto-bonsai"],
       "human_review_authors": []
     },
     "8427": {
@@ -77,9 +69,7 @@
       "merged": false,
       "merged_at": null,
       "mergeable_state": "clean",
-      "human_comment_authors": [
-        "kyoto-bonsai"
-      ],
+      "human_comment_authors": ["kyoto-bonsai"],
       "human_review_authors": []
     },
     "8389": {
@@ -89,9 +79,7 @@
       "merged": false,
       "merged_at": null,
       "mergeable_state": "clean",
-      "human_comment_authors": [
-        "kyoto-bonsai"
-      ],
+      "human_comment_authors": ["kyoto-bonsai"],
       "human_review_authors": []
     },
     "8384": {
@@ -192,9 +180,7 @@
       "merged_at": null,
       "mergeable_state": "clean",
       "human_comment_authors": [],
-      "human_review_authors": [
-        "rjgeng"
-      ]
+      "human_review_authors": ["rjgeng"]
     },
     "8177": {
       "title": "fix(dispatch): retire drain-unit convoys when their drain control closes",
@@ -204,9 +190,7 @@
       "merged_at": null,
       "mergeable_state": "clean",
       "human_comment_authors": [],
-      "human_review_authors": [
-        "rjgeng"
-      ]
+      "human_review_authors": ["rjgeng"]
     },
     "8176": {
       "title": "fix(workladder): exclude lifecycle=one_shot agents from ladder governance",
@@ -216,9 +200,7 @@
       "merged_at": null,
       "mergeable_state": "clean",
       "human_comment_authors": [],
-      "human_review_authors": [
-        "rjgeng"
-      ]
+      "human_review_authors": ["rjgeng"]
     },
     "8112": {
       "title": "fix(gc): drain-ack close prunes worker_dir; stash refusal scoped per-worktree",
@@ -228,9 +210,7 @@
       "merged_at": null,
       "mergeable_state": "clean",
       "human_comment_authors": [],
-      "human_review_authors": [
-        "rjgeng"
-      ]
+      "human_review_authors": ["rjgeng"]
     },
     "8070": {
       "title": "fix(trace): report the specific cap, not no_demand, when a pool with real demand is refused",
@@ -240,9 +220,7 @@
       "merged_at": null,
       "mergeable_state": "clean",
       "human_comment_authors": [],
-      "human_review_authors": [
-        "rjgeng"
-      ]
+      "human_review_authors": ["rjgeng"]
     },
     "8069": {
       "title": "fix(config): assigned-ready tier falls through past a held open assignment",
@@ -252,9 +230,7 @@
       "merged_at": null,
       "mergeable_state": "clean",
       "human_comment_authors": [],
-      "human_review_authors": [
-        "rjgeng"
-      ]
+      "human_review_authors": ["rjgeng"]
     },
     "8061": {
       "title": "fix: supervisor launchd throttling (#8015) and reaper's false escalation on bd 1.3.1 single-delete (#8007)",
@@ -264,9 +240,7 @@
       "merged_at": null,
       "mergeable_state": "clean",
       "human_comment_authors": [],
-      "human_review_authors": [
-        "rjgeng"
-      ]
+      "human_review_authors": ["rjgeng"]
     },
     "8052": {
       "title": "docs(wait): document the every-leg-fatal invariant in prepareWaitWakeStateHooked (#7998)",
@@ -276,9 +250,7 @@
       "merged_at": null,
       "mergeable_state": "clean",
       "human_comment_authors": [],
-      "human_review_authors": [
-        "rjgeng"
-      ]
+      "human_review_authors": ["rjgeng"]
     },
     "7524": {
       "title": "fix(pool): preserve canonical human handoffs",
@@ -288,9 +260,7 @@
       "merged_at": null,
       "mergeable_state": "clean",
       "human_comment_authors": [],
-      "human_review_authors": [
-        "rjgeng"
-      ]
+      "human_review_authors": ["rjgeng"]
     },
     "7351": {
       "title": "fix(formula): gc formula cook --attach no longer drops --meta",
@@ -300,9 +270,7 @@
       "merged_at": null,
       "mergeable_state": "clean",
       "human_comment_authors": [],
-      "human_review_authors": [
-        "rjgeng"
-      ]
+      "human_review_authors": ["rjgeng"]
     },
     "7110": {
       "title": "fix(controller): no wake demand for a deferred molecule root",
@@ -312,9 +280,7 @@
       "merged_at": null,
       "mergeable_state": "clean",
       "human_comment_authors": [],
-      "human_review_authors": [
-        "rjgeng"
-      ]
+      "human_review_authors": ["rjgeng"]
     },
     "6950": {
       "title": "fix(pi): honor managed gc runtime in hooks",
@@ -323,12 +289,8 @@
       "merged": false,
       "merged_at": null,
       "mergeable_state": "clean",
-      "human_comment_authors": [
-        "rjgeng"
-      ],
-      "human_review_authors": [
-        "rjgeng"
-      ]
+      "human_comment_authors": ["rjgeng"],
+      "human_review_authors": ["rjgeng"]
     },
     "6949": {
       "title": "fix(jsonl): honor archive branch and remote locality",
@@ -337,13 +299,8 @@
       "merged": false,
       "merged_at": null,
       "mergeable_state": "clean",
-      "human_comment_authors": [
-        "quad341",
-        "rjgeng"
-      ],
-      "human_review_authors": [
-        "rjgeng"
-      ]
+      "human_comment_authors": ["quad341", "rjgeng"],
+      "human_review_authors": ["rjgeng"]
     },
     "6410": {
       "title": "fix(pool): treat a live session's currently_processing_bead_id as first-party proof of ownership",
@@ -352,15 +309,8 @@
       "merged": false,
       "merged_at": null,
       "mergeable_state": "blocked",
-      "human_comment_authors": [
-        "brandonmartin",
-        "quad341",
-        "rjgeng"
-      ],
-      "human_review_authors": [
-        "quad341",
-        "rjgeng"
-      ]
+      "human_comment_authors": ["brandonmartin", "quad341", "rjgeng"],
+      "human_review_authors": ["quad341", "rjgeng"]
     },
     "6397": {
       "title": "fix(nudge): probe controller liveness before suppressing the per-session nudge poller",
@@ -369,12 +319,8 @@
       "merged": false,
       "merged_at": null,
       "mergeable_state": "clean",
-      "human_comment_authors": [
-        "rjgeng"
-      ],
-      "human_review_authors": [
-        "rjgeng"
-      ]
+      "human_comment_authors": ["rjgeng"],
+      "human_review_authors": ["rjgeng"]
     },
     "6365": {
       "title": "fix(handoff): give PreCompact its own flat systemMessage shape under --hook-format codex",
@@ -384,10 +330,7 @@
       "merged_at": null,
       "mergeable_state": "clean",
       "human_comment_authors": [],
-      "human_review_authors": [
-        "quad341",
-        "rjgeng"
-      ]
+      "human_review_authors": ["quad341", "rjgeng"]
     },
     "6364": {
       "title": "fix(config): let a template opt a cold pool out of the wake-probe's clamped-1 override (Agent.ColdWake)",
@@ -397,9 +340,7 @@
       "merged_at": null,
       "mergeable_state": "dirty",
       "human_comment_authors": [],
-      "human_review_authors": [
-        "rjgeng"
-      ]
+      "human_review_authors": ["rjgeng"]
     },
     "6340": {
       "title": "fix(convoy): order the workflow root last in delete-sweep so an interrupted delete never leaves it closed with open descendants",
@@ -409,9 +350,7 @@
       "merged_at": null,
       "mergeable_state": "clean",
       "human_comment_authors": [],
-      "human_review_authors": [
-        "rjgeng"
-      ]
+      "human_review_authors": ["rjgeng"]
     },
     "6337": {
       "title": "fix(hook): close 3 fail-open gaps in hookClaimDirLooksLikeRepo repo-marker detection",
@@ -421,9 +360,7 @@
       "merged_at": null,
       "mergeable_state": "clean",
       "human_comment_authors": [],
-      "human_review_authors": [
-        "rjgeng"
-      ]
+      "human_review_authors": ["rjgeng"]
     },
     "6326": {
       "title": "fix(tmux): corroborate ListRunning's ServerAbsent with a socket observation",
@@ -433,9 +370,7 @@
       "merged_at": null,
       "mergeable_state": "clean",
       "human_comment_authors": [],
-      "human_review_authors": [
-        "rjgeng"
-      ]
+      "human_review_authors": ["rjgeng"]
     },
     "6325": {
       "title": "fix(worktree): stop TestManagedDryRunDoesNotPublishProvenance flaking on transient git lock files",
@@ -445,9 +380,7 @@
       "merged_at": null,
       "mergeable_state": "clean",
       "human_comment_authors": [],
-      "human_review_authors": [
-        "rjgeng"
-      ]
+      "human_review_authors": ["rjgeng"]
     },
     "6270": {
       "title": "fix(molecule): retry a dropped molecule_failed stamp before giving up (#6235)",
@@ -457,9 +390,7 @@
       "merged_at": null,
       "mergeable_state": "clean",
       "human_comment_authors": [],
-      "human_review_authors": [
-        "rjgeng"
-      ]
+      "human_review_authors": ["rjgeng"]
     },
     "6269": {
       "title": "fix(config): apply feature flags in the supervisor's per-city loader (#6236)",
@@ -469,9 +400,7 @@
       "merged_at": null,
       "mergeable_state": "clean",
       "human_comment_authors": [],
-      "human_review_authors": [
-        "rjgeng"
-      ]
+      "human_review_authors": ["rjgeng"]
     },
     "6167": {
       "title": "fix(doctor): surface effective city suspension as a doctor check (#6126)",
@@ -481,9 +410,7 @@
       "merged_at": null,
       "mergeable_state": "clean",
       "human_comment_authors": [],
-      "human_review_authors": [
-        "rjgeng"
-      ]
+      "human_review_authors": ["rjgeng"]
     },
     "6097": {
       "title": "fix(suspensionstate): serialize rig suspend/resume with a cross-process flock (#6056)",
@@ -492,12 +419,8 @@
       "merged": false,
       "merged_at": null,
       "mergeable_state": "clean",
-      "human_comment_authors": [
-        "rjgeng"
-      ],
-      "human_review_authors": [
-        "rjgeng"
-      ]
+      "human_comment_authors": ["rjgeng"],
+      "human_review_authors": ["rjgeng"]
     },
     "6053": {
       "title": "fix(core-pack): anchor worktree creation on $GC_DIR, not $(pwd) (#6014)",
@@ -507,9 +430,7 @@
       "merged_at": null,
       "mergeable_state": "clean",
       "human_comment_authors": [],
-      "human_review_authors": [
-        "rjgeng"
-      ]
+      "human_review_authors": ["rjgeng"]
     },
     "6007": {
       "title": "fix(beads): consult native-open deferral before dialing the identity probe (#5965)",
@@ -518,13 +439,8 @@
       "merged": false,
       "merged_at": null,
       "mergeable_state": "clean",
-      "human_comment_authors": [
-        "A3Ackerman",
-        "rjgeng"
-      ],
-      "human_review_authors": [
-        "rjgeng"
-      ]
+      "human_comment_authors": ["A3Ackerman", "rjgeng"],
+      "human_review_authors": ["rjgeng"]
     },
     "5854": {
       "title": "chore(api): regenerate generated artifacts for a new GET /sessions ?enrich= query param",
@@ -533,13 +449,8 @@
       "merged": false,
       "merged_at": null,
       "mergeable_state": "dirty",
-      "human_comment_authors": [
-        "quad341",
-        "rjgeng"
-      ],
-      "human_review_authors": [
-        "rjgeng"
-      ]
+      "human_comment_authors": ["quad341", "rjgeng"],
+      "human_review_authors": ["rjgeng"]
     },
     "5365": {
       "title": "fix(supervisor): auto-unregister on repeated stale-config load failures (#5313)",
@@ -549,9 +460,7 @@
       "merged_at": null,
       "mergeable_state": "clean",
       "human_comment_authors": [],
-      "human_review_authors": [
-        "rjgeng"
-      ]
+      "human_review_authors": ["rjgeng"]
     },
     "4584": {
       "title": "fix(sling): --nudge falls back to a running named session for instance-expandable agents (#3412)",
@@ -560,12 +469,8 @@
       "merged": false,
       "merged_at": null,
       "mergeable_state": "clean",
-      "human_comment_authors": [
-        "remuscazacu"
-      ],
-      "human_review_authors": [
-        "rjgeng"
-      ]
+      "human_comment_authors": ["remuscazacu"],
+      "human_review_authors": ["rjgeng"]
     },
     "4481": {
       "title": "fix(runtime): treat a gone session as drain-acked (#4448)",
@@ -574,12 +479,8 @@
       "merged": false,
       "merged_at": null,
       "mergeable_state": "clean",
-      "human_comment_authors": [
-        "rjgeng"
-      ],
-      "human_review_authors": [
-        "rjgeng"
-      ]
+      "human_comment_authors": ["rjgeng"],
+      "human_review_authors": ["rjgeng"]
     },
     "4138": {
       "title": "fix(session): gc session attach waits for an in-flight controller reset instead of racing it (#4079)",
@@ -589,9 +490,7 @@
       "merged_at": null,
       "mergeable_state": "clean",
       "human_comment_authors": [],
-      "human_review_authors": [
-        "rjgeng"
-      ]
+      "human_review_authors": ["rjgeng"]
     },
     "4095": {
       "title": "fix(session): refresh reset_committed_at on every continuation-reset re-arm (#4067)",
@@ -600,12 +499,8 @@
       "merged": false,
       "merged_at": null,
       "mergeable_state": "blocked",
-      "human_comment_authors": [
-        "rjgeng"
-      ],
-      "human_review_authors": [
-        "rjgeng"
-      ]
+      "human_comment_authors": ["rjgeng"],
+      "human_review_authors": ["rjgeng"]
     }
   }
 }

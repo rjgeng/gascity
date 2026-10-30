@@ -1,6 +1,6 @@
 {
   "author": "rjgeng",
-  "last_checked_at": "2026-10-30T15:49:44Z",
+  "last_checked_at": "2026-10-30T16:49:10Z",
   "prs": {
     "4095": {
       "title": "fix(session): refresh reset_committed_at on every continuation-reset re-arm (#4067)",
@@ -22,7 +22,7 @@
       "state": "open",
       "merged": false,
       "merged_at": null,
-      "mergeable_state": "clean",
+      "mergeable_state": "blocked",
       "human_comment_authors": [],
       "human_review_authors": [
         "rjgeng"
@@ -34,7 +34,7 @@
       "state": "open",
       "merged": false,
       "merged_at": null,
-      "mergeable_state": "clean",
+      "mergeable_state": "blocked",
       "human_comment_authors": [
         "rjgeng"
       ],
@@ -48,7 +48,7 @@
       "state": "open",
       "merged": false,
       "merged_at": null,
-      "mergeable_state": "clean",
+      "mergeable_state": "blocked",
       "human_comment_authors": [
         "remuscazacu"
       ],
@@ -62,7 +62,7 @@
       "state": "open",
       "merged": false,
       "merged_at": null,
-      "mergeable_state": "clean",
+      "mergeable_state": "blocked",
       "human_comment_authors": [],
       "human_review_authors": [
         "rjgeng"
@@ -74,7 +74,7 @@
       "state": "open",
       "merged": false,
       "merged_at": null,
-      "mergeable_state": "clean",
+      "mergeable_state": "blocked",
       "human_comment_authors": [
         "quad341",
         "rjgeng"
@@ -89,7 +89,7 @@
       "state": "open",
       "merged": false,
       "merged_at": null,
-      "mergeable_state": "clean",
+      "mergeable_state": "blocked",
       "human_comment_authors": [
         "A3Ackerman",
         "rjgeng"
@@ -104,7 +104,7 @@
       "state": "open",
       "merged": false,
       "merged_at": null,
-      "mergeable_state": "clean",
+      "mergeable_state": "blocked",
       "human_comment_authors": [],
       "human_review_authors": [
         "rjgeng"
@@ -116,7 +116,7 @@
       "state": "open",
       "merged": false,
       "merged_at": null,
-      "mergeable_state": "clean",
+      "mergeable_state": "blocked",
       "human_comment_authors": [
         "rjgeng"
       ],
@@ -130,7 +130,7 @@
       "state": "open",
       "merged": false,
       "merged_at": null,
-      "mergeable_state": "clean",
+      "mergeable_state": "blocked",
       "human_comment_authors": [],
       "human_review_authors": [
         "rjgeng"
@@ -142,7 +142,7 @@
       "state": "open",
       "merged": false,
       "merged_at": null,
-      "mergeable_state": "clean",
+      "mergeable_state": "blocked",
       "human_comment_authors": [],
       "human_review_authors": [
         "rjgeng"
@@ -154,7 +154,7 @@
       "state": "open",
       "merged": false,
       "merged_at": null,
-      "mergeable_state": "clean",
+      "mergeable_state": "blocked",
       "human_comment_authors": [],
       "human_review_authors": [
         "rjgeng"
@@ -166,7 +166,7 @@
       "state": "open",
       "merged": false,
       "merged_at": null,
-      "mergeable_state": "clean",
+      "mergeable_state": "blocked",
       "human_comment_authors": [],
       "human_review_authors": [
         "rjgeng"
@@ -178,7 +178,7 @@
       "state": "open",
       "merged": false,
       "merged_at": null,
-      "mergeable_state": "clean",
+      "mergeable_state": "blocked",
       "human_comment_authors": [],
       "human_review_authors": [
         "rjgeng"
@@ -190,7 +190,7 @@
       "state": "open",
       "merged": false,
       "merged_at": null,
-      "mergeable_state": "clean",
+      "mergeable_state": "blocked",
       "human_comment_authors": [],
       "human_review_authors": [
         "rjgeng"
@@ -202,7 +202,7 @@
       "state": "open",
       "merged": false,
       "merged_at": null,
-      "mergeable_state": "clean",
+      "mergeable_state": "blocked",
       "human_comment_authors": [],
       "human_review_authors": [
         "rjgeng"
@@ -214,7 +214,7 @@
       "state": "open",
       "merged": false,
       "merged_at": null,
-      "mergeable_state": "clean",
+      "mergeable_state": "blocked",
       "human_comment_authors": [],
       "human_review_authors": [
         "rjgeng"
@@ -226,7 +226,7 @@
       "state": "open",
       "merged": false,
       "merged_at": null,
-      "mergeable_state": "clean",
+      "mergeable_state": "blocked",
       "human_comment_authors": [],
       "human_review_authors": [
         "quad341",
@@ -239,7 +239,7 @@
       "state": "open",
       "merged": false,
       "merged_at": null,
-      "mergeable_state": "clean",
+      "mergeable_state": "blocked",
       "human_comment_authors": [
         "rjgeng"
       ],
@@ -270,7 +270,7 @@
       "state": "open",
       "merged": false,
       "merged_at": null,
-      "mergeable_state": "clean",
+      "mergeable_state": "blocked",
       "human_comment_authors": [
         "quad341",
         "rjgeng"
@@ -286,7 +286,7 @@
       "state": "open",
       "merged": false,
       "merged_at": null,
-      "mergeable_state": "clean",
+      "mergeable_state": "blocked",
       "human_comment_authors": [
         "rjgeng"
       ],
@@ -312,7 +312,7 @@
       "state": "open",
       "merged": false,
       "merged_at": null,
-      "mergeable_state": "clean",
+      "mergeable_state": "blocked",
       "human_comment_authors": [],
       "human_review_authors": [
         "rjgeng"
@@ -324,7 +324,7 @@
       "state": "open",
       "merged": false,
       "merged_at": null,
-      "mergeable_state": "clean",
+      "mergeable_state": "blocked",
       "human_comment_authors": [],
       "human_review_authors": [
         "rjgeng"
@@ -336,7 +336,7 @@
       "state": "open",
       "merged": false,
       "merged_at": null,
-      "mergeable_state": "clean",
+      "mergeable_state": "blocked",
       "human_comment_authors": [],
       "human_review_authors": [
         "rjgeng"
@@ -348,7 +348,7 @@
       "state": "open",
       "merged": false,
       "merged_at": null,
-      "mergeable_state": "clean",
+      "mergeable_state": "blocked",
       "human_comment_authors": [],
       "human_review_authors": [
         "rjgeng"
@@ -360,7 +360,7 @@
       "state": "open",
       "merged": false,
       "merged_at": null,
-      "mergeable_state": "clean",
+      "mergeable_state": "blocked",
       "human_comment_authors": [],
       "human_review_authors": [
         "rjgeng"
@@ -372,7 +372,7 @@
       "state": "open",
       "merged": false,
       "merged_at": null,
-      "mergeable_state": "clean",
+      "mergeable_state": "blocked",
       "human_comment_authors": [],
       "human_review_authors": [
         "rjgeng"
@@ -384,7 +384,7 @@
       "state": "open",
       "merged": false,
       "merged_at": null,
-      "mergeable_state": "clean",
+      "mergeable_state": "blocked",
       "human_comment_authors": [],
       "human_review_authors": [
         "rjgeng"
@@ -396,7 +396,7 @@
       "state": "open",
       "merged": false,
       "merged_at": null,
-      "mergeable_state": "clean",
+      "mergeable_state": "blocked",
       "human_comment_authors": [],
       "human_review_authors": [
         "rjgeng"
@@ -408,7 +408,7 @@
       "state": "open",
       "merged": false,
       "merged_at": null,
-      "mergeable_state": "clean",
+      "mergeable_state": "blocked",
       "human_comment_authors": [],
       "human_review_authors": [
         "rjgeng"
@@ -420,7 +420,7 @@
       "state": "open",
       "merged": false,
       "merged_at": null,
-      "mergeable_state": "clean",
+      "mergeable_state": "blocked",
       "human_comment_authors": [],
       "human_review_authors": [
         "rjgeng"
@@ -432,7 +432,7 @@
       "state": "open",
       "merged": false,
       "merged_at": null,
-      "mergeable_state": "clean",
+      "mergeable_state": "blocked",
       "human_comment_authors": [],
       "human_review_authors": []
     },
@@ -442,7 +442,7 @@
       "state": "open",
       "merged": false,
       "merged_at": null,
-      "mergeable_state": "clean",
+      "mergeable_state": "blocked",
       "human_comment_authors": [],
       "human_review_authors": []
     },
@@ -452,7 +452,7 @@
       "state": "open",
       "merged": false,
       "merged_at": null,
-      "mergeable_state": "clean",
+      "mergeable_state": "blocked",
       "human_comment_authors": [],
       "human_review_authors": []
     },
@@ -474,7 +474,7 @@
       "state": "open",
       "merged": false,
       "merged_at": null,
-      "mergeable_state": "clean",
+      "mergeable_state": "blocked",
       "human_comment_authors": [],
       "human_review_authors": []
     },
@@ -484,7 +484,7 @@
       "state": "open",
       "merged": false,
       "merged_at": null,
-      "mergeable_state": "clean",
+      "mergeable_state": "blocked",
       "human_comment_authors": [],
       "human_review_authors": []
     },
@@ -494,7 +494,7 @@
       "state": "open",
       "merged": false,
       "merged_at": null,
-      "mergeable_state": "clean",
+      "mergeable_state": "blocked",
       "human_comment_authors": [],
       "human_review_authors": []
     },
@@ -504,7 +504,7 @@
       "state": "open",
       "merged": false,
       "merged_at": null,
-      "mergeable_state": "clean",
+      "mergeable_state": "blocked",
       "human_comment_authors": [],
       "human_review_authors": []
     },
@@ -514,7 +514,7 @@
       "state": "open",
       "merged": false,
       "merged_at": null,
-      "mergeable_state": "clean",
+      "mergeable_state": "blocked",
       "human_comment_authors": [],
       "human_review_authors": []
     },
@@ -524,7 +524,7 @@
       "state": "open",
       "merged": false,
       "merged_at": null,
-      "mergeable_state": "clean",
+      "mergeable_state": "blocked",
       "human_comment_authors": [
         "kyoto-bonsai"
       ],
@@ -536,7 +536,7 @@
       "state": "open",
       "merged": false,
       "merged_at": null,
-      "mergeable_state": "clean",
+      "mergeable_state": "blocked",
       "human_comment_authors": [
         "kyoto-bonsai"
       ],
@@ -548,7 +548,7 @@
       "state": "open",
       "merged": false,
       "merged_at": null,
-      "mergeable_state": "clean",
+      "mergeable_state": "blocked",
       "human_comment_authors": [],
       "human_review_authors": []
     },
@@ -558,7 +558,7 @@
       "state": "open",
       "merged": false,
       "merged_at": null,
-      "mergeable_state": "clean",
+      "mergeable_state": "blocked",
       "human_comment_authors": [
         "kyoto-bonsai"
       ],
@@ -570,7 +570,7 @@
       "state": "open",
       "merged": false,
       "merged_at": null,
-      "mergeable_state": "clean",
+      "mergeable_state": "blocked",
       "human_comment_authors": [
         "kyoto-bonsai"
       ],
@@ -582,7 +582,7 @@
       "state": "open",
       "merged": false,
       "merged_at": null,
-      "mergeable_state": "clean",
+      "mergeable_state": "blocked",
       "human_comment_authors": [
         "kyoto-bonsai"
       ],
@@ -594,7 +594,7 @@
       "state": "open",
       "merged": false,
       "merged_at": null,
-      "mergeable_state": "clean",
+      "mergeable_state": "blocked",
       "human_comment_authors": [
         "julianknutsen"
       ],
@@ -606,7 +606,7 @@
       "state": "open",
       "merged": false,
       "merged_at": null,
-      "mergeable_state": "clean",
+      "mergeable_state": "blocked",
       "human_comment_authors": [
         "kyoto-bonsai"
       ],
@@ -618,7 +618,7 @@
       "state": "open",
       "merged": false,
       "merged_at": null,
-      "mergeable_state": "clean",
+      "mergeable_state": "blocked",
       "human_comment_authors": [],
       "human_review_authors": []
     },
@@ -628,7 +628,7 @@
       "state": "open",
       "merged": false,
       "merged_at": null,
-      "mergeable_state": "clean",
+      "mergeable_state": "blocked",
       "human_comment_authors": [
         "kyoto-bonsai"
       ],
@@ -650,7 +650,7 @@
       "state": "open",
       "merged": false,
       "merged_at": null,
-      "mergeable_state": "clean",
+      "mergeable_state": "blocked",
       "human_comment_authors": [
         "kyoto-bonsai"
       ],

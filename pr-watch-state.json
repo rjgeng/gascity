@@ -1,7 +1,47 @@
 {
   "author": "rjgeng",
-  "last_checked_at": "2026-10-30T02:44:00Z",
+  "last_checked_at": "2026-10-30T03:50:47Z",
   "prs": {
+    "8518": {
+      "title": "fix(sling): close an auto-convoy left with zero members when linking fails",
+      "url": "https://github.com/gastownhall/gascity/pull/8518",
+      "state": "open",
+      "merged": false,
+      "merged_at": null,
+      "mergeable_state": "clean",
+      "human_comment_authors": [],
+      "human_review_authors": []
+    },
+    "8517": {
+      "title": "fix(doctor): kill a pack script's process when its check-timeout abandons it",
+      "url": "https://github.com/gastownhall/gascity/pull/8517",
+      "state": "open",
+      "merged": false,
+      "merged_at": null,
+      "mergeable_state": "clean",
+      "human_comment_authors": [],
+      "human_review_authors": []
+    },
+    "8516": {
+      "title": "fix(sling): warn on effective rig/city suspension, not just the deprecated config field",
+      "url": "https://github.com/gastownhall/gascity/pull/8516",
+      "state": "open",
+      "merged": false,
+      "merged_at": null,
+      "mergeable_state": "clean",
+      "human_comment_authors": [],
+      "human_review_authors": []
+    },
+    "8515": {
+      "title": "fix(convergence): include closed wisps when deriving a loop's iteration count",
+      "url": "https://github.com/gastownhall/gascity/pull/8515",
+      "state": "open",
+      "merged": false,
+      "merged_at": null,
+      "mergeable_state": "clean",
+      "human_comment_authors": [],
+      "human_review_authors": []
+    },
     "8443": {
       "title": "fix(sling): surface a failed custom sling_query's diagnostic output",
       "url": "https://github.com/gastownhall/gascity/pull/8443",

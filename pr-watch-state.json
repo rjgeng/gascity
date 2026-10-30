@@ -1,6 +1,6 @@
 {
   "author": "rjgeng",
-  "last_checked_at": "2026-10-30T20:47:15Z",
+  "last_checked_at": "2026-10-30T21:46:56Z",
   "prs": {
     "4095": {
       "title": "fix(session): refresh reset_committed_at on every continuation-reset re-arm (#4067)",
@@ -200,16 +200,6 @@
       "merged_at": null,
       "mergeable_state": "blocked",
       "human_comment_authors": ["brandonmartin", "quad341", "rjgeng"],
-      "human_review_authors": ["quad341", "rjgeng"]
-    },
-    "6949": {
-      "title": "fix(jsonl): honor archive branch and remote locality",
-      "url": "https://github.com/gastownhall/gascity/pull/6949",
-      "state": "open",
-      "merged": false,
-      "merged_at": null,
-      "mergeable_state": "clean",
-      "human_comment_authors": ["quad341", "rjgeng"],
       "human_review_authors": ["quad341", "rjgeng"]
     },
     "6950": {

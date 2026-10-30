@@ -1,6 +1,6 @@
 {
   "author": "rjgeng",
-  "last_checked_at": "2026-10-30T14:47:22Z",
+  "last_checked_at": "2026-10-30T15:49:44Z",
   "prs": {
     "4095": {
       "title": "fix(session): refresh reset_committed_at on every continuation-reset re-arm (#4067)",
@@ -276,6 +276,7 @@
         "rjgeng"
       ],
       "human_review_authors": [
+        "quad341",
         "rjgeng"
       ]
     },

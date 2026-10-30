@@ -1,6 +1,6 @@
 {
   "author": "rjgeng",
-  "last_checked_at": "2026-10-30T09:47:43Z",
+  "last_checked_at": "2026-10-30T10:49:39Z",
   "prs": {
     "4095": {
       "title": "fix(session): refresh reset_committed_at on every continuation-reset re-arm (#4067)",
@@ -369,7 +369,7 @@
       "merged": false,
       "merged_at": null,
       "mergeable_state": "clean",
-      "human_comment_authors": [],
+      "human_comment_authors": ["julianknutsen"],
       "human_review_authors": []
     },
     "8348": {
@@ -539,6 +539,16 @@
       "merged": false,
       "merged_at": null,
       "mergeable_state": "clean",
+      "human_comment_authors": [],
+      "human_review_authors": []
+    },
+    "8533": {
+      "title": "fix(mail): gc mail check prints the inbox total, not the first page length",
+      "url": "https://github.com/gastownhall/gascity/pull/8533",
+      "state": "open",
+      "merged": false,
+      "merged_at": null,
+      "mergeable_state": "blocked",
       "human_comment_authors": [],
       "human_review_authors": []
     }

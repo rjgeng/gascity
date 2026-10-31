@@ -1,6 +1,6 @@
 {
   "author": "rjgeng",
-  "last_checked_at": "2026-10-31T21:49:08Z",
+  "last_checked_at": "2026-10-31T22:40:00Z",
   "prs": {
     "4095": {
       "human_comment_authors": [
@@ -209,7 +209,9 @@
       "url": "https://github.com/gastownhall/gascity/pull/6340"
     },
     "6364": {
-      "human_comment_authors": [],
+      "human_comment_authors": [
+        "kyoto-bonsai"
+      ],
       "human_review_authors": [
         "rjgeng"
       ],
@@ -269,7 +271,7 @@
       "human_review_authors": [
         "rjgeng"
       ],
-      "mergeable_state": "blocked",
+      "mergeable_state": "dirty",
       "merged": false,
       "merged_at": null,
       "state": "open",

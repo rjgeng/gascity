@@ -1,6 +1,6 @@
 {
   "author": "rjgeng",
-  "last_checked_at": "2026-10-31T02:49:10Z",
+  "last_checked_at": "2026-10-31T03:48:29Z",
   "prs": {
     "4095": {
       "title": "fix(session): refresh reset_committed_at on every continuation-reset re-arm (#4067)",
@@ -535,13 +535,14 @@
       "human_review_authors": []
     },
     "8429": {
-      "title": "fix(beads): keep a never-locally-written row absent from Prime's active scan, don't drop it silently",
+      "title": "fix(beads): carry rows a full Prime's active scan omits for re-verify, so an out-of-band close is announced",
       "url": "https://github.com/gastownhall/gascity/pull/8429",
       "state": "open",
       "merged": false,
       "merged_at": null,
       "mergeable_state": "clean",
       "human_comment_authors": [
+        "julianknutsen",
         "kyoto-bonsai"
       ],
       "human_review_authors": []

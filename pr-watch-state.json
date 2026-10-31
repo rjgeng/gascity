@@ -1,6 +1,6 @@
 {
   "author": "rjgeng",
-  "last_checked_at": "2026-10-31T11:46:59Z",
+  "last_checked_at": "2026-10-31T12:50:00Z",
   "prs": {
     "4095": {
       "human_comment_authors": [
@@ -425,18 +425,6 @@
       "state": "open",
       "title": "fix(mail/beadmail): read-mail retention sweep no longer closes a message marked unread after the snapshot",
       "url": "https://github.com/gastownhall/gascity/pull/8227"
-    },
-    "8273": {
-      "human_comment_authors": [
-        "rjgeng"
-      ],
-      "human_review_authors": [],
-      "mergeable_state": "blocked",
-      "merged": false,
-      "merged_at": null,
-      "state": "closed",
-      "title": "fix(cmd/gc): a still-configured named session's close must not release identity-addressed work",
-      "url": "https://github.com/gastownhall/gascity/pull/8273"
     },
     "8306": {
       "human_comment_authors": [

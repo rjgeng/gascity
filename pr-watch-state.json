@@ -1,6 +1,6 @@
 {
   "author": "rjgeng",
-  "last_checked_at": "2026-10-31T10:53:22Z",
+  "last_checked_at": "2026-10-31T11:46:59Z",
   "prs": {
     "4095": {
       "human_comment_authors": [
@@ -426,6 +426,18 @@
       "title": "fix(mail/beadmail): read-mail retention sweep no longer closes a message marked unread after the snapshot",
       "url": "https://github.com/gastownhall/gascity/pull/8227"
     },
+    "8273": {
+      "human_comment_authors": [
+        "rjgeng"
+      ],
+      "human_review_authors": [],
+      "mergeable_state": "blocked",
+      "merged": false,
+      "merged_at": null,
+      "state": "closed",
+      "title": "fix(cmd/gc): a still-configured named session's close must not release identity-addressed work",
+      "url": "https://github.com/gastownhall/gascity/pull/8273"
+    },
     "8306": {
       "human_comment_authors": [
         "julianknutsen"
@@ -640,6 +652,26 @@
       "state": "open",
       "title": "fix(mail): gc mail check prints the inbox total, not the first page length",
       "url": "https://github.com/gastownhall/gascity/pull/8533"
+    },
+    "8604": {
+      "human_comment_authors": [],
+      "human_review_authors": [],
+      "mergeable_state": "blocked",
+      "merged": false,
+      "merged_at": null,
+      "state": "open",
+      "title": "fix(session): clear stale provider_kind/builtin_ancestor/resume_command on a provider switch",
+      "url": "https://github.com/gastownhall/gascity/pull/8604"
+    },
+    "8605": {
+      "human_comment_authors": [],
+      "human_review_authors": [],
+      "mergeable_state": "blocked",
+      "merged": false,
+      "merged_at": null,
+      "state": "open",
+      "title": "fix(gc): bound event-order cursor to log head, not 0, on log reset",
+      "url": "https://github.com/gastownhall/gascity/pull/8605"
     }
   }
 }

@@ -1,6 +1,6 @@
 {
   "author": "rjgeng",
-  "last_checked_at": "2026-11-01T10:49:01Z",
+  "last_checked_at": "2026-11-01T11:47:41Z",
   "prs": {
     "4095": {
       "human_comment_authors": [
@@ -276,18 +276,6 @@
       "title": "fix(controller): no wake demand for a deferred molecule root",
       "url": "https://github.com/gastownhall/gascity/pull/7110"
     },
-    "7351": {
-      "human_comment_authors": [],
-      "human_review_authors": [
-        "rjgeng"
-      ],
-      "mergeable_state": "blocked",
-      "merged": false,
-      "merged_at": null,
-      "state": "open",
-      "title": "fix(formula): gc formula cook --attach no longer drops --meta",
-      "url": "https://github.com/gastownhall/gascity/pull/7351"
-    },
     "7524": {
       "human_comment_authors": [],
       "human_review_authors": [
@@ -331,7 +319,7 @@
       "human_review_authors": [
         "rjgeng"
       ],
-      "mergeable_state": "blocked",
+      "mergeable_state": "dirty",
       "merged": false,
       "merged_at": null,
       "state": "open",
@@ -391,7 +379,7 @@
       "human_review_authors": [
         "rjgeng"
       ],
-      "mergeable_state": "blocked",
+      "mergeable_state": "dirty",
       "merged": false,
       "merged_at": null,
       "state": "open",
@@ -536,7 +524,7 @@
       "human_review_authors": [
         "rjgeng"
       ],
-      "mergeable_state": "blocked",
+      "mergeable_state": "dirty",
       "merged": false,
       "merged_at": null,
       "state": "open",
@@ -621,7 +609,7 @@
       "human_review_authors": [
         "rjgeng"
       ],
-      "mergeable_state": "unknown",
+      "mergeable_state": "dirty",
       "merged": false,
       "merged_at": null,
       "state": "open",
@@ -703,7 +691,7 @@
       "human_review_authors": [
         "rjgeng"
       ],
-      "mergeable_state": "unknown",
+      "mergeable_state": "dirty",
       "merged": false,
       "merged_at": null,
       "state": "open",

@@ -1,51 +1,7 @@
 {
   "author": "rjgeng",
-  "last_checked_at": "2026-11-02T04:46:53Z",
+  "last_checked_at": "2026-11-02T05:48:03Z",
   "prs": {
-    "8306": {
-      "title": "fix(mcp): name the agent-local mcp/ dir when it conflicts with an implicit agent",
-      "url": "https://github.com/gastownhall/gascity/pull/8306",
-      "state": "closed",
-      "merged": true,
-      "merged_at": "2026-11-02T03:05:44Z",
-      "mergeable_state": "unknown",
-      "human_review_authors": [
-        "rjgeng"
-      ],
-      "human_comment_authors": [
-        "julianknutsen",
-        "kyoto-bonsai"
-      ]
-    },
-    "8429": {
-      "title": "fix(beads): carry rows a full Prime's active scan omits for re-verify, so an out-of-band close is announced",
-      "url": "https://github.com/gastownhall/gascity/pull/8429",
-      "state": "closed",
-      "merged": true,
-      "merged_at": "2026-11-02T02:42:53Z",
-      "mergeable_state": "unknown",
-      "human_review_authors": [
-        "rjgeng"
-      ],
-      "human_comment_authors": [
-        "julianknutsen",
-        "kyoto-bonsai"
-      ]
-    },
-    "8440": {
-      "title": "fix: dashboard rig-store-health PATH on Apple Silicon + correct [maintenance.dolt] docs (split from #8050)",
-      "url": "https://github.com/gastownhall/gascity/pull/8440",
-      "state": "closed",
-      "merged": true,
-      "merged_at": "2026-11-02T03:41:42Z",
-      "mergeable_state": "unknown",
-      "human_review_authors": [
-        "rjgeng"
-      ],
-      "human_comment_authors": [
-        "julianknutsen"
-      ]
-    },
     "4095": {
       "title": "fix(session): refresh reset_committed_at on every continuation-reset re-arm (#4067)",
       "url": "https://github.com/gastownhall/gascity/pull/4095",
@@ -356,20 +312,6 @@
       ],
       "human_comment_authors": []
     },
-    "8069": {
-      "title": "fix(config): assigned-ready tier falls through past a held open assignment",
-      "url": "https://github.com/gastownhall/gascity/pull/8069",
-      "state": "open",
-      "merged": false,
-      "merged_at": null,
-      "mergeable_state": "dirty",
-      "human_review_authors": [
-        "rjgeng"
-      ],
-      "human_comment_authors": [
-        "kyoto-bonsai"
-      ]
-    },
     "8070": {
       "title": "fix(trace): report the specific cap, not no_demand, when a pool with real demand is refused",
       "url": "https://github.com/gastownhall/gascity/pull/8070",
@@ -600,20 +542,6 @@
       ],
       "human_comment_authors": []
     },
-    "8516": {
-      "title": "fix(sling): warn on effective rig/city suspension, not just the deprecated config field",
-      "url": "https://github.com/gastownhall/gascity/pull/8516",
-      "state": "open",
-      "merged": false,
-      "merged_at": null,
-      "mergeable_state": "dirty",
-      "human_review_authors": [
-        "rjgeng"
-      ],
-      "human_comment_authors": [
-        "kyoto-bonsai"
-      ]
-    },
     "8517": {
       "title": "fix(doctor): kill a pack script's process when its check-timeout abandons it",
       "url": "https://github.com/gastownhall/gascity/pull/8517",
@@ -676,7 +604,7 @@
       "state": "open",
       "merged": false,
       "merged_at": null,
-      "mergeable_state": "clean",
+      "mergeable_state": "dirty",
       "human_review_authors": [
         "rjgeng"
       ],

@@ -1,6 +1,16 @@
 {
   "author": "rjgeng",
   "prs": {
+    "8723": {
+      "title": "fix(packman): refresh git stat cache before pack-cache dirty check",
+      "url": "https://github.com/gastownhall/gascity/pull/8723",
+      "state": "open",
+      "merged": false,
+      "merged_at": null,
+      "mergeable_state": "blocked",
+      "human_review_authors": [],
+      "human_comment_authors": []
+    },
     "8605": {
       "title": "fix(gc): bound event-order cursor to log head, not 0, on log reset",
       "url": "https://github.com/gastownhall/gascity/pull/8605",
@@ -24,20 +34,7 @@
         "rjgeng"
       ],
       "human_comment_authors": [
-        "kyoto-bonsai"
-      ]
-    },
-    "8533": {
-      "title": "fix(mail): gc mail check prints the inbox total, not the first page length",
-      "url": "https://github.com/gastownhall/gascity/pull/8533",
-      "state": "open",
-      "merged": false,
-      "merged_at": null,
-      "mergeable_state": "dirty",
-      "human_review_authors": [
-        "rjgeng"
-      ],
-      "human_comment_authors": [
+        "julianknutsen",
         "kyoto-bonsai"
       ]
     },
@@ -143,7 +140,7 @@
       "state": "open",
       "merged": false,
       "merged_at": null,
-      "mergeable_state": "blocked",
+      "mergeable_state": "clean",
       "human_review_authors": [
         "rjgeng"
       ],
@@ -157,7 +154,7 @@
       "state": "open",
       "merged": false,
       "merged_at": null,
-      "mergeable_state": "blocked",
+      "mergeable_state": "clean",
       "human_review_authors": [
         "rjgeng"
       ],
@@ -610,5 +607,5 @@
       ]
     }
   },
-  "last_checked_at": "2026-11-02T11:47:53Z"
+  "last_checked_at": "2026-11-02T12:54:59Z"
 }

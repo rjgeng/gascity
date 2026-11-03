@@ -1,11 +1,11 @@
 {
   "author": "rjgeng",
-  "last_checked_at": "2026-11-03T14:47:51Z",
+  "last_checked_at": "2026-11-03T16:00:00Z",
   "prs": {
     "4095": {
       "human_comment_authors": [],
       "human_review_authors": [],
-      "mergeable_state": "dirty",
+      "mergeable_state": "blocked",
       "merged": false,
       "merged_at": null,
       "state": "open",
@@ -61,7 +61,7 @@
         "quad341"
       ],
       "human_review_authors": [],
-      "mergeable_state": "dirty",
+      "mergeable_state": "blocked",
       "merged": false,
       "merged_at": null,
       "state": "open",
@@ -181,7 +181,7 @@
         "kyoto-bonsai"
       ],
       "human_review_authors": [],
-      "mergeable_state": "dirty",
+      "mergeable_state": "blocked",
       "merged": false,
       "merged_at": null,
       "state": "open",
@@ -210,7 +210,7 @@
       "human_review_authors": [
         "quad341"
       ],
-      "mergeable_state": "dirty",
+      "mergeable_state": "blocked",
       "merged": false,
       "merged_at": null,
       "state": "open",
@@ -509,6 +509,26 @@
       "state": "open",
       "title": "fix(packman): refresh git stat cache before pack-cache dirty check",
       "url": "https://github.com/gastownhall/gascity/pull/8723"
+    },
+    "8789": {
+      "human_comment_authors": [],
+      "human_review_authors": [],
+      "mergeable_state": "blocked",
+      "merged": false,
+      "merged_at": null,
+      "state": "open",
+      "title": "fix(gc): namedWorkReady must skip blocked in_progress work beads",
+      "url": "https://github.com/gastownhall/gascity/pull/8789"
+    },
+    "8790": {
+      "human_comment_authors": [],
+      "human_review_authors": [],
+      "mergeable_state": "clean",
+      "merged": false,
+      "merged_at": null,
+      "state": "open",
+      "title": "fix(examples/bd/dolt): bash 3.2 cannot parse a case pattern closing ) inside $(...)",
+      "url": "https://github.com/gastownhall/gascity/pull/8790"
     }
   }
 }

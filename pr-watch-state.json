@@ -1,6 +1,6 @@
 {
   "author": "rjgeng",
-  "last_checked_at": "2026-11-04T00:46:11Z",
+  "last_checked_at": "2026-11-04T01:48:34Z",
   "prs": {
     "4095": {
       "title": "fix(session): refresh reset_committed_at on every continuation-reset re-arm (#4067)",
@@ -8,7 +8,7 @@
       "state": "open",
       "merged": false,
       "merged_at": null,
-      "mergeable_state": "unknown",
+      "mergeable_state": "clean",
       "human_review_authors": [
         "rjgeng"
       ],
@@ -22,7 +22,7 @@
       "state": "open",
       "merged": false,
       "merged_at": null,
-      "mergeable_state": "unknown",
+      "mergeable_state": "blocked",
       "human_review_authors": [
         "rjgeng"
       ],
@@ -34,7 +34,7 @@
       "state": "open",
       "merged": false,
       "merged_at": null,
-      "mergeable_state": "unknown",
+      "mergeable_state": "blocked",
       "human_review_authors": [
         "rjgeng"
       ],
@@ -48,7 +48,7 @@
       "state": "open",
       "merged": false,
       "merged_at": null,
-      "mergeable_state": "unknown",
+      "mergeable_state": "blocked",
       "human_review_authors": [
         "rjgeng"
       ],
@@ -62,7 +62,7 @@
       "state": "open",
       "merged": false,
       "merged_at": null,
-      "mergeable_state": "unknown",
+      "mergeable_state": "blocked",
       "human_review_authors": [
         "rjgeng"
       ],
@@ -76,7 +76,7 @@
       "state": "open",
       "merged": false,
       "merged_at": null,
-      "mergeable_state": "unknown",
+      "mergeable_state": "blocked",
       "human_review_authors": [
         "rjgeng"
       ],
@@ -91,7 +91,7 @@
       "state": "open",
       "merged": false,
       "merged_at": null,
-      "mergeable_state": "unknown",
+      "mergeable_state": "blocked",
       "human_review_authors": [
         "rjgeng"
       ],
@@ -120,7 +120,7 @@
       "state": "open",
       "merged": false,
       "merged_at": null,
-      "mergeable_state": "unknown",
+      "mergeable_state": "blocked",
       "human_review_authors": [
         "rjgeng"
       ],
@@ -148,7 +148,7 @@
       "state": "open",
       "merged": false,
       "merged_at": null,
-      "mergeable_state": "unknown",
+      "mergeable_state": "blocked",
       "human_review_authors": [
         "rjgeng"
       ],
@@ -162,7 +162,7 @@
       "state": "open",
       "merged": false,
       "merged_at": null,
-      "mergeable_state": "unknown",
+      "mergeable_state": "dirty",
       "human_review_authors": [
         "rjgeng"
       ],
@@ -174,7 +174,7 @@
       "state": "open",
       "merged": false,
       "merged_at": null,
-      "mergeable_state": "unknown",
+      "mergeable_state": "blocked",
       "human_review_authors": [
         "rjgeng"
       ],
@@ -186,7 +186,7 @@
       "state": "open",
       "merged": false,
       "merged_at": null,
-      "mergeable_state": "unknown",
+      "mergeable_state": "blocked",
       "human_review_authors": [
         "rjgeng"
       ],
@@ -198,7 +198,7 @@
       "state": "open",
       "merged": false,
       "merged_at": null,
-      "mergeable_state": "unknown",
+      "mergeable_state": "blocked",
       "human_review_authors": [
         "rjgeng"
       ],
@@ -210,7 +210,7 @@
       "state": "open",
       "merged": false,
       "merged_at": null,
-      "mergeable_state": "unknown",
+      "mergeable_state": "blocked",
       "human_review_authors": [
         "rjgeng"
       ],
@@ -222,7 +222,7 @@
       "state": "open",
       "merged": false,
       "merged_at": null,
-      "mergeable_state": "unknown",
+      "mergeable_state": "blocked",
       "human_review_authors": [
         "rjgeng"
       ],
@@ -236,7 +236,7 @@
       "state": "open",
       "merged": false,
       "merged_at": null,
-      "mergeable_state": "unknown",
+      "mergeable_state": "blocked",
       "human_review_authors": [
         "quad341",
         "rjgeng"
@@ -251,7 +251,7 @@
       "state": "open",
       "merged": false,
       "merged_at": null,
-      "mergeable_state": "unknown",
+      "mergeable_state": "blocked",
       "human_review_authors": [
         "quad341",
         "rjgeng"

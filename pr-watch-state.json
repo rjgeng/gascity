@@ -1,6 +1,6 @@
 {
   "author": "rjgeng",
-  "last_checked_at": "2026-11-04T05:49:40Z",
+  "last_checked_at": "2026-11-04T06:45:58Z",
   "prs": {
     "8790": {"title": "fix(examples/bd/dolt): bash 3.2 cannot parse a case pattern closing ) inside $(...)","url": "https://github.com/gastownhall/gascity/pull/8790","state": "open","merged": false,"merged_at": null,"mergeable_state": "clean","human_review_authors": [],"human_comment_authors": []},
     "8789": {"title": "fix(gc): namedWorkReady must skip blocked in_progress work beads","url": "https://github.com/gastownhall/gascity/pull/8789","state": "open","merged": false,"merged_at": null,"mergeable_state": "clean","human_review_authors": [],"human_comment_authors": ["rjgeng"]},

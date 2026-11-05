@@ -1,6 +1,6 @@
 {
   "author": "rjgeng",
-  "last_checked_at": "2026-11-05T10:49:56Z",
+  "last_checked_at": "2026-11-05T11:47:30Z",
   "prs": {
     "4095": {
       "human_comment_authors": [
@@ -677,12 +677,13 @@
       "url": "https://github.com/gastownhall/gascity/pull/8789"
     },
     "8790": {
+      "closed_at": "2026-11-05T11:36:13Z",
       "human_comment_authors": [],
       "human_review_authors": [],
-      "mergeable_state": "clean",
-      "merged": false,
-      "merged_at": null,
-      "state": "open",
+      "mergeable_state": null,
+      "merged": true,
+      "merged_at": "2026-11-05T11:36:13Z",
+      "state": "closed",
       "title": "fix(examples/bd/dolt): bash 3.2 cannot parse a case pattern closing ) inside $(...)",
       "url": "https://github.com/gastownhall/gascity/pull/8790"
     }

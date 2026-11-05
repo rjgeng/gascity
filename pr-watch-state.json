@@ -1,6 +1,6 @@
 {
   "author": "rjgeng",
-  "last_checked_at": "2026-11-05T12:50:50Z",
+  "last_checked_at": "2026-11-05T13:49:32Z",
   "prs": {
     "4095": {
       "state": "open",
@@ -691,7 +691,7 @@
       "state": "open",
       "title": "fix(gc bd): let heartbeat accept bd's own flags, help, and the hb alias",
       "url": "https://github.com/gastownhall/gascity/pull/8878",
-      "mergeable_state": "blocked",
+      "mergeable_state": "clean",
       "merged": false,
       "merged_at": null,
       "human_comment_authors": [],

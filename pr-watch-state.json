@@ -1,6 +1,6 @@
 {
   "author": "rjgeng",
-  "last_checked_at": "2026-11-06T04:46:30Z",
+  "last_checked_at": "2026-11-06T05:50:26Z",
   "prs": {
     "4095": {
       "title": "fix(session): refresh reset_committed_at on every continuation-reset re-arm (#4067)",
@@ -128,16 +128,6 @@
         "kyoto-bonsai",
         "quad341"
       ]
-    },
-    "6270": {
-      "title": "fix(molecule): retry a dropped molecule_failed stamp before giving up (#6235)",
-      "url": "https://github.com/gastownhall/gascity/pull/6270",
-      "state": "open",
-      "merged": false,
-      "merged_at": null,
-      "mergeable_state": "dirty",
-      "human_review_authors": [],
-      "human_comment_authors": []
     },
     "6325": {
       "title": "fix(worktree): stop TestManagedDryRunDoesNotPublishProvenance flaking on transient git lock files",
@@ -288,7 +278,7 @@
       "state": "open",
       "merged": false,
       "merged_at": null,
-      "mergeable_state": "dirty",
+      "mergeable_state": "unstable",
       "human_review_authors": [],
       "human_comment_authors": []
     },

@@ -28,7 +28,7 @@
       "state": "open",
       "merged": false,
       "merged_at": null,
-      "mergeable_state": "clean",
+      "mergeable_state": "blocked",
       "human_review_authors": [],
       "human_comment_authors": []
     },
@@ -38,9 +38,11 @@
       "state": "open",
       "merged": false,
       "merged_at": null,
-      "mergeable_state": "clean",
+      "mergeable_state": "blocked",
       "human_review_authors": [],
-      "human_comment_authors": []
+      "human_comment_authors": [
+        "remuscazacu"
+      ]
     },
     "5365": {
       "title": "fix(supervisor): auto-unregister on repeated stale-config load failures (#5313)",
@@ -50,7 +52,9 @@
       "merged_at": null,
       "mergeable_state": "blocked",
       "human_review_authors": [],
-      "human_comment_authors": []
+      "human_comment_authors": [
+        "kyoto-bonsai"
+      ]
     },
     "5854": {
       "title": "chore(api): regenerate generated artifacts for a new GET /sessions ?enrich= query param",
@@ -58,9 +62,11 @@
       "state": "open",
       "merged": false,
       "merged_at": null,
-      "mergeable_state": "clean",
+      "mergeable_state": "blocked",
       "human_review_authors": [],
-      "human_comment_authors": []
+      "human_comment_authors": [
+        "quad341"
+      ]
     },
     "6007": {
       "title": "fix(beads): consult native-open deferral before dialing the identity probe (#5965)",
@@ -70,7 +76,9 @@
       "merged_at": null,
       "mergeable_state": "blocked",
       "human_review_authors": [],
-      "human_comment_authors": []
+      "human_comment_authors": [
+        "A3Ackerman"
+      ]
     },
     "6053": {
       "title": "fix(core-pack): anchor worktree creation on $GC_DIR, not $(pwd) (#6014)",
@@ -78,9 +86,13 @@
       "state": "open",
       "merged": false,
       "merged_at": null,
-      "mergeable_state": "clean",
-      "human_review_authors": [],
-      "human_comment_authors": []
+      "mergeable_state": "blocked",
+      "human_review_authors": [
+        "quad341"
+      ],
+      "human_comment_authors": [
+        "kyoto-bonsai"
+      ]
     },
     "6097": {
       "title": "fix(suspensionstate): serialize rig suspend/resume with a cross-process flock (#6056)",
@@ -100,7 +112,9 @@
       "merged_at": null,
       "mergeable_state": "blocked",
       "human_review_authors": [],
-      "human_comment_authors": []
+      "human_comment_authors": [
+        "kyoto-bonsai"
+      ]
     },
     "6269": {
       "title": "fix(config): apply feature flags in the supervisor's per-city loader (#6236)",
@@ -110,7 +124,10 @@
       "merged_at": null,
       "mergeable_state": "blocked",
       "human_review_authors": [],
-      "human_comment_authors": []
+      "human_comment_authors": [
+        "kyoto-bonsai",
+        "quad341"
+      ]
     },
     "6270": {
       "title": "fix(molecule): retry a dropped molecule_failed stamp before giving up (#6235)",
@@ -118,7 +135,7 @@
       "state": "open",
       "merged": false,
       "merged_at": null,
-      "mergeable_state": "blocked",
+      "mergeable_state": "dirty",
       "human_review_authors": [],
       "human_comment_authors": []
     },
@@ -170,7 +187,9 @@
       "merged_at": null,
       "mergeable_state": "blocked",
       "human_review_authors": [],
-      "human_comment_authors": []
+      "human_comment_authors": [
+        "kyoto-bonsai"
+      ]
     },
     "6365": {
       "title": "fix(handoff): give PreCompact its own flat systemMessage shape under --hook-format codex",
@@ -179,8 +198,12 @@
       "merged": false,
       "merged_at": null,
       "mergeable_state": "blocked",
-      "human_review_authors": [],
-      "human_comment_authors": []
+      "human_review_authors": [
+        "quad341"
+      ],
+      "human_comment_authors": [
+        "kyoto-bonsai"
+      ]
     },
     "6410": {
       "title": "fix(pool): treat a live session's currently_processing_bead_id as first-party proof of ownership",
@@ -189,8 +212,13 @@
       "merged": false,
       "merged_at": null,
       "mergeable_state": "blocked",
-      "human_review_authors": [],
-      "human_comment_authors": []
+      "human_review_authors": [
+        "quad341"
+      ],
+      "human_comment_authors": [
+        "brandonmartin",
+        "quad341"
+      ]
     },
     "7110": {
       "title": "fix(controller): no wake demand for a deferred molecule root",
@@ -198,9 +226,11 @@
       "state": "open",
       "merged": false,
       "merged_at": null,
-      "mergeable_state": "blocked",
+      "mergeable_state": "clean",
       "human_review_authors": [],
-      "human_comment_authors": []
+      "human_comment_authors": [
+        "kyoto-bonsai"
+      ]
     },
     "7524": {
       "title": "fix(pool): preserve canonical human handoffs",
@@ -228,7 +258,7 @@
       "state": "open",
       "merged": false,
       "merged_at": null,
-      "mergeable_state": "blocked",
+      "mergeable_state": "clean",
       "human_review_authors": [],
       "human_comment_authors": []
     },
@@ -248,7 +278,7 @@
       "state": "open",
       "merged": false,
       "merged_at": null,
-      "mergeable_state": "blocked",
+      "mergeable_state": "clean",
       "human_review_authors": [],
       "human_comment_authors": []
     },
@@ -258,7 +288,7 @@
       "state": "open",
       "merged": false,
       "merged_at": null,
-      "mergeable_state": "blocked",
+      "mergeable_state": "dirty",
       "human_review_authors": [],
       "human_comment_authors": []
     },
@@ -278,7 +308,7 @@
       "state": "open",
       "merged": false,
       "merged_at": null,
-      "mergeable_state": "blocked",
+      "mergeable_state": "clean",
       "human_review_authors": [],
       "human_comment_authors": []
     },
@@ -320,7 +350,9 @@
       "merged_at": null,
       "mergeable_state": "blocked",
       "human_review_authors": [],
-      "human_comment_authors": []
+      "human_comment_authors": [
+        "kyoto-bonsai"
+      ]
     },
     "8350": {
       "title": "fix(formula): list every {{name}} an oversized description_file references in its stub, not only declared vars",
@@ -330,7 +362,9 @@
       "merged_at": null,
       "mergeable_state": "blocked",
       "human_review_authors": [],
-      "human_comment_authors": []
+      "human_comment_authors": [
+        "kyoto-bonsai"
+      ]
     },
     "8374": {
       "title": "fix(pricing): add claude-sonnet-5-5 default pricing entry",
@@ -348,7 +382,7 @@
       "state": "open",
       "merged": false,
       "merged_at": null,
-      "mergeable_state": "blocked",
+      "mergeable_state": "clean",
       "human_review_authors": [],
       "human_comment_authors": []
     },
@@ -358,9 +392,11 @@
       "state": "open",
       "merged": false,
       "merged_at": null,
-      "mergeable_state": "blocked",
+      "mergeable_state": "clean",
       "human_review_authors": [],
-      "human_comment_authors": []
+      "human_comment_authors": [
+        "kyoto-bonsai"
+      ]
     },
     "8427": {
       "title": "fix(convoy): add every bead id given to gc convoy add, not just the first",
@@ -370,7 +406,9 @@
       "merged_at": null,
       "mergeable_state": "blocked",
       "human_review_authors": [],
-      "human_comment_authors": []
+      "human_comment_authors": [
+        "kyoto-bonsai"
+      ]
     },
     "8428": {
       "title": "fix(api): reject unknown query parameters on GET /beads",
@@ -380,7 +418,9 @@
       "merged_at": null,
       "mergeable_state": "blocked",
       "human_review_authors": [],
-      "human_comment_authors": []
+      "human_comment_authors": [
+        "kyoto-bonsai"
+      ]
     },
     "8430": {
       "title": "fix(doctor): pin the gate-sandbox probe to the city's own Dolt endpoint",
@@ -390,7 +430,9 @@
       "merged_at": null,
       "mergeable_state": "blocked",
       "human_review_authors": [],
-      "human_comment_authors": []
+      "human_comment_authors": [
+        "kyoto-bonsai"
+      ]
     },
     "8443": {
       "title": "fix(sling): surface a failed custom sling_query's diagnostic output",
@@ -398,9 +440,11 @@
       "state": "open",
       "merged": false,
       "merged_at": null,
-      "mergeable_state": "blocked",
+      "mergeable_state": "clean",
       "human_review_authors": [],
-      "human_comment_authors": []
+      "human_comment_authors": [
+        "kyoto-bonsai"
+      ]
     },
     "8515": {
       "title": "fix(convergence): include closed wisps when deriving a loop's iteration count",
@@ -418,9 +462,11 @@
       "state": "open",
       "merged": false,
       "merged_at": null,
-      "mergeable_state": "blocked",
+      "mergeable_state": "clean",
       "human_review_authors": [],
-      "human_comment_authors": []
+      "human_comment_authors": [
+        "kyoto-bonsai"
+      ]
     },
     "8518": {
       "title": "fix(sling): close an auto-convoy left with zero members when linking fails",
@@ -430,7 +476,9 @@
       "merged_at": null,
       "mergeable_state": "blocked",
       "human_review_authors": [],
-      "human_comment_authors": []
+      "human_comment_authors": [
+        "kyoto-bonsai"
+      ]
     },
     "8604": {
       "title": "fix(session): clear stale provider_kind/builtin_ancestor/resume_command on a provider switch",
@@ -438,9 +486,12 @@
       "state": "open",
       "merged": false,
       "merged_at": null,
-      "mergeable_state": "blocked",
+      "mergeable_state": "clean",
       "human_review_authors": [],
-      "human_comment_authors": []
+      "human_comment_authors": [
+        "julianknutsen",
+        "kyoto-bonsai"
+      ]
     },
     "8605": {
       "title": "fix(gc): bound event-order cursor to log head, not 0, on log reset",
@@ -448,7 +499,7 @@
       "state": "open",
       "merged": false,
       "merged_at": null,
-      "mergeable_state": "blocked",
+      "mergeable_state": "clean",
       "human_review_authors": [],
       "human_comment_authors": []
     },
@@ -458,7 +509,7 @@
       "state": "open",
       "merged": false,
       "merged_at": null,
-      "mergeable_state": "blocked",
+      "mergeable_state": "clean",
       "human_review_authors": [],
       "human_comment_authors": []
     },
@@ -468,19 +519,21 @@
       "state": "open",
       "merged": false,
       "merged_at": null,
-      "mergeable_state": "blocked",
+      "mergeable_state": "clean",
       "human_review_authors": [],
       "human_comment_authors": []
     },
     "8878": {
-      "title": "fix(gc bd): let heartbeat accept bd's own flags, help, and the hb alias, under the mail-check guard",
+      "title": "fix(gc bd): let heartbeat accept bd's own flags, help, and the hb alias",
       "url": "https://github.com/gastownhall/gascity/pull/8878",
       "state": "open",
       "merged": false,
       "merged_at": null,
-      "mergeable_state": "blocked",
+      "mergeable_state": "clean",
       "human_review_authors": [],
-      "human_comment_authors": []
+      "human_comment_authors": [
+        "kyoto-bonsai"
+      ]
     }
   }
 }

@@ -1,6 +1,6 @@
 {
   "author": "rjgeng",
-  "last_checked_at": "2026-11-06T17:00:00Z",
+  "last_checked_at": "2026-11-06T17:51:15Z",
   "prs": {
     "4095": {
       "title": "fix(session): refresh reset_committed_at on every continuation-reset re-arm (#4067)",
@@ -39,7 +39,9 @@
       "merged": false,
       "merged_at": null,
       "mergeable_state": "blocked",
-      "human_comment_authors": ["remuscazacu"],
+      "human_comment_authors": [
+        "remuscazacu"
+      ],
       "human_review_authors": []
     },
     "5365": {
@@ -49,7 +51,9 @@
       "merged": false,
       "merged_at": null,
       "mergeable_state": "blocked",
-      "human_comment_authors": ["kyoto-bonsai"],
+      "human_comment_authors": [
+        "kyoto-bonsai"
+      ],
       "human_review_authors": []
     },
     "5854": {
@@ -59,7 +63,9 @@
       "merged": false,
       "merged_at": null,
       "mergeable_state": "blocked",
-      "human_comment_authors": ["quad341"],
+      "human_comment_authors": [
+        "quad341"
+      ],
       "human_review_authors": []
     },
     "6007": {
@@ -69,7 +75,9 @@
       "merged": false,
       "merged_at": null,
       "mergeable_state": "blocked",
-      "human_comment_authors": ["A3Ackerman"],
+      "human_comment_authors": [
+        "A3Ackerman"
+      ],
       "human_review_authors": []
     },
     "6053": {
@@ -79,8 +87,12 @@
       "merged": false,
       "merged_at": null,
       "mergeable_state": "blocked",
-      "human_comment_authors": ["kyoto-bonsai"],
-      "human_review_authors": ["quad341"]
+      "human_comment_authors": [
+        "kyoto-bonsai"
+      ],
+      "human_review_authors": [
+        "quad341"
+      ]
     },
     "6097": {
       "title": "fix(suspensionstate): serialize rig suspend/resume with a cross-process flock (#6056)",
@@ -99,7 +111,9 @@
       "merged": false,
       "merged_at": null,
       "mergeable_state": "blocked",
-      "human_comment_authors": ["kyoto-bonsai"],
+      "human_comment_authors": [
+        "kyoto-bonsai"
+      ],
       "human_review_authors": []
     },
     "6269": {
@@ -109,7 +123,10 @@
       "merged": false,
       "merged_at": null,
       "mergeable_state": "blocked",
-      "human_comment_authors": ["kyoto-bonsai", "quad341"],
+      "human_comment_authors": [
+        "kyoto-bonsai",
+        "quad341"
+      ],
       "human_review_authors": []
     },
     "6325": {
@@ -159,7 +176,9 @@
       "merged": false,
       "merged_at": null,
       "mergeable_state": "blocked",
-      "human_comment_authors": ["kyoto-bonsai"],
+      "human_comment_authors": [
+        "kyoto-bonsai"
+      ],
       "human_review_authors": []
     },
     "6365": {
@@ -169,8 +188,12 @@
       "merged": false,
       "merged_at": null,
       "mergeable_state": "blocked",
-      "human_comment_authors": ["kyoto-bonsai"],
-      "human_review_authors": ["quad341"]
+      "human_comment_authors": [
+        "kyoto-bonsai"
+      ],
+      "human_review_authors": [
+        "quad341"
+      ]
     },
     "6410": {
       "title": "fix(pool): treat a live session's currently_processing_bead_id as first-party proof of ownership",
@@ -179,8 +202,13 @@
       "merged": false,
       "merged_at": null,
       "mergeable_state": "blocked",
-      "human_comment_authors": ["brandonmartin", "quad341"],
-      "human_review_authors": ["quad341"]
+      "human_comment_authors": [
+        "brandonmartin",
+        "quad341"
+      ],
+      "human_review_authors": [
+        "quad341"
+      ]
     },
     "7110": {
       "title": "fix(controller): no wake demand for a deferred molecule root",
@@ -189,7 +217,9 @@
       "merged": false,
       "merged_at": null,
       "mergeable_state": "clean",
-      "human_comment_authors": ["kyoto-bonsai"],
+      "human_comment_authors": [
+        "kyoto-bonsai"
+      ],
       "human_review_authors": []
     },
     "7524": {
@@ -309,7 +339,9 @@
       "merged": false,
       "merged_at": null,
       "mergeable_state": "blocked",
-      "human_comment_authors": ["kyoto-bonsai"],
+      "human_comment_authors": [
+        "kyoto-bonsai"
+      ],
       "human_review_authors": []
     },
     "8350": {
@@ -319,7 +351,9 @@
       "merged": false,
       "merged_at": null,
       "mergeable_state": "blocked",
-      "human_comment_authors": ["kyoto-bonsai"],
+      "human_comment_authors": [
+        "kyoto-bonsai"
+      ],
       "human_review_authors": []
     },
     "8374": {
@@ -349,7 +383,9 @@
       "merged": false,
       "merged_at": null,
       "mergeable_state": "clean",
-      "human_comment_authors": ["kyoto-bonsai"],
+      "human_comment_authors": [
+        "kyoto-bonsai"
+      ],
       "human_review_authors": []
     },
     "8427": {
@@ -359,7 +395,9 @@
       "merged": false,
       "merged_at": null,
       "mergeable_state": "blocked",
-      "human_comment_authors": ["kyoto-bonsai"],
+      "human_comment_authors": [
+        "kyoto-bonsai"
+      ],
       "human_review_authors": []
     },
     "8428": {
@@ -369,7 +407,9 @@
       "merged": false,
       "merged_at": null,
       "mergeable_state": "blocked",
-      "human_comment_authors": ["kyoto-bonsai"],
+      "human_comment_authors": [
+        "kyoto-bonsai"
+      ],
       "human_review_authors": []
     },
     "8430": {
@@ -379,7 +419,9 @@
       "merged": false,
       "merged_at": null,
       "mergeable_state": "blocked",
-      "human_comment_authors": ["kyoto-bonsai"],
+      "human_comment_authors": [
+        "kyoto-bonsai"
+      ],
       "human_review_authors": []
     },
     "8443": {
@@ -389,7 +431,9 @@
       "merged": false,
       "merged_at": null,
       "mergeable_state": "clean",
-      "human_comment_authors": ["kyoto-bonsai"],
+      "human_comment_authors": [
+        "kyoto-bonsai"
+      ],
       "human_review_authors": []
     },
     "8515": {
@@ -409,7 +453,9 @@
       "merged": false,
       "merged_at": null,
       "mergeable_state": "clean",
-      "human_comment_authors": ["kyoto-bonsai"],
+      "human_comment_authors": [
+        "kyoto-bonsai"
+      ],
       "human_review_authors": []
     },
     "8518": {
@@ -419,7 +465,9 @@
       "merged": false,
       "merged_at": null,
       "mergeable_state": "blocked",
-      "human_comment_authors": ["kyoto-bonsai"],
+      "human_comment_authors": [
+        "kyoto-bonsai"
+      ],
       "human_review_authors": []
     },
     "8604": {
@@ -429,7 +477,10 @@
       "merged": false,
       "merged_at": null,
       "mergeable_state": "clean",
-      "human_comment_authors": ["julianknutsen", "kyoto-bonsai"],
+      "human_comment_authors": [
+        "julianknutsen",
+        "kyoto-bonsai"
+      ],
       "human_review_authors": []
     },
     "8605": {
@@ -469,7 +520,9 @@
       "merged": false,
       "merged_at": null,
       "mergeable_state": "clean",
-      "human_comment_authors": ["kyoto-bonsai"],
+      "human_comment_authors": [
+        "kyoto-bonsai"
+      ],
       "human_review_authors": []
     },
     "8920": {

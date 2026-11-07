@@ -1,6 +1,6 @@
 {
   "author": "rjgeng",
-  "last_checked_at": "2026-11-07T07:47:43.213786Z",
+  "last_checked_at": "2026-11-07T08:48:46.502415Z",
   "prs": {
     "4095": {
       "title": "fix(session): refresh reset_committed_at on every continuation-reset re-arm (#4067)",
@@ -557,21 +557,6 @@
         "rjgeng"
       ],
       "human_comment_authors": [
-        "kyoto-bonsai"
-      ]
-    },
-    "8604": {
-      "title": "fix(session): clear stale provider_kind/builtin_ancestor/resume_command on a provider switch",
-      "url": "https://github.com/gastownhall/gascity/pull/8604",
-      "state": "open",
-      "merged": false,
-      "merged_at": null,
-      "mergeable_state": "clean",
-      "human_review_authors": [
-        "rjgeng"
-      ],
-      "human_comment_authors": [
-        "julianknutsen",
         "kyoto-bonsai"
       ]
     },

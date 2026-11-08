@@ -1,6 +1,6 @@
 {
   "author": "rjgeng",
-  "last_checked_at": "2026-11-08T02:48:33Z",
+  "last_checked_at": "2026-11-08T03:44:00Z",
   "prs": {
     "8950": {
       "title": "fix(herdr): group bare town-agent names into the shared town workspace",

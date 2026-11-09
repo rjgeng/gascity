@@ -1,6 +1,6 @@
 {
   "author": "rjgeng",
-  "last_checked_at": "2026-11-09T20:51:20Z",
+  "last_checked_at": "2026-11-09T21:47:14Z",
   "prs": {
     "8982": {
       "title": "fix(api): report no provider for any start_command agent, not just the control dispatcher",
@@ -9,7 +9,9 @@
       "merged": false,
       "merged_at": null,
       "mergeable_state": "clean",
-      "human_review_authors": [],
+      "human_review_authors": [
+        "rjgeng"
+      ],
       "human_comment_authors": [
         "kyoto-bonsai"
       ]
@@ -21,7 +23,9 @@
       "merged": false,
       "merged_at": null,
       "mergeable_state": "clean",
-      "human_review_authors": [],
+      "human_review_authors": [
+        "rjgeng"
+      ],
       "human_comment_authors": []
     },
     "8878": {
@@ -31,7 +35,9 @@
       "merged": false,
       "merged_at": null,
       "mergeable_state": "clean",
-      "human_review_authors": [],
+      "human_review_authors": [
+        "rjgeng"
+      ],
       "human_comment_authors": [
         "kyoto-bonsai"
       ]
@@ -43,8 +49,12 @@
       "merged": false,
       "merged_at": null,
       "mergeable_state": "clean",
-      "human_review_authors": [],
-      "human_comment_authors": []
+      "human_review_authors": [
+        "rjgeng"
+      ],
+      "human_comment_authors": [
+        "rjgeng"
+      ]
     },
     "8723": {
       "title": "fix(packman): refresh git stat cache before pack-cache dirty check",
@@ -53,7 +63,9 @@
       "merged": false,
       "merged_at": null,
       "mergeable_state": "clean",
-      "human_review_authors": [],
+      "human_review_authors": [
+        "rjgeng"
+      ],
       "human_comment_authors": []
     },
     "8605": {
@@ -63,7 +75,9 @@
       "merged": false,
       "merged_at": null,
       "mergeable_state": "clean",
-      "human_review_authors": [],
+      "human_review_authors": [
+        "rjgeng"
+      ],
       "human_comment_authors": []
     },
     "8518": {
@@ -73,7 +87,9 @@
       "merged": false,
       "merged_at": null,
       "mergeable_state": "clean",
-      "human_review_authors": [],
+      "human_review_authors": [
+        "rjgeng"
+      ],
       "human_comment_authors": [
         "kyoto-bonsai"
       ]
@@ -85,7 +101,9 @@
       "merged": false,
       "merged_at": null,
       "mergeable_state": "clean",
-      "human_review_authors": [],
+      "human_review_authors": [
+        "rjgeng"
+      ],
       "human_comment_authors": [
         "kyoto-bonsai"
       ]
@@ -97,7 +115,9 @@
       "merged": false,
       "merged_at": null,
       "mergeable_state": "blocked",
-      "human_review_authors": [],
+      "human_review_authors": [
+        "rjgeng"
+      ],
       "human_comment_authors": []
     },
     "8443": {
@@ -107,7 +127,9 @@
       "merged": false,
       "merged_at": null,
       "mergeable_state": "clean",
-      "human_review_authors": [],
+      "human_review_authors": [
+        "rjgeng"
+      ],
       "human_comment_authors": [
         "kyoto-bonsai"
       ]
@@ -119,7 +141,9 @@
       "merged": false,
       "merged_at": null,
       "mergeable_state": "blocked",
-      "human_review_authors": [],
+      "human_review_authors": [
+        "rjgeng"
+      ],
       "human_comment_authors": [
         "kyoto-bonsai"
       ]
@@ -131,7 +155,9 @@
       "merged": false,
       "merged_at": null,
       "mergeable_state": "blocked",
-      "human_review_authors": [],
+      "human_review_authors": [
+        "rjgeng"
+      ],
       "human_comment_authors": [
         "kyoto-bonsai"
       ]
@@ -143,7 +169,9 @@
       "merged": false,
       "merged_at": null,
       "mergeable_state": "blocked",
-      "human_review_authors": [],
+      "human_review_authors": [
+        "rjgeng"
+      ],
       "human_comment_authors": [
         "kyoto-bonsai"
       ]
@@ -155,7 +183,9 @@
       "merged": false,
       "merged_at": null,
       "mergeable_state": "clean",
-      "human_review_authors": [],
+      "human_review_authors": [
+        "rjgeng"
+      ],
       "human_comment_authors": [
         "kyoto-bonsai"
       ]
@@ -167,7 +197,9 @@
       "merged": false,
       "merged_at": null,
       "mergeable_state": "clean",
-      "human_review_authors": [],
+      "human_review_authors": [
+        "rjgeng"
+      ],
       "human_comment_authors": []
     },
     "8374": {
@@ -177,7 +209,9 @@
       "merged": false,
       "merged_at": null,
       "mergeable_state": "blocked",
-      "human_review_authors": [],
+      "human_review_authors": [
+        "rjgeng"
+      ],
       "human_comment_authors": []
     },
     "8350": {
@@ -187,7 +221,9 @@
       "merged": false,
       "merged_at": null,
       "mergeable_state": "blocked",
-      "human_review_authors": [],
+      "human_review_authors": [
+        "rjgeng"
+      ],
       "human_comment_authors": [
         "kyoto-bonsai"
       ]
@@ -199,7 +235,9 @@
       "merged": false,
       "merged_at": null,
       "mergeable_state": "blocked",
-      "human_review_authors": [],
+      "human_review_authors": [
+        "rjgeng"
+      ],
       "human_comment_authors": [
         "kyoto-bonsai"
       ]
@@ -211,7 +249,9 @@
       "merged": false,
       "merged_at": null,
       "mergeable_state": "blocked",
-      "human_review_authors": [],
+      "human_review_authors": [
+        "rjgeng"
+      ],
       "human_comment_authors": []
     },
     "8226": {
@@ -221,7 +261,9 @@
       "merged": false,
       "merged_at": null,
       "mergeable_state": "blocked",
-      "human_review_authors": [],
+      "human_review_authors": [
+        "rjgeng"
+      ],
       "human_comment_authors": []
     },
     "8190": {
@@ -231,7 +273,9 @@
       "merged": false,
       "merged_at": null,
       "mergeable_state": "blocked",
-      "human_review_authors": [],
+      "human_review_authors": [
+        "rjgeng"
+      ],
       "human_comment_authors": []
     },
     "8178": {
@@ -241,7 +285,9 @@
       "merged": false,
       "merged_at": null,
       "mergeable_state": "clean",
-      "human_review_authors": [],
+      "human_review_authors": [
+        "rjgeng"
+      ],
       "human_comment_authors": []
     },
     "8177": {
@@ -251,7 +297,9 @@
       "merged": false,
       "merged_at": null,
       "mergeable_state": "blocked",
-      "human_review_authors": [],
+      "human_review_authors": [
+        "rjgeng"
+      ],
       "human_comment_authors": []
     },
     "8176": {
@@ -261,7 +309,9 @@
       "merged": false,
       "merged_at": null,
       "mergeable_state": "clean",
-      "human_review_authors": [],
+      "human_review_authors": [
+        "rjgeng"
+      ],
       "human_comment_authors": []
     },
     "8112": {
@@ -271,7 +321,9 @@
       "merged": false,
       "merged_at": null,
       "mergeable_state": "clean",
-      "human_review_authors": [],
+      "human_review_authors": [
+        "rjgeng"
+      ],
       "human_comment_authors": []
     },
     "8070": {
@@ -281,7 +333,9 @@
       "merged": false,
       "merged_at": null,
       "mergeable_state": "blocked",
-      "human_review_authors": [],
+      "human_review_authors": [
+        "rjgeng"
+      ],
       "human_comment_authors": []
     },
     "8061": {
@@ -291,7 +345,9 @@
       "merged": false,
       "merged_at": null,
       "mergeable_state": "clean",
-      "human_review_authors": [],
+      "human_review_authors": [
+        "rjgeng"
+      ],
       "human_comment_authors": []
     },
     "8052": {
@@ -301,7 +357,9 @@
       "merged": false,
       "merged_at": null,
       "mergeable_state": "blocked",
-      "human_review_authors": [],
+      "human_review_authors": [
+        "rjgeng"
+      ],
       "human_comment_authors": []
     },
     "7524": {
@@ -311,7 +369,9 @@
       "merged": false,
       "merged_at": null,
       "mergeable_state": "blocked",
-      "human_review_authors": [],
+      "human_review_authors": [
+        "rjgeng"
+      ],
       "human_comment_authors": []
     },
     "7110": {
@@ -321,7 +381,9 @@
       "merged": false,
       "merged_at": null,
       "mergeable_state": "clean",
-      "human_review_authors": [],
+      "human_review_authors": [
+        "rjgeng"
+      ],
       "human_comment_authors": [
         "kyoto-bonsai"
       ]
@@ -334,11 +396,13 @@
       "merged_at": null,
       "mergeable_state": "blocked",
       "human_review_authors": [
-        "quad341"
+        "quad341",
+        "rjgeng"
       ],
       "human_comment_authors": [
         "brandonmartin",
-        "quad341"
+        "quad341",
+        "rjgeng"
       ]
     },
     "6365": {
@@ -349,7 +413,8 @@
       "merged_at": null,
       "mergeable_state": "blocked",
       "human_review_authors": [
-        "quad341"
+        "quad341",
+        "rjgeng"
       ],
       "human_comment_authors": [
         "kyoto-bonsai"
@@ -362,7 +427,9 @@
       "merged": false,
       "merged_at": null,
       "mergeable_state": "blocked",
-      "human_review_authors": [],
+      "human_review_authors": [
+        "rjgeng"
+      ],
       "human_comment_authors": [
         "kyoto-bonsai"
       ]
@@ -374,7 +441,9 @@
       "merged": false,
       "merged_at": null,
       "mergeable_state": "blocked",
-      "human_review_authors": [],
+      "human_review_authors": [
+        "rjgeng"
+      ],
       "human_comment_authors": [
         "quad341"
       ]
@@ -386,7 +455,9 @@
       "merged": false,
       "merged_at": null,
       "mergeable_state": "blocked",
-      "human_review_authors": [],
+      "human_review_authors": [
+        "rjgeng"
+      ],
       "human_comment_authors": []
     },
     "6326": {
@@ -396,7 +467,9 @@
       "merged": false,
       "merged_at": null,
       "mergeable_state": "blocked",
-      "human_review_authors": [],
+      "human_review_authors": [
+        "rjgeng"
+      ],
       "human_comment_authors": []
     },
     "6325": {
@@ -406,7 +479,9 @@
       "merged": false,
       "merged_at": null,
       "mergeable_state": "blocked",
-      "human_review_authors": [],
+      "human_review_authors": [
+        "rjgeng"
+      ],
       "human_comment_authors": []
     },
     "6269": {
@@ -416,7 +491,9 @@
       "merged": false,
       "merged_at": null,
       "mergeable_state": "blocked",
-      "human_review_authors": [],
+      "human_review_authors": [
+        "rjgeng"
+      ],
       "human_comment_authors": [
         "kyoto-bonsai",
         "quad341"
@@ -429,7 +506,9 @@
       "merged": false,
       "merged_at": null,
       "mergeable_state": "blocked",
-      "human_review_authors": [],
+      "human_review_authors": [
+        "rjgeng"
+      ],
       "human_comment_authors": [
         "kyoto-bonsai"
       ]
@@ -441,8 +520,12 @@
       "merged": false,
       "merged_at": null,
       "mergeable_state": "blocked",
-      "human_review_authors": [],
-      "human_comment_authors": []
+      "human_review_authors": [
+        "rjgeng"
+      ],
+      "human_comment_authors": [
+        "rjgeng"
+      ]
     },
     "6053": {
       "title": "fix(core-pack): anchor worktree creation on $GC_DIR, not $(pwd) (#6014)",
@@ -452,7 +535,8 @@
       "merged_at": null,
       "mergeable_state": "blocked",
       "human_review_authors": [
-        "quad341"
+        "quad341",
+        "rjgeng"
       ],
       "human_comment_authors": [
         "kyoto-bonsai"
@@ -465,9 +549,12 @@
       "merged": false,
       "merged_at": null,
       "mergeable_state": "blocked",
-      "human_review_authors": [],
+      "human_review_authors": [
+        "rjgeng"
+      ],
       "human_comment_authors": [
-        "A3Ackerman"
+        "A3Ackerman",
+        "rjgeng"
       ]
     },
     "5854": {
@@ -477,9 +564,12 @@
       "merged": false,
       "merged_at": null,
       "mergeable_state": "blocked",
-      "human_review_authors": [],
+      "human_review_authors": [
+        "rjgeng"
+      ],
       "human_comment_authors": [
-        "quad341"
+        "quad341",
+        "rjgeng"
       ]
     },
     "5365": {
@@ -489,7 +579,9 @@
       "merged": false,
       "merged_at": null,
       "mergeable_state": "blocked",
-      "human_review_authors": [],
+      "human_review_authors": [
+        "rjgeng"
+      ],
       "human_comment_authors": [
         "kyoto-bonsai"
       ]
@@ -501,7 +593,9 @@
       "merged": false,
       "merged_at": null,
       "mergeable_state": "blocked",
-      "human_review_authors": [],
+      "human_review_authors": [
+        "rjgeng"
+      ],
       "human_comment_authors": [
         "remuscazacu"
       ]
@@ -513,8 +607,12 @@
       "merged": false,
       "merged_at": null,
       "mergeable_state": "blocked",
-      "human_review_authors": [],
-      "human_comment_authors": []
+      "human_review_authors": [
+        "rjgeng"
+      ],
+      "human_comment_authors": [
+        "rjgeng"
+      ]
     },
     "4138": {
       "title": "fix(session): gc session attach waits for an in-flight controller reset instead of racing it (#4079)",
@@ -523,7 +621,9 @@
       "merged": false,
       "merged_at": null,
       "mergeable_state": "blocked",
-      "human_review_authors": [],
+      "human_review_authors": [
+        "rjgeng"
+      ],
       "human_comment_authors": []
     },
     "4095": {
@@ -533,8 +633,12 @@
       "merged": false,
       "merged_at": null,
       "mergeable_state": "blocked",
-      "human_review_authors": [],
-      "human_comment_authors": []
+      "human_review_authors": [
+        "rjgeng"
+      ],
+      "human_comment_authors": [
+        "rjgeng"
+      ]
     }
   }
 }

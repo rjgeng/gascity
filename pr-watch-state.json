@@ -407,7 +407,7 @@
       "state": "open",
       "merged": false,
       "merged_at": null,
-      "mergeable_state": "clean",
+      "mergeable_state": "dirty",
       "human_review_authors": ["rjgeng"],
       "human_comment_authors": ["kyoto-bonsai"]
     },
@@ -482,5 +482,5 @@
       "human_comment_authors": ["kyoto-bonsai"]
     }
   },
-  "last_checked_at": "2026-11-10T17:46:54Z"
+  "last_checked_at": "2026-11-10T18:48:03Z"
 }

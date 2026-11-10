@@ -8,8 +8,8 @@
       "merged": false,
       "merged_at": null,
       "mergeable_state": "clean",
-      "human_review_authors": ["rjgeng"],
-      "human_comment_authors": ["rjgeng"]
+      "human_review_authors": ["quad341", "rjgeng"],
+      "human_comment_authors": ["quad341", "rjgeng"]
     },
     "4138": {
       "title": "fix(session): gc session attach waits for an in-flight controller reset instead of racing it (#4079)",
@@ -482,5 +482,5 @@
       "human_comment_authors": ["kyoto-bonsai"]
     }
   },
-  "last_checked_at": "2026-11-10T15:49:46Z"
+  "last_checked_at": "2026-11-10T16:46:14Z"
 }

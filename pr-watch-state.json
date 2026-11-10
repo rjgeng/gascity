@@ -621,7 +621,7 @@
       "state": "open",
       "merged": false,
       "merged_at": null,
-      "mergeable_state": "clean",
+      "mergeable_state": "dirty",
       "human_review_authors": [
         "rjgeng"
       ],
@@ -642,5 +642,5 @@
       ]
     }
   },
-  "last_checked_at": "2026-11-10T19:00:00Z"
+  "last_checked_at": "2026-11-10T20:48:56Z"
 }

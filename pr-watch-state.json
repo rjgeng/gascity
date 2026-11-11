@@ -1,5 +1,6 @@
 {
   "author": "rjgeng",
+  "last_checked_at": "2026-11-11T00:48:40Z",
   "prs": {
     "4095": {
       "title": "fix(session): refresh reset_committed_at on every continuation-reset re-arm (#4067)",
@@ -641,6 +642,5 @@
         "kyoto-bonsai"
       ]
     }
-  },
-  "last_checked_at": "2026-11-10T23:53:00Z"
+  }
 }

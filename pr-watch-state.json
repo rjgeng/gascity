@@ -1,6 +1,6 @@
 {
   "author": "rjgeng",
-  "last_checked_at": "2026-11-13T03:47:11Z",
+  "last_checked_at": "2026-11-13T04:49:39Z",
   "prs": {
     "4095": {
       "human_comment_authors": [
@@ -529,6 +529,16 @@
       "state": "open",
       "title": "fix(api): report no provider for any start_command agent, not just the control dispatcher",
       "url": "https://github.com/gastownhall/gascity/pull/8982"
+    },
+    "9135": {
+      "human_comment_authors": [],
+      "human_review_authors": [],
+      "mergeable_state": "clean",
+      "merged": false,
+      "merged_at": null,
+      "state": "open",
+      "title": "fix(opencode): replace preset model ids OpenCode Zen no longer serves",
+      "url": "https://github.com/gastownhall/gascity/pull/9135"
     }
   }
 }

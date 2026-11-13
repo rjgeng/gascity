@@ -1,6 +1,6 @@
 {
   "author": "rjgeng",
-  "last_checked_at": "2026-11-13T09:48:41Z",
+  "last_checked_at": "2026-11-13T10:48:27Z",
   "prs": {
     "4095": {
       "title": "fix(session): refresh reset_committed_at on every continuation-reset re-arm (#4067)",
@@ -194,7 +194,9 @@
       "merged": false,
       "merged_at": null,
       "mergeable_state": "blocked",
-      "human_comment_authors": [],
+      "human_comment_authors": [
+        "kyoto-bonsai"
+      ],
       "human_review_authors": [
         "quad341"
       ]

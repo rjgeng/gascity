@@ -1,6 +1,6 @@
 {
   "author": "rjgeng",
-  "last_checked_at": "2026-11-13T16:53:37Z",
+  "last_checked_at": "2026-11-13T17:49:45Z",
   "prs": {
     "4095": {
       "human_comment_authors": [
@@ -215,18 +215,6 @@
       "state": "open",
       "title": "fix(pool): treat a live session's currently_processing_bead_id as first-party proof of ownership",
       "url": "https://github.com/gastownhall/gascity/pull/6410"
-    },
-    "7110": {
-      "human_comment_authors": [
-        "kyoto-bonsai"
-      ],
-      "human_review_authors": [],
-      "mergeable_state": "clean",
-      "merged": false,
-      "merged_at": null,
-      "state": "open",
-      "title": "fix(controller): no wake demand for a deferred molecule root",
-      "url": "https://github.com/gastownhall/gascity/pull/7110"
     },
     "7524": {
       "human_comment_authors": [],
@@ -543,7 +531,7 @@
     "9152": {
       "human_comment_authors": [],
       "human_review_authors": [],
-      "mergeable_state": "blocked",
+      "mergeable_state": "clean",
       "merged": false,
       "merged_at": null,
       "state": "open",

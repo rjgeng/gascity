@@ -1,6 +1,6 @@
 {
   "author": "rjgeng",
-  "last_checked_at": "2026-11-14T12:46:52Z",
+  "last_checked_at": "2026-11-14T13:49:41Z",
   "prs": {
     "4138": {
       "title": "fix(session): gc session attach waits for an in-flight controller reset instead of racing it (#4079)",
@@ -64,7 +64,7 @@
       "state": "open",
       "merged": false,
       "merged_at": null,
-      "mergeable_state": "unknown",
+      "mergeable_state": "blocked",
       "human_comment_authors": [
         "A3Ackerman"
       ],
@@ -145,7 +145,7 @@
       "state": "open",
       "merged": false,
       "merged_at": null,
-      "mergeable_state": "unknown",
+      "mergeable_state": "blocked",
       "human_comment_authors": [],
       "human_review_authors": []
     },

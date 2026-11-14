@@ -1,6 +1,6 @@
 {
   "author": "rjgeng",
-  "last_checked_at": "2026-11-14T22:48:52Z",
+  "last_checked_at": "2026-11-14T23:48:25Z",
   "prs": {
     "9160": {
       "title": "fix(api): list a bounded pool's own named session beside its slots",

@@ -1,6 +1,6 @@
 {
   "author": "rjgeng",
-  "last_checked_at": "2026-11-14T11:47:28Z",
+  "last_checked_at": "2026-11-14T12:46:52Z",
   "prs": {
     "4138": {
       "title": "fix(session): gc session attach waits for an in-flight controller reset instead of racing it (#4079)",
@@ -19,9 +19,7 @@
       "merged": false,
       "merged_at": null,
       "mergeable_state": "blocked",
-      "human_comment_authors": [
-        "rjgeng"
-      ],
+      "human_comment_authors": [],
       "human_review_authors": []
     },
     "4584": {
@@ -56,8 +54,7 @@
       "merged_at": null,
       "mergeable_state": "clean",
       "human_comment_authors": [
-        "quad341",
-        "rjgeng"
+        "quad341"
       ],
       "human_review_authors": []
     },
@@ -67,10 +64,9 @@
       "state": "open",
       "merged": false,
       "merged_at": null,
-      "mergeable_state": "blocked",
+      "mergeable_state": "unknown",
       "human_comment_authors": [
-        "A3Ackerman",
-        "rjgeng"
+        "A3Ackerman"
       ],
       "human_review_authors": []
     },
@@ -95,9 +91,7 @@
       "merged": false,
       "merged_at": null,
       "mergeable_state": "blocked",
-      "human_comment_authors": [
-        "rjgeng"
-      ],
+      "human_comment_authors": [],
       "human_review_authors": []
     },
     "6167": {
@@ -151,7 +145,7 @@
       "state": "open",
       "merged": false,
       "merged_at": null,
-      "mergeable_state": "blocked",
+      "mergeable_state": "unknown",
       "human_comment_authors": [],
       "human_review_authors": []
     },
@@ -202,8 +196,7 @@
       "mergeable_state": "dirty",
       "human_comment_authors": [
         "brandonmartin",
-        "quad341",
-        "rjgeng"
+        "quad341"
       ],
       "human_review_authors": [
         "quad341"
@@ -488,9 +481,7 @@
       "merged": false,
       "merged_at": null,
       "mergeable_state": "clean",
-      "human_comment_authors": [
-        "rjgeng"
-      ],
+      "human_comment_authors": [],
       "human_review_authors": []
     },
     "8878": {

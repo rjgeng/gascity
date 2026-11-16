@@ -1,6 +1,6 @@
 {
   "author": "rjgeng",
-  "last_checked_at": "2026-11-16T18:48:16Z",
+  "last_checked_at": "2026-11-16T19:46:36Z",
   "prs": {
     "4138": {"title":"fix(session): gc session attach waits for an in-flight controller reset instead of racing it (#4079)","url":"https://github.com/gastownhall/gascity/pull/4138","state":"open","merged":false,"merged_at":null,"mergeable_state":"blocked","human_review_authors":[],"human_comment_authors":[]},
     "4481": {"title":"fix(runtime): treat a gone session as drain-acked (#4448)","url":"https://github.com/gastownhall/gascity/pull/4481","state":"open","merged":false,"merged_at":null,"mergeable_state":"blocked","human_review_authors":[],"human_comment_authors":[]},

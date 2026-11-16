@@ -1,6 +1,6 @@
 {
   "author": "rjgeng",
-  "last_checked_at": "2026-11-16T13:47:39Z",
+  "last_checked_at": "2026-11-16T14:48:44Z",
   "prs": {
     "4138": {
       "title": "fix(session): gc session attach waits for an in-flight controller reset instead of racing it (#4079)",
@@ -53,7 +53,7 @@
       "state": "open",
       "merged": false,
       "merged_at": null,
-      "mergeable_state": "blocked",
+      "mergeable_state": "clean",
       "human_review_authors": [],
       "human_comment_authors": [
         "quad341"
@@ -148,18 +148,6 @@
       "human_review_authors": [],
       "human_comment_authors": [
         "quad341"
-      ]
-    },
-    "6364": {
-      "title": "fix(config): let a template opt a cold pool out of the wake-probe's clamped-1 override (Agent.ColdWake)",
-      "url": "https://github.com/gastownhall/gascity/pull/6364",
-      "state": "open",
-      "merged": false,
-      "merged_at": null,
-      "mergeable_state": "dirty",
-      "human_review_authors": [],
-      "human_comment_authors": [
-        "kyoto-bonsai"
       ]
     },
     "6365": {
@@ -554,6 +542,16 @@
       "merged": false,
       "merged_at": null,
       "mergeable_state": "clean",
+      "human_review_authors": [],
+      "human_comment_authors": []
+    },
+    "9220": {
+      "title": "feat(dashboard): surface open human gates in \"Needs you\" via a dedicated queue",
+      "url": "https://github.com/gastownhall/gascity/pull/9220",
+      "state": "open",
+      "merged": false,
+      "merged_at": null,
+      "mergeable_state": "blocked",
       "human_review_authors": [],
       "human_comment_authors": []
     }

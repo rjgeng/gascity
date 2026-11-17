@@ -1,6 +1,6 @@
 {
   "author": "rjgeng",
-  "last_checked_at": "2026-11-17T11:46:32Z",
+  "last_checked_at": "2026-11-17T12:50:02Z",
   "prs": {
     "4138": {"title": "fix(session): gc session attach waits for an in-flight controller reset instead of racing it (#4079)", "state": "open", "merged": false, "merged_at": null, "mergeable_state": "blocked", "url": "https://github.com/gastownhall/gascity/pull/4138", "author": "rjgeng", "human_review_authors": [], "human_comment_authors": []},
     "4481": {"title": "fix(runtime): treat a gone session as drain-acked (#4448)", "state": "open", "merged": false, "merged_at": null, "mergeable_state": "blocked", "url": "https://github.com/gastownhall/gascity/pull/4481", "author": "rjgeng", "human_review_authors": [], "human_comment_authors": []},
@@ -51,6 +51,7 @@
     "9201": {"title": "fix(hook): give each claim step its own budget so the stop gate cannot starve the CAS", "state": "open", "merged": false, "merged_at": null, "mergeable_state": "clean", "url": "https://github.com/gastownhall/gascity/pull/9201", "author": "rjgeng", "human_review_authors": [], "human_comment_authors": []},
     "9202": {"title": "fix(dispatch): take over an exclusive reservation held by a closed drain", "state": "open", "merged": false, "merged_at": null, "mergeable_state": "clean", "url": "https://github.com/gastownhall/gascity/pull/9202", "author": "rjgeng", "human_review_authors": [], "human_comment_authors": []},
     "9205": {"title": "fix(bd env): strip inherited BEADS_DOLT_SERVER_DATABASE and _MODE from child envs", "state": "open", "merged": false, "merged_at": null, "mergeable_state": "clean", "url": "https://github.com/gastownhall/gascity/pull/9205", "author": "rjgeng", "human_review_authors": [], "human_comment_authors": []},
-    "9220": {"title": "feat(dashboard): surface open human gates in \"Needs you\" via a dedicated queue", "state": "open", "merged": false, "merged_at": null, "mergeable_state": "clean", "url": "https://github.com/gastownhall/gascity/pull/9220", "author": "rjgeng", "human_review_authors": [], "human_comment_authors": []}
+    "9220": {"title": "feat(dashboard): surface open human gates in \"Needs you\" via a dedicated queue", "state": "open", "merged": false, "merged_at": null, "mergeable_state": "clean", "url": "https://github.com/gastownhall/gascity/pull/9220", "author": "rjgeng", "human_review_authors": [], "human_comment_authors": []},
+    "9244": {"title": "fix(dashboard): Workers active counts every running non-orchestration session (#9230)", "state": "open", "merged": false, "merged_at": null, "mergeable_state": "clean", "url": "https://github.com/gastownhall/gascity/pull/9244", "author": "rjgeng", "human_review_authors": [], "human_comment_authors": []}
   }
 }

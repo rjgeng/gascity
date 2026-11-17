@@ -1,6 +1,6 @@
 {
   "author": "rjgeng",
-  "last_checked_at": "2026-11-17T03:48:36Z",
+  "last_checked_at": "2026-11-17T04:48:59Z",
   "prs": {
     "4138": {
       "title": "fix(session): gc session attach waits for an in-flight controller reset instead of racing it (#4079)",
@@ -221,7 +221,7 @@
       "state": "open",
       "merged": false,
       "merged_at": null,
-      "mergeable_state": "dirty",
+      "mergeable_state": "clean",
       "url": "https://github.com/gastownhall/gascity/pull/8061",
       "author": "rjgeng",
       "human_review_authors": [],

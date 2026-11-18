@@ -1,6 +1,6 @@
 {
   "author": "rjgeng",
-  "last_checked_at": "2026-11-18T14:50:54Z",
+  "last_checked_at": "2026-11-18T15:51:36Z",
   "prs": {
     "4138": {
       "author": "rjgeng",
@@ -269,9 +269,9 @@
       ],
       "human_review_authors": [],
       "mergeable_state": "clean",
-      "merged": false,
-      "merged_at": null,
-      "state": "open",
+      "merged": true,
+      "merged_at": "2026-11-18T15:44:41Z",
+      "state": "closed",
       "title": "fix(cmd/gc): a still-configured named session's close must not release identity-addressed work",
       "url": "https://github.com/gastownhall/gascity/pull/8190"
     },

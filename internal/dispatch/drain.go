@@ -1916,6 +1916,37 @@ func releaseDrainReservations(store beads.GraphStore, controlID string, manifest
 	return nil
 }
 
+// ReleaseClosedDrainReservations clears member reservations that drains closed
+// outside gc still hold (gascity#9179). A closed drain's manifest names its
+// members, and each reservation is cleared only while its owner is that closed
+// control, so a successor's claim and any live drain are never touched. It
+// returns how many closed drains it swept.
+func ReleaseClosedDrainReservations(store beads.GraphStore, opts ProcessOptions) (int, error) {
+	drains, err := store.ListByMetadata(map[string]string{beadmeta.KindMetadataKey: beadmeta.KindDrain}, 0, beads.IncludeClosed, beads.WithBothTiers)
+	if err != nil {
+		return 0, fmt.Errorf("listing drain controls: %w", err)
+	}
+	swept := 0
+	for _, drain := range drains {
+		if drain.Status != "closed" {
+			continue
+		}
+		raw := strings.TrimSpace(drain.Metadata[drainManifestMetadataKey])
+		if raw == "" {
+			continue
+		}
+		manifest, err := parseDrainManifest(raw)
+		if err != nil {
+			return swept, fmt.Errorf("%s: parsing drain manifest: %w", drain.ID, err)
+		}
+		if err := releaseDrainReservations(store, drain.ID, manifest, opts); err != nil {
+			return swept, err
+		}
+		swept++
+	}
+	return swept, nil
+}
+
 // releaseDrainReservation clears this control's reservation on one member.
 // The fenced form is symmetric with the claim: CAS(controlID → ""), and
 // LOSING that CAS is the correct outcome — the member was already re-claimed

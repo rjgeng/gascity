@@ -4184,3 +4184,47 @@ func assertDrainItemRootsInitiator(t *testing.T, store beads.Store, drainID, wan
 	}
 	return created
 }
+
+// gascity#9179: a drain closed outside gc leaves its member reservations
+// behind. The sweep clears them, and never touches an open drain's.
+func TestReleaseClosedDrainReservationsSweepsOnlyClosedDrains(t *testing.T) {
+	formulatest.EnableV2ForTest(t)
+	dir := t.TempDir()
+	writeDrainItemFormula(t, dir)
+	store, drain := seedDrainWorkflow(t)
+	if err := store.SetMetadata(drain.ID, "gc.drain_member_access", "exclusive"); err != nil {
+		t.Fatalf("SetMetadata(exclusive): %v", err)
+	}
+	root := mustGetBead(t, store, drain.Metadata["gc.root_bead_id"])
+	members, err := convoycore.MembersIn(convoycore.MemberClasses{Convoy: beadstest.Work(store)}, root.Metadata["gc.input_convoy_id"], false)
+	if err != nil {
+		t.Fatalf("Members: %v", err)
+	}
+	opts := ProcessOptions{Work: beadstest.Work(store), FormulaSearchPaths: []string{dir}}
+	if _, err := ProcessControl(beadstest.Graph(store), mustGetBead(t, store, drain.ID), opts); err != nil {
+		t.Fatalf("ProcessControl(expand): %v", err)
+	}
+	reserved := mustGetBead(t, store, members[1].ID).Metadata[beadmeta.ExclusiveDrainReservationMetadataKey]
+	if reserved != drain.ID {
+		t.Fatalf("member reservation after expansion = %q, want %q", reserved, drain.ID)
+	}
+
+	// Open drain: the sweep must leave its reservation alone.
+	if n, err := ReleaseClosedDrainReservations(beadstest.Graph(store), opts); err != nil || n != 0 {
+		t.Fatalf("sweep(open drain) = %d, %v; want 0, nil", n, err)
+	}
+	if got := mustGetBead(t, store, members[1].ID).Metadata[beadmeta.ExclusiveDrainReservationMetadataKey]; got != drain.ID {
+		t.Fatalf("open drain's reservation was cleared: %q", got)
+	}
+
+	// Closed outside gc: the sweep clears it.
+	if err := store.Close(drain.ID); err != nil {
+		t.Fatalf("Close(drain): %v", err)
+	}
+	if n, err := ReleaseClosedDrainReservations(beadstest.Graph(store), opts); err != nil || n != 1 {
+		t.Fatalf("sweep(closed drain) = %d, %v; want 1, nil", n, err)
+	}
+	if got := mustGetBead(t, store, members[1].ID).Metadata[beadmeta.ExclusiveDrainReservationMetadataKey]; got != "" {
+		t.Fatalf("closed drain's reservation not released: %q", got)
+	}
+}

@@ -227,6 +227,9 @@ type CityRuntime struct {
 	inOrderPassConfig func(*ordersLane)
 
 	orderSweepWatchdogLast time.Time
+	// drainReservationSweepLast is when the drain-reservation sweep last ran
+	// (gascity#9179); the zero value is due on the next pass.
+	drainReservationSweepLast time.Time
 	// orderSweepWatchdogNotClosedDue is when the stale watchdog next reads
 	// every not-closed tracking bead; the zero value is due on the next pass.
 	// orderSweepWatchdogNotClosedBackoff is the wait an incomplete not-closed

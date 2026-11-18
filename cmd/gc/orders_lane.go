@@ -307,6 +307,7 @@ func (cr *CityRuntime) dispatchOrdersLocked(ctx context.Context, cityRoot string
 	// against the outgoing dispatcher.
 	cr.installPendingOrderDispatcherLocked(ctx)
 	cr.runOrderTrackingSweepWatchdog(cfg, now)
+	cr.runDrainReservationSweep(cfg, now)
 	cr.runOrderTrackingRetentionWatchdog(cfg, now)
 	cr.runNudgeMailSweepWatchdog(cfg, now)
 	if cr.od != nil {

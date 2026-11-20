@@ -1,6 +1,6 @@
 {
   "author": "rjgeng",
-  "last_checked_at": "2026-11-20T06:51:34Z",
+  "last_checked_at": "2026-11-20T07:50:06Z",
   "prs": {
     "4138": {
       "author": "rjgeng",
@@ -434,14 +434,16 @@
     },
     "8723": {
       "author": "rjgeng",
-      "title": "fix(packman): refresh git stat cache before pack-cache dirty check",
+      "title": "fix(packman): read cache git through the config loader's stdout-only runner",
       "url": "https://github.com/gastownhall/gascity/pull/8723",
       "state": "open",
       "merged": false,
       "merged_at": null,
-      "mergeable_state": "blocked",
+      "mergeable_state": "clean",
       "human_review_authors": [],
-      "human_comment_authors": []
+      "human_comment_authors": [
+        "julianknutsen"
+      ]
     },
     "8789": {
       "author": "rjgeng",

@@ -1,11 +1,11 @@
 {
   "author": "rjgeng",
-  "last_checked_at": "2026-11-20T20:48:46Z",
+  "last_checked_at": "2026-11-20T21:49:55Z",
   "prs": {
     "4138": {
       "title": "fix(session): gc session attach waits for an in-flight controller reset instead of racing it (#4079)",
       "url": "https://github.com/gastownhall/gascity/pull/4138",
-      "state": "open",
+      "state": "closed",
       "merged": false,
       "merged_at": null,
       "mergeable_state": "blocked",
@@ -15,7 +15,7 @@
     "4481": {
       "title": "fix(runtime): treat a gone session as drain-acked (#4448)",
       "url": "https://github.com/gastownhall/gascity/pull/4481",
-      "state": "open",
+      "state": "closed",
       "merged": false,
       "merged_at": null,
       "mergeable_state": "blocked",
@@ -25,7 +25,7 @@
     "4584": {
       "title": "fix(sling): --nudge falls back to a running named session for instance-expandable agents (#3412)",
       "url": "https://github.com/gastownhall/gascity/pull/4584",
-      "state": "open",
+      "state": "closed",
       "merged": false,
       "merged_at": null,
       "mergeable_state": "blocked",

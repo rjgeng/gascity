@@ -1,6 +1,6 @@
 {
   "author": "rjgeng",
-  "last_checked_at": "2026-11-20T17:48:06Z",
+  "last_checked_at": "2026-11-20T18:50:13Z",
   "prs": {
     "4138": {
       "human_comment_authors": [],
@@ -261,20 +261,6 @@
       "title": "fix(trace): report the specific cap, not no_demand, when a pool with real demand is refused",
       "url": "https://github.com/gastownhall/gascity/pull/8070"
     },
-    "8178": {
-      "human_comment_authors": [
-        "julianknutsen"
-      ],
-      "human_review_authors": [
-        "rjgeng"
-      ],
-      "mergeable_state": "clean",
-      "merged": false,
-      "merged_at": null,
-      "state": "open",
-      "title": "fix(gc): gate fresh-wake pool demand on store-scoped readiness",
-      "url": "https://github.com/gastownhall/gascity/pull/8178"
-    },
     "8226": {
       "human_comment_authors": [],
       "human_review_authors": [
@@ -440,7 +426,7 @@
       "human_review_authors": [
         "rjgeng"
       ],
-      "mergeable_state": "clean",
+      "mergeable_state": "dirty",
       "merged": false,
       "merged_at": null,
       "state": "open",

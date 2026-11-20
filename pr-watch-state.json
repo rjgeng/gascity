@@ -1,55 +1,704 @@
 {
   "author": "rjgeng",
-  "last_checked_at": "2026-11-20T13:45:00Z",
+  "last_checked_at": "2026-11-20T14:49:11Z",
   "prs": {
-    "4138": {"author":"rjgeng","mergeable_state":"blocked","merged":false,"merged_at":null,"state":"open","human_comment_authors":[],"human_review_authors":["rjgeng"],"title":"fix(session): gc session attach waits for an in-flight controller reset instead of racing it (#4079)","url":"https://github.com/gastownhall/gascity/pull/4138"},
-    "4481": {"author":"rjgeng","mergeable_state":"blocked","merged":false,"merged_at":null,"state":"open","human_comment_authors":["rjgeng"],"human_review_authors":["rjgeng"],"title":"fix(runtime): treat a gone session as drain-acked (#4448)","url":"https://github.com/gastownhall/gascity/pull/4481"},
-    "4584": {"author":"rjgeng","mergeable_state":"blocked","merged":false,"merged_at":null,"state":"open","human_comment_authors":["remuscazacu"],"human_review_authors":["rjgeng"],"title":"fix(sling): --nudge falls back to a running named session for instance-expandable agents (#3412)","url":"https://github.com/gastownhall/gascity/pull/4584"},
-    "5365": {"author":"rjgeng","mergeable_state":"blocked","merged":false,"merged_at":null,"state":"open","human_comment_authors":["kyoto-bonsai","quad341"],"human_review_authors":["rjgeng"],"title":"fix(supervisor): auto-unregister on repeated stale-config load failures (#5313)","url":"https://github.com/gastownhall/gascity/pull/5365"},
-    "5854": {"author":"rjgeng","mergeable_state":"clean","merged":false,"merged_at":null,"state":"open","human_comment_authors":["quad341","rjgeng"],"human_review_authors":["rjgeng"],"title":"chore(api): regenerate generated artifacts for a new GET /sessions ?enrich= query param","url":"https://github.com/gastownhall/gascity/pull/5854"},
-    "6007": {"author":"rjgeng","mergeable_state":"blocked","merged":false,"merged_at":null,"state":"open","human_comment_authors":["A3Ackerman","rjgeng"],"human_review_authors":["rjgeng"],"title":"fix(beads): consult native-open deferral before dialing the identity probe (#5965)","url":"https://github.com/gastownhall/gascity/pull/6007"},
-    "6053": {"author":"rjgeng","mergeable_state":"blocked","merged":false,"merged_at":null,"state":"open","human_comment_authors":["kyoto-bonsai"],"human_review_authors":["quad341","rjgeng"],"title":"fix(core-pack): anchor worktree creation on $GC_DIR, not $(pwd) (#6014)","url":"https://github.com/gastownhall/gascity/pull/6053"},
-    "6097": {"author":"rjgeng","mergeable_state":"blocked","merged":false,"merged_at":null,"state":"open","human_comment_authors":["rjgeng"],"human_review_authors":["rjgeng"],"title":"fix(suspensionstate): serialize rig suspend/resume with a cross-process flock (#6056)","url":"https://github.com/gastownhall/gascity/pull/6097"},
-    "6269": {"author":"rjgeng","mergeable_state":"blocked","merged":false,"merged_at":null,"state":"open","human_comment_authors":["kyoto-bonsai","quad341"],"human_review_authors":["rjgeng"],"title":"fix(config): apply feature flags in the supervisor's per-city loader (#6236)","url":"https://github.com/gastownhall/gascity/pull/6269"},
-    "6325": {"author":"rjgeng","mergeable_state":"blocked","merged":false,"merged_at":null,"state":"open","human_comment_authors":[],"human_review_authors":["rjgeng"],"title":"fix(worktree): stop TestManagedDryRunDoesNotPublishProvenance flaking on transient git lock files","url":"https://github.com/gastownhall/gascity/pull/6325"},
-    "6326": {"author":"rjgeng","mergeable_state":"blocked","merged":false,"merged_at":null,"state":"open","human_comment_authors":[],"human_review_authors":["rjgeng"],"title":"fix(tmux): corroborate ListRunning's ServerAbsent with a socket observation","url":"https://github.com/gastownhall/gascity/pull/6326"},
-    "6337": {"author":"rjgeng","mergeable_state":"blocked","merged":false,"merged_at":null,"state":"open","human_comment_authors":[],"human_review_authors":["rjgeng"],"title":"fix(hook): close 3 fail-open gaps in hookClaimDirLooksLikeRepo repo-marker detection","url":"https://github.com/gastownhall/gascity/pull/6337"},
-    "6340": {"author":"rjgeng","mergeable_state":"blocked","merged":false,"merged_at":null,"state":"open","human_comment_authors":["quad341"],"human_review_authors":["rjgeng"],"title":"fix(convoy): order the workflow root last in delete-sweep so an interrupted delete never leaves it closed with open descendants","url":"https://github.com/gastownhall/gascity/pull/6340"},
-    "6365": {"author":"rjgeng","mergeable_state":"blocked","merged":false,"merged_at":null,"state":"open","human_comment_authors":["kyoto-bonsai"],"human_review_authors":["quad341","rjgeng"],"title":"fix(handoff): give PreCompact its own flat systemMessage shape under --hook-format codex","url":"https://github.com/gastownhall/gascity/pull/6365"},
-    "6410": {"author":"rjgeng","mergeable_state":"blocked","merged":false,"merged_at":null,"state":"open","human_comment_authors":["brandonmartin","quad341","rjgeng"],"human_review_authors":["quad341","rjgeng"],"title":"fix(pool): treat a live session's currently_processing_bead_id as first-party proof of ownership","url":"https://github.com/gastownhall/gascity/pull/6410"},
-    "7524": {"author":"rjgeng","mergeable_state":"blocked","merged":false,"merged_at":null,"state":"open","human_comment_authors":[],"human_review_authors":["rjgeng"],"title":"fix(pool): preserve canonical human handoffs","url":"https://github.com/gastownhall/gascity/pull/7524"},
-    "8052": {"author":"rjgeng","mergeable_state":"blocked","merged":false,"merged_at":null,"state":"open","human_comment_authors":[],"human_review_authors":["rjgeng"],"title":"docs(wait): document the every-leg-fatal invariant in prepareWaitWakeStateHooked (#7998)","url":"https://github.com/gastownhall/gascity/pull/8052"},
-    "8061": {"author":"rjgeng","mergeable_state":"clean","merged":false,"merged_at":null,"state":"open","human_comment_authors":[],"human_review_authors":["rjgeng"],"title":"fix: supervisor launchd throttling (#8015) and reaper's false escalation on bd 1.3.1 single-delete (#8007)","url":"https://github.com/gastownhall/gascity/pull/8061"},
-    "8070": {"author":"rjgeng","mergeable_state":"blocked","merged":false,"merged_at":null,"state":"open","human_comment_authors":[],"human_review_authors":["rjgeng"],"title":"fix(trace): report the specific cap, not no_demand, when a pool with real demand is refused","url":"https://github.com/gastownhall/gascity/pull/8070"},
-    "8178": {"author":"rjgeng","mergeable_state":"clean","merged":false,"merged_at":null,"state":"open","human_comment_authors":["julianknutsen"],"human_review_authors":["rjgeng"],"title":"fix(gc): gate fresh-wake pool demand on store-scoped readiness","url":"https://github.com/gastownhall/gascity/pull/8178"},
-    "8226": {"author":"rjgeng","mergeable_state":"blocked","merged":false,"merged_at":null,"state":"open","human_comment_authors":[],"human_review_authors":["rjgeng"],"title":"fix(mail/beadmail): ID-addressed mail operations now reject non-message bead types","url":"https://github.com/gastownhall/gascity/pull/8226"},
-    "8227": {"author":"rjgeng","mergeable_state":"blocked","merged":false,"merged_at":null,"state":"open","human_comment_authors":[],"human_review_authors":["rjgeng"],"title":"fix(mail/beadmail): read-mail retention sweep no longer closes a message marked unread after the snapshot","url":"https://github.com/gastownhall/gascity/pull/8227"},
-    "8349": {"author":"rjgeng","mergeable_state":"blocked","merged":false,"merged_at":null,"state":"open","human_comment_authors":["kyoto-bonsai"],"human_review_authors":["rjgeng"],"title":"fix(rig): clear an orphaned .gc/site.toml binding on rig remove","url":"https://github.com/gastownhall/gascity/pull/8349"},
-    "8350": {"author":"rjgeng","mergeable_state":"blocked","merged":false,"merged_at":null,"state":"open","human_comment_authors":["kyoto-bonsai"],"human_review_authors":["rjgeng"],"title":"fix(formula): list every {{name}} an oversized description_file references in its stub, not only declared vars","url":"https://github.com/gastownhall/gascity/pull/8350"},
-    "8374": {"author":"rjgeng","mergeable_state":"blocked","merged":false,"merged_at":null,"state":"open","human_comment_authors":[],"human_review_authors":["rjgeng"],"title":"fix(pricing): add claude-sonnet-5-5 default pricing entry","url":"https://github.com/gastownhall/gascity/pull/8374"},
-    "8384": {"author":"rjgeng","mergeable_state":"clean","merged":false,"merged_at":null,"state":"open","human_comment_authors":[],"human_review_authors":["rjgeng"],"title":"fix(dolt): stop passing the Dolt password as a gc-beads-bd.sh argv flag","url":"https://github.com/gastownhall/gascity/pull/8384"},
-    "8389": {"author":"rjgeng","mergeable_state":"clean","merged":false,"merged_at":null,"state":"open","human_comment_authors":["kyoto-bonsai"],"human_review_authors":["rjgeng"],"title":"fix(converge): skip a timed-out create instead of still running it","url":"https://github.com/gastownhall/gascity/pull/8389"},
-    "8427": {"author":"rjgeng","mergeable_state":"clean","merged":false,"merged_at":null,"state":"open","human_comment_authors":["kyoto-bonsai"],"human_review_authors":["rjgeng"],"title":"fix(convoy): add every bead id given to gc convoy add, not just the first","url":"https://github.com/gastownhall/gascity/pull/8427"},
-    "8428": {"author":"rjgeng","mergeable_state":"blocked","merged":false,"merged_at":null,"state":"open","human_comment_authors":["kyoto-bonsai"],"human_review_authors":["rjgeng"],"title":"fix(api): reject unknown query parameters on GET /beads","url":"https://github.com/gastownhall/gascity/pull/8428"},
-    "8430": {"author":"rjgeng","mergeable_state":"blocked","merged":false,"merged_at":null,"state":"open","human_comment_authors":["kyoto-bonsai"],"human_review_authors":["rjgeng"],"title":"fix(doctor): pin the gate-sandbox probe to the city's own Dolt endpoint","url":"https://github.com/gastownhall/gascity/pull/8430"},
-    "8443": {"author":"rjgeng","mergeable_state":"clean","merged":false,"merged_at":null,"state":"open","human_comment_authors":["kyoto-bonsai"],"human_review_authors":["rjgeng"],"title":"fix(sling): surface a failed custom sling_query's diagnostic output","url":"https://github.com/gastownhall/gascity/pull/8443"},
-    "8515": {"author":"rjgeng","mergeable_state":"blocked","merged":false,"merged_at":null,"state":"open","human_comment_authors":[],"human_review_authors":["rjgeng"],"title":"fix(convergence): include closed wisps when deriving a loop's iteration count","url":"https://github.com/gastownhall/gascity/pull/8515"},
-    "8517": {"author":"rjgeng","mergeable_state":"clean","merged":false,"merged_at":null,"state":"open","human_comment_authors":["kyoto-bonsai"],"human_review_authors":["rjgeng"],"title":"fix(doctor): kill a pack script's process when its check-timeout abandons it","url":"https://github.com/gastownhall/gascity/pull/8517"},
-    "8518": {"author":"rjgeng","mergeable_state":"clean","merged":false,"merged_at":null,"state":"open","human_comment_authors":["kyoto-bonsai"],"human_review_authors":["rjgeng"],"title":"fix(sling): close an auto-convoy left with zero members when linking fails","url":"https://github.com/gastownhall/gascity/pull/8518"},
-    "8605": {"author":"rjgeng","mergeable_state":"clean","merged":false,"merged_at":null,"state":"open","human_comment_authors":[],"human_review_authors":["rjgeng"],"title":"fix(gc): bound event-order cursor to log head, not 0, on log reset","url":"https://github.com/gastownhall/gascity/pull/8605"},
-    "8723": {"author":"rjgeng","mergeable_state":"clean","merged":false,"merged_at":null,"state":"open","human_comment_authors":["julianknutsen"],"human_review_authors":["rjgeng"],"title":"fix(packman): read cache git through the config loader's stdout-only runner","url":"https://github.com/gastownhall/gascity/pull/8723"},
-    "8789": {"author":"rjgeng","mergeable_state":"clean","merged":false,"merged_at":null,"state":"open","human_comment_authors":["rjgeng"],"human_review_authors":["rjgeng"],"title":"fix(gc): namedWorkReady must skip blocked in_progress work beads","url":"https://github.com/gastownhall/gascity/pull/8789"},
-    "8878": {"author":"rjgeng","mergeable_state":"clean","merged":false,"merged_at":null,"state":"open","human_comment_authors":["kyoto-bonsai"],"human_review_authors":["rjgeng"],"title":"fix(gc bd): let heartbeat accept bd's own flags, help, and the hb alias","url":"https://github.com/gastownhall/gascity/pull/8878"},
-    "8982": {"author":"rjgeng","mergeable_state":"clean","merged":false,"merged_at":null,"state":"open","human_comment_authors":["kyoto-bonsai"],"human_review_authors":["rjgeng"],"title":"fix(api): report no provider for any start_command agent, not just the control dispatcher","url":"https://github.com/gastownhall/gascity/pull/8982"},
-    "9135": {"author":"rjgeng","mergeable_state":"clean","merged":false,"merged_at":null,"state":"open","human_comment_authors":[],"human_review_authors":["rjgeng"],"title":"fix(opencode): replace preset model ids OpenCode Zen no longer serves","url":"https://github.com/gastownhall/gascity/pull/9135"},
-    "9152": {"author":"rjgeng","mergeable_state":"clean","merged":false,"merged_at":null,"state":"open","human_comment_authors":[],"human_review_authors":["rjgeng"],"title":"fix(api): report an invalid extmsg transcript conversation as 400, not 500","url":"https://github.com/gastownhall/gascity/pull/9152"},
-    "9160": {"author":"rjgeng","mergeable_state":"blocked","merged":false,"merged_at":null,"state":"open","human_comment_authors":[],"human_review_authors":["rjgeng"],"title":"fix(api): list a bounded pool's own named session beside its slots","url":"https://github.com/gastownhall/gascity/pull/9160"},
-    "9201": {"author":"rjgeng","mergeable_state":"clean","merged":false,"merged_at":null,"state":"open","human_comment_authors":["julianknutsen"],"human_review_authors":["rjgeng"],"title":"fix(hook): give each claim step its own budget so the stop gate cannot starve the CAS","url":"https://github.com/gastownhall/gascity/pull/9201"},
-    "9202": {"author":"rjgeng","mergeable_state":"clean","merged":false,"merged_at":null,"state":"open","human_comment_authors":[],"human_review_authors":["rjgeng"],"title":"fix(dispatch): take over an exclusive reservation held by a closed drain","url":"https://github.com/gastownhall/gascity/pull/9202"},
-    "9205": {"author":"rjgeng","mergeable_state":"clean","merged":false,"merged_at":null,"state":"open","human_comment_authors":[],"human_review_authors":["rjgeng"],"title":"fix(bd env): strip inherited BEADS_DOLT_SERVER_DATABASE and _MODE from child envs","url":"https://github.com/gastownhall/gascity/pull/9205"},
-    "9220": {"author":"rjgeng","mergeable_state":"clean","merged":false,"merged_at":null,"state":"open","human_comment_authors":[],"human_review_authors":["rjgeng"],"title":"feat(dashboard): surface open human gates in \"Needs you\" via a dedicated queue","url":"https://github.com/gastownhall/gascity/pull/9220"},
-    "9244": {"author":"rjgeng","mergeable_state":"clean","merged":false,"merged_at":null,"state":"open","human_comment_authors":[],"human_review_authors":["rjgeng"],"title":"fix(dashboard): Workers active counts every running non-orchestration session (#9230)","url":"https://github.com/gastownhall/gascity/pull/9244"},
-    "9318": {"author":"rjgeng","mergeable_state":"clean","merged":false,"merged_at":null,"state":"open","human_comment_authors":[],"human_review_authors":["rjgeng"],"title":"fix(events): verified principal sets the supervisor API event actor (#9180 option A)","url":"https://github.com/gastownhall/gascity/pull/9318"},
-    "9319": {"author":"rjgeng","mergeable_state":"clean","merged":false,"merged_at":null,"state":"open","human_comment_authors":[],"human_review_authors":["rjgeng"],"title":"fix(dashboard): Workers active counts every running non-orchestration session (#9230)","url":"https://github.com/gastownhall/gascity/pull/9319"}
+    "4138": {
+      "author": "rjgeng",
+      "human_comment_authors": [],
+      "human_review_authors": [
+        "rjgeng"
+      ],
+      "mergeable_state": "blocked",
+      "merged": false,
+      "merged_at": null,
+      "state": "open",
+      "title": "fix(session): gc session attach waits for an in-flight controller reset instead of racing it (#4079)",
+      "url": "https://github.com/gastownhall/gascity/pull/4138"
+    },
+    "4481": {
+      "author": "rjgeng",
+      "human_comment_authors": [
+        "rjgeng"
+      ],
+      "human_review_authors": [
+        "rjgeng"
+      ],
+      "mergeable_state": "blocked",
+      "merged": false,
+      "merged_at": null,
+      "state": "open",
+      "title": "fix(runtime): treat a gone session as drain-acked (#4448)",
+      "url": "https://github.com/gastownhall/gascity/pull/4481"
+    },
+    "4584": {
+      "author": "rjgeng",
+      "human_comment_authors": [
+        "remuscazacu"
+      ],
+      "human_review_authors": [
+        "rjgeng"
+      ],
+      "mergeable_state": "blocked",
+      "merged": false,
+      "merged_at": null,
+      "state": "open",
+      "title": "fix(sling): --nudge falls back to a running named session for instance-expandable agents (#3412)",
+      "url": "https://github.com/gastownhall/gascity/pull/4584"
+    },
+    "5365": {
+      "author": "rjgeng",
+      "human_comment_authors": [
+        "kyoto-bonsai",
+        "quad341"
+      ],
+      "human_review_authors": [
+        "rjgeng"
+      ],
+      "mergeable_state": "blocked",
+      "merged": false,
+      "merged_at": null,
+      "state": "open",
+      "title": "fix(supervisor): auto-unregister on repeated stale-config load failures (#5313)",
+      "url": "https://github.com/gastownhall/gascity/pull/5365"
+    },
+    "5854": {
+      "author": "rjgeng",
+      "human_comment_authors": [
+        "quad341",
+        "rjgeng"
+      ],
+      "human_review_authors": [
+        "rjgeng"
+      ],
+      "mergeable_state": "clean",
+      "merged": false,
+      "merged_at": null,
+      "state": "open",
+      "title": "chore(api): regenerate generated artifacts for a new GET /sessions ?enrich= query param",
+      "url": "https://github.com/gastownhall/gascity/pull/5854"
+    },
+    "6007": {
+      "author": "rjgeng",
+      "human_comment_authors": [
+        "A3Ackerman",
+        "rjgeng"
+      ],
+      "human_review_authors": [
+        "rjgeng"
+      ],
+      "mergeable_state": "blocked",
+      "merged": false,
+      "merged_at": null,
+      "state": "open",
+      "title": "fix(beads): consult native-open deferral before dialing the identity probe (#5965)",
+      "url": "https://github.com/gastownhall/gascity/pull/6007"
+    },
+    "6053": {
+      "author": "rjgeng",
+      "human_comment_authors": [
+        "kyoto-bonsai"
+      ],
+      "human_review_authors": [
+        "quad341",
+        "rjgeng"
+      ],
+      "mergeable_state": "blocked",
+      "merged": false,
+      "merged_at": null,
+      "state": "open",
+      "title": "fix(core-pack): anchor worktree creation on $GC_DIR, not $(pwd) (#6014)",
+      "url": "https://github.com/gastownhall/gascity/pull/6053"
+    },
+    "6097": {
+      "author": "rjgeng",
+      "human_comment_authors": [
+        "rjgeng"
+      ],
+      "human_review_authors": [
+        "rjgeng"
+      ],
+      "mergeable_state": "blocked",
+      "merged": false,
+      "merged_at": null,
+      "state": "open",
+      "title": "fix(suspensionstate): serialize rig suspend/resume with a cross-process flock (#6056)",
+      "url": "https://github.com/gastownhall/gascity/pull/6097"
+    },
+    "6269": {
+      "author": "rjgeng",
+      "human_comment_authors": [
+        "kyoto-bonsai",
+        "quad341"
+      ],
+      "human_review_authors": [
+        "rjgeng"
+      ],
+      "mergeable_state": "blocked",
+      "merged": false,
+      "merged_at": null,
+      "state": "open",
+      "title": "fix(config): apply feature flags in the supervisor's per-city loader (#6236)",
+      "url": "https://github.com/gastownhall/gascity/pull/6269"
+    },
+    "6325": {
+      "author": "rjgeng",
+      "human_comment_authors": [],
+      "human_review_authors": [
+        "rjgeng"
+      ],
+      "mergeable_state": "blocked",
+      "merged": false,
+      "merged_at": null,
+      "state": "open",
+      "title": "fix(worktree): stop TestManagedDryRunDoesNotPublishProvenance flaking on transient git lock files",
+      "url": "https://github.com/gastownhall/gascity/pull/6325"
+    },
+    "6326": {
+      "author": "rjgeng",
+      "human_comment_authors": [],
+      "human_review_authors": [
+        "rjgeng"
+      ],
+      "mergeable_state": "blocked",
+      "merged": false,
+      "merged_at": null,
+      "state": "open",
+      "title": "fix(tmux): corroborate ListRunning's ServerAbsent with a socket observation",
+      "url": "https://github.com/gastownhall/gascity/pull/6326"
+    },
+    "6337": {
+      "author": "rjgeng",
+      "human_comment_authors": [],
+      "human_review_authors": [
+        "rjgeng"
+      ],
+      "mergeable_state": "blocked",
+      "merged": false,
+      "merged_at": null,
+      "state": "open",
+      "title": "fix(hook): close 3 fail-open gaps in hookClaimDirLooksLikeRepo repo-marker detection",
+      "url": "https://github.com/gastownhall/gascity/pull/6337"
+    },
+    "6340": {
+      "author": "rjgeng",
+      "human_comment_authors": [
+        "quad341"
+      ],
+      "human_review_authors": [
+        "rjgeng"
+      ],
+      "mergeable_state": "blocked",
+      "merged": false,
+      "merged_at": null,
+      "state": "open",
+      "title": "fix(convoy): order the workflow root last in delete-sweep so an interrupted delete never leaves it closed with open descendants",
+      "url": "https://github.com/gastownhall/gascity/pull/6340"
+    },
+    "6365": {
+      "author": "rjgeng",
+      "human_comment_authors": [
+        "kyoto-bonsai"
+      ],
+      "human_review_authors": [
+        "quad341",
+        "rjgeng"
+      ],
+      "mergeable_state": "blocked",
+      "merged": false,
+      "merged_at": null,
+      "state": "open",
+      "title": "fix(handoff): give PreCompact its own flat systemMessage shape under --hook-format codex",
+      "url": "https://github.com/gastownhall/gascity/pull/6365"
+    },
+    "6410": {
+      "author": "rjgeng",
+      "human_comment_authors": [
+        "brandonmartin",
+        "quad341",
+        "rjgeng"
+      ],
+      "human_review_authors": [
+        "quad341",
+        "rjgeng"
+      ],
+      "mergeable_state": "blocked",
+      "merged": false,
+      "merged_at": null,
+      "state": "open",
+      "title": "fix(pool): treat a live session's currently_processing_bead_id as first-party proof of ownership",
+      "url": "https://github.com/gastownhall/gascity/pull/6410"
+    },
+    "7524": {
+      "author": "rjgeng",
+      "human_comment_authors": [],
+      "human_review_authors": [
+        "rjgeng"
+      ],
+      "mergeable_state": "blocked",
+      "merged": false,
+      "merged_at": null,
+      "state": "open",
+      "title": "fix(pool): preserve canonical human handoffs",
+      "url": "https://github.com/gastownhall/gascity/pull/7524"
+    },
+    "8052": {
+      "author": "rjgeng",
+      "human_comment_authors": [],
+      "human_review_authors": [
+        "rjgeng"
+      ],
+      "mergeable_state": "blocked",
+      "merged": false,
+      "merged_at": null,
+      "state": "open",
+      "title": "docs(wait): document the every-leg-fatal invariant in prepareWaitWakeStateHooked (#7998)",
+      "url": "https://github.com/gastownhall/gascity/pull/8052"
+    },
+    "8061": {
+      "author": "rjgeng",
+      "human_comment_authors": [],
+      "human_review_authors": [
+        "rjgeng"
+      ],
+      "mergeable_state": "clean",
+      "merged": false,
+      "merged_at": null,
+      "state": "open",
+      "title": "fix: supervisor launchd throttling (#8015) and reaper's false escalation on bd 1.3.1 single-delete (#8007)",
+      "url": "https://github.com/gastownhall/gascity/pull/8061"
+    },
+    "8070": {
+      "author": "rjgeng",
+      "human_comment_authors": [],
+      "human_review_authors": [
+        "rjgeng"
+      ],
+      "mergeable_state": "blocked",
+      "merged": false,
+      "merged_at": null,
+      "state": "open",
+      "title": "fix(trace): report the specific cap, not no_demand, when a pool with real demand is refused",
+      "url": "https://github.com/gastownhall/gascity/pull/8070"
+    },
+    "8178": {
+      "author": "rjgeng",
+      "human_comment_authors": [
+        "julianknutsen"
+      ],
+      "human_review_authors": [
+        "rjgeng"
+      ],
+      "mergeable_state": "clean",
+      "merged": false,
+      "merged_at": null,
+      "state": "open",
+      "title": "fix(gc): gate fresh-wake pool demand on store-scoped readiness",
+      "url": "https://github.com/gastownhall/gascity/pull/8178"
+    },
+    "8226": {
+      "author": "rjgeng",
+      "human_comment_authors": [],
+      "human_review_authors": [
+        "rjgeng"
+      ],
+      "mergeable_state": "blocked",
+      "merged": false,
+      "merged_at": null,
+      "state": "open",
+      "title": "fix(mail/beadmail): ID-addressed mail operations now reject non-message bead types",
+      "url": "https://github.com/gastownhall/gascity/pull/8226"
+    },
+    "8227": {
+      "author": "rjgeng",
+      "human_comment_authors": [],
+      "human_review_authors": [
+        "rjgeng"
+      ],
+      "mergeable_state": "blocked",
+      "merged": false,
+      "merged_at": null,
+      "state": "open",
+      "title": "fix(mail/beadmail): read-mail retention sweep no longer closes a message marked unread after the snapshot",
+      "url": "https://github.com/gastownhall/gascity/pull/8227"
+    },
+    "8349": {
+      "author": "rjgeng",
+      "human_comment_authors": [
+        "kyoto-bonsai"
+      ],
+      "human_review_authors": [
+        "rjgeng"
+      ],
+      "mergeable_state": "blocked",
+      "merged": false,
+      "merged_at": null,
+      "state": "open",
+      "title": "fix(rig): clear an orphaned .gc/site.toml binding on rig remove",
+      "url": "https://github.com/gastownhall/gascity/pull/8349"
+    },
+    "8350": {
+      "author": "rjgeng",
+      "human_comment_authors": [
+        "kyoto-bonsai"
+      ],
+      "human_review_authors": [
+        "rjgeng"
+      ],
+      "mergeable_state": "blocked",
+      "merged": false,
+      "merged_at": null,
+      "state": "open",
+      "title": "fix(formula): list every {{name}} an oversized description_file references in its stub, not only declared vars",
+      "url": "https://github.com/gastownhall/gascity/pull/8350"
+    },
+    "8374": {
+      "author": "rjgeng",
+      "human_comment_authors": [],
+      "human_review_authors": [
+        "rjgeng"
+      ],
+      "mergeable_state": "blocked",
+      "merged": false,
+      "merged_at": null,
+      "state": "open",
+      "title": "fix(pricing): add claude-sonnet-5-5 default pricing entry",
+      "url": "https://github.com/gastownhall/gascity/pull/8374"
+    },
+    "8384": {
+      "author": "rjgeng",
+      "human_comment_authors": [],
+      "human_review_authors": [
+        "rjgeng"
+      ],
+      "mergeable_state": "clean",
+      "merged": false,
+      "merged_at": null,
+      "state": "open",
+      "title": "fix(dolt): stop passing the Dolt password as a gc-beads-bd.sh argv flag",
+      "url": "https://github.com/gastownhall/gascity/pull/8384"
+    },
+    "8389": {
+      "author": "rjgeng",
+      "human_comment_authors": [
+        "kyoto-bonsai"
+      ],
+      "human_review_authors": [
+        "rjgeng"
+      ],
+      "mergeable_state": "clean",
+      "merged": false,
+      "merged_at": null,
+      "state": "open",
+      "title": "fix(converge): skip a timed-out create instead of still running it",
+      "url": "https://github.com/gastownhall/gascity/pull/8389"
+    },
+    "8427": {
+      "author": "rjgeng",
+      "human_comment_authors": [
+        "kyoto-bonsai"
+      ],
+      "human_review_authors": [
+        "rjgeng"
+      ],
+      "mergeable_state": "clean",
+      "merged": false,
+      "merged_at": null,
+      "state": "open",
+      "title": "fix(convoy): add every bead id given to gc convoy add, not just the first",
+      "url": "https://github.com/gastownhall/gascity/pull/8427"
+    },
+    "8428": {
+      "author": "rjgeng",
+      "human_comment_authors": [
+        "kyoto-bonsai"
+      ],
+      "human_review_authors": [
+        "rjgeng"
+      ],
+      "mergeable_state": "blocked",
+      "merged": false,
+      "merged_at": null,
+      "state": "open",
+      "title": "fix(api): reject unknown query parameters on GET /beads",
+      "url": "https://github.com/gastownhall/gascity/pull/8428"
+    },
+    "8430": {
+      "author": "rjgeng",
+      "human_comment_authors": [
+        "kyoto-bonsai"
+      ],
+      "human_review_authors": [
+        "rjgeng"
+      ],
+      "mergeable_state": "blocked",
+      "merged": false,
+      "merged_at": null,
+      "state": "open",
+      "title": "fix(doctor): pin the gate-sandbox probe to the city's own Dolt endpoint",
+      "url": "https://github.com/gastownhall/gascity/pull/8430"
+    },
+    "8443": {
+      "author": "rjgeng",
+      "human_comment_authors": [
+        "kyoto-bonsai"
+      ],
+      "human_review_authors": [
+        "rjgeng"
+      ],
+      "mergeable_state": "clean",
+      "merged": false,
+      "merged_at": null,
+      "state": "open",
+      "title": "fix(sling): surface a failed custom sling_query's diagnostic output",
+      "url": "https://github.com/gastownhall/gascity/pull/8443"
+    },
+    "8515": {
+      "author": "rjgeng",
+      "human_comment_authors": [],
+      "human_review_authors": [
+        "rjgeng"
+      ],
+      "mergeable_state": "blocked",
+      "merged": false,
+      "merged_at": null,
+      "state": "open",
+      "title": "fix(convergence): include closed wisps when deriving a loop's iteration count",
+      "url": "https://github.com/gastownhall/gascity/pull/8515"
+    },
+    "8517": {
+      "author": "rjgeng",
+      "human_comment_authors": [
+        "kyoto-bonsai"
+      ],
+      "human_review_authors": [
+        "rjgeng"
+      ],
+      "mergeable_state": "clean",
+      "merged": false,
+      "merged_at": null,
+      "state": "open",
+      "title": "fix(doctor): kill a pack script's process when its check-timeout abandons it",
+      "url": "https://github.com/gastownhall/gascity/pull/8517"
+    },
+    "8518": {
+      "author": "rjgeng",
+      "human_comment_authors": [
+        "kyoto-bonsai"
+      ],
+      "human_review_authors": [
+        "rjgeng"
+      ],
+      "mergeable_state": "clean",
+      "merged": false,
+      "merged_at": null,
+      "state": "open",
+      "title": "fix(sling): close an auto-convoy left with zero members when linking fails",
+      "url": "https://github.com/gastownhall/gascity/pull/8518"
+    },
+    "8605": {
+      "author": "rjgeng",
+      "human_comment_authors": [],
+      "human_review_authors": [
+        "rjgeng"
+      ],
+      "mergeable_state": "clean",
+      "merged": false,
+      "merged_at": null,
+      "state": "open",
+      "title": "fix(gc): bound event-order cursor to log head, not 0, on log reset",
+      "url": "https://github.com/gastownhall/gascity/pull/8605"
+    },
+    "8723": {
+      "author": "rjgeng",
+      "human_comment_authors": [
+        "julianknutsen"
+      ],
+      "human_review_authors": [
+        "rjgeng"
+      ],
+      "mergeable_state": "clean",
+      "merged": false,
+      "merged_at": null,
+      "state": "open",
+      "title": "fix(packman): read cache git through the config loader's stdout-only runner",
+      "url": "https://github.com/gastownhall/gascity/pull/8723"
+    },
+    "8789": {
+      "author": "rjgeng",
+      "human_comment_authors": [
+        "rjgeng"
+      ],
+      "human_review_authors": [
+        "rjgeng"
+      ],
+      "mergeable_state": "clean",
+      "merged": false,
+      "merged_at": null,
+      "state": "open",
+      "title": "fix(gc): namedWorkReady must skip blocked in_progress work beads",
+      "url": "https://github.com/gastownhall/gascity/pull/8789"
+    },
+    "8878": {
+      "author": "rjgeng",
+      "human_comment_authors": [
+        "kyoto-bonsai"
+      ],
+      "human_review_authors": [
+        "rjgeng"
+      ],
+      "mergeable_state": "clean",
+      "merged": false,
+      "merged_at": null,
+      "state": "open",
+      "title": "fix(gc bd): let heartbeat accept bd's own flags, help, and the hb alias",
+      "url": "https://github.com/gastownhall/gascity/pull/8878"
+    },
+    "8982": {
+      "author": "rjgeng",
+      "human_comment_authors": [
+        "kyoto-bonsai"
+      ],
+      "human_review_authors": [
+        "rjgeng"
+      ],
+      "mergeable_state": "clean",
+      "merged": false,
+      "merged_at": null,
+      "state": "open",
+      "title": "fix(api): report no provider for any start_command agent, not just the control dispatcher",
+      "url": "https://github.com/gastownhall/gascity/pull/8982"
+    },
+    "9135": {
+      "author": "rjgeng",
+      "human_comment_authors": [],
+      "human_review_authors": [
+        "rjgeng"
+      ],
+      "mergeable_state": "clean",
+      "merged": false,
+      "merged_at": null,
+      "state": "open",
+      "title": "fix(opencode): replace preset model ids OpenCode Zen no longer serves",
+      "url": "https://github.com/gastownhall/gascity/pull/9135"
+    },
+    "9152": {
+      "author": "rjgeng",
+      "human_comment_authors": [],
+      "human_review_authors": [
+        "rjgeng"
+      ],
+      "mergeable_state": "clean",
+      "merged": false,
+      "merged_at": null,
+      "state": "open",
+      "title": "fix(api): report an invalid extmsg transcript conversation as 400, not 500",
+      "url": "https://github.com/gastownhall/gascity/pull/9152"
+    },
+    "9160": {
+      "author": "rjgeng",
+      "human_comment_authors": [],
+      "human_review_authors": [
+        "rjgeng"
+      ],
+      "mergeable_state": "blocked",
+      "merged": false,
+      "merged_at": null,
+      "state": "open",
+      "title": "fix(api): list a bounded pool's own named session beside its slots",
+      "url": "https://github.com/gastownhall/gascity/pull/9160"
+    },
+    "9201": {
+      "author": "rjgeng",
+      "human_comment_authors": [
+        "julianknutsen"
+      ],
+      "human_review_authors": [
+        "rjgeng"
+      ],
+      "mergeable_state": "clean",
+      "merged": false,
+      "merged_at": null,
+      "state": "open",
+      "title": "fix(hook): give each claim step its own budget so the stop gate cannot starve the CAS",
+      "url": "https://github.com/gastownhall/gascity/pull/9201"
+    },
+    "9202": {
+      "author": "rjgeng",
+      "human_comment_authors": [],
+      "human_review_authors": [
+        "rjgeng"
+      ],
+      "mergeable_state": "clean",
+      "merged": false,
+      "merged_at": null,
+      "state": "open",
+      "title": "fix(dispatch): take over an exclusive reservation held by a closed drain",
+      "url": "https://github.com/gastownhall/gascity/pull/9202"
+    },
+    "9205": {
+      "author": "rjgeng",
+      "human_comment_authors": [],
+      "human_review_authors": [
+        "rjgeng"
+      ],
+      "mergeable_state": "clean",
+      "merged": false,
+      "merged_at": null,
+      "state": "open",
+      "title": "fix(bd env): strip inherited BEADS_DOLT_SERVER_DATABASE and _MODE from child envs",
+      "url": "https://github.com/gastownhall/gascity/pull/9205"
+    },
+    "9220": {
+      "author": "rjgeng",
+      "human_comment_authors": [],
+      "human_review_authors": [
+        "rjgeng"
+      ],
+      "mergeable_state": "clean",
+      "merged": false,
+      "merged_at": null,
+      "state": "open",
+      "title": "feat(dashboard): surface open human gates in \"Needs you\" via a dedicated queue",
+      "url": "https://github.com/gastownhall/gascity/pull/9220"
+    },
+    "9244": {
+      "author": "rjgeng",
+      "human_comment_authors": [],
+      "human_review_authors": [
+        "rjgeng"
+      ],
+      "mergeable_state": "clean",
+      "merged": false,
+      "merged_at": null,
+      "state": "open",
+      "title": "fix(dashboard): Workers active counts every running non-orchestration session (#9230)",
+      "url": "https://github.com/gastownhall/gascity/pull/9244"
+    },
+    "9318": {
+      "author": "rjgeng",
+      "human_comment_authors": [],
+      "human_review_authors": [
+        "rjgeng"
+      ],
+      "mergeable_state": "clean",
+      "merged": false,
+      "merged_at": null,
+      "state": "open",
+      "title": "fix(events): verified principal sets the supervisor API event actor (#9180 option A)",
+      "url": "https://github.com/gastownhall/gascity/pull/9318"
+    },
+    "9319": {
+      "author": "rjgeng",
+      "human_comment_authors": [],
+      "human_review_authors": [
+        "rjgeng"
+      ],
+      "mergeable_state": "clean",
+      "merged": false,
+      "merged_at": null,
+      "state": "open",
+      "title": "fix(dashboard): Workers active counts every running non-orchestration session (#9230)",
+      "url": "https://github.com/gastownhall/gascity/pull/9319"
+    }
   }
 }

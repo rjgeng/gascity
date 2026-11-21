@@ -1,6 +1,6 @@
 {
   "author": "rjgeng",
-  "last_checked_at": "2026-11-21T06:46:39Z",
+  "last_checked_at": "2026-11-21T07:49:35Z",
   "prs": {
     "9347": {
       "title": "fix(doctor): kill a pack script's process group when its check times out (#8504)",
@@ -29,9 +29,7 @@
       "merged": false,
       "merged_at": null,
       "mergeable_state": "clean",
-      "human_review_authors": [
-        "rjgeng"
-      ],
+      "human_review_authors": ["rjgeng"],
       "human_comment_authors": []
     },
     "9318": {
@@ -41,9 +39,7 @@
       "merged": false,
       "merged_at": null,
       "mergeable_state": "clean",
-      "human_review_authors": [
-        "rjgeng"
-      ],
+      "human_review_authors": ["rjgeng"],
       "human_comment_authors": []
     },
     "9244": {
@@ -53,9 +49,7 @@
       "merged": false,
       "merged_at": null,
       "mergeable_state": "clean",
-      "human_review_authors": [
-        "rjgeng"
-      ],
+      "human_review_authors": ["rjgeng"],
       "human_comment_authors": []
     },
     "9220": {
@@ -65,9 +59,7 @@
       "merged": false,
       "merged_at": null,
       "mergeable_state": "clean",
-      "human_review_authors": [
-        "rjgeng"
-      ],
+      "human_review_authors": ["rjgeng"],
       "human_comment_authors": []
     },
     "9205": {
@@ -77,9 +69,7 @@
       "merged": false,
       "merged_at": null,
       "mergeable_state": "clean",
-      "human_review_authors": [
-        "rjgeng"
-      ],
+      "human_review_authors": ["rjgeng"],
       "human_comment_authors": []
     },
     "9202": {
@@ -89,9 +79,7 @@
       "merged": false,
       "merged_at": null,
       "mergeable_state": "clean",
-      "human_review_authors": [
-        "rjgeng"
-      ],
+      "human_review_authors": ["rjgeng"],
       "human_comment_authors": []
     },
     "9201": {
@@ -101,12 +89,8 @@
       "merged": false,
       "merged_at": null,
       "mergeable_state": "clean",
-      "human_review_authors": [
-        "rjgeng"
-      ],
-      "human_comment_authors": [
-        "julianknutsen"
-      ]
+      "human_review_authors": ["rjgeng"],
+      "human_comment_authors": ["julianknutsen"]
     },
     "9160": {
       "title": "fix(api): list a bounded pool's own named session beside its slots",
@@ -115,9 +99,7 @@
       "merged": false,
       "merged_at": null,
       "mergeable_state": "clean",
-      "human_review_authors": [
-        "rjgeng"
-      ],
+      "human_review_authors": ["rjgeng"],
       "human_comment_authors": []
     },
     "9152": {
@@ -127,9 +109,7 @@
       "merged": false,
       "merged_at": null,
       "mergeable_state": "clean",
-      "human_review_authors": [
-        "rjgeng"
-      ],
+      "human_review_authors": ["rjgeng"],
       "human_comment_authors": []
     },
     "9135": {
@@ -139,9 +119,7 @@
       "merged": false,
       "merged_at": null,
       "mergeable_state": "clean",
-      "human_review_authors": [
-        "rjgeng"
-      ],
+      "human_review_authors": ["rjgeng"],
       "human_comment_authors": []
     },
     "8982": {
@@ -151,12 +129,8 @@
       "merged": false,
       "merged_at": null,
       "mergeable_state": "clean",
-      "human_review_authors": [
-        "rjgeng"
-      ],
-      "human_comment_authors": [
-        "kyoto-bonsai"
-      ]
+      "human_review_authors": ["rjgeng"],
+      "human_comment_authors": ["kyoto-bonsai"]
     },
     "8878": {
       "title": "fix(gc bd): let heartbeat accept bd's own flags, help, and the hb alias",
@@ -165,12 +139,8 @@
       "merged": false,
       "merged_at": null,
       "mergeable_state": "clean",
-      "human_review_authors": [
-        "rjgeng"
-      ],
-      "human_comment_authors": [
-        "kyoto-bonsai"
-      ]
+      "human_review_authors": ["rjgeng"],
+      "human_comment_authors": ["kyoto-bonsai"]
     },
     "8789": {
       "title": "fix(gc): namedWorkReady must skip blocked in_progress work beads",
@@ -179,12 +149,8 @@
       "merged": false,
       "merged_at": null,
       "mergeable_state": "clean",
-      "human_review_authors": [
-        "rjgeng"
-      ],
-      "human_comment_authors": [
-        "rjgeng"
-      ]
+      "human_review_authors": ["rjgeng"],
+      "human_comment_authors": ["rjgeng"]
     },
     "8723": {
       "title": "fix(packman): read cache git through the config loader's stdout-only runner",
@@ -193,12 +159,8 @@
       "merged": false,
       "merged_at": null,
       "mergeable_state": "clean",
-      "human_review_authors": [
-        "rjgeng"
-      ],
-      "human_comment_authors": [
-        "julianknutsen"
-      ]
+      "human_review_authors": ["rjgeng"],
+      "human_comment_authors": ["julianknutsen"]
     },
     "8605": {
       "title": "fix(gc): bound event-order cursor to log head, not 0, on log reset",
@@ -207,9 +169,7 @@
       "merged": false,
       "merged_at": null,
       "mergeable_state": "clean",
-      "human_review_authors": [
-        "rjgeng"
-      ],
+      "human_review_authors": ["rjgeng"],
       "human_comment_authors": []
     },
     "8518": {
@@ -219,12 +179,8 @@
       "merged": false,
       "merged_at": null,
       "mergeable_state": "clean",
-      "human_review_authors": [
-        "rjgeng"
-      ],
-      "human_comment_authors": [
-        "kyoto-bonsai"
-      ]
+      "human_review_authors": ["rjgeng"],
+      "human_comment_authors": ["kyoto-bonsai"]
     },
     "8515": {
       "title": "fix(convergence): include closed wisps when deriving a loop's iteration count",
@@ -233,9 +189,7 @@
       "merged": false,
       "merged_at": null,
       "mergeable_state": "blocked",
-      "human_review_authors": [
-        "rjgeng"
-      ],
+      "human_review_authors": ["rjgeng"],
       "human_comment_authors": []
     },
     "8443": {
@@ -245,12 +199,8 @@
       "merged": false,
       "merged_at": null,
       "mergeable_state": "clean",
-      "human_review_authors": [
-        "rjgeng"
-      ],
-      "human_comment_authors": [
-        "kyoto-bonsai"
-      ]
+      "human_review_authors": ["rjgeng"],
+      "human_comment_authors": ["kyoto-bonsai"]
     },
     "8430": {
       "title": "fix(doctor): pin the gate-sandbox probe to the city's own Dolt endpoint",
@@ -259,12 +209,8 @@
       "merged": false,
       "merged_at": null,
       "mergeable_state": "blocked",
-      "human_review_authors": [
-        "rjgeng"
-      ],
-      "human_comment_authors": [
-        "kyoto-bonsai"
-      ]
+      "human_review_authors": ["rjgeng"],
+      "human_comment_authors": ["kyoto-bonsai"]
     },
     "8428": {
       "title": "fix(api): reject unknown query parameters on GET /beads",
@@ -273,12 +219,8 @@
       "merged": false,
       "merged_at": null,
       "mergeable_state": "blocked",
-      "human_review_authors": [
-        "rjgeng"
-      ],
-      "human_comment_authors": [
-        "kyoto-bonsai"
-      ]
+      "human_review_authors": ["rjgeng"],
+      "human_comment_authors": ["kyoto-bonsai"]
     },
     "8427": {
       "title": "fix(convoy): add every bead id given to gc convoy add, not just the first",
@@ -287,12 +229,8 @@
       "merged": false,
       "merged_at": null,
       "mergeable_state": "clean",
-      "human_review_authors": [
-        "rjgeng"
-      ],
-      "human_comment_authors": [
-        "kyoto-bonsai"
-      ]
+      "human_review_authors": ["rjgeng"],
+      "human_comment_authors": ["kyoto-bonsai"]
     },
     "8389": {
       "title": "fix(converge): skip a timed-out create instead of still running it",
@@ -301,12 +239,8 @@
       "merged": false,
       "merged_at": null,
       "mergeable_state": "clean",
-      "human_review_authors": [
-        "rjgeng"
-      ],
-      "human_comment_authors": [
-        "kyoto-bonsai"
-      ]
+      "human_review_authors": ["rjgeng"],
+      "human_comment_authors": ["kyoto-bonsai"]
     },
     "8384": {
       "title": "fix(dolt): stop passing the Dolt password as a gc-beads-bd.sh argv flag",
@@ -315,22 +249,7 @@
       "merged": false,
       "merged_at": null,
       "mergeable_state": "clean",
-      "human_review_authors": [
-        "rjgeng"
-      ],
-      "human_comment_authors": []
-    },
-    "8374": {
-      "title": "fix(pricing): add claude-sonnet-5-5 default pricing entry",
-      "url": "https://github.com/gastownhall/gascity/pull/8374",
-      "state": "open",
-      "merged": false,
-      "merged_at": null,
-      "mergeable_state": "clean",
-      "human_review_authors": [
-        "quad341",
-        "rjgeng"
-      ],
+      "human_review_authors": ["rjgeng"],
       "human_comment_authors": []
     },
     "8350": {
@@ -340,13 +259,8 @@
       "merged": false,
       "merged_at": null,
       "mergeable_state": "blocked",
-      "human_review_authors": [
-        "quad341",
-        "rjgeng"
-      ],
-      "human_comment_authors": [
-        "kyoto-bonsai"
-      ]
+      "human_review_authors": ["quad341", "rjgeng"],
+      "human_comment_authors": ["kyoto-bonsai"]
     },
     "8227": {
       "title": "fix(mail/beadmail): read-mail retention sweep no longer closes a message marked unread after the snapshot",
@@ -355,10 +269,7 @@
       "merged": false,
       "merged_at": null,
       "mergeable_state": "blocked",
-      "human_review_authors": [
-        "quad341",
-        "rjgeng"
-      ],
+      "human_review_authors": ["quad341", "rjgeng"],
       "human_comment_authors": []
     },
     "8226": {
@@ -368,10 +279,7 @@
       "merged": false,
       "merged_at": null,
       "mergeable_state": "blocked",
-      "human_review_authors": [
-        "quad341",
-        "rjgeng"
-      ],
+      "human_review_authors": ["quad341", "rjgeng"],
       "human_comment_authors": []
     },
     "8070": {
@@ -381,9 +289,7 @@
       "merged": false,
       "merged_at": null,
       "mergeable_state": "blocked",
-      "human_review_authors": [
-        "rjgeng"
-      ],
+      "human_review_authors": ["rjgeng"],
       "human_comment_authors": []
     },
     "8061": {
@@ -393,9 +299,7 @@
       "merged": false,
       "merged_at": null,
       "mergeable_state": "clean",
-      "human_review_authors": [
-        "rjgeng"
-      ],
+      "human_review_authors": ["rjgeng"],
       "human_comment_authors": []
     },
     "8052": {
@@ -405,9 +309,7 @@
       "merged": false,
       "merged_at": null,
       "mergeable_state": "blocked",
-      "human_review_authors": [
-        "rjgeng"
-      ],
+      "human_review_authors": ["rjgeng"],
       "human_comment_authors": []
     },
     "7524": {
@@ -417,9 +319,7 @@
       "merged": false,
       "merged_at": null,
       "mergeable_state": "blocked",
-      "human_review_authors": [
-        "rjgeng"
-      ],
+      "human_review_authors": ["rjgeng"],
       "human_comment_authors": []
     },
     "6410": {
@@ -429,15 +329,8 @@
       "merged": false,
       "merged_at": null,
       "mergeable_state": "blocked",
-      "human_review_authors": [
-        "quad341",
-        "rjgeng"
-      ],
-      "human_comment_authors": [
-        "brandonmartin",
-        "quad341",
-        "rjgeng"
-      ]
+      "human_review_authors": ["quad341", "rjgeng"],
+      "human_comment_authors": ["brandonmartin", "quad341", "rjgeng"]
     },
     "6365": {
       "title": "fix(handoff): give PreCompact its own flat systemMessage shape under --hook-format codex",
@@ -446,13 +339,8 @@
       "merged": false,
       "merged_at": null,
       "mergeable_state": "blocked",
-      "human_review_authors": [
-        "quad341",
-        "rjgeng"
-      ],
-      "human_comment_authors": [
-        "kyoto-bonsai"
-      ]
+      "human_review_authors": ["quad341", "rjgeng"],
+      "human_comment_authors": ["kyoto-bonsai"]
     },
     "6340": {
       "title": "fix(convoy): order the workflow root last in delete-sweep so an interrupted delete never leaves it closed with open descendants",
@@ -461,12 +349,8 @@
       "merged": false,
       "merged_at": null,
       "mergeable_state": "blocked",
-      "human_review_authors": [
-        "rjgeng"
-      ],
-      "human_comment_authors": [
-        "quad341"
-      ]
+      "human_review_authors": ["rjgeng"],
+      "human_comment_authors": ["quad341"]
     },
     "6337": {
       "title": "fix(hook): close 3 fail-open gaps in hookClaimDirLooksLikeRepo repo-marker detection",
@@ -475,9 +359,7 @@
       "merged": false,
       "merged_at": null,
       "mergeable_state": "blocked",
-      "human_review_authors": [
-        "rjgeng"
-      ],
+      "human_review_authors": ["rjgeng"],
       "human_comment_authors": []
     },
     "6326": {
@@ -487,9 +369,7 @@
       "merged": false,
       "merged_at": null,
       "mergeable_state": "blocked",
-      "human_review_authors": [
-        "rjgeng"
-      ],
+      "human_review_authors": ["rjgeng"],
       "human_comment_authors": []
     },
     "6325": {
@@ -499,9 +379,7 @@
       "merged": false,
       "merged_at": null,
       "mergeable_state": "blocked",
-      "human_review_authors": [
-        "rjgeng"
-      ],
+      "human_review_authors": ["rjgeng"],
       "human_comment_authors": []
     },
     "6269": {
@@ -511,13 +389,8 @@
       "merged": false,
       "merged_at": null,
       "mergeable_state": "blocked",
-      "human_review_authors": [
-        "rjgeng"
-      ],
-      "human_comment_authors": [
-        "kyoto-bonsai",
-        "quad341"
-      ]
+      "human_review_authors": ["rjgeng"],
+      "human_comment_authors": ["kyoto-bonsai", "quad341"]
     },
     "6097": {
       "title": "fix(suspensionstate): serialize rig suspend/resume with a cross-process flock (#6056)",
@@ -526,12 +399,8 @@
       "merged": false,
       "merged_at": null,
       "mergeable_state": "blocked",
-      "human_review_authors": [
-        "rjgeng"
-      ],
-      "human_comment_authors": [
-        "rjgeng"
-      ]
+      "human_review_authors": ["rjgeng"],
+      "human_comment_authors": ["rjgeng"]
     },
     "6053": {
       "title": "fix(core-pack): anchor worktree creation on $GC_DIR, not $(pwd) (#6014)",
@@ -540,13 +409,8 @@
       "merged": false,
       "merged_at": null,
       "mergeable_state": "blocked",
-      "human_review_authors": [
-        "quad341",
-        "rjgeng"
-      ],
-      "human_comment_authors": [
-        "kyoto-bonsai"
-      ]
+      "human_review_authors": ["quad341", "rjgeng"],
+      "human_comment_authors": ["kyoto-bonsai"]
     },
     "6007": {
       "title": "fix(beads): consult native-open deferral before dialing the identity probe (#5965)",
@@ -555,13 +419,8 @@
       "merged": false,
       "merged_at": null,
       "mergeable_state": "blocked",
-      "human_review_authors": [
-        "rjgeng"
-      ],
-      "human_comment_authors": [
-        "A3Ackerman",
-        "rjgeng"
-      ]
+      "human_review_authors": ["rjgeng"],
+      "human_comment_authors": ["A3Ackerman", "rjgeng"]
     },
     "5854": {
       "title": "chore(api): regenerate generated artifacts for a new GET /sessions ?enrich= query param",
@@ -570,13 +429,8 @@
       "merged": false,
       "merged_at": null,
       "mergeable_state": "clean",
-      "human_review_authors": [
-        "rjgeng"
-      ],
-      "human_comment_authors": [
-        "quad341",
-        "rjgeng"
-      ]
+      "human_review_authors": ["rjgeng"],
+      "human_comment_authors": ["quad341", "rjgeng"]
     },
     "5365": {
       "title": "fix(supervisor): auto-unregister on repeated stale-config load failures (#5313)",
@@ -585,13 +439,8 @@
       "merged": false,
       "merged_at": null,
       "mergeable_state": "blocked",
-      "human_review_authors": [
-        "rjgeng"
-      ],
-      "human_comment_authors": [
-        "kyoto-bonsai",
-        "quad341"
-      ]
+      "human_review_authors": ["rjgeng"],
+      "human_comment_authors": ["kyoto-bonsai", "quad341"]
     }
   }
 }

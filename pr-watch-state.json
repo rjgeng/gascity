@@ -1,6 +1,6 @@
 {
   "author": "rjgeng",
-  "last_checked_at": "2026-11-22T21:49:51Z",
+  "last_checked_at": "2026-11-22T22:47:28Z",
   "prs": {
     "9347": {
       "title": "fix(doctor): kill a pack script's process group when its check times out (#8504)",

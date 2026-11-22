@@ -1,6 +1,6 @@
 {
   "author": "rjgeng",
-  "last_checked_at": "2026-11-22T18:49:49Z",
+  "last_checked_at": "2026-11-22T19:48:43Z",
   "prs": {
     "5365": {
       "title": "fix(supervisor): auto-unregister on repeated stale-config load failures (#5313)",
@@ -9,10 +9,7 @@
       "merged": false,
       "merged_at": null,
       "mergeable_state": "blocked",
-      "human_comment_authors": [
-        "kyoto-bonsai",
-        "quad341"
-      ],
+      "human_comment_authors": ["kyoto-bonsai", "quad341"],
       "human_review_authors": []
     },
     "5854": {
@@ -22,9 +19,7 @@
       "merged": false,
       "merged_at": null,
       "mergeable_state": "clean",
-      "human_comment_authors": [
-        "quad341"
-      ],
+      "human_comment_authors": ["quad341"],
       "human_review_authors": []
     },
     "6007": {
@@ -34,9 +29,7 @@
       "merged": false,
       "merged_at": null,
       "mergeable_state": "blocked",
-      "human_comment_authors": [
-        "A3Ackerman"
-      ],
+      "human_comment_authors": ["A3Ackerman"],
       "human_review_authors": []
     },
     "6269": {
@@ -46,10 +39,7 @@
       "merged": false,
       "merged_at": null,
       "mergeable_state": "blocked",
-      "human_comment_authors": [
-        "kyoto-bonsai",
-        "quad341"
-      ],
+      "human_comment_authors": ["kyoto-bonsai", "quad341"],
       "human_review_authors": []
     },
     "6325": {
@@ -89,9 +79,7 @@
       "merged": false,
       "merged_at": null,
       "mergeable_state": "clean",
-      "human_comment_authors": [
-        "quad341"
-      ],
+      "human_comment_authors": ["quad341"],
       "human_review_authors": []
     },
     "6410": {
@@ -101,13 +89,8 @@
       "merged": false,
       "merged_at": null,
       "mergeable_state": "blocked",
-      "human_comment_authors": [
-        "brandonmartin",
-        "quad341"
-      ],
-      "human_review_authors": [
-        "quad341"
-      ]
+      "human_comment_authors": ["brandonmartin", "quad341"],
+      "human_review_authors": ["quad341"]
     },
     "7524": {
       "title": "fix(pool): preserve canonical human handoffs",
@@ -157,9 +140,7 @@
       "merged_at": null,
       "mergeable_state": "unstable",
       "human_comment_authors": [],
-      "human_review_authors": [
-        "quad341"
-      ]
+      "human_review_authors": ["quad341"]
     },
     "8350": {
       "title": "fix(formula): list every {{name}} an oversized description_file references in its stub, not only declared vars",
@@ -168,12 +149,8 @@
       "merged": false,
       "merged_at": null,
       "mergeable_state": "blocked",
-      "human_comment_authors": [
-        "kyoto-bonsai"
-      ],
-      "human_review_authors": [
-        "quad341"
-      ]
+      "human_comment_authors": ["kyoto-bonsai"],
+      "human_review_authors": ["quad341"]
     },
     "8430": {
       "title": "fix(doctor): pin the gate-sandbox probe to the city's own Dolt endpoint",
@@ -182,13 +159,8 @@
       "merged": false,
       "merged_at": null,
       "mergeable_state": "blocked",
-      "human_comment_authors": [
-        "kyoto-bonsai",
-        "quad341"
-      ],
-      "human_review_authors": [
-        "quad341"
-      ]
+      "human_comment_authors": ["kyoto-bonsai", "quad341"],
+      "human_review_authors": ["quad341"]
     },
     "8515": {
       "title": "fix(convergence): include closed wisps when deriving a loop's iteration count",
@@ -207,9 +179,7 @@
       "merged": false,
       "merged_at": null,
       "mergeable_state": "clean",
-      "human_comment_authors": [
-        "kyoto-bonsai"
-      ],
+      "human_comment_authors": ["kyoto-bonsai"],
       "human_review_authors": []
     },
     "8605": {
@@ -229,9 +199,7 @@
       "merged": false,
       "merged_at": null,
       "mergeable_state": "clean",
-      "human_comment_authors": [
-        "julianknutsen"
-      ],
+      "human_comment_authors": ["julianknutsen"],
       "human_review_authors": []
     },
     "8789": {
@@ -251,9 +219,7 @@
       "merged": false,
       "merged_at": null,
       "mergeable_state": "clean",
-      "human_comment_authors": [
-        "kyoto-bonsai"
-      ],
+      "human_comment_authors": ["kyoto-bonsai"],
       "human_review_authors": []
     },
     "8982": {
@@ -263,9 +229,7 @@
       "merged": false,
       "merged_at": null,
       "mergeable_state": "clean",
-      "human_comment_authors": [
-        "kyoto-bonsai"
-      ],
+      "human_comment_authors": ["kyoto-bonsai"],
       "human_review_authors": []
     },
     "9135": {
@@ -305,9 +269,7 @@
       "merged": false,
       "merged_at": null,
       "mergeable_state": "clean",
-      "human_comment_authors": [
-        "julianknutsen"
-      ],
+      "human_comment_authors": ["julianknutsen"],
       "human_review_authors": []
     },
     "9202": {

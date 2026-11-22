@@ -229,10 +229,10 @@
     "8443": {
       "title": "fix(sling): surface a failed custom sling_query's diagnostic output",
       "url": "https://github.com/gastownhall/gascity/pull/8443",
-      "state": "open",
-      "merged": false,
-      "merged_at": null,
-      "mergeable_state": "clean",
+      "state": "closed",
+      "merged": true,
+      "merged_at": "2026-11-22T04:49:31Z",
+      "mergeable_state": "unknown",
       "human_comment_authors": [
         "kyoto-bonsai"
       ],
@@ -441,5 +441,5 @@
       "human_review_authors": []
     }
   },
-  "last_checked_at": "2026-11-22T04:47:47Z"
+  "last_checked_at": "2026-11-22T05:50:28Z"
 }

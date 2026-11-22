@@ -1,6 +1,6 @@
 {
   "author": "rjgeng",
-  "last_checked_at": "2026-11-22T11:48:20Z",
+  "last_checked_at": "2026-11-22T12:49:46Z",
   "prs": {
     "9347": {
       "title": "fix(doctor): kill a pack script's process group when its check times out (#8504)",
@@ -8,7 +8,7 @@
       "state": "open",
       "merged": false,
       "merged_at": null,
-      "mergeable_state": "blocked",
+      "mergeable_state": "clean",
       "human_comment_authors": [],
       "human_review_authors": []
     },
@@ -365,16 +365,6 @@
         "kyoto-bonsai",
         "quad341"
       ],
-      "human_review_authors": []
-    },
-    "6097": {
-      "title": "fix(suspensionstate): serialize rig suspend/resume with a cross-process flock (#6056)",
-      "url": "https://github.com/gastownhall/gascity/pull/6097",
-      "state": "open",
-      "merged": false,
-      "merged_at": null,
-      "mergeable_state": "blocked",
-      "human_comment_authors": [],
       "human_review_authors": []
     },
     "6053": {

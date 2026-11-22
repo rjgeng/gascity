@@ -8,10 +8,7 @@
       "merged": false,
       "merged_at": null,
       "mergeable_state": "blocked",
-      "human_comment_authors": [
-        "kyoto-bonsai",
-        "quad341"
-      ],
+      "human_comment_authors": ["kyoto-bonsai", "quad341"],
       "human_review_authors": []
     },
     "5854": {
@@ -21,9 +18,7 @@
       "merged": false,
       "merged_at": null,
       "mergeable_state": "clean",
-      "human_comment_authors": [
-        "quad341"
-      ],
+      "human_comment_authors": ["quad341"],
       "human_review_authors": []
     },
     "6007": {
@@ -33,9 +28,7 @@
       "merged": false,
       "merged_at": null,
       "mergeable_state": "blocked",
-      "human_comment_authors": [
-        "A3Ackerman"
-      ],
+      "human_comment_authors": ["A3Ackerman"],
       "human_review_authors": []
     },
     "6053": {
@@ -45,12 +38,8 @@
       "merged": false,
       "merged_at": null,
       "mergeable_state": "blocked",
-      "human_comment_authors": [
-        "kyoto-bonsai"
-      ],
-      "human_review_authors": [
-        "quad341"
-      ]
+      "human_comment_authors": ["kyoto-bonsai"],
+      "human_review_authors": ["quad341"]
     },
     "6097": {
       "title": "fix(suspensionstate): serialize rig suspend/resume with a cross-process flock (#6056)",
@@ -69,10 +58,7 @@
       "merged": false,
       "merged_at": null,
       "mergeable_state": "blocked",
-      "human_comment_authors": [
-        "kyoto-bonsai",
-        "quad341"
-      ],
+      "human_comment_authors": ["kyoto-bonsai", "quad341"],
       "human_review_authors": []
     },
     "6325": {
@@ -112,9 +98,7 @@
       "merged": false,
       "merged_at": null,
       "mergeable_state": "blocked",
-      "human_comment_authors": [
-        "quad341"
-      ],
+      "human_comment_authors": ["quad341"],
       "human_review_authors": []
     },
     "6365": {
@@ -124,12 +108,8 @@
       "merged": false,
       "merged_at": null,
       "mergeable_state": "blocked",
-      "human_comment_authors": [
-        "kyoto-bonsai"
-      ],
-      "human_review_authors": [
-        "quad341"
-      ]
+      "human_comment_authors": ["kyoto-bonsai"],
+      "human_review_authors": ["quad341"]
     },
     "6410": {
       "title": "fix(pool): treat a live session's currently_processing_bead_id as first-party proof of ownership",
@@ -138,13 +118,8 @@
       "merged": false,
       "merged_at": null,
       "mergeable_state": "blocked",
-      "human_comment_authors": [
-        "brandonmartin",
-        "quad341"
-      ],
-      "human_review_authors": [
-        "quad341"
-      ]
+      "human_comment_authors": ["brandonmartin", "quad341"],
+      "human_review_authors": ["quad341"]
     },
     "7524": {
       "title": "fix(pool): preserve canonical human handoffs",
@@ -194,9 +169,7 @@
       "merged_at": null,
       "mergeable_state": "blocked",
       "human_comment_authors": [],
-      "human_review_authors": [
-        "quad341"
-      ]
+      "human_review_authors": ["quad341"]
     },
     "8350": {
       "title": "fix(formula): list every {{name}} an oversized description_file references in its stub, not only declared vars",
@@ -205,24 +178,8 @@
       "merged": false,
       "merged_at": null,
       "mergeable_state": "blocked",
-      "human_comment_authors": [
-        "kyoto-bonsai"
-      ],
-      "human_review_authors": [
-        "quad341"
-      ]
-    },
-    "8428": {
-      "title": "fix(api): reject unknown query parameters on GET /beads",
-      "url": "https://github.com/gastownhall/gascity/pull/8428",
-      "state": "open",
-      "merged": false,
-      "merged_at": null,
-      "mergeable_state": "blocked",
-      "human_comment_authors": [
-        "kyoto-bonsai"
-      ],
-      "human_review_authors": []
+      "human_comment_authors": ["kyoto-bonsai"],
+      "human_review_authors": ["quad341"]
     },
     "8430": {
       "title": "fix(doctor): pin the gate-sandbox probe to the city's own Dolt endpoint",
@@ -231,9 +188,7 @@
       "merged": false,
       "merged_at": null,
       "mergeable_state": "blocked",
-      "human_comment_authors": [
-        "kyoto-bonsai"
-      ],
+      "human_comment_authors": ["kyoto-bonsai"],
       "human_review_authors": []
     },
     "8443": {
@@ -243,9 +198,7 @@
       "merged": false,
       "merged_at": null,
       "mergeable_state": "clean",
-      "human_comment_authors": [
-        "kyoto-bonsai"
-      ],
+      "human_comment_authors": ["kyoto-bonsai"],
       "human_review_authors": []
     },
     "8515": {
@@ -265,9 +218,7 @@
       "merged": false,
       "merged_at": null,
       "mergeable_state": "clean",
-      "human_comment_authors": [
-        "kyoto-bonsai"
-      ],
+      "human_comment_authors": ["kyoto-bonsai"],
       "human_review_authors": []
     },
     "8605": {
@@ -287,9 +238,7 @@
       "merged": false,
       "merged_at": null,
       "mergeable_state": "clean",
-      "human_comment_authors": [
-        "julianknutsen"
-      ],
+      "human_comment_authors": ["julianknutsen"],
       "human_review_authors": []
     },
     "8789": {
@@ -309,9 +258,7 @@
       "merged": false,
       "merged_at": null,
       "mergeable_state": "clean",
-      "human_comment_authors": [
-        "kyoto-bonsai"
-      ],
+      "human_comment_authors": ["kyoto-bonsai"],
       "human_review_authors": []
     },
     "8982": {
@@ -321,9 +268,7 @@
       "merged": false,
       "merged_at": null,
       "mergeable_state": "clean",
-      "human_comment_authors": [
-        "kyoto-bonsai"
-      ],
+      "human_comment_authors": ["kyoto-bonsai"],
       "human_review_authors": []
     },
     "9135": {
@@ -363,9 +308,7 @@
       "merged": false,
       "merged_at": null,
       "mergeable_state": "clean",
-      "human_comment_authors": [
-        "julianknutsen"
-      ],
+      "human_comment_authors": ["julianknutsen"],
       "human_review_authors": []
     },
     "9202": {
@@ -449,5 +392,5 @@
       "human_review_authors": []
     }
   },
-  "last_checked_at": "2026-11-22T02:48:16Z"
+  "last_checked_at": "2026-11-22T03:48:00Z"
 }

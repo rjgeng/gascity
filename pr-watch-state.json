@@ -38,19 +38,6 @@
       ],
       "human_review_authors": []
     },
-    "6269": {
-      "title": "fix(config): apply feature flags in the supervisor's per-city loader (#6236)",
-      "url": "https://github.com/gastownhall/gascity/pull/6269",
-      "state": "open",
-      "merged": false,
-      "merged_at": null,
-      "mergeable_state": "blocked",
-      "human_comment_authors": [
-        "kyoto-bonsai",
-        "quad341"
-      ],
-      "human_review_authors": []
-    },
     "6325": {
       "title": "fix(worktree): stop TestManagedDryRunDoesNotPublishProvenance flaking on transient git lock files",
       "url": "https://github.com/gastownhall/gascity/pull/6325",

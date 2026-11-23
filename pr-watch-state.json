@@ -201,21 +201,6 @@
       "human_comment_authors": [],
       "human_review_authors": []
     },
-    "8430": {
-      "title": "fix(doctor): pin the gate-sandbox probe to the city's own Dolt endpoint",
-      "url": "https://github.com/gastownhall/gascity/pull/8430",
-      "state": "open",
-      "merged": false,
-      "merged_at": null,
-      "mergeable_state": "blocked",
-      "human_comment_authors": [
-        "kyoto-bonsai",
-        "quad341"
-      ],
-      "human_review_authors": [
-        "quad341"
-      ]
-    },
     "8227": {
       "title": "fix(mail/beadmail): read-mail retention sweep no longer closes a message marked unread after the snapshot",
       "url": "https://github.com/gastownhall/gascity/pull/8227",

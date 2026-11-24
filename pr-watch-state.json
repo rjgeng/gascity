@@ -160,21 +160,6 @@
       "title": "fix(mail/beadmail): read-mail retention sweep no longer closes a message marked unread after the snapshot",
       "url": "https://github.com/gastownhall/gascity/pull/8227"
     },
-    "8515": {
-      "human_comment_authors": [
-        "quad341"
-      ],
-      "human_review_authors": [
-        "quad341",
-        "rjgeng"
-      ],
-      "mergeable_state": "unknown",
-      "merged": true,
-      "merged_at": "2026-11-24T00:44:38Z",
-      "state": "closed",
-      "title": "fix(convergence): include closed wisps when deriving a loop's iteration count",
-      "url": "https://github.com/gastownhall/gascity/pull/8515"
-    },
     "8605": {
       "human_comment_authors": [],
       "human_review_authors": [

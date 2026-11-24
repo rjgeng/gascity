@@ -165,12 +165,13 @@
         "quad341"
       ],
       "human_review_authors": [
+        "quad341",
         "rjgeng"
       ],
-      "mergeable_state": "blocked",
-      "merged": false,
-      "merged_at": null,
-      "state": "open",
+      "mergeable_state": "unknown",
+      "merged": true,
+      "merged_at": "2026-11-24T00:44:38Z",
+      "state": "closed",
       "title": "fix(convergence): include closed wisps when deriving a loop's iteration count",
       "url": "https://github.com/gastownhall/gascity/pull/8515"
     },

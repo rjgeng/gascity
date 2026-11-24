@@ -8,8 +8,13 @@
       "merged": false,
       "merged_at": null,
       "mergeable_state": "blocked",
-      "human_review_authors": ["rjgeng"],
-      "human_comment_authors": ["kyoto-bonsai", "quad341"]
+      "human_review_authors": [
+        "rjgeng"
+      ],
+      "human_comment_authors": [
+        "kyoto-bonsai",
+        "quad341"
+      ]
     },
     "5854": {
       "title": "chore(api): regenerate generated artifacts for a new GET /sessions ?enrich= query param",
@@ -18,8 +23,13 @@
       "merged": false,
       "merged_at": null,
       "mergeable_state": "clean",
-      "human_review_authors": ["rjgeng"],
-      "human_comment_authors": ["quad341", "rjgeng"]
+      "human_review_authors": [
+        "rjgeng"
+      ],
+      "human_comment_authors": [
+        "quad341",
+        "rjgeng"
+      ]
     },
     "6007": {
       "title": "fix(beads): consult native-open deferral before dialing the identity probe (#5965)",
@@ -28,8 +38,13 @@
       "merged": false,
       "merged_at": null,
       "mergeable_state": "blocked",
-      "human_review_authors": ["rjgeng"],
-      "human_comment_authors": ["A3Ackerman", "rjgeng"]
+      "human_review_authors": [
+        "rjgeng"
+      ],
+      "human_comment_authors": [
+        "A3Ackerman",
+        "rjgeng"
+      ]
     },
     "6325": {
       "title": "fix(worktree): stop TestManagedDryRunDoesNotPublishProvenance flaking on transient git lock files",
@@ -38,7 +53,9 @@
       "merged": false,
       "merged_at": null,
       "mergeable_state": "clean",
-      "human_review_authors": ["rjgeng"],
+      "human_review_authors": [
+        "rjgeng"
+      ],
       "human_comment_authors": []
     },
     "6326": {
@@ -48,7 +65,9 @@
       "merged": false,
       "merged_at": null,
       "mergeable_state": "clean",
-      "human_review_authors": ["rjgeng"],
+      "human_review_authors": [
+        "rjgeng"
+      ],
       "human_comment_authors": []
     },
     "6337": {
@@ -58,7 +77,9 @@
       "merged": false,
       "merged_at": null,
       "mergeable_state": "clean",
-      "human_review_authors": ["rjgeng"],
+      "human_review_authors": [
+        "rjgeng"
+      ],
       "human_comment_authors": []
     },
     "6410": {
@@ -68,8 +89,15 @@
       "merged": false,
       "merged_at": null,
       "mergeable_state": "blocked",
-      "human_review_authors": ["quad341", "rjgeng"],
-      "human_comment_authors": ["brandonmartin", "quad341", "rjgeng"]
+      "human_review_authors": [
+        "quad341",
+        "rjgeng"
+      ],
+      "human_comment_authors": [
+        "brandonmartin",
+        "quad341",
+        "rjgeng"
+      ]
     },
     "7524": {
       "title": "fix(pool): preserve canonical human handoffs",
@@ -78,7 +106,9 @@
       "merged": false,
       "merged_at": null,
       "mergeable_state": "blocked",
-      "human_review_authors": ["rjgeng"],
+      "human_review_authors": [
+        "rjgeng"
+      ],
       "human_comment_authors": []
     },
     "8052": {
@@ -88,7 +118,9 @@
       "merged": false,
       "merged_at": null,
       "mergeable_state": "blocked",
-      "human_review_authors": ["rjgeng"],
+      "human_review_authors": [
+        "rjgeng"
+      ],
       "human_comment_authors": []
     },
     "8061": {
@@ -98,7 +130,9 @@
       "merged": false,
       "merged_at": null,
       "mergeable_state": "clean",
-      "human_review_authors": ["rjgeng"],
+      "human_review_authors": [
+        "rjgeng"
+      ],
       "human_comment_authors": []
     },
     "8070": {
@@ -108,7 +142,9 @@
       "merged": false,
       "merged_at": null,
       "mergeable_state": "blocked",
-      "human_review_authors": ["rjgeng"],
+      "human_review_authors": [
+        "rjgeng"
+      ],
       "human_comment_authors": []
     },
     "8227": {
@@ -118,7 +154,10 @@
       "merged": false,
       "merged_at": null,
       "mergeable_state": "unstable",
-      "human_review_authors": ["quad341", "rjgeng"],
+      "human_review_authors": [
+        "quad341",
+        "rjgeng"
+      ],
       "human_comment_authors": []
     },
     "8605": {
@@ -128,7 +167,9 @@
       "merged": false,
       "merged_at": null,
       "mergeable_state": "clean",
-      "human_review_authors": ["rjgeng"],
+      "human_review_authors": [
+        "rjgeng"
+      ],
       "human_comment_authors": []
     },
     "8723": {
@@ -138,8 +179,12 @@
       "merged": false,
       "merged_at": null,
       "mergeable_state": "clean",
-      "human_review_authors": ["rjgeng"],
-      "human_comment_authors": ["julianknutsen"]
+      "human_review_authors": [
+        "rjgeng"
+      ],
+      "human_comment_authors": [
+        "julianknutsen"
+      ]
     },
     "8789": {
       "title": "fix(gc): namedWorkReady must skip blocked in_progress work beads",
@@ -148,8 +193,12 @@
       "merged": false,
       "merged_at": null,
       "mergeable_state": "clean",
-      "human_review_authors": ["rjgeng"],
-      "human_comment_authors": ["rjgeng"]
+      "human_review_authors": [
+        "rjgeng"
+      ],
+      "human_comment_authors": [
+        "rjgeng"
+      ]
     },
     "8878": {
       "title": "fix(gc bd): let heartbeat accept bd's own flags, help, and the hb alias",
@@ -158,8 +207,12 @@
       "merged": false,
       "merged_at": null,
       "mergeable_state": "clean",
-      "human_review_authors": ["rjgeng"],
-      "human_comment_authors": ["kyoto-bonsai"]
+      "human_review_authors": [
+        "rjgeng"
+      ],
+      "human_comment_authors": [
+        "kyoto-bonsai"
+      ]
     },
     "8982": {
       "title": "fix(api): report no provider for any start_command agent, not just the control dispatcher",
@@ -168,8 +221,12 @@
       "merged": false,
       "merged_at": null,
       "mergeable_state": "clean",
-      "human_review_authors": ["rjgeng"],
-      "human_comment_authors": ["kyoto-bonsai"]
+      "human_review_authors": [
+        "rjgeng"
+      ],
+      "human_comment_authors": [
+        "kyoto-bonsai"
+      ]
     },
     "9135": {
       "title": "fix(opencode): replace preset model ids OpenCode Zen no longer serves",
@@ -178,7 +235,9 @@
       "merged": false,
       "merged_at": null,
       "mergeable_state": "clean",
-      "human_review_authors": ["rjgeng"],
+      "human_review_authors": [
+        "rjgeng"
+      ],
       "human_comment_authors": []
     },
     "9152": {
@@ -188,7 +247,9 @@
       "merged": false,
       "merged_at": null,
       "mergeable_state": "clean",
-      "human_review_authors": ["rjgeng"],
+      "human_review_authors": [
+        "rjgeng"
+      ],
       "human_comment_authors": []
     },
     "9160": {
@@ -198,7 +259,9 @@
       "merged": false,
       "merged_at": null,
       "mergeable_state": "clean",
-      "human_review_authors": ["rjgeng"],
+      "human_review_authors": [
+        "rjgeng"
+      ],
       "human_comment_authors": []
     },
     "9201": {
@@ -208,8 +271,12 @@
       "merged": false,
       "merged_at": null,
       "mergeable_state": "clean",
-      "human_review_authors": ["rjgeng"],
-      "human_comment_authors": ["julianknutsen"]
+      "human_review_authors": [
+        "rjgeng"
+      ],
+      "human_comment_authors": [
+        "julianknutsen"
+      ]
     },
     "9202": {
       "title": "fix(dispatch): take over an exclusive reservation held by a closed drain",
@@ -218,7 +285,9 @@
       "merged": false,
       "merged_at": null,
       "mergeable_state": "clean",
-      "human_review_authors": ["rjgeng"],
+      "human_review_authors": [
+        "rjgeng"
+      ],
       "human_comment_authors": []
     },
     "9205": {
@@ -228,7 +297,9 @@
       "merged": false,
       "merged_at": null,
       "mergeable_state": "clean",
-      "human_review_authors": ["rjgeng"],
+      "human_review_authors": [
+        "rjgeng"
+      ],
       "human_comment_authors": []
     },
     "9220": {
@@ -238,7 +309,9 @@
       "merged": false,
       "merged_at": null,
       "mergeable_state": "clean",
-      "human_review_authors": ["rjgeng"],
+      "human_review_authors": [
+        "rjgeng"
+      ],
       "human_comment_authors": []
     },
     "9244": {
@@ -248,7 +321,9 @@
       "merged": false,
       "merged_at": null,
       "mergeable_state": "clean",
-      "human_review_authors": ["rjgeng"],
+      "human_review_authors": [
+        "rjgeng"
+      ],
       "human_comment_authors": []
     },
     "9318": {
@@ -258,7 +333,9 @@
       "merged": false,
       "merged_at": null,
       "mergeable_state": "clean",
-      "human_review_authors": ["rjgeng"],
+      "human_review_authors": [
+        "rjgeng"
+      ],
       "human_comment_authors": []
     },
     "9319": {
@@ -268,7 +345,9 @@
       "merged": false,
       "merged_at": null,
       "mergeable_state": "clean",
-      "human_review_authors": ["rjgeng"],
+      "human_review_authors": [
+        "rjgeng"
+      ],
       "human_comment_authors": []
     },
     "9340": {
@@ -278,7 +357,9 @@
       "merged": false,
       "merged_at": null,
       "mergeable_state": "clean",
-      "human_review_authors": ["rjgeng"],
+      "human_review_authors": [
+        "rjgeng"
+      ],
       "human_comment_authors": []
     },
     "9347": {
@@ -289,7 +370,9 @@
       "merged_at": null,
       "mergeable_state": "clean",
       "human_review_authors": [],
-      "human_comment_authors": ["rjgeng"]
+      "human_comment_authors": [
+        "rjgeng"
+      ]
     }
   }
 }

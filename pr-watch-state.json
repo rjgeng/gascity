@@ -318,7 +318,7 @@
       "state": "open",
       "merged": false,
       "merged_at": null,
-      "mergeable_state": "blocked",
+      "mergeable_state": "unstable",
       "human_comment_authors": [],
       "human_review_authors": [],
       "url": "https://github.com/gastownhall/gascity/pull/9482"

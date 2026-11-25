@@ -182,12 +182,14 @@
     "8605": {
       "title": "fix(gc): bound event-order cursor to log head, not 0, on log reset",
       "state": "open",
-      "mergeable_state": "clean",
+      "mergeable_state": "blocked",
       "merged": false,
       "merged_at": null,
       "url": "https://github.com/gastownhall/gascity/pull/8605",
       "human_comment_authors": [],
-      "human_review_authors": []
+      "human_review_authors": [
+        "quad341"
+      ]
     },
     "8227": {
       "title": "fix(mail/beadmail): read-mail retention sweep no longer closes a message marked unread after the snapshot",

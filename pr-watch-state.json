@@ -8,7 +8,10 @@
       "merged": false,
       "merged_at": null,
       "url": "https://github.com/gastownhall/gascity/pull/5365",
-      "human_comment_authors": ["kyoto-bonsai", "quad341"],
+      "human_comment_authors": [
+        "kyoto-bonsai",
+        "quad341"
+      ],
       "human_review_authors": []
     },
     "5854": {
@@ -18,7 +21,9 @@
       "merged": false,
       "merged_at": null,
       "url": "https://github.com/gastownhall/gascity/pull/5854",
-      "human_comment_authors": ["quad341"],
+      "human_comment_authors": [
+        "quad341"
+      ],
       "human_review_authors": []
     },
     "6007": {
@@ -28,7 +33,9 @@
       "merged": false,
       "merged_at": null,
       "url": "https://github.com/gastownhall/gascity/pull/6007",
-      "human_comment_authors": ["A3Ackerman"],
+      "human_comment_authors": [
+        "A3Ackerman"
+      ],
       "human_review_authors": []
     },
     "6325": {
@@ -68,8 +75,13 @@
       "merged": false,
       "merged_at": null,
       "url": "https://github.com/gastownhall/gascity/pull/6410",
-      "human_comment_authors": ["brandonmartin", "quad341"],
-      "human_review_authors": ["quad341"]
+      "human_comment_authors": [
+        "brandonmartin",
+        "quad341"
+      ],
+      "human_review_authors": [
+        "quad341"
+      ]
     },
     "7524": {
       "title": "fix(pool): preserve canonical human handoffs",
@@ -119,7 +131,9 @@
       "merged_at": null,
       "url": "https://github.com/gastownhall/gascity/pull/8227",
       "human_comment_authors": [],
-      "human_review_authors": ["quad341"]
+      "human_review_authors": [
+        "quad341"
+      ]
     },
     "8605": {
       "title": "fix(gc): bound event-order cursor to log head, not 0, on log reset",
@@ -129,7 +143,9 @@
       "merged_at": null,
       "url": "https://github.com/gastownhall/gascity/pull/8605",
       "human_comment_authors": [],
-      "human_review_authors": ["quad341"]
+      "human_review_authors": [
+        "quad341"
+      ]
     },
     "8723": {
       "title": "fix(packman): read cache git through the config loader's stdout-only runner",
@@ -138,7 +154,9 @@
       "merged": false,
       "merged_at": null,
       "url": "https://github.com/gastownhall/gascity/pull/8723",
-      "human_comment_authors": ["julianknutsen"],
+      "human_comment_authors": [
+        "julianknutsen"
+      ],
       "human_review_authors": []
     },
     "8789": {
@@ -158,7 +176,9 @@
       "merged": false,
       "merged_at": null,
       "url": "https://github.com/gastownhall/gascity/pull/8878",
-      "human_comment_authors": ["kyoto-bonsai"],
+      "human_comment_authors": [
+        "kyoto-bonsai"
+      ],
       "human_review_authors": []
     },
     "8982": {
@@ -168,7 +188,9 @@
       "merged": false,
       "merged_at": null,
       "url": "https://github.com/gastownhall/gascity/pull/8982",
-      "human_comment_authors": ["kyoto-bonsai"],
+      "human_comment_authors": [
+        "kyoto-bonsai"
+      ],
       "human_review_authors": []
     },
     "9135": {
@@ -208,7 +230,9 @@
       "merged": false,
       "merged_at": null,
       "url": "https://github.com/gastownhall/gascity/pull/9201",
-      "human_comment_authors": ["julianknutsen"],
+      "human_comment_authors": [
+        "julianknutsen"
+      ],
       "human_review_authors": []
     },
     "9202": {

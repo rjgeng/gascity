@@ -1,5 +1,6 @@
 {
   "author": "rjgeng",
+  "generated_at": "2026-11-26T22:00:00Z",
   "prs": {
     "5365": {
       "title": "fix(supervisor): auto-unregister on repeated stale-config load failures (#5313)",
@@ -7,10 +8,7 @@
       "merged": false,
       "merged_at": null,
       "mergeable_state": "blocked",
-      "human_comment_authors": [
-        "kyoto-bonsai",
-        "quad341"
-      ],
+      "human_comment_authors": [],
       "human_review_authors": [],
       "url": "https://github.com/gastownhall/gascity/pull/5365"
     },
@@ -20,10 +18,7 @@
       "merged": false,
       "merged_at": null,
       "mergeable_state": "clean",
-      "human_comment_authors": [
-        "quad341",
-        "rjgeng"
-      ],
+      "human_comment_authors": [],
       "human_review_authors": [],
       "url": "https://github.com/gastownhall/gascity/pull/5854"
     },
@@ -33,10 +28,7 @@
       "merged": false,
       "merged_at": null,
       "mergeable_state": "blocked",
-      "human_comment_authors": [
-        "A3Ackerman",
-        "rjgeng"
-      ],
+      "human_comment_authors": [],
       "human_review_authors": [],
       "url": "https://github.com/gastownhall/gascity/pull/6007"
     },
@@ -76,14 +68,8 @@
       "merged": false,
       "merged_at": null,
       "mergeable_state": "blocked",
-      "human_comment_authors": [
-        "brandonmartin",
-        "quad341",
-        "rjgeng"
-      ],
-      "human_review_authors": [
-        "quad341"
-      ],
+      "human_comment_authors": [],
+      "human_review_authors": [],
       "url": "https://github.com/gastownhall/gascity/pull/6410"
     },
     "7524": {
@@ -97,7 +83,7 @@
       "url": "https://github.com/gastownhall/gascity/pull/7524"
     },
     "8052": {
-      "title": "docs(wait): document the every-leg-fatal invariant in prepareWaitWakeStateHooked (#7998)",
+      "title": "",
       "state": "open",
       "merged": false,
       "merged_at": null,
@@ -107,7 +93,7 @@
       "url": "https://github.com/gastownhall/gascity/pull/8052"
     },
     "8061": {
-      "title": "fix: supervisor launchd throttling (#8015) and reaper's false escalation on bd 1.3.1 single-delete (#8007)",
+      "title": "",
       "state": "open",
       "merged": false,
       "merged_at": null,
@@ -117,7 +103,7 @@
       "url": "https://github.com/gastownhall/gascity/pull/8061"
     },
     "8070": {
-      "title": "fix(trace): report the specific cap, not no_demand, when a pool with real demand is refused",
+      "title": "",
       "state": "open",
       "merged": false,
       "merged_at": null,
@@ -127,69 +113,57 @@
       "url": "https://github.com/gastownhall/gascity/pull/8070"
     },
     "8227": {
-      "title": "fix(mail/beadmail): read-mail retention sweep no longer closes a message marked unread after the snapshot",
+      "title": "",
       "state": "open",
       "merged": false,
       "merged_at": null,
       "mergeable_state": "unstable",
       "human_comment_authors": [],
-      "human_review_authors": [
-        "quad341"
-      ],
+      "human_review_authors": [],
       "url": "https://github.com/gastownhall/gascity/pull/8227"
     },
     "8605": {
-      "title": "fix(gc): bound event-order cursor to log head, not 0, on log reset",
+      "title": "",
       "state": "open",
       "merged": false,
       "merged_at": null,
       "mergeable_state": "blocked",
-      "human_comment_authors": [
-        "rjgeng"
-      ],
-      "human_review_authors": [
-        "quad341"
-      ],
+      "human_comment_authors": [],
+      "human_review_authors": [],
       "url": "https://github.com/gastownhall/gascity/pull/8605"
     },
     "8789": {
-      "title": "fix(gc): namedWorkReady must skip blocked in_progress work beads",
+      "title": "",
       "state": "open",
       "merged": false,
       "merged_at": null,
       "mergeable_state": "clean",
-      "human_comment_authors": [
-        "rjgeng"
-      ],
+      "human_comment_authors": [],
       "human_review_authors": [],
       "url": "https://github.com/gastownhall/gascity/pull/8789"
     },
     "8878": {
-      "title": "fix(gc bd): let heartbeat accept bd's own flags, help, and the hb alias",
+      "title": "",
       "state": "open",
       "merged": false,
       "merged_at": null,
       "mergeable_state": "clean",
-      "human_comment_authors": [
-        "kyoto-bonsai"
-      ],
+      "human_comment_authors": [],
       "human_review_authors": [],
       "url": "https://github.com/gastownhall/gascity/pull/8878"
     },
     "8982": {
-      "title": "fix(api): report no provider for any start_command agent, not just the control dispatcher",
+      "title": "",
       "state": "open",
       "merged": false,
       "merged_at": null,
       "mergeable_state": "clean",
-      "human_comment_authors": [
-        "kyoto-bonsai"
-      ],
+      "human_comment_authors": [],
       "human_review_authors": [],
       "url": "https://github.com/gastownhall/gascity/pull/8982"
     },
     "9135": {
-      "title": "fix(opencode): replace preset model ids OpenCode Zen no longer serves",
+      "title": "",
       "state": "open",
       "merged": false,
       "merged_at": null,
@@ -199,7 +173,7 @@
       "url": "https://github.com/gastownhall/gascity/pull/9135"
     },
     "9152": {
-      "title": "fix(api): report an invalid extmsg transcript conversation as 400, not 500",
+      "title": "",
       "state": "open",
       "merged": false,
       "merged_at": null,
@@ -209,7 +183,7 @@
       "url": "https://github.com/gastownhall/gascity/pull/9152"
     },
     "9160": {
-      "title": "fix(api): list a bounded pool's own named session beside its slots",
+      "title": "",
       "state": "open",
       "merged": false,
       "merged_at": null,
@@ -219,19 +193,17 @@
       "url": "https://github.com/gastownhall/gascity/pull/9160"
     },
     "9201": {
-      "title": "fix(hook): give each claim step its own budget so the stop gate cannot starve the CAS",
+      "title": "",
       "state": "open",
       "merged": false,
       "merged_at": null,
       "mergeable_state": "clean",
-      "human_comment_authors": [
-        "julianknutsen"
-      ],
+      "human_comment_authors": [],
       "human_review_authors": [],
       "url": "https://github.com/gastownhall/gascity/pull/9201"
     },
     "9202": {
-      "title": "fix(dispatch): take over an exclusive reservation held by a closed drain",
+      "title": "",
       "state": "open",
       "merged": false,
       "merged_at": null,
@@ -241,7 +213,7 @@
       "url": "https://github.com/gastownhall/gascity/pull/9202"
     },
     "9205": {
-      "title": "fix(bd env): strip inherited BEADS_DOLT_SERVER_DATABASE and _MODE from child envs",
+      "title": "",
       "state": "open",
       "merged": false,
       "merged_at": null,
@@ -251,7 +223,7 @@
       "url": "https://github.com/gastownhall/gascity/pull/9205"
     },
     "9220": {
-      "title": "feat(dashboard): surface open human gates in \"Needs you\" via a dedicated queue",
+      "title": "",
       "state": "open",
       "merged": false,
       "merged_at": null,
@@ -261,7 +233,7 @@
       "url": "https://github.com/gastownhall/gascity/pull/9220"
     },
     "9244": {
-      "title": "fix(dashboard): Workers active counts every running non-orchestration session (#9230)",
+      "title": "",
       "state": "open",
       "merged": false,
       "merged_at": null,
@@ -271,7 +243,7 @@
       "url": "https://github.com/gastownhall/gascity/pull/9244"
     },
     "9318": {
-      "title": "fix(events): verified principal sets the supervisor API event actor (#9180 option A)",
+      "title": "",
       "state": "open",
       "merged": false,
       "merged_at": null,
@@ -281,7 +253,7 @@
       "url": "https://github.com/gastownhall/gascity/pull/9318"
     },
     "9319": {
-      "title": "fix(dashboard): Workers active counts every running non-orchestration session (#9230)",
+      "title": "",
       "state": "open",
       "merged": false,
       "merged_at": null,
@@ -291,7 +263,7 @@
       "url": "https://github.com/gastownhall/gascity/pull/9319"
     },
     "9340": {
-      "title": "fix(events): record the CLI actor as claimed_actor; stored actor is unknown (#9180 option 3)",
+      "title": "",
       "state": "open",
       "merged": false,
       "merged_at": null,
@@ -301,31 +273,27 @@
       "url": "https://github.com/gastownhall/gascity/pull/9340"
     },
     "9347": {
-      "title": "fix(doctor): kill a pack script's process group when its check times out (#8504)",
+      "title": "fix(dispatch): settle a scope body as fail when a member closes after a sibling failed (#9507)",
       "state": "open",
       "merged": false,
       "merged_at": null,
       "mergeable_state": "clean",
-      "human_comment_authors": [
-        "rjgeng"
-      ],
+      "human_comment_authors": [],
       "human_review_authors": [],
       "url": "https://github.com/gastownhall/gascity/pull/9347"
     },
     "9482": {
-      "title": "cmd/gc: use the endpoint-keyed Dolt password for the direct probe (9402)",
+      "title": "",
       "state": "open",
       "merged": false,
       "merged_at": null,
       "mergeable_state": "unstable",
-      "human_comment_authors": [
-        "rjgeng"
-      ],
+      "human_comment_authors": [],
       "human_review_authors": [],
       "url": "https://github.com/gastownhall/gascity/pull/9482"
     },
     "9512": {
-      "title": "gc supervisor install: refuse shell-only routing env names, and report where each admitted name came from",
+      "title": "",
       "state": "open",
       "merged": false,
       "merged_at": null,
@@ -333,6 +301,26 @@
       "human_comment_authors": [],
       "human_review_authors": [],
       "url": "https://github.com/gastownhall/gascity/pull/9512"
+    },
+    "9516": {
+      "title": "fix(config): let a session see a wisp it already claimed (#9442)",
+      "state": "open",
+      "merged": false,
+      "merged_at": null,
+      "mergeable_state": "clean",
+      "human_comment_authors": [],
+      "human_review_authors": [],
+      "url": "https://github.com/gastownhall/gascity/pull/9516"
+    },
+    "9517": {
+      "title": "fix(dispatch): settle a scope body as fail when a member closes after a sibling failed (#9507)",
+      "state": "open",
+      "merged": false,
+      "merged_at": null,
+      "mergeable_state": "clean",
+      "human_comment_authors": [],
+      "human_review_authors": [],
+      "url": "https://github.com/gastownhall/gascity/pull/9517"
     }
   }
 }

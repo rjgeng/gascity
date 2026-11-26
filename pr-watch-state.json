@@ -177,18 +177,6 @@
       "human_comment_authors": [],
       "human_review_authors": []
     },
-    "8723": {
-      "title": "fix(packman): read cache git through the config loader's stdout-only runner",
-      "url": "https://github.com/gastownhall/gascity/pull/8723",
-      "state": "open",
-      "merged": false,
-      "merged_at": null,
-      "mergeable_state": "clean",
-      "human_comment_authors": [
-        "julianknutsen"
-      ],
-      "human_review_authors": []
-    },
     "8605": {
       "title": "fix(gc): bound event-order cursor to log head, not 0, on log reset",
       "url": "https://github.com/gastownhall/gascity/pull/8605",

@@ -1,6 +1,6 @@
 {
   "author": "rjgeng",
-  "generated_at": "2026-11-27T11:48:18Z",
+  "generated_at": "2026-11-27T12:50:17Z",
   "prs": {
     "9517": {
       "title": "fix(dispatch): settle a scope body as fail when a member closes after a sibling failed (#9507)",

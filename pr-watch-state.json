@@ -1,6 +1,5 @@
 {
   "author": "rjgeng",
-  "generated_at": "2026-11-27T20:51:47Z",
   "prs": {
     "5365": {
       "title": "fix(supervisor): auto-unregister on repeated stale-config load failures (#5313)",
@@ -314,16 +313,6 @@
       "human_review_authors": [],
       "human_comment_authors": []
     },
-    "9512": {
-      "title": "gc supervisor install: refuse shell-only routing env names, and report where each admitted name came from",
-      "url": "https://github.com/gastownhall/gascity/pull/9512",
-      "state": "open",
-      "mergeable_state": "clean",
-      "merged": false,
-      "merged_at": null,
-      "human_review_authors": [],
-      "human_comment_authors": []
-    },
     "9516": {
       "title": "fix(config): let a session see a wisp it already claimed (#9442)",
       "url": "https://github.com/gastownhall/gascity/pull/9516",
@@ -356,5 +345,6 @@
       "human_review_authors": [],
       "human_comment_authors": []
     }
-  }
+  },
+  "generated_at": "2026-11-27T21:48:25Z"
 }

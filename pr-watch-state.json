@@ -1,6 +1,6 @@
 {
   "author": "rjgeng",
-  "generated_at": "2026-11-27T00:49:00Z",
+  "generated_at": "2026-11-27T01:50:13Z",
   "prs": {
     "5365": {
       "title": "fix(supervisor): auto-unregister on repeated stale-config load failures (#5313)",
@@ -8,10 +8,7 @@
       "merged": false,
       "merged_at": null,
       "mergeable_state": "blocked",
-      "human_comment_authors": [
-        "kyoto-bonsai",
-        "quad341"
-      ],
+      "human_comment_authors": ["kyoto-bonsai", "quad341"],
       "human_review_authors": [],
       "url": "https://github.com/gastownhall/gascity/pull/5365"
     },
@@ -21,9 +18,7 @@
       "merged": false,
       "merged_at": null,
       "mergeable_state": "clean",
-      "human_comment_authors": [
-        "quad341"
-      ],
+      "human_comment_authors": ["quad341"],
       "human_review_authors": [],
       "url": "https://github.com/gastownhall/gascity/pull/5854"
     },
@@ -33,9 +28,7 @@
       "merged": false,
       "merged_at": null,
       "mergeable_state": "blocked",
-      "human_comment_authors": [
-        "A3Ackerman"
-      ],
+      "human_comment_authors": ["A3Ackerman"],
       "human_review_authors": [],
       "url": "https://github.com/gastownhall/gascity/pull/6007"
     },
@@ -75,13 +68,8 @@
       "merged": false,
       "merged_at": null,
       "mergeable_state": "blocked",
-      "human_comment_authors": [
-        "brandonmartin",
-        "quad341"
-      ],
-      "human_review_authors": [
-        "quad341"
-      ],
+      "human_comment_authors": ["brandonmartin", "quad341"],
+      "human_review_authors": ["quad341"],
       "url": "https://github.com/gastownhall/gascity/pull/6410"
     },
     "7524": {
@@ -131,9 +119,7 @@
       "merged_at": null,
       "mergeable_state": "unstable",
       "human_comment_authors": [],
-      "human_review_authors": [
-        "quad341"
-      ],
+      "human_review_authors": [],
       "url": "https://github.com/gastownhall/gascity/pull/8227"
     },
     "8605": {
@@ -143,9 +129,7 @@
       "merged_at": null,
       "mergeable_state": "blocked",
       "human_comment_authors": [],
-      "human_review_authors": [
-        "quad341"
-      ],
+      "human_review_authors": ["quad341"],
       "url": "https://github.com/gastownhall/gascity/pull/8605"
     },
     "8789": {
@@ -164,9 +148,7 @@
       "merged": false,
       "merged_at": null,
       "mergeable_state": "clean",
-      "human_comment_authors": [
-        "kyoto-bonsai"
-      ],
+      "human_comment_authors": ["kyoto-bonsai"],
       "human_review_authors": [],
       "url": "https://github.com/gastownhall/gascity/pull/8878"
     },
@@ -176,9 +158,7 @@
       "merged": false,
       "merged_at": null,
       "mergeable_state": "clean",
-      "human_comment_authors": [
-        "kyoto-bonsai"
-      ],
+      "human_comment_authors": ["kyoto-bonsai"],
       "human_review_authors": [],
       "url": "https://github.com/gastownhall/gascity/pull/8982"
     },
@@ -218,9 +198,7 @@
       "merged": false,
       "merged_at": null,
       "mergeable_state": "clean",
-      "human_comment_authors": [
-        "julianknutsen"
-      ],
+      "human_comment_authors": ["julianknutsen"],
       "human_review_authors": [],
       "url": "https://github.com/gastownhall/gascity/pull/9201"
     },

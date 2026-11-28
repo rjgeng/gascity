@@ -1,6 +1,6 @@
 {
   "author": "rjgeng",
-  "generated_at": "2026-11-28T06:50:06Z",
+  "generated_at": "2026-11-28T07:47:32Z",
   "prs": {
     "5365": {
       "title": "fix(supervisor): auto-unregister on repeated stale-config load failures (#5313)",

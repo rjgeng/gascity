@@ -1,6 +1,6 @@
 {
   "author": "rjgeng",
-  "generated_at": "2026-11-28T05:49:15Z",
+  "generated_at": "2026-11-28T06:50:06Z",
   "prs": {
     "5365": {
       "title": "fix(supervisor): auto-unregister on repeated stale-config load failures (#5313)",
@@ -25,8 +25,7 @@
       "html_url": "https://github.com/gastownhall/gascity/pull/5854",
       "human_review_authors": [],
       "human_comment_authors": [
-        "quad341",
-        "rjgeng"
+        "quad341"
       ],
       "updated_at": "2026-11-17T04:45:03Z"
     },
@@ -39,8 +38,7 @@
       "html_url": "https://github.com/gastownhall/gascity/pull/6007",
       "human_review_authors": [],
       "human_comment_authors": [
-        "A3Ackerman",
-        "rjgeng"
+        "A3Ackerman"
       ],
       "updated_at": "2026-11-22T13:02:53Z"
     },
@@ -89,8 +87,7 @@
       ],
       "human_comment_authors": [
         "brandonmartin",
-        "quad341",
-        "rjgeng"
+        "quad341"
       ],
       "updated_at": "2026-11-27T16:36:45Z"
     },
@@ -161,9 +158,7 @@
       "human_review_authors": [
         "quad341"
       ],
-      "human_comment_authors": [
-        "rjgeng"
-      ],
+      "human_comment_authors": [],
       "updated_at": "2026-11-27T19:31:31Z"
     },
     "8789": {
@@ -174,9 +169,7 @@
       "mergeable_state": "clean",
       "html_url": "https://github.com/gastownhall/gascity/pull/8789",
       "human_review_authors": [],
-      "human_comment_authors": [
-        "rjgeng"
-      ],
+      "human_comment_authors": [],
       "updated_at": "2026-11-03T18:47:26Z"
     },
     "8878": {
@@ -336,9 +329,7 @@
       "mergeable_state": "clean",
       "html_url": "https://github.com/gastownhall/gascity/pull/9347",
       "human_review_authors": [],
-      "human_comment_authors": [
-        "rjgeng"
-      ],
+      "human_comment_authors": [],
       "updated_at": "2026-11-22T12:48:15Z"
     },
     "9482": {
@@ -349,9 +340,7 @@
       "mergeable_state": "unstable",
       "html_url": "https://github.com/gastownhall/gascity/pull/9482",
       "human_review_authors": [],
-      "human_comment_authors": [
-        "rjgeng"
-      ],
+      "human_comment_authors": [],
       "updated_at": "2026-11-24T21:25:53Z"
     },
     "9516": {
@@ -397,9 +386,7 @@
       "mergeable_state": "clean",
       "html_url": "https://github.com/gastownhall/gascity/pull/9555",
       "human_review_authors": [],
-      "human_comment_authors": [
-        "rjgeng"
-      ],
+      "human_comment_authors": [],
       "updated_at": "2026-11-28T03:25:16Z"
     },
     "9560": {
